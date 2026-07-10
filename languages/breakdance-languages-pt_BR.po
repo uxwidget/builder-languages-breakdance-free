@@ -1,0 +1,157 @@
+# Breakdance Languages plugin UI — Portuguese (Brazil)
+msgid ""
+msgstr ""
+"Project-Id-Version: Breakdance Languages ux-0.1.0\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: breakdance-languages\n"
+
+msgid "Languages"
+msgstr "Idiomas"
+
+msgid "Upgrade to Pro to choose the Breakdance Builder language independently from the WordPress profile."
+msgstr "Atualize para o Pro para escolher o idioma do Breakdance Builder independentemente do perfil do WordPress."
+
+msgid "The selected language is not available on your current plan."
+msgstr "O idioma selecionado não está disponível no seu plano atual."
+
+msgid "Idioma salvo com sucesso. Agora clique em \"Atualizar\" para recarregar o Breakdance e aplicar a tradução."
+msgstr "Idioma salvo com sucesso. Agora clique em \"Atualizar\" para recarregar o Breakdance e aplicar a tradução."
+
+msgid "Builder Language"
+msgstr "Idioma do builder"
+
+msgid "Choose the language used in the Breakdance Builder interface, element names, and first-party controls."
+msgstr "Escolha o idioma usado na interface do Breakdance Builder, nos nomes dos elementos e nos controles nativos."
+
+msgid "Free plan: translations follow your WordPress profile language when it is included in the free language pack."
+msgstr "Plano gratuito: as traduções seguem o idioma do perfil do WordPress quando ele está incluído no pacote de idiomas gratuito."
+
+msgid "Upgrade to Pro"
+msgstr "Atualizar para Pro"
+
+msgid "to unlock all 8 languages and choose the builder language here."
+msgstr "para desbloquear os 8 idiomas e escolher o idioma do builder aqui."
+
+msgid "Builder language"
+msgstr "Idioma do builder"
+
+msgid "Use WordPress profile language"
+msgstr "Usar idioma do perfil do WordPress"
+
+msgid "Siga os passos:"
+msgstr "Siga os passos:"
+
+msgid "1) Clique em \"Salvar novo idioma\"."
+msgstr "1) Clique em \"Salvar novo idioma\"."
+
+msgid "2) Clique em \"Atualizar\"."
+msgstr "2) Clique em \"Atualizar\"."
+
+msgid "Salvar novo idioma"
+msgstr "Salvar novo idioma"
+
+msgid "Atualizar"
+msgstr "Atualizar"
+
+msgid "Permission denied."
+msgstr "Permissão negada."
+
+msgid "Upgrade to Pro to choose the builder language here."
+msgstr "Atualize para o Pro para escolher o idioma do builder aqui."
+
+msgid "Idioma salvo com sucesso."
+msgstr "Idioma salvo com sucesso."
+
+msgid "Salvando idioma..."
+msgstr "Salvando idioma..."
+
+msgid "Idioma salvo. Agora clique em \"Atualizar\"."
+msgstr "Idioma salvo. Agora clique em \"Atualizar\"."
+
+msgid "Não foi possível salvar o idioma selecionado."
+msgstr "Não foi possível salvar o idioma selecionado."
+
+msgid "Breakdance Languages is active, but Breakdance Builder is not active. Activate Breakdance Builder to load the language packs."
+msgstr "O Breakdance Languages está ativo, mas o Breakdance Builder não está. Ative o Breakdance Builder para carregar os pacotes de idioma."
+
+msgid "Portuguese (Brazil)"
+msgstr "Português (Brasil)"
+
+msgid "Portuguese"
+msgstr "Português"
+
+msgid "French"
+msgstr "Francês"
+
+msgid "German"
+msgstr "Alemão"
+
+msgid "Spanish"
+msgstr "Espanhol"
+
+msgid "Arabic"
+msgstr "Árabe"
+
+msgid "English (International)"
+msgstr "Inglês (Internacional)"
+
+msgid "Japanese"
+msgstr "Japonês"
+
+msgid "English (United States)"
+msgstr "Inglês (Estados Unidos)"
+
+msgid "Licença"
+msgstr "Licença"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Development mode"
+msgstr "Modo de desenvolvimento"
+
+msgid "Active"
+msgstr "Ativa"
+
+msgid "Inactive"
+msgstr "Inativa"
+
+msgid "Build de desenvolvimento: licenciamento Freemius não configurado."
+msgstr "Build de desenvolvimento: licenciamento Freemius não configurado."
+
+msgid "Ative sua licença para carregar as traduções do Breakdance Builder."
+msgstr "Ative sua licença para carregar as traduções do Breakdance Builder."
+
+msgid "Sua licença está ativa. Todas as traduções incluídas estão disponíveis."
+msgstr "Sua licença está ativa. Todas as traduções incluídas estão disponíveis."
+
+msgid "Conta"
+msgstr "Conta"
+
+msgid "Gerenciar licença"
+msgstr "Gerenciar licença"
+
+msgid "Comprar licença"
+msgstr "Comprar licença"
+
+msgid "Comprar"
+msgstr "Comprar"
+
+msgid "Ative uma licença válida para usar as traduções do Breakdance Languages."
+msgstr "Ative uma licença válida para usar as traduções do Breakdance Languages."
+
+msgid "The selected language is not available."
+msgstr "O idioma selecionado não está disponível."
+
+msgid "Activate a valid license to use Breakdance Languages."
+msgstr "Ative uma licença válida para usar o Breakdance Languages."
+
+msgid "Breakdance Languages: activate your license to load translations."
+msgstr "Breakdance Languages: ative sua licença para carregar as traduções."
+
+msgid "Manage license"
+msgstr "Gerenciar licença"

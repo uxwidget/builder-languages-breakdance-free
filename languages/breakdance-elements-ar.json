@@ -1,0 +1,6782 @@
+{
+  "translation-revision-date": "2026-06-26 00:00+0000",
+  "generator": "Breakdance Languages",
+  "domain": "breakdance-elements",
+  "locale_data": {
+    "breakdance-elements": {
+      "": {
+        "domain": "breakdance-elements",
+        "lang": "ar",
+        "plural-forms": "nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;"
+      },
+      "Breakdance Element Development": [
+        "تطوير عنصر البريك دانس"
+      ],
+      "https://breakdance.com/": [
+        "https://breakdance.com/"
+      ],
+      "First-party Breakdance elements.": [
+        "عناصر رقص البريك دانس من الطرف الأول."
+      ],
+      "Breakdance": [
+        "رقص البريك"
+      ],
+      "This element is missing. Please open the page in Breakdance and check the browser console for details.": [
+        "هذا العنصر مفقود. يرجى فتح الصفحة في Breakdance والتحقق من وحدة تحكم المتصفح للحصول على التفاصيل."
+      ],
+      "Have questions? We’re here to help. <a href=\"https://breakdance.com/support/\" target=\"_blank\">Click here</a> to contact support.": [
+        "هل لديك أسئلة؟ نحن هنا للمساعدة.<a href=\"https://breakdance.com/support/\" target=\"_blank\">انقر هنا</a>للاتصال بالدعم."
+      ],
+      "Element name\u0004WP Menu": [
+        "قائمة الفسفور الأبيض"
+      ],
+      "Control label\u0004Desktop Menu": [
+        "قائمة سطح المكتب"
+      ],
+      "Control label\u0004Links": [
+        "روابط"
+      ],
+      "Control label\u0004Effect": [
+        "تأثير"
+      ],
+      "Control label\u0004Effect Type": [
+        "نوع التأثير"
+      ],
+      "Control label\u0004Effect Direction": [
+        "اتجاه التأثير"
+      ],
+      "Control label\u0004Thickness": [
+        "سماكة"
+      ],
+      "Control label\u0004Color": [
+        "لون"
+      ],
+      "Control label\u0004Radius": [
+        "نصف القطر"
+      ],
+      "Control label\u0004Active": [
+        "نشيط"
+      ],
+      "Control label\u0004Text Color": [
+        "لون النص"
+      ],
+      "Control label\u0004Space Between": [
+        "الفضاء بين"
+      ],
+      "Control label\u0004Dropdown Arrows": [
+        "الأسهم المنسدلة"
+      ],
+      "Control label\u0004Disable": [
+        "إبطال"
+      ],
+      "Control label\u0004Size": [
+        "مقاس"
+      ],
+      "Control label\u0004Gap": [
+        "فجوة"
+      ],
+      "Control label\u0004Offset": [
+        "إزاحة"
+      ],
+      "Control label\u0004Closed Rotation": [
+        "دوران مغلق"
+      ],
+      "Control label\u0004Open Rotation": [
+        "فتح التناوب"
+      ],
+      "Control label\u0004Custom Arrow": [
+        "سهم مخصص"
+      ],
+      "Control label\u0004Dropdowns": [
+        "القوائم المنسدلة"
+      ],
+      "Control label\u0004Wrapper": [
+        "إزار"
+      ],
+      "Control label\u0004Background": [
+        "خلفية"
+      ],
+      "Control label\u0004Placement": [
+        "التنسيب"
+      ],
+      "Control label\u0004Width": [
+        "عرض"
+      ],
+      "Control label\u0004Caret Radius": [
+        "نصف قطر علامة الإقحام"
+      ],
+      "Control label\u0004Disable Caret": [
+        "تعطيل علامة الإقحام"
+      ],
+      "Control label\u0004Animation": [
+        "الرسوم المتحركة"
+      ],
+      "Control label\u0004Transition Duration": [
+        "مدة الانتقال"
+      ],
+      "Control label\u0004Spacing": [
+        "تباعد"
+      ],
+      "Control label\u0004Between Links": [
+        "بين الروابط"
+      ],
+      "Control label\u0004Hover Background": [
+        "تحوم الخلفية"
+      ],
+      "Control label\u0004Open Dropdowns on Click": [
+        "فتح القوائم المنسدلة عند النقر"
+      ],
+      "Control label\u0004Vertical": [
+        "رَأسِيّ"
+      ],
+      "Control label\u0004Vertical Mode": [
+        "الوضع العمودي"
+      ],
+      "Control label\u0004Alignment": [
+        "تنسيق"
+      ],
+      "Control label\u0004Mobile Menu": [
+        "قائمة الجوال"
+      ],
+      "Control label\u0004Show At": [
+        "عرض في"
+      ],
+      "Control label\u0004Mode": [
+        "وضع"
+      ],
+      "Control label\u0004Offcanvas Width": [
+        "عرض خارج القماش"
+      ],
+      "Control label\u0004Offcanvas Position": [
+        "موقف خارج القماش"
+      ],
+      "Control label\u0004Top Bar": [
+        "الشريط العلوي"
+      ],
+      "Control label\u0004Logo": [
+        "الشعار"
+      ],
+      "Control label\u0004Logo Width": [
+        "عرض الشعار"
+      ],
+      "Control label\u0004Logo On Right": [
+        "الشعار على اليمين"
+      ],
+      "Control label\u0004Logo URL": [
+        "عنوان URL للشعار"
+      ],
+      "Control label\u0004Logo Alt": [
+        "بديل الشعار"
+      ],
+      "Control label\u0004Alt": [
+        "بديل"
+      ],
+      "Control label\u0004Custom Alt": [
+        "بديل مخصص"
+      ],
+      "Control label\u0004Padding": [
+        "حشوة"
+      ],
+      "Control label\u0004Close Button": [
+        "زر الإغلاق"
+      ],
+      "Control label\u0004Bar Height": [
+        "ارتفاع البار"
+      ],
+      "Control label\u0004Vertically Align Center": [
+        "مركز المحاذاة عموديًا"
+      ],
+      "Control label\u0004No Border": [
+        "لا الحدود"
+      ],
+      "Control label\u0004Border": [
+        "حدود"
+      ],
+      "Control label\u0004Typography": [
+        "الطباعة"
+      ],
+      "Control label\u0004Level 1": [
+        "المستوى 1"
+      ],
+      "Control label\u0004Level 2": [
+        "المستوى 2"
+      ],
+      "Control label\u0004Dropdowns Like Desktop": [
+        "القوائم المنسدلة مثل سطح المكتب"
+      ],
+      "Control label\u0004Hide Link Graphic": [
+        "إخفاء رسم الارتباط"
+      ],
+      "Control label\u0004Hide Link Description": [
+        "إخفاء وصف الرابط"
+      ],
+      "Control label\u0004Horizontally Center Links": [
+        "روابط مركزية أفقية"
+      ],
+      "Control label\u0004Toggle": [
+        "تبديل"
+      ],
+      "Control label\u0004Icon": [
+        "رمز"
+      ],
+      "Control label\u0004Icon Open": [
+        "أيقونة مفتوحة"
+      ],
+      "Control label\u0004Wrapper Open": [
+        "المجمع مفتوح"
+      ],
+      "Control label\u0004Wrapper Padding": [
+        "الحشو المجمع"
+      ],
+      "Control label\u0004Wrapper Radius": [
+        "شعاع المجمع"
+      ],
+      "Control label\u0004Custom Icon": [
+        "أيقونة مخصصة"
+      ],
+      "Control label\u0004Bar Width": [
+        "عرض الشريط"
+      ],
+      "Control label\u0004Bar Spacing": [
+        "تباعد الشريط"
+      ],
+      "Control label\u0004Bar Radius": [
+        "نصف قطر الشريط"
+      ],
+      "Control label\u0004Open Icon": [
+        "أيقونة مفتوحة"
+      ],
+      "Control label\u0004Close Icon": [
+        "أيقونة الإغلاق"
+      ],
+      "Control label\u0004Menu": [
+        "قائمة طعام"
+      ],
+      "Control label\u0004Accessibility": [
+        "إمكانية الوصول"
+      ],
+      "Control label\u0004Attributes": [
+        "صفات"
+      ],
+      "Control label\u0004Name": [
+        "اسم"
+      ],
+      "Control label\u0004Value": [
+        "قيمة"
+      ],
+      "Item text\u0004Underline": [
+        "تسطير"
+      ],
+      "Item text\u0004Overline": [
+        "خط علوي"
+      ],
+      "Item text\u0004Strikethrough": [
+        "يتوسطه خط"
+      ],
+      "Item text\u0004Background": [
+        "خلفية"
+      ],
+      "Item text\u0004None": [
+        "لا أحد"
+      ],
+      "Item text\u0004Left": [
+        "غادر"
+      ],
+      "Item text\u0004Center": [
+        "مركز"
+      ],
+      "Item text\u0004Right": [
+        "يمين"
+      ],
+      "Item text\u0004Top": [
+        "قمة"
+      ],
+      "Item text\u0004Bottom": [
+        "قاع"
+      ],
+      "Item text\u0004Full Width": [
+        "العرض الكامل"
+      ],
+      "Item text\u0004Section Width": [
+        "عرض القسم"
+      ],
+      "Item text\u0004Fade": [
+        "يختفي"
+      ],
+      "Item text\u0004Stripe": [
+        "شريط"
+      ],
+      "Item text\u0004Skew": [
+        "انحراف"
+      ],
+      "Item text\u0004Rotate": [
+        "تناوب"
+      ],
+      "Item text\u0004Scale Down": [
+        "خفض الحجم"
+      ],
+      "Item text\u0004Scale Down Right": [
+        "مقياس للأسفل لليمين"
+      ],
+      "Item text\u0004Dropdown": [
+        "اسقاط"
+      ],
+      "Item text\u0004Accordion": [
+        "الأكورديون"
+      ],
+      "Item text\u0004Side": [
+        "جانب"
+      ],
+      "Item text\u0004Default": [
+        "تقصير"
+      ],
+      "Item text\u0004Fullscreen": [
+        "ملء الشاشة"
+      ],
+      "Item text\u0004Offcanvas": [
+        "خارج القماش"
+      ],
+      "Item text\u0004Disable": [
+        "إبطال"
+      ],
+      "Item text\u0004Custom": [
+        "مخصص"
+      ],
+      "Item text\u0004Disabled": [
+        "عاجز"
+      ],
+      "Item text\u0004Arrow": [
+        "سهم"
+      ],
+      "Item text\u0004Collapse": [
+        "ينهار"
+      ],
+      "Item text\u0004Elastic": [
+        "مرن"
+      ],
+      "Item text\u0004Emphatic": [
+        "مؤكد"
+      ],
+      "Item text\u0004Minus": [
+        "ناقص"
+      ],
+      "Item text\u0004Slider": [
+        "المنزلق"
+      ],
+      "Item text\u0004Spin": [
+        "يلف"
+      ],
+      "Item text\u0004Spring": [
+        "ربيع"
+      ],
+      "Item text\u0004Squeeze": [
+        "ضغط"
+      ],
+      "Item text\u0004Stand": [
+        "يقف"
+      ],
+      "Item text\u0004Vortex": [
+        "دوامة"
+      ],
+      "Item text\u00043DX": [
+        "3DX"
+      ],
+      "Item text\u00043DXY": [
+        "3DXY"
+      ],
+      "Item text\u00043DY": [
+        "3DY"
+      ],
+      "Preset section label\u0004Typography": [
+        "الطباعة"
+      ],
+      "Preset section label\u0004Size": [
+        "مقاس"
+      ],
+      "Preset section label\u0004Padding": [
+        "حشوة"
+      ],
+      "Preset section label\u0004Borders": [
+        "الحدود"
+      ],
+      "Preset section label\u0004Title": [
+        "عنوان"
+      ],
+      "Preset section label\u0004Level 1": [
+        "المستوى 1"
+      ],
+      "Preset section label\u0004Level 2": [
+        "المستوى 2"
+      ],
+      "Preset section label\u0004Spacing": [
+        "تباعد"
+      ],
+      "Element name\u0004Product Tabs": [
+        "علامات تبويب المنتج"
+      ],
+      "Control label\u0004Below Tabs": [
+        "أسفل علامات التبويب"
+      ],
+      "Control label\u0004Advanced": [
+        "متقدم"
+      ],
+      "Control label\u0004Tabs": [
+        "علامات التبويب"
+      ],
+      "Control label\u0004Description": [
+        "وصف"
+      ],
+      "Control label\u0004Title": [
+        "عنوان"
+      ],
+      "Control label\u0004Additional Information": [
+        "معلومات إضافية"
+      ],
+      "Control label\u0004Reviews": [
+        "التعليقات"
+      ],
+      "Item label\u0004Woo": [
+        "وو"
+      ],
+      "Preset section label\u0004Tabs": [
+        "علامات التبويب"
+      ],
+      "Preset section label\u0004Container": [
+        "حاوية"
+      ],
+      "Preset section label\u0004Global Styles Override": [
+        "تجاوز الأنماط العالمية"
+      ],
+      "Element name\u0004Tabs": [
+        "علامات التبويب"
+      ],
+      "Control label\u0004Content": [
+        "محتوى"
+      ],
+      "Control label\u0004Active Tab": [
+        "علامة التبويب النشطة"
+      ],
+      "Control label\u0004Open On Hover": [
+        "فتح عند التمرير"
+      ],
+      "Item text\u0004title": [
+        "عنوان"
+      ],
+      "Preset section label\u0004Content": [
+        "محتوى"
+      ],
+      "Preset section label\u0004Wrapper": [
+        "إزار"
+      ],
+      "Element name\u0004Business Hours": [
+        "ساعات العمل"
+      ],
+      "Control label\u0004Rows": [
+        "الصفوف"
+      ],
+      "Control label\u0004Background A": [
+        "الخلفية أ"
+      ],
+      "Control label\u0004Background B": [
+        "الخلفية ب"
+      ],
+      "Control label\u0004Background Accent": [
+        "لهجة الخلفية"
+      ],
+      "Control label\u0004Border Color": [
+        "لون الحدود"
+      ],
+      "Control label\u0004Day B": [
+        "اليوم ب"
+      ],
+      "Control label\u0004Time B": [
+        "الوقت ب"
+      ],
+      "Control label\u0004Container": [
+        "حاوية"
+      ],
+      "Control label\u0004Shadow": [
+        "الظل"
+      ],
+      "Control label\u0004Days": [
+        "أيام"
+      ],
+      "Control label\u0004Day": [
+        "يوم"
+      ],
+      "Control label\u0004Time": [
+        "وقت"
+      ],
+      "Control label\u0004Accent Style": [
+        "نمط اللكنة"
+      ],
+      "Preset section label\u0004Day": [
+        "يوم"
+      ],
+      "Preset section label\u0004Time": [
+        "وقت"
+      ],
+      "Preset section label\u0004Day Accent": [
+        "لهجة اليوم"
+      ],
+      "Preset section label\u0004Time Accent": [
+        "لهجة الوقت"
+      ],
+      "Element name\u0004Repeater Field": [
+        "مجال مكرر"
+      ],
+      "Control label\u0004Item": [
+        "غرض"
+      ],
+      "Control label\u0004Repeated Block": [
+        "كتلة متكررة"
+      ],
+      "Control label\u0004Global Block": [
+        "الكتلة العالمية"
+      ],
+      "Control label\u0004Tag": [
+        "علامة"
+      ],
+      "Control label\u0004Alternates": [
+        "البدائل"
+      ],
+      "Control label\u0004Position": [
+        "موضع"
+      ],
+      "Control label\u0004Repeat": [
+        "يكرر"
+      ],
+      "Control label\u0004Frequency": [
+        "تكرار"
+      ],
+      "Control label\u0004Static Items": [
+        "العناصر الثابتة"
+      ],
+      "Control label\u0004When Empty": [
+        "عندما تكون فارغة"
+      ],
+      "Control label\u0004Field": [
+        "مجال"
+      ],
+      "Control label\u0004Item Title": [
+        "عنوان العنصر"
+      ],
+      "Control label\u0004Repeater Field": [
+        "مجال مكرر"
+      ],
+      "Item text\u0004article": [
+        "شرط"
+      ],
+      "Item text\u0004section": [
+        "قسم"
+      ],
+      "Item text\u0004div": [
+        "شعبة"
+      ],
+      "Preset section label\u0004List": [
+        "قائمة"
+      ],
+      "Element name\u0004Wrapper Link": [
+        "رابط المجمع"
+      ],
+      "Control label\u0004Min Height": [
+        "الحد الأدنى للارتفاع"
+      ],
+      "Control label\u0004Hover": [
+        "تحوم"
+      ],
+      "Control label\u0004Text Colors": [
+        "ألوان النص"
+      ],
+      "Control label\u0004Headings": [
+        "العناوين"
+      ],
+      "Control label\u0004Text": [
+        "نص"
+      ],
+      "Control label\u0004Brand": [
+        "ماركة"
+      ],
+      "Control label\u0004Link": [
+        "وصلة"
+      ],
+      "Control label\u0004Warning": [
+        "تحذير"
+      ],
+      "Preset section label\u0004Layout": [
+        "تَخطِيط"
+      ],
+      "Preset section label\u0004Background": [
+        "خلفية"
+      ],
+      "Element name\u0004Register Form": [
+        "نموذج التسجيل"
+      ],
+      "Control label\u0004Form": [
+        "استمارة"
+      ],
+      "Control label\u0004Labels": [
+        "التسميات"
+      ],
+      "Control label\u0004Username Label": [
+        "تسمية اسم المستخدم"
+      ],
+      "Control label\u0004Username Placeholder": [
+        "العنصر النائب لاسم المستخدم"
+      ],
+      "Control label\u0004Email Label": [
+        "تسمية البريد الإلكتروني"
+      ],
+      "Control label\u0004Email Placeholder": [
+        "العنصر النائب للبريد الإلكتروني"
+      ],
+      "Control label\u0004Password Label": [
+        "تسمية كلمة المرور"
+      ],
+      "Control label\u0004Password Placeholder": [
+        "العنصر النائب لكلمة المرور"
+      ],
+      "Control label\u0004Submit Text": [
+        "إرسال النص"
+      ],
+      "Control label\u0004Success Message": [
+        "رسالة النجاح"
+      ],
+      "Control label\u0004Auto Log In User": [
+        "تسجيل الدخول التلقائي للمستخدم"
+      ],
+      "Control label\u0004Redirect After Registration": [
+        "إعادة التوجيه بعد التسجيل"
+      ],
+      "Control label\u0004Redirect URL": [
+        "إعادة توجيه URL"
+      ],
+      "Preset section label\u0004Form": [
+        "استمارة"
+      ],
+      "Element name\u0004Fancy Container": [
+        "حاوية فاخرة"
+      ],
+      "Control label\u0004Height": [
+        "ارتفاع"
+      ],
+      "Element name\u0004Simple Counter": [
+        "عداد بسيط"
+      ],
+      "Control label\u0004Content Alignment": [
+        "محاذاة المحتوى"
+      ],
+      "Control label\u0004Below Number": [
+        "الرقم أدناه"
+      ],
+      "Control label\u0004Around Number": [
+        "حول رقم"
+      ],
+      "Control label\u0004Counter": [
+        "عداد"
+      ],
+      "Control label\u0004Prefix": [
+        "بادئة"
+      ],
+      "Control label\u0004Suffix": [
+        "لاحقة"
+      ],
+      "Control label\u0004Start": [
+        "يبدأ"
+      ],
+      "Control label\u0004End": [
+        "نهاية"
+      ],
+      "Control label\u0004Duration": [
+        "مدة"
+      ],
+      "Control label\u0004Ease Count": [
+        "سهولة العد"
+      ],
+      "Control label\u0004Format Number": [
+        "رقم التنسيق"
+      ],
+      "Control label\u0004Separator": [
+        "فاصل"
+      ],
+      "Control label\u0004HTML Tags": [
+        "علامات HTML"
+      ],
+      "Control label\u0004Number": [
+        "رقم"
+      ],
+      "Item text\u0004Right;": [
+        "يمين؛"
+      ],
+      "Item text\u0004Space": [
+        "فضاء"
+      ],
+      "Item text\u0004Dot": [
+        "نقطة"
+      ],
+      "Item text\u0004Comma": [
+        "فاصلة"
+      ],
+      "Item text\u0004h1": [
+        "h1"
+      ],
+      "Item text\u0004h2": [
+        "h2"
+      ],
+      "Item text\u0004h3": [
+        "h3"
+      ],
+      "Item text\u0004h4": [
+        "h4"
+      ],
+      "Item text\u0004h5": [
+        "h5"
+      ],
+      "Item text\u0004h6": [
+        "h6"
+      ],
+      "Preset section label\u0004Number": [
+        "رقم"
+      ],
+      "Preset section label\u0004Prefix": [
+        "بادئة"
+      ],
+      "Preset section label\u0004Suffix": [
+        "لاحقة"
+      ],
+      "Element name\u0004Circle Counter": [
+        "عداد الدائرة"
+      ],
+      "Control label\u0004Progress Bar": [
+        "شريط التقدم"
+      ],
+      "Control label\u0004Background Bar": [
+        "شريط الخلفية"
+      ],
+      "Control label\u0004Style": [
+        "أسلوب"
+      ],
+      "Control label\u0004Value Position": [
+        "موضع القيمة"
+      ],
+      "Control label\u0004Space Above": [
+        "الفضاء فوق"
+      ],
+      "Control label\u0004Line Cap": [
+        "غطاء الخط"
+      ],
+      "Control label\u0004Bar Style": [
+        "نمط البار"
+      ],
+      "Control label\u0004Gradient": [
+        "التدرج"
+      ],
+      "Control label\u0004Max Value": [
+        "القيمة القصوى"
+      ],
+      "Item text\u0004Inside": [
+        "داخل"
+      ],
+      "Item text\u0004Outside": [
+        "الخارج"
+      ],
+      "Item text\u0004Round": [
+        "دائري"
+      ],
+      "Item text\u0004Flat": [
+        "مستوي"
+      ],
+      "Item text\u0004Color": [
+        "لون"
+      ],
+      "Item text\u0004Gradient": [
+        "التدرج"
+      ],
+      "Preset section label\u0004Value": [
+        "قيمة"
+      ],
+      "Element name\u0004Pagination": [
+        "ترقيم الصفحات"
+      ],
+      "Control label\u0004Pagination": [
+        "ترقيم الصفحات"
+      ],
+      "Control label\u0004Active Color": [
+        "اللون النشط"
+      ],
+      "Control label\u0004Dots Color": [
+        "لون النقاط"
+      ],
+      "Control label\u0004Display As Buttons": [
+        "العرض كأزرار"
+      ],
+      "Control label\u0004Buttons": [
+        "أزرار"
+      ],
+      "Element name\u0004Order Tracking Page": [
+        "صفحة تتبع الطلب"
+      ],
+      "Preset section label\u0004Override Global Styles": [
+        "تجاوز الأنماط العالمية"
+      ],
+      "Element name\u0004Product Price": [
+        "سعر المنتج"
+      ],
+      "Control label\u0004Layout": [
+        "تَخطِيط"
+      ],
+      "Control label\u0004Stack Vertically": [
+        "كومة عموديا"
+      ],
+      "Item text\u0004Veritical": [
+        "عمودي"
+      ],
+      "Item text\u0004Horizontal": [
+        "أفقي"
+      ],
+      "Preset section label\u0004Current Price": [
+        "السعر الحالي"
+      ],
+      "Preset section label\u0004Old Price": [
+        "السعر القديم"
+      ],
+      "Element name\u0004FacetWP Facet": [
+        "FacetWP الوجه"
+      ],
+      "Control label\u0004Facet": [
+        "الوجه"
+      ],
+      "Element name\u0004Popup": [
+        "يظهر فجأة"
+      ],
+      "Control label\u0004Popup": [
+        "يظهر فجأة"
+      ],
+      "Control label\u0004Align": [
+        "محاذاة"
+      ],
+      "Control label\u0004Vertical Align": [
+        "محاذاة عمودية"
+      ],
+      "Control label\u0004Translate": [
+        "يترجم"
+      ],
+      "Control label\u0004Max Height": [
+        "أقصى ارتفاع"
+      ],
+      "Control label\u0004Entrance": [
+        "مدخل"
+      ],
+      "Control label\u0004Animation Type": [
+        "نوع الرسوم المتحركة"
+      ],
+      "Control label\u0004Delay": [
+        "تأخير"
+      ],
+      "Control label\u0004Ease": [
+        "يُسَهّل"
+      ],
+      "Control label\u0004Exit": [
+        "مخرج"
+      ],
+      "Control label\u0004Wrapped": [
+        "ملفوفة"
+      ],
+      "Control label\u0004Outside": [
+        "الخارج"
+      ],
+      "Control label\u0004Disable Overlay": [
+        "تعطيل التراكب"
+      ],
+      "Control label\u0004Allow Scroll": [
+        "السماح بالتمرير"
+      ],
+      "Control label\u0004Disable Close Button": [
+        "تعطيل زر الإغلاق"
+      ],
+      "Control label\u0004Show Close Button After": [
+        "إظهار زر الإغلاق بعد"
+      ],
+      "Control label\u0004Popup Can": [
+        "علبة منبثقة"
+      ],
+      "Control label\u0004Automatically Close After": [
+        "إغلاق تلقائيا بعد"
+      ],
+      "Control label\u0004Popup HTML ID": [
+        "معرف HTML المنبثق"
+      ],
+      "Control label\u0004Popup CSS Class": [
+        "فئة CSS المنبثقة"
+      ],
+      "Control label\u0004Keep Open On Hashlink Clicks": [
+        "أبقِ مفتوحًا عند نقرات Hashlink"
+      ],
+      "Item text\u0004Middle": [
+        "وسط"
+      ],
+      "Item text\u0004Slide Up": [
+        "الانزلاق لأعلى"
+      ],
+      "Item text\u0004Slide Down": [
+        "تنزلق للأسفل"
+      ],
+      "Item text\u0004Slide Left": [
+        "حرك لليسار"
+      ],
+      "Item text\u0004Slide Right": [
+        "حرك لليمين"
+      ],
+      "Item text\u0004Flip Up": [
+        "الوجه لأعلى"
+      ],
+      "Item text\u0004Flip Down": [
+        "اقلب لأسفل"
+      ],
+      "Item text\u0004Flip Left": [
+        "الوجه لليسار"
+      ],
+      "Item text\u0004Flip Right": [
+        "الوجه لليمين"
+      ],
+      "Item text\u0004Zoom In": [
+        "تكبير"
+      ],
+      "Item text\u0004Zoom Out": [
+        "تصغير"
+      ],
+      "Item text\u0004Linear": [
+        "خطي"
+      ],
+      "Item text\u0004Expo In": [
+        "اكسبو في"
+      ],
+      "Item text\u0004Expo Out": [
+        "اكسبو اوت"
+      ],
+      "Item text\u0004Expo InOut": [
+        "اكسبو ان اوت"
+      ],
+      "Item text\u0004Power1 In": [
+        "الطاقة 1 في"
+      ],
+      "Item text\u0004Power1 Out": [
+        "مخرج الطاقة 1"
+      ],
+      "Item text\u0004Power1 InOut": [
+        "الطاقة 1 في الخارج"
+      ],
+      "Item text\u0004Power2 In": [
+        "الطاقة 2 في"
+      ],
+      "Item text\u0004Power2 Out": [
+        "مخرج الطاقة 2"
+      ],
+      "Item text\u0004Power2 InOut": [
+        "Power2 في الخارج"
+      ],
+      "Item text\u0004Power3 In": [
+        "الطاقة 3 بوصة"
+      ],
+      "Item text\u0004Power3 Out": [
+        "مخرج الطاقة 3"
+      ],
+      "Item text\u0004Power3 InOut": [
+        "Power3 في الخارج"
+      ],
+      "Item text\u0004Power4 In": [
+        "الطاقة 4 بوصة"
+      ],
+      "Item text\u0004Power4 Out": [
+        "مخرج الطاقة 4"
+      ],
+      "Item text\u0004Power4 InOut": [
+        "Power4 في ​​الخارج"
+      ],
+      "Item text\u0004Back In": [
+        "العودة للداخل"
+      ],
+      "Item text\u0004Back Out": [
+        "التراجع"
+      ],
+      "Item text\u0004Back InOut": [
+        "العودة للخارج"
+      ],
+      "Item text\u0004Elastic In": [
+        "مرونة في"
+      ],
+      "Item text\u0004Elastic Out": [
+        "مرونة خارج"
+      ],
+      "Item text\u0004Elastic InOut": [
+        "مرونة في الخارج"
+      ],
+      "Item text\u0004Bounce In": [
+        "ترتد في"
+      ],
+      "Item text\u0004Bounce Out": [
+        "ترتد خارجا"
+      ],
+      "Item text\u0004Bounce InOut": [
+        "ترتد للخارج"
+      ],
+      "Item text\u0004Top Right": [
+        "أعلى اليمين"
+      ],
+      "Item text\u0004Middle Right": [
+        "اليمين الأوسط"
+      ],
+      "Item text\u0004Bottom Right": [
+        "أسفل اليمين"
+      ],
+      "Item text\u0004Top Left": [
+        "أعلى اليسار"
+      ],
+      "Item text\u0004Middle Left": [
+        "اليسار الأوسط"
+      ],
+      "Item text\u0004Bottom Left": [
+        "أسفل اليسار"
+      ],
+      "Preset section label\u0004Overlay": [
+        "تراكب"
+      ],
+      "Element name\u0004Video": [
+        "فيديو"
+      ],
+      "Control label\u0004Overlay": [
+        "تراكب"
+      ],
+      "Control label\u0004Lazy Load": [
+        "تحميل كسول"
+      ],
+      "Control label\u0004Icon Color": [
+        "لون الرمز"
+      ],
+      "Control label\u0004Icon Size": [
+        "حجم الرمز"
+      ],
+      "Control label\u0004Video": [
+        "فيديو"
+      ],
+      "Control label\u0004Ratio": [
+        "نسبة"
+      ],
+      "Control label\u0004Custom width": [
+        "عرض مخصص"
+      ],
+      "Control label\u0004Custom height": [
+        "ارتفاع مخصص"
+      ],
+      "Control label\u0004Video Options": [
+        "خيارات الفيديو"
+      ],
+      "Control label\u0004Poster": [
+        "ملصق"
+      ],
+      "Control label\u0004Autoplay": [
+        "التشغيل التلقائي"
+      ],
+      "Control label\u0004Controls": [
+        "الضوابط"
+      ],
+      "Control label\u0004Loop": [
+        "حلقة"
+      ],
+      "Control label\u0004Muted": [
+        "كتم الصوت"
+      ],
+      "Control label\u0004Download Button": [
+        "زر التنزيل"
+      ],
+      "Control label\u0004YouTube": [
+        "يوتيوب"
+      ],
+      "Control label\u0004Load Method": [
+        "طريقة التحميل"
+      ],
+      "Control label\u0004Background Image": [
+        "صورة الخلفية"
+      ],
+      "Control label\u0004Mute": [
+        "صامت"
+      ],
+      "Control label\u0004Modest Branding": [
+        "علامة تجارية متواضعة"
+      ],
+      "Control label\u0004Hide Player Controls": [
+        "إخفاء عناصر التحكم في المشغل"
+      ],
+      "Control label\u0004Play Inline": [
+        "العب مضمنة"
+      ],
+      "Control label\u0004Privacy mode": [
+        "وضع الخصوصية"
+      ],
+      "Control label\u0004Start Time": [
+        "وقت البدء"
+      ],
+      "Control label\u0004End Time": [
+        "وقت النهاية"
+      ],
+      "Control label\u0004Suggested Videos": [
+        "الفيديوهات المقترحة"
+      ],
+      "Control label\u0004Vimeo": [
+        "فيميو"
+      ],
+      "Control label\u0004DailyMotion": [
+        "ديلي موشن"
+      ],
+      "Control label\u0004Hide All Controls": [
+        "إخفاء كافة عناصر التحكم"
+      ],
+      "Control label\u0004Hide Logo": [
+        "إخفاء الشعار"
+      ],
+      "Control label\u0004Hide Video Info": [
+        "إخفاء معلومات الفيديو"
+      ],
+      "Control label\u0004Disable Sharing": [
+        "تعطيل المشاركة"
+      ],
+      "Item text\u000416:9": [
+        "16:9"
+      ],
+      "Item text\u000416:10": [
+        "16:10"
+      ],
+      "Item text\u00044:3": [
+        "4:3"
+      ],
+      "Item text\u00041:1": [
+        "1:1"
+      ],
+      "Item text\u000421:9": [
+        "21:9"
+      ],
+      "Item text\u00043:2": [
+        "3:2"
+      ],
+      "Item text\u0004Lightweight": [
+        "خفيف الوزن"
+      ],
+      "Item text\u0004Lazy load": [
+        "تحميل كسول"
+      ],
+      "Item text\u0004Full Embed": [
+        "تضمين كامل"
+      ],
+      "Item text\u0004From same channel": [
+        "من نفس القناة"
+      ],
+      "Item text\u0004Recommendations": [
+        "التوصيات"
+      ],
+      "Item text\u0004Lazy Load": [
+        "تحميل كسول"
+      ],
+      "Item text\u0004Full embed": [
+        "تضمين كامل"
+      ],
+      "Element name\u0004Twitter Timeline": [
+        "تويتر الجدول الزمني"
+      ],
+      "Control label\u0004Theme": [
+        "سمة"
+      ],
+      "Control label\u0004No Background": [
+        "لا خلفية"
+      ],
+      "Control label\u0004No Header": [
+        "لا يوجد رأس"
+      ],
+      "Control label\u0004No Footer": [
+        "لا يوجد تذييل"
+      ],
+      "Control label\u0004No Scrollbar": [
+        "لا يوجد شريط التمرير"
+      ],
+      "Control label\u0004Timeline": [
+        "الجدول الزمني"
+      ],
+      "Control label\u0004Username": [
+        "اسم المستخدم"
+      ],
+      "Control label\u0004Limit Tweets": [
+        "الحد من التغريدات"
+      ],
+      "Control label\u0004Tweet Count": [
+        "عدد التغريدات"
+      ],
+      "Item text\u0004Light": [
+        "ضوء"
+      ],
+      "Item text\u0004Dark": [
+        "مظلم"
+      ],
+      "Element name\u0004Social Icons": [
+        "الرموز الاجتماعية"
+      ],
+      "Control label\u0004Icons": [
+        "أيقونات"
+      ],
+      "Control label\u0004Shape": [
+        "شكل"
+      ],
+      "Control label\u0004Direction": [
+        "اتجاه"
+      ],
+      "Control label\u0004Scale On Hover": [
+        "مقياس على التحويم"
+      ],
+      "Control label\u0004Opacity": [
+        "العتامة"
+      ],
+      "Control label\u0004Social Networks": [
+        "الشبكات الاجتماعية"
+      ],
+      "Control label\u0004Type": [
+        "يكتب"
+      ],
+      "Control label\u0004Aria Label": [
+        "اريا ليبل"
+      ],
+      "Item text\u0004Circle": [
+        "دائرة"
+      ],
+      "Item text\u0004Square": [
+        "مربع"
+      ],
+      "Item text\u0004Facebook": [
+        "فيسبوك"
+      ],
+      "Item text\u0004Twitter": [
+        "تغريد"
+      ],
+      "Item text\u0004Instagram": [
+        "انستغرام"
+      ],
+      "Item text\u0004YouTube": [
+        "يوتيوب"
+      ],
+      "Item text\u0004Dribbble": [
+        "مراوغة"
+      ],
+      "Item text\u0004Behance": [
+        "بيهانس"
+      ],
+      "Item text\u0004GitHub": [
+        "جيثب"
+      ],
+      "Item text\u0004LinkedIn": [
+        "ينكدين"
+      ],
+      "Item text\u0004Vimeo": [
+        "فيميو"
+      ],
+      "Element name\u0004Facebook Share Button": [
+        "زر مشاركة الفيسبوك"
+      ],
+      "Control label\u0004Button": [
+        "زر"
+      ],
+      "Control label\u0004Facebook App": [
+        "تطبيق الفيسبوك"
+      ],
+      "Control label\u0004URL to Like": [
+        "عنوان URL للإعجاب"
+      ],
+      "Control label\u0004Custom URL": [
+        "عنوان URL مخصص"
+      ],
+      "Item text\u0004Box Count": [
+        "عدد الصناديق"
+      ],
+      "Item text\u0004Button Count": [
+        "عدد الأزرار"
+      ],
+      "Item text\u0004Button": [
+        "زر"
+      ],
+      "Item text\u0004Small": [
+        "صغير"
+      ],
+      "Item text\u0004Large": [
+        "كبير"
+      ],
+      "Item text\u0004Current Page": [
+        "الصفحة الحالية"
+      ],
+      "Item text\u0004Custom URL": [
+        "عنوان URL مخصص"
+      ],
+      "Element name\u0004Tooltip": [
+        "تلميح الأداة"
+      ],
+      "Control label\u0004Tooltip": [
+        "تلميح الأداة"
+      ],
+      "Control label\u0004In-Builder Preview": [
+        "معاينة داخل البناء"
+      ],
+      "Preset section label\u0004Tooltip": [
+        "تلميح الأداة"
+      ],
+      "Element name\u0004Post List": [
+        "قائمة المشاركات"
+      ],
+      "Control label\u0004Post": [
+        "بريد"
+      ],
+      "Control label\u0004Image": [
+        "صورة"
+      ],
+      "Control label\u0004Stack Vertically At": [
+        "كومة عموديا في"
+      ],
+      "Control label\u0004Space": [
+        "فضاء"
+      ],
+      "Control label\u0004Aspect Ratio": [
+        "نسبة الارتفاع"
+      ],
+      "Control label\u0004Space Below": [
+        "الفضاء أدناه"
+      ],
+      "Control label\u0004Order": [
+        "طلب"
+      ],
+      "Control label\u0004Meta": [
+        "ميتا"
+      ],
+      "Control label\u0004Taxonomy": [
+        "التصنيف"
+      ],
+      "Control label\u0004Fallback Image": [
+        "الصورة الاحتياطية"
+      ],
+      "Control label\u0004Count": [
+        "عدد"
+      ],
+      "Control label\u0004Excerpt Length": [
+        "طول المقتطف"
+      ],
+      "Control label\u0004Button Text": [
+        "نص الزر"
+      ],
+      "Control label\u0004Open In New Tab": [
+        "فتح في علامة تبويب جديدة"
+      ],
+      "Control label\u0004Query": [
+        "استفسار"
+      ],
+      "Item text\u0004Justify": [
+        "يبرر"
+      ],
+      "Item text\u0004H1": [
+        "H1"
+      ],
+      "Item text\u0004H2": [
+        "H2"
+      ],
+      "Item text\u0004H3": [
+        "H3"
+      ],
+      "Item text\u0004H4": [
+        "H4"
+      ],
+      "Item text\u0004H5": [
+        "H5"
+      ],
+      "Item text\u0004H6": [
+        "H6"
+      ],
+      "Item text\u0004span": [
+        "فترة"
+      ],
+      "Item text\u0004Author": [
+        "مؤلف"
+      ],
+      "Item text\u0004Date": [
+        "تاريخ"
+      ],
+      "Item text\u0004Comment": [
+        "تعليق"
+      ],
+      "Item text\u0004Categories": [
+        "فئات"
+      ],
+      "Item text\u0004Tags": [
+        "العلامات"
+      ],
+      "Item text\u0004Excerpt": [
+        "مقتطفات"
+      ],
+      "Item text\u0004Content": [
+        "محتوى"
+      ],
+      "Preset section label\u0004Text": [
+        "نص"
+      ],
+      "Preset section label\u0004Button": [
+        "زر"
+      ],
+      "Preset section label\u0004Pagination": [
+        "ترقيم الصفحات"
+      ],
+      "Preset section label\u0004Filter Bar": [
+        "شريط التصفية"
+      ],
+      "Element name\u0004Product Builder": [
+        "منشئ المنتج"
+      ],
+      "Control label\u0004Product": [
+        "منتج"
+      ],
+      "Control label\u0004Add Elements": [
+        "أضف عناصر"
+      ],
+      "Control label\u0004Disable Woo ID": [
+        "تعطيل معرف وو"
+      ],
+      "Item text\u0004This is a heading.": [
+        "هذا هو العنوان."
+      ],
+      "Item text\u0004<h2>Rich Text</h2><p>This is my rich text.</p><h3>I am a subheading</h3><p>This is <strong>more</strong> rich text.</p><ul><li><p>I am a list</p></li><li><p>Lists are cool</p></li></ul>": [
+        "<h2>نص منسق</h2><p>هذا هو النص الغني الخاص بي.</p><h3>أنا عنوان فرعي</h3><p>هذا<strong>نص أكثر</strong>غني.</p><ul><li><p>أنا قائمة</p></li><li><p>القوائم رائعة</p></li></ul>"
+      ],
+      "Element name\u0004Pulse Dot": [
+        "نقطة النبض"
+      ],
+      "Control label\u0004Pulse Dot": [
+        "نقطة النبض"
+      ],
+      "Control label\u0004Pulse Duration": [
+        "مدة النبض"
+      ],
+      "Control label\u0004Pulse Scale": [
+        "مقياس النبض"
+      ],
+      "Element name\u0004Lottie Animation": [
+        "الرسوم المتحركة لوتي"
+      ],
+      "Control label\u0004Background Color": [
+        "لون الخلفية"
+      ],
+      "Control label\u0004Asset Url": [
+        "عنوان URL للأصول"
+      ],
+      "Control label\u0004Animation Speed": [
+        "سرعة الرسوم المتحركة"
+      ],
+      "Control label\u0004Trigger": [
+        "مشغل"
+      ],
+      "Control label\u0004Hover Area": [
+        "منطقة التحويم"
+      ],
+      "Control label\u0004On Hover Out": [
+        "عند التمرير للخارج"
+      ],
+      "Control label\u0004Reverse on finish": [
+        "عكس عند الانتهاء"
+      ],
+      "Control label\u0004Loop Animation": [
+        "حلقة الرسوم المتحركة"
+      ],
+      "Control label\u0004Times to loop": [
+        "أوقات للحلقة"
+      ],
+      "Control label\u0004Frames": [
+        "إطارات"
+      ],
+      "Item text\u00040.5x": [
+        "0.5x"
+      ],
+      "Item text\u00041x": [
+        "1x"
+      ],
+      "Item text\u00042x": [
+        "2x"
+      ],
+      "Item text\u0004Viewport": [
+        "إطار العرض"
+      ],
+      "Item text\u0004Click": [
+        "انقر"
+      ],
+      "Item text\u0004Hover": [
+        "تحوم"
+      ],
+      "Item text\u0004Animation": [
+        "الرسوم المتحركة"
+      ],
+      "Item text\u0004Section": [
+        "قسم"
+      ],
+      "Item text\u0004Parent element": [
+        "عنصر الوالدين"
+      ],
+      "Item text\u0004Do nothing": [
+        "لا تفعل شيئا"
+      ],
+      "Item text\u0004Pause": [
+        "يوقف"
+      ],
+      "Item text\u0004Reverse": [
+        "يعكس"
+      ],
+      "Item text\u0004Yes": [
+        "نعم"
+      ],
+      "Item text\u0004No": [
+        "لا"
+      ],
+      "Element name\u0004Section": [
+        "قسم"
+      ],
+      "Control label\u0004Custom Height": [
+        "الارتفاع المخصص"
+      ],
+      "Control label\u0004Container Width": [
+        "عرض الحاوية"
+      ],
+      "Control label\u0004Margin Top": [
+        "أعلى الهامش"
+      ],
+      "Control label\u0004Margin Bottom": [
+        "الهامش السفلي"
+      ],
+      "Control label\u0004Dividers": [
+        "فواصل"
+      ],
+      "Item text\u0004Fit Content": [
+        "محتوى مناسب"
+      ],
+      "Item text\u0004Contained": [
+        "الواردة"
+      ],
+      "Item text\u0004Full": [
+        "ممتلىء"
+      ],
+      "Preset section label\u0004Primary": [
+        "أساسي"
+      ],
+      "Preset section label\u0004Secondary": [
+        "ثانوي"
+      ],
+      "Preset section label\u0004Shape Dividers": [
+        "فواصل الشكل"
+      ],
+      "Element name\u0004FancyBackgroundPreset": [
+        "FancyBackgroundPreset"
+      ],
+      "Control label\u0004Image Size": [
+        "حجم الصورة"
+      ],
+      "Control label\u0004Image Settings": [
+        "إعدادات الصورة"
+      ],
+      "Control label\u0004Custom Position": [
+        "موقف مخصص"
+      ],
+      "Control label\u0004Attachment": [
+        "مرفق"
+      ],
+      "Control label\u0004Unset Image At": [
+        "إلغاء ضبط الصورة عند"
+      ],
+      "Control label\u0004Gradient Animation": [
+        "الرسوم المتحركة التدرج"
+      ],
+      "Control label\u0004Scale": [
+        "حجم"
+      ],
+      "Control label\u0004Speed": [
+        "سرعة"
+      ],
+      "Control label\u0004Video Warning": [
+        "تحذير بالفيديو"
+      ],
+      "Control label\u0004Video Settings": [
+        "إعدادات الفيديو"
+      ],
+      "Control label\u0004Play On Mobile": [
+        "العب على الجوال"
+      ],
+      "Control label\u0004No Loop": [
+        "لا حلقة"
+      ],
+      "Control label\u0004Pause When Out Of View": [
+        "توقف مؤقتًا عندما تكون خارج العرض"
+      ],
+      "Control label\u0004YouTube Privacy Mode": [
+        "وضع خصوصية يوتيوب"
+      ],
+      "Control label\u0004Zoom": [
+        "تكبير"
+      ],
+      "Control label\u0004Offset Y": [
+        "إزاحة Y"
+      ],
+      "Control label\u0004Offset X": [
+        "الإزاحة X"
+      ],
+      "Control label\u0004Slideshow": [
+        "عرض الشرائح"
+      ],
+      "Control label\u0004Slideshow Settings": [
+        "إعدادات عرض الشرائح"
+      ],
+      "Control label\u0004Slide Duration": [
+        "مدة الشريحة"
+      ],
+      "Control label\u0004Transition Effect": [
+        "تأثير الانتقال"
+      ],
+      "Control label\u0004Effect Duration": [
+        "مدة التأثير"
+      ],
+      "Control label\u0004Slide Direction": [
+        "اتجاه الشريحة"
+      ],
+      "Control label\u0004Ken Burns": [
+        "كين بيرنز"
+      ],
+      "Control label\u0004Origin": [
+        "أصل"
+      ],
+      "Control label\u0004Play Only Once": [
+        "العب مرة واحدة فقط"
+      ],
+      "Control label\u0004Effects": [
+        "التأثيرات"
+      ],
+      "Control label\u0004Blend Mode": [
+        "وضع المزج"
+      ],
+      "Item text\u0004Image": [
+        "صورة"
+      ],
+      "Item text\u0004Video": [
+        "فيديو"
+      ],
+      "Item text\u0004Slideshow": [
+        "عرض الشرائح"
+      ],
+      "Item text\u0004cover": [
+        "غطاء"
+      ],
+      "Item text\u0004contain": [
+        "يحتوي"
+      ],
+      "Item text\u0004auto": [
+        "آلي"
+      ],
+      "Item text\u0004custom": [
+        "مخصص"
+      ],
+      "Item text\u0004repeat": [
+        "يكرر"
+      ],
+      "Item text\u0004no-repeat": [
+        "عدم تكرار"
+      ],
+      "Item text\u0004repeat-x": [
+        "تكرار-x"
+      ],
+      "Item text\u0004repeat-y": [
+        "كرر ذ"
+      ],
+      "Item text\u0004center top": [
+        "أعلى المركز"
+      ],
+      "Item text\u0004center center": [
+        "مركز المركز"
+      ],
+      "Item text\u0004center bottom": [
+        "وسط القاع"
+      ],
+      "Item text\u0004left top": [
+        "أعلى اليسار"
+      ],
+      "Item text\u0004left center": [
+        "المركز الأيسر"
+      ],
+      "Item text\u0004left bottom": [
+        "أسفل اليسار"
+      ],
+      "Item text\u0004right top": [
+        "أعلى اليمين"
+      ],
+      "Item text\u0004right center": [
+        "المركز الصحيح"
+      ],
+      "Item text\u0004right bottom": [
+        "أسفل اليمين"
+      ],
+      "Item text\u0004scroll": [
+        "انتقل"
+      ],
+      "Item text\u0004fixed": [
+        "مُثَبَّت"
+      ],
+      "Item text\u0004Slide": [
+        "شريحة"
+      ],
+      "Item text\u0004Vertical": [
+        "رَأسِيّ"
+      ],
+      "Item text\u0004In": [
+        "في"
+      ],
+      "Item text\u0004Out": [
+        "خارج"
+      ],
+      "Item text\u0004normal": [
+        "طبيعي"
+      ],
+      "Item text\u0004multiply": [
+        "ضاعف"
+      ],
+      "Item text\u0004screen": [
+        "شاشة"
+      ],
+      "Item text\u0004overlay": [
+        "تراكب"
+      ],
+      "Item text\u0004darken": [
+        "أغمق"
+      ],
+      "Item text\u0004lighten": [
+        "تفتيح"
+      ],
+      "Item text\u0004color-dodge": [
+        "دودج اللون"
+      ],
+      "Item text\u0004color-burn": [
+        "حرق اللون"
+      ],
+      "Item text\u0004hard-light": [
+        "الضوء الثابت"
+      ],
+      "Item text\u0004soft-light": [
+        "ضوء ناعم"
+      ],
+      "Item text\u0004difference": [
+        "اختلاف"
+      ],
+      "Item text\u0004exclusion": [
+        "الاستبعاد"
+      ],
+      "Item text\u0004hue": [
+        "هوى"
+      ],
+      "Item text\u0004saturation": [
+        "التشبع"
+      ],
+      "Item text\u0004color": [
+        "لون"
+      ],
+      "Item text\u0004luminosity": [
+        "لمعان"
+      ],
+      "Preset section label\u0004Filter": [
+        "فلتر"
+      ],
+      "Element name\u0004Div": [
+        "شعبة"
+      ],
+      "Element name\u0004Back To Top": [
+        "العودة إلى الأعلى"
+      ],
+      "Control label\u0004Sticky": [
+        "لزجة"
+      ],
+      "Control label\u0004Horizontal Align": [
+        "محاذاة أفقية"
+      ],
+      "Control label\u0004Hide At The Top": [
+        "إخفاء في الأعلى"
+      ],
+      "Control label\u0004Show": [
+        "يعرض"
+      ],
+      "Control label\u0004Button Styles": [
+        "أنماط الأزرار"
+      ],
+      "Control label\u0004Space After": [
+        "الفضاء بعد"
+      ],
+      "Control label\u0004Progress": [
+        "تقدم"
+      ],
+      "Control label\u0004Tracker": [
+        "المقتفي"
+      ],
+      "Control label\u0004Scroll Offset": [
+        "إزاحة التمرير"
+      ],
+      "Control label\u0004Scroll To Selector": [
+        "قم بالتمرير إلى المحدد"
+      ],
+      "Item text\u0004Always": [
+        "دائماً"
+      ],
+      "Item text\u0004Half Way": [
+        "نصف الطريق"
+      ],
+      "Item text\u0004Near Bottom": [
+        "بالقرب من القاع"
+      ],
+      "Item text\u0004Fade In": [
+        "تتلاشى في"
+      ],
+      "Item text\u0004Zoom": [
+        "تكبير"
+      ],
+      "Item text\u0004Slide up": [
+        "انزلق لأعلى"
+      ],
+      "Item text\u0004Scroll Progress": [
+        "تقدم التمرير"
+      ],
+      "Item text\u0004Icon": [
+        "رمز"
+      ],
+      "Item text\u0004Icon + Text": [
+        "أيقونة + نص"
+      ],
+      "Element name\u0004Atom V1 Button": [
+        "زر الذرة V1"
+      ],
+      "Control label\u0004Fancy Underline": [
+        "تسطير يتوهم"
+      ],
+      "Control label\u0004Underline Color": [
+        "تسطير اللون"
+      ],
+      "Control label\u0004Arrow": [
+        "سهم"
+      ],
+      "Control label\u0004Space Before": [
+        "الفضاء قبل"
+      ],
+      "Control label\u0004Hover Transform": [
+        "تحويل تحوم"
+      ],
+      "Control label\u0004Arrow Size": [
+        "حجم السهم"
+      ],
+      "Control label\u0004Custom Type": [
+        "نوع مخصص"
+      ],
+      "Control label\u0004Custom": [
+        "مخصص"
+      ],
+      "Control label\u0004Override Width": [
+        "تجاوز العرض"
+      ],
+      "Control label\u0004Full Width At": [
+        "العرض الكامل عند"
+      ],
+      "Control label\u0004Outline": [
+        "الخطوط العريضة"
+      ],
+      "Control label\u0004No Fill On Hover": [
+        "لا يوجد تعبئة عند التمرير"
+      ],
+      "Control label\u0004Corners": [
+        "زوايا"
+      ],
+      "Control label\u0004Corner Radius": [
+        "شعاع الزاوية"
+      ],
+      "Control label\u0004Preset": [
+        "محددة مسبقا"
+      ],
+      "Item text\u0004Primary": [
+        "أساسي"
+      ],
+      "Item text\u0004Secondary": [
+        "ثانوي"
+      ],
+      "Item text\u0004Text": [
+        "نص"
+      ],
+      "Item text\u0004Style 1": [
+        "النمط 1"
+      ],
+      "Item text\u0004Style 2": [
+        "النمط 2"
+      ],
+      "Item text\u0004Style 3": [
+        "النمط 3"
+      ],
+      "Item text\u0004Style 4": [
+        "النمط 4"
+      ],
+      "Item text\u0004Style 5": [
+        "النمط 5"
+      ],
+      "Item text\u0004Style 6": [
+        "النمط 6"
+      ],
+      "Item text\u0004Style 7": [
+        "النمط 7"
+      ],
+      "Item text\u0004Style 8": [
+        "النمط 8"
+      ],
+      "Item text\u0004Arrow 1": [
+        "السهم 1"
+      ],
+      "Item text\u0004Arrow 2": [
+        "السهم 2"
+      ],
+      "Item text\u0004Arrow 3": [
+        "السهم 3"
+      ],
+      "Item text\u0004Preset": [
+        "محددة مسبقا"
+      ],
+      "Item text\u0004Solid": [
+        "صلب"
+      ],
+      "Item text\u0004Outline": [
+        "الخطوط العريضة"
+      ],
+      "Item text\u0004Before": [
+        "قبل"
+      ],
+      "Item text\u0004After": [
+        "بعد"
+      ],
+      "Element name\u0004Product Images": [
+        "صور المنتج"
+      ],
+      "Control label\u0004Sale Badge": [
+        "شارة البيع"
+      ],
+      "Control label\u0004Nudge": [
+        "دفعة"
+      ],
+      "Control label\u0004Zoom Icon": [
+        "أيقونة التكبير"
+      ],
+      "Control label\u0004Thumbnails": [
+        "الصور المصغرة"
+      ],
+      "Control label\u0004Per Row": [
+        "لكل صف"
+      ],
+      "Control label\u0004Border Radius": [
+        "نصف قطر الحدود"
+      ],
+      "Control label\u0004Border Width": [
+        "عرض الحدود"
+      ],
+      "Control label\u0004Between Images": [
+        "بين الصور"
+      ],
+      "Element name\u0004Pricing Table": [
+        "جدول التسعير"
+      ],
+      "Control label\u0004Accent": [
+        "لهجة"
+      ],
+      "Control label\u0004Label Radius": [
+        "نصف قطر التسمية"
+      ],
+      "Control label\u0004Price": [
+        "سعر"
+      ],
+      "Control label\u0004Amount": [
+        "كمية"
+      ],
+      "Control label\u0004Period Position": [
+        "موقف الفترة"
+      ],
+      "Control label\u0004Currency Position": [
+        "موقف العملة"
+      ],
+      "Control label\u0004Badge": [
+        "شارة"
+      ],
+      "Control label\u0004Currency X": [
+        "العملة X"
+      ],
+      "Control label\u0004Currency Y": [
+        "العملة Y"
+      ],
+      "Control label\u0004Period X": [
+        "الفترة العاشرة"
+      ],
+      "Control label\u0004Period Y": [
+        "الفترة ص"
+      ],
+      "Control label\u0004Fraction X": [
+        "الكسر العاشر"
+      ],
+      "Control label\u0004Fraction Y": [
+        "الكسر Y"
+      ],
+      "Control label\u0004Features": [
+        "سمات"
+      ],
+      "Control label\u0004Force Left Alignment": [
+        "قوة محاذاة اليسار"
+      ],
+      "Control label\u0004Included Color": [
+        "اللون المتضمن"
+      ],
+      "Control label\u0004Excluded Color": [
+        "اللون المستبعد"
+      ],
+      "Control label\u0004Included Icon": [
+        "أيقونة متضمنة"
+      ],
+      "Control label\u0004Excluded Icon": [
+        "أيقونة مستبعدة"
+      ],
+      "Control label\u0004Custom Icons": [
+        "أيقونات مخصصة"
+      ],
+      "Control label\u0004Not Included Icon": [
+        "أيقونة غير متضمنة"
+      ],
+      "Control label\u0004Icon Y Nudge": [
+        "أيقونة Y دفعة"
+      ],
+      "Control label\u0004Icon X Nudge": [
+        "أيقونة X دفعة"
+      ],
+      "Control label\u0004Text Indent": [
+        "مسافة بادئة للنص"
+      ],
+      "Control label\u0004Space Between Items": [
+        "المسافة بين العناصر"
+      ],
+      "Control label\u0004After Icon": [
+        "بعد الأيقونة"
+      ],
+      "Control label\u0004After Title": [
+        "بعد العنوان"
+      ],
+      "Control label\u0004After Price Area": [
+        "بعد منطقة السعر"
+      ],
+      "Control label\u0004After Description": [
+        "بعد الوصف"
+      ],
+      "Control label\u0004After Features": [
+        "بعد الميزات"
+      ],
+      "Control label\u0004Price Area": [
+        "منطقة السعر"
+      ],
+      "Control label\u0004Before Amount": [
+        "قبل المبلغ"
+      ],
+      "Control label\u0004Amount / Period": [
+        "المبلغ / الفترة"
+      ],
+      "Control label\u0004Before Badge": [
+        "قبل الشارة"
+      ],
+      "Control label\u0004Accent Text": [
+        "نص مميز"
+      ],
+      "Control label\u0004Before Price": [
+        "قبل السعر"
+      ],
+      "Control label\u0004Per Period": [
+        "لكل فترة"
+      ],
+      "Control label\u0004Currency Symbol": [
+        "رمز العملة"
+      ],
+      "Control label\u0004Fractional Amount": [
+        "المبلغ الكسرى"
+      ],
+      "Control label\u0004Not Included": [
+        "غير متضمنة"
+      ],
+      "Item text\u0004Use on unlimited websites": [
+        "استخدم على مواقع غير محدودة"
+      ],
+      "Item text\u0004WooCommerce integration": [
+        "التكامل مع ووكومرس"
+      ],
+      "Item text\u0004Design library": [
+        "مكتبة التصميم"
+      ],
+      "Item text\u0004No bloat": [
+        "لا يوجد انتفاخ"
+      ],
+      "Item text\u0004Get Breakdance": [
+        "احصل على البريك دانس"
+      ],
+      "Item text\u0004After Title": [
+        "بعد العنوان"
+      ],
+      "Item text\u0004After Features": [
+        "بعد الميزات"
+      ],
+      "Item text\u0004Prepend": [
+        "إضافة مسبقة"
+      ],
+      "Item text\u0004Append": [
+        "إلحاق"
+      ],
+      "Preset section label\u0004Label": [
+        "ملصق"
+      ],
+      "Preset section label\u0004Before Price": [
+        "قبل السعر"
+      ],
+      "Preset section label\u0004Price": [
+        "سعر"
+      ],
+      "Preset section label\u0004Currency": [
+        "عملة"
+      ],
+      "Preset section label\u0004Fractional Part": [
+        "الجزء الكسري"
+      ],
+      "Preset section label\u0004Period": [
+        "فترة"
+      ],
+      "Preset section label\u0004Description": [
+        "وصف"
+      ],
+      "Preset section label\u0004Features": [
+        "سمات"
+      ],
+      "Element name\u0004Checkout Coupon Form": [
+        "نموذج قسيمة الخروج"
+      ],
+      "Element name\u0004Cart Cross Sells": [
+        "عربة التسوق المتقاطعة"
+      ],
+      "Preset section label\u0004Cross Sells": [
+        "بيع الصليب"
+      ],
+      "Element name\u0004Star Rating": [
+        "تصنيف النجوم"
+      ],
+      "Control label\u0004Stars": [
+        "النجوم"
+      ],
+      "Control label\u0004Stars Color": [
+        "لون النجوم"
+      ],
+      "Control label\u0004Unmarked Color": [
+        "لون غير محدد"
+      ],
+      "Control label\u0004Label": [
+        "ملصق"
+      ],
+      "Control label\u0004Label Position": [
+        "موقف التسمية"
+      ],
+      "Control label\u0004Vertical Layout": [
+        "التخطيط العمودي"
+      ],
+      "Control label\u0004Label Spacing": [
+        "تباعد التسمية"
+      ],
+      "Control label\u0004Components": [
+        "عناصر"
+      ],
+      "Control label\u0004Rating": [
+        "تصنيف"
+      ],
+      "Control label\u0004Icon Type": [
+        "نوع الأيقونة"
+      ],
+      "Control label\u0004Show Label": [
+        "إظهار التسمية"
+      ],
+      "Control label\u0004Label Text": [
+        "نص التسمية"
+      ],
+      "Item text\u0004One": [
+        "واحد"
+      ],
+      "Item text\u0004Two": [
+        "اثنين"
+      ],
+      "Item text\u0004Three": [
+        "ثلاثة"
+      ],
+      "Item text\u0004Four": [
+        "أربعة"
+      ],
+      "Item text\u0004Five": [
+        "خمسة"
+      ],
+      "Item text\u0004Six": [
+        "ستة"
+      ],
+      "Item text\u0004Seven": [
+        "سبعة"
+      ],
+      "Item text\u0004Eight": [
+        "ثمانية"
+      ],
+      "Item text\u0004Nine": [
+        "تسعة"
+      ],
+      "Item text\u0004Ten": [
+        "عشرة"
+      ],
+      "Item text\u0004Font Awesome": [
+        "الخط رائع"
+      ],
+      "Item text\u0004Icon Moon": [
+        "أيقونة القمر"
+      ],
+      "Preset section label\u0004Label Typography": [
+        "طباعة الملصقات"
+      ],
+      "Element name\u0004Shop Page": [
+        "صفحة المتجر"
+      ],
+      "Control label\u0004Products List": [
+        "قائمة المنتجات"
+      ],
+      "Control label\u0004Result Count": [
+        "عدد النتائج"
+      ],
+      "Control label\u0004Above Products": [
+        "فوق المنتجات"
+      ],
+      "Control label\u0004Above Pagination": [
+        "فوق ترقيم الصفحات"
+      ],
+      "Preset section label\u0004Elements": [
+        "عناصر"
+      ],
+      "Preset section label\u0004Product Wrapper": [
+        "غلاف المنتج"
+      ],
+      "Element name\u0004Menu Dropdown": [
+        "القائمة المنسدلة"
+      ],
+      "Control label\u0004Disable Desktop Styles At": [
+        "تعطيل أنماط سطح المكتب في"
+      ],
+      "Control label\u0004Alert": [
+        "يُحذًِر"
+      ],
+      "Control label\u0004Columns": [
+        "أعمدة"
+      ],
+      "Control label\u0004URL": [
+        "URL"
+      ],
+      "Control label\u0004Icon or Image": [
+        "أيقونة أو صورة"
+      ],
+      "Control label\u0004Show Another Section": [
+        "عرض قسم آخر"
+      ],
+      "Control label\u0004Columns 2": [
+        "الأعمدة 2"
+      ],
+      "Item text\u0004Prebuilt checkout": [
+        "الخروج المعدة مسبقا"
+      ],
+      "Item text\u0004Libraries and SDKs": [
+        "المكتبات وSDKs"
+      ],
+      "Item text\u0004Plugins": [
+        "الإضافات"
+      ],
+      "Item text\u0004Code samples": [
+        "عينات التعليمات البرمجية"
+      ],
+      "Item text\u0004Accept online payments": [
+        "قبول المدفوعات عبر الإنترنت"
+      ],
+      "Item text\u0004Manage subscriptions": [
+        "إدارة الاشتراكات"
+      ],
+      "Item text\u0004Send payments": [
+        "إرسال المدفوعات"
+      ],
+      "Item text\u0004Set up in-person payments": [
+        "قم بإعداد المدفوعات الشخصية"
+      ],
+      "Item text\u0004Link": [
+        "وصلة"
+      ],
+      "Preset section label\u0004Links": [
+        "روابط"
+      ],
+      "Preset section label\u0004Columns": [
+        "أعمدة"
+      ],
+      "Preset section label\u0004Additional Section": [
+        "قسم إضافي"
+      ],
+      "Preset section label\u0004Graphic": [
+        "رسم بياني"
+      ],
+      "Element name\u0004Advanced Slider": [
+        "شريط التمرير المتقدم"
+      ],
+      "Control label\u0004Slides": [
+        "الشرائح"
+      ],
+      "Control label\u0004Add Slide": [
+        "أضف شريحة"
+      ],
+      "Item text\u0004Put anything you want in a slide.": [
+        "ضع أي شيء تريده في الشريحة."
+      ],
+      "Item text\u0004Advanced Slider": [
+        "شريط التمرير المتقدم"
+      ],
+      "Preset section label\u0004Slider": [
+        "المنزلق"
+      ],
+      "Element name\u0004Accordion Content": [
+        "محتوى الأكورديون"
+      ],
+      "Control label\u0004Title Tag": [
+        "علامة العنوان"
+      ],
+      "Element name\u0004Product Reviews": [
+        "مراجعات المنتج"
+      ],
+      "Control label\u0004Avatar": [
+        "الصورة الرمزية"
+      ],
+      "Control label\u0004Hide Heading": [
+        "إخفاء العنوان"
+      ],
+      "Control label\u0004Around Review": [
+        "حول المراجعة"
+      ],
+      "Control label\u0004After Stars": [
+        "بعد النجوم"
+      ],
+      "Control label\u0004After Meta": [
+        "بعد ميتا"
+      ],
+      "Control label\u0004After Avatar": [
+        "بعد الصورة الرمزية"
+      ],
+      "Control label\u0004After Reviews": [
+        "بعد المراجعات"
+      ],
+      "Control label\u0004After Form Heading": [
+        "بعد عنوان النموذج"
+      ],
+      "Preset section label\u0004Heading": [
+        "عنوان"
+      ],
+      "Preset section label\u0004Username": [
+        "اسم المستخدم"
+      ],
+      "Preset section label\u0004Meta": [
+        "ميتا"
+      ],
+      "Preset section label\u0004Review": [
+        "مراجعة"
+      ],
+      "Preset section label\u0004Form Heading": [
+        "عنوان النموذج"
+      ],
+      "Element name\u0004Tab Content": [
+        "محتوى علامة التبويب"
+      ],
+      "Item text\u0004Tab Content": [
+        "محتوى علامة التبويب"
+      ],
+      "Element name\u0004WooGlobalStyler": [
+        "WooGlobalStyler"
+      ],
+      "Control label\u0004Colors": [
+        "الألوان"
+      ],
+      "Control label\u0004Borders": [
+        "الحدود"
+      ],
+      "Control label\u0004Text On Brand": [
+        "النص على العلامة التجارية"
+      ],
+      "Control label\u0004Weights": [
+        "الأوزان"
+      ],
+      "Control label\u0004Normal": [
+        "طبيعي"
+      ],
+      "Control label\u0004Medium": [
+        "واسطة"
+      ],
+      "Control label\u0004Heavy": [
+        "ثقيل"
+      ],
+      "Control label\u0004Sizes": [
+        "الأحجام"
+      ],
+      "Control label\u0004Small": [
+        "صغير"
+      ],
+      "Control label\u0004Font": [
+        "الخط"
+      ],
+      "Control label\u0004Standard": [
+        "معيار"
+      ],
+      "Control label\u0004Large": [
+        "كبير"
+      ],
+      "Control label\u0004Extra Large": [
+        "كبير جدا"
+      ],
+      "Control label\u0004Buttons & Links": [
+        "الأزرار والروابط"
+      ],
+      "Control label\u0004Text Links": [
+        "روابط نصية"
+      ],
+      "Control label\u0004Disabled": [
+        "عاجز"
+      ],
+      "Control label\u0004Other": [
+        "آخر"
+      ],
+      "Control label\u0004Base": [
+        "قاعدة"
+      ],
+      "Control label\u0004Extra Small": [
+        "صغير جدًا"
+      ],
+      "Control label\u0004Big": [
+        "كبير"
+      ],
+      "Control label\u0004Notices": [
+        "إشعارات"
+      ],
+      "Control label\u0004Padding Left": [
+        "الحشو اليسار"
+      ],
+      "Control label\u0004Info": [
+        "معلومات"
+      ],
+      "Control label\u0004Error": [
+        "خطأ"
+      ],
+      "Control label\u0004Success": [
+        "نجاح"
+      ],
+      "Control label\u0004Font Size": [
+        "حجم الخط"
+      ],
+      "Control label\u0004Font Weight": [
+        "وزن الخط"
+      ],
+      "Control label\u0004Horizontal Padding": [
+        "الحشو الأفقي"
+      ],
+      "Control label\u0004Ratings": [
+        "التقييمات"
+      ],
+      "Control label\u0004Star Color": [
+        "لون النجمة"
+      ],
+      "Control label\u0004Star Size": [
+        "حجم النجمة"
+      ],
+      "Control label\u0004Product Images": [
+        "صور المنتج"
+      ],
+      "Control label\u0004Widgets": [
+        "الحاجيات"
+      ],
+      "Control label\u0004Chip Background": [
+        "خلفية رقاقة"
+      ],
+      "Control label\u0004Chip Text": [
+        "نص رقاقة"
+      ],
+      "Control label\u0004Wrappers": [
+        "مغلفة"
+      ],
+      "Control label\u0004Tables": [
+        "الجداول"
+      ],
+      "Control label\u0004Header": [
+        "رأس"
+      ],
+      "Control label\u0004Products Per Row": [
+        "المنتجات لكل صف"
+      ],
+      "Control label\u0004Products Per Page": [
+        "المنتجات لكل صفحة"
+      ],
+      "Control label\u0004Excerpt": [
+        "مقتطفات"
+      ],
+      "Control label\u0004Categories": [
+        "فئات"
+      ],
+      "Control label\u0004Quantity Input": [
+        "إدخال الكمية"
+      ],
+      "Control label\u0004Payment Box": [
+        "صندوق الدفع"
+      ],
+      "Control label\u0004Quicklook": [
+        "نظرة سريعة"
+      ],
+      "Control label\u0004Enable": [
+        "يُمكَِن"
+      ],
+      "Control label\u0004Show Arrows": [
+        "إظهار السهام"
+      ],
+      "Control label\u0004Redirect On Add": [
+        "إعادة التوجيه عند الإضافة"
+      ],
+      "Control label\u0004Hide Label": [
+        "إخفاء التسمية"
+      ],
+      "Control label\u0004Backdrop": [
+        "الخلفية"
+      ],
+      "Control label\u0004Modal": [
+        "مشروط"
+      ],
+      "Control label\u0004Overlay Color": [
+        "لون التراكب"
+      ],
+      "Control label\u0004Arrows": [
+        "السهام"
+      ],
+      "Control label\u0004Misc": [
+        "متنوعات"
+      ],
+      "Control label\u0004Remove Item From Cart": [
+        "إزالة العنصر من سلة التسوق"
+      ],
+      "Control label\u0004Select2 Active Item": [
+        "اختر 2 عنصر نشط"
+      ],
+      "Control label\u0004Gallery Zoom Icon Shadow": [
+        "معرض تكبير أيقونة الظل"
+      ],
+      "Control label\u0004Variation Swatches": [
+        "عينات التباين"
+      ],
+      "Control label\u0004All Swatches": [
+        "جميع العينات"
+      ],
+      "Control label\u0004Selected": [
+        "مختارة"
+      ],
+      "Control label\u0004Cross Color": [
+        "اللون المتقاطع"
+      ],
+      "Control label\u0004Image and Color Swatches": [
+        "عينات الصور والألوان"
+      ],
+      "Control label\u0004After Label": [
+        "بعد التسمية"
+      ],
+      "Control label\u0004Between Items": [
+        "بين العناصر"
+      ],
+      "Control label\u0004Between Options": [
+        "بين الخيارات"
+      ],
+      "Item text\u0004Enable": [
+        "يُمكَِن"
+      ],
+      "Item text\u0004Product Page": [
+        "صفحة المنتج"
+      ],
+      "Item text\u0004Cart": [
+        "عربة"
+      ],
+      "Preset section label\u0004Primary Buttons": [
+        "الأزرار الأساسية"
+      ],
+      "Preset section label\u0004Secondary Buttons": [
+        "الأزرار الثانوية"
+      ],
+      "Preset section label\u0004Destructive Buttons": [
+        "الأزرار المدمرة"
+      ],
+      "Preset section label\u0004Forms": [
+        "النماذج"
+      ],
+      "Element name\u0004Facebook Like Button": [
+        "الفيسبوك مثل زر"
+      ],
+      "Control label\u0004Action Type": [
+        "نوع الإجراء"
+      ],
+      "Control label\u0004Share Button": [
+        "زر المشاركة"
+      ],
+      "Item text\u0004Standard": [
+        "معيار"
+      ],
+      "Item text\u0004Like": [
+        "يحب"
+      ],
+      "Item text\u0004Recommend": [
+        "يوصي"
+      ],
+      "Element name\u0004Progress Bar": [
+        "شريط التقدم"
+      ],
+      "Control label\u0004Disable Stripes": [
+        "تعطيل المشارب"
+      ],
+      "Control label\u0004Vertical Padding": [
+        "الحشو العمودي"
+      ],
+      "Control label\u0004Animation Stripes": [
+        "خطوط الرسوم المتحركة"
+      ],
+      "Control label\u0004Animation Duration": [
+        "مدة الرسوم المتحركة"
+      ],
+      "Control label\u0004Animate Progress On Scroll": [
+        "تحريك التقدم في التمرير"
+      ],
+      "Control label\u0004Animate Once": [
+        "تحريك مرة واحدة"
+      ],
+      "Control label\u0004Title Text": [
+        "نص العنوان"
+      ],
+      "Control label\u0004Hide Percentage": [
+        "إخفاء النسبة المئوية"
+      ],
+      "Preset section label\u0004Percent Counter": [
+        "عداد النسبة المئوية"
+      ],
+      "Element name\u0004Checkout Shipping Form": [
+        "نموذج شحن الخروج"
+      ],
+      "Preset section label\u0004Shipping Address": [
+        "عنوان الشحن"
+      ],
+      "Element name\u0004Product Rating": [
+        "تقييم المنتج"
+      ],
+      "Control label\u0004Stacking": [
+        "التراص"
+      ],
+      "Preset section label\u0004Link": [
+        "وصلة"
+      ],
+      "Element name\u0004Shortcode": [
+        "الرمز القصير"
+      ],
+      "Control label\u0004Shortcode": [
+        "الرمز القصير"
+      ],
+      "Control label\u0004Full Shortcode": [
+        "الرمز القصير الكامل"
+      ],
+      "Element name\u0004Product Cart Button": [
+        "زر سلة المنتجات"
+      ],
+      "Control label\u0004Button Fills Container": [
+        "زر يملأ الحاوية"
+      ],
+      "Control label\u0004Variable": [
+        "عامل"
+      ],
+      "Control label\u0004Grouped": [
+        "مجمعة"
+      ],
+      "Control label\u0004Vertical Spacing": [
+        "التباعد العمودي"
+      ],
+      "Control label\u0004Quantity Width": [
+        "عرض الكمية"
+      ],
+      "Control label\u0004After Dropdown": [
+        "بعد القائمة المنسدلة"
+      ],
+      "Control label\u0004After Stock Qty": [
+        "بعد الكمية المخزون"
+      ],
+      "Control label\u0004After Notice": [
+        "بعد إشعار"
+      ],
+      "Control label\u0004Before Button": [
+        "قبل الزر"
+      ],
+      "Control label\u0004Variation Reset": [
+        "إعادة تعيين التباين"
+      ],
+      "Control label\u0004Table Separator": [
+        "فاصل الجدول"
+      ],
+      "Control label\u0004Hide Table Separator": [
+        "إخفاء فاصل الجدول"
+      ],
+      "Preset section label\u0004Notices": [
+        "إشعارات"
+      ],
+      "Preset section label\u0004Stock Quantity": [
+        "كمية المخزون"
+      ],
+      "Preset section label\u0004Grouped Product Title": [
+        "عنوان المنتج المجمع"
+      ],
+      "Element name\u0004Product Stock": [
+        "مخزون المنتج"
+      ],
+      "Preset section label\u0004In Stock": [
+        "في الأوراق المالية"
+      ],
+      "Element name\u0004Gallery": [
+        "معرض"
+      ],
+      "Control label\u0004Row Height": [
+        "ارتفاع الصف"
+      ],
+      "Control label\u0004Vertical At": [
+        "عمودي عند"
+      ],
+      "Control label\u0004Slider Images": [
+        "صور المنزلق"
+      ],
+      "Control label\u0004Images": [
+        "الصور"
+      ],
+      "Control label\u0004Hover Animation": [
+        "تحوم الرسوم المتحركة"
+      ],
+      "Control label\u0004Captions": [
+        "التسميات التوضيحية"
+      ],
+      "Control label\u0004Show Captions": [
+        "إظهار التسميات التوضيحية"
+      ],
+      "Control label\u0004Hide below": [
+        "إخفاء أدناه"
+      ],
+      "Control label\u0004Caption": [
+        "التسمية التوضيحية"
+      ],
+      "Control label\u0004Galleries": [
+        "المعارض"
+      ],
+      "Control label\u0004Filter Bar": [
+        "شريط التصفية"
+      ],
+      "Control label\u0004All Filter": [
+        "كل التصفية"
+      ],
+      "Control label\u0004All Label": [
+        "كل التسمية"
+      ],
+      "Control label\u0004New Tab": [
+        "علامة تبويب جديدة"
+      ],
+      "Control label\u0004Disable Srcset & Sizes": [
+        "تعطيل Srcset والأحجام"
+      ],
+      "Item text\u0004Grid": [
+        "شبكة"
+      ],
+      "Item text\u0004Masonry": [
+        "البناء"
+      ],
+      "Item text\u0004Justified": [
+        "مبرر"
+      ],
+      "Item text\u0004fTop": [
+        "fTop"
+      ],
+      "Item text\u0004center": [
+        "مركز"
+      ],
+      "Item text\u0004Slide Bottom": [
+        "الشريحة السفلية"
+      ],
+      "Item text\u0004Never": [
+        "أبداً"
+      ],
+      "Item text\u0004On Hover": [
+        "على التحويم"
+      ],
+      "Item text\u0004Stretch": [
+        "تمتد"
+      ],
+      "Item text\u0004Single": [
+        "أعزب"
+      ],
+      "Item text\u0004Multiple": [
+        "عديد"
+      ],
+      "Item text\u0004Lightbox": [
+        "العرض المبسط"
+      ],
+      "Item text\u0004Media File": [
+        "ملف الوسائط"
+      ],
+      "Item text\u0004Eager: loads immediately": [
+        "مشتاق : يحمّل على الفور"
+      ],
+      "Item text\u0004Lazy: loads on scroll": [
+        "كسول: الأحمال على التمرير"
+      ],
+      "Item text\u0004Auto: browser decides what is best": [
+        "تلقائي: المتصفح يقرر ما هو الأفضل"
+      ],
+      "Preset section label\u0004Filters": [
+        "المرشحات"
+      ],
+      "Preset section label\u0004Lightbox": [
+        "العرض المبسط"
+      ],
+      "Element name\u0004Heading": [
+        "عنوان"
+      ],
+      "Control label\u0004Tags": [
+        "العلامات"
+      ],
+      "Element name\u0004Author": [
+        "مؤلف"
+      ],
+      "Control label\u0004Image Position": [
+        "موضع الصورة"
+      ],
+      "Control label\u0004Top At": [
+        "أعلى في"
+      ],
+      "Control label\u0004After Image": [
+        "بعد الصورة"
+      ],
+      "Control label\u0004After Name": [
+        "بعد الاسم"
+      ],
+      "Control label\u0004After Biography": [
+        "بعد السيرة الذاتية"
+      ],
+      "Control label\u0004Biography": [
+        "سيرة"
+      ],
+      "Control label\u0004All Posts Link": [
+        "رابط جميع المشاركات"
+      ],
+      "Control label\u0004All Posts Link Text": [
+        "جميع المشاركات نص الارتباط"
+      ],
+      "Control label\u0004Website Link": [
+        "رابط الموقع"
+      ],
+      "Control label\u0004Website Link Text": [
+        "نص رابط الموقع"
+      ],
+      "Control label\u0004Name HTML Tag": [
+        "اسم علامة HTML"
+      ],
+      "Control label\u0004Link On Name & Image": [
+        "الرابط على الاسم والصورة"
+      ],
+      "Item text\u0004left": [
+        "غادر"
+      ],
+      "Item text\u0004right": [
+        "يمين"
+      ],
+      "Item text\u0004Div": [
+        "شعبة"
+      ],
+      "Item text\u0004Website": [
+        "موقع إلكتروني"
+      ],
+      "Item text\u0004All Posts": [
+        "جميع المشاركات"
+      ],
+      "Preset section label\u0004All Posts": [
+        "جميع المشاركات"
+      ],
+      "Preset section label\u0004Website": [
+        "موقع إلكتروني"
+      ],
+      "Preset section label\u0004Name": [
+        "اسم"
+      ],
+      "Preset section label\u0004Biography": [
+        "سيرة"
+      ],
+      "Element name\u0004Image Box": [
+        "صندوق الصور"
+      ],
+      "Control label\u0004Content Position": [
+        "موقف المحتوى"
+      ],
+      "Control label\u0004Content Padding Only": [
+        "حشوة المحتوى فقط"
+      ],
+      "Control label\u0004Object Fit": [
+        "ملاءمة الكائن"
+      ],
+      "Control label\u0004Object Position": [
+        "موضع الكائن"
+      ],
+      "Control label\u0004Vertical Alignment": [
+        "المحاذاة العمودية"
+      ],
+      "Control label\u0004Below Title": [
+        "تحت العنوان"
+      ],
+      "Control label\u0004Above Button": [
+        "فوق الزر"
+      ],
+      "Control label\u0004Image Options": [
+        "خيارات الصورة"
+      ],
+      "Item text\u0004Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Labore et dolore magna aliqua."
+      ],
+      "Item text\u0004Learn More": [
+        "يتعلم أكثر"
+      ],
+      "Item text\u0004Cover": [
+        "غطاء"
+      ],
+      "Item text\u0004Contain": [
+        "يحتوي"
+      ],
+      "Item text\u0004Fill": [
+        "يملأ"
+      ],
+      "Element name\u0004Cart Totals": [
+        "إجماليات سلة التسوق"
+      ],
+      "Preset section label\u0004Totals": [
+        "المجاميع"
+      ],
+      "Element name\u0004Countdown Timer": [
+        "مؤقت العد التنازلي"
+      ],
+      "Control label\u0004Timer": [
+        "الموقت"
+      ],
+      "Control label\u0004Divider Width": [
+        "عرض المقسم"
+      ],
+      "Control label\u0004Above Label": [
+        "فوق التسمية"
+      ],
+      "Control label\u0004Divider": [
+        "مقسم"
+      ],
+      "Control label\u0004Digits": [
+        "أرقام"
+      ],
+      "Control label\u0004Default": [
+        "تقصير"
+      ],
+      "Control label\u0004Donut": [
+        "كعكة محلاة"
+      ],
+      "Control label\u0004Line": [
+        "خط"
+      ],
+      "Control label\u0004Line Width": [
+        "عرض الخط"
+      ],
+      "Control label\u0004Flip": [
+        "نقف"
+      ],
+      "Control label\u0004Timer Type": [
+        "نوع الموقت"
+      ],
+      "Control label\u0004Timezone": [
+        "المنطقة الزمنية"
+      ],
+      "Control label\u0004Year": [
+        "سنة"
+      ],
+      "Control label\u0004Month": [
+        "شهر"
+      ],
+      "Control label\u0004Hours": [
+        "ساعات"
+      ],
+      "Control label\u0004Minutes": [
+        "دقائق"
+      ],
+      "Control label\u0004Seconds": [
+        "ثواني"
+      ],
+      "Control label\u0004Time Units": [
+        "وحدات الوقت"
+      ],
+      "Control label\u0004Hide": [
+        "يخفي"
+      ],
+      "Control label\u0004Singular": [
+        "المفرد"
+      ],
+      "Control label\u0004Plural": [
+        "جمع"
+      ],
+      "Control label\u0004Expire": [
+        "تنتهي"
+      ],
+      "Control label\u0004Expire Type": [
+        "نوع انتهاء الصلاحية"
+      ],
+      "Control label\u0004Hide timer when expired": [
+        "إخفاء الموقت عند انتهاء صلاحيته"
+      ],
+      "Control label\u0004Message": [
+        "رسالة"
+      ],
+      "Control label\u0004Redirect": [
+        "إعادة التوجيه"
+      ],
+      "Control label\u0004Show Message Preview": [
+        "إظهار معاينة الرسالة"
+      ],
+      "Item text\u0004Line": [
+        "خط"
+      ],
+      "Item text\u0004Colon": [
+        "القولون"
+      ],
+      "Item text\u0004Donut": [
+        "كعكة محلاة"
+      ],
+      "Item text\u0004Flip": [
+        "نقف"
+      ],
+      "Item text\u0004Fixed": [
+        "مُثَبَّت"
+      ],
+      "Item text\u0004Evergreen": [
+        "دائمة الخضرة"
+      ],
+      "Item text\u0004User Local": [
+        "المستخدم المحلي"
+      ],
+      "Item text\u0004(UTC-11:00) Midway Island": [
+        "(UTC-11:00) جزيرة ميدواي"
+      ],
+      "Item text\u0004(UTC-11:00) Samoa": [
+        "(UTC-11:00) ساموا"
+      ],
+      "Item text\u0004(UTC-10:00) Hawaii": [
+        "(UTC-10:00) هاواي"
+      ],
+      "Item text\u0004(UTC-09:00) Alaska": [
+        "(UTC-09:00) ألاسكا"
+      ],
+      "Item text\u0004(UTC-08:00) Pacific Time (US & Canada)": [
+        "(UTC-08:00) توقيت المحيط الهادئ (الولايات المتحدة وكندا)"
+      ],
+      "Item text\u0004(UTC-08:00) Tijuana": [
+        "(UTC-08:00) تيخوانا"
+      ],
+      "Item text\u0004(UTC-07:00) Arizona": [
+        "(UTC-07:00) أريزونا"
+      ],
+      "Item text\u0004(UTC-07:00) Chihuahua": [
+        "(UTC-07:00) تشيهواهوا"
+      ],
+      "Item text\u0004(UTC-07:00) La Paz": [
+        "(UTC-07:00) لاباز"
+      ],
+      "Item text\u0004(UTC-07:00) Mazatlan": [
+        "(UTC-07:00) مازاتلان"
+      ],
+      "Item text\u0004(UTC-07:00) Mountain Time (US & Canada)": [
+        "(UTC-07:00) التوقيت الجبلي (الولايات المتحدة وكندا)"
+      ],
+      "Item text\u0004(UTC-06:00) Central America": [
+        "(UTC-06:00) أمريكا الوسطى"
+      ],
+      "Item text\u0004(UTC-06:00) Central Time (US & Canada)": [
+        "(UTC-06:00) التوقيت المركزي (الولايات المتحدة وكندا)"
+      ],
+      "Item text\u0004UTC-06:00) Guadalajara": [
+        "UTC-06:00) غوادالاخارا"
+      ],
+      "Item text\u0004(UTC-06:00) Mexico City": [
+        "(UTC-06:00) مكسيكو سيتي"
+      ],
+      "Item text\u0004(UTC-06:00) Monterrey": [
+        "(UTC-06:00) مونتيري"
+      ],
+      "Item text\u0004(UTC-06:00) Saskatchewan": [
+        "(UTC-06:00) ساسكاتشوان"
+      ],
+      "Item text\u0004(UTC-05:00) Bogota": [
+        "(UTC-05:00) بوغوتا"
+      ],
+      "Item text\u0004(UTC-05:00) Eastern Time (US & Canada)": [
+        "(UTC-05:00) التوقيت الشرقي (الولايات المتحدة وكندا)"
+      ],
+      "Item text\u0004(UTC-05:00) Indiana (East)": [
+        "(UTC-05:00) إنديانا (شرق)"
+      ],
+      "Item text\u0004(UTC-05:00) Lima": [
+        "(UTC-05:00) ليما"
+      ],
+      "Item text\u0004(UTC-05:00) Quito": [
+        "(UTC-05:00) كيتو"
+      ],
+      "Item text\u0004(UTC-04:00) Atlantic Time (Canada)": [
+        "(UTC-04:00) توقيت المحيط الأطلسي (كندا)"
+      ],
+      "Item text\u0004(UTC-04:30) Caracas": [
+        "(UTC-04:30) كراكاس"
+      ],
+      "Item text\u0004(UTC-04:00) La Paz": [
+        "(UTC-04:00) لاباز"
+      ],
+      "Item text\u0004(UTC-04:00) Santiago": [
+        "(UTC-04:00) سانتياغو"
+      ],
+      "Item text\u0004(UTC-03:30) Newfoundland": [
+        "(UTC-03:30) نيوفاوندلاند"
+      ],
+      "Item text\u0004(UTC-03:00) Brasilia": [
+        "(UTC-03:00) برازيليا"
+      ],
+      "Item text\u0004(UTC-03:00) Buenos Aires": [
+        "(UTC-03:00) بوينس آيرس"
+      ],
+      "Item text\u0004UTC-03:00) Georgetown": [
+        "UTC-03:00) جورج تاون"
+      ],
+      "Item text\u0004(UTC-03:00) Greenland": [
+        "(UTC-03:00) جرينلاند"
+      ],
+      "Item text\u0004(UTC-02:00) Mid-Atlantic": [
+        "(UTC-02:00) وسط المحيط الأطلسي"
+      ],
+      "Item text\u0004(UTC-01:00) Azores": [
+        "(UTC-01:00) جزر الأزور"
+      ],
+      "Item text\u0004(UTC-01:00) Cape Verde Is.": [
+        "(UTC-01:00) جزيرة الرأس الأخضر."
+      ],
+      "Item text\u0004(UTC+00:00) Casablanca": [
+        "(UTC+00:00) الدار البيضاء"
+      ],
+      "Item text\u0004(UTC+00:00) Edinburgh": [
+        "(UTC+00:00) إدنبره"
+      ],
+      "Item text\u0004(UTC+00:00) Greenwich Mean Time : Dublin": [
+        "(UTC+00:00) توقيت غرينتش: دبلن"
+      ],
+      "Item text\u0004(UTC+00:00) Lisbon": [
+        "(UTC+00:00) لشبونة"
+      ],
+      "Item text\u0004(UTC+00:00) London": [
+        "(UTC+00:00) لندن"
+      ],
+      "Item text\u0004UTC+00:00) Monrovia": [
+        "UTC+00:00) مونروفيا"
+      ],
+      "Item text\u0004UTC ": [
+        "UTC "
+      ],
+      "Item text\u0004(UTC+01:00) Amsterdam": [
+        "(UTC+01:00) أمستردام"
+      ],
+      "Item text\u0004(UTC+01:00) Belgrade": [
+        "(UTC+01:00) بلغراد"
+      ],
+      "Item text\u0004(UTC+01:00) Berlin": [
+        "(UTC+01:00) برلين"
+      ],
+      "Item text\u0004(UTC+01:00) Bern": [
+        "(UTC+01:00) برن"
+      ],
+      "Item text\u0004(UTC+01:00) Bratislava": [
+        "(UTC+01:00) براتيسلافا"
+      ],
+      "Item text\u0004(UTC+01:00) Brussels": [
+        "(UTC+01:00) بروكسل"
+      ],
+      "Item text\u0004(UTC+01:00) Budapest": [
+        "(UTC+01:00) بودابست"
+      ],
+      "Item text\u0004(UTC+01:00) Copenhagen": [
+        "(UTC+01:00) كوبنهاغن"
+      ],
+      "Item text\u0004(UTC+01:00) Ljubljana": [
+        "(UTC+01:00) ليوبليانا"
+      ],
+      "Item text\u0004(UTC+01:00) Madrid": [
+        "(UTC+01:00) مدريد"
+      ],
+      "Item text\u0004(UTC+01:00) Paris": [
+        "(UTC+01:00) باريس"
+      ],
+      "Item text\u0004(UTC+01:00) Prague": [
+        "(UTC+01:00) براغ"
+      ],
+      "Item text\u0004(UTC+01:00) Rome": [
+        "(UTC+01:00) روما"
+      ],
+      "Item text\u0004UTC+01:00) Sarajevo": [
+        "UTC+01:00) سراييفو"
+      ],
+      "Item text\u0004(UTC+01:00) Skopje": [
+        "(UTC+01:00) سكوبيي"
+      ],
+      "Item text\u0004(UTC+01:00) Stockholm": [
+        "(UTC+01:00) ستوكهولم"
+      ],
+      "Item text\u0004UTC+01:00) Vienna": [
+        "UTC+01:00) فيينا"
+      ],
+      "Item text\u0004(UTC+01:00) Warsaw": [
+        "(UTC+01:00) وارسو"
+      ],
+      "Item text\u0004(UTC+01:00) West Central Africa": [
+        "(UTC+01:00) غرب وسط أفريقيا"
+      ],
+      "Item text\u0004(UTC+01:00) Zagreb": [
+        "(UTC+01:00) زغرب"
+      ],
+      "Item text\u0004(UTC+02:00) Athens": [
+        "(UTC+02:00) أثينا"
+      ],
+      "Item text\u0004(UTC+02:00) Bucharest": [
+        "(UTC+02:00) بوخارست"
+      ],
+      "Item text\u0004(UTC+02:00) Cairo": [
+        "(UTC+02:00) القاهرة"
+      ],
+      "Item text\u0004(UTC+02:00) Harare": [
+        "(UTC+02:00) هراري"
+      ],
+      "Item text\u0004(UTC+02:00) Helsinki": [
+        "(UTC+02:00) هلسنكي"
+      ],
+      "Item text\u0004(UTC+02:00) Istanbul": [
+        "(UTC+02:00) اسطنبول"
+      ],
+      "Item text\u0004(UTC+02:00) Jerusalem": [
+        "(UTC+02:00) القدس"
+      ],
+      "Item text\u0004(UTC+02:00) Kyiv": [
+        "(UTC+02:00) كييف"
+      ],
+      "Item text\u0004(UTC+02:00) Pretoria": [
+        "(UTC+02:00) بريتوريا"
+      ],
+      "Item text\u0004(UTC+02:00) Riga": [
+        "(UTC+02:00) ريغا"
+      ],
+      "Item text\u0004UTC+02:00) Sofia": [
+        "UTC+02:00) صوفيا"
+      ],
+      "Item text\u0004(UTC+02:00) Tallinn": [
+        "(UTC+02:00) تالين"
+      ],
+      "Item text\u0004(UTC+02:00) Vilnius": [
+        "(UTC+02:00) فيلنيوس"
+      ],
+      "Item text\u0004(UTC+03:00) Baghdad": [
+        "(UTC+03:00) بغداد"
+      ],
+      "Item text\u0004(UTC+03:00) Kuwait": [
+        "(UTC+03:00) الكويت"
+      ],
+      "Item text\u0004(UTC+03:00) Minsk": [
+        "(UTC+03:00) مينسك"
+      ],
+      "Item text\u0004(UTC+03:00) Nairobi": [
+        "(UTC+03:00) نيروبي"
+      ],
+      "Item text\u0004(UTC+03:00) Riyadh": [
+        "(UTC+03:00) الرياض"
+      ],
+      "Item text\u0004(UTC+03:00) Volgograd": [
+        "(UTC+03:00) فولغوغراد"
+      ],
+      "Item text\u0004(UTC+03:30) Tehran": [
+        "(UTC+03:30) طهران"
+      ],
+      "Item text\u0004(UTC+04:00) Abu Dhabi": [
+        "(UTC+04:00) أبو ظبي"
+      ],
+      "Item text\u0004(UTC+04:00) Baku": [
+        "(UTC+04:00) باكو"
+      ],
+      "Item text\u0004UTC+04:00) Moscow": [
+        "UTC+04:00) موسكو"
+      ],
+      "Item text\u0004UTC+04:00) Muscat": [
+        "UTC+04:00) مسقط"
+      ],
+      "Item text\u0004(UTC+04:00) St. Petersburg": [
+        "(UTC+04:00) سانت بطرسبرغ"
+      ],
+      "Item text\u0004(UTC+04:00) Tbilisi": [
+        "(UTC+04:00) تبليسي"
+      ],
+      "Item text\u0004(UTC+04:00) Yerevan": [
+        "(UTC+04:00) يريفان"
+      ],
+      "Item text\u0004(UTC+04:30) Kabul": [
+        "(UTC+04:30) كابول"
+      ],
+      "Item text\u0004(UTC+05:00) Islamabad": [
+        "(UTC+05:00) اسلام اباد"
+      ],
+      "Item text\u0004UTC+05:00) Karachi": [
+        "UTC+05:00) كراتشي"
+      ],
+      "Item text\u0004(UTC+05:00) Tashkent": [
+        "(UTC+05:00) طشقند"
+      ],
+      "Item text\u0004(UTC+05:30) Chennai": [
+        "(UTC+05:30) تشيناي"
+      ],
+      "Item text\u0004(UTC+05:30) Kolkata": [
+        "(UTC+05:30) كولكاتا"
+      ],
+      "Item text\u0004(UTC+05:30) Mumbai": [
+        "(UTC+05:30) مومباي"
+      ],
+      "Item text\u0004(UTC+05:30) New Delhi": [
+        "(UTC+05:30) نيودلهي"
+      ],
+      "Item text\u0004(UTC+05:30) Sri Jayawardenepura": [
+        "(UTC+05:30) سري جاياواردينبورا"
+      ],
+      "Item text\u0004(UTC+05:45) Kathmandu": [
+        "(UTC+05:45) كاتماندو"
+      ],
+      "Item text\u0004(UTC+06:00) Almaty": [
+        "(UTC+06:00) ألماتي"
+      ],
+      "Item text\u0004(UTC+06:00) Astana": [
+        "(UTC+06:00) أستانا"
+      ],
+      "Item text\u0004(UTC+06:00) Dhaka": [
+        "(UTC+06:00) دكا"
+      ],
+      "Item text\u0004(UTC+06:00) Ekaterinburg": [
+        "(UTC+06:00) ايكاترينبرج"
+      ],
+      "Item text\u0004(UTC+06:30) Rangoon": [
+        "(UTC+06:30) رانغون"
+      ],
+      "Item text\u0004(UTC+07:00) Bangkok": [
+        "(UTC+07:00) بانكوك"
+      ],
+      "Item text\u0004UTC+07:00) Hanoi": [
+        "UTC+07:00) هانوي"
+      ],
+      "Item text\u0004(UTC+07:00) Jakarta": [
+        "(UTC+07:00) جاكرتا"
+      ],
+      "Item text\u0004(UTC+07:00) Novosibirsk": [
+        "(UTC+07:00) نوفوسيبيرسك"
+      ],
+      "Item text\u0004(UTC+08:00) Beijing": [
+        "(UTC+08:00) بكين"
+      ],
+      "Item text\u0004(UTC+08:00) Chongqing": [
+        "(UTC+08:00) تشونغتشينغ"
+      ],
+      "Item text\u0004(UTC+08:00) Hong Kong": [
+        "(UTC+08:00) هونج كونج"
+      ],
+      "Item text\u0004(UTC+08:00) Krasnoyarsk": [
+        "(UTC+08:00) كراسنويارسك"
+      ],
+      "Item text\u0004(UTC+08:00) Kuala Lumpur": [
+        "(UTC+08:00) كوالالمبور"
+      ],
+      "Item text\u0004(UTC+08:00) Perth": [
+        "(UTC+08:00) بيرث"
+      ],
+      "Item text\u0004(UTC+08:00) Singapore": [
+        "(UTC+08:00) سنغافورة"
+      ],
+      "Item text\u0004(UTC+08:00) Taipei": [
+        "(UTC+08:00) تايبيه"
+      ],
+      "Item text\u0004(UTC+08:00) Ulaan Bataar": [
+        "(UTC+08:00) أولان باتار"
+      ],
+      "Item text\u0004(UTC+08:00) Urumqi": [
+        "(UTC+08:00) أورومتشي"
+      ],
+      "Item text\u0004(UTC+09:00) Irkutsk": [
+        "(UTC+09:00) إيركوتسك"
+      ],
+      "Item text\u0004(UTC+09:00) Osaka": [
+        "(UTC+09:00) أوساكا"
+      ],
+      "Item text\u0004UTC+09:00) Sapporo": [
+        "UTC+09:00) سابورو"
+      ],
+      "Item text\u0004(UTC+09:00) Seoul": [
+        "(UTC+09:00) سيول"
+      ],
+      "Item text\u0004(UTC+09:00) Tokyo": [
+        "(UTC+09:00) طوكيو"
+      ],
+      "Item text\u0004(UTC+09:30) Adelaide": [
+        "(UTC+09:30) أديلايد"
+      ],
+      "Item text\u0004(UTC+09:30) Darwin": [
+        "(UTC+09:30) داروين"
+      ],
+      "Item text\u0004(UTC+10:00) Brisbane": [
+        "(UTC+10:00) بريسبان"
+      ],
+      "Item text\u0004(UTC+10:00) Canberra": [
+        "(UTC+10:00) كانبيرا"
+      ],
+      "Item text\u0004(UTC+10:00) Guam": [
+        "(UTC+10:00) غوام"
+      ],
+      "Item text\u0004(UTC+10:00) Hobart": [
+        "(UTC+10:00) هوبارت"
+      ],
+      "Item text\u0004(UTC+10:00) Melbourne": [
+        "(UTC+10:00) ملبورن"
+      ],
+      "Item text\u0004(UTC+10:00) Port Moresby": [
+        "(UTC+10:00) بورت مورسبي"
+      ],
+      "Item text\u0004(UTC+10:00) Sydney": [
+        "(UTC+10:00) سيدني"
+      ],
+      "Item text\u0004(UTC+10:00) Yakutsk": [
+        "(UTC+10:00) ياكوتسك"
+      ],
+      "Item text\u0004(UTC+11:00) Vladivostok": [
+        "(UTC+11:00) فلاديفوستوك"
+      ],
+      "Item text\u0004(UTC+12:00) Auckland": [
+        "(UTC+12:00) أوكلاند"
+      ],
+      "Item text\u0004(UTC+12:00) Fiji": [
+        "(UTC+12:00) فيجي"
+      ],
+      "Item text\u0004UTC+12:00) International Date Line West": [
+        "UTC+12:00) خط التاريخ الدولي الغربي"
+      ],
+      "Item text\u0004(UTC+12:00) Kamchatka": [
+        "(UTC+12:00) كامتشاتكا"
+      ],
+      "Item text\u0004(UTC+12:00) Magadan": [
+        "(UTC+12:00) ماجادان"
+      ],
+      "Item text\u0004(UTC+12:00) Marshall Is.": [
+        "(UTC+12:00) جزيرة مارشال."
+      ],
+      "Item text\u0004(UTC+12:00) New Caledonia": [
+        "(UTC+12:00) كاليدونيا الجديدة"
+      ],
+      "Item text\u0004(UTC+12:00) Solomon Is.": [
+        "(UTC+12:00) جزيرة سليمان."
+      ],
+      "Item text\u0004UTC+12:00) Wellington": [
+        "UTC+12:00) ويلينغتون"
+      ],
+      "Item text\u0004(UTC+13:00) Nukualofa": [
+        "(UTC+13:00) نوكوالوفا"
+      ],
+      "Item text\u0004Jan": [
+        "يناير"
+      ],
+      "Item text\u0004Feb": [
+        "فبراير"
+      ],
+      "Item text\u0004Mar": [
+        "مارس"
+      ],
+      "Item text\u0004Apr": [
+        "أبريل"
+      ],
+      "Item text\u0004May": [
+        "يمكن"
+      ],
+      "Item text\u0004Jun": [
+        "يونيو"
+      ],
+      "Item text\u0004Jul": [
+        "يوليو"
+      ],
+      "Item text\u0004Aug": [
+        "أغسطس"
+      ],
+      "Item text\u0004Sep": [
+        "سبتمبر"
+      ],
+      "Item text\u0004Oct": [
+        "أكتوبر"
+      ],
+      "Item text\u0004Nov": [
+        "نوفمبر"
+      ],
+      "Item text\u0004Dec": [
+        "ديسمبر"
+      ],
+      "Item text\u0004Show Message": [
+        "إظهار الرسالة"
+      ],
+      "Item text\u0004Redirect": [
+        "إعادة التوجيه"
+      ],
+      "Preset section label\u0004Digits": [
+        "أرقام"
+      ],
+      "Preset section label\u0004Labels": [
+        "التسميات"
+      ],
+      "Preset section label\u0004Expired Message": [
+        "رسالة منتهية الصلاحية"
+      ],
+      "Element name\u0004Mini Cart": [
+        "عربة صغيرة"
+      ],
+      "Control label\u0004Borders Hover": [
+        "تحوم الحدود"
+      ],
+      "Control label\u0004Subtotal": [
+        "المجموع الفرعي"
+      ],
+      "Control label\u0004Quantity": [
+        "كمية"
+      ],
+      "Control label\u0004Overlap": [
+        "تداخل"
+      ],
+      "Control label\u0004Top Nudge": [
+        "دفعة أعلى"
+      ],
+      "Control label\u0004Right Nudge": [
+        "دفعة صحيحة"
+      ],
+      "Control label\u0004Cart": [
+        "عربة"
+      ],
+      "Control label\u0004Dropdown Position": [
+        "موقف القائمة المنسدلة"
+      ],
+      "Control label\u0004Sidebar Position": [
+        "موقف الشريط الجانبي"
+      ],
+      "Control label\u0004Full Screen At": [
+        "ملء الشاشة في"
+      ],
+      "Control label\u0004Full Screen Position": [
+        "موقف ملء الشاشة"
+      ],
+      "Control label\u0004Contents": [
+        "محتويات"
+      ],
+      "Control label\u0004Separator Color": [
+        "لون الفاصل"
+      ],
+      "Control label\u0004Separator Height": [
+        "ارتفاع الفاصل"
+      ],
+      "Control label\u0004Remove Icon": [
+        "إزالة الرمز"
+      ],
+      "Control label\u0004Actions": [
+        "الإجراءات"
+      ],
+      "Control label\u0004Continue Shopping": [
+        "مواصلة التسوق"
+      ],
+      "Control label\u0004After Top Bar": [
+        "بعد توب بار"
+      ],
+      "Control label\u0004After Contents": [
+        "بعد المحتويات"
+      ],
+      "Control label\u0004After Subtotal": [
+        "بعد المجموع الفرعي"
+      ],
+      "Control label\u0004After Button": [
+        "بعد الزر"
+      ],
+      "Control label\u0004Hide Count": [
+        "إخفاء العدد"
+      ],
+      "Control label\u0004Hide Count When Empty": [
+        "إخفاء العدد عندما يكون فارغًا"
+      ],
+      "Control label\u0004Hide Subtotal": [
+        "إخفاء الإجمالي الفرعي"
+      ],
+      "Control label\u0004Hide Subtotal When Empty": [
+        "إخفاء الإجمالي الفرعي عندما يكون فارغًا"
+      ],
+      "Control label\u0004Primary Button": [
+        "الزر الأساسي"
+      ],
+      "Control label\u0004Continue Shopping Link": [
+        "متابعة رابط التسوق"
+      ],
+      "Control label\u0004Open Cart On Add": [
+        "افتح سلة التسوق عند الإضافة"
+      ],
+      "Control label\u0004Hide Quantity Input": [
+        "إخفاء إدخال الكمية"
+      ],
+      "Control label\u0004After Title Bar": [
+        "بعد شريط العنوان"
+      ],
+      "Control label\u0004After Footer": [
+        "بعد التذييل"
+      ],
+      "Item text\u0004Sidebar": [
+        "الشريط الجانبي"
+      ],
+      "Item text\u0004Checkout": [
+        "الدفع"
+      ],
+      "Item text\u0004Homepage": [
+        "الصفحة الرئيسية"
+      ],
+      "Item text\u0004Shop Page": [
+        "صفحة المتجر"
+      ],
+      "Preset section label\u0004Product Title": [
+        "عنوان المنتج"
+      ],
+      "Preset section label\u0004Quantity": [
+        "كمية"
+      ],
+      "Preset section label\u0004Amount": [
+        "كمية"
+      ],
+      "Element name\u0004Advanced Accordion": [
+        "الأكورديون المتقدم"
+      ],
+      "Control label\u0004Below Item": [
+        "البند أدناه"
+      ],
+      "Control label\u0004Accordion": [
+        "الأكورديون"
+      ],
+      "Control label\u0004First Item Opened": [
+        "تم فتح العنصر الأول"
+      ],
+      "Item text\u0004McWay Falls": [
+        "شلالات ماكواي"
+      ],
+      "Item text\u0004McWay Falls is an 80-foot-tall waterfall on the coast of Big Sur in central California that flows year-round from McWay Creek in Julia Pfeiffer Burns State Park, about 37 miles south of Carmel, into the Pacific Ocean. During high tide, it is a tidefall, a waterfall that empties directly into the ocean": [
+        "شلالات ماكواي هي شلال يبلغ ارتفاعه 80 قدمًا على ساحل بيج سور في وسط كاليفورنيا، ويتدفق على مدار العام من ماكواي كريك في حديقة جوليا فايفر بيرنز الحكومية، على بعد حوالي 37 ميلًا جنوب الكرمل، إلى المحيط الهادئ. أثناء المد العالي، يكون المد والجزر، وهو شلال يصب مباشرة في المحيط"
+      ],
+      "Preset section label\u0004Item": [
+        "غرض"
+      ],
+      "Element name\u0004Login Form": [
+        "نموذج تسجيل الدخول"
+      ],
+      "Control label\u0004Remember Me": [
+        "تذكرنى"
+      ],
+      "Control label\u0004Lost Password": [
+        "كلمة المرور المفقودة"
+      ],
+      "Control label\u0004Custom Lost Password Page": [
+        "صفحة كلمة المرور المفقودة المخصصة"
+      ],
+      "Control label\u0004Redirect After Login": [
+        "إعادة التوجيه بعد تسجيل الدخول"
+      ],
+      "Element name\u0004Frequently Asked Questions": [
+        "الأسئلة المتداولة"
+      ],
+      "Control label\u0004Active Icon": [
+        "أيقونة نشطة"
+      ],
+      "Control label\u0004Active Background": [
+        "الخلفية النشطة"
+      ],
+      "Control label\u0004After Item": [
+        "بعد البند"
+      ],
+      "Control label\u0004Active Title": [
+        "العنوان النشط"
+      ],
+      "Control label\u0004Below Only": [
+        "أدناه فقط"
+      ],
+      "Control label\u0004Settings": [
+        "إعدادات"
+      ],
+      "Control label\u0004Items": [
+        "أغراض"
+      ],
+      "Control label\u0004Question": [
+        "سؤال"
+      ],
+      "Control label\u0004Answer": [
+        "إجابة"
+      ],
+      "Control label\u0004First tab opened": [
+        "تم فتح علامة التبويب الأولى"
+      ],
+      "Item text\u0004Click Here": [
+        "انقر هنا"
+      ],
+      "Element name\u0004WooPresetInputs": [
+        "WooPresetInputs"
+      ],
+      "Control label\u0004Inputs": [
+        "المدخلات"
+      ],
+      "Control label\u0004Placeholder": [
+        "العنصر النائب"
+      ],
+      "Control label\u0004Focused": [
+        "ركز"
+      ],
+      "Control label\u0004Select2": [
+        "اختر2"
+      ],
+      "Control label\u0004Selected Item": [
+        "العنصر المحدد"
+      ],
+      "Element name\u0004Tab Link": [
+        "رابط علامة التبويب"
+      ],
+      "Control label\u0004Design": [
+        "تصميم"
+      ],
+      "Item text\u0004Your tab link  text": [
+        "نص رابط علامة التبويب الخاصة بك"
+      ],
+      "Preset section label\u0004Layout (Basic Flex)": [
+        "التخطيط (المرن الأساسي)"
+      ],
+      "Element name\u0004Product Meta": [
+        "ميتا المنتج"
+      ],
+      "Control label\u0004Divider Color": [
+        "لون المقسم"
+      ],
+      "Control label\u0004Divider Style": [
+        "نمط المقسم"
+      ],
+      "Item text\u0004Stacked": [
+        "مكدسة"
+      ],
+      "Item text\u0004Inline": [
+        "مضمنة"
+      ],
+      "Item text\u0004Dotted": [
+        "منقط"
+      ],
+      "Item text\u0004Dashed": [
+        "متقطع"
+      ],
+      "Item text\u0004Double": [
+        "مزدوج"
+      ],
+      "Preset section label\u0004Values": [
+        "قيم"
+      ],
+      "Element name\u0004Woo Widget": [
+        "وو القطعة"
+      ],
+      "Control label\u0004General": [
+        "عام"
+      ],
+      "Element name\u0004Term Loop Builder": [
+        "منشئ حلقة المصطلح"
+      ],
+      "Control label\u0004Load Terms By Query": [
+        "تحميل الشروط حسب الاستعلام"
+      ],
+      "Control label\u0004Limit": [
+        "حد"
+      ],
+      "Control label\u0004Hide Empty": [
+        "إخفاء فارغ"
+      ],
+      "Control label\u0004Term Query": [
+        "الاستعلام عن المصطلح"
+      ],
+      "Element name\u0004FormDesignOptions": [
+        "خيارات تصميم النموذج"
+      ],
+      "Control label\u0004Form Design Options": [
+        "خيارات تصميم النموذج"
+      ],
+      "Control label\u0004Between Fields": [
+        "بين الحقول"
+      ],
+      "Control label\u0004Sub Label": [
+        "التسمية الفرعية"
+      ],
+      "Control label\u0004Fields": [
+        "الحقول"
+      ],
+      "Control label\u0004Required": [
+        "مطلوب"
+      ],
+      "Control label\u0004Nudge X": [
+        "دفع X"
+      ],
+      "Control label\u0004Nudge Y": [
+        "دفع Y"
+      ],
+      "Control label\u0004Hide Labels": [
+        "إخفاء التسميات"
+      ],
+      "Control label\u0004Radio & Checkbox": [
+        "الراديو وخانة الاختيار"
+      ],
+      "Control label\u0004File Input": [
+        "إدخال الملف"
+      ],
+      "Control label\u0004Drag & Drop": [
+        "السحب والإسقاط"
+      ],
+      "Control label\u0004Files List": [
+        "قائمة الملفات"
+      ],
+      "Control label\u0004Delete Color": [
+        "حذف اللون"
+      ],
+      "Control label\u0004Max Width": [
+        "أقصى عرض"
+      ],
+      "Control label\u0004No Overlap": [
+        "لا تداخل"
+      ],
+      "Control label\u0004Between Inputs": [
+        "بين المدخلات"
+      ],
+      "Control label\u0004Responsive": [
+        "مستجيب"
+      ],
+      "Control label\u0004Messages": [
+        "رسائل"
+      ],
+      "Control label\u0004Submit Button": [
+        "زر الإرسال"
+      ],
+      "Control label\u0004Stepper": [
+        "السائر"
+      ],
+      "Control label\u0004Step": [
+        "خطوة"
+      ],
+      "Control label\u0004Bullet": [
+        "رصاصة"
+      ],
+      "Control label\u0004Bullet Background": [
+        "خلفية رصاصة"
+      ],
+      "Control label\u0004Disable At": [
+        "تعطيل عند"
+      ],
+      "Preset section label\u0004Sub Labels": [
+        "التسميات الفرعية"
+      ],
+      "Preset section label\u0004Styles": [
+        "الأنماط"
+      ],
+      "Preset section label\u0004Previous Button": [
+        "الزر السابق"
+      ],
+      "Preset section label\u0004Next Button": [
+        "الزر التالي"
+      ],
+      "Element name\u0004Widget": [
+        "القطعة"
+      ],
+      "Control label\u0004Hide Title": [
+        "إخفاء العنوان"
+      ],
+      "Preset section label\u0004Headings": [
+        "العناوين"
+      ],
+      "Element name\u0004Content Toggle": [
+        "تبديل المحتوى"
+      ],
+      "Control label\u0004Fade Content": [
+        "تتلاشى المحتوى"
+      ],
+      "Control label\u0004Switch": [
+        "يُحوّل"
+      ],
+      "Control label\u0004Inactive": [
+        "غير نشط"
+      ],
+      "Control label\u0004Vertical at": [
+        "عمودي عند"
+      ],
+      "Control label\u0004Below Toggle": [
+        "أدناه تبديل"
+      ],
+      "Control label\u0004After Labels": [
+        "بعد التسميات"
+      ],
+      "Control label\u0004Label Left": [
+        "تسمية اليسار"
+      ],
+      "Control label\u0004Label Right": [
+        "تسمية الحق"
+      ],
+      "Control label\u0004Add Content": [
+        "أضف محتوى"
+      ],
+      "Element name\u0004Facebook Post": [
+        "مشاركة الفيسبوك"
+      ],
+      "Control label\u0004Post URL": [
+        "نشر عنوان URL"
+      ],
+      "Control label\u0004Show Full Post": [
+        "عرض المشاركة كاملة"
+      ],
+      "Element name\u0004Column": [
+        "عمود"
+      ],
+      "Element name\u0004Image Accordion": [
+        "صورة الأكورديون"
+      ],
+      "Control label\u0004Orientation": [
+        "توجيه"
+      ],
+      "Control label\u0004Expand On Hover": [
+        "قم بالتوسيع عند التمرير"
+      ],
+      "Control label\u0004Overlay Opacity": [
+        "تراكب التعتيم"
+      ],
+      "Control label\u0004Hide Until Hover": [
+        "إخفاء حتى تحوم"
+      ],
+      "Control label\u0004Hover Effect": [
+        "تأثير التحويم"
+      ],
+      "Control label\u0004Below Icon": [
+        "أيقونة أدناه"
+      ],
+      "Control label\u0004Image options": [
+        "خيارات الصورة"
+      ],
+      "Control label\u0004Lazy load": [
+        "تحميل كسول"
+      ],
+      "Item text\u0004Massages and more.": [
+        "التدليك وأكثر من ذلك."
+      ],
+      "Item text\u0004Rent surfboards, kayas, and jet skis.": [
+        "استئجار ألواح ركوب الأمواج، والكايا، والزلاجات النفاثة."
+      ],
+      "Item text\u0004Walking, bike, and jeep tours.": [
+        "جولات المشي والدراجة وسيارات الجيب."
+      ],
+      "Preset section label\u0004Title Typography": [
+        "طباعة العنوان"
+      ],
+      "Preset section label\u0004Text Typography": [
+        "طباعة النص"
+      ],
+      "Element name\u0004Facebook Page Plugin": [
+        "البرنامج المساعد لصفحة الفيسبوك"
+      ],
+      "Control label\u0004Page": [
+        "صفحة"
+      ],
+      "Control label\u0004Page URL": [
+        "عنوان URL للصفحة"
+      ],
+      "Control label\u0004Events": [
+        "الأحداث"
+      ],
+      "Control label\u0004Small Header": [
+        "رأس صغير"
+      ],
+      "Control label\u0004Hide Cover Photo": [
+        "إخفاء صورة الغلاف"
+      ],
+      "Control label\u0004Profile Photos": [
+        "صور الملف الشخصي"
+      ],
+      "Control label\u0004CTA Button": [
+        "زر الحث على اتخاذ إجراء"
+      ],
+      "Element name\u0004Code Block": [
+        "كتلة الكود"
+      ],
+      "Control label\u0004PHP & HTML Code": [
+        "كود PHP وHTML"
+      ],
+      "Control label\u0004CSS Code": [
+        "كود CSS"
+      ],
+      "Control label\u0004JavaScript Code": [
+        "كود جافا سكريبت"
+      ],
+      "Control label\u0004Execute JavaScript": [
+        "تنفيذ جافا سكريبت"
+      ],
+      "Control label\u0004Disable Builder Label": [
+        "تعطيل تسمية البناء"
+      ],
+      "Control label\u0004Builder Label": [
+        "تسمية البناء"
+      ],
+      "Item text\u0004Execute": [
+        "ينفذ"
+      ],
+      "Item text\u0004hidden": [
+        "مختفي"
+      ],
+      "Item text\u0004visible": [
+        "مرئي"
+      ],
+      "Element name\u0004Comments List": [
+        "قائمة التعليقات"
+      ],
+      "Control label\u0004Comment": [
+        "تعليق"
+      ],
+      "Control label\u0004Inset": [
+        "أقحم"
+      ],
+      "Control label\u0004After Date": [
+        "بعد التاريخ"
+      ],
+      "Control label\u0004After Comment": [
+        "بعد التعليق"
+      ],
+      "Preset section label\u0004Date": [
+        "تاريخ"
+      ],
+      "Preset section label\u0004Comment": [
+        "تعليق"
+      ],
+      "Element name\u0004Product": [
+        "منتج"
+      ],
+      "Control label\u0004Disable Upsells": [
+        "تعطيل عمليات البيع"
+      ],
+      "Control label\u0004Disable Related": [
+        "تعطيل ذات الصلة"
+      ],
+      "Element name\u0004Missing Element": [
+        "العنصر المفقود"
+      ],
+      "Element name\u0004Post Meta": [
+        "ما بعد ميتا"
+      ],
+      "Control label\u0004Alignment When Vertical": [
+        "المحاذاة عندما تكون عمودية"
+      ],
+      "Control label\u0004Graphics": [
+        "الرسومات"
+      ],
+      "Control label\u0004Author Avatar": [
+        "الصورة الرمزية للمؤلف"
+      ],
+      "Control label\u0004After Graphics": [
+        "بعد الرسومات"
+      ],
+      "Control label\u0004Meta Data": [
+        "بيانات التعريف"
+      ],
+      "Control label\u0004Date Format": [
+        "تنسيق التاريخ"
+      ],
+      "Control label\u0004Custom Date Format": [
+        "تنسيق التاريخ المخصص"
+      ],
+      "Control label\u0004No Comments": [
+        "لا تعليقات"
+      ],
+      "Control label\u0004One Comment": [
+        "تعليق واحد"
+      ],
+      "Control label\u0004Comments": [
+        "تعليقات"
+      ],
+      "Control label\u0004Before Text": [
+        "قبل النص"
+      ],
+      "Item text\u0004Between": [
+        "بين"
+      ],
+      "Item text\u0004Around": [
+        "حول"
+      ],
+      "Item text\u0004Start": [
+        "يبدأ"
+      ],
+      "Item text\u0004End": [
+        "نهاية"
+      ],
+      "Item text\u0004Comments": [
+        "تعليقات"
+      ],
+      "Item text\u0004Terms": [
+        "شروط"
+      ],
+      "Item text\u0004April 1st,2022 (F jS, Y)": [
+        "1 أبريل 2022 (F jS، Y)"
+      ],
+      "Item text\u00042022-04-01 (Y-m-d)": [
+        "2022-04-01 (Y-M-D)"
+      ],
+      "Item text\u000404/01/2022 (m/d/Y)": [
+        "04/01/2022 (شهر/ي/سنة)"
+      ],
+      "Item text\u000401/04/2022 (d/m/Y)": [
+        "01/04/2022 (يوم/شهر/سنة)"
+      ],
+      "Preset section label\u0004Icons": [
+        "أيقونات"
+      ],
+      "Preset section label\u0004Before Text": [
+        "قبل النص"
+      ],
+      "Element name\u0004Overlapped Images": [
+        "الصور المتداخلة"
+      ],
+      "Control label\u0004Allow Overflow": [
+        "السماح بالتجاوز"
+      ],
+      "Control label\u0004Default Image Width": [
+        "عرض الصورة الافتراضي"
+      ],
+      "Element name\u0004Image Comparison": [
+        "مقارنة الصور"
+      ],
+      "Control label\u0004Initial Position": [
+        "الموقف الأولي"
+      ],
+      "Control label\u0004Start On Hover": [
+        "ابدأ عند التحويم"
+      ],
+      "Control label\u0004Auto Animation": [
+        "الرسوم المتحركة التلقائية"
+      ],
+      "Control label\u0004Before": [
+        "قبل"
+      ],
+      "Control label\u0004After": [
+        "بعد"
+      ],
+      "Element name\u0004Cart Contents": [
+        "محتويات السلة"
+      ],
+      "Preset section label\u0004Cart Contents": [
+        "محتويات السلة"
+      ],
+      "Element name\u0004Facebook Video": [
+        "فيديو الفيسبوك"
+      ],
+      "Control label\u0004Video URL": [
+        "عنوان URL للفيديو"
+      ],
+      "Control label\u0004Allow Fullscreen": [
+        "السماح بملء الشاشة"
+      ],
+      "Element name\u0004Atom V1 Custom Button Design": [
+        "تصميم زر مخصص Atom V1"
+      ],
+      "Control label\u0004Styles": [
+        "الأنماط"
+      ],
+      "Control label\u0004New Section": [
+        "قسم جديد"
+      ],
+      "Element name\u0004Image V1": [
+        "الصورة V1"
+      ],
+      "Control label\u0004Custom Ratio": [
+        "نسبة مخصصة"
+      ],
+      "Control label\u0004Focus Point": [
+        "نقطة التركيز"
+      ],
+      "Control label\u0004Mask": [
+        "قناع"
+      ],
+      "Control label\u0004Custom Shape": [
+        "شكل مخصص"
+      ],
+      "Control label\u0004Custom Size": [
+        "حجم مخصص"
+      ],
+      "Control label\u0004From Library": [
+        "من المكتبة"
+      ],
+      "Item text\u00048:5": [
+        "8:5"
+      ],
+      "Item text\u0004Tv": [
+        "تلفزيون"
+      ],
+      "Item text\u0004Waves": [
+        "موجات"
+      ],
+      "Item text\u0004Waves 2": [
+        "موجات 2"
+      ],
+      "Item text\u0004Blob": [
+        "فقاعة"
+      ],
+      "Item text\u0004Star 1": [
+        "نجمة 1"
+      ],
+      "Item text\u0004Star 2": [
+        "نجمة 2"
+      ],
+      "Item text\u0004Star 3": [
+        "نجمة 3"
+      ],
+      "Item text\u0004Star 4": [
+        "نجمة 4"
+      ],
+      "Item text\u0004Stripes": [
+        "المشارب"
+      ],
+      "Item text\u0004Pill": [
+        "حبة"
+      ],
+      "Item text\u0004space": [
+        "فضاء"
+      ],
+      "Item text\u0004round": [
+        "دائري"
+      ],
+      "Item text\u0004Overlap": [
+        "تداخل"
+      ],
+      "Item text\u0004Below": [
+        "أقل"
+      ],
+      "Item text\u0004From Library": [
+        "من المكتبة"
+      ],
+      "Item text\u0004URL": [
+        "URL"
+      ],
+      "Item text\u0004Full Size Image": [
+        "الصورة بالحجم الكامل"
+      ],
+      "Element name\u0004Image Hover Card": [
+        "بطاقة تحويم الصورة"
+      ],
+      "Control label\u0004Image Effect": [
+        "تأثير الصورة"
+      ],
+      "Control label\u0004Border Effect": [
+        "تأثير الحدود"
+      ],
+      "Item text\u0004use breakdance": [
+        "استخدم البريك دانس"
+      ],
+      "Item text\u0004be happy": [
+        "كن سعيدا"
+      ],
+      "Item text\u0004Easily add beautiful": [
+        "إضافة جميلة بسهولة"
+      ],
+      "Item text\u0004image hover effects": [
+        "تأثيرات تحوم الصورة"
+      ],
+      "Item text\u0004Pan Up": [
+        "عموم لأعلى"
+      ],
+      "Item text\u0004Pan Down": [
+        "عموم داون"
+      ],
+      "Item text\u0004Pan Left": [
+        "عموم اليسار"
+      ],
+      "Item text\u0004Pan Right": [
+        "عموم الحق"
+      ],
+      "Item text\u0004Rotate Left": [
+        "تدوير لليسار"
+      ],
+      "Item text\u0004Rotate Right": [
+        "تدوير لليمين"
+      ],
+      "Item text\u0004Blur": [
+        "طمس"
+      ],
+      "Item text\u0004Corners": [
+        "زوايا"
+      ],
+      "Item text\u0004Corners 2": [
+        "الزوايا 2"
+      ],
+      "Item text\u0004CC 1": [
+        "CC 1"
+      ],
+      "Item text\u0004CC 2": [
+        "CC 2"
+      ],
+      "Item text\u0004CC 3": [
+        "CC 3"
+      ],
+      "Item text\u0004CCC 1": [
+        "CCC 1"
+      ],
+      "Item text\u0004CCC 2": [
+        "CCC 2"
+      ],
+      "Item text\u0004CCC 3": [
+        "CCC 3"
+      ],
+      "Item text\u0004reveal-up": [
+        "الكشف"
+      ],
+      "Item text\u0004reveal-down": [
+        "كشف لأسفل"
+      ],
+      "Item text\u0004reveal-left": [
+        "كشف اليسار"
+      ],
+      "Item text\u0004reveal-right": [
+        "كشف الحق"
+      ],
+      "Item text\u0004fade-up": [
+        "تتلاشى"
+      ],
+      "Item text\u0004fade-down": [
+        "تتلاشى"
+      ],
+      "Item text\u0004fade-left": [
+        "يتلاشى اليسار"
+      ],
+      "Item text\u0004fade-right": [
+        "تتلاشى الحق"
+      ],
+      "Item text\u0004rotate-up-right": [
+        "تدوير لأعلى اليمين"
+      ],
+      "Item text\u0004rotate-up-left": [
+        "تدوير لأعلى اليسار"
+      ],
+      "Item text\u0004rotate-down-right": [
+        "تدوير للأسفل لليمين"
+      ],
+      "Item text\u0004rotate-down-left": [
+        "تدوير للأسفل لليسار"
+      ],
+      "Item text\u0004100ms": [
+        "100 مللي ثانية"
+      ],
+      "Item text\u0004200ms": [
+        "200 مللي ثانية"
+      ],
+      "Item text\u0004300ms": [
+        "300 مللي ثانية"
+      ],
+      "Item text\u0004400ms": [
+        "400 مللي ثانية"
+      ],
+      "Item text\u0004500ms": [
+        "500 مللي ثانية"
+      ],
+      "Item text\u0004600ms": [
+        "600 مللي ثانية"
+      ],
+      "Item text\u0004700ms": [
+        "700 مللي ثانية"
+      ],
+      "Item text\u0004800ms": [
+        "800 مللي ثانية"
+      ],
+      "Item text\u0004900ms": [
+        "900 مللي ثانية"
+      ],
+      "Item text\u00041s": [
+        "1 ثانية"
+      ],
+      "Item text\u0004Top Center": [
+        "أعلى المركز"
+      ],
+      "Item text\u0004Center Left": [
+        "وسط اليسار"
+      ],
+      "Item text\u0004Center Center": [
+        "مركز المركز"
+      ],
+      "Item text\u0004Center Right": [
+        "مركز اليمين"
+      ],
+      "Item text\u0004Bottom Center": [
+        "مركز القاع"
+      ],
+      "Element name\u0004Fancy Testimonial": [
+        "شهادة يتوهم"
+      ],
+      "Control label\u0004Stack Vertically at": [
+        "كومة عموديا في"
+      ],
+      "Control label\u0004Boxed": [
+        "محاصر"
+      ],
+      "Control label\u0004Quotes": [
+        "يقتبس"
+      ],
+      "Control label\u0004Below Testimonial": [
+        "أدناه الشهادة"
+      ],
+      "Control label\u0004Below Stars": [
+        "تحت النجوم"
+      ],
+      "Control label\u0004Below Name": [
+        "أسفل الاسم"
+      ],
+      "Control label\u0004Below Occupation": [
+        "تحت المهنة"
+      ],
+      "Control label\u0004Testimonial": [
+        "شهادة"
+      ],
+      "Control label\u0004Occupation": [
+        "إشغال"
+      ],
+      "Item text\u0004First": [
+        "أولاً"
+      ],
+      "Item text\u0004Second": [
+        "ثانية"
+      ],
+      "Item text\u0004Third": [
+        "ثالث"
+      ],
+      "Item text\u0004Fourth": [
+        "الرابع"
+      ],
+      "Item text\u0004Fifth": [
+        "الخامس"
+      ],
+      "Preset section label\u0004Testimonial": [
+        "شهادة"
+      ],
+      "Preset section label\u0004Occupation": [
+        "إشغال"
+      ],
+      "Element name\u0004Checkout Builder": [
+        "منشئ الخروج"
+      ],
+      "Control label\u0004Elements": [
+        "عناصر"
+      ],
+      "Item text\u0004Billing details": [
+        "تفاصيل الفوترة"
+      ],
+      "Item text\u0004Order Summary": [
+        "ملخص الطلب"
+      ],
+      "Item text\u0004Free Shipping on orders over $100": [
+        "شحن مجاني للطلبات التي تزيد عن 100 دولار"
+      ],
+      "Item text\u0004Free returns within 30 days of purchase": [
+        "إرجاع مجاني خلال 30 يومًا من الشراء"
+      ],
+      "Item text\u00041-year Warranty included": [
+        "ضمان لمدة سنة واحدة متضمن"
+      ],
+      "Element name\u0004Form Builder": [
+        "منشئ النموذج"
+      ],
+      "Control label\u0004Free mode warning": [
+        "تحذير الوضع الحر"
+      ],
+      "Item text\u0004label": [
+        "ملصق"
+      ],
+      "Item label\u0004Name": [
+        "اسم"
+      ],
+      "Item label\u0004Email": [
+        "بريد إلكتروني"
+      ],
+      "Item label\u0004Message": [
+        "رسالة"
+      ],
+      "Element name\u0004Advanced Tabs": [
+        "علامات التبويب المتقدمة"
+      ],
+      "Item text\u0004This is a basic text element.": [
+        "هذا عنصر نص أساسي."
+      ],
+      "Element name\u0004Cart Empty Message": [
+        "سلة التسوق رسالة فارغة"
+      ],
+      "Element name\u0004GridbuilderWP Facet": [
+        "واجهة GridbuilderWP"
+      ],
+      "Element name\u0004Account Page": [
+        "صفحة الحساب"
+      ],
+      "Control label\u0004Vertical Tabs Position": [
+        "موضع علامات التبويب العمودية"
+      ],
+      "Control label\u0004Horizontal Tabs Position": [
+        "موضع علامات التبويب الأفقية"
+      ],
+      "Control label\u0004Sticky Tabs": [
+        "علامات التبويب لزجة"
+      ],
+      "Control label\u0004Sticky Offset": [
+        "إزاحة لزجة"
+      ],
+      "Control label\u0004Tab": [
+        "فاتورة غير مدفوعة"
+      ],
+      "Preset section label\u0004Titles": [
+        "العناوين"
+      ],
+      "Preset section label\u0004Total Label": [
+        "التسمية الإجمالية"
+      ],
+      "Preset section label\u0004Total Value": [
+        "القيمة الإجمالية"
+      ],
+      "Element name\u0004Product Info": [
+        "معلومات المنتج"
+      ],
+      "Control label\u0004Separators": [
+        "فواصل"
+      ],
+      "Control label\u0004Hide Separators": [
+        "إخفاء الفواصل"
+      ],
+      "Control label\u0004After Heading": [
+        "بعد العنوان"
+      ],
+      "Control label\u0004After Attribute": [
+        "بعد السمة"
+      ],
+      "Control label\u0004Row": [
+        "صف"
+      ],
+      "Preset section label\u0004Attribute Title": [
+        "عنوان السمة"
+      ],
+      "Preset section label\u0004Attribute Value": [
+        "قيمة السمة"
+      ],
+      "Element name\u0004Checkout Payment": [
+        "الدفع عند الخروج"
+      ],
+      "Preset section label\u0004Payment": [
+        "قسط"
+      ],
+      "Element name\u0004Scrolling Image": [
+        "صورة التمرير"
+      ],
+      "Control label\u0004Hover Offset": [
+        "تحوم إزاحة"
+      ],
+      "Control label\u0004Full Width": [
+        "العرض الكامل"
+      ],
+      "Element name\u0004Checkout Login Form": [
+        "نموذج تسجيل الدخول الخروج"
+      ],
+      "Element name\u0004Products List": [
+        "قائمة المنتجات"
+      ],
+      "Control label\u0004Include": [
+        "يشمل"
+      ],
+      "Control label\u0004Show Second Image On Hover": [
+        "إظهار الصورة الثانية عند التحويم"
+      ],
+      "Control label\u0004Review Count": [
+        "عدد المراجعة"
+      ],
+      "Control label\u0004Custom Areas": [
+        "المناطق المخصصة"
+      ],
+      "Control label\u0004Areas": [
+        "المناطق"
+      ],
+      "Control label\u0004Between Products": [
+        "بين المنتجات"
+      ],
+      "Control label\u0004Product Wrapper": [
+        "غلاف المنتج"
+      ],
+      "Control label\u0004Align Content": [
+        "محاذاة المحتوى"
+      ],
+      "Control label\u0004Show Products": [
+        "عرض المنتجات"
+      ],
+      "Control label\u0004Products": [
+        "منتجات"
+      ],
+      "Control label\u0004Product Count": [
+        "عدد المنتجات"
+      ],
+      "Control label\u0004Order By": [
+        "اطلب بواسطة"
+      ],
+      "Item text\u0004Inside Link": [
+        "الرابط الداخلي"
+      ],
+      "Item text\u0004Outside Link": [
+        "الرابط الخارجي"
+      ],
+      "Item text\u0004All": [
+        "الجميع"
+      ],
+      "Item text\u0004Featured": [
+        "مميز"
+      ],
+      "Item text\u0004On sale": [
+        "للبيع"
+      ],
+      "Item text\u0004Manually": [
+        "يدويا"
+      ],
+      "Item text\u0004Query": [
+        "استفسار"
+      ],
+      "Item text\u0004Price": [
+        "سعر"
+      ],
+      "Item text\u0004Random": [
+        "عشوائي"
+      ],
+      "Item text\u0004Descending": [
+        "تنازلي"
+      ],
+      "Item text\u0004Ascending": [
+        "تصاعدي"
+      ],
+      "Preset section label\u0004Old Price Typography": [
+        "الطباعة السعر القديم"
+      ],
+      "Preset section label\u0004Current Price Typography": [
+        "طباعة السعر الحالي"
+      ],
+      "Preset section label\u0004Count Typography": [
+        "عد الطباعة"
+      ],
+      "Element name\u0004Button": [
+        "زر"
+      ],
+      "Element name\u0004Image With Zoom": [
+        "الصورة مع التكبير"
+      ],
+      "Control label\u0004Zoom Scale": [
+        "مقياس التكبير"
+      ],
+      "Control label\u0004Cursor": [
+        "المؤشر"
+      ],
+      "Item text\u0004Zoom-In": [
+        "تكبير"
+      ],
+      "Item text\u0004Move": [
+        "يتحرك"
+      ],
+      "Item text\u0004Crosshair": [
+        "التقاطع"
+      ],
+      "Element name\u0004Text Link": [
+        "رابط النص"
+      ],
+      "Element name\u0004LayoutPreset": [
+        "LayoutPreset"
+      ],
+      "Control label\u0004Display": [
+        "عرض"
+      ],
+      "Control label\u0004Flex Direction": [
+        "الاتجاه المرن"
+      ],
+      "Control label\u0004Align Items": [
+        "محاذاة العناصر"
+      ],
+      "Control label\u0004Justify Content": [
+        "تبرير المحتوى"
+      ],
+      "Control label\u0004Flex Wrap": [
+        "فليكس التفاف"
+      ],
+      "Control label\u0004Z-Index": [
+        "مؤشر Z"
+      ],
+      "Control label\u0004Overflow": [
+        "تجاوز"
+      ],
+      "Control label\u0004Legacy": [
+        "إرث"
+      ],
+      "Control label\u0004Float": [
+        "يطفو"
+      ],
+      "Control label\u0004Clear": [
+        "واضح"
+      ],
+      "Control label\u0004Visibility": [
+        "الرؤية"
+      ],
+      "Control label\u0004Top": [
+        "قمة"
+      ],
+      "Control label\u0004Left": [
+        "غادر"
+      ],
+      "Control label\u0004Right": [
+        "يمين"
+      ],
+      "Control label\u0004Bottom": [
+        "قاع"
+      ],
+      "Control label\u0004Flex Child": [
+        "فليكس الطفل"
+      ],
+      "Control label\u0004Align Self": [
+        "محاذاة الذات"
+      ],
+      "Control label\u0004Flex Grow": [
+        "فليكس تنمو"
+      ],
+      "Control label\u0004Flex Shrink": [
+        "فليكس شرينك"
+      ],
+      "Control label\u0004Flex Basis": [
+        "أساس فليكس"
+      ],
+      "Control label\u0004Grid Child": [
+        "شبكة الطفل"
+      ],
+      "Control label\u0004Grid Column": [
+        "عمود الشبكة"
+      ],
+      "Control label\u0004Grid Row": [
+        "صف الشبكة"
+      ],
+      "Control label\u0004Grid Area": [
+        "منطقة الشبكة"
+      ],
+      "Control label\u0004Justify Self": [
+        "تبرير الذات"
+      ],
+      "Item text\u0004block": [
+        "حاجز"
+      ],
+      "Item text\u0004inline-block": [
+        "مضمنة كتلة"
+      ],
+      "Item text\u0004inline": [
+        "مضمنة"
+      ],
+      "Item text\u0004flex": [
+        "ثني"
+      ],
+      "Item text\u0004inline-flex": [
+        "مضمنة فليكس"
+      ],
+      "Item text\u0004none": [
+        "لا أحد"
+      ],
+      "Item text\u0004column": [
+        "عمود"
+      ],
+      "Item text\u0004row": [
+        "صف"
+      ],
+      "Item text\u0004column-reverse": [
+        "عكس العمود"
+      ],
+      "Item text\u0004row-reverse": [
+        "عكس الصف"
+      ],
+      "Item text\u0004flex-start": [
+        "بداية مرنة"
+      ],
+      "Item text\u0004flex-end": [
+        "نهاية مرنة"
+      ],
+      "Item text\u0004stretch": [
+        "تمتد"
+      ],
+      "Item text\u0004baseline": [
+        "خط الأساس"
+      ],
+      "Item text\u0004space-between": [
+        "الفضاء بين"
+      ],
+      "Item text\u0004space-around": [
+        "الفضاء حولها"
+      ],
+      "Item text\u0004space-evenly": [
+        "الفضاء بالتساوي"
+      ],
+      "Item text\u0004nowrap": [
+        "com.nowrap"
+      ],
+      "Item text\u0004wrap": [
+        "طَوّق"
+      ],
+      "Item text\u0004wrap-reverse": [
+        "التفاف عكسي"
+      ],
+      "Item text\u0004both": [
+        "كلاهما"
+      ],
+      "Item text\u0004static": [
+        "ثابت"
+      ],
+      "Item text\u0004relative": [
+        "نسبي"
+      ],
+      "Item text\u0004absolute": [
+        "مطلق"
+      ],
+      "Item text\u0004sticky": [
+        "لزجة"
+      ],
+      "Item text\u0004start": [
+        "يبدأ"
+      ],
+      "Item text\u0004end": [
+        "نهاية"
+      ],
+      "Element name\u0004Comment Form": [
+        "نموذج التعليق"
+      ],
+      "Element name\u0004Blockquote": [
+        "اقتباس"
+      ],
+      "Control label\u0004Icon Position": [
+        "موضع الأيقونة"
+      ],
+      "Control label\u0004After Quote": [
+        "بعد الاقتباس"
+      ],
+      "Control label\u0004Before Author": [
+        "قبل المؤلف"
+      ],
+      "Control label\u0004Author": [
+        "مؤلف"
+      ],
+      "Item text\u0004It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.": [
+        "ليس أقوى الأنواع هو الذي يبقى، ولا أكثرها ذكاءً، بل الأكثر استجابة للتغيير."
+      ],
+      "Item text\u0004Above Text": [
+        "فوق النص"
+      ],
+      "Preset section label\u0004Author": [
+        "مؤلف"
+      ],
+      "Element name\u0004Post Loop Builder": [
+        "منشئ حلقة ما بعد"
+      ],
+      "Element name\u0004Facebook Comments": [
+        "تعليقات الفيسبوك"
+      ],
+      "Control label\u0004Sort By": [
+        "فرز حسب"
+      ],
+      "Control label\u0004Comment on": [
+        "التعليق على"
+      ],
+      "Item text\u0004Newest": [
+        "الأحدث"
+      ],
+      "Item text\u0004Oldest": [
+        "الأقدم"
+      ],
+      "Element name\u0004Content Reveal": [
+        "كشف المحتوى"
+      ],
+      "Control label\u0004Transition": [
+        "انتقال"
+      ],
+      "Control label\u0004Hide By": [
+        "إخفاء بواسطة"
+      ],
+      "Control label\u0004Max Lines": [
+        "خطوط ماكس"
+      ],
+      "Control label\u0004Scroll To Top When Closed": [
+        "قم بالتمرير إلى الأعلى عند الإغلاق"
+      ],
+      "Control label\u0004Reveal Label": [
+        "كشف التسمية"
+      ],
+      "Item text\u0004<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex ut dolor porttitor, ut ultricies leo porttitor. Etiam ac convallis nisl. Curabitur dapibus nec nunc nec iaculis. Quisque vitae ullamcorper risus. Ut rhoncus convallis nisi eget accumsan. Integer vitae lectus iaculis, volutpat diam eu, faucibus enim. Maecenas augue purus, hendrerit ac fermentum a, mollis ut nisl. Cras egestas lobortis dolor. Quisque nunc felis, bibendum quis risus ac, facilisis ultrices enim.</p><p>Maecenas mattis dolor est, in hendrerit libero ornare eget. Nam eget tortor et diam laoreet aliquam id ut dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean convallis molestie massa, id luctus ex scelerisque scelerisque. Integer bibendum ullamcorper mi. Sed congue, nibh et tincidunt vulputate, turpis risus maximus mauris, eget commodo nulla risus eu ante. Nulla at dolor aliquam quam accumsan venenatis. Aliquam hendrerit accumsan convallis. Ut consequat urna id lorem vestibulum blandit. Fusce dui metus, molestie vel mattis vitae, tempus tempor urna. Sed lacinia ligula nec enim tempus, at porta urna varius. Nam eget lobortis diam. Etiam ultricies libero et libero consectetur, at imperdiet orci tristique. Morbi pulvinar nunc ut molestie ornare. Vestibulum finibus pulvinar ligula id auctor.</p><p>Duis ullamcorper ornare metus at condimentum. Sed auctor, ipsum et sagittis dapibus, augue urna pretium metus, vitae tempor sem quam sit amet justo. Cras hendrerit condimentum odio, ac rhoncus magna mollis ac. Vestibulum rhoncus placerat risus vel lobortis. Nullam fringilla augue eu mauris ultrices, in imperdiet elit tincidunt. Maecenas tincidunt id mauris id rutrum. Duis imperdiet nisi est, in scelerisque diam sagittis et. Etiam rutrum nulla ut augue cursus finibus. Quisque posuere auctor sem, sed volutpat odio ullamcorper quis. Proin nec orci condimentum, ultrices turpis ac, fermentum metus. Ut tempor felis risus, efficitur ultricies augue mattis finibus. Nulla aliquet tempor velit. Proin eget ligula bibendum, finibus sem eu, congue ligula. Ut magna diam, feugiat ut leo et, gravida accumsan ante.</p><p>Nulla lacinia tempor accumsan. Maecenas volutpat quam eu massa accumsan ultrices. Praesent maximus lorem in augue pretium aliquet. Nam mauris massa, fermentum in tincidunt quis, gravida eget dolor. Vestibulum in tristique lorem. Vivamus non malesuada dolor. Morbi vulputate bibendum aliquet. Etiam sed varius ipsum, vitae tincidunt massa.</p>": [
+        "<p>لوريم إيبسوم دولور سيت أميت، consectetur adipiscing elit. Maecenas pulvinar ex ut dolor porttitor، ut ultricies leo porttitor. إتيام إيه سي كونفاليس نيسل. Curabitur dapibus nec nunc nec iaculis. السيرة الذاتية Quisque ullamcorper risus. Ut rhoncus convallis nisi get accumsan. عدد صحيح من السيرة الذاتية lectus iaculis، volutpat diam eu، faucibus enim. Maecenas ague pureus، هندريت ac تخمير، mollis ut nisl. Cras egestas lobortis dolor. Quisque nunc felis، bibendum quis risus ac، facilisis ultrices enim.</p><p>مؤسسة Maecenas Mattis Dolor، في هندريريت ليبيرو أورناري eget. Nam eget tortor et diam laoreet aliquam id ut dui. Interdum et Malesuada مشهورين قبل ipsum primis في faucibus. Aenean convallis molestie Massa، id luctus ex scelerisque scelerisque. عدد صحيح bibendum ullamcorper مي. Sed congue، nibh et tincidunt vulputate، turpis risus maximus mauris، eget commodo nulla risus eu ante. لا يوجد ألم في الجسم كما يمكن أن يحدث. أليكوام هندريريت أكومسان كونفاليس. يترتب على ذلك معرف Urna lorem الدهليزي blandit. Fusce dui metus، molestie vel mattis vitae، tempus tempor urna. Sed lacinia ligula nec enim tempus، في porta urna varius. نام eget lobortis بقطر. Etiam ultricies libero et libero consectetur، في impdiet orci tristique. Morbi pulvinar nunc ut molestie ornare. الدهليز finibus pulvinar ligula معرف Auctor.</p><p>Duis ullamcorper ornare metus at condimentum. Sed actor، ipsum et sagittis dapibus، augue urna pretium metus، vitae tempor sem quam sit amet justo. Cras Hendrerit Condimentum Odio، AC Rhoncus Magna mollis AC. الدهليز rhoncus placerat risus vel lobortis. Nullam fringilla ague eu mauris ultrices، في ضواحي النخبة. Maecenas tincidunt id mauris id rutrum. Duis impdiet nisi est، in scelerisque diam sagittis et. Etiam rutrum nulla ut augue cursus end. Quisque posuere auctor sem, sed volutpat odio ullamcorper quis. Proin nec orci condimentum، ultrices turpis ac، خميرة متوس. في حالة حدوث ذلك مؤقتًا، فإن الفعالية الشديدة تزيد من حجم الأشياء. لا داعي للقلق. Proin eget ligula bibendum، finibus sem eu، congue ligula. قطرها الكبير، وتدفقها من الأسد، وحملها مسبقًا.</p><p>لا يوجد وقت إضافي. Maecenas volutpat quam eu Massa Accumsan ultrices. يتم تقديم لوريم ماكسيموس في aliquet بريتيوم أغسطس. نام موريس ماسا، الخميرة في Tincidunt quis، Gravida Eget Dolor. الدهليز في علم المثلثات. Vivamus Non Malesuada Dolor. موربي مبجل بيبندوم أليكيت. Etiam sed varius ipsum، vitae tincidunt Massa.</p>"
+      ],
+      "Item text\u0004Height": [
+        "ارتفاع"
+      ],
+      "Item text\u0004Lines": [
+        "خطوط"
+      ],
+      "Element name\u0004HTML IMG": [
+        "HTML IMG"
+      ],
+      "Control label\u0004src": [
+        "src"
+      ],
+      "Control label\u0004srcset": [
+        "com.srcset"
+      ],
+      "Control label\u0004sizes": [
+        "الأحجام"
+      ],
+      "Control label\u0004alt": [
+        "بديل"
+      ],
+      "Control label\u0004loading": [
+        "تحميل"
+      ],
+      "Control label\u0004width": [
+        "عرض"
+      ],
+      "Control label\u0004height": [
+        "ارتفاع"
+      ],
+      "Item text\u0004eager": [
+        "مشتاق"
+      ],
+      "Item text\u0004lazy": [
+        "كسول"
+      ],
+      "Element name\u0004ShortcodeWrapper": [
+        "التفاف الرمز القصير"
+      ],
+      "Element name\u0004Simple Testimonial": [
+        "شهادة بسيطة"
+      ],
+      "Control label\u0004Shape & Outline": [
+        "الشكل والمخطط التفصيلي"
+      ],
+      "Control label\u0004Offset Width": [
+        "عرض الأوفست"
+      ],
+      "Control label\u0004Offset Color": [
+        "لون الأوفست"
+      ],
+      "Control label\u0004Black & White": [
+        "أبيض وأسود"
+      ],
+      "Control label\u0004Horizontal Offset": [
+        "إزاحة أفقية"
+      ],
+      "Control label\u0004Vertical Offset": [
+        "إزاحة عمودية"
+      ],
+      "Control label\u0004Hide Below": [
+        "إخفاء أدناه"
+      ],
+      "Control label\u0004Below Image": [
+        "الصورة أدناه"
+      ],
+      "Control label\u0004Below Author": [
+        "أدناه المؤلف"
+      ],
+      "Control label\u0004Below Author Info": [
+        "أسفل معلومات المؤلف"
+      ],
+      "Control label\u0004Author Info": [
+        "معلومات المؤلف"
+      ],
+      "Item text\u0004Outlined Circle": [
+        "الدائرة المبينة"
+      ],
+      "Item text\u0004Masked": [
+        "ملثمين"
+      ],
+      "Item text\u0004Rounded": [
+        "مدور"
+      ],
+      "Item text\u0004Blob 2": [
+        "فقاعة 2"
+      ],
+      "Item text\u0004Blob 3": [
+        "فقاعة 3"
+      ],
+      "Item text\u0004Blob 4": [
+        "فقاعة 4"
+      ],
+      "Item text\u0004Blob 5": [
+        "النقطة 5"
+      ],
+      "Item text\u0004Blob 6": [
+        "فقاعة 6"
+      ],
+      "Item text\u0004Blob 7": [
+        "النقطة 7"
+      ],
+      "Item text\u0004Blob 8": [
+        "النقطة 8"
+      ],
+      "Item text\u0004Quotes 1": [
+        "اقتباسات 1"
+      ],
+      "Item text\u0004Quotes 2": [
+        "اقتباسات 2"
+      ],
+      "Item text\u0004Quotes 3": [
+        "اقتباسات 3"
+      ],
+      "Item text\u0004Quotes 4": [
+        "اقتباسات 4"
+      ],
+      "Item text\u0004Quotes 5": [
+        "اقتباسات 5"
+      ],
+      "Preset section label\u0004Author Info": [
+        "معلومات المؤلف"
+      ],
+      "Element name\u0004Woo Breadcrumb": [
+        "ووو فتات الخبز"
+      ],
+      "Control label\u0004Delimiter": [
+        "محدد"
+      ],
+      "Preset section label\u0004Delimiter Typography": [
+        "محدد الطباعة"
+      ],
+      "Preset section label\u0004Last Item": [
+        "العنصر الأخير"
+      ],
+      "Element name\u0004Twitter Button": [
+        "زر تويتر"
+      ],
+      "Control label\u0004Follow User": [
+        "اتبع المستخدم"
+      ],
+      "Control label\u0004Mention User": [
+        "اذكر المستخدم"
+      ],
+      "Control label\u0004Hashtag": [
+        "الوسم"
+      ],
+      "Control label\u0004Show Count": [
+        "إظهار العدد"
+      ],
+      "Control label\u0004Via Username": [
+        "عبر اسم المستخدم"
+      ],
+      "Control label\u0004Show Screen Name": [
+        "إظهار اسم الشاشة"
+      ],
+      "Control label\u0004Text to Tweet": [
+        "إرسال رسالة نصية إلى تغريدة"
+      ],
+      "Control label\u0004URL to Tweet": [
+        "عنوان URL للتغريدة"
+      ],
+      "Item text\u0004Share": [
+        "يشارك"
+      ],
+      "Item text\u0004Follow": [
+        "يتبع"
+      ],
+      "Item text\u0004Mention": [
+        "يذكر"
+      ],
+      "Item text\u0004Hashtag": [
+        "الوسم"
+      ],
+      "Element name\u0004Basic Slider": [
+        "المنزلق الأساسي"
+      ],
+      "Control label\u0004Slide": [
+        "شريحة"
+      ],
+      "Control label\u0004Align Children": [
+        "محاذاة الأطفال"
+      ],
+      "Control label\u0004Vertical Align Children": [
+        "محاذاة عمودية للأطفال"
+      ],
+      "Control label\u0004Content Width": [
+        "عرض المحتوى"
+      ],
+      "Control label\u0004After Text": [
+        "بعد النص"
+      ],
+      "Control label\u0004Title HTML Tag": [
+        "علامة HTML للعنوان"
+      ],
+      "Item text\u0004<p>The quick, brown, classic rose, and bossanova fox jumped over the lazy dog.</p>": [
+        "<p>قفزت الوردة السريعة والبنية والكلاسيكية وثعلب بوسانوفا فوق الكلب الكسول.</p>"
+      ],
+      "Item text\u0004<p>The quick, brown, bizarre, and thunderbird fox jumped over the lazy dog.</p>": [
+        "<p>قفز الثعلب السريع والبني والغريب والرعد فوق الكلب الكسول.</p>"
+      ],
+      "Item text\u0004<p>The quick, brown, charlotte, and red fox jumped over the lazy dog.</p>": [
+        "<p>قفز الثعلب السريع والبني والشارلوت والأحمر فوق الكلب الكسول.</p>"
+      ],
+      "Element name\u0004Adjacent Posts": [
+        "المشاركات المجاورة"
+      ],
+      "Control label\u0004Previous On Right": [
+        "السابق على اليمين"
+      ],
+      "Control label\u0004Previous": [
+        "سابق"
+      ],
+      "Control label\u0004Next": [
+        "التالي"
+      ],
+      "Control label\u0004Between Posts": [
+        "بين المشاركات"
+      ],
+      "Control label\u0004Disable Arrow": [
+        "تعطيل السهم"
+      ],
+      "Control label\u0004Disable Post Title": [
+        "تعطيل عنوان المشاركة"
+      ],
+      "Control label\u0004Same taxonomy only": [
+        "نفس التصنيف فقط"
+      ],
+      "Control label\u0004Post Title Tag": [
+        "علامة عنوان المشاركة"
+      ],
+      "Preset section label\u0004Post Title": [
+        "عنوان المشاركة"
+      ],
+      "Element name\u0004Social Share Buttons": [
+        "أزرار المشاركة الاجتماعية"
+      ],
+      "Control label\u0004Floating Position": [
+        "الموقف العائم"
+      ],
+      "Control label\u0004Between Buttons": [
+        "بين الأزرار"
+      ],
+      "Control label\u0004Network": [
+        "شبكة"
+      ],
+      "Control label\u0004Custom Label": [
+        "تسمية مخصصة"
+      ],
+      "Control label\u0004Share": [
+        "يشارك"
+      ],
+      "Control label\u0004Custom Text": [
+        "نص مخصص"
+      ],
+      "Item text\u0004Icon & Text": [
+        "أيقونة والنص"
+      ],
+      "Item text\u0004Minimal": [
+        "الحد الأدنى"
+      ],
+      "Item text\u0004Box": [
+        "صندوق"
+      ],
+      "Item text\u0004Static": [
+        "ثابت"
+      ],
+      "Item text\u0004Floating": [
+        "عائم"
+      ],
+      "Item text\u0004Pinterest": [
+        "بينتريست"
+      ],
+      "Item text\u0004VK": [
+        "VK"
+      ],
+      "Item text\u0004Tumblr": [
+        "نعرفكم"
+      ],
+      "Item text\u0004Reddit": [
+        "رديت"
+      ],
+      "Item text\u0004Digg": [
+        "يسو"
+      ],
+      "Item text\u0004StumbleUpon": [
+        "ستامبل ابون"
+      ],
+      "Item text\u0004Pocket": [
+        "جيب"
+      ],
+      "Item text\u0004WhatsApp": [
+        "واتساب"
+      ],
+      "Item text\u0004Xing": [
+        "شينغ"
+      ],
+      "Item text\u0004Telegram": [
+        "برقية"
+      ],
+      "Item text\u0004Skype": [
+        "سكايب"
+      ],
+      "Item text\u0004Print": [
+        "مطبعة"
+      ],
+      "Item text\u0004Email": [
+        "بريد إلكتروني"
+      ],
+      "Item text\u0004Page Title": [
+        "عنوان الصفحة"
+      ],
+      "Item text\u0004Custom Text": [
+        "نص مخصص"
+      ],
+      "Element name\u0004Menu Builder": [
+        "منشئ القائمة"
+      ],
+      "Control label\u0004Graphic": [
+        "رسم بياني"
+      ],
+      "Control label\u0004Image Opacity": [
+        "عتامة الصورة"
+      ],
+      "Control label\u0004After Graphic": [
+        "بعد الجرافيك"
+      ],
+      "Control label\u0004Before Description": [
+        "قبل الوصف"
+      ],
+      "Control label\u0004Space After Title": [
+        "الفضاء بعد العنوان"
+      ],
+      "Control label\u0004Gap Between Columns": [
+        "الفجوة بين الأعمدة"
+      ],
+      "Control label\u0004Additional Section": [
+        "قسم إضافي"
+      ],
+      "Control label\u0004Stack Horizontally": [
+        "كومة أفقيا"
+      ],
+      "Control label\u0004Level 3": [
+        "المستوى 3"
+      ],
+      "Control label\u0004Remove Column Titles": [
+        "إزالة عناوين الأعمدة"
+      ],
+      "Control label\u0004Keep Menu Selected While Styling": [
+        "أبقِ القائمة محددة أثناء التصميم"
+      ],
+      "Item text\u0004Home": [
+        "بيت"
+      ],
+      "Item text\u0004Products": [
+        "منتجات"
+      ],
+      "Item text\u0004Flyer Basic": [
+        "الطيارة الأساسية"
+      ],
+      "Item text\u0004Flyer Intermediate": [
+        "نشرة وسيطة"
+      ],
+      "Item text\u0004Flyer Matrix Edition": [
+        "طبعة مصفوفة الطيارة"
+      ],
+      "Item text\u0004ExpressRocket": [
+        "اكسبريسروكيت"
+      ],
+      "Item text\u0004Boomslang Level 1": [
+        "بومسلانغ المستوى 1"
+      ],
+      "Item text\u0004Liftmeister 21": [
+        "ليفتميستر 21"
+      ],
+      "Item text\u0004Heavymeister": [
+        "هيفيميستر"
+      ],
+      "Item text\u0004Triblade Vortex": [
+        "دوامة ثلاثية الشفرات"
+      ],
+      "Item text\u0004Rugged & Heavy Industry": [
+        "الصناعة الوعرة والثقيلة"
+      ],
+      "Item text\u0004Identity 6000": [
+        "الهوية 6000"
+      ],
+      "Item text\u0004Use Cases": [
+        "حالات الاستخدام"
+      ],
+      "Item text\u0004Small Business": [
+        "الأعمال الصغيرة"
+      ],
+      "Item text\u0004Medium Business": [
+        "الأعمال المتوسطة"
+      ],
+      "Item text\u0004Enterprise": [
+        "مَشرُوع"
+      ],
+      "Item text\u0004Organizations": [
+        "المنظمات"
+      ],
+      "Item text\u0004Developers": [
+        "المطورين"
+      ],
+      "Item text\u0004Getting Started Guide": [
+        "دليل البدء"
+      ],
+      "Item text\u0004API Reference": [
+        "مرجع واجهة برمجة التطبيقات"
+      ],
+      "Item text\u0004Sample Code": [
+        "رمز العينة"
+      ],
+      "Item text\u0004Plugin Developer Handbook": [
+        "دليل مطور البرنامج المساعد"
+      ],
+      "Item text\u0004Forums": [
+        "المنتديات"
+      ],
+      "Item text\u0004Slack Channel": [
+        "قناة سلاك"
+      ],
+      "Item text\u0004Facebook Group": [
+        "مجموعة الفيسبوك"
+      ],
+      "Item text\u0004About": [
+        "عن"
+      ],
+      "Item text\u0004Custom Dropdown": [
+        "القائمة المنسدلة المخصصة"
+      ],
+      "Item text\u0004Design your dropdowns with Breakdance.": [
+        "صمم قوائمك المنسدلة باستخدام Breakdance."
+      ],
+      "Item text\u0004Live": [
+        "يعيش"
+      ],
+      "Item text\u0004Edit": [
+        "يحرر"
+      ],
+      "Preset section label\u0004Level 3": [
+        "المستوى 3"
+      ],
+      "Element name\u0004SimpleLayoutPreset": [
+        "SimpleLayoutPreset"
+      ],
+      "Control label\u0004Horizontal": [
+        "أفقي"
+      ],
+      "Item text\u0004Space Between": [
+        "الفضاء بين"
+      ],
+      "Item text\u0004Space Around": [
+        "الفضاء حول"
+      ],
+      "Item text\u0004Space Evenly": [
+        "الفضاء بالتساوي"
+      ],
+      "Item text\u0004Baseline": [
+        "خط الأساس"
+      ],
+      "Element name\u0004Notification Bar": [
+        "شريط الإخطارات"
+      ],
+      "Control label\u0004Box": [
+        "صندوق"
+      ],
+      "Control label\u0004Link Text": [
+        "نص الارتباط"
+      ],
+      "Control label\u0004Show Close Button": [
+        "إظهار زر الإغلاق"
+      ],
+      "Item text\u0004Tip": [
+        "نصيحة"
+      ],
+      "Item text\u0004Info": [
+        "معلومات"
+      ],
+      "Item text\u0004Success": [
+        "نجاح"
+      ],
+      "Item text\u0004Warning": [
+        "تحذير"
+      ],
+      "Item text\u0004Alert": [
+        "يُحذًِر"
+      ],
+      "Item text\u0004Border On Left": [
+        "الحدود على اليسار"
+      ],
+      "Item text\u0004Wrapped With Border": [
+        "ملفوفة مع الحدود"
+      ],
+      "Element name\u0004Global Block": [
+        "الكتلة العالمية"
+      ],
+      "Control label\u0004Block": [
+        "حاجز"
+      ],
+      "Element name\u0004Cart Page": [
+        "صفحة سلة التسوق"
+      ],
+      "Control label\u0004Totals Position": [
+        "إجمالي الموقف"
+      ],
+      "Control label\u0004Sticky Totals": [
+        "الإجماليات اللزجة"
+      ],
+      "Control label\u0004After Notification": [
+        "بعد الإخطار"
+      ],
+      "Control label\u0004After Cart": [
+        "بعد العربة"
+      ],
+      "Control label\u0004Before Cross Sells": [
+        "قبل البيع المتقاطع"
+      ],
+      "Control label\u0004Between Columns": [
+        "بين الأعمدة"
+      ],
+      "Preset section label\u0004Contents": [
+        "محتويات"
+      ],
+      "Element name\u0004Template Content Area": [
+        "منطقة محتوى القالب"
+      ],
+      "Element name\u0004Basic List": [
+        "القائمة الأساسية"
+      ],
+      "Control label\u0004List": [
+        "قائمة"
+      ],
+      "Control label\u0004Marker Type": [
+        "نوع العلامة"
+      ],
+      "Control label\u0004Emoji": [
+        "الرموز التعبيرية"
+      ],
+      "Control label\u0004Custom Hint": [
+        "تلميح مخصص"
+      ],
+      "Control label\u0004Marker Color": [
+        "لون العلامة"
+      ],
+      "Control label\u0004Marker Position": [
+        "موقف العلامة"
+      ],
+      "Item text\u0004This is a list element.": [
+        "هذا هو عنصر القائمة."
+      ],
+      "Item text\u0004Spice it up with an emoji bullet point.": [
+        "أضف لمسة من الإثارة باستخدام نقطة الرموز التعبيرية."
+      ],
+      "Item text\u0004Control spacing between the items.": [
+        "التحكم في المسافات بين العناصر."
+      ],
+      "Item text\u0004Or clear the styles and get a basic HTML list.": [
+        "أو امسح الأنماط واحصل على قائمة HTML الأساسية."
+      ],
+      "Item text\u0004Disc": [
+        "القرص"
+      ],
+      "Item text\u0004Emoji": [
+        "الرموز التعبيرية"
+      ],
+      "Element name\u0004Icon Box": [
+        "صندوق الأيقونات"
+      ],
+      "Control label\u0004Rotate": [
+        "تناوب"
+      ],
+      "Item text\u0004Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in justo imperdiet, convallis velit ac, malesuada enim. Etiam vitae tempus enim. Cras hendrerit efficitur eros.": [
+        "لوريم إيبسوم دولور سيت أميت، consectetur adipiscing إيليت. Nunc in justo impdiet, convallis velit ac, Malesuada enim. Etiam vitae tempus enim. تأثير هندريت على الحب."
+      ],
+      "Preset section label\u0004Style": [
+        "أسلوب"
+      ],
+      "Element name\u0004Forgot Password Form": [
+        "نموذج نسيت كلمة المرور"
+      ],
+      "Control label\u0004Redirect After Submit": [
+        "إعادة التوجيه بعد الإرسال"
+      ],
+      "Element name\u0004Upsell Products": [
+        "منتجات Upsell"
+      ],
+      "Element name\u0004Advanced Slide": [
+        "الشريحة المتقدمة"
+      ],
+      "Element name\u0004SliderOptionsPreset": [
+        "SliderOptionsPreset"
+      ],
+      "Control label\u0004Slider": [
+        "المنزلق"
+      ],
+      "Control label\u0004Coverflow": [
+        "تدفق الغلاف"
+      ],
+      "Control label\u0004Depth": [
+        "عمق"
+      ],
+      "Control label\u0004Stretch": [
+        "تمتد"
+      ],
+      "Control label\u0004Infinite": [
+        "لانهائي"
+      ],
+      "Control label\u0004Center Slides": [
+        "الشرائح المركزية"
+      ],
+      "Control label\u0004Autoplay Settings": [
+        "إعدادات التشغيل التلقائي"
+      ],
+      "Control label\u0004Stop On Interaction": [
+        "توقف عن التفاعل"
+      ],
+      "Control label\u0004Pause On Hover": [
+        "وقفة عند التحويم"
+      ],
+      "Control label\u0004Swipe On Scroll": [
+        "انتقد على التمرير"
+      ],
+      "Control label\u0004Auto Height": [
+        "الارتفاع التلقائي"
+      ],
+      "Control label\u0004Between Slides": [
+        "بين الشرائح"
+      ],
+      "Control label\u0004Slides Per View": [
+        "الشرائح لكل عرض"
+      ],
+      "Control label\u0004Initial Slide": [
+        "الشريحة الأولية"
+      ],
+      "Control label\u0004One Per View At": [
+        "واحد لكل عرض في"
+      ],
+      "Control label\u0004Slides Per Group": [
+        "الشرائح لكل مجموعة"
+      ],
+      "Control label\u0004Disable Keyboard Control": [
+        "تعطيل التحكم في لوحة المفاتيح"
+      ],
+      "Control label\u0004Play Animations On": [
+        "تشغيل الرسوم المتحركة"
+      ],
+      "Control label\u0004Space To Slides": [
+        "الفضاء إلى الشرائح"
+      ],
+      "Control label\u0004Space To Edge": [
+        "الفضاء إلى الحافة"
+      ],
+      "Control label\u0004Bullets": [
+        "الرصاص"
+      ],
+      "Control label\u0004Margin": [
+        "هامِش"
+      ],
+      "Item text\u0004Coverflow": [
+        "تدفق الغلاف"
+      ],
+      "Item text\u0004Enabled (frontend only)": [
+        "ممكّن (الواجهة الأمامية فقط)"
+      ],
+      "Item text\u0004Transition Start": [
+        "بداية الانتقال"
+      ],
+      "Item text\u0004Transition End": [
+        "نهاية المرحلة الانتقالية"
+      ],
+      "Item text\u0004Bullets": [
+        "الرصاص"
+      ],
+      "Item text\u0004Fraction": [
+        "جزء"
+      ],
+      "Item text\u0004Progress Bar": [
+        "شريط التقدم"
+      ],
+      "Preset section label\u0004Fraction": [
+        "جزء"
+      ],
+      "Element name\u0004Stats Grid": [
+        "شبكة الإحصائيات"
+      ],
+      "Control label\u0004Items Per Row": [
+        "العناصر لكل صف"
+      ],
+      "Control label\u0004After Number": [
+        "بعد الرقم"
+      ],
+      "Item text\u0004Animals Saved": [
+        "الحيوانات المحفوظة"
+      ],
+      "Item text\u0004Restaurants Visited": [
+        "المطاعم التي تمت زيارتها"
+      ],
+      "Item text\u0004Countries": [
+        "بلدان"
+      ],
+      "Item text\u0004Songs Performed": [
+        "الأغاني التي تم تنفيذها"
+      ],
+      "Item text\u0004Hours Spent": [
+        "الساعات التي قضيتها"
+      ],
+      "Item text\u0004Hollidays Missed": [
+        "غاب عن العطلات"
+      ],
+      "Item text\u0004Buses Stoped": [
+        "توقفت الحافلات"
+      ],
+      "Item text\u0004Lectures Attended": [
+        "حضر المحاضرات"
+      ],
+      "Preset section label\u0004Icon": [
+        "رمز"
+      ],
+      "Element name\u0004Logo List": [
+        "قائمة الشعار"
+      ],
+      "Control label\u0004Vertical Gap": [
+        "الفجوة العمودية"
+      ],
+      "Control label\u0004Gradient Overlay": [
+        "تراكب التدرج"
+      ],
+      "Control label\u0004Between Logos": [
+        "بين الشعارات"
+      ],
+      "Control label\u0004Setting": [
+        "جلسة"
+      ],
+      "Control label\u0004Logos": [
+        "الشعارات"
+      ],
+      "Item text\u0004Animated": [
+        "متحرك"
+      ],
+      "Item text\u0004Side Scroll": [
+        "التمرير الجانبي"
+      ],
+      "Item text\u0004Show All": [
+        "إظهار الكل"
+      ],
+      "Item text\u0004To Left": [
+        "إلى اليسار"
+      ],
+      "Item text\u0004To Right": [
+        "إلى اليمين"
+      ],
+      "Item text\u0004Infinite": [
+        "لانهائي"
+      ],
+      "Item text\u0004Start on Hover": [
+        "ابدأ عند التحويم"
+      ],
+      "Item text\u0004Stop on Hover": [
+        "توقف عند التحويم"
+      ],
+      "Item text\u0004Both": [
+        "كلاهما"
+      ],
+      "Element name\u0004Icon List": [
+        "قائمة الأيقونات"
+      ],
+      "Control label\u0004Fill": [
+        "يملأ"
+      ],
+      "Control label\u0004Stack": [
+        "كومة"
+      ],
+      "Control label\u0004Stack Vertical At": [
+        "المكدس العمودي عند"
+      ],
+      "Item text\u0004Automatic dimming at night": [
+        "التعتيم التلقائي في الليل"
+      ],
+      "Item text\u0004500 lumens of brightness": [
+        "500 شمعة من السطوع"
+      ],
+      "Item text\u0004Extremely energy efficient": [
+        "كفاءة في استخدام الطاقة للغاية"
+      ],
+      "Element name\u0004Search Form": [
+        "نموذج البحث"
+      ],
+      "Control label\u0004Classic Styles": [
+        "الأنماط الكلاسيكية"
+      ],
+      "Control label\u0004Icon Button": [
+        "زر الأيقونة"
+      ],
+      "Control label\u0004Full Screen Styles": [
+        "أنماط ملء الشاشة"
+      ],
+      "Control label\u0004Open Button": [
+        "زر مفتوح"
+      ],
+      "Control label\u0004Search Box": [
+        "مربع البحث"
+      ],
+      "Control label\u0004Limit To Post Type": [
+        "الحد من نوع المشاركة"
+      ],
+      "Item text\u0004Classic": [
+        "كلاسيكي"
+      ],
+      "Item text\u0004Full Screen": [
+        "شاشة كاملة"
+      ],
+      "Element name\u0004Related Products": [
+        "المنتجات ذات الصلة"
+      ],
+      "Element name\u0004Google Map": [
+        "خريطة جوجل"
+      ],
+      "Control label\u0004Address": [
+        "عنوان"
+      ],
+      "Control label\u0004Use Without API Key": [
+        "استخدم بدون مفتاح API"
+      ],
+      "Element name\u0004Text": [
+        "نص"
+      ],
+      "Element name\u0004Columns": [
+        "أعمدة"
+      ],
+      "Control label\u0004Add Column": [
+        "إضافة عمود"
+      ],
+      "Control label\u000450% Width": [
+        "عرض 50%"
+      ],
+      "Control label\u0004Reverse Order": [
+        "ترتيب عكسي"
+      ],
+      "Control label\u0004Column Gap": [
+        "فجوة العمود"
+      ],
+      "Control label\u0004Column Padding": [
+        "حشو العمود"
+      ],
+      "Item text\u0004Fit To Content": [
+        "تناسب المحتوى"
+      ],
+      "Item text\u0004Expand To Fill": [
+        "قم بالتوسيع لملء"
+      ],
+      "Element name\u0004Flexible Content": [
+        "محتوى مرن"
+      ],
+      "Control label\u0004Flexible Content Field": [
+        "مجال المحتوى المرن"
+      ],
+      "Control label\u0004Blocks": [
+        "كتل"
+      ],
+      "Element name\u0004Menu Custom Dropdown": [
+        "القائمة المنسدلة المخصصة"
+      ],
+      "Element name\u0004Image": [
+        "صورة"
+      ],
+      "Control label\u0004From": [
+        "من"
+      ],
+      "Control label\u0004Media": [
+        "وسائط"
+      ],
+      "Control label\u0004Set HTML Width & Height": [
+        "ضبط عرض وارتفاع HTML"
+      ],
+      "Item text\u0004Media Library": [
+        "مكتبة الوسائط"
+      ],
+      "Item text\u0004Decorative": [
+        "ديكور"
+      ],
+      "Element name\u0004Checkout Order Review": [
+        "مراجعة طلب الخروج"
+      ],
+      "Preset section label\u0004Your Order": [
+        "طلبك"
+      ],
+      "Element name\u0004Content Toggle - Content": [
+        "تبديل المحتوى - المحتوى"
+      ],
+      "Control label\u0004Primary": [
+        "أساسي"
+      ],
+      "Element name\u0004Icon": [
+        "رمز"
+      ],
+      "Control label\u0004Outline Width": [
+        "عرض المخطط التفصيلي"
+      ],
+      "Element name\u0004AnalyticsWP Event": [
+        "حدث AnalyticsWP"
+      ],
+      "Control label\u0004Event": [
+        "حدث"
+      ],
+      "Control label\u0004Time Active On Page": [
+        "الوقت النشط على الصفحة"
+      ],
+      "Item text\u0004Scrolled Into View": [
+        "تم التمرير إلى العرض"
+      ],
+      "Item text\u0004Time Active On Page": [
+        "الوقت النشط على الصفحة"
+      ],
+      "Element name\u0004Header Builder": [
+        "منشئ الرأس"
+      ],
+      "Control label\u0004Custom Width": [
+        "العرض المخصص"
+      ],
+      "Control label\u0004Page Top Margin": [
+        "الهامش العلوي للصفحة"
+      ],
+      "Control label\u0004Page Bottom Margin": [
+        "الهامش السفلي للصفحة"
+      ],
+      "Control label\u0004Scroll Behavior": [
+        "سلوك التمرير"
+      ],
+      "Control label\u0004Hide After": [
+        "إخفاء بعد"
+      ],
+      "Control label\u0004Hide Until Scroll": [
+        "إخفاء حتى التمرير"
+      ],
+      "Control label\u0004Scroll Distance": [
+        "مسافة التمرير"
+      ],
+      "Control label\u0004Reveal Animation": [
+        "كشف الرسوم المتحركة"
+      ],
+      "Control label\u0004Reveal On Scroll Up": [
+        "كشف عند التمرير لأعلى"
+      ],
+      "Control label\u0004Offset After Scroll": [
+        "إزاحة بعد التمرير"
+      ],
+      "Control label\u0004Keep Style": [
+        "حافظ على النمط"
+      ],
+      "Control label\u0004Disable Builder Preview Mode": [
+        "تعطيل وضع معاينة المنشئ"
+      ],
+      "Element name\u0004Checkout Page": [
+        "صفحة الخروج"
+      ],
+      "Control label\u0004Single Column": [
+        "عمود واحد"
+      ],
+      "Control label\u0004Your Order": [
+        "طلبك"
+      ],
+      "Control label\u0004Below Headings": [
+        "تحت العناوين"
+      ],
+      "Control label\u0004Force Full Width Form Fields": [
+        "فرض حقول النموذج ذات العرض الكامل"
+      ],
+      "Preset section label\u0004Coupon": [
+        "قسيمة"
+      ],
+      "Preset section label\u0004Billing Details": [
+        "تفاصيل الفواتير"
+      ],
+      "Preset section label\u0004Additional Info": [
+        "معلومات إضافية"
+      ],
+      "Preset section label\u0004Table Heading": [
+        "عنوان الجدول"
+      ],
+      "Preset section label\u0004Prices": [
+        "الأسعار"
+      ],
+      "Preset section label\u0004Payment Info": [
+        "معلومات الدفع"
+      ],
+      "Element name\u0004EffectsPreset": [
+        "التأثيرات"
+      ],
+      "Control label\u0004Box Shadow": [
+        "ظل الصندوق"
+      ],
+      "Control label\u0004Mix Blend Mode": [
+        "وضع المزج المختلط"
+      ],
+      "Control label\u0004Timing Function": [
+        "وظيفة التوقيت"
+      ],
+      "Control label\u0004Property": [
+        "ملكية"
+      ],
+      "Control label\u0004Custom Property": [
+        "خاصية مخصصة"
+      ],
+      "Control label\u0004Transform": [
+        "تحويل"
+      ],
+      "Control label\u0004Transforms": [
+        "يتحول"
+      ],
+      "Control label\u0004Skew X": [
+        "انحراف X"
+      ],
+      "Control label\u0004Skew Y": [
+        "انحراف Y"
+      ],
+      "Control label\u0004Translate X": [
+        "ترجمة X"
+      ],
+      "Control label\u0004Translate Y": [
+        "ترجمة ي"
+      ],
+      "Control label\u0004Translate Z": [
+        "ترجمة ز"
+      ],
+      "Control label\u0004Angle": [
+        "زاوية"
+      ],
+      "Control label\u0004Perspective": [
+        "وجهة نظر"
+      ],
+      "Control label\u0004Scale X": [
+        "مقياس X"
+      ],
+      "Control label\u0004Scale Y": [
+        "مقياس Y"
+      ],
+      "Control label\u0004Scale Z": [
+        "مقياس Z"
+      ],
+      "Control label\u0004Rotate X": [
+        "تدوير X"
+      ],
+      "Control label\u0004Rotate Y": [
+        "تدوير Y"
+      ],
+      "Control label\u0004Rotate Z": [
+        "تدوير Z"
+      ],
+      "Control label\u0004Origin Position": [
+        "موقف الأصل"
+      ],
+      "Control label\u0004Perspective Origin": [
+        "أصل المنظور"
+      ],
+      "Control label\u0004Transform Style": [
+        "تحويل النمط"
+      ],
+      "Control label\u0004Filter": [
+        "فلتر"
+      ],
+      "Control label\u0004Blur Amount": [
+        "كمية الضبابية"
+      ],
+      "Item text\u0004ease-in-out": [
+        "سهولة الدخول والخروج"
+      ],
+      "Item text\u0004ease-in": [
+        "سهولة الدخول"
+      ],
+      "Item text\u0004ease-out": [
+        "سهولة الخروج"
+      ],
+      "Item text\u0004ease": [
+        "يُسَهّل"
+      ],
+      "Item text\u0004linear": [
+        "خطي"
+      ],
+      "Item text\u0004all": [
+        "الجميع"
+      ],
+      "Item text\u0004perspective": [
+        "وجهة نظر"
+      ],
+      "Item text\u0004rotate": [
+        "تناوب"
+      ],
+      "Item text\u0004rotate3d": [
+        "com.rotate3d"
+      ],
+      "Item text\u0004scale": [
+        "حجم"
+      ],
+      "Item text\u0004scale3d": [
+        "com.scale3d"
+      ],
+      "Item text\u0004skew": [
+        "انحراف"
+      ],
+      "Item text\u0004translate": [
+        "يترجم"
+      ],
+      "Item text\u0004top left": [
+        "أعلى اليسار"
+      ],
+      "Item text\u0004top right": [
+        "أعلى اليمين"
+      ],
+      "Item text\u0004top center": [
+        "المركز العلوي"
+      ],
+      "Item text\u0004center left": [
+        "وسط اليسار"
+      ],
+      "Item text\u0004center right": [
+        "مركز الحق"
+      ],
+      "Item text\u0004bottom left": [
+        "أسفل اليسار"
+      ],
+      "Item text\u0004bottom center": [
+        "المركز السفلي"
+      ],
+      "Item text\u0004bottom right": [
+        "أسفل اليمين"
+      ],
+      "Item text\u0004Preserve 3D": [
+        "الحفاظ على 3D"
+      ],
+      "Item text\u0004blur": [
+        "طمس"
+      ],
+      "Item text\u0004brightness": [
+        "سطوع"
+      ],
+      "Item text\u0004contrast": [
+        "مقابلة"
+      ],
+      "Item text\u0004grayscale": [
+        "تدرج الرمادي"
+      ],
+      "Item text\u0004hue-rotate": [
+        "تدوير هوى"
+      ],
+      "Item text\u0004invert": [
+        "عكس"
+      ],
+      "Item text\u0004saturate": [
+        "مشبعة"
+      ],
+      "Item text\u0004sepia": [
+        "بني داكن"
+      ],
+      "Element name\u0004Rich Text": [
+        "نص غني"
+      ],
+      "Control label\u0004H1": [
+        "H1"
+      ],
+      "Control label\u0004Margin Block Start": [
+        "بداية كتلة الهامش"
+      ],
+      "Control label\u0004Margin Block End": [
+        "نهاية كتلة الهامش"
+      ],
+      "Control label\u0004H2": [
+        "H2"
+      ],
+      "Control label\u0004H3": [
+        "H3"
+      ],
+      "Control label\u0004H4": [
+        "H4"
+      ],
+      "Control label\u0004Paragraph": [
+        "فقرة"
+      ],
+      "Control label\u0004Padding Inline Start": [
+        "الحشو بداية مضمنة"
+      ],
+      "Control label\u0004List Item P": [
+        "عنصر القائمة P"
+      ],
+      "Preset section label\u0004Default": [
+        "تقصير"
+      ],
+      "Preset section label\u0004H1": [
+        "H1"
+      ],
+      "Preset section label\u0004H2": [
+        "H2"
+      ],
+      "Preset section label\u0004H3": [
+        "H3"
+      ],
+      "Preset section label\u0004H4": [
+        "H4"
+      ],
+      "Preset section label\u0004Paragraph": [
+        "فقرة"
+      ],
+      "Element name\u0004Checkout Billing Form": [
+        "نموذج فاتورة الخروج"
+      ],
+      "Element name\u0004Masker": [
+        "المقنع"
+      ],
+      "Element name\u0004Breadcrumbs": [
+        "فتات الخبز"
+      ],
+      "Control label\u0004Breadcrumbs": [
+        "فتات الخبز"
+      ],
+      "Control label\u0004Integration": [
+        "اندماج"
+      ],
+      "Item text\u0004Yoast SEO": [
+        "يوست سيو"
+      ],
+      "Item text\u0004Rank Math": [
+        "رتبة الرياضيات"
+      ],
+      "Item text\u0004SEOPress": [
+        "SEOPress"
+      ],
+      "Preset section label\u0004Separator": [
+        "فاصل"
+      ],
+      "Element name\u0004Checkmark List": [
+        "قائمة العلامات"
+      ],
+      "Control label\u0004Positive Color": [
+        "اللون الإيجابي"
+      ],
+      "Control label\u0004Negative Color": [
+        "اللون السلبي"
+      ],
+      "Control label\u0004Positive Nudge": [
+        "دفعة إيجابية"
+      ],
+      "Control label\u0004Negative Nudge": [
+        "دفعة سلبية"
+      ],
+      "Control label\u0004Force Vertical Stacking": [
+        "قوة التراص العمودي"
+      ],
+      "Control label\u0004Positive Icon": [
+        "أيقونة إيجابية"
+      ],
+      "Control label\u0004Negative Icon": [
+        "أيقونة سلبية"
+      ],
+      "Item text\u0004Lifetime unlimited license": [
+        "ترخيص غير محدود مدى الحياة"
+      ],
+      "Item text\u0004Everything you need and more": [
+        "كل ما تحتاجه وأكثر"
+      ],
+      "Item text\u0004All the features you want": [
+        "جميع الميزات التي تريدها"
+      ],
+      "Item text\u0004Gutenberg integration": [
+        "تكامل جوتنبرج"
+      ],
+      "Item text\u0004Composite elements": [
+        "العناصر المركبة"
+      ],
+      "Item text\u0004Positive": [
+        "إيجابي"
+      ],
+      "Item text\u0004Negative": [
+        "سلبي"
+      ],
+      "Element name\u0004Dual Heading": [
+        "العنوان المزدوج"
+      ],
+      "Control label\u0004Annotate": [
+        "علق"
+      ],
+      "Control label\u0004Stroke Width": [
+        "عرض السكتة الدماغية"
+      ],
+      "Control label\u0004Multiline": [
+        "متعدد الأسطر"
+      ],
+      "Control label\u0004Iterations": [
+        "التكرارات"
+      ],
+      "Control label\u0004RTL": [
+        "RTL"
+      ],
+      "Control label\u0004Brackets": [
+        "بين قوسين"
+      ],
+      "Control label\u0004Secondary": [
+        "ثانوي"
+      ],
+      "Control label\u0004Words": [
+        "كلمات"
+      ],
+      "Control label\u0004Secondary Style": [
+        "النمط الثانوي"
+      ],
+      "Item text\u0004This is": [
+        "هذا هو"
+      ],
+      "Item text\u0004amazing!": [
+        "مدهش!"
+      ],
+      "Item text\u0004underline": [
+        "تسطير"
+      ],
+      "Item text\u0004box": [
+        "صندوق"
+      ],
+      "Item text\u0004circle": [
+        "دائرة"
+      ],
+      "Item text\u0004strike-through": [
+        "الإضراب"
+      ],
+      "Item text\u0004crossed-off": [
+        "شطب"
+      ],
+      "Item text\u0004bracket": [
+        "قوس"
+      ],
+      "Preset section label\u0004Both": [
+        "كلاهما"
+      ],
+      "Element name\u0004Scroll Progress": [
+        "تقدم التمرير"
+      ],
+      "Control label\u0004Circle": [
+        "دائرة"
+      ],
+      "Control label\u0004Percentage": [
+        "نسبة مئوية"
+      ],
+      "Control label\u0004Show Percentage": [
+        "إظهار النسبة المئوية"
+      ],
+      "Control label\u0004Track Progress Of": [
+        "تتبع التقدم"
+      ],
+      "Control label\u0004Custom Selector": [
+        "محدد مخصص"
+      ],
+      "Item text\u0004Page": [
+        "صفحة"
+      ],
+      "Item text\u0004Custom Selector": [
+        "محدد مخصص"
+      ],
+      "Element name\u0004Hover Swapper": [
+        "تحوم مبادلة"
+      ],
+      "Control label\u0004New Control": [
+        "تحكم جديد"
+      ],
+      "Element name\u0004WooPresetStock": [
+        "WooPresetStock"
+      ],
+      "Control label\u0004Out Of Stock": [
+        "إنتهى من المخزن"
+      ],
+      "Control label\u0004Disable Icon": [
+        "تعطيل أيقونة"
+      ],
+      "Control label\u0004Backorder": [
+        "طلب متأخر"
+      ],
+      "Element name\u0004Animated Heading": [
+        "عنوان الرسوم المتحركة"
+      ],
+      "Control label\u0004Typing": [
+        "الكتابة"
+      ],
+      "Control label\u0004Type Speed": [
+        "اكتب السرعة"
+      ],
+      "Control label\u0004Start Delay": [
+        "تأخير البدء"
+      ],
+      "Control label\u0004Back Speed": [
+        "سرعة العودة"
+      ],
+      "Control label\u0004Back Delay": [
+        "تأخير العودة"
+      ],
+      "Control label\u0004Shuffle": [
+        "خلط"
+      ],
+      "Control label\u0004Disable Loop": [
+        "تعطيل الحلقة"
+      ],
+      "Control label\u0004Hide Cursor": [
+        "إخفاء المؤشر"
+      ],
+      "Control label\u0004Rotating": [
+        "الدورية"
+      ],
+      "Control label\u0004Easing In": [
+        "تسهيل في"
+      ],
+      "Control label\u0004Easing Out": [
+        "التخفيف"
+      ],
+      "Control label\u0004Transform origin": [
+        "تحويل الأصل"
+      ],
+      "Control label\u0004Changing Text": [
+        "تغيير النص"
+      ],
+      "Item text\u0004awesome": [
+        "مذهل"
+      ],
+      "Item text\u0004great": [
+        "عظيم"
+      ],
+      "Item text\u0004cool": [
+        "رائع"
+      ],
+      "Item text\u0004Typing": [
+        "الكتابة"
+      ],
+      "Item text\u0004Rotating": [
+        "الدورية"
+      ],
+      "Item text\u0004easeOutSine": [
+        "easyOutSine"
+      ],
+      "Item text\u0004easeOutExpo": [
+        "easyOutExpo"
+      ],
+      "Item text\u0004easeOutBack": [
+        "easyOutBack"
+      ],
+      "Item text\u0004easeOutBounce": [
+        "easyOutBounce"
+      ],
+      "Item text\u0004easeInSine": [
+        "easyInSine"
+      ],
+      "Item text\u0004easeInExpo": [
+        "easyInExpo"
+      ],
+      "Item text\u0004easeInBack": [
+        "easyInBack"
+      ],
+      "Item text\u0004easeInBounce": [
+        "easyInBounce"
+      ],
+      "Item text\u0004Slide down": [
+        "تنزلق للأسفل"
+      ],
+      "Item text\u0004Slide right": [
+        "حرك لليمين"
+      ],
+      "Item text\u0004Slide left": [
+        "مرر لليسار"
+      ],
+      "Item text\u0004Flip x": [
+        "الوجه س"
+      ],
+      "Item text\u0004Flip y": [
+        "اقلب ذ"
+      ],
+      "Item text\u0004Zoom in": [
+        "تكبير"
+      ],
+      "Item text\u0004Zoom out": [
+        "تصغير"
+      ],
+      "Preset section label\u0004Cursor Style": [
+        "نمط المؤشر"
+      ],
+      "Element name\u0004Twitter Embed Tweet": [
+        "تويتر تضمين تغريدة"
+      ],
+      "Control label\u0004Tweet": [
+        "سقسقة"
+      ],
+      "Control label\u0004Tweet URL": [
+        "عنوان URL للتغريدة"
+      ],
+      "Control label\u0004Hide Conversation": [
+        "إخفاء المحادثة"
+      ],
+      "Control label\u0004Hide Media": [
+        "إخفاء الوسائط"
+      ],
+      "Element name\u0004Menu Custom Area": [
+        "منطقة القائمة المخصصة"
+      ],
+      "Control label\u0004Hide In": [
+        "إخفاء في"
+      ],
+      "Control label\u0004Dropdown": [
+        "اسقاط"
+      ],
+      "Control label\u0004Inherit Link Styles": [
+        "وراثة أنماط الارتباط"
+      ],
+      "Control label\u0004Icons Inherit Link Styles": [
+        "ترث الأيقونات أنماط الارتباط"
+      ],
+      "Control label\u0004Enable Dropdown": [
+        "تمكين القائمة المنسدلة"
+      ],
+      "Control label\u0004Menu Source": [
+        "مصدر القائمة"
+      ],
+      "Item text\u0004Our Story": [
+        "قصتنا"
+      ],
+      "Item text\u0004Mission & Vision": [
+        "المهمة والرؤية"
+      ],
+      "Item text\u0004Team": [
+        "فريق"
+      ],
+      "Item text\u0004Consulting": [
+        "استشارات"
+      ],
+      "Item text\u0004Development": [
+        "تطوير"
+      ],
+      "Item text\u0004Design": [
+        "تصميم"
+      ],
+      "Item text\u0004Job Openings": [
+        "فرص العمل"
+      ],
+      "Item text\u0004Internships": [
+        "التدريب"
+      ],
+      "Item text\u0004Employee Benefits": [
+        "فوائد الموظف"
+      ],
+      "Item text\u0004Desktop Menu": [
+        "قائمة سطح المكتب"
+      ],
+      "Item text\u0004Mobile Menu": [
+        "قائمة الجوال"
+      ],
+      "Item text\u0004Standard Controls": [
+        "الضوابط القياسية"
+      ],
+      "Item text\u0004Global Block": [
+        "الكتلة العالمية"
+      ],
+      "Element name\u0004Fancy Divider": [
+        "مقسم يتوهم"
+      ],
+      "Control label\u0004Pattern": [
+        "نمط"
+      ],
+      "Control label\u0004Space Around": [
+        "الفضاء حول"
+      ],
+      "Item text\u0004Zigzag": [
+        "متعرج"
+      ],
+      "Item text\u0004Pills": [
+        "حبوب"
+      ],
+      "Item text\u0004Stars": [
+        "النجوم"
+      ],
+      "Item text\u0004Leafs": [
+        "يورق"
+      ],
+      "Item text\u0004Smiley": [
+        "مبتسم"
+      ],
+      "Item text\u0004Arrows": [
+        "السهام"
+      ],
+      "Item text\u0004Pluses": [
+        "الإيجابيات"
+      ],
+      "Item text\u0004Triangles": [
+        "مثلثات"
+      ],
+      "Item text\u0004Doodles": [
+        "رسومات الشعار المبتكرة"
+      ],
+      "Item text\u0004Dots": [
+        "النقاط"
+      ],
+      "Item text\u0004Rectangles": [
+        "المستطيلات"
+      ],
+      "Item text\u0004Half Circle": [
+        "نصف دائرة"
+      ],
+      "Element name\u0004Shop Filters": [
+        "مرشحات المتجر"
+      ],
+      "Control label\u0004Chips": [
+        "رقائق"
+      ],
+      "Control label\u0004Hover Border": [
+        "تحوم الحدود"
+      ],
+      "Control label\u0004Hover Shadow": [
+        "تحوم الظل"
+      ],
+      "Control label\u0004Price Filter": [
+        "تصفية الأسعار"
+      ],
+      "Control label\u0004Bar": [
+        "حاجِز"
+      ],
+      "Control label\u0004Selection": [
+        "اختيار"
+      ],
+      "Control label\u0004Handle": [
+        "مقبض"
+      ],
+      "Control label\u0004Rating Filter": [
+        "مرشح التقييم"
+      ],
+      "Control label\u0004Between Stars": [
+        "بين النجوم"
+      ],
+      "Control label\u0004Attribute Filter": [
+        "مرشح السمات"
+      ],
+      "Control label\u0004After Titles": [
+        "بعد العناوين"
+      ],
+      "Control label\u0004Between Filters": [
+        "بين المرشحات"
+      ],
+      "Element name\u0004Table Of Contents": [
+        "جدول المحتويات"
+      ],
+      "Control label\u0004Heading Offset": [
+        "إزاحة العنوان"
+      ],
+      "Control label\u0004Collapse": [
+        "ينهار"
+      ],
+      "Control label\u0004Indent": [
+        "مسافة بادئة"
+      ],
+      "Control label\u0004Active Typography": [
+        "الطباعة النشطة"
+      ],
+      "Control label\u0004Weight": [
+        "وزن"
+      ],
+      "Control label\u0004Below Header": [
+        "أسفل الرأس"
+      ],
+      "Control label\u0004Table": [
+        "طاولة"
+      ],
+      "Control label\u0004Included Headings": [
+        "العناوين المدرجة"
+      ],
+      "Control label\u0004H5": [
+        "H5"
+      ],
+      "Control label\u0004H6": [
+        "H6"
+      ],
+      "Control label\u0004Ignore Selectors": [
+        "تجاهل المحددات"
+      ],
+      "Control label\u0004Container Selector": [
+        "محدد الحاوية"
+      ],
+      "Item text\u0004Label": [
+        "ملصق"
+      ],
+      "Item text\u0004Riht": [
+        "ريت"
+      ],
+      "Item text\u0004Numbers": [
+        "أرقام"
+      ],
+      "Element name\u0004Instagram Post": [
+        "بوست انستغرام"
+      ],
+      "Control label\u0004Hide Caption": [
+        "إخفاء التسمية التوضيحية"
+      ],
+      "Element name\u0004Grid": [
+        "شبكة"
+      ],
+      "Control label\u0004Grid": [
+        "شبكة"
+      ],
+      "Control label\u0004Item Vertical Alignment": [
+        "المحاذاة العمودية للعنصر"
+      ],
+      "Control label\u0004Item Horizontal Alignment": [
+        "محاذاة أفقية للعنصر"
+      ],
+      "Control label\u0004Use Original Item Dimensions": [
+        "استخدم أبعاد السلعة الأصلية"
+      ],
+      "Element name\u0004Badge": [
+        "شارة"
+      ],
+      "Item text\u0004My Badge": [
+        "شارتي"
+      ],
+      "Control label\u0004Row Gap": [
+        "فجوة الصف"
+      ],
+      "Control label\u0004Text Align": [
+        "محاذاة النص"
+      ],
+      "Control label\u0004Justify Items": [
+        "تبرير العناصر"
+      ],
+      "Control label\u0004Grid Template": [
+        "قالب الشبكة"
+      ],
+      "Control label\u0004Grid Auto Columns": [
+        "أعمدة الشبكة التلقائية"
+      ],
+      "Control label\u0004Grid Auto Rows": [
+        "شبكة الصفوف التلقائية"
+      ],
+      "Control label\u0004Grid Auto Flow": [
+        "شبكة التدفق التلقائي"
+      ],
+      "Item text\u0004Flex Start": [
+        "البداية المرنة"
+      ],
+      "Item text\u0004Flex End": [
+        "فليكس إند"
+      ],
+      "Item text\u0004No Wrap": [
+        "لا التفاف"
+      ],
+      "Item text\u0004Wrap": [
+        "طَوّق"
+      ],
+      "Item text\u0004Wrap Reverse": [
+        "التفاف عكسي"
+      ],
+      "Item text\u0004Column Reverse": [
+        "عكس العمود"
+      ],
+      "Item text\u0004Row Reverse": [
+        "عكس الصف"
+      ],
+      "Item text\u0004Column Dense": [
+        "عمود كثيف"
+      ],
+      "Item text\u0004Row Dense": [
+        "صف كثيف"
+      ],
+      "Control label\u0004Clip": [
+        "مقطع"
+      ],
+      "Control label\u0004Layers": [
+        "طبقات"
+      ],
+      "Control label\u0004Form Name": [
+        "Form Name"
+      ],
+      "Control label\u0004Actions After Submission": [
+        "Actions After Submission"
+      ],
+      "Placeholder\u0004No action selected": [
+        "No action selected"
+      ],
+      "Control label\u0004Add Field": [
+        "Add Field"
+      ],
+      "Control label\u0004Error Message": [
+        "Error Message"
+      ],
+      "Control label\u0004Hide Form On Success": [
+        "Hide Form On Success"
+      ],
+      "Control label\u0004Form HTML ID": [
+        "Form HTML ID"
+      ],
+      "Control label\u0004Submit HTML ID": [
+        "Submit HTML ID"
+      ],
+      "Control label\u0004Add Honeypot Field": [
+        "Add Honeypot Field"
+      ],
+      "Control label\u0004Enable CSRF Protection": [
+        "Enable CSRF Protection"
+      ],
+      "Control label\u0004Enable reCAPTCHA": [
+        "Enable reCAPTCHA"
+      ],
+      "Control label\u0004Store Submission": [
+        "Store Submission"
+      ],
+      "Control label\u0004Submission Title": [
+        "Submission Title"
+      ],
+      "Control label\u0004Store uploaded files": [
+        "Store uploaded files"
+      ],
+      "Control label\u0004Add uploaded files to WordPress media library": [
+        "Add uploaded files to WordPress media library"
+      ],
+      "Control label\u0004Run Action Conditionally": [
+        "Run Action Conditionally"
+      ],
+      "Control label\u0004Emails": [
+        "Emails"
+      ],
+      "Control label\u0004Subject": [
+        "Subject"
+      ],
+      "Control label\u0004To Email": [
+        "To Email"
+      ],
+      "Control label\u0004From Email": [
+        "From Email"
+      ],
+      "Control label\u0004From Name": [
+        "From Name"
+      ],
+      "Control label\u0004Reply To": [
+        "Reply To"
+      ],
+      "Control label\u0004Attach uploaded files": [
+        "Attach uploaded files"
+      ],
+      "Control label\u0004BCC": [
+        "BCC"
+      ],
+      "Control label\u0004Disable Prefix": [
+        "Disable Prefix"
+      ],
+      "Element name\u0004Archive Title": [
+        "Archive Title"
+      ],
+      "Element name\u0004Post Title": [
+        "Post Title"
+      ]
+    }
+  }
+}

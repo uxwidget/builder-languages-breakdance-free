@@ -1,0 +1,5509 @@
+# Breakdance admin translations expanded from breakdance/languages/breakdance.pot.
+msgid ""
+msgstr ""
+"Project-Id-Version: Breakdance Languages ux-0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/breakdance\n"
+"POT-Creation-Date: 2025-12-20T16:49:55+00:00\n"
+"PO-Revision-Date: 2026-07-09 21:24:-0300\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: breakdance\n"
+
+#. Plugin Name of the plugin
+#: plugin.php plugin/admin/menu/menu.php:21
+msgid "Breakdance"
+msgstr "ברייקדאנס"
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "%%pluginURI%%"
+msgstr "%%pluginURI%%"
+
+#. Description of the plugin
+#: plugin.php
+msgid "%%description%%"
+msgstr "%%תֵאוּר%%"
+
+#. Author of the plugin
+#: plugin.php
+msgid "%%author%%"
+msgstr "%%מְחַבֵּר%%"
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "%%authorURI%%"
+msgstr "%%authorURI%%"
+
+#. translators: %1$s: plugin name, %2$s: minimum required PHP version, %3$s:
+#. current PHP version
+#: plugin.php:71
+#, php-format
+msgid ""
+"%1$s requires PHP of version >= %2$s and is unable to run with the version "
+"installed on this server (%3$s). Please switch to a modern web host."
+msgstr ""
+"%1$s דורש PHP של גרסה >= %2$s ואינו יכול לפעול עם הגרסה המותקנת בשרת זה "
+"(%3$s). נא לעבור למארח אינטרנט מודרני."
+
+#. translators: %1$s: plugin name, %2$s: domain URL, %3$s: domain name
+#: plugin.php:84
+#, php-format
+msgid ""
+"This %1$s pre-release version is expired. Please get the latest version at "
+"<a href=\"https://%2$s/\">%3$s</a>."
+msgstr ""
+"פג תוקף גרסת ההפצה המוקדמת של %1$s זו. קבל את הגרסה העדכנית ביותר בכתובת <a "
+"href=\"https://%2$s/\">%3$s</a>."
+
+#: plugin/acf-breakdance-content/acf-block.cpt.php:17
+#: plugin/acf-breakdance-content/acf-block.cpt.php:18
+msgid "ACF Block"
+msgstr "בלוק ACF"
+
+#: plugin/acf-breakdance-content/acf-breakdance-content-field.php:27
+msgid "Breakdance Content"
+msgstr "תוכן ברייקדאנס"
+
+#: plugin/admin/admin_bar_menu.php:56
+#, php-format
+msgctxt "Post title"
+msgid "Open '%s'"
+msgstr "פתח את '%s'"
+
+#. translators: %s: Template title
+#: plugin/admin/admin_bar_menu.php:88
+#, php-format
+msgid "Open '%s' Template"
+msgstr "פתח את תבנית '%s'"
+
+#. translators: %s: Header title
+#: plugin/admin/admin_bar_menu.php:105
+#, php-format
+msgid "Open '%s' Header"
+msgstr "פתח את הכותרת '%s'"
+
+#. translators: %s: Footer title
+#: plugin/admin/admin_bar_menu.php:122
+#, php-format
+msgid "Open '%s' Footer"
+msgstr "פתח את הכותרת התחתונה '%s'"
+
+#: plugin/admin/admin_bar_menu.php:145 plugin/admin/admin_bar_menu.php:167
+#: plugin/admin/settings-page/tabs/global-styles.php:36
+msgid "Edit Global Styles"
+msgstr "ערוך סגנונות גלובליים"
+
+#: plugin/admin/menu/home.php:101
+msgid "Oxygen Beta"
+msgstr "חמצן בטא"
+
+#: plugin/admin/menu/home.php:103
+msgid "Thank you for beta testing the new Oxygen."
+msgstr "תודה על בדיקת הבטא של Oxygen החדש."
+
+#: plugin/admin/menu/home.php:106
+msgid "-The Oxygen Team"
+msgstr "-צוות החמצן"
+
+#: plugin/admin/menu/menu.php:22 plugin/admin/menu/menu.php:73
+msgid "Home"
+msgstr "בַּיִת"
+
+#: plugin/admin/menu/menu.php:24 plugin/admin/menu/menu.php:75
+#: plugin/themeless/template.cpt.php:16
+msgid "Templates"
+msgstr "תבניות"
+
+#: plugin/admin/menu/menu.php:26 plugin/admin/menu/menu.php:77
+#: plugin/themeless/header-or-footer.cpt.php:15
+msgid "Headers"
+msgstr "כותרות"
+
+#: plugin/admin/menu/menu.php:28 plugin/admin/menu/menu.php:79
+#: plugin/themeless/header-or-footer.cpt.php:38
+msgid "Footers"
+msgstr "כותרות תחתונות"
+
+#: plugin/admin/menu/menu.php:30 plugin/util/bdox.php:42
+msgid "Global Blocks"
+msgstr "בלוקים גלובליים"
+
+#: plugin/admin/menu/menu.php:31 plugin/themeless/popups.cpt.php:16
+msgid "Popups"
+msgstr "חלונות קופצים"
+
+#: plugin/admin/menu/menu.php:32 plugin/admin/menu/menu.php:51
+msgid "Form Submissions"
+msgstr "הגשת טפסים"
+
+#: plugin/admin/menu/menu.php:35 plugin/admin/menu/menu.php:85
+#: plugin/design-library/builder.php:25
+#: plugin/design-library/settings-tabs.php:21
+#: plugin/design-library/settings-tabs.php:102
+msgid "Design Library"
+msgstr "ספריית עיצוב"
+
+#: plugin/admin/menu/menu.php:40 plugin/admin/menu/menu.php:90
+#: plugin/admin/partner-discount/partner-discount-sdk.php:102
+msgid "Partner Discounts"
+msgstr "הנחות לשותפים"
+
+#: plugin/admin/menu/menu.php:45 plugin/setup-wizard/onboarding-notice.php:269
+msgid "Quickstart"
+msgstr "התחלה מהירה"
+
+#: plugin/admin/menu/menu.php:50
+msgid "Breakdance Form Submissions"
+msgstr "הגשת טופס ברייקדאנס"
+
+#: plugin/admin/menu/menu.php:50
+msgid "Submissions"
+msgstr "הגשות"
+
+#: plugin/admin/menu/menu.php:64 plugin/admin/menu/menu.php:65
+msgid "Oxygen"
+msgstr "חַמצָן"
+
+#: plugin/admin/partner-discount/partner-discount-sdk.php:103
+msgid ""
+"Exclusive discounts on premium WordPress tools and plugins for our users."
+msgstr "הנחות בלעדיות על כלי וורדפרס פרימיום ותוספים למשתמשים שלנו."
+
+#: plugin/admin/partner-discount/partner-discount-sdk.php:126
+msgid "Code:"
+msgstr "קוד:"
+
+#: plugin/admin/partner-discount/partner-discount-sdk.php:130
+msgid "Claim"
+msgstr "תְבִיעָה"
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:59
+#: plugin/admin/partner-discount/partner-discount-ui.php:114
+msgid ""
+"This privacy-compliant WordPress analytics plugin gives detailed insights "
+"into user behavior beyond what traditional tools can provide, and has a "
+"dedicated integration for WooCommerce."
+msgstr ""
+"תוסף ניתוח וורדפרס תואם פרטיות זה נותן תובנות מפורטות לגבי התנהגות המשתמש "
+"מעבר למה שהכלים המסורתיים יכולים לספק, ויש לו אינטגרציה ייעודית עבור "
+"WooCommerce."
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:67
+#: plugin/admin/partner-discount/partner-discount-ui.php:138
+msgid ""
+"Save code from inside Breakdance to WPCodebox in one click. Use cloud "
+"snippets to share across your sites and explore the Code Snippet Repository "
+"full of tested snippets."
+msgstr ""
+"שמור קוד מתוך Breakdance ל-WPCodebox בלחיצה אחת. השתמש בקטעי ענן כדי לשתף "
+"בין האתרים שלך ולחקור את מאגר קטעי הקוד המלא בקטעים שנבדקו."
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:75
+#: plugin/admin/partner-discount/partner-discount-ui.php:130
+msgid ""
+"The #1 data import and export solution for WordPress and WooCommerce - by "
+"Soflyy, the creators of Oxygen."
+msgstr ""
+"פתרון ייבוא וייצוא הנתונים מספר 1 עבור וורדפרס ו-WooCommerce - מאת Soflyy, "
+"יוצרי Oxygen."
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:83
+msgid ""
+"Created by the same team behind WP All Import, Oxygen is the go-to WordPress"
+" website builder for highly advanced users & developers who love to code."
+msgstr ""
+"Oxygen, שנוצר על ידי אותו צוות מאחורי WP All Import, הוא בונה אתרי וורדפרס "
+"עבור משתמשים מתקדמים ומפתחים שאוהבים לקודד."
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:122
+msgid ""
+"Created by the same team behind WP All Import, Breakdance is a modern visual"
+" site builder for WordPress that combines professional power with drag & "
+"drop ease of use."
+msgstr ""
+"נוצר על ידי אותו צוות מאחורי WP All Import, Breakdance הוא בונה אתרים "
+"ויזואלי מודרני לוורדפרס המשלב כוח מקצועי עם קלות שימוש בגרירה ושחרור."
+
+#. translators: %s: Plugin name
+#: plugin/admin/quick_action_links.php:48
+#, php-format
+msgid "Edit in %s"
+msgstr "ערוך ב- %s"
+
+#: plugin/admin/settings-page/settings-page.php:12
+#: plugin/admin/settings-page/settings-page.php:16
+msgid "Settings"
+msgstr "הגדרות"
+
+#: plugin/admin/settings-page/settings-page.php:32
+msgid "Settings saved."
+msgstr "ההגדרות נשמרו."
+
+#: plugin/admin/settings-page/tabs/advanced.php:13
+#: plugin/admin/settings-page/tabs/advanced.php:96
+#: plugin/animations/entrance/control.php:53
+#: plugin/animations/scrolling/control.php:324
+#: plugin/dynamic-data/field-types/Field.php:56
+#: plugin/dynamic-data/field-types/StringField.php:56
+#: plugin/elements/universal-controls/advanced.php:136
+#: plugin/global-styles/typography/base.php:113
+msgid "Advanced"
+msgstr "מִתקַדֵם"
+
+#: plugin/admin/settings-page/tabs/advanced.php:104
+msgid "Allow SVG Uploads In The WP Media Library"
+msgstr "אפשר העלאות SVG בספריית המדיה של WP"
+
+#: plugin/admin/settings-page/tabs/advanced.php:109
+#: plugin/admin/settings-page/tabs/advanced.php:149
+#: plugin/admin/settings-page/tabs/advanced.php:184
+#: plugin/admin/settings-page/tabs/advanced.php:206
+msgid "Enable"
+msgstr "לְאַפשֵׁר"
+
+#. translators: 1: Opening <a> tag for security docs, 2: Closing </a> tag, 3:
+#. Opening <a> tag for Safe SVG plugin, 4: Closing </a> tag
+#: plugin/admin/settings-page/tabs/advanced.php:115
+#, php-format
+msgid ""
+"Allowing SVG uploads can be dangerous, and you should understand the "
+"%1$spotential security implications%2$s. If in doubt, use a plugin like "
+"%3$sSafe SVG%4$s instead of this option."
+msgstr ""
+"מתן אפשרות להעלות SVG יכול להיות מסוכן, ואתה צריך להבין את %1$sהשלכות האבטחה"
+" הנקודתיות%2$s. אם יש לך ספק, השתמש בתוסף כמו %3$s Safe SVG %4$s במקום "
+"אפשרות זו."
+
+#. translators: 1: Filter name in <code> tags, 2: Plugin name
+#: plugin/admin/settings-page/tabs/advanced.php:143
+#, php-format
+msgid "Apply %1$s filter to %2$s content"
+msgstr "החל מסנן %1$s על תוכן %2$s"
+
+#. translators: 1: Plugin name (used multiple times), 2: Filter name in <code>
+#. tags, 3: Function call in <code> tags, 4: Opening <a> tag for security
+#. docs, 5: Closing </a> tag
+#: plugin/admin/settings-page/tabs/advanced.php:155
+#, php-format
+msgid ""
+"By default, %1$s does not apply %2$s filter to %1$s-designed content. You "
+"can enable this option to make %1$s run %3$s on singular content created "
+"with %1$s, but you should understand the %4$spotential security "
+"implications%5$s."
+msgstr ""
+"כברירת מחדל, %1$s אינו מחיל מסנן %2$s על תוכן מעוצב של %1$s. אתה יכול להפעיל"
+" אפשרות זו כדי לגרום ל- %1$s להריץ %3$s על תוכן יחיד שנוצר עם %1$s, אך עליך "
+"להבין את %4$sהשלכות האבטחה הנקודתיות%5$s."
+
+#: plugin/admin/settings-page/tabs/advanced.php:161
+msgid "Allow unfiltered HTML in all dynamic data output"
+msgstr "אפשר HTML לא מסונן בכל פלט הנתונים הדינמי"
+
+#: plugin/admin/settings-page/tabs/advanced.php:166
+msgid "Allow"
+msgstr "לְהַתִיר"
+
+#. translators: 1: Plugin name, 2: Function name in <code> tags, 3: Capability
+#. name in <code> tags, 4: Opening <a> tag for security docs, 5: Closing </a>
+#. tag
+#: plugin/admin/settings-page/tabs/advanced.php:172
+#, php-format
+msgid ""
+"By default, %1$s applies %2$s to fields on posts with an author that lacks "
+"the %3$s capability. You can disable this if you understand the "
+"%4$spotential security implications%5$s."
+msgstr ""
+"כברירת מחדל, %1$s מחיל %2$s על שדות בפוסטים עם מחבר חסר יכולת %3$s. אתה יכול"
+" להשבית זאת אם אתה מבין את %4$sהשלכות האבטחה הנקודתיות%5$s."
+
+#: plugin/admin/settings-page/tabs/advanced.php:178
+msgid "Enable rendering performance debugger"
+msgstr "אפשר מאתר באגים לביצועי רינדור"
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag
+#: plugin/admin/settings-page/tabs/advanced.php:190
+#, php-format
+msgid ""
+"Use %1$sServer Timing API%2$s to audit rendering performance. This option is"
+" intended for debugging only. It is recommended to enable it while "
+"troubleshooting and disable it afterward to avoid unnecessary overhead."
+msgstr ""
+"השתמש ב- %1$s Server Timing API %2$s לבדיקת ביצועי העיבוד. אפשרות זו מיועדת "
+"לניפוי באגים בלבד. מומלץ להפעיל אותו תוך כדי פתרון בעיות ולהשבית אותו לאחר "
+"מכן כדי למנוע תקורה מיותרת."
+
+#: plugin/admin/settings-page/tabs/advanced.php:196
+msgid "Revisions"
+msgstr "תיקונים"
+
+#. translators: 1: Setting name in <code> tags, 2: Plugin name
+#: plugin/admin/settings-page/tabs/advanced.php:201
+#: plugin/admin/settings-page/tabs/advanced.php:229
+msgid "Limit Revisions"
+msgstr "הגבלת תיקונים"
+
+#. translators: 1: Plugin name, 2: Setting name in <code> tags
+#: plugin/admin/settings-page/tabs/advanced.php:212
+#, php-format
+msgid ""
+"For each page, on save, if the quantity of stored revisions of %1$s content "
+"is higher than the %2$s setting, the oldest revisions will be removed your "
+"database."
+msgstr ""
+"עבור כל עמוד, בשמירה, אם כמות הגרסאות המאוחסנות של תוכן %1$s גבוהה מההגדרה "
+"%2$s, הגרסאות הישנות ביותר יוסרו מסד הנתונים שלך."
+
+#. translators: 1: Plugin name, 2: Setting name in <code> tags
+#: plugin/admin/settings-page/tabs/advanced.php:212
+#: plugin/admin/settings-page/tabs/advanced.php:218
+msgid "Max Revisions"
+msgstr "מקסימום גרסאות"
+
+#. translators: 1: Setting name in <code> tags, 2: Plugin name
+#: plugin/admin/settings-page/tabs/advanced.php:229
+#, php-format
+msgid ""
+"If %1$s is enabled, this is the max number of revisions of %2$s content that"
+" will be kept for each page."
+msgstr ""
+"אם %1$s מופעל, זהו המספר המרבי של גרסאות של תוכן %2$s שיישמר עבור כל עמוד."
+
+#: plugin/admin/settings-page/tabs/advanced.php:237
+#: plugin/admin/settings-page/tabs/license.php:175
+#: plugin/admin/settings-page/tabs/post-types.php:96
+#: plugin/admin/settings-page/tabs/privacy.php:115
+#: plugin/api-keys/settings-page.php:133
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:202
+#: plugin/design-library/settings-tabs.php:251
+#: plugin/extensions/settings-page.php:113
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:121
+#: plugin/maintenance-mode/maintenance-mode-page.php:173
+#: plugin/permissions/settings-tab.php:125
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:90
+#: plugin/woocommerce/settings/settings-tab.php:133
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+#: plugin/admin/settings-page/tabs/global-styles.php:20
+#: plugin/admin/settings-page/tabs/global-styles.php:30
+msgid "Global Styles"
+msgstr "סגנונות גלובליים"
+
+#: plugin/admin/settings-page/tabs/global-styles.php:39
+msgid "Launch Breakdance"
+msgstr "הפעל את ברייקדאנס"
+
+#: plugin/admin/settings-page/tabs/global-styles.php:40
+msgid "Edit Global Settings & Selectors while browsing through your website."
+msgstr "ערוך הגדרות ובוררים גלובליים תוך כדי גלישה באתר האינטרנט שלך."
+
+#: plugin/admin/settings-page/tabs/license.php:24
+#: plugin/admin/settings-page/tabs/license.php:86
+msgid "License"
+msgstr "רישיון"
+
+#: plugin/admin/settings-page/tabs/license.php:56
+msgid "License was activated"
+msgstr "הרישיון הופעל"
+
+#: plugin/admin/settings-page/tabs/license.php:61
+msgid "Failed to activate license"
+msgstr "הפעלת הרישיון נכשלה"
+
+#: plugin/admin/settings-page/tabs/license.php:68
+msgid "License was deactivated"
+msgstr "הרישיון הושבת"
+
+#: plugin/admin/settings-page/tabs/license.php:73
+msgid "Failed to deactivate license"
+msgstr "השבתת הרישיון נכשלה"
+
+#: plugin/admin/settings-page/tabs/license.php:94
+#: plugin/setup-wizard/setup-wizard-page.php:220
+msgid "License Key"
+msgstr "מפתח רישיון"
+
+#: plugin/admin/settings-page/tabs/license.php:101
+msgid "Activate License"
+msgstr "הפעל רישיון"
+
+#: plugin/admin/settings-page/tabs/license.php:105
+msgid "Deactivate License"
+msgstr "השבת את הרישיון"
+
+#: plugin/admin/settings-page/tabs/license.php:110
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery-image.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery.php:38
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image-url.php:38
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-price-range.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-regular-price.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale.php:35
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sku.php:38
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:40
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-title.php:37
+#: plugin/themeless/rules/woocommerce/product-attributes.php:15
+#: plugin/themeless/rules/woocommerce/product-cart.php:11
+#: plugin/themeless/rules/woocommerce/product-categories.php:14
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:11
+#: plugin/themeless/rules/woocommerce/product-shipping.php:14
+#: plugin/themeless/rules/woocommerce/product-tags.php:14
+#: plugin/themeless/rules/woocommerce/product-virtual.php:11
+msgid "Product"
+msgstr "מוּצָר"
+
+#: plugin/admin/settings-page/tabs/license.php:113
+msgid "License Key Validity"
+msgstr "תוקף מפתח הרישיון"
+
+#: plugin/admin/settings-page/tabs/license.php:116
+msgid "Activation Status"
+msgstr "סטטוס הפעלה"
+
+#: plugin/admin/settings-page/tabs/license.php:119
+msgid "Expires On"
+msgstr "יפוג בתאריך"
+
+#: plugin/admin/settings-page/tabs/license.php:122
+msgid "Has License Been Paid For"
+msgstr "האם שולם עבור הרישיון"
+
+#. translators: 1: Opening <a> tag for breakdance.com, 2: Closing </a> tag, 3:
+#. Opening <a> tag for customer portal, 4: Closing </a> tag
+#: plugin/admin/settings-page/tabs/license.php:135
+#, php-format
+msgid ""
+"Visit %1$sbreakdance.com%2$s to purchase a license key. Already purchased? "
+"Find your license key in the %3$scustomer portal%4$s."
+msgstr ""
+"בקר ב- %1$s breakdance.com %2$s כדי לרכוש מפתח רישיון. כבר נרכש? מצא את מפתח"
+" הרישיון שלך ב- %3$sפורטל הלקוחות%4$s."
+
+#. translators: 1: Opening <a> tag for oxygenbuilder.com, 2: Closing </a> tag,
+#. 3: Opening <a> tag for customer portal, 4: Closing </a> tag
+#: plugin/admin/settings-page/tabs/license.php:144
+#, php-format
+msgid ""
+"Visit %1$soxygenbuilder.com%2$s to purchase a license key. Already "
+"purchased? Find your license key in the %3$scustomer portal%4$s."
+msgstr ""
+"בקר ב- %1$s oxygenbuilder.com %2$s כדי לרכוש מפתח רישיון. כבר נרכש? מצא את "
+"מפתח הרישיון שלך ב- %3$sפורטל הלקוחות%4$s."
+
+#: plugin/admin/settings-page/tabs/license.php:156
+msgid "Beta Versions"
+msgstr "גרסאות בטא"
+
+#: plugin/admin/settings-page/tabs/license.php:164
+msgid "Receive beta version updates"
+msgstr "קבל עדכוני גרסת בטא"
+
+#: plugin/admin/settings-page/tabs/license.php:168
+msgid ""
+"Checking this checkbox will opt you in to receive beta version updates. You "
+"can opt out at any time."
+msgstr ""
+"סימון תיבת סימון זו יאפשר לך להצטרף לקבלת עדכוני גרסת בטא. אתה יכול לבטל את "
+"הסכמתך בכל עת."
+
+#: plugin/admin/settings-page/tabs/post-types.php:13
+#: plugin/admin/settings-page/tabs/post-types.php:45
+#: plugin/admin/settings-page/tabs/post-types.php:54
+#: plugin/themeless/rules/archive/post-type.php:50
+msgid "Post Types"
+msgstr "סוגי פוסטים"
+
+#: plugin/admin/settings-page/tabs/post-types.php:59
+msgid "All Public & Allowed Post Types"
+msgstr "כל סוגי הפוסטים הציבוריים והמותרים"
+
+#. translators: %s: Plugin name
+#: plugin/admin/settings-page/tabs/post-types.php:88
+#, php-format
+msgid "Editing with %s will only be enabled for the above post types."
+msgstr "עריכה עם %s תתאפשר רק עבור סוגי הפוסטים לעיל."
+
+#: plugin/admin/settings-page/tabs/privacy.php:12
+#: plugin/admin/settings-page/tabs/privacy.php:50
+msgid "Privacy"
+msgstr "פְּרָטִיוּת"
+
+#: plugin/admin/settings-page/tabs/privacy.php:59
+msgid "Disable Page & Session Cookies"
+msgstr "השבת קובצי Cookie של דף והפעלה"
+
+#: plugin/admin/settings-page/tabs/privacy.php:64
+msgid "Disable"
+msgstr "השבת"
+
+#. translators: 1: Plugin name, 2: Condition name in <code> tags, 3: Another
+#. condition name in <code> tags
+#: plugin/admin/settings-page/tabs/privacy.php:70
+#, php-format
+msgid ""
+"%1$s provides conditions to show or hide certain content based on page view "
+"and session count. Enabling this option will prevent %1$s from setting the "
+"tracking cookies necessary for this functionality. The %2$s and %3$s "
+"conditions will not work."
+msgstr ""
+"%1$s מספק תנאים להצגה או הסתרה של תוכן מסוים בהתבסס על צפיות בדף וספירת "
+"פעילויות באתר. הפעלת אפשרות זו תמנע מ- %1$s להגדיר את קובצי המעקב הדרושים "
+"לפונקציונליות זו. התנאים %2$s ו- %3$s לא יפעלו."
+
+#. translators: 1: Plugin name, 2: Condition name in <code> tags, 3: Another
+#. condition name in <code> tags
+#: plugin/admin/settings-page/tabs/privacy.php:70
+#: plugin/themeless/rules/conditions/sessions.php:27
+msgid "Page View Count"
+msgstr "ספירת צפיות בעמודים"
+
+#. translators: 1: Plugin name, 2: Condition name in <code> tags, 3: Another
+#. condition name in <code> tags
+#: plugin/admin/settings-page/tabs/privacy.php:70
+#: plugin/themeless/rules/conditions/sessions.php:57
+msgid "Session Count"
+msgstr "ספירת מפגשים"
+
+#. translators: %s: Plugin name
+#: plugin/admin/settings-page/tabs/privacy.php:79
+#, php-format
+msgid "Improve %s"
+msgstr "שפר את %s"
+
+#. translators: %s: Plugin name
+#: plugin/admin/settings-page/tabs/privacy.php:87
+#, php-format
+msgid "Yes, I want to help improve %s"
+msgstr "כן, אני רוצה לעזור לשפר את %s"
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag, 3: Plugin name
+#: plugin/admin/settings-page/tabs/privacy.php:94
+#, php-format
+msgid ""
+"By allowing us to %1$scollect usage data%2$s, you help us make %3$s better "
+"for everyone."
+msgstr ""
+"בכך שאתה מאפשר לנו %1$sלאסוף נתוני שימוש%2$s, אתה עוזר לנו לשפר את %3$s עבור"
+" כולם."
+
+#: plugin/ajax/api.php:29
+msgid "You must specify the minimum permissions to access your AJAX action."
+msgstr "עליך לציין את ההרשאות המינימליות כדי לגשת לפעולת AJAX שלך."
+
+#. translators: %s: Required permission level
+#: plugin/ajax/api.php:47
+#, php-format
+msgid "You need to be logged in and have minimum permission level of \"%s\""
+msgstr "אתה צריך להיות מחובר ובעל רמת הרשאה מינימלית של \"%s\""
+
+#. translators: 1: Action/route name, 2: Required permission level
+#: plugin/ajax/api.php:57
+#, php-format
+msgid ""
+"Not enough permissions to perform the action \"%1$s\", minimum permission "
+"level is \"%2$s\"."
+msgstr "אין מספיק הרשאות לביצוע הפעולה \"%1$s\", רמת ההרשאה המינימלית היא \"%2$s\"."
+
+#: plugin/ajax/api.php:68
+msgid "Failed security check"
+msgstr "בדיקה ביטחונית נכשלה"
+
+#: plugin/ajax/api.php:71
+msgid "Expired"
+msgstr "פג תוקף"
+
+#: plugin/ajax/api.php:88 plugin/ajax/api.php:107
+msgid "Bad request"
+msgstr "בקשה גרועה"
+
+#: plugin/ajax/api.php:89
+msgid "All of the required POST parameters are missing"
+msgstr "כל פרמטרי ה-POST הנדרשים חסרים"
+
+#. translators: %s: Comma-separated list of missing parameter names
+#: plugin/ajax/api.php:110
+#, php-format
+msgid "Required POST parameters are missing or invalid: \"%s\""
+msgstr "פרמטרי POST נדרשים חסרים או לא חוקיים: \"%s\""
+
+#. translators: 1: Return value type, 2: Route name
+#: plugin/ajax/api.php:134
+#, php-format
+msgid ""
+"AJAX callbacks should return an associative array ([\"key\" => \"value\") or"
+" a blank array ([]). Got %1$s for route \"%2$s\""
+msgstr ""
+"התקשרות חוזרת של AJAX צריכה להחזיר מערך אסוציאטיבי ([\"key\" => \"value\") "
+"או מערך ריק ([]). קיבלתי %1$s עבור המסלול \"%2$s\""
+
+#: plugin/ajax/api.php:145
+msgid ""
+"Unexpected output during AJAX request. AJAX Callbacks should return an "
+"associative array."
+msgstr ""
+"פלט לא צפוי במהלך בקשת AJAX. AJAX Callbacks אמורות להחזיר מערך אסוציאטיבי."
+
+#. translators: %s: Plugin name
+#: plugin/ajax/api.php:241
+#, php-format
+msgid "Your %s session token has been refreshed"
+msgstr "אסימון הפגישה שלך %s רענן"
+
+#: plugin/ajax/endpoints/manage-onboarding-pages.php:96
+msgid "Invalid post ID"
+msgstr "מזהה פוסט לא חוקי"
+
+#: plugin/ajax/endpoints/manage-onboarding-pages.php:105
+msgid "Post not found"
+msgstr "הפוסט לא נמצא"
+
+#: plugin/animations/control.php:22
+msgid "Animations"
+msgstr "אנימציות"
+
+#: plugin/animations/entrance/control.php:20
+msgid "Entrance Animation"
+msgstr "אנימציית כניסה"
+
+#: plugin/animations/entrance/control.php:22
+msgid "Animation Type"
+msgstr "סוג אנימציה"
+
+#: plugin/animations/entrance/control.php:27
+#: plugin/interactions/actions/start-animation.php:93
+msgid "Duration"
+msgstr "מֶשֶׁך"
+
+#: plugin/animations/entrance/control.php:39
+#: plugin/interactions/actions/start-animation.php:99
+msgid "Delay"
+msgstr "לְעַכֵּב"
+
+#: plugin/animations/entrance/control.php:55
+msgid "Distance"
+msgstr "מֶרְחָק"
+
+#: plugin/animations/entrance/control.php:71
+#: plugin/animations/sticky/control.php:29
+msgid "Offset"
+msgstr "לְקַזֵז"
+
+#: plugin/animations/entrance/control.php:82
+msgid "Animate only once"
+msgstr "הנפשה רק פעם אחת"
+
+#: plugin/animations/entrance/control.php:85
+#: plugin/animations/scrolling/control.php:326
+msgid "Ease"
+msgstr "קַלוּת"
+
+#: plugin/animations/entrance/control.php:113
+#: plugin/animations/scrolling/control.php:367
+#: plugin/animations/sticky/control.php:52
+msgid "Disable At"
+msgstr "השבת ב-At"
+
+#: plugin/animations/scrolling/control.php:18
+msgid "Scrolling Animation"
+msgstr "אנימציה גלילה"
+
+#: plugin/animations/scrolling/control.php:20
+#: plugin/woocommerce/settings/settings-tab.php:55
+msgid "Enabled"
+msgstr "מופעל"
+
+#: plugin/animations/scrolling/control.php:25
+msgid "Horizontal Position"
+msgstr "מיקום אופקי"
+
+#: plugin/animations/scrolling/control.php:27
+#: plugin/animations/scrolling/control.php:69
+#: plugin/animations/scrolling/control.php:111
+#: plugin/animations/scrolling/control.php:153
+#: plugin/animations/scrolling/control.php:195
+#: plugin/animations/scrolling/control.php:234
+#: plugin/animations/scrolling/control.php:272
+#: plugin/animations/scrolling/control.php:299
+#: plugin/elements/preset-sections/grid.php:140
+#: plugin/elements/preset-sections/grid.php:141
+#: plugin/elements/preset-sections/grid.php:244
+#: plugin/elements/preset-sections/grid.php:245
+msgid "Start"
+msgstr "הַתחָלָה"
+
+#: plugin/animations/scrolling/control.php:35
+#: plugin/animations/scrolling/control.php:77
+#: plugin/animations/scrolling/control.php:119
+#: plugin/animations/scrolling/control.php:161
+#: plugin/animations/scrolling/control.php:202
+#: plugin/animations/scrolling/control.php:241
+#: plugin/animations/scrolling/control.php:275
+#: plugin/animations/scrolling/control.php:302
+#: plugin/elements/preset-sections/layout_basic_flex.php:82
+msgid "Middle"
+msgstr "אֶמצַע"
+
+#: plugin/animations/scrolling/control.php:43
+#: plugin/animations/scrolling/control.php:85
+#: plugin/animations/scrolling/control.php:127
+#: plugin/animations/scrolling/control.php:169
+#: plugin/animations/scrolling/control.php:209
+#: plugin/animations/scrolling/control.php:248
+#: plugin/animations/scrolling/control.php:278
+#: plugin/animations/scrolling/control.php:305
+#: plugin/elements/preset-sections/grid.php:152
+#: plugin/elements/preset-sections/grid.php:153
+#: plugin/elements/preset-sections/grid.php:256
+#: plugin/elements/preset-sections/grid.php:257
+msgid "End"
+msgstr "סוֹף"
+
+#: plugin/animations/scrolling/control.php:51
+#: plugin/animations/scrolling/control.php:93
+#: plugin/animations/scrolling/control.php:135
+#: plugin/animations/scrolling/control.php:177
+#: plugin/animations/scrolling/control.php:216
+#: plugin/animations/scrolling/control.php:255
+#: plugin/animations/scrolling/control.php:281
+#: plugin/animations/scrolling/control.php:308
+msgid "Trigger"
+msgstr "לְהַפְעִיל"
+
+#: plugin/animations/scrolling/control.php:58
+#: plugin/animations/scrolling/control.php:100
+#: plugin/animations/scrolling/control.php:142
+#: plugin/animations/scrolling/control.php:184
+#: plugin/animations/scrolling/control.php:223
+#: plugin/animations/scrolling/control.php:262
+#: plugin/animations/scrolling/control.php:288
+#: plugin/animations/scrolling/control.php:315
+#: plugin/animations/sticky/control.php:26
+#: plugin/elements/preset-sections/layout_basic_flex.php:83
+#: plugin/elements/preset-sections/shape/shape.php:66
+msgid "Bottom"
+msgstr "תַחתִית"
+
+#: plugin/animations/scrolling/control.php:58
+#: plugin/animations/scrolling/control.php:100
+#: plugin/animations/scrolling/control.php:142
+#: plugin/animations/scrolling/control.php:184
+#: plugin/animations/scrolling/control.php:223
+#: plugin/animations/scrolling/control.php:262
+#: plugin/animations/scrolling/control.php:288
+#: plugin/animations/scrolling/control.php:315
+#: plugin/animations/sticky/control.php:24
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:17
+#: plugin/elements/preset-sections/layout_basic_flex.php:81
+#: plugin/elements/preset-sections/shape/shape.php:65
+#: plugin/elements/preset-sections/typography.php:176
+msgid "Top"
+msgstr "רֹאשׁ"
+
+#: plugin/animations/scrolling/control.php:67
+msgid "Vertical Position"
+msgstr "מיקום אנכי"
+
+#: plugin/animations/scrolling/control.php:109
+msgid "Opacity"
+msgstr "אֲטִימוּת"
+
+#: plugin/animations/scrolling/control.php:151
+#: plugin/interactions/actions/blur.php:17
+msgid "Blur"
+msgstr "לְטַשׁטֵשׁ"
+
+#: plugin/animations/scrolling/control.php:193
+msgid "Rotation"
+msgstr "רוֹטַציָה"
+
+#: plugin/animations/scrolling/control.php:232
+msgid "Scale"
+msgstr "סוּלָם"
+
+#: plugin/animations/scrolling/control.php:270
+#: plugin/elements/preset-sections/shape/shape.php:49
+#: plugin/elements/preset-sections/tabs.php:118
+#: plugin/elements/preset-sections/tabs.php:343
+#: plugin/elements/preset-sections/typography.php:273
+#: plugin/global-styles/typography/base.php:136
+#: plugin/global-styles/typography/base.php:168
+msgid "Color"
+msgstr "צֶבַע"
+
+#: plugin/animations/scrolling/control.php:297
+#: plugin/global-styles/other/base.php:37
+msgid "Background Color"
+msgstr "צבע רקע"
+
+#: plugin/animations/scrolling/control.php:340
+msgid "Scrub"
+msgstr "לְשַׁפשֵׁף"
+
+#: plugin/animations/scrolling/control.php:346
+msgid "Transform Origin"
+msgstr "Transform Origin"
+
+#: plugin/animations/scrolling/control.php:353
+#: plugin/animations/sticky/control.php:37
+msgid "Relative To"
+msgstr "יחסית ל"
+
+#: plugin/animations/scrolling/control.php:357
+#: plugin/animations/sticky/control.php:42
+msgid "Viewport"
+msgstr "Viewport"
+
+#: plugin/animations/scrolling/control.php:358
+#: plugin/maintenance-mode/maintenance-mode-page.php:48
+msgid "Page"
+msgstr "עַמוּד"
+
+#: plugin/animations/scrolling/control.php:359
+#: plugin/animations/sticky/control.php:43
+#: plugin/dynamic-data/field-types/PostField.php:35
+#: plugin/dynamic-data/field-types/PostField.php:72
+#: plugin/dynamic-data/fields/post/post-date.php:54
+#: plugin/dynamic-data/fields/post/post-time.php:63
+#: plugin/dynamic-data/fields/utility/date.php:44
+#: plugin/dynamic-data/fields/utility/date.php:46
+#: plugin/elements/preset-sections/grid.php:47
+#: plugin/elements/preset-sections/grid.php:185
+#: plugin/elements/preset-sections/shape/shape.php:104
+#: plugin/elements/preset-sections/typography.php:89
+#: plugin/elements/preset-sections/typography.php:163
+msgid "Custom"
+msgstr "מִנְהָג"
+
+#: plugin/animations/scrolling/control.php:362
+#: plugin/animations/sticky/control.php:47
+msgid "Custom Selector"
+msgstr "בורר מותאם אישית"
+
+#: plugin/animations/scrolling/control.php:371
+msgid "Debug"
+msgstr "לְנַפּוֹת"
+
+#: plugin/animations/sticky/control.php:18
+msgid "Sticky"
+msgstr "דָבִיק"
+
+#: plugin/animations/sticky/control.php:20
+#: plugin/elements/preset-sections/shape/shape.php:62
+#: plugin/elements/preset-sections/tabs.php:48
+#: plugin/elements/preset-sections/tabs.php:56
+#: plugin/elements/preset-sections/typography.php:150
+msgid "Position"
+msgstr "מַצָב"
+
+#: plugin/animations/sticky/control.php:25
+#: plugin/elements/preset-sections/grid.php:146
+#: plugin/elements/preset-sections/grid.php:147
+#: plugin/elements/preset-sections/grid.php:250
+#: plugin/elements/preset-sections/grid.php:251
+#: plugin/elements/preset-sections/layout_basic_flex.php:43
+#: plugin/elements/preset-sections/layout_basic_flex.php:64
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:19
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:40
+#: plugin/elements/preset-sections/tabs.php:58
+#: plugin/elements/preset-sections/typography.php:300
+msgid "Center"
+msgstr "מֶרְכָּז"
+
+#: plugin/animations/sticky/control.php:41
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:16
+msgid "Parent"
+msgstr "הוֹרֶה"
+
+#: plugin/api-keys/settings-page.php:9 plugin/api-keys/settings-page.php:105
+msgid "API Keys"
+msgstr "מפתחות API"
+
+#. translators: %s: Integration name (e.g., "Mailchimp", "Stripe")
+#: plugin/api-keys/settings-page.php:152
+#, php-format
+msgid "Invalid %s API Key"
+msgstr "מפתח API לא חוקי של %s"
+
+#: plugin/bloat-eliminator/bloat-eliminator-tab.php:14
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:1
+#: plugin/setup-wizard/setup-wizard-page.php:208
+msgid "Performance"
+msgstr "ביצועים"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:8
+msgid "Gutenberg Blocks CSS"
+msgstr "גוטנברג חוסם CSS"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:14
+msgid "Remove Gutenberg Blocks CSS"
+msgstr "הסר את Gutenberg Blocks CSS"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:18
+msgid ""
+"The Gutenberg Block Editor loads 11kb of CSS even if you don't use it. "
+"Remove it if you're not using the Gutenberg Block Editor."
+msgstr ""
+"עורך בלוק גוטנברג טוען 11kb של CSS גם אם אינך משתמש בו. הסר אותו אם אינך "
+"משתמש בעורך בלוק גוטנברג."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:24
+msgid "XML-RPC Pingbacks"
+msgstr "XML-RPC Pingbacks"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:30
+msgid "Remove & Disable Pingbacks"
+msgstr "הסר והשבת פינגבקים"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:34
+msgid ""
+"Say goodbye to pingback spam. This option removes the XML-RPC pingback "
+"information from the <head>, and disables the WP Pingback system."
+msgstr ""
+"תגיד שלום ל-pingback ספאם. אפשרות זו מסירה את מידע ה-Pingback של XML-RPC "
+"מה-<head>, ומשביתה את מערכת ה-Pingback של WP."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:40
+msgid "WP Emoji"
+msgstr "WP Emoji"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:46
+msgid "Disable built-in WordPress JavaScript for rendering emojis."
+msgstr "השבת JavaScript מובנה של WordPress לעיבוד אימוג'ים."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:50
+msgid ""
+"WordPress loads a 10kb JavaScript to handle emojis on every page of your "
+"website, even if you don't use emojis. Modern browsers support emojis out-"
+"of-the-box, with no need for JavaScript."
+msgstr ""
+"וורדפרס טוענת JavaScript של 10kb כדי לטפל באימוג'ים בכל עמוד באתר שלך, גם אם"
+" אינך משתמש באמוג'י. דפדפנים מודרניים תומכים באימוג'י מחוץ לקופסה, ללא צורך "
+"ב-JavaScript."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:56
+msgid "Dashicons"
+msgstr "דאשיקונים"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:62
+msgid "Disable admin icons for logged out users"
+msgstr "השבת את סמלי הניהול עבור משתמשים מנותקים"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:66
+msgid ""
+"WordPress loads its admin panel icons for all users, even though they are "
+"typically only needed for logged in users that have access to the admin "
+"panel."
+msgstr ""
+"וורדפרס טוענת את סמלי לוח הניהול שלה עבור כל המשתמשים, למרות שבדרך כלל הם "
+"נחוצים רק למשתמשים מחוברים שיש להם גישה לפאנל הניהול."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:72
+msgid "OEmbed"
+msgstr "OEmbed"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:78
+msgid "Disable OEmbed"
+msgstr "השבת את OEmbed"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:82
+msgid ""
+"Disables the automatic embedding of some content such as YouTube videos, "
+"Tweets, etc. when pasting the URL into your blog posts."
+msgstr ""
+"משבית את ההטמעה האוטומטית של חלק מהתוכן כגון סרטוני YouTube, ציוצים וכו' בעת"
+" הדבקת כתובת האתר בפוסטים בבלוג שלך."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:88
+msgid "RSD Links"
+msgstr "קישורי RSD"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:94
+msgid "Disable Really Simple Discovery feature"
+msgstr "השבת את תכונת Really Simple Discovery"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:99
+msgid ""
+"Really Simple Discovery is a spec from 2003 related to desktop blog-"
+"publishing applications. It is also often used by XML-RPC clients to find "
+"out information about your WordPress blog."
+msgstr ""
+"Really Simple Discovery הוא מפרט משנת 2003 הקשור ליישומים לפרסום בלוגים "
+"שולחניים. זה גם משמש לעתים קרובות על ידי לקוחות XML-RPC כדי לגלות מידע על "
+"בלוג וורדפרס שלך."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:105
+msgid "WLW Link"
+msgstr "קישור WLW"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:111
+msgid "Disable Windows Live Writer Link"
+msgstr "השבת את Windows Live Writer Link"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:114
+msgid ""
+"Windows Live Writer was a desktop blog-publishing application. It was EOL in"
+" 2012, and completely discontinued in 2017."
+msgstr ""
+"Windows Live Writer היה יישום לפרסום בלוגים שולחניים. זה היה EOL ב-2012, "
+"והופסק לחלוטין ב-2017."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:119
+msgid "REST API"
+msgstr "REST API"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:125
+msgid "Disable WP REST metadata"
+msgstr "השבת מטא נתונים של WP REST"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:129
+msgid ""
+"This option removes WP REST metadata from your <head>. It does not disable "
+"the REST API."
+msgstr ""
+"אפשרות זו מסירה מטא נתונים של WP REST מ-<head> שלך. זה לא משבית את REST API."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:135
+msgid "WP Generator"
+msgstr "מחולל WP"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:141
+msgid "Disable WordPress Generator Meta Tag"
+msgstr "השבת את המטא תג של מחולל וורדפרס"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:145
+msgid ""
+"Stop WordPress from adding the <meta name=\"generator\" content=\"WordPress "
+"x.x.x\"> tag to your head."
+msgstr ""
+"מנע מ-WordPress להוסיף את התג <meta name=\"generator\" content=\"WordPress "
+"x.x.x\"> לראש שלך."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:151
+msgid "Remove Shortlink"
+msgstr "הסר קישור קצר"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:157
+msgid "Disable Shortlink Tag"
+msgstr "השבת תג קישור קצר"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:161
+msgid ""
+"WordPress includes a <link rel=shortlink ...> into the head if a shortlink "
+"is defined for the current page."
+msgstr ""
+"וורדפרס כוללת <link rel=shortlink ...> בראש אם מוגדר קישור קצר עבור הדף "
+"הנוכחי."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:167
+msgid "Relational Links"
+msgstr "קישורים יחסיים"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:173
+msgid "Disable Relational Links For Single Posts"
+msgstr "השבת קישורים יחסיים עבור פוסטים בודדים"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:177
+msgid ""
+"For single posts, WordPress places relational links in the head for the "
+"posts adjacent to the current post."
+msgstr ""
+"עבור פוסטים בודדים, וורדפרס מציבה קישורים רלציוניים בראש עבור הפוסטים "
+"הסמוכים לפוסט הנוכחי."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:183
+msgid "RSS Feed"
+msgstr "הזנת RSS"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:189
+msgid "Disable RSS Links"
+msgstr "השבת קישורי RSS"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:193
+msgid ""
+"This option removes the RSS feed information from the <head>. It does not "
+"disable the RSS feeds."
+msgstr "אפשרות זו מסירה את מידע הזנת RSS מה-<head>. זה לא משבית את הזנות RSS."
+
+#. translators: 1: Block type (e.g., "Global Block"), 2: Block label/name
+#: plugin/blocks/ajax_save_block.php:98
+#, php-format
+msgid "Failed to save %1$s \"%2$s\""
+msgstr "שמירת %1$s \"%2$s\" נכשלה"
+
+#. translators: %s: Template ID
+#: plugin/blocks/ajax_save_block.php:129
+#: plugin/themeless/manage-templates-spa/api.php:220
+#, php-format
+msgid "Couldn't get template with ID \"%s\""
+msgstr "לא ניתן היה להשיג תבנית עם המזהה \"%s\""
+
+#: plugin/conditions/add-condition-controls.php:21
+msgid "Conditions"
+msgstr "תנאים"
+
+#: plugin/conditions/add-condition-controls.php:24
+msgid "Only Show Element If"
+msgstr "הצג רק אם"
+
+#: plugin/conditions/add-condition-controls.php:32
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:30
+msgid "In-Builder Preview"
+msgstr "תצוגה מקדימה של In-Builder"
+
+#: plugin/conditions/add-condition-controls.php:35
+msgid "Always Show"
+msgstr "הצג תמיד"
+
+#: plugin/conditions/add-condition-controls.php:36
+msgid "Always Hide"
+msgstr "הסתר תמיד"
+
+#: plugin/config/builtin-breakpoints.php:14
+msgid "Desktop"
+msgstr "שולחן עבודה"
+
+#: plugin/config/builtin-breakpoints.php:15
+msgid "Tablet Landscape"
+msgstr "נוף טאבלט"
+
+#: plugin/config/builtin-breakpoints.php:16
+msgid "Tablet Portrait"
+msgstr "דיוקן טאבלט"
+
+#: plugin/config/builtin-breakpoints.php:17
+msgid "Phone Landscape"
+msgstr "נוף טלפון"
+
+#: plugin/config/builtin-breakpoints.php:18
+msgid "Phone Portrait"
+msgstr "דיוקן טלפון"
+
+#: plugin/design-library/builder.php:27
+msgid "Disable For This Element"
+msgstr "השבת עבור אלמנט זה"
+
+#: plugin/design-library/post-type.php:8
+msgctxt "Post type general name"
+msgid "Parts"
+msgstr "חלקים"
+
+#: plugin/design-library/post-type.php:9
+msgctxt "Post type singular name"
+msgid "Part"
+msgstr "חֵלֶק"
+
+#: plugin/design-library/post-type.php:10
+msgctxt "Admin Menu text"
+msgid "Parts"
+msgstr "חלקים"
+
+#: plugin/design-library/post-type.php:11
+msgctxt "Add New on Toolbar"
+msgid "Part"
+msgstr "חֵלֶק"
+
+#: plugin/design-library/post-type.php:12
+msgid "Add New"
+msgstr "הוסף חדש"
+
+#: plugin/design-library/post-type.php:13
+msgid "Add New Part"
+msgstr "הוסף חלק חדש"
+
+#: plugin/design-library/post-type.php:14
+msgid "New Part"
+msgstr "חלק חדש"
+
+#: plugin/design-library/post-type.php:15
+msgid "Edit Part"
+msgstr "ערוך חלק"
+
+#: plugin/design-library/post-type.php:16
+msgid "View Part"
+msgstr "הצג חלק"
+
+#: plugin/design-library/post-type.php:17
+msgid "All Part"
+msgstr "הכל חלק"
+
+#: plugin/design-library/post-type.php:18
+msgid "Search Part"
+msgstr "חלק חיפוש"
+
+#: plugin/design-library/post-type.php:19
+msgid "Parent Part:"
+msgstr "חלק הורה:"
+
+#: plugin/design-library/post-type.php:20
+msgid "No parts found."
+msgstr "לא נמצאו חלקים."
+
+#: plugin/design-library/post-type.php:21
+msgid "No parts found in Trash."
+msgstr "לא נמצאו חלקים באשפה."
+
+#: plugin/design-library/post-type.php:22
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Part Cover Image"
+msgstr "תמונת כריכה של חלק"
+
+#: plugin/design-library/post-type.php:23
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr "הגדר תמונת שער"
+
+#: plugin/design-library/post-type.php:24
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in "
+"4.3"
+msgid "Remove cover image"
+msgstr "הסר את תמונת השער"
+
+#: plugin/design-library/post-type.php:25
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in "
+"4.3"
+msgid "Use as cover image"
+msgstr "השתמש כתמונת שער"
+
+#: plugin/design-library/post-type.php:26
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Part archives"
+msgstr "ארכיון חלקים"
+
+#: plugin/design-library/post-type.php:27
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into part"
+msgstr "הכנס לחלק"
+
+#: plugin/design-library/post-type.php:28
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this part"
+msgstr "הועלה לחלק זה"
+
+#: plugin/design-library/post-type.php:29
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter parts list"
+msgstr "סנן רשימת חלקים"
+
+#: plugin/design-library/post-type.php:30
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in "
+"4.4"
+msgid "Parts list navigation"
+msgstr "ניווט ברשימת חלקים"
+
+#: plugin/design-library/post-type.php:31
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Parts list"
+msgstr "רשימת חלקים"
+
+#: plugin/design-library/settings-tabs.php:110
+msgid "Design Set"
+msgstr "סט עיצוב"
+
+#: plugin/design-library/settings-tabs.php:117
+msgid "Turn This Website Into a Design Set"
+msgstr "הפוך את האתר הזה לסט עיצובי"
+
+#: plugin/design-library/settings-tabs.php:123
+msgid "Enable Copy From Frontend"
+msgstr "אפשר העתקה מחזית"
+
+#: plugin/design-library/settings-tabs.php:129
+msgid "This Design Set Relies On Global Settings"
+msgstr "סט עיצוב זה מסתמך על הגדרות גלובליות"
+
+#: plugin/design-library/settings-tabs.php:135
+msgid "This Design Set Relies On Design Presets"
+msgstr "סט עיצוב זה מסתמך על הגדרות עיצוב מראש"
+
+#: plugin/design-library/settings-tabs.php:142
+msgid "Full Site Import Enabled"
+msgstr "ייבוא אתר מלא מופעל"
+
+#: plugin/design-library/settings-tabs.php:148
+msgid "Thumbnail URL"
+msgstr "כתובת אתר של תמונה ממוזערת"
+
+#: plugin/design-library/settings-tabs.php:180
+msgid "Shareable URL:"
+msgstr "כתובת אתר הניתנת לשיתוף:"
+
+#: plugin/design-library/settings-tabs.php:187
+msgid "Password Protection"
+msgstr "הגנת סיסמה"
+
+#: plugin/design-library/settings-tabs.php:190
+msgid "Enter a password"
+msgstr "הזן סיסמה"
+
+#. translators: %s: Password parameter in HTML bold tags
+#: plugin/design-library/settings-tabs.php:195
+#, php-format
+msgid ""
+"Protect your Design Set with a password. (Optional) If the %s param is not "
+"provided, users will be prompted to enter this password."
+msgstr ""
+"הגן על סט העיצוב שלך באמצעות סיסמה. (אופציונלי) אם הפראם %s לא מסופק, "
+"המשתמשים יתבקשו להזין סיסמה זו."
+
+#: plugin/design-library/settings-tabs.php:202
+msgid "Custom Design Sets"
+msgstr "ערכות עיצוב בהתאמה אישית"
+
+#. translators: %1$s: Plugin name (used twice in the sentence)
+#: plugin/design-library/settings-tabs.php:213
+#, php-format
+msgid ""
+"Add custom Design Sets to your %1$s installation. By default, %1$s provides "
+"a list of official Design Sets, but you can use this field to add any custom"
+" design sets you want."
+msgstr ""
+"הוסף ערכות עיצוב מותאמות אישית להתקנת %1$s שלך. כברירת מחדל, %1$s מספק רשימה"
+" של ערכות עיצוב רשמיות, אבל אתה יכול להשתמש בשדה זה כדי להוסיף כל ערכות "
+"עיצוב מותאמות אישית שתרצה."
+
+#: plugin/design-library/settings-tabs.php:216
+msgid "Insert one URL per line."
+msgstr "הוסף כתובת אתר אחת בכל שורה."
+
+#. translators: %s: Unexpected output content
+#: plugin/dynamic-data/breakdance-dynamic-shortcode.php:30
+#: plugin/dynamic-data/breakdance-dynamic-shortcode.php:143
+#, php-format
+msgid "Unexpected Dynamic Data Output: %s"
+msgstr "פלט נתונים דינמי לא צפוי: %s"
+
+#: plugin/dynamic-data/dynamic-data.php:29
+#: plugin/dynamic-data/fields/post/post-comments-number.php:21
+#: plugin/dynamic-data/fields/post/post-content.php:21
+#: plugin/dynamic-data/fields/post/post-custom-field-image.php:21
+#: plugin/dynamic-data/fields/post/post-custom-field-oembed.php:21
+#: plugin/dynamic-data/fields/post/post-custom-field.php:21
+#: plugin/dynamic-data/fields/post/post-date.php:20
+#: plugin/dynamic-data/fields/post/post-excerpt.php:20
+#: plugin/dynamic-data/fields/post/post-featured-image-url.php:22
+#: plugin/dynamic-data/fields/post/post-featured-image.php:20
+#: plugin/dynamic-data/fields/post/post-image-attachment.php:20
+#: plugin/dynamic-data/fields/post/post-image-attachments.php:20
+#: plugin/dynamic-data/fields/post/post-permalink.php:20
+#: plugin/dynamic-data/fields/post/post-terms.php:20
+#: plugin/dynamic-data/fields/post/post-time.php:20
+#: plugin/dynamic-data/fields/post/post-title.php:20
+msgid "Post"
+msgstr "שֶׁלְאַחַר"
+
+#: plugin/dynamic-data/dynamic-data.php:30
+#: plugin/dynamic-data/fields/query/utm-tags.php:51
+#: plugin/dynamic-data/fields/term/term-count.php:22
+#: plugin/dynamic-data/fields/term/term-custom-field.php:23
+#: plugin/dynamic-data/fields/term/term-description.php:22
+#: plugin/dynamic-data/fields/term/term-id.php:22
+#: plugin/dynamic-data/fields/term/term-name.php:22
+#: plugin/dynamic-data/fields/term/term-permalink.php:22
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-category-count.php:22
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-category-image.php:23
+msgid "Term"
+msgstr "מוּנָח"
+
+#: plugin/dynamic-data/dynamic-data.php:31
+#: plugin/dynamic-data/field-types/AcfField.php:38
+msgid "ACF"
+msgstr "ACF"
+
+#: plugin/dynamic-data/dynamic-data.php:32
+#: plugin/dynamic-data/field-types/MetaboxField.php:38
+#: plugin/dynamic-data/fields/metabox/metabox-gallery-field.php:27
+#: plugin/dynamic-data/fields/metabox/metabox-oembed-field.php:28
+#: plugin/dynamic-data/fields/metabox/metabox-post-field.php:27
+msgid "Metabox"
+msgstr "Metabox"
+
+#: plugin/dynamic-data/dynamic-data.php:33
+#: plugin/dynamic-data/field-types/ToolsetField.php:34
+#: plugin/dynamic-data/fields/toolset/toolset-image-field.php:26
+#: plugin/dynamic-data/fields/toolset/toolset-post-field.php:27
+#: plugin/dynamic-data/fields/toolset/toolset-url-image-field.php:26
+#: plugin/dynamic-data/fields/toolset/toolset-video-field.php:27
+msgid "Toolset"
+msgstr "ערכת כלים"
+
+#: plugin/dynamic-data/dynamic-data.php:34
+#: plugin/dynamic-data/fields/featured-image/featured-alt.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-caption.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-image.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-oembed.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-title.php:21
+#: plugin/dynamic-data/fields/post/post-featured-image.php:12
+#: plugin/themeless/rules/conditions/singular.php:778
+msgid "Featured Image"
+msgstr "תמונה מוצגת"
+
+#: plugin/dynamic-data/dynamic-data.php:35
+#: plugin/dynamic-data/fields/archive/archive-description.php:21
+#: plugin/dynamic-data/fields/archive/archive-title.php:21
+#: plugin/themeless/rules/archive/all.php:13
+#: plugin/themeless/rules/archive/author.php:19
+#: plugin/themeless/rules/archive/author.php:39
+#: plugin/themeless/rules/archive/date.php:12
+#: plugin/themeless/rules/archive/post-type.php:18
+#: plugin/themeless/rules/archive/post-type.php:45
+#: plugin/themeless/rules/archive/post.php:13
+#: plugin/themeless/rules/archive/product-archives.php:22
+#: plugin/themeless/rules/archive/taxonomy.php:20
+msgid "Archive"
+msgstr "ארכיון"
+
+#: plugin/dynamic-data/dynamic-data.php:36
+#: plugin/dynamic-data/fields/futurelayer/site-logo.php:17
+#: plugin/dynamic-data/fields/site/admin_email.php:21
+#: plugin/dynamic-data/fields/site/home-url.php:21
+#: plugin/dynamic-data/fields/site/site-logo-url.php:21
+#: plugin/dynamic-data/fields/site/site-logo.php:20
+#: plugin/dynamic-data/fields/site/site-logout-url.php:34
+#: plugin/dynamic-data/fields/site/site-rss.php:21
+#: plugin/dynamic-data/fields/site/site-tagline.php:21
+#: plugin/dynamic-data/fields/site/site-title.php:21
+#: plugin/dynamic-data/fields/site/site-url.php:21
+msgid "Site Info"
+msgstr "מידע על האתר"
+
+#: plugin/dynamic-data/dynamic-data.php:37
+#: plugin/dynamic-data/fields/author/author-avatar-url.php:20
+#: plugin/dynamic-data/fields/author/author-avatar.php:20
+#: plugin/dynamic-data/fields/author/author-bio.php:21
+#: plugin/dynamic-data/fields/author/author-custom-field-image.php:21
+#: plugin/dynamic-data/fields/author/author-custom-field-oembed.php:21
+#: plugin/dynamic-data/fields/author/author-custom-field.php:20
+#: plugin/dynamic-data/fields/author/author-email.php:20
+#: plugin/dynamic-data/fields/author/author-name.php:20
+#: plugin/dynamic-data/fields/author/author-website.php:21
+#: plugin/themeless/rules/archive/author.php:38
+#: plugin/themeless/rules/conditions/singular.php:690
+msgid "Author"
+msgstr "מְחַבֵּר"
+
+#: plugin/dynamic-data/dynamic-data.php:38
+#: plugin/dynamic-data/fields/user/current-user-avatar-url.php:21
+#: plugin/dynamic-data/fields/user/current-user-avatar.php:21
+#: plugin/dynamic-data/fields/user/current-user-bio.php:21
+#: plugin/dynamic-data/fields/user/current-user-custom-field-image.php:21
+#: plugin/dynamic-data/fields/user/current-user-custom-field-oembed.php:21
+#: plugin/dynamic-data/fields/user/current-user-custom-field.php:20
+#: plugin/dynamic-data/fields/user/current-user-email.php:20
+#: plugin/dynamic-data/fields/user/current-user-name.php:20
+#: plugin/dynamic-data/fields/user/current-user-website.php:20
+msgid "Current User"
+msgstr "משתמש נוכחי"
+
+#: plugin/dynamic-data/dynamic-data.php:39
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery-image.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image-url.php:21
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-price-range.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-regular-price.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale.php:21
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sku.php:21
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:21
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-title.php:20
+#: plugin/global-styles/woocommerce/base.php:13
+#: plugin/woocommerce/settings/settings-tab.php:20
+#: plugin/woocommerce/settings/settings-tab.php:42
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: plugin/dynamic-data/dynamic-data.php:40
+#: plugin/dynamic-data/fields/query/search-query.php:21
+#: plugin/dynamic-data/fields/query/url-parameter.php:20
+#: plugin/dynamic-data/fields/query/utm-tags.php:19
+msgid "URL & Query"
+msgstr "כתובת URL ושאילתה"
+
+#: plugin/dynamic-data/dynamic-data.php:41
+#: plugin/dynamic-data/fields/utility/date.php:21
+#: plugin/dynamic-data/fields/utility/php-function.php:21
+#: plugin/dynamic-data/fields/utility/shortcode.php:21
+msgid "Utility"
+msgstr "תוֹעֶלֶת"
+
+#: plugin/dynamic-data/field-types/ImageField.php:17
+msgid "Fallback Image"
+msgstr "תמונת Fallback"
+
+#: plugin/dynamic-data/field-types/OembedField.php:20
+msgid "Fallback/Default Video"
+msgstr "סרטון סתירה/ברירת מחדל"
+
+#: plugin/dynamic-data/field-types/PostField.php:16
+msgid "Post Field"
+msgstr "שדה פוסט"
+
+#: plugin/dynamic-data/field-types/PostField.php:19
+#: plugin/dynamic-data/fields/post/post-title.php:12
+msgid "Post Title"
+msgstr "כותרת הפוסט"
+
+#: plugin/dynamic-data/field-types/PostField.php:20
+#: plugin/dynamic-data/fields/post/post-content.php:13
+msgid "Post Content"
+msgstr "פוסט תוכן"
+
+#: plugin/dynamic-data/field-types/PostField.php:21
+#: plugin/dynamic-data/fields/post/post-excerpt.php:12
+msgid "Post Excerpt"
+msgstr "קטע פוסט"
+
+#: plugin/dynamic-data/field-types/PostField.php:22
+#: plugin/dynamic-data/fields/post/post-terms.php:12
+msgid "Post Terms"
+msgstr "תנאי פרסום"
+
+#: plugin/dynamic-data/field-types/PostField.php:23
+#: plugin/dynamic-data/fields/post/post-date.php:12
+#: plugin/themeless/rules/conditions/dates.php:149
+msgid "Post Date"
+msgstr "תאריך פרסום"
+
+#: plugin/dynamic-data/field-types/PostField.php:24
+#: plugin/dynamic-data/fields/post/post-time.php:12
+msgid "Post Time"
+msgstr "זמן פרסום"
+
+#: plugin/dynamic-data/field-types/PostField.php:25
+#: plugin/dynamic-data/fields/post/post-comments-number.php:13
+#: plugin/themeless/rules/conditions/singular.php:592
+msgid "Comments Number"
+msgstr "מספר הערות"
+
+#: plugin/dynamic-data/field-types/PostField.php:26
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:29
+#: plugin/dynamic-data/fields/author/author-custom-field.php:12
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field.php:13
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:29
+#: plugin/dynamic-data/fields/post/post-custom-field.php:13
+#: plugin/dynamic-data/fields/user/current-user-custom-field.php:12
+msgid "Custom Field"
+msgstr "שדה מותאם אישית"
+
+#: plugin/dynamic-data/field-types/PostField.php:29
+#: plugin/dynamic-data/field-types/PostField.php:65
+#: plugin/dynamic-data/fields/post/post-date.php:48
+#: plugin/dynamic-data/fields/post/post-time.php:56
+#: plugin/dynamic-data/fields/utility/date.php:38
+msgid "Format"
+msgstr "פוּרמָט"
+
+#: plugin/dynamic-data/field-types/PostField.php:33
+#: plugin/dynamic-data/field-types/PostField.php:69
+#: plugin/dynamic-data/fields/post/post-date.php:52
+#: plugin/dynamic-data/fields/post/post-time.php:60
+#: plugin/dynamic-data/fields/utility/date.php:42
+#: plugin/elements/preset-sections/form.php:16
+#: plugin/permissions/user-profile.php:61
+msgid "Default"
+msgstr "בְּרִירַת מֶחדָל"
+
+#: plugin/dynamic-data/field-types/PostField.php:35
+#: plugin/dynamic-data/field-types/PostField.php:73
+#: plugin/dynamic-data/fields/post/post-date.php:54
+#: plugin/dynamic-data/fields/post/post-time.php:64
+#: plugin/dynamic-data/fields/utility/date.php:44
+#: plugin/dynamic-data/fields/utility/date.php:46
+msgid "Human"
+msgstr "אֶנוֹשִׁי"
+
+#: plugin/dynamic-data/field-types/PostField.php:43
+#: plugin/dynamic-data/field-types/PostField.php:82
+#: plugin/dynamic-data/fields/post/post-date.php:57
+#: plugin/dynamic-data/fields/post/post-time.php:68
+#: plugin/dynamic-data/fields/utility/date.php:48
+msgid "Custom Format"
+msgstr "פורמט מותאם אישית"
+
+#: plugin/dynamic-data/field-types/PostField.php:52
+#: plugin/dynamic-data/field-types/PostField.php:101
+#: plugin/dynamic-data/fields/post/post-date.php:66
+#: plugin/dynamic-data/fields/post/post-time.php:47
+#: plugin/dynamic-data/fields/site/site-rss.php:38
+#: plugin/elements/preset-sections/filter.php:13
+msgid "Type"
+msgstr "סוּג"
+
+#: plugin/dynamic-data/field-types/PostField.php:56
+#: plugin/dynamic-data/field-types/PostField.php:105
+#: plugin/dynamic-data/fields/post/post-date.php:70
+#: plugin/dynamic-data/fields/post/post-time.php:51
+msgid "Post Published"
+msgstr "פוסט פורסם"
+
+#: plugin/dynamic-data/field-types/PostField.php:57
+#: plugin/dynamic-data/field-types/PostField.php:106
+#: plugin/dynamic-data/fields/post/post-date.php:71
+#: plugin/dynamic-data/fields/post/post-time.php:52
+msgid "Post Modified"
+msgstr "הפוסט שונה"
+
+#: plugin/dynamic-data/field-types/PostField.php:91
+#: plugin/dynamic-data/fields/post/post-terms.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:51
+#: plugin/themeless/rules/archive/product-archives.php:65
+#: plugin/themeless/rules/archive/taxonomy.php:43
+#: plugin/wpwidgets/stock/stock.php:137
+msgid "Taxonomy"
+msgstr "טקסונומיה"
+
+#: plugin/dynamic-data/field-types/PostField.php:114
+#: plugin/dynamic-data/fields/post/post-terms.php:42
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:59
+msgid "Link"
+msgstr "לְקַשֵׁר"
+
+#: plugin/dynamic-data/field-types/PostField.php:123
+#: plugin/dynamic-data/fields/acf/acf-checkbox-field.php:16
+#: plugin/dynamic-data/fields/acf/acf-taxonomy-field.php:13
+#: plugin/dynamic-data/fields/metabox/metabox-checkbox-field.php:16
+#: plugin/dynamic-data/fields/post/post-terms.php:46
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:63
+#: plugin/elements/preset-sections/tabs.php:83
+#: plugin/elements/preset-sections/tabs.php:115
+msgid "Separator"
+msgstr "מפריד"
+
+#: plugin/dynamic-data/field-types/PostField.php:131
+#: plugin/dynamic-data/field-types/PostField.php:203
+#: plugin/dynamic-data/fields/post/post-comments-number.php:38
+#: plugin/dynamic-data/fields/post/post-comments-number.php:59
+msgid "No comments"
+msgstr "אין הערות"
+
+#: plugin/dynamic-data/field-types/PostField.php:140
+#: plugin/dynamic-data/field-types/PostField.php:204
+#: plugin/dynamic-data/fields/post/post-comments-number.php:42
+#: plugin/dynamic-data/fields/post/post-comments-number.php:60
+msgid "One comment"
+msgstr "הערה אחת"
+
+#: plugin/dynamic-data/field-types/PostField.php:149
+#: plugin/dynamic-data/fields/post/post-comments-number.php:46
+msgid "Multiple comments"
+msgstr "הערות מרובות"
+
+#: plugin/dynamic-data/field-types/PostField.php:158
+#: plugin/dynamic-data/fields/author/author-custom-field-image.php:38
+#: plugin/dynamic-data/fields/author/author-custom-field-oembed.php:38
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-image.php:38
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-oembed.php:38
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field.php:38
+#: plugin/dynamic-data/fields/post/post-custom-field-image.php:38
+#: plugin/dynamic-data/fields/post/post-custom-field-oembed.php:38
+#: plugin/dynamic-data/fields/post/post-custom-field.php:38
+#: plugin/dynamic-data/fields/term/term-custom-field.php:40
+#: plugin/dynamic-data/fields/user/current-user-custom-field-image.php:37
+#: plugin/dynamic-data/fields/user/current-user-custom-field-oembed.php:37
+#: plugin/dynamic-data/fields/user/current-user-custom-field.php:37
+#: plugin/interactions/triggers/key-down.php:37
+#: plugin/interactions/triggers/key-up.php:37
+msgid "Key"
+msgstr "מַפְתֵחַ"
+
+#: plugin/dynamic-data/field-types/PostField.php:205
+#: plugin/dynamic-data/fields/post/post-comments-number.php:61
+msgid "% comment"
+msgstr "% תגובה"
+
+#: plugin/dynamic-data/field-types/RepeaterField.php:29
+msgid "Repeaters"
+msgstr "חוזרים"
+
+#: plugin/dynamic-data/field-types/StringField.php:15
+msgid "Fallback"
+msgstr "נסיגה"
+
+#: plugin/dynamic-data/field-types/StringField.php:30
+msgid "Prepend"
+msgstr "הכנה מראש"
+
+#: plugin/dynamic-data/field-types/StringField.php:34
+msgid "Append"
+msgstr "לְצַרֵף"
+
+#: plugin/dynamic-data/field-types/StringField.php:38
+msgid "Limit Characters"
+msgstr "הגבלת תווים"
+
+#: plugin/dynamic-data/fields/acf/acf-gallery-image-field.php:38
+#: plugin/dynamic-data/fields/metabox/metabox-image-field.php:58
+#: plugin/dynamic-data/fields/metabox/metabox-image-url-field.php:56
+#: plugin/dynamic-data/fields/post/post-image-attachment.php:38
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery-image.php:49
+msgid "Image Index"
+msgstr "אינדקס תמונות"
+
+#: plugin/dynamic-data/fields/acf/acf-googlemaps-field.php:13
+msgid "Output as"
+msgstr "פלט כ"
+
+#: plugin/dynamic-data/fields/acf/acf-googlemaps-field.php:15
+msgid "Address"
+msgstr "כְּתוֹבֶת"
+
+#: plugin/dynamic-data/fields/acf/acf-googlemaps-field.php:16
+msgid "Latitude / Longitude"
+msgstr "קו רוחב / קו אורך"
+
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:23
+#: plugin/dynamic-data/fields/author/author-name.php:37
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:23
+#: plugin/dynamic-data/fields/user/current-user-name.php:37
+msgid "Field"
+msgstr "שָׂדֶה"
+
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:27
+#: plugin/dynamic-data/fields/author/author-name.php:41
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:27
+#: plugin/dynamic-data/fields/user/current-user-name.php:41
+msgid "Display Name"
+msgstr "שם תצוגה"
+
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:28
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:28
+msgid "Bio"
+msgstr "ביו"
+
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:32
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:32
+msgid "Custom Field Key"
+msgstr "מפתח שדה מותאם אישית"
+
+#: plugin/dynamic-data/fields/archive/archive-description.php:13
+msgid "Archive Description"
+msgstr "תיאור ארכיון"
+
+#: plugin/dynamic-data/fields/archive/archive-title.php:13
+msgid "Archive Title"
+msgstr "כותרת הארכיון"
+
+#: plugin/dynamic-data/fields/archive/archive-title.php:39
+msgid "Disable Prefix"
+msgstr "השבת קידומת"
+
+#: plugin/dynamic-data/fields/author/author-avatar-url.php:12
+msgid "Author Avatar (URL)"
+msgstr "אוואטר מחבר (כתובת אתר)"
+
+#: plugin/dynamic-data/fields/author/author-avatar.php:12
+msgid "Author Avatar"
+msgstr "אוואטר המחבר"
+
+#: plugin/dynamic-data/fields/author/author-bio.php:13
+msgid "Author Bio"
+msgstr "מחבר ביו"
+
+#: plugin/dynamic-data/fields/author/author-custom-field-image.php:13
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-image.php:13
+#: plugin/dynamic-data/fields/post/post-custom-field-image.php:13
+#: plugin/dynamic-data/fields/user/current-user-custom-field-image.php:13
+msgid "Custom Field (Image URL)"
+msgstr "שדה מותאם אישית (כתובת אתר של תמונה)"
+
+#: plugin/dynamic-data/fields/author/author-custom-field-oembed.php:13
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-oembed.php:13
+#: plugin/dynamic-data/fields/post/post-custom-field-oembed.php:13
+#: plugin/dynamic-data/fields/user/current-user-custom-field-oembed.php:13
+msgid "Custom Field (Oembed URL)"
+msgstr "שדה מותאם אישית (כתובת אתר OEM)"
+
+#: plugin/dynamic-data/fields/author/author-email.php:12
+msgid "Author Email"
+msgstr "דוא\"ל של המחבר"
+
+#: plugin/dynamic-data/fields/author/author-name.php:12
+msgid "Author Name"
+msgstr "שם המחבר"
+
+#: plugin/dynamic-data/fields/author/author-name.php:42
+#: plugin/dynamic-data/fields/user/current-user-name.php:42
+msgid "First Name"
+msgstr "שֵׁם פְּרַטִי"
+
+#: plugin/dynamic-data/fields/author/author-name.php:43
+#: plugin/dynamic-data/fields/user/current-user-name.php:43
+msgid "Last Name"
+msgstr "שֵׁם מִשׁפָּחָה"
+
+#: plugin/dynamic-data/fields/author/author-website.php:13
+msgid "Author Website"
+msgstr "אתר המחבר"
+
+#: plugin/dynamic-data/fields/featured-image/featured-alt.php:13
+msgid "Featured Alt"
+msgstr "Alt"
+
+#: plugin/dynamic-data/fields/featured-image/featured-caption.php:13
+msgid "Featured Caption"
+msgstr "כיתוב מומלץ"
+
+#: plugin/dynamic-data/fields/featured-image/featured-title.php:13
+msgid "Featured Title"
+msgstr "כותרת מומלצת"
+
+#: plugin/dynamic-data/fields/futurelayer/site-logo.php:12
+msgid "Site Logo (Brand)"
+msgstr "לוגו האתר (מותג)"
+
+#: plugin/dynamic-data/fields/metabox/metabox-file-field.php:16
+#: plugin/dynamic-data/fields/metabox/metabox-image-file-field.php:11
+#: plugin/dynamic-data/fields/metabox/metabox-video-file-field.php:11
+msgid "File Index"
+msgstr "אינדקס קבצים"
+
+#: plugin/dynamic-data/fields/post/post-featured-image-url.php:14
+msgid "Featured Image (URL)"
+msgstr "תמונה מוצגת (כתובת אתר)"
+
+#: plugin/dynamic-data/fields/post/post-image-attachment.php:12
+msgid "Post Image Attachment"
+msgstr "פוסט תמונה מצורף"
+
+#: plugin/dynamic-data/fields/post/post-image-attachments.php:12
+msgid "Post Image Attachments"
+msgstr "פרסם קבצים מצורפים לתמונה"
+
+#: plugin/dynamic-data/fields/post/post-permalink.php:12
+msgid "Post Permalink"
+msgstr "פוסט קישור קבוע"
+
+#: plugin/dynamic-data/fields/query/search-query.php:13
+msgid "Search Query"
+msgstr "שאילתת חיפוש"
+
+#: plugin/dynamic-data/fields/query/url-parameter.php:12
+msgid "URL Parameter"
+msgstr "פרמטר כתובת אתר"
+
+#: plugin/dynamic-data/fields/query/url-parameter.php:39
+msgid "Parameter Name"
+msgstr "שם פרמטר"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:11
+msgid "Common UTM Tags"
+msgstr "תגיות UTM נפוצות"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:44
+msgid "UTM Tag"
+msgstr "תג UTM"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:48
+msgid "Source"
+msgstr "מָקוֹר"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:49
+msgid "Medium"
+msgstr "בֵּינוֹנִי"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:50
+msgid "Campaign"
+msgstr "מַסָע"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:52
+msgid "Content"
+msgstr "תוֹכֶן"
+
+#: plugin/dynamic-data/fields/site/admin_email.php:13
+msgid "Admin Email"
+msgstr "דוא\"ל מנהל"
+
+#: plugin/dynamic-data/fields/site/home-url.php:13
+msgid "Home URL"
+msgstr "כתובת אתר הבית"
+
+#: plugin/dynamic-data/fields/site/site-logo-url.php:13
+msgid "Site Logo (URL)"
+msgstr "לוגו אתר (כתובת אתר)"
+
+#: plugin/dynamic-data/fields/site/site-logo.php:12
+msgid "Site Logo"
+msgstr "לוגו האתר"
+
+#: plugin/dynamic-data/fields/site/site-logout-url.php:13
+msgid "Logout URL"
+msgstr "כתובת אתר התנתק"
+
+#: plugin/dynamic-data/fields/site/site-logout-url.php:22
+msgid "Redirect URL"
+msgstr "כתובת אתר להפניה מחדש"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:13
+#: plugin/dynamic-data/fields/site/site-rss.php:44
+msgid "RSS URL"
+msgstr "כתובת URL של RSS"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:42
+msgid "Atom URL"
+msgstr "כתובת אתר של Atom"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:43
+msgid "RDF URL"
+msgstr "כתובת URL של RDF"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:45
+msgid "RSS2 URL"
+msgstr "כתובת URL של RSS2"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:46
+msgid "Pingback URL"
+msgstr "כתובת אתר של Pingback"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:47
+msgid "Comments Atom URL"
+msgstr "הערות כתובת אתר של Atom"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:48
+msgid "Comments RSS2 URL"
+msgstr "הערות URL RSS2"
+
+#: plugin/dynamic-data/fields/site/site-tagline.php:13
+msgid "Site Tagline"
+msgstr "כותרת האתר"
+
+#: plugin/dynamic-data/fields/site/site-title.php:13
+msgid "Site Title"
+msgstr "כותרת האתר"
+
+#: plugin/dynamic-data/fields/site/site-url.php:13
+msgid "Site URL"
+msgstr "כתובת האתר"
+
+#: plugin/dynamic-data/fields/term/term-count.php:14
+msgid "Term Count"
+msgstr "ספירת טווחים"
+
+#: plugin/dynamic-data/fields/term/term-custom-field.php:15
+msgid "Term Custom Field"
+msgstr "שדה מותאם אישית של מונח"
+
+#: plugin/dynamic-data/fields/term/term-description.php:14
+msgid "Term Description"
+msgstr "תיאור מונח"
+
+#: plugin/dynamic-data/fields/term/term-id.php:14
+msgid "Term ID"
+msgstr "מזהה טווח"
+
+#: plugin/dynamic-data/fields/term/term-name.php:14
+msgid "Term Name"
+msgstr "שם מונח"
+
+#: plugin/dynamic-data/fields/term/term-permalink.php:14
+msgid "Term Permalink"
+msgstr "מונח קישור קבוע"
+
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:11
+msgid "Target"
+msgstr "יַעַד"
+
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:14
+msgid "Blank"
+msgstr "רֵיק"
+
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:15
+msgid "Self"
+msgstr "עַצמִי"
+
+#: plugin/dynamic-data/fields/user/current-user-avatar-url.php:13
+msgid "User Avatar (URL)"
+msgstr "אוואטר משתמש (כתובת אתר)"
+
+#: plugin/dynamic-data/fields/user/current-user-avatar.php:13
+msgid "User Avatar"
+msgstr "אוואטר משתמש"
+
+#: plugin/dynamic-data/fields/user/current-user-bio.php:13
+msgid "User Bio"
+msgstr "ביוגרפיה של משתמש"
+
+#: plugin/dynamic-data/fields/user/current-user-email.php:12
+msgid "User Email"
+msgstr "דוא\"ל משתמש"
+
+#: plugin/dynamic-data/fields/user/current-user-name.php:12
+msgid "User Name"
+msgstr "שֵׁם מִשׁתַמֵשׁ"
+
+#: plugin/dynamic-data/fields/user/current-user-website.php:12
+msgid "User Website"
+msgstr "אתר משתמש"
+
+#: plugin/dynamic-data/fields/utility/date.php:13
+msgid "Current Date"
+msgstr "תאריך נוכחי"
+
+#: plugin/dynamic-data/fields/utility/php-function.php:13
+msgid "PHP"
+msgstr "PHP"
+
+#: plugin/dynamic-data/fields/utility/php-function.php:40
+#: plugin/global-styles/advanced/base.php:30
+msgid "Code"
+msgstr "קוד"
+
+#: plugin/dynamic-data/fields/utility/php-function.php:71
+msgid "An error occurred:"
+msgstr "אירעה שגיאה:"
+
+#. translators: %s: Exception message
+#: plugin/dynamic-data/fields/utility/php-function.php:74
+#, php-format
+msgid "Caught exception: %s"
+msgstr "נתפס חריג: %s"
+
+#. translators: %s: Line number
+#: plugin/dynamic-data/fields/utility/php-function.php:76
+#, php-format
+msgid "Line: %s"
+msgstr "שורה: %s"
+
+#: plugin/dynamic-data/fields/utility/shortcode.php:13
+#: plugin/dynamic-data/fields/utility/shortcode.php:38
+msgid "Shortcode"
+msgstr "קוד קצר"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-category-count.php:14
+msgid "Product Category Count"
+msgstr "ספירת קטגוריות מוצרים"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-category-image.php:15
+msgid "Product Category Image"
+msgstr "תמונת קטגוריית מוצר"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:12
+msgid "Product Description"
+msgstr "תיאור המוצר"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:47
+msgid "Description Type"
+msgstr "סוג תיאור"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:51
+msgid "Short Description"
+msgstr "תיאור קצר"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:52
+msgid "Long Description"
+msgstr "תיאור ארוך"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery-image.php:12
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery.php:12
+msgid "Product Gallery"
+msgstr "גלריית מוצרים"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery.php:48
+msgid "Exclude Product Image"
+msgstr "אל תכלול תמונת מוצר"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image-url.php:13
+msgid "Product Image (URL)"
+msgstr "תמונת מוצר (כתובת אתר)"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image.php:12
+msgid "Product Image"
+msgstr "תמונת המוצר"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-price-range.php:12
+msgid "Product Price Range"
+msgstr "טווח מחירי מוצרים"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:12
+msgid "Product Rating"
+msgstr "דירוג מוצר"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:47
+msgid "Rating Type"
+msgstr "סוג דירוג"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:51
+msgid "Rating"
+msgstr "דֵרוּג"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:52
+msgid "Rating Count"
+msgstr "ספירת דירוג"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:53
+msgid "Review Count"
+msgstr "ספירת ביקורות"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-regular-price.php:12
+msgid "Product Regular Price"
+msgstr "מחיר רגיל של המוצר"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-regular-price.php:47
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:47
+msgid "Disable Formatting"
+msgstr "השבת את העיצוב"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:12
+msgid "Product Sale Price"
+msgstr "מחיר מכירת מוצר"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:50
+msgid "Fallback to Regular Price"
+msgstr "חזרה למחיר רגיל"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale.php:13
+msgid "Product Sale"
+msgstr "מכירת מוצר"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale.php:45
+msgid "Sale Text"
+msgstr "טקסט מכירה"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sku.php:13
+msgid "Product SKU"
+msgstr "מק\"ט מוצר"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:12
+msgid "Product Stock"
+msgstr "מלאי מוצרים"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:47
+msgid "In Stock Text"
+msgstr "טקסט במלאי"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:51
+msgid "Out Of Stock Text"
+msgstr "אזל מהמלאי טקסט"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:55
+msgid "On Backorder Text"
+msgstr "על טקסט בהזמנה חוזרת"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:65
+msgid "In stock"
+msgstr "בִּמלַאִי"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:66
+msgid "Out of stock"
+msgstr "אזל המלאי"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:67
+msgid "On backorder"
+msgstr "בהזמנה לאחור"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:13
+msgid "Product Terms"
+msgstr "תנאי המוצר"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-title.php:12
+msgid "Product Title"
+msgstr "כותרת המוצר"
+
+#: plugin/dynamic-data/pipe.php:14
+msgid "Process Value (ALPHA)"
+msgstr "ערך תהליך (ALPHA)"
+
+#: plugin/elements/preset-sections/borders.php:13
+#: plugin/elements/preset-sections/combined-design.php:17
+#: plugin/elements/preset-sections/tabs.php:315
+msgid "Borders"
+msgstr "גבולות"
+
+#: plugin/elements/preset-sections/borders.php:15
+#: plugin/elements/preset-sections/borders_without_shadows.php:15
+#: plugin/elements/preset-sections/tabs.php:90
+#: plugin/elements/preset-sections/tabs.php:211
+msgid "Radius"
+msgstr "רַדִיוּס"
+
+#: plugin/elements/preset-sections/borders.php:16
+#: plugin/elements/preset-sections/borders_without_shadows.php:16
+msgid "Styling"
+msgstr "סִגנוּן"
+
+#: plugin/elements/preset-sections/borders.php:17
+#: plugin/elements/preset-sections/tabs.php:97
+msgid "Shadow"
+msgstr "צֵל"
+
+#: plugin/elements/preset-sections/borders_without_shadows.php:13
+msgid "Borders Without Shadows"
+msgstr "גבולות ללא צללים"
+
+#: plugin/elements/preset-sections/combined-design.php:12
+msgid "Design"
+msgstr "לְעַצֵב"
+
+#: plugin/elements/preset-sections/combined-design.php:14
+#: plugin/elements/preset-sections/tabs.php:138
+#: plugin/elements/preset-sections/tabs.php:325
+#: plugin/elements/preset-sections/typography.php:265
+#: plugin/elements/preset-sections/typography.php:316
+#: plugin/global-styles/other/base.php:32
+#: plugin/global-styles/typography/base.php:33
+#: plugin/global-styles/typography/base.php:75
+msgid "Typography"
+msgstr "טיפוגרפיה"
+
+#: plugin/elements/preset-sections/combined-design.php:15
+#: plugin/elements/preset-sections/lightbox.php:24
+#: plugin/elements/preset-sections/lightbox.php:92
+#: plugin/elements/preset-sections/tabs.php:159
+#: plugin/elements/preset-sections/tabs.php:307
+#: plugin/global-styles/colors/base.php:51
+msgid "Background"
+msgstr "רֶקַע"
+
+#: plugin/elements/preset-sections/combined-design.php:16
+#: plugin/global-styles/other/base.php:62
+msgid "Spacing"
+msgstr "מרווחים"
+
+#: plugin/elements/preset-sections/custom_css.php:17
+#: plugin/elements/preset-sections/custom_css.php:36
+msgid "Custom CSS"
+msgstr "CSS מותאם אישית"
+
+#: plugin/elements/preset-sections/filter.php:11
+#: plugin/elements/preset-sections/filter.php:74
+#: plugin/woocommerce/widgets/woo_filters.php:129
+msgid "Filter"
+msgstr "לְסַנֵן"
+
+#: plugin/elements/preset-sections/filter.php:12
+msgid "Filter Items"
+msgstr "סנן פריטים"
+
+#: plugin/elements/preset-sections/filter.php:29
+msgid "Blur Amount"
+msgstr "כמות טשטוש"
+
+#: plugin/elements/preset-sections/filter.php:38
+msgid "Amount"
+msgstr "סְכוּם"
+
+#: plugin/elements/preset-sections/filter.php:58
+msgid "Rotate"
+msgstr "לְסוֹבֵב"
+
+#: plugin/elements/preset-sections/filter.php:74
+#: plugin/woocommerce/widgets/woo_filters.php:129
+msgid "Add Filter"
+msgstr "הוסף מסנן"
+
+#: plugin/elements/preset-sections/form.php:11
+msgid "Form"
+msgstr "טוֹפֶס"
+
+#: plugin/elements/preset-sections/form.php:12
+#: plugin/setup-wizard/setup-wizard-page.php:168
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:17
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:46
+msgid "Theme"
+msgstr "נוֹשֵׂא"
+
+#: plugin/elements/preset-sections/form.php:17
+msgid "Material Design"
+msgstr "עיצוב חומרים"
+
+#: plugin/elements/preset-sections/form.php:18
+msgid "Material Design Outlined"
+msgstr "עיצוב חומר מתואר"
+
+#: plugin/elements/preset-sections/form.php:21
+msgid "Primary Color"
+msgstr "צבע ראשי"
+
+#: plugin/elements/preset-sections/form.php:24
+msgid "Secondary Color"
+msgstr "צבע משני"
+
+#: plugin/elements/preset-sections/form.php:27
+msgid "Text Color"
+msgstr "צבע טקסט"
+
+#: plugin/elements/preset-sections/form.php:30
+msgid "Border Color"
+msgstr "צבע גבול"
+
+#: plugin/elements/preset-sections/grid.php:13
+msgid "Grid"
+msgstr "רֶשֶׁת"
+
+#: plugin/elements/preset-sections/grid.php:16
+msgid "Enable Grid"
+msgstr "אפשר Grid"
+
+#: plugin/elements/preset-sections/grid.php:22
+#: plugin/elements/preset-sections/grid.php:61
+msgid "True"
+msgstr "נָכוֹן"
+
+#: plugin/elements/preset-sections/grid.php:23
+#: plugin/elements/preset-sections/grid.php:43
+#: plugin/elements/preset-sections/grid.php:62
+#: plugin/elements/preset-sections/grid.php:181
+#: plugin/elements/preset-sections/layout_basic_flex.php:22
+#: plugin/elements/preset-sections/layout_basic_flex.php:42
+#: plugin/elements/preset-sections/layout_basic_flex.php:63
+#: plugin/elements/preset-sections/layout_basic_flex.php:81
+msgid "Label"
+msgstr "מַדבֵּקָה"
+
+#: plugin/elements/preset-sections/grid.php:32
+#: plugin/elements/preset-sections/grid.php:76
+msgid "Columns"
+msgstr "עמודות"
+
+#: plugin/elements/preset-sections/grid.php:36
+#: plugin/elements/preset-sections/grid.php:174
+#: plugin/themeless/template.cpt.php:17
+msgid "Template"
+msgstr "תבנית"
+
+#: plugin/elements/preset-sections/grid.php:42
+#: plugin/elements/preset-sections/grid.php:180
+#: plugin/elements/preset-sections/typography.php:88
+msgid "Auto"
+msgstr "אוטומטי"
+
+#: plugin/elements/preset-sections/grid.php:55
+msgid "Auto-Fit"
+msgstr "התאמה אוטומטית"
+
+#: plugin/elements/preset-sections/grid.php:89
+msgid "Min-Width"
+msgstr "מיני-רוחב"
+
+#: plugin/elements/preset-sections/grid.php:101
+msgid "Max-Width"
+msgstr "רוחב מקסימלי"
+
+#: plugin/elements/preset-sections/grid.php:113
+msgid "Column Template"
+msgstr "תבנית עמודה"
+
+#: plugin/elements/preset-sections/grid.php:126
+#: plugin/elements/preset-sections/grid.php:230
+msgid "Gap"
+msgstr "פַּעַר"
+
+#: plugin/elements/preset-sections/grid.php:134
+msgid "Horizontal Alignment"
+msgstr "יישור אופקי"
+
+#: plugin/elements/preset-sections/grid.php:158
+#: plugin/elements/preset-sections/grid.php:159
+#: plugin/elements/preset-sections/grid.php:262
+#: plugin/elements/preset-sections/grid.php:263
+msgid "Stretch"
+msgstr "לִמְתוֹחַ"
+
+#: plugin/elements/preset-sections/grid.php:170
+#: plugin/elements/preset-sections/grid.php:193
+msgid "Rows"
+msgstr "שורות"
+
+#: plugin/elements/preset-sections/grid.php:206
+msgid "Min-Height"
+msgstr "מינימום-גובה"
+
+#: plugin/elements/preset-sections/grid.php:218
+msgid "Max-Height"
+msgstr "מקסימום גובה"
+
+#: plugin/elements/preset-sections/grid.php:238
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:23
+msgid "Vertical Alignment"
+msgstr "יישור אנכי"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:12
+msgid "Layout (Basic Flex)"
+msgstr "פריסה (Basic Flex)"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:16
+msgid "Stack"
+msgstr "לַעֲרוֹם"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:22
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:18
+#: plugin/elements/preset-sections/tabs.php:14
+#: plugin/elements/preset-sections/tabs.php:225
+msgid "Vertical"
+msgstr "אֲנָכִי"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:23
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:19
+#: plugin/elements/preset-sections/tabs.php:232
+msgid "Horizontal"
+msgstr "אופקי"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:31
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:14
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:22
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:35
+#: plugin/elements/preset-sections/typography.php:294
+msgid "Alignment"
+msgstr "מַעֲרָך"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:42
+#: plugin/elements/preset-sections/layout_basic_flex.php:63
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:18
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:39
+#: plugin/elements/preset-sections/tabs.php:50
+#: plugin/elements/preset-sections/tabs.php:58
+#: plugin/elements/preset-sections/typography.php:190
+#: plugin/elements/preset-sections/typography.php:299
+msgid "Left"
+msgstr "שְׁמֹאל"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:44
+#: plugin/elements/preset-sections/layout_basic_flex.php:65
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:20
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:41
+#: plugin/elements/preset-sections/tabs.php:50
+#: plugin/elements/preset-sections/tabs.php:58
+#: plugin/elements/preset-sections/typography.php:301
+msgid "Right"
+msgstr "יָמִינָה"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:52
+msgid "H Alignment"
+msgstr "H יישור"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:66
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:26
+msgid "Space Around"
+msgstr "מרחב מסביב"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:67
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:27
+#: plugin/elements/preset-sections/tabs.php:64
+msgid "Space Between"
+msgstr "רווח בין"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:75
+msgid "V Alignment"
+msgstr "V יישור"
+
+#: plugin/elements/preset-sections/lightbox.php:12
+#: plugin/elements/preset-sections/lightbox.php:91
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: plugin/elements/preset-sections/lightbox.php:14
+msgid "Info Notice"
+msgstr "הודעת מידע"
+
+#: plugin/elements/preset-sections/lightbox.php:20
+msgid "View the page on the frontend to preview the lightbox."
+msgstr "הצג את הדף בחזית כדי להציג תצוגה מקדימה של ה-lightbox."
+
+#: plugin/elements/preset-sections/lightbox.php:31
+#: plugin/elements/preset-sections/lightbox.php:99
+msgid "Controls"
+msgstr "בקרות"
+
+#: plugin/elements/preset-sections/lightbox.php:42
+msgid "Thumbnails"
+msgstr "תמונות ממוזערות"
+
+#: plugin/elements/preset-sections/lightbox.php:45
+msgid "Thumbnail"
+msgstr "תמונה ממוזערת"
+
+#: plugin/elements/preset-sections/lightbox.php:49
+msgid "Thumbnail Active"
+msgstr "תמונה ממוזערת פעילה"
+
+#: plugin/elements/preset-sections/lightbox.php:55
+msgid "Animated Thumbnails"
+msgstr "תמונות ממוזערות מונפשות"
+
+#: plugin/elements/preset-sections/lightbox.php:60
+msgid "Autoplay"
+msgstr "הפעלה אוטומטית"
+
+#: plugin/elements/preset-sections/lightbox.php:65
+msgid "Speed"
+msgstr "מְהִירוּת"
+
+#: plugin/elements/preset-sections/lightbox.php:70
+msgid "Show Download Button"
+msgstr "הצג את לחצן ההורדה"
+
+#: plugin/elements/preset-sections/lightbox.php:75
+msgid "Disable Autoplay on First Video"
+msgstr "השבת את ההפעלה האוטומטית בסרטון הראשון"
+
+#: plugin/elements/preset-sections/shape/shape.php:20
+#: plugin/elements/preset-sections/shape/shape.php:21
+msgid "Shape Dividers"
+msgstr "מחלקי צורות"
+
+#: plugin/elements/preset-sections/shape/shape.php:24
+msgid "Shape"
+msgstr "צוּרָה"
+
+#: plugin/elements/preset-sections/shape/shape.php:36
+msgid "Custom Shape"
+msgstr "צורה מותאמת אישית"
+
+#: plugin/elements/preset-sections/shape/shape.php:54
+msgid "Flip Horizontally"
+msgstr "הפוך אופקית"
+
+#: plugin/elements/preset-sections/shape/shape.php:57
+msgid "Yes"
+msgstr "כֵּן"
+
+#: plugin/elements/preset-sections/shape/shape.php:71
+#: plugin/elements/preset-sections/size.php:12
+#: plugin/elements/preset-sections/tabs.php:125
+#: plugin/elements/preset-sections/tabs.php:204
+#: plugin/elements/preset-sections/typography.php:116
+msgid "Width"
+msgstr "רוֹחַב"
+
+#: plugin/elements/preset-sections/shape/shape.php:76
+#: plugin/elements/preset-sections/size.php:15
+#: plugin/elements/preset-sections/typography.php:102
+msgid "Height"
+msgstr "גוֹבַה"
+
+#: plugin/elements/preset-sections/shape/shape.php:81
+msgid "Display in front of content"
+msgstr "תצוגה מול תוכן"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:13
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:13
+msgid "Layout"
+msgstr "מַעֲרָך"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:27
+msgid "top"
+msgstr "רֹאשׁ"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:28
+msgid "center"
+msgstr "מֶרְכָּז"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:29
+msgid "bottom"
+msgstr "תַחתִית"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:14
+msgid "Stack Content"
+msgstr "ערימת תוכן"
+
+#: plugin/elements/preset-sections/size.php:11
+#: plugin/elements/preset-sections/tabs.php:246
+#: plugin/elements/preset-sections/typography.php:82
+msgid "Size"
+msgstr "גוֹדֶל"
+
+#: plugin/elements/preset-sections/size.php:13
+msgid "Min Width"
+msgstr "רוחב מינימלי"
+
+#: plugin/elements/preset-sections/size.php:14
+msgid "Max Width"
+msgstr "רוחב מקסימלי"
+
+#: plugin/elements/preset-sections/size.php:16
+msgid "Min Height"
+msgstr "מינימום גובה"
+
+#: plugin/elements/preset-sections/size.php:17
+msgid "Max Height"
+msgstr "גובה מקסימלי"
+
+#: plugin/elements/preset-sections/spacing.php:13
+msgid "Spacing (All)"
+msgstr "מרווח (הכל)"
+
+#: plugin/elements/preset-sections/spacing.php:14
+#: plugin/elements/preset-sections/spacing.php:23
+#: plugin/elements/preset-sections/spacing.php:84
+msgid "Margin"
+msgstr "מֶתַח"
+
+#: plugin/elements/preset-sections/spacing.php:15
+#: plugin/elements/preset-sections/spacing.php:24
+#: plugin/elements/preset-sections/spacing.php:56
+#: plugin/elements/preset-sections/tabs.php:222
+#: plugin/elements/preset-sections/tabs.php:320
+msgid "Padding"
+msgstr "ריפוד"
+
+#: plugin/elements/preset-sections/spacing.php:22
+msgid "Spacing (All - not responsive)"
+msgstr "ריווח (הכל - לא מגיב)"
+
+#: plugin/elements/preset-sections/spacing.php:31
+msgid "Spacing (All Top & Bottom)"
+msgstr "מרווחים (הכל למעלה ולמטה)"
+
+#: plugin/elements/preset-sections/spacing.php:32
+#: plugin/elements/preset-sections/spacing.php:93
+msgid "Margin Top"
+msgstr "שוליים למעלה"
+
+#: plugin/elements/preset-sections/spacing.php:33
+#: plugin/elements/preset-sections/spacing.php:94
+msgid "Margin Bottom"
+msgstr "שוליים תחתון"
+
+#: plugin/elements/preset-sections/spacing.php:34
+#: plugin/elements/preset-sections/spacing.php:64
+msgid "Padding Top"
+msgstr "טופ ריפוד"
+
+#: plugin/elements/preset-sections/spacing.php:35
+#: plugin/elements/preset-sections/spacing.php:65
+msgid "Padding Bottom"
+msgstr "ריפוד תחתית"
+
+#: plugin/elements/preset-sections/spacing.php:42
+msgid "Spacing (All Left & Right)"
+msgstr "מרווח (הכל משמאל וימין)"
+
+#: plugin/elements/preset-sections/spacing.php:43
+#: plugin/elements/preset-sections/spacing.php:102
+msgid "Margin Left"
+msgstr "שוליים שמאלה"
+
+#: plugin/elements/preset-sections/spacing.php:44
+#: plugin/elements/preset-sections/spacing.php:103
+msgid "Margin Right"
+msgstr "שוליים ימין"
+
+#: plugin/elements/preset-sections/spacing.php:45
+#: plugin/elements/preset-sections/spacing.php:73
+msgid "Padding Left"
+msgstr "ריפוד שמאלה"
+
+#: plugin/elements/preset-sections/spacing.php:46
+#: plugin/elements/preset-sections/spacing.php:74
+msgid "Padding Right"
+msgstr "ריפוד נכון"
+
+#: plugin/elements/preset-sections/spacing.php:55
+msgid "Padding (All)"
+msgstr "ריפוד (הכל)"
+
+#: plugin/elements/preset-sections/spacing.php:63
+msgid "Padding (Top & Bottom)"
+msgstr "ריפוד (למעלה ולמטה)"
+
+#: plugin/elements/preset-sections/spacing.php:72
+msgid "Padding (Left & Right)"
+msgstr "ריפוד (שמאל וימין)"
+
+#: plugin/elements/preset-sections/spacing.php:83
+msgid "Margin (All)"
+msgstr "שוליים (הכל)"
+
+#: plugin/elements/preset-sections/spacing.php:92
+msgid "Margin (Top & Bottom)"
+msgstr "שוליים (למעלה ולמטה)"
+
+#: plugin/elements/preset-sections/spacing.php:101
+msgid "Margin (Left & Right)"
+msgstr "שוליים (שמאל וימין)"
+
+#: plugin/elements/preset-sections/tabs.php:11
+#: plugin/elements/preset-sections/tabs.php:42
+msgid "Tabs"
+msgstr "כרטיסיות"
+
+#: plugin/elements/preset-sections/tabs.php:23
+msgid "Tabs Width"
+msgstr "רוחב כרטיסיות"
+
+#: plugin/elements/preset-sections/tabs.php:32
+msgid "Horizontal At"
+msgstr "אופקי At"
+
+#: plugin/elements/preset-sections/tabs.php:40
+#: plugin/global-styles/typography/base.php:155
+msgid "Style"
+msgstr "סִגְנוֹן"
+
+#: plugin/elements/preset-sections/tabs.php:42
+msgid "Pills"
+msgstr "גלולות"
+
+#: plugin/elements/preset-sections/tabs.php:42
+#: plugin/elements/preset-sections/tabs.php:80
+msgid "Bar"
+msgstr "בַּר"
+
+#: plugin/elements/preset-sections/tabs.php:58
+msgid "Full Width"
+msgstr "רוחב מלא"
+
+#: plugin/elements/preset-sections/tabs.php:72
+msgid "Space After"
+msgstr "Space After"
+
+#: plugin/elements/preset-sections/tabs.php:108
+msgid "Pill Radius"
+msgstr "רדיוס הגלולה"
+
+#: plugin/elements/preset-sections/tabs.php:136
+#: plugin/global-styles/colors/base.php:27 plugin/wpwidgets/stock/stock.php:20
+#: plugin/wpwidgets/stock/stock.php:31
+msgid "Text"
+msgstr "טֶקסט"
+
+#: plugin/elements/preset-sections/tabs.php:141
+#: plugin/elements/preset-sections/tabs.php:169
+#: plugin/elements/preset-sections/tabs.php:190
+msgid "Hover"
+msgstr "לְרַחֵף"
+
+#: plugin/elements/preset-sections/tabs.php:148
+#: plugin/elements/preset-sections/tabs.php:176
+#: plugin/elements/preset-sections/tabs.php:197
+#: plugin/licensing/class.license-key-manager.php:207
+msgid "Active"
+msgstr "פעיל"
+
+#: plugin/elements/preset-sections/tabs.php:162
+msgid "Inactive"
+msgstr "לא פעיל"
+
+#: plugin/elements/preset-sections/tabs.php:187
+msgid "Underline"
+msgstr "לָשִׂים דָגֵשׁ"
+
+#: plugin/elements/preset-sections/tabs.php:243
+msgid "Icon"
+msgstr "סמל"
+
+#: plugin/elements/preset-sections/tabs.php:253
+msgid "Nudge"
+msgstr "דְחִיפָה"
+
+#: plugin/elements/preset-sections/tabs.php:256
+#: plugin/global-styles/other/base.php:46
+msgid "Nudge X"
+msgstr "דחיפה X"
+
+#: plugin/elements/preset-sections/tabs.php:263
+#: plugin/global-styles/other/base.php:54
+msgid "Nudge Y"
+msgstr "דחף Y"
+
+#: plugin/elements/preset-sections/tabs.php:274
+msgid "After Icon"
+msgstr "אחרי אייקון"
+
+#: plugin/elements/preset-sections/tabs.php:285
+msgid "Responsive"
+msgstr "תגובה"
+
+#: plugin/elements/preset-sections/tabs.php:288
+msgid "Show as Dropdown"
+msgstr "הצג כתפריט נפתח"
+
+#: plugin/elements/preset-sections/tabs.php:296
+msgid "Visible At"
+msgstr "גלוי ב"
+
+#: plugin/elements/preset-sections/tabs.php:304
+msgid "Dropdown Styles"
+msgstr "סגנונות נפתחים"
+
+#: plugin/elements/preset-sections/tabs.php:335
+msgid "Show Affordance"
+msgstr "הצג אפורמציה"
+
+#: plugin/elements/preset-sections/tabs.php:356
+msgid "Transition Effect"
+msgstr "אפקט מעבר"
+
+#: plugin/elements/preset-sections/typography.php:19
+msgid "Stroke Width"
+msgstr "רוחב שבץ"
+
+#: plugin/elements/preset-sections/typography.php:28
+msgid "Stroke Color"
+msgstr "צבע שבץ"
+
+#: plugin/elements/preset-sections/typography.php:37
+msgid "Fill"
+msgstr "לְמַלֵא"
+
+#: plugin/elements/preset-sections/typography.php:41
+msgid "Transparent"
+msgstr "שָׁקוּף"
+
+#: plugin/elements/preset-sections/typography.php:42
+#: plugin/elements/preset-sections/typography.php:51
+#: plugin/global-styles/colors/base.php:67
+msgid "Gradient"
+msgstr "מִדרוֹן"
+
+#: plugin/elements/preset-sections/typography.php:43
+#: plugin/elements/preset-sections/typography.php:67
+msgid "Image"
+msgstr "תְמוּנָה"
+
+#: plugin/elements/preset-sections/typography.php:86
+msgid "Cover"
+msgstr "לְכַסוֹת"
+
+#: plugin/elements/preset-sections/typography.php:87
+msgid "Contain"
+msgstr "לְהַכִיל"
+
+#: plugin/elements/preset-sections/typography.php:130
+msgid "Repeat"
+msgstr "לַחֲזוֹר עַל"
+
+#: plugin/elements/preset-sections/typography.php:134
+msgid "no-repeat"
+msgstr "ללא חזרה"
+
+#: plugin/elements/preset-sections/typography.php:135
+msgid "repeat"
+msgstr "לַחֲזוֹר עַל"
+
+#: plugin/elements/preset-sections/typography.php:136
+msgid "repeat-x"
+msgstr "חזרה-x"
+
+#: plugin/elements/preset-sections/typography.php:137
+msgid "repeat-y"
+msgstr "חוזר-י"
+
+#: plugin/elements/preset-sections/typography.php:154
+msgid "Left Top"
+msgstr "שמאל למעלה"
+
+#: plugin/elements/preset-sections/typography.php:155
+msgid "Left Center"
+msgstr "מרכז שמאל"
+
+#: plugin/elements/preset-sections/typography.php:156
+msgid "Left Bottom"
+msgstr "שמאל למטה"
+
+#: plugin/elements/preset-sections/typography.php:157
+msgid "Right Top"
+msgstr "ימין למעלה"
+
+#: plugin/elements/preset-sections/typography.php:158
+msgid "Right Center"
+msgstr "מרכז ימין"
+
+#: plugin/elements/preset-sections/typography.php:159
+msgid "Right Bottom"
+msgstr "ימין למטה"
+
+#: plugin/elements/preset-sections/typography.php:160
+msgid "Center Top"
+msgstr "מרכז למעלה"
+
+#: plugin/elements/preset-sections/typography.php:161
+msgid "Center Center"
+msgstr "מרכז מרכז"
+
+#: plugin/elements/preset-sections/typography.php:162
+msgid "Center Bottom"
+msgstr "מרכז תחתון"
+
+#: plugin/elements/preset-sections/typography.php:204
+msgid "Text Shadow"
+msgstr "צל טקסט"
+
+#: plugin/elements/preset-sections/typography.php:224
+msgid "Effects"
+msgstr "אפקטים"
+
+#: plugin/elements/preset-sections/typography.php:302
+msgid "Justify"
+msgstr "לְהַצְדִיק"
+
+#: plugin/elements/universal-controls/advanced.php:17
+msgid "Classes"
+msgstr "שיעורים"
+
+#: plugin/elements/universal-controls/advanced.php:61
+msgid "Draft"
+msgstr "טְיוּטָה"
+
+#: plugin/elements/universal-controls/advanced.php:90
+msgid "Wrapper"
+msgstr "עֲטִיפָה"
+
+#: plugin/elements/universal-controls/advanced.php:100
+msgid "Wrapper Hover"
+msgstr "רחף עטיפה"
+
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:22
+msgid "Hide On Breakpoint"
+msgstr "הסתר בנקודת הפסקה"
+
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:25
+msgid "Hide"
+msgstr "לְהַסתִיר"
+
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:34
+msgid "Greyed Out"
+msgstr "אפור"
+
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:35
+msgid "Hidden"
+msgstr "מוּסתָר"
+
+#: plugin/elements/universal-controls/html.php:17
+#: plugin/themeless/rules/woocommerce/product-attributes.php:14
+#: plugin/themeless/rules/woocommerce/product-attributes.php:32
+msgid "Attributes"
+msgstr "תכונות"
+
+#: plugin/elements/universal-controls/html.php:19
+#: plugin/woocommerce/widgets/woo_general.php:70
+msgid "Name"
+msgstr "שֵׁם"
+
+#: plugin/elements/universal-controls/html.php:26
+msgid "Value"
+msgstr "עֵרֶך"
+
+#: plugin/elements/universal-controls/html.php:42
+#: plugin/woocommerce/widgets/woo_filters.php:82
+msgid "Attribute"
+msgstr "תְכוּנָה"
+
+#: plugin/elements/universal-controls/html.php:43
+msgid "Add attribute"
+msgstr "הוסף תכונה"
+
+#: plugin/elements/universal-controls/html.php:74
+msgid "Tag"
+msgstr "תָג"
+
+#: plugin/elements/universal-controls/html.php:89
+msgid "ID"
+msgstr "תְעוּדַת זֶהוּת"
+
+#: plugin/elements/universal-controls/html.php:93
+msgid "my-awesome-element"
+msgstr "האלמנט-המדהים שלי"
+
+#: plugin/extensions/settings-page.php:17
+#: plugin/extensions/settings-page.php:54
+msgid "Extensions"
+msgstr "הרחבות"
+
+#. translators: %s: Extension name
+#: plugin/extensions/settings-page.php:70
+#, php-format
+msgid "%s - License Key"
+msgstr "%s - מפתח רישיון"
+
+#. translators: %s: status text wrapped in styled HTML
+#: plugin/extensions/settings-page.php:82
+#: plugin/extensions/settings-page.php:87
+#: plugin/extensions/settings-page.php:92
+#: plugin/extensions/settings-page.php:97
+#, php-format
+msgid "Your license key is %s."
+msgstr "מפתח הרישיון שלך הוא %s."
+
+#: plugin/extensions/settings-page.php:83
+msgid "active"
+msgstr "פָּעִיל"
+
+#: plugin/extensions/settings-page.php:88
+msgid "invalid"
+msgstr "לֹא בְּתוֹקֶף"
+
+#: plugin/extensions/settings-page.php:93
+msgid "inactive"
+msgstr "לֹא פָּעִיל"
+
+#: plugin/extensions/settings-page.php:98
+msgid "expired"
+msgstr "פג תוקף"
+
+#: plugin/forms/actions/api-action.php:75
+msgid ""
+"Error requesting data. The service may be down, your settings may be wrong, "
+"or there's a problem with your server"
+msgstr ""
+"שגיאה בבקשת הנתונים. ייתכן שהשירות מושבת, ייתכן שההגדרות שלך שגויות או שיש "
+"בעיה בשרת שלך"
+
+#: plugin/forms/actions/api-action.php:100
+msgid "Error accessing resource"
+msgstr "שגיאה בגישה למשאב"
+
+#: plugin/forms/actions/api-action.php:130
+msgid "Invalid response"
+msgstr "תגובה לא חוקית"
+
+#: plugin/forms/actions/mailchimp.php:235
+msgid "The API key must contain a data center"
+msgstr "מפתח ה-API חייב להכיל מרכז נתונים"
+
+#: plugin/forms/actions/mailchimp.php:551
+msgid "Error requesting data from MailChimp servers."
+msgstr "שגיאה בבקשת נתונים משרתי MailChimp."
+
+#: plugin/forms/actions/mailchimp.php:562
+msgid "Error getting data from MailChimp"
+msgstr "שגיאה בהשגת נתונים מ-MailChimp"
+
+#: plugin/forms/custom/custom.php:24
+msgid "An unexpected error occurred."
+msgstr "אירעה שגיאה בלתי צפויה."
+
+#: plugin/forms/custom/custom.php:50
+msgid "Invalid CSRF token"
+msgstr "אסימון CSRF לא חוקי"
+
+#: plugin/forms/custom/custom.php:63
+msgid "[reCAPTCHA] Error retrieving token."
+msgstr "[reCAPTCHA] שגיאה באחזור האסימון."
+
+#: plugin/forms/custom/custom.php:71
+msgid "[reCAPTCHA] Invalid challenge. Please reload and try again."
+msgstr "[reCAPTCHA] אתגר לא חוקי. טען מחדש ונסה שוב."
+
+#. translators: %s: Field label
+#: plugin/forms/custom/custom.php:477 plugin/forms/custom/custom.php:495
+#, php-format
+msgid "%s is required."
+msgstr "נדרשת %s."
+
+#: plugin/forms/custom/custom.php:483
+msgid "Please enter a valid email address."
+msgstr "נא להזין כתובת אימייל חוקית."
+
+#. translators: 1: Field label, 2: Maximum number of files
+#: plugin/forms/custom/custom.php:506
+#, php-format
+msgid "%1$s may not have more than %2$s file(s)."
+msgstr "ל-%1$s לא יהיו יותר מ- %2$s קבצים."
+
+#. translators: 1: Field label, 2: Maximum file size in megabytes
+#: plugin/forms/custom/custom.php:526
+#, php-format
+msgid "%1$s must be less than %2$s megabytes."
+msgstr "%1$s חייב להיות פחות מ- %2$s מגה-בייט."
+
+#. translators: 1: Field label, 2: Allowed file types (comma-separated list)
+#: plugin/forms/custom/custom.php:532
+#, php-format
+msgid "%1$s must be a file of type: %2$s"
+msgstr "%1$s חייב להיות קובץ מסוג: %2$s"
+
+#. translators: %s: Field ID
+#: plugin/forms/custom/custom.php:543
+#, php-format
+msgid "Unexpected file with id: %s"
+msgstr "קובץ לא צפוי עם מזהה: %s"
+
+#: plugin/global-styles/advanced/base.php:14
+msgid "CSS"
+msgstr "CSS"
+
+#: plugin/global-styles/advanced/base.php:15
+msgid "CSS Code"
+msgstr "קוד CSS"
+
+#: plugin/global-styles/advanced/base.php:18
+msgid "Stylesheet"
+msgstr "גיליון סגנונות"
+
+#: plugin/global-styles/advanced/base.php:19
+msgid "Add Stylesheet"
+msgstr "הוסף גיליון סגנונות"
+
+#: plugin/global-styles/advanced/base.php:22
+msgid "Scripts"
+msgstr "סקריפטים"
+
+#: plugin/global-styles/advanced/base.php:23
+msgid "JavaScript Code"
+msgstr "קוד JavaScript"
+
+#: plugin/global-styles/advanced/base.php:26
+msgid "Javascript"
+msgstr "Javascript"
+
+#: plugin/global-styles/advanced/base.php:27
+msgid "Add Javascript"
+msgstr "הוסף Javascript"
+
+#: plugin/global-styles/buttons/base.php:18
+msgid "Buttons"
+msgstr "כפתורים"
+
+#: plugin/global-styles/buttons/base.php:20
+msgid "Primary"
+msgstr "יְסוֹדִי"
+
+#: plugin/global-styles/buttons/base.php:21
+msgid "Secondary"
+msgstr "מִשׁנִי"
+
+#: plugin/global-styles/buttons/base.php:35
+#: plugin/global-styles/typography/base.php:20
+msgid "Presets"
+msgstr "הגדרות קבועות מראש"
+
+#: plugin/global-styles/buttons/base.php:39
+msgid "Button Presets"
+msgstr "כפתורים מוגדרים מראש"
+
+#: plugin/global-styles/buttons/base.php:43
+#: plugin/global-styles/typography/base.php:28
+msgid "Preset Name"
+msgstr "שם מוגדר מראש"
+
+#: plugin/global-styles/buttons/base.php:46
+msgid "Styles"
+msgstr "סגנונות"
+
+#: plugin/global-styles/buttons/base.php:52
+#: plugin/global-styles/typography/base.php:49
+msgid "Preset"
+msgstr "מוגדר מראש"
+
+#: plugin/global-styles/buttons/base.php:53
+#: plugin/global-styles/typography/base.php:50
+msgid "Add Preset"
+msgstr "הוסף הגדרה מראש"
+
+#. translators: preset number
+#: plugin/global-styles/buttons/base.php:57
+#, php-format
+msgid "Preset %s"
+msgstr "מוגדר מראש %s"
+
+#: plugin/global-styles/buttons/base.php:60
+#: plugin/global-styles/typography/base.php:58
+msgid "Are you sure you want to delete this preset?"
+msgstr "האם אתה בטוח שברצונך למחוק את ההגדרה מראש הזו?"
+
+#: plugin/global-styles/colors/base.php:15
+#: plugin/global-styles/colors/base.php:61
+msgid "Colors"
+msgstr "צבעים"
+
+#: plugin/global-styles/colors/base.php:18
+msgid "Brand"
+msgstr "מותג"
+
+#: plugin/global-styles/colors/base.php:35
+#: plugin/global-styles/typography/base.php:117
+msgid "Headings"
+msgstr "כותרות"
+
+#: plugin/global-styles/colors/base.php:43
+#: plugin/global-styles/typography/base.php:134
+msgid "Links"
+msgstr "קישורים"
+
+#: plugin/global-styles/colors/base.php:59
+msgid "Palette"
+msgstr "לוּחַ הַצְבָעִים"
+
+#: plugin/global-styles/colors/base.php:62
+msgid "Gradients"
+msgstr "מעברי צבע"
+
+#: plugin/global-styles/containers/base.php:15
+msgid "Containers"
+msgstr "מיכלים"
+
+#: plugin/global-styles/containers/base.php:16
+msgid "Sections"
+msgstr "קטעים"
+
+#: plugin/global-styles/containers/base.php:17
+msgid "Container Width"
+msgstr "רוחב מיכל"
+
+#: plugin/global-styles/containers/base.php:18
+msgid "Vertical Padding"
+msgstr "ריפוד אנכי"
+
+#: plugin/global-styles/containers/base.php:19
+msgid "Horizontal Padding"
+msgstr "ריפוד אופקי"
+
+#: plugin/global-styles/containers/base.php:21
+msgid "Column Gap"
+msgstr "פער עמודות"
+
+#: plugin/global-styles/forms/base.php:12
+msgid "Forms"
+msgstr "טפסים"
+
+#: plugin/global-styles/other/base.php:18
+msgid "Transition Duration"
+msgstr "משך המעבר"
+
+#: plugin/global-styles/other/base.php:29
+msgid "Skip Link"
+msgstr "דלג על קישור"
+
+#: plugin/global-styles/other/base.php:79
+#: plugin/themeless/rules/conditions/custom-php.php:19
+#: plugin/themeless/rules/conditions/dynamic-data.php:21
+#: plugin/themeless/rules/conditions/misc.php:23
+#: plugin/themeless/rules/conditions/misc.php:74
+#: plugin/themeless/rules/conditions/misc.php:123
+#: plugin/themeless/rules/conditions/misc.php:155
+#: plugin/themeless/rules/other/misc.php:33
+#: plugin/themeless/rules/other/misc.php:74
+#: plugin/themeless/rules/other/misc.php:108
+msgid "Other"
+msgstr "אַחֵר"
+
+#: plugin/global-styles/typography/base.php:24
+msgid "Typography Presets"
+msgstr "קביעות מוגדרות מראש של טיפוגרפיה"
+
+#: plugin/global-styles/typography/base.php:78
+msgid "Heading Font"
+msgstr "גופן כותרת"
+
+#: plugin/global-styles/typography/base.php:86
+msgid "Body Font"
+msgstr "גופן גוף"
+
+#: plugin/global-styles/typography/base.php:95
+msgid "Base Size"
+msgstr "גודל בסיס"
+
+#: plugin/global-styles/typography/base.php:104
+msgid "Ratio"
+msgstr "יַחַס"
+
+#: plugin/global-styles/typography/base.php:114
+msgid "Body"
+msgstr "גוּף"
+
+#: plugin/global-styles/typography/base.php:119
+msgid "All Headings"
+msgstr "כל הכותרות"
+
+#: plugin/global-styles/typography/base.php:120
+msgid "H1"
+msgstr "H1"
+
+#: plugin/global-styles/typography/base.php:121
+msgid "H2"
+msgstr "H2"
+
+#: plugin/global-styles/typography/base.php:122
+msgid "H3"
+msgstr "H3"
+
+#: plugin/global-styles/typography/base.php:123
+msgid "H4"
+msgstr "H4"
+
+#: plugin/global-styles/typography/base.php:124
+msgid "H5"
+msgstr "H5"
+
+#: plugin/global-styles/typography/base.php:125
+msgid "H6"
+msgstr "H6"
+
+#: plugin/global-styles/typography/base.php:137
+msgid "Font Weight"
+msgstr "משקל גופן"
+
+#: plugin/global-styles/typography/base.php:152
+msgid "Decoration"
+msgstr "תַפאוּרָה"
+
+#: plugin/global-styles/typography/base.php:171
+msgid "Line"
+msgstr "קַו"
+
+#: plugin/global-styles/typography/base.php:180
+msgid "Thickness"
+msgstr "עוֹבִי"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:17
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:58
+msgid "Custom Code"
+msgstr "קוד מותאם אישית"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:74
+msgid "Header Code"
+msgstr "קוד כותרת"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:82
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:105
+msgid "Send to CodeBox"
+msgstr "שלח ל-CodeBox"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:83
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:106
+msgid "Open CodeBox"
+msgstr "פתח את CodeBox"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:85
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:108
+msgid "Clear Code"
+msgstr "נקה קוד"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:90
+msgid "This code will be inserted inside the <head> tag."
+msgstr "קוד זה יוכנס בתוך התג <head>."
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:96
+msgid "Footer Code"
+msgstr "קוד כותרת תחתונה"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:113
+msgid "This code will be inserted near the closing </body> tag."
+msgstr "קוד זה יוכנס ליד תג הסגירה </body>."
+
+#: plugin/interactions/actions/add-class.php:17
+msgid "Add Class"
+msgstr "הוסף כיתה"
+
+#: plugin/interactions/actions/add-class.php:37
+#: plugin/interactions/actions/remove-class.php:37
+#: plugin/interactions/actions/toggle-class.php:37
+msgid "CSS Class"
+msgstr "כיתת CSS"
+
+#: plugin/interactions/actions/control-popup.php:17
+msgid "Control Popup"
+msgstr "שליטה קופץ"
+
+#: plugin/interactions/actions/control-popup.php:37
+#: plugin/themeless/popups.cpt.php:17
+msgid "Popup"
+msgstr "קופץ"
+
+#: plugin/interactions/actions/control-popup.php:41
+msgid "Popup Action"
+msgstr "פעולה קופצת"
+
+#: plugin/interactions/actions/control-popup.php:45
+msgid "Open"
+msgstr "לִפְתוֹחַ"
+
+#: plugin/interactions/actions/control-popup.php:46
+msgid "Close"
+msgstr "לִסְגוֹר"
+
+#: plugin/interactions/actions/control-popup.php:47
+msgid "Toggle"
+msgstr "לְמַתֵג"
+
+#: plugin/interactions/actions/control-slider.php:17
+msgid "Control Slider"
+msgstr "מחוון שליטה"
+
+#: plugin/interactions/actions/control-slider.php:37
+msgid "Action"
+msgstr "פְּעוּלָה"
+
+#: plugin/interactions/actions/control-slider.php:41
+msgid "Next Slide"
+msgstr "השקופית הבאה"
+
+#: plugin/interactions/actions/control-slider.php:42
+msgid "Previous Slide"
+msgstr "שקופית קודמת"
+
+#: plugin/interactions/actions/control-slider.php:43
+msgid "Go to Slide"
+msgstr "עבור אל Slide"
+
+#: plugin/interactions/actions/focus.php:17
+msgid "Focus"
+msgstr "מוֹקֵד"
+
+#: plugin/interactions/actions/hide-element.php:16
+msgid "Hide Element"
+msgstr "הסתר אלמנט"
+
+#: plugin/interactions/actions/javascript-function.php:17
+msgid "JavaScript Function"
+msgstr "פונקציית JavaScript"
+
+#: plugin/interactions/actions/javascript-function.php:37
+msgid "JS Function Name"
+msgstr "שם פונקציה JS"
+
+#: plugin/interactions/actions/remove-attribute.php:17
+msgid "Remove Attribute"
+msgstr "הסר תכונה"
+
+#: plugin/interactions/actions/remove-attribute.php:37
+#: plugin/interactions/actions/set-attribute.php:37
+#: plugin/interactions/actions/toggle-attribute.php:37
+msgid "Attribute Name"
+msgstr "שם תכונה"
+
+#: plugin/interactions/actions/remove-class.php:17
+msgid "Remove Class"
+msgstr "הסר את הכיתה"
+
+#: plugin/interactions/actions/scroll-to.php:17
+msgid "Scroll To"
+msgstr "גלול אל"
+
+#: plugin/interactions/actions/scroll-to.php:37
+msgid "Scroll Offset"
+msgstr "היסט גלילה"
+
+#: plugin/interactions/actions/scroll-to.php:40
+msgid "Scroll Delay"
+msgstr "Scroll Delay"
+
+#: plugin/interactions/actions/set-attribute.php:17
+msgid "Set Attribute"
+msgstr "הגדר תכונה"
+
+#: plugin/interactions/actions/set-attribute.php:41
+#: plugin/interactions/actions/toggle-attribute.php:41
+msgid "Attribute Value"
+msgstr "ערך תכונה"
+
+#: plugin/interactions/actions/set-variable.php:17
+msgid "Set Variable"
+msgstr "הגדר משתנה"
+
+#: plugin/interactions/actions/set-variable.php:37
+msgid "Variable Name"
+msgstr "שם משתנה"
+
+#: plugin/interactions/actions/set-variable.php:41
+msgid "Variable Value"
+msgstr "ערך משתנה"
+
+#: plugin/interactions/actions/show-element.php:16
+msgid "Show Element"
+msgstr "הצג אלמנט"
+
+#: plugin/interactions/actions/start-animation.php:17
+msgid "Start Animation"
+msgstr "התחל אנימציה"
+
+#: plugin/interactions/actions/start-animation.php:37
+msgid "Animation"
+msgstr "הַנפָּשָׁה"
+
+#: plugin/interactions/actions/toggle-attribute.php:17
+msgid "Toggle Attribute"
+msgstr "החלף מאפיין"
+
+#: plugin/interactions/actions/toggle-class.php:17
+msgid "Toggle Class"
+msgstr "החלף מחלקה"
+
+#: plugin/interactions/actions/toggle-element.php:16
+msgid "Toggle Element"
+msgstr "החלף אלמנט"
+
+#: plugin/interactions/control.php:22 plugin/interactions/control.php:24
+msgid "Interactions"
+msgstr "אינטראקציות"
+
+#: plugin/interactions/triggers/click.php:16
+msgid "Click"
+msgstr "נְקִישָׁה"
+
+#: plugin/interactions/triggers/dropdown-menu-opens.php:16
+msgid "Dropdown Menu Opens"
+msgstr "התפריט הנפתח נפתח"
+
+#: plugin/interactions/triggers/form-submit.php:16
+msgid "Form Submit"
+msgstr "שלח טופס"
+
+#: plugin/interactions/triggers/key-down.php:17
+msgid "Key Down"
+msgstr "מקש למטה"
+
+#: plugin/interactions/triggers/key-down.php:41
+#: plugin/interactions/triggers/key-up.php:41
+msgid "CTRL"
+msgstr "CTRL"
+
+#: plugin/interactions/triggers/key-down.php:45
+#: plugin/interactions/triggers/key-up.php:45
+msgid "Shift"
+msgstr "מִשׁמֶרֶת"
+
+#: plugin/interactions/triggers/key-up.php:17
+msgid "Key Up"
+msgstr "מקש למעלה"
+
+#: plugin/interactions/triggers/mobile-menu-opens.php:16
+msgid "Mobile Menu Opens"
+msgstr "תפריט נייד נפתח"
+
+#: plugin/interactions/triggers/mouse-enter.php:16
+msgid "Mouse Enter"
+msgstr "עכבר Enter"
+
+#: plugin/interactions/triggers/mouse-leave-window.php:16
+msgid "Mouse Leave Window"
+msgstr "עכבר עזוב את החלון"
+
+#: plugin/interactions/triggers/mouse-leave.php:16
+msgid "Mouse Leave"
+msgstr "עזוב עכבר"
+
+#: plugin/interactions/triggers/mouse-move-in-viewport.php:16
+msgid "Mouse Move In Viewport"
+msgstr "הזזת עכבר ב-Viewport"
+
+#: plugin/interactions/triggers/page-loaded.php:16
+msgid "Page Loaded"
+msgstr "העמוד נטען"
+
+#: plugin/interactions/triggers/page-scrolled.php:16
+msgid "Page Scrolled"
+msgstr "דף גלילה"
+
+#: plugin/interactions/triggers/scroll-into-view.php:16
+msgid "Scroll Into View"
+msgstr "גלול לתצוגה"
+
+#: plugin/interactions/triggers/slider-change.php:16
+msgid "Slider Change"
+msgstr "שינוי המחוון"
+
+#: plugin/interactions/triggers/tab-change.php:16
+msgid "Tab Change"
+msgstr "שינוי כרטיסייה"
+
+#: plugin/interactions/triggers/visibility-change.php:16
+msgid "Visibility Change"
+msgstr "שינוי נראות"
+
+#: plugin/licensing/class.license-key-manager.php:193
+#: plugin/licensing/class.license-key-manager.php:194
+#: plugin/licensing/class.license-key-manager.php:195
+#: plugin/licensing/class.license-key-manager.php:196
+#: plugin/licensing/class.license-key-manager.php:231
+msgid "Unknown"
+msgstr "לֹא יְדוּעַ"
+
+#: plugin/licensing/class.license-key-manager.php:205
+#: plugin/licensing/class.license-key-manager.php:206
+msgid "Not activated"
+msgstr "לא מופעל"
+
+#: plugin/licensing/class.license-key-manager.php:208
+msgid "Invalid key"
+msgstr "מפתח לא חוקי"
+
+#: plugin/licensing/class.license-key-manager.php:209
+msgid "License key revoked"
+msgstr "מפתח הרישיון בוטל"
+
+#: plugin/licensing/class.license-key-manager.php:210
+msgid "License has expired"
+msgstr "פג תוקף הרישיון"
+
+#: plugin/licensing/class.license-key-manager.php:211
+#: plugin/licensing/class.license-key-manager.php:212
+msgid "License is not valid for this product"
+msgstr "הרישיון אינו תקף עבור מוצר זה"
+
+#. translators: %s: plugin name
+#: plugin/licensing/class.license-key-manager.php:219
+#, php-format
+msgid "%s Pro"
+msgstr "%s Pro"
+
+#. translators: %s: plugin name
+#: plugin/licensing/class.license-key-manager.php:221
+#, php-format
+msgid "%s Free"
+msgstr "%s חינם"
+
+#: plugin/licensing/class.license-key-manager.php:222
+msgid "Valid"
+msgstr "תָקֵף"
+
+#: plugin/licensing/class.license-key-manager.php:222
+msgid "Invalid"
+msgstr "לֹא בְּתוֹקֶף"
+
+#: plugin/licensing/class.license-key-manager.php:226
+msgid "n/a"
+msgstr "לא"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:8
+#: plugin/woocommerce/settings/settings-tab.php:58
+msgid "Disabled"
+msgstr "נָכֶה"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:9
+msgid "(200) Coming Soon"
+msgstr "(200) בקרוב"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:10
+msgid "(503) Maintenance"
+msgstr "(503) תחזוקה"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:14
+msgid "Logged in"
+msgstr "מחובר"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:15
+msgid "Logged in with role"
+msgstr "מחובר עם תפקיד"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:28
+#: plugin/themeless/theme-simulator/maintenance-mode.php:32
+msgid "Maintenance"
+msgstr "תַחזוּקָה"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:33
+msgid "Mode"
+msgstr "מצב"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:51
+msgid "Select a page&hellip;"
+msgstr "בחר דף&hellip;"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:63
+msgid "This will be displayed to the user when maintenance mode is enabled."
+msgstr "זה יוצג למשתמש כאשר מצב תחזוקה מופעל."
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:71
+msgid "Access Control"
+msgstr "בקרת גישה"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:72
+msgid ""
+"Users can bypass maintenance mode using any of the options listed below."
+msgstr ""
+"משתמשים יכולים לעקוף את מצב התחזוקה באמצעות כל אחת מהאפשרויות המפורטות להלן."
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:77
+msgid "Authentication Status"
+msgstr "סטטוס אימות"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:95
+msgid "User Roles"
+msgstr "תפקידי משתמש"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:119
+msgid "URL param"
+msgstr "פרמטר כתובת URL"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:129
+msgid "Enable URL Param"
+msgstr "אפשר פרמטר כתובת URL"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:136
+msgid "key"
+msgstr "מַפְתֵחַ"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:143
+msgid "value"
+msgstr "עֵרֶך"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:153
+msgid "Copy"
+msgstr "לְהַעְתִיק"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:159
+msgid ""
+"Users with any of the URL parameters defined above set will have access to "
+"the site."
+msgstr "למשתמשים עם כל אחד מפרמטרי כתובת האתר שהוגדרו לעיל תהיה גישה לאתר."
+
+#: plugin/maintenance-mode/maintenance-mode-tab.php:16
+msgid "Maintenance Mode"
+msgstr "מצב תחזוקה"
+
+#: plugin/maintenance-mode/maintenance-mode.php:229
+msgid "Maintenance Mode ON"
+msgstr "מצב תחזוקה מופעל"
+
+#: plugin/permissions/permissions.php:38
+msgid "Full Interface"
+msgstr "ממשק מלא"
+
+#: plugin/permissions/permissions.php:43
+msgid "Edit Content Interface Only"
+msgstr "עריכת ממשק תוכן בלבד"
+
+#: plugin/permissions/permissions.php:48
+msgid "No Access"
+msgstr "אין גישה"
+
+#: plugin/permissions/settings-tab.php:16
+#: plugin/permissions/settings-tab.php:87
+msgid "User Access"
+msgstr "גישת משתמש"
+
+#: plugin/permissions/settings-tab.php:92
+msgid ""
+"Set builder access and user interface mode by user role. Set on a per-user "
+"basis from the Edit User screen."
+msgstr ""
+"הגדר גישת בונה ומצב ממשק משתמש לפי תפקיד משתמש. הגדר על בסיס משתמש ממסך "
+"עריכת משתמש."
+
+#. translators: %s: Link to security documentation
+#: plugin/permissions/settings-tab.php:97
+#, php-format
+msgid ""
+"Do not grant <strong>Edit Content Interface Only</strong> access to "
+"untrusted users. This access simplifies the user interface, but does not <a "
+"href=\"%s\" target=\"_blank\">restrict privileges</a>."
+msgstr ""
+"אל תעניק גישה ל<strong>עריכת ממשק תוכן בלבד</strong> למשתמשים לא מהימנים. "
+"גישה זו מפשטת את ממשק המשתמש, אך אינה <a href=\"%s\" "
+"target=\"_blank\">מגבילה הרשאות</a>."
+
+#: plugin/permissions/settings-tab.php:116
+msgid "Impersonate a user with <strong>Edit Content</strong> access."
+msgstr "התחזה למשתמש עם גישת <strong>עריכת תוכן</strong>."
+
+#: plugin/permissions/settings-tab.php:118
+msgid ""
+"The next time you open the Builder, you will experience it with the Edit "
+"Content access."
+msgstr "בפעם הבאה שתפתח את ה-Builder, תחווה אותו עם הגישה עריכת תוכן."
+
+#: plugin/permissions/user-profile.php:58
+msgid "Builder Access"
+msgstr "גישת Builder"
+
+#: plugin/permissions/user-profile.php:71
+msgid ""
+"It's not possible to restrict access for administrators, please give the "
+"user another role."
+msgstr "לא ניתן להגביל גישה למנהלי מערכת, נא לתת למשתמש תפקיד אחר."
+
+#: plugin/setup-wizard/onboarding-notice.php:231
+msgid "Welcome to Breakdance!"
+msgstr "ברוכים הבאים לברייקדאנס!"
+
+#: plugin/setup-wizard/onboarding-notice.php:233
+msgid "Let's get you up to speed."
+msgstr "בוא נעלה אותך למהירות."
+
+#: plugin/setup-wizard/onboarding-notice.php:248
+msgid "Dismiss"
+msgstr "לְפַטֵר"
+
+#: plugin/setup-wizard/onboarding-notice.php:270
+msgid "BETA"
+msgstr "בטא"
+
+#: plugin/setup-wizard/onboarding-notice.php:274
+msgid "Our quickstart guide will help you get started with Breakdance."
+msgstr "מדריך ההתחלה המהירה שלנו יעזור לך להתחיל עם Breakdance."
+
+#: plugin/setup-wizard/onboarding-notice.php:280
+msgid "Get Started"
+msgstr "התחל"
+
+#: plugin/setup-wizard/onboarding-notice.php:298
+msgid "Learn Breakdance"
+msgstr "למד ברייקדאנס"
+
+#: plugin/setup-wizard/onboarding-notice.php:300
+msgid "Our tutorials are designed to be convenient and straightforward."
+msgstr "ההדרכות שלנו נועדו להיות נוחות ופשוטות."
+
+#: plugin/setup-wizard/onboarding-notice.php:306
+msgid "See Tutorials"
+msgstr "ראה הדרכות"
+
+#: plugin/setup-wizard/onboarding-notice.php:323
+msgid "Join Facebook group"
+msgstr "הצטרפו לקבוצת הפייסבוק"
+
+#: plugin/setup-wizard/onboarding-notice.php:325
+msgid "Our Facebook group has over 5000 happy and helpful members."
+msgstr "בקבוצת הפייסבוק שלנו יש למעלה מ-5000 חברים שמחים ועוזרים."
+
+#: plugin/setup-wizard/onboarding-notice.php:331
+msgid "Join Group"
+msgstr "הצטרף לקבוצה"
+
+#: plugin/setup-wizard/onboarding-notice.php:348
+msgid "Subscribe to YouTube"
+msgstr "הירשם ליוטיוב"
+
+#: plugin/setup-wizard/onboarding-notice.php:350
+msgid "We are constantly releasing new tutorials on our YouTube channel."
+msgstr "אנחנו כל הזמן משחררים הדרכות חדשות בערוץ היוטיוב שלנו."
+
+#: plugin/setup-wizard/onboarding-notice.php:356
+msgid "Subscribe"
+msgstr "הירשם"
+
+#: plugin/setup-wizard/onboarding-notice.php:382
+msgid "We post frequent updates on X"
+msgstr "אנו מפרסמים עדכונים תכופים על X"
+
+#: plugin/setup-wizard/setup-wizard-page.php:10
+msgid "Setup Wizard"
+msgstr "אשף ההתקנה"
+
+#: plugin/setup-wizard/setup-wizard-page.php:160
+msgid "Breakdance Setup Wizard"
+msgstr "אשף התקנת Breakdance"
+
+#: plugin/setup-wizard/setup-wizard-page.php:190
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:63
+msgid "Disable Theme"
+msgstr "השבת את העיצוב"
+
+#: plugin/setup-wizard/setup-wizard-page.php:190
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:63
+msgid "recommended"
+msgstr "מוּמלָץ"
+
+#: plugin/setup-wizard/setup-wizard-page.php:191
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:64
+msgid ""
+"Design every part of your site with Breakdance. Disabling your theme gives "
+"you the best performance and maximum flexibility."
+msgstr ""
+"עצב כל חלק באתר שלך עם Breakdance. השבתת ערכת הנושא שלך מעניקה לך את "
+"הביצועים הטובים ביותר וגמישות מירבית."
+
+#: plugin/setup-wizard/setup-wizard-page.php:196
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:70
+msgid "Keep Theme"
+msgstr "שמור על נושא"
+
+#: plugin/setup-wizard/setup-wizard-page.php:197
+msgid ""
+"The design of your existing site won't be affected. Your theme's styles may "
+"affect the design of Breakdance elements."
+msgstr ""
+"העיצוב של האתר הקיים שלך לא יושפע. הסגנונות של ערכת הנושא שלך עשויים להשפיע "
+"על העיצוב של אלמנטים ברייקדאנס."
+
+#: plugin/setup-wizard/setup-wizard-page.php:203
+msgid "You can change this at any time from Breakdance → Settings → Theme"
+msgstr "אתה יכול לשנות זאת בכל עת מתוך Breakdance ← הגדרות ← ערכת נושא"
+
+#: plugin/setup-wizard/setup-wizard-page.php:211
+msgid ""
+"Clean Common Bloat - dashicons for logged out users, disable Gutenberg CSS, "
+"and disable WP Emoji JS."
+msgstr ""
+"Clean Common Bloat - דאשיקונים למשתמשים מנותקים, השבת את Gutenberg CSS והשבת"
+" את WP Emoji JS."
+
+#: plugin/setup-wizard/setup-wizard-page.php:212
+msgid "No"
+msgstr "לֹא"
+
+#: plugin/setup-wizard/setup-wizard-page.php:215
+msgid ""
+"You can change this at any time from Breakdance → Settings → Performance."
+msgstr "אתה יכול לשנות זאת בכל עת מתוך Breakdance ← הגדרות ← ביצועים."
+
+#: plugin/setup-wizard/setup-wizard-page.php:223
+msgid "License Key (optional)"
+msgstr "מפתח רישיון (אופציונלי)"
+
+#. translators: %s: Link to customer portal
+#: plugin/setup-wizard/setup-wizard-page.php:227
+#, php-format
+msgid ""
+"If you purchased Breakdance, enter your license key here. You can find your "
+"license key at %s."
+msgstr ""
+"אם רכשת את Breakdance, הזן את מפתח הרישיון שלך כאן. אתה יכול למצוא את מפתח "
+"הרישיון שלך ב- %s."
+
+#. translators: %s: Error message
+#: plugin/setup-wizard/setup-wizard-page.php:235
+#, php-format
+msgid "Failed to activate the key: %s"
+msgstr "הפעלת המפתח נכשלה: %s"
+
+#: plugin/setup-wizard/setup-wizard-page.php:245
+msgid "AnalyticsWP Plugin Integration"
+msgstr "שילוב Plugin AnalyticsWP"
+
+#: plugin/setup-wizard/setup-wizard-page.php:251
+msgid "Install AnalyticsWP Plugin"
+msgstr "התקן את הפלאגין AnalyticsWP"
+
+#: plugin/setup-wizard/setup-wizard-page.php:252
+msgid ""
+"View the complete customer journey for visitors that submit Breakdance "
+"forms, or use the AnalyticsWP Event element to track user activity on a "
+"page."
+msgstr ""
+"הצג את מסע הלקוח המלא עבור מבקרים ששולחים טפסי Breakdance, או השתמש ברכיב "
+"AnalyticsWP Event כדי לעקוב אחר פעילות המשתמש בדף."
+
+#. translators: 1: Opening <a> tag for documentation, 2: Closing </a> tag, 3:
+#. Opening <a> tag for plugin homepage, 4: Closing </a> tag
+#: plugin/setup-wizard/setup-wizard-page.php:256
+#, php-format
+msgid ""
+"Read the %1$sBreakdance AnalyticsWP integration documentation%2$s or visit "
+"the %3$sAnalyticsWP Plugin Homepage%4$s for more information."
+msgstr ""
+"קרא את תיעוד האינטגרציה של %1$s Breakdance AnalyticsWP %2$s או בקר בדף הבית "
+"של %3$s AnalyticsWP Plugin %4$s למידע נוסף."
+
+#: plugin/setup-wizard/setup-wizard-page.php:262
+msgid "Don't Install"
+msgstr "אל תתקין"
+
+#: plugin/setup-wizard/setup-wizard-page.php:263
+msgid "AnalyticsWP will not be automatically installed."
+msgstr "AnalyticsWP לא יותקן באופן אוטומטי."
+
+#: plugin/setup-wizard/setup-wizard-page.php:271
+msgid "Improve Breakdance"
+msgstr "שפר את ברייקדאנס"
+
+#: plugin/setup-wizard/setup-wizard-page.php:276
+msgid "Yes, I want to help improve Breakdance"
+msgstr "כן, אני רוצה לעזור לשפר את ברייקדאנס"
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag
+#: plugin/setup-wizard/setup-wizard-page.php:280
+#, php-format
+msgid ""
+"By allowing us to %1$scollect usage data%2$s, you help us make Breakdance "
+"better for everyone."
+msgstr ""
+"בכך שאתה מאפשר לנו %1$sלאסוף נתוני שימוש%2$s, אתה עוזר לנו להפוך את "
+"Breakdance לטוב יותר עבור כולם."
+
+#: plugin/setup-wizard/setup-wizard-page.php:285
+msgid "You can change this at any time from Breakdance → Settings → Privacy"
+msgstr "אתה יכול לשנות זאת בכל עת דרך Breakdance ← הגדרות ← פרטיות"
+
+#: plugin/setup-wizard/setup-wizard-page.php:306
+msgid "Finish Setup"
+msgstr "סיים את ההגדרה"
+
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:101
+msgid "You do not have sufficient permissions to access this page."
+msgstr "אין לך מספיק הרשאות לגשת לדף זה."
+
+#. translators: %s is the plugin name (Breakdance or Oxygen)
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:111
+#, php-format
+msgid "%s database has been updated successfully!"
+msgstr "מסד הנתונים של %s עודכן בהצלחה!"
+
+#. translators: %s is the plugin name (Breakdance or Oxygen)
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:122
+#, php-format
+msgid "%s Database Update Required"
+msgstr "דרוש עדכון מסד נתונים של %s"
+
+#. translators: %s is the plugin name (Breakdance or Oxygen)
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:125
+#, php-format
+msgid ""
+"%s has been updated! The next step is to run the database updater to ensure "
+"that all data is migrated correctly."
+msgstr ""
+"%s עודכן! The next step is to run the database updater to ensure that all "
+"data is migrated correctly."
+
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:127
+msgid "Update database now"
+msgstr "עדכן את מסד הנתונים כעת"
+
+#: plugin/setup/replace-url.php:29
+msgid "The URLs must be different."
+msgstr "כתובות האתרים חייבות להיות שונות."
+
+#: plugin/setup/replace-url.php:33
+msgid "The `From` URL is invalid."
+msgstr "כתובת האתר 'מאת' אינה חוקית."
+
+#: plugin/setup/replace-url.php:37
+msgid "The `To` URL is invalid."
+msgstr "כתובת האתר של 'אל' אינה חוקית."
+
+#: plugin/setup/replace-url.php:72
+msgid "Failed to replace URLs in post data"
+msgstr "החלפת כתובות האתרים בנתוני הפוסטים נכשלה"
+
+#: plugin/setup/replace-url.php:117
+msgid "We detected you've changed the site URL."
+msgstr "זיהינו ששינית את כתובת האתר."
+
+#: plugin/setup/replace-url.php:118
+msgid "Old URL:"
+msgstr "כתובת אתר ישנה:"
+
+#: plugin/setup/replace-url.php:119
+msgid "New URL:"
+msgstr "כתובת אתר חדשה:"
+
+#: plugin/setup/replace-url.php:121
+msgid "Would you like to run the Replace URL Tool now?"
+msgstr "האם תרצה להפעיל את הכלי Replace URL Tool עכשיו?"
+
+#: plugin/setup/replace-url.php:124
+msgid "Yes, Take Me There"
+msgstr "כן, קח אותי לשם"
+
+#: plugin/setup/settings-page.php:13 plugin/setup/settings-page.php:103
+msgid "Tools"
+msgstr "כְּלֵי עֲבוֹדָה"
+
+#: plugin/setup/settings-page.php:39 plugin/setup/settings-page.php:46
+msgid "Failed to upload a file"
+msgstr "העלאת קובץ נכשלה"
+
+#: plugin/setup/settings-page.php:54
+msgid "Invalid export data"
+msgstr "נתוני ייצוא לא חוקיים"
+
+#: plugin/setup/settings-page.php:60
+msgid "Error importing settings"
+msgstr "שגיאה בייבוא הגדרות"
+
+#: plugin/setup/settings-page.php:64
+msgid "Settings imported"
+msgstr "הגדרות יובאו"
+
+#. translators: %s is the number of database rows affected by the URL
+#. replacement
+#: plugin/setup/settings-page.php:84
+#, php-format
+msgid "%s rows affected."
+msgstr "%s שורות מושפעות."
+
+#. translators: %s is the error message
+#: plugin/setup/settings-page.php:96
+#, php-format
+msgid "Error regenerating font files: %s"
+msgstr "שגיאה ביצירת קובצי גופן מחדש: %s"
+
+#: plugin/setup/settings-page.php:112
+msgid "Soft Reset Succeeded"
+msgstr "איפוס רך הצליח"
+
+#: plugin/setup/settings-page.php:120
+msgid "Meta Migration Successful"
+msgstr "הגירת מטא הצליחה"
+
+#: plugin/setup/settings-page.php:128
+msgid "Undo Meta Migration Successful"
+msgstr "ביטול Meta Migration הצליח"
+
+#: plugin/setup/settings-page.php:134
+msgid "Total Reset Succeeded"
+msgstr "איפוס מוחלט הצליח"
+
+#. translators: %s is the filesystem error message
+#: plugin/setup/settings-page.php:146
+#, php-format
+msgid "Failed to create directories. %s"
+msgstr "יצירת ספריות נכשלה. %s"
+
+#: plugin/setup/settings-page.php:148
+msgid "All directories have been successfully created."
+msgstr "כל הספריות נוצרו בהצלחה."
+
+#: plugin/setup/settings-page.php:185 plugin/setup/settings-page.php:191
+msgid "Migrate Meta"
+msgstr "העבר מטא"
+
+#: plugin/setup/settings-page.php:195
+msgid "Migrate your post meta key names to the new format."
+msgstr "העבר את שמות המטא מפתחות של הפוסט שלך לפורמט החדש."
+
+#: plugin/setup/settings-page.php:201
+msgid "Undo Migrate Meta & Downgrade to 1.7.2"
+msgstr "בטל העבר מטה ושדרוג לאחור ל-1.7.2"
+
+#: plugin/setup/settings-page.php:207
+msgid "Undo Migrate Meta"
+msgstr "בטל Migrate Meta"
+
+#: plugin/setup/settings-page.php:211
+msgid ""
+"Restore your post meta key names the way they were before the migration."
+msgstr "שחזר את שמות המטא מפתחות של הפוסט שלך כפי שהיו לפני ההגירה."
+
+#: plugin/setup/settings-page.php:212
+msgid "You <b>must</b> downgrade to Breakdance <b>1.7.2</b> afterwards."
+msgstr "אתה <b>חייב</b> לשדרג לאחור ל-Breakdance <b>1.7.2</b> לאחר מכן."
+
+#: plugin/setup/settings-page.php:221
+msgid "Regenerate CSS Cache"
+msgstr "צור מחדש מטמון CSS"
+
+#: plugin/setup/settings-page.php:231 plugin/setup/settings-page.php:237
+msgid "Soft Reset"
+msgstr "איפוס רך"
+
+#: plugin/setup/settings-page.php:243
+msgid "Reset Icon Sets to factory defaults."
+msgstr "אפס את ערכות הסמלים לברירות המחדל של היצרן."
+
+#: plugin/setup/settings-page.php:245
+msgid "Reset Icon Sets and fallback default templates to factory defaults."
+msgstr ""
+"אפס את ערכות הסמלים ותבניות ברירת המחדל החלופיות לברירות המחדל של היצרן."
+
+#: plugin/setup/settings-page.php:254 plugin/setup/settings-page.php:260
+msgid "Total Reset"
+msgstr "איפוס מוחלט"
+
+#. translators: %1$s and %2$s are the plugin name (Breakdance or Oxygen)
+#: plugin/setup/settings-page.php:266
+#, php-format
+msgid ""
+"Reset your entire %1$s installation to factory defaults. Content you created"
+" in %2$s must still be deleted manually."
+msgstr ""
+"אפס את כל ההתקנה של %1$s לברירות המחדל של היצרן. עדיין יש למחוק תוכן שיצרת "
+"ב- %2$s באופן ידני."
+
+#: plugin/setup/settings-page.php:272 plugin/setup/settings-page.php:277
+msgid "Create Directories"
+msgstr "צור ספריות"
+
+#. translators: %s is the plugin name (Breakdance or Oxygen)
+#: plugin/setup/settings-page.php:282
+#, php-format
+msgid ""
+"Create the directories on your server that are required for %s to function "
+"properly."
+msgstr "צור את הספריות בשרת שלך הנדרשות כדי ש- %s יפעל כראוי."
+
+#: plugin/setup/settings-page.php:286
+msgid "Existing problems:"
+msgstr "בעיות קיימות:"
+
+#: plugin/setup/settings-page.php:309 plugin/setup/settings-page.php:316
+msgid "Replace URL"
+msgstr "החלף כתובת URL"
+
+#: plugin/setup/settings-page.php:318
+msgid ""
+"It is strongly recommended that you backup your database before running this"
+" tool."
+msgstr "מומלץ מאוד לגבות את מסד הנתונים לפני הפעלת כלי זה."
+
+#: plugin/setup/settings-page.php:323
+msgid "Export Settings"
+msgstr "ייצוא הגדרות"
+
+#: plugin/setup/settings-page.php:328
+msgid "Download Export File"
+msgstr "הורד קובץ ייצוא"
+
+#: plugin/setup/settings-page.php:331
+msgid "Export your Settings, Preferences, and Icon Sets to a JSON file."
+msgstr "ייצא את ההגדרות, ההעדפות וערכות הסמלים שלך לקובץ JSON."
+
+#: plugin/setup/settings-page.php:337
+msgid "Import Settings"
+msgstr "הגדרות ייבוא"
+
+#: plugin/setup/settings-page.php:343
+msgid "Upload Export JSON File"
+msgstr "העלה ייצוא קובץ JSON"
+
+#: plugin/setup/settings-page.php:359
+msgid "Overwrite all your settings? This can't be undone without a backup."
+msgstr "להחליף את כל ההגדרות שלך? לא ניתן לבטל זאת ללא גיבוי."
+
+#: plugin/singularity/endpoints/pages.php:117
+msgid "Failed to delete all."
+msgstr "מחיקת הכל נכשלה."
+
+#. translators: %s: page ID
+#: plugin/singularity/endpoints/pages.php:150
+#, php-format
+msgid "Failed to delete %s."
+msgstr "מחיקת %s נכשלה."
+
+#. translators: %s: page ID
+#: plugin/singularity/endpoints/pages.php:153
+#, php-format
+msgid "Deleted %s successfully."
+msgstr "%s נמחק בהצלחה."
+
+#: plugin/singularity/endpoints/pages.php:191
+msgid "Failed to create page."
+msgstr "יצירת הדף נכשלה."
+
+#. translators: %s: page ID
+#: plugin/singularity/endpoints/set-as-homepage.php:31
+#, php-format
+msgid "Page %s set as homepage successfully."
+msgstr "עמוד %s הוגדר כדף בית בהצלחה."
+
+#: plugin/singularity/endpoints/wp-menu.php:41
+msgid "Failed to create or retrieve the default menu."
+msgstr "נכשל יצירה או אחזור של תפריט ברירת המחדל."
+
+#: plugin/singularity/endpoints/wp-menu.php:60
+msgid "Synced pages to default menu successfully."
+msgstr "דפים מסונכרנים לתפריט ברירת המחדל בהצלחה."
+
+#: plugin/singularity/endpoints/wp-menu.php:86
+msgid "Invalid menu ID provided."
+msgstr "סופק מזהה תפריט לא חוקי."
+
+#. translators: %s is the template label/name
+#: plugin/subscription/conditions.php:48
+#, php-format
+msgid "A pro condition was used in this <b>%s</b>."
+msgstr "נעשה שימוש בתנאי פרו ב-<b>%s</b> זה."
+
+#: plugin/subscription/conditions.php:50
+msgid "A pro condition was used."
+msgstr "נעשה שימוש בתנאי פרו."
+
+#. translators: %1$s: element name, %2$s: plugin name
+#: plugin/subscription/filters.php:121
+#: plugin/subscription/free-mode-utils.php:47
+#, php-format
+msgid "The <b>%1$s</b> element is only available in %2$s Pro."
+msgstr "הרכיב <b>%1$s</b> זמין רק ב- %2$s Pro."
+
+#: plugin/subscription/forms.php:107
+msgid "Options"
+msgstr "אפשרויות"
+
+#: plugin/subscription/forms.php:108
+msgid "Field Types"
+msgstr "סוגי שדות"
+
+#: plugin/subscription/forms.php:109
+msgid "Actions"
+msgstr "פעולות"
+
+#: plugin/subscription/forms.php:110
+msgid "Advanced Field Conditionals"
+msgstr "תנאי שטח מתקדמים"
+
+#. translators: %s is a comma-separated list of pro features used (e.g.,
+#. "Options, Field Types, Actions")
+#: plugin/subscription/forms.php:114
+#, php-format
+msgid "Pro only features were used in a form (%s)."
+msgstr "נעשה שימוש בתכונות Pro בלבד בטופס (%s)."
+
+#. translators: %s is the element name
+#: plugin/subscription/free-mode-utils.php:58
+#, php-format
+msgid "A Pro-only visibility condition was used on a <b>%s</b> element."
+msgstr "נעשה שימוש בתנאי נראות Pro-only ברכיב <b>%s</b>."
+
+#: plugin/subscription/frontend-upgrade-notices/notice.php:70
+#, php-format
+msgid ""
+"This page uses pro-only features. Please upgrade to <a href=\"%1$s\" "
+"target=\"_blank\">%2$s Pro</a>, or enter your <a href=\"%3$s\">license "
+"key</a>."
+msgstr ""
+"דף זה משתמש בתכונות פרו בלבד. אנא שדרג ל-<a href=\"%1$s\" "
+"target=\"_blank\">%2$s Pro</a>, או הזן את <a href=\"%3$s\">מפתח הרישיון</a> "
+"שלך."
+
+#: plugin/subscription/frontend-upgrade-notices/notice.php:87
+msgid "See details"
+msgstr "ראה פרטים"
+
+#: plugin/subscription/frontend-upgrade-notices/notice.php:93
+msgid ""
+"This notice only appears for site administrators. For normal visitors, this "
+"notice won't appear, and pro-only features won't work."
+msgstr ""
+"הודעה זו מופיעה רק עבור מנהלי אתרים. עבור מבקרים רגילים, הודעה זו לא תופיע, "
+"ותכונות פרו בלבד לא יפעלו."
+
+#. translators: %s: plugin name
+#: plugin/subscription/wp-admin-warnings.php:13
+#, php-format
+msgid "Please upgrade to %s Pro to export form submissions."
+msgstr "שדרג ל- %s Pro כדי לייצא הגשת טפסים."
+
+#. translators: %s is the plugin name
+#: plugin/subscription/wp-admin-warnings.php:26
+#, php-format
+msgid ""
+"When the design library comes out of beta, it will only be available in %s "
+"Pro."
+msgstr "כשספריית העיצוב תצא מבטא, היא תהיה זמינה רק ב- %s Pro."
+
+#. translators: %s is the plugin name
+#: plugin/subscription/wp-admin-warnings.php:32
+#, php-format
+msgid "Please upgrade to %s Pro to configure permissions."
+msgstr "שדרג ל- %s Pro כדי להגדיר הרשאות."
+
+#. translators: %s is the plugin name
+#: plugin/subscription/wp-admin-warnings.php:38
+#, php-format
+msgid "Please upgrade to %s Pro to import and export settings."
+msgstr "שדרג ל- %s Pro כדי לייבא ולייצא הגדרות."
+
+#: plugin/subscription/wp-admin-warnings.php:93
+msgid "Get Pro"
+msgstr "קבל את Pro"
+
+#: plugin/themeless/accessibility.php:41
+msgid "Skip to main content"
+msgstr "דלג לתוכן הראשי"
+
+#: plugin/themeless/canvas_templates.php:25
+msgid "[Breakdance] No Header / Footer"
+msgstr "[ברייקדאנס] ללא כותרת עליונה/תחתונה"
+
+#: plugin/themeless/god-controller.php:258
+msgid "Template Hierarchy Error"
+msgstr "שגיאת היררכיית תבנית"
+
+#. translators: %d is the template ID
+#: plugin/themeless/god-controller.php:261
+#, php-format
+msgid "There is no template with ID %d."
+msgstr "אין תבנית עם מזהה %d."
+
+#: plugin/themeless/god-controller.php:272
+msgid "This is impossible, since that template has been moved to trash"
+msgstr "זה בלתי אפשרי, מכיוון שהתבנית הזו הועברה לאשפה"
+
+#: plugin/themeless/god-controller.php:273
+msgid "This is impossible, since that template doesn't exist"
+msgstr "זה בלתי אפשרי, מכיוון שהתבנית הזו לא קיימת"
+
+#. translators: 1: Template title, 2: Template ID, 3: Missing template ID
+#: plugin/themeless/god-controller.php:277
+#, php-format
+msgid ""
+"But template <em>%1$s (ID %2$d)</em> tries to inherit its design from "
+"template %3$d."
+msgstr ""
+"אבל התבנית <em>%1$s (מזהה %2$d)</em> מנסה לרשת את העיצוב שלה מהתבנית %3$d."
+
+#. translators: 1: Template title, 2: Template ID
+#: plugin/themeless/god-controller.php:288
+#, php-format
+msgid ""
+"To fix, edit template <em>%1$s (ID %2$d)</em>, and clear the <i>Inherit "
+"Design From</i> field or choose a template that exists."
+msgstr ""
+"כדי לתקן, ערוך תבנית <em>%1$s (מזהה %2$d)</em> ונקה את השדה <i>ירושה עיצוב "
+"מ</i> או בחר תבנית קיימת."
+
+#: plugin/themeless/god-controller.php:293
+msgid "Manage Templates"
+msgstr "נהל תבניות"
+
+#: plugin/themeless/header-or-footer.cpt.php:16
+msgid "Header"
+msgstr "כּוֹתֶרֶת"
+
+#: plugin/themeless/header-or-footer.cpt.php:39
+msgid "Footer"
+msgstr "כותרת תחתונה"
+
+#: plugin/themeless/manage-templates-spa/api.php:61
+msgid "Can't get data for an unsupported post type"
+msgstr "לא ניתן לקבל נתונים עבור סוג פוסט שאינו נתמך"
+
+#. translators: %s: template ID
+#: plugin/themeless/manage-templates-spa/api.php:209
+#, php-format
+msgid "Couldn't update template with ID \"%s\""
+msgstr "לא ניתן היה לעדכן את התבנית עם המזהה \"%s\""
+
+#. translators: %s: template ID
+#: plugin/themeless/manage-templates-spa/api.php:263
+#, php-format
+msgid "Couldn't delete template with ID \"%s\""
+msgstr "לא ניתן היה למחוק תבנית עם המזהה \"%s\""
+
+#. translators: %s: template ID
+#: plugin/themeless/manage-templates-spa/api.php:266
+#, php-format
+msgid "Couldn't trash template with ID \"%s\""
+msgstr "לא ניתן לאשפה את התבנית עם המזהה \"%s\""
+
+#. translators: %s: template ID
+#: plugin/themeless/manage-templates-spa/api.php:296
+#, php-format
+msgid "Couldn't restore template with ID \"%s\""
+msgstr "לא ניתן לשחזר תבנית עם המזהה \"%s\""
+
+#: plugin/themeless/manage-templates-spa/api.php:389
+msgid "Failed to empty trash"
+msgstr "ריקון האשפה נכשל"
+
+#: plugin/themeless/previewable/last_previewed.php:25
+msgid "No ID or previewed item provided"
+msgstr "לא סופק מזהה או פריט בתצוגה מקדימה"
+
+#: plugin/themeless/rules/archive/all.php:16
+msgid "All Archives"
+msgstr "כל הארכיונים"
+
+#: plugin/themeless/rules/archive/author.php:22
+msgid "Author Archive"
+msgstr "ארכיון מחברים"
+
+#: plugin/themeless/rules/archive/author.php:44
+#: plugin/themeless/rules/conditions/singular.php:696
+msgid "Authors"
+msgstr "מחברים"
+
+#: plugin/themeless/rules/archive/date.php:15
+msgid "Date Archive"
+msgstr "ארכיון תאריכים"
+
+#: plugin/themeless/rules/archive/post-type.php:21
+msgid "Post Type Archive"
+msgstr "ארכיון סוג פוסט"
+
+#: plugin/themeless/rules/archive/post-type.php:44
+#: plugin/themeless/rules/conditions/singular.php:853
+#: plugin/themeless/rules/conditions/singular.php:859
+msgid "Post Type"
+msgstr "סוג פוסט"
+
+#: plugin/themeless/rules/archive/post.php:16
+msgid "Post Archives"
+msgstr "ארכיון פוסטים"
+
+#: plugin/themeless/rules/archive/product-archives.php:25
+msgid "All Product Archives"
+msgstr "כל ארכיוני המוצרים"
+
+#: plugin/themeless/rules/archive/product-archives.php:45
+msgid "Specific Product Archive"
+msgstr "ארכיון מוצר ספציפי"
+
+#: plugin/themeless/rules/archive/product-archives.php:64
+#: plugin/themeless/rules/archive/taxonomy.php:42
+msgid "Is Taxonomy"
+msgstr "האם טקסונומיה"
+
+#: plugin/themeless/rules/archive/product-archives.php:110
+msgid "Product term"
+msgstr "מונח מוצר"
+
+#: plugin/themeless/rules/archive/taxonomy.php:23
+msgid "Taxonomy Archive"
+msgstr "ארכיון הטקסונומיה"
+
+#. translators: %s is the taxonomy name
+#: plugin/themeless/rules/archive/taxonomy.php:126
+#, php-format
+msgid "All %s"
+msgstr "כל %s"
+
+#: plugin/themeless/rules/conditions/custom-php.php:18
+msgid "Custom PHP"
+msgstr "PHP מותאם אישית"
+
+#: plugin/themeless/rules/conditions/dates.php:17
+msgid "Day Of Week (WordPress)"
+msgstr "יום בשבוע (וורדפרס)"
+
+#: plugin/themeless/rules/conditions/dates.php:18
+#: plugin/themeless/rules/conditions/dates.php:64
+#: plugin/themeless/rules/conditions/dates.php:98
+#: plugin/themeless/rules/conditions/dates.php:150
+#: plugin/themeless/rules/conditions/dates.php:202
+#: plugin/themeless/rules/conditions/dates.php:254
+msgid "Date & Time"
+msgstr "תאריך ושעה"
+
+#: plugin/themeless/rules/conditions/dates.php:23
+msgid "Day"
+msgstr "יְוֹם"
+
+#: plugin/themeless/rules/conditions/dates.php:25
+msgid "Monday"
+msgstr "יוֹם שֵׁנִי"
+
+#: plugin/themeless/rules/conditions/dates.php:26
+msgid "Tuesday"
+msgstr "יוֹם שְׁלִישִׁי"
+
+#: plugin/themeless/rules/conditions/dates.php:27
+msgid "Wednesday"
+msgstr "יוֹם רְבִיעִי"
+
+#: plugin/themeless/rules/conditions/dates.php:28
+msgid "Thursday"
+msgstr "יוֹם חֲמִישִׁי"
+
+#: plugin/themeless/rules/conditions/dates.php:29
+msgid "Friday"
+msgstr "יוֹם שִׁישִׁי"
+
+#: plugin/themeless/rules/conditions/dates.php:30
+msgid "Saturday"
+msgstr "שַׁבָּת"
+
+#: plugin/themeless/rules/conditions/dates.php:31
+msgid "Sunday"
+msgstr "יוֹם רִאשׁוֹן"
+
+#: plugin/themeless/rules/conditions/dates.php:63
+msgid "Current Time (WordPress)"
+msgstr "שעה נוכחית (WordPress)"
+
+#: plugin/themeless/rules/conditions/dates.php:97
+msgid "Current Date (WordPress)"
+msgstr "תאריך נוכחי (WordPress)"
+
+#: plugin/themeless/rules/conditions/dates.php:201
+msgid "Post Modified Date"
+msgstr "תאריך שינוי הפוסט"
+
+#: plugin/themeless/rules/conditions/dates.php:253
+msgid "Current Month (WordPress)"
+msgstr "חודש נוכחי (וורדפרס)"
+
+#: plugin/themeless/rules/conditions/dates.php:259
+msgid "Month"
+msgstr "חוֹדֶשׁ"
+
+#: plugin/themeless/rules/conditions/dynamic-data.php:20
+msgid "Dynamic Data"
+msgstr "נתונים דינמיים"
+
+#: plugin/themeless/rules/conditions/misc.php:22
+#: plugin/themeless/rules/conditions/misc.php:30
+msgid "Browser"
+msgstr "דפדפן"
+
+#: plugin/themeless/rules/conditions/misc.php:32
+msgid "Google Chrome"
+msgstr "גוגל כרום"
+
+#: plugin/themeless/rules/conditions/misc.php:33
+msgid "Mozilla Firefox"
+msgstr "מוזילה פיירפוקס"
+
+#: plugin/themeless/rules/conditions/misc.php:34
+msgid "Safari"
+msgstr "ספארי"
+
+#: plugin/themeless/rules/conditions/misc.php:35
+msgid "Microsoft Edge"
+msgstr "Microsoft Edge"
+
+#: plugin/themeless/rules/conditions/misc.php:36
+msgid "Internet Explorer"
+msgstr "אינטרנט אקספלורר"
+
+#: plugin/themeless/rules/conditions/misc.php:37
+msgid "Samsung Browser"
+msgstr "דפדפן סמסונג"
+
+#: plugin/themeless/rules/conditions/misc.php:38
+msgid "Opera"
+msgstr "אוֹפֵּרָה"
+
+#: plugin/themeless/rules/conditions/misc.php:73
+msgid "Operating System"
+msgstr "מַעֲרֶכֶת הַפעָלָה"
+
+#: plugin/themeless/rules/conditions/misc.php:79
+msgid "Operating System / Device"
+msgstr "מערכת הפעלה / מכשיר"
+
+#: plugin/themeless/rules/conditions/misc.php:81
+msgid "Windows"
+msgstr "חלונות"
+
+#: plugin/themeless/rules/conditions/misc.php:82
+msgid "Mac OS"
+msgstr "Mac OS"
+
+#: plugin/themeless/rules/conditions/misc.php:83
+msgid "Linux"
+msgstr "לינוקס"
+
+#: plugin/themeless/rules/conditions/misc.php:84
+msgid "iOS (iPhone)"
+msgstr "iOS (אייפון)"
+
+#: plugin/themeless/rules/conditions/misc.php:85
+msgid "Android"
+msgstr "דְמוּי אָדָם"
+
+#: plugin/themeless/rules/conditions/misc.php:86
+msgid "Chrome OS"
+msgstr "Chrome OS"
+
+#: plugin/themeless/rules/conditions/misc.php:122
+#: plugin/themeless/rules/conditions/misc.php:128
+msgid "Breakpoint"
+msgstr "נקודת שבירה"
+
+#: plugin/themeless/rules/conditions/misc.php:154
+msgid "Content Created With"
+msgstr "תוכן שנוצר עם"
+
+#: plugin/themeless/rules/conditions/misc.php:163
+msgid "Builder"
+msgstr "בּוֹנֶה"
+
+#: plugin/themeless/rules/conditions/referrer.php:17
+msgid "Referrer URL"
+msgstr "כתובת אתר מפנה"
+
+#: plugin/themeless/rules/conditions/referrer.php:18
+#: plugin/themeless/rules/conditions/referrer.php:50
+msgid "Referrer"
+msgstr "מפנה"
+
+#: plugin/themeless/rules/conditions/referrer.php:49
+#: plugin/themeless/rules/conditions/referrer.php:55
+msgid "Referrer Type"
+msgstr "סוג מפנה"
+
+#: plugin/themeless/rules/conditions/referrer.php:57
+msgid "Search Engine"
+msgstr "מנוע חיפוש"
+
+#: plugin/themeless/rules/conditions/referrer.php:58
+msgid "Internal"
+msgstr "פְּנִימִי"
+
+#: plugin/themeless/rules/conditions/referrer.php:59
+msgid "External"
+msgstr "חִיצוֹנִי"
+
+#: plugin/themeless/rules/conditions/sessions.php:28
+#: plugin/themeless/rules/conditions/sessions.php:58
+msgid "Sessions"
+msgstr "הפעלות"
+
+#: plugin/themeless/rules/conditions/singular.php:51
+#: plugin/themeless/rules/conditions/singular.php:157
+#: plugin/themeless/rules/conditions/singular.php:227
+#: plugin/themeless/rules/conditions/singular.php:466
+#: plugin/themeless/rules/conditions/singular.php:527
+#: plugin/themeless/rules/conditions/singular.php:593
+#: plugin/themeless/rules/conditions/singular.php:691
+#: plugin/themeless/rules/conditions/singular.php:779
+#: plugin/themeless/rules/conditions/singular.php:854
+msgid "Singular"
+msgstr "יָחִיד"
+
+#. translators: %s is the post type name
+#: plugin/themeless/rules/conditions/singular.php:156
+#, php-format
+msgid "%s Parent"
+msgstr "%s הורה"
+
+#: plugin/themeless/rules/conditions/singular.php:226
+msgid "Has Taxonomy"
+msgstr "יש טקסונומיה"
+
+#: plugin/themeless/rules/conditions/singular.php:465
+msgid "Post ID"
+msgstr "מזהה פוסט"
+
+#: plugin/themeless/rules/conditions/singular.php:526
+msgid "Post Status"
+msgstr "סטטוס פוסט"
+
+#: plugin/themeless/rules/conditions/singular.php:532
+msgid "Statuses"
+msgstr "סטטוסים"
+
+#: plugin/themeless/rules/conditions/singular.php:785
+#: plugin/themeless/rules/conditions/user.php:26
+#: plugin/themeless/rules/woocommerce/product-cart.php:17
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:17
+#: plugin/themeless/rules/woocommerce/product-sale.php:17
+#: plugin/themeless/rules/woocommerce/product-tax.php:16
+#: plugin/themeless/rules/woocommerce/product-virtual.php:17
+#: plugin/themeless/rules/woocommerce/stock-status.php:18
+msgid "Status"
+msgstr "סטטוס"
+
+#: plugin/themeless/rules/conditions/singular.php:787
+msgid "set"
+msgstr "מַעֲרֶכֶת"
+
+#: plugin/themeless/rules/conditions/singular.php:788
+msgid "not set"
+msgstr "לא מוגדר"
+
+#: plugin/themeless/rules/conditions/user.php:19
+msgid "User Logged In Status"
+msgstr "מצב משתמש מחובר"
+
+#: plugin/themeless/rules/conditions/user.php:20
+#: plugin/themeless/rules/conditions/user.php:54
+#: plugin/themeless/rules/conditions/user.php:92
+msgid "User"
+msgstr "מִשׁתַמֵשׁ"
+
+#: plugin/themeless/rules/conditions/user.php:28
+msgid "logged in"
+msgstr "מחובר"
+
+#: plugin/themeless/rules/conditions/user.php:29
+msgid "logged out"
+msgstr "התנתק"
+
+#: plugin/themeless/rules/conditions/user.php:53
+msgid "User Role"
+msgstr "תפקיד משתמש"
+
+#: plugin/themeless/rules/conditions/user.php:91
+msgid "User Registration Date"
+msgstr "תאריך רישום משתמש"
+
+#: plugin/themeless/rules/conditions/user.php:141
+msgid "Roles"
+msgstr "תפקידים"
+
+#: plugin/themeless/rules/everywhere/everywhere.php:14
+#: plugin/themeless/rules/everywhere/everywhere.php:17
+msgid "Everywhere"
+msgstr "בְּכָל מָקוֹם"
+
+#: plugin/themeless/rules/other/misc.php:36
+msgid "404 - Not Found Error"
+msgstr "404 - שגיאה לא נמצאה"
+
+#: plugin/themeless/rules/other/misc.php:50
+msgid "Search Results"
+msgstr "תוצאות חיפוש"
+
+#: plugin/themeless/rules/other/misc.php:61
+#: plugin/themeless/rules/other/misc.php:73
+#: plugin/themeless/rules/other/misc.php:95
+msgid "Search"
+msgstr "לְחַפֵּשׂ"
+
+#: plugin/themeless/rules/other/misc.php:62
+msgid "search results"
+msgstr "תוצאות החיפוש"
+
+#: plugin/themeless/rules/other/misc.php:96
+msgid "search archive"
+msgstr "חיפוש בארכיון"
+
+#: plugin/themeless/rules/other/misc.php:107
+msgid "WP_Query Found Posts Count"
+msgstr "WP_שאילתה נמצאו ספירת הודעות"
+
+#: plugin/themeless/rules/single/post-types.php:12
+msgid "Single"
+msgstr "אֶחָד"
+
+#: plugin/themeless/rules/single/post-types.php:15
+msgid "All Singles"
+msgstr "כל הרווקים"
+
+#: plugin/themeless/rules/single/post-types.php:61
+msgid "Front Page"
+msgstr "עַמוּד רִאשׁוֹן"
+
+#: plugin/themeless/rules/woocommerce/cart-quantity.php:10
+msgid "Cart Quantity"
+msgstr "כמות העגלה"
+
+#: plugin/themeless/rules/woocommerce/cart-quantity.php:11
+#: plugin/themeless/rules/woocommerce/cart-value.php:12
+#: plugin/themeless/rules/woocommerce/cart-weight.php:12
+#: plugin/themeless/rules/woocommerce/product-cart.php:10
+msgid "Cart"
+msgstr "עֲגָלָה"
+
+#. translators: %s is the currency symbol
+#: plugin/themeless/rules/woocommerce/cart-value.php:11
+#, php-format
+msgid "Cart Value (%s)"
+msgstr "ערך עגלה (%s)"
+
+#. translators: %s is the weight unit
+#: plugin/themeless/rules/woocommerce/cart-weight.php:11
+#, php-format
+msgid "Cart Weight (%s)"
+msgstr "משקל העגלה (%s)"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:10
+msgid "Order Count"
+msgstr "ספירת הזמנות"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:11
+#: plugin/themeless/rules/woocommerce/customer-orders.php:54
+#: plugin/themeless/rules/woocommerce/customer-orders.php:96
+msgid "Customer"
+msgstr "לָקוּחַ"
+
+#. translators: %s is the currency symbol
+#: plugin/themeless/rules/woocommerce/customer-orders.php:53
+#, php-format
+msgid "Total Spend (%s)"
+msgstr "הוצאה כוללת (%s)"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:95
+msgid "Purchased Product"
+msgstr "מוצר שנרכש"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:102
+msgid "Current Product"
+msgstr "מוצר נוכחי"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:108
+msgid "Products"
+msgstr "מוצרים"
+
+#: plugin/themeless/rules/woocommerce/product-cart.php:19
+msgid "in cart"
+msgstr "בעגלה"
+
+#: plugin/themeless/rules/woocommerce/product-cart.php:20
+msgid "not in cart"
+msgstr "לא בעגלה"
+
+#: plugin/themeless/rules/woocommerce/product-categories.php:13
+#: plugin/wpwidgets/stock/stock.php:64 plugin/wpwidgets/stock/stock.php:142
+msgid "Categories"
+msgstr "קטגוריות"
+
+#: plugin/themeless/rules/woocommerce/product-categories.php:25
+#: plugin/woocommerce/widgets/woo_general.php:54
+msgid "Product Categories"
+msgstr "קטגוריות מוצרים"
+
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:10
+msgid "Downloadable"
+msgstr "ניתן להורדה"
+
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:19
+msgid "downloadable"
+msgstr "להורדה"
+
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:20
+msgid "not downloadable"
+msgstr "לא ניתן להורדה"
+
+#. translators: %s is the dimension unit
+#: plugin/themeless/rules/woocommerce/product-measurements.php:11
+#, php-format
+msgid "Width (%s)"
+msgstr "רוחב (%s)"
+
+#: plugin/themeless/rules/woocommerce/product-measurements.php:12
+#: plugin/themeless/rules/woocommerce/product-measurements.php:74
+#: plugin/themeless/rules/woocommerce/product-measurements.php:136
+#: plugin/themeless/rules/woocommerce/product-measurements.php:198
+msgid "Measurements"
+msgstr "מדידות"
+
+#. translators: %s is the dimension unit
+#: plugin/themeless/rules/woocommerce/product-measurements.php:73
+#, php-format
+msgid "Height (%s)"
+msgstr "גובה (%s)"
+
+#. translators: %s is the dimension unit
+#: plugin/themeless/rules/woocommerce/product-measurements.php:135
+#, php-format
+msgid "Length (%s)"
+msgstr "אורך (%s)"
+
+#. translators: %s is the weight unit
+#: plugin/themeless/rules/woocommerce/product-measurements.php:197
+#, php-format
+msgid "Weight (%s)"
+msgstr "משקל (%s)"
+
+#. translators: %s is the currency symbol
+#: plugin/themeless/rules/woocommerce/product-price.php:11
+#, php-format
+msgid "Price (%s)"
+msgstr "מחיר (%s)"
+
+#: plugin/themeless/rules/woocommerce/product-price.php:12
+#: plugin/themeless/rules/woocommerce/product-sale.php:11
+#: plugin/themeless/rules/woocommerce/product-tax.php:12
+#: plugin/themeless/rules/woocommerce/product-tax.php:68
+msgid "Price"
+msgstr "מְחִיר"
+
+#: plugin/themeless/rules/woocommerce/product-sale.php:10
+msgid "On Sale"
+msgstr "בִּמְכִירָה"
+
+#: plugin/themeless/rules/woocommerce/product-sale.php:19
+msgid "on sale"
+msgstr "בִּמְכִירָה"
+
+#: plugin/themeless/rules/woocommerce/product-sale.php:20
+msgid "not on sale"
+msgstr "לא במבצע"
+
+#: plugin/themeless/rules/woocommerce/product-shipping.php:13
+msgid "Shipping Class"
+msgstr "מחלקת משלוחים"
+
+#: plugin/themeless/rules/woocommerce/product-shipping.php:25
+msgid "Shipping Classes"
+msgstr "חוגי משלוחים"
+
+#: plugin/themeless/rules/woocommerce/product-tags.php:13
+#: plugin/themeless/rules/woocommerce/product-tags.php:26
+#: plugin/wpwidgets/stock/stock.php:143
+msgid "Tags"
+msgstr "תגים"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:11
+msgid "Tax Status"
+msgstr "מצב מס"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:18
+msgid "Taxable"
+msgstr "חייב במס"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:19
+msgid "Shipping only"
+msgstr "משלוח בלבד"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:20
+msgid "None"
+msgstr "אַף לֹא אֶחָד"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:67
+msgid "Tax Class"
+msgstr "מחלקת מס"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:78
+msgid "Class"
+msgstr "מַחלָקָה"
+
+#: plugin/themeless/rules/woocommerce/product-virtual.php:10
+msgid "Virtual"
+msgstr "וירטואלי"
+
+#: plugin/themeless/rules/woocommerce/product-virtual.php:19
+msgid "virtual"
+msgstr "וירטואלי"
+
+#: plugin/themeless/rules/woocommerce/product-virtual.php:20
+msgid "not virtual"
+msgstr "לא וירטואלי"
+
+#: plugin/themeless/rules/woocommerce/stock-quantity.php:10
+msgid "Stock quantity"
+msgstr "כמות מלאי"
+
+#: plugin/themeless/rules/woocommerce/stock-quantity.php:11
+#: plugin/themeless/rules/woocommerce/stock-status.php:12
+msgid "Inventory"
+msgstr "מְלַאי"
+
+#: plugin/themeless/rules/woocommerce/stock-status.php:11
+msgid "Stock status"
+msgstr "מצב מלאי"
+
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:57
+msgid "WordPress Theme System"
+msgstr "מערכת ערכות נושא של וורדפרס"
+
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:71
+msgid ""
+"Your theme's header, footer, and templates will be used unless they are "
+"explicitly overridden in Breakdance. Your theme's styles may affect the "
+"design of Breakdance elements."
+msgstr ""
+"הכותרת העליונה, הכותרת התחתונה והתבניות של ערכת הנושא שלך ישמשו, אלא אם כן "
+"הם מוחקים במפורש ב-Breakdance. הסגנונות של ערכת הנושא שלך עשויים להשפיע על "
+"העיצוב של אלמנטים ברייקדאנס."
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:76
+#, php-format
+msgid ""
+"Need help choosing a theme? Use %1$sBreakdance Zero Theme%2$s, a completely "
+"blank theme designed for Breakdance with support for child themes, "
+"overriding plugin templates, and functions.php."
+msgstr ""
+"זקוק לעזרה בבחירת ערכת נושא? השתמש ב- %1$sBreakdance Zero Theme %2$s, ערכת "
+"נושא ריקה לחלוטין שתוכננה עבור Breakdance עם תמיכה בערכות נושא של ילדים, "
+"עקיפת תבניות פלאגין ו-functions.php."
+
+#: plugin/themeless/theme-disabler/theme-disabler.php:21
+msgid ""
+"You're using Oxygen, so the WordPress theme system is entirely disabled. "
+"<strong>The active theme will never be loaded and has no impact on your "
+"site's performance or appearance.</strong>"
+msgstr ""
+"אתה משתמש בחמצן, כך שמערכת הנושא של וורדפרס מושבתת לחלוטין. <strong>הנושא "
+"הפעיל לעולם לא ייטען ואין לו השפעה על ביצועי האתר או המראה שלו.</strong>"
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag
+#: plugin/themeless/theme-disabler/theme-disabler.php:24
+#, php-format
+msgid ""
+"You disabled the WordPress theme system entirely at %1$sBreakdance &raquo; "
+"Settings &raquo; Theme%2$s. The active theme will never be loaded and has no"
+" impact on your site's performance or appearance."
+msgstr ""
+"השבתת לחלוטין את מערכת הנושא של WordPress ב- %1$sBreakdance &raquo; הגדרות "
+"&raquo; עיצוב%2$s. הנושא הפעיל לעולם לא ייטען ואין לו השפעה על הביצועים או "
+"המראה של האתר שלך."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:67
+msgid "Please resave your permalinks."
+msgstr "נא לשמור מחדש את הקישורים הקבועים שלך."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:68
+msgid "The builder encountered a 404 error while loading the document."
+msgstr "הבונה נתקל בשגיאת 404 בעת טעינת המסמך."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:69
+msgid "Instructions to Fix:"
+msgstr "הוראות לתיקון:"
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:72
+msgid "Go to Settings → Permalinks"
+msgstr "עבור אל הגדרות ← קישורים קבועים"
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:76
+msgid "Click <em>Save Changes</em> at the bottom."
+msgstr "לחץ על <em>שמור שינויים</em> בתחתית."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:78
+msgid "Return to this screen and refresh."
+msgstr "חזור למסך זה ורענן."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:80
+msgid "Auto Fix Permalinks"
+msgstr "תיקון אוטומטי של קישורים קבועים"
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:104
+msgid "Fixed! Refreshing..."
+msgstr "קָבוּעַ! מְרַעֲנֵן..."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:108
+msgid "There was a problem, please try again."
+msgstr "הייתה בעיה, אנא נסה שוב."
+
+#: plugin/themeless/theme-simulator/maintenance-mode.php:32
+msgid "Coming Soon"
+msgstr "בקרוב"
+
+#: plugin/themeless/theme-simulator/maintenance-mode.php:45
+msgid "Down for maintenance."
+msgstr "למטה לתחזוקה."
+
+#: plugin/util/bdox.php:43
+msgid "Global Block"
+msgstr "בלוק גלובלי"
+
+#: plugin/util/bdox.php:71
+msgid "Components"
+msgstr "רכיבים"
+
+#: plugin/util/bdox.php:72
+msgid "Component"
+msgstr "רְכִיב"
+
+#: plugin/variables/controls.php:18 plugin/variables/controls.php:20
+msgid "Override Variables"
+msgstr "עוקף משתנים"
+
+#: plugin/woocommerce/settings/settings-tab.php:50
+msgid "Breakdance WooCommerce Styles"
+msgstr "סגנונות ברייקדאנס WooCommerce"
+
+#: plugin/woocommerce/settings/settings-tab.php:67
+msgid "Breakdance's WooCommerce elements will not work correctly."
+msgstr "רכיבי WooCommerce של Breakdance לא יפעלו כהלכה."
+
+#: plugin/woocommerce/settings/settings-tab.php:71
+msgid ""
+"WooCommerce styles will come from the WooCommerce plugin's default "
+"stylesheet, or your theme if you are using one that supports WooCommerce. "
+"The styles can be created manually as well."
+msgstr ""
+"סגנונות WooCommerce יגיעו מגיליון הסגנונות המוגדר כברירת מחדל של התוסף "
+"WooCommerce, או מהנושא שלך אם אתה משתמש בכזה שתומך ב-WooCommerce. ניתן ליצור"
+" את הסגנונות גם באופן ידני."
+
+#: plugin/woocommerce/settings/settings-tab.php:87
+msgid "The theme system is disabled. Breakdance will style WooCommerce."
+msgstr "מערכת הנושא מושבתת. Breakdance יעצב WooCommerce."
+
+#. translators: %1$s: theme name
+#: plugin/woocommerce/settings/settings-tab.php:93
+#, php-format
+msgid ""
+"You are using the \"%1$s\" theme with a child theme, Breakdance will style "
+"WooCommerce."
+msgstr ""
+"אתה משתמש בערכת הנושא \"%1$s\" עם ערכת נושא צאצא, Breakdance יעצב "
+"WooCommerce."
+
+#. translators: %1$s: theme name
+#: plugin/woocommerce/settings/settings-tab.php:96
+#, php-format
+msgid "You are using the \"%1$s\" theme, Breakdance will style WooCommerce."
+msgstr "אתה משתמש בערכת הנושא \"%1$s\", Breakdance יסגנון WooCommerce."
+
+#. translators: %1$s is the theme name
+#: plugin/woocommerce/settings/settings-tab.php:104
+#, php-format
+msgid ""
+"You are using the \"%1$s\" theme with a child theme which is recognized by "
+"Breakdance. Breakdance has disabled its WooCommerce-specific CSS. However, "
+"if the theme has made changes to WooCommerce's default HTML structure, some "
+"of the Breakdance WooCommerce elements' styles and options may not work "
+"correctly."
+msgstr ""
+"אתה משתמש בערכת הנושא \"%1$s\" עם ערכת נושא צאצא אשר מזוהה על ידי "
+"Breakdance. Breakdance השביתה את ה-CSS הספציפי ל-WooCommerce. עם זאת, אם "
+"ערכת הנושא ביצעה שינויים במבנה HTML ברירת המחדל של WooCommerce, ייתכן שחלק "
+"מהסגנונות והאפשרויות של רכיבי Breakdance WooCommerce לא יפעלו כהלכה."
+
+#. translators: %1$s is the theme name
+#: plugin/woocommerce/settings/settings-tab.php:107
+#, php-format
+msgid ""
+"You are using the \"%1$s\" theme which is recognized by Breakdance. "
+"Breakdance has disabled its WooCommerce-specific CSS. However, if the theme "
+"has made changes to WooCommerce's default HTML structure, some of the "
+"Breakdance WooCommerce elements' styles and options may not work correctly."
+msgstr ""
+"אתה משתמש בערכת הנושא \"%1$s\" אשר מזוהה על ידי Breakdance. Breakdance "
+"השביתה את ה-CSS הספציפי ל-WooCommerce. עם זאת, אם ערכת הנושא ביצעה שינויים "
+"במבנה HTML ברירת המחדל של WooCommerce, ייתכן שחלק מהסגנונות והאפשרויות של "
+"רכיבי Breakdance WooCommerce לא יפעלו כהלכה."
+
+#. translators: %s is the theme name
+#: plugin/woocommerce/settings/settings-tab.php:113
+#, php-format
+msgid ""
+"The current theme \"%s\" isn't recognized. If your theme has WooCommerce "
+"styles, they can interfere with the Breakdance WooCommerce styles and some "
+"of the Breakdance WooCommerce elements' styles and options may not work "
+"correctly."
+msgstr ""
+"ערכת הנושא הנוכחית \"%s\" אינה מזוהה. אם לערכת הנושא שלך יש סגנונות "
+"WooCommerce, הם עלולים להפריע לסגנונות Breakdance WooCommerce וייתכן שחלק "
+"מהסגנונות והאפשרויות של רכיבי Breakdance WooCommerce לא יפעלו כהלכה."
+
+#: plugin/woocommerce/settings/settings-tab.php:118
+msgid "Theme WooCommerce Styles"
+msgstr "ערכת נושא סגנונות WooCommerce"
+
+#. translators: %1$s is the element label, %2$s is the WooCommerce page label
+#: plugin/woocommerce/utils.php:14
+#, php-format
+msgid ""
+"The <b>\"%1$s\"</b> element can only be added to the <b>WooCommerce %2$s "
+"Page</b>."
+msgstr "ניתן להוסיף את הרכיב <b>\"%1$s\"</b> רק ל<b>דף WooCommerce %2$s </b>."
+
+#. translators: %s is the WooCommerce page label
+#: plugin/woocommerce/utils.php:16
+#, php-format
+msgid ""
+"Set the <b>WooCommerce %s Page</b> in the WP admin at <b>WooCommerce &gt; "
+"Settings &gt; Advanced &gt; Page Setup</b>."
+msgstr ""
+"הגדר את <b>דף WooCommerce %s </b> ב-WP admin בכתובת <b>WooCommerce &gt; "
+"הגדרות &gt; מתקדם &gt; הגדרת עמוד</b>."
+
+#. translators: %s is the WooCommerce page label
+#: plugin/woocommerce/utils.php:20
+#, php-format
+msgid "No page has been set as the <b>WooCommerce %s Page</b>."
+msgstr "אף דף לא הוגדר כ<b>דף WooCommerce %s </b>."
+
+#. translators: %1$s is the WooCommerce page label, %2$s is the page title,
+#. %3$d is the page ID
+#: plugin/woocommerce/utils.php:36
+#, php-format
+msgid ""
+"The <b>WooCommerce %1$s Page</b> is currently set to <b>%2$s (ID: %3$d)</b>."
+msgstr "<b>דף WooCommerce %1$s </b> מוגדר כעת ל-<b>%2$s (מזהה: %3$d)</b>."
+
+#: plugin/woocommerce/widgets/woo_filters.php:22
+msgid "Active Filters"
+msgstr "מסננים פעילים"
+
+#: plugin/woocommerce/widgets/woo_filters.php:28
+#: plugin/woocommerce/widgets/woo_filters.php:44
+#: plugin/woocommerce/widgets/woo_filters.php:61
+#: plugin/woocommerce/widgets/woo_filters.php:77
+#: plugin/woocommerce/widgets/woo_general.php:25
+#: plugin/woocommerce/widgets/woo_general.php:46
+#: plugin/woocommerce/widgets/woo_general.php:60
+#: plugin/woocommerce/widgets/woo_general.php:160
+#: plugin/wpwidgets/stock/stock.php:26 plugin/wpwidgets/stock/stock.php:46
+#: plugin/wpwidgets/stock/stock.php:70 plugin/wpwidgets/stock/stock.php:99
+#: plugin/wpwidgets/stock/stock.php:113 plugin/wpwidgets/stock/stock.php:132
+#: plugin/wpwidgets/stock/stock.php:169 plugin/wpwidgets/stock/stock.php:209
+#: plugin/wpwidgets/stock/stock.php:234
+msgid "Title"
+msgstr "כּוֹתֶרֶת"
+
+#: plugin/woocommerce/widgets/woo_filters.php:38
+msgid "Price Filter"
+msgstr "מסנן מחירים"
+
+#: plugin/woocommerce/widgets/woo_filters.php:55
+msgid "Rating Filter"
+msgstr "מסנן דירוג"
+
+#: plugin/woocommerce/widgets/woo_filters.php:71
+msgid "Filter By Attribute"
+msgstr "סינון לפי תכונה"
+
+#: plugin/woocommerce/widgets/woo_filters.php:90
+msgid "Display Type"
+msgstr "סוג תצוגה"
+
+#: plugin/woocommerce/widgets/woo_filters.php:92
+msgid "list"
+msgstr "רְשִׁימָה"
+
+#: plugin/woocommerce/widgets/woo_filters.php:93
+msgid "dropdown"
+msgstr "תפריט נפתח"
+
+#: plugin/woocommerce/widgets/woo_filters.php:98
+msgid "Query Type"
+msgstr "סוג שאילתה"
+
+#: plugin/woocommerce/widgets/woo_filters.php:100
+msgid "and"
+msgstr "ו"
+
+#: plugin/woocommerce/widgets/woo_filters.php:101
+msgid "or"
+msgstr "אוֹ"
+
+#: plugin/woocommerce/widgets/woo_filters.php:114
+msgid "Shop Filters"
+msgstr "מסנני קניות"
+
+#: plugin/woocommerce/widgets/woo_filters.php:116
+msgid "Widgets"
+msgstr "ווידג'טים"
+
+#: plugin/woocommerce/widgets/woo_filters.php:121
+#: plugin/woocommerce/widgets/woo_general.php:229
+#: plugin/wpwidgets/stock/stock.php:265
+msgid "Widget"
+msgstr "יישומון"
+
+#: plugin/woocommerce/widgets/woo_general.php:19
+msgid "Products By Rating List"
+msgstr "מוצרים לפי רשימת דירוג"
+
+#: plugin/woocommerce/widgets/woo_general.php:30
+msgid "Number of products"
+msgstr "מספר מוצרים"
+
+#: plugin/woocommerce/widgets/woo_general.php:40
+msgid "Product Search"
+msgstr "חיפוש מוצר"
+
+#: plugin/woocommerce/widgets/woo_general.php:65
+msgid "Order by"
+msgstr "הזמינו לפי"
+
+#: plugin/woocommerce/widgets/woo_general.php:69
+msgid "Category order"
+msgstr "סדר קטגוריה"
+
+#: plugin/woocommerce/widgets/woo_general.php:76
+msgid "Show as dropdown"
+msgstr "הצג כתפריט נפתח"
+
+#: plugin/woocommerce/widgets/woo_general.php:83
+msgid "Show product counts"
+msgstr "הצג ספירות מוצרים"
+
+#: plugin/woocommerce/widgets/woo_general.php:90
+#: plugin/wpwidgets/stock/stock.php:80
+msgid "Show hierarchy"
+msgstr "הצג היררכיה"
+
+#: plugin/woocommerce/widgets/woo_general.php:97
+msgid "Only show children"
+msgstr "להראות רק לילדים"
+
+#: plugin/woocommerce/widgets/woo_general.php:104
+msgid "Hide empty categories"
+msgstr "הסתר קטגוריות ריקות"
+
+#: plugin/woocommerce/widgets/woo_general.php:111
+msgid "Maximum depth"
+msgstr "עומק מקסימלי"
+
+#: plugin/woocommerce/widgets/woo_general.php:154
+msgid "Recent Reviews"
+msgstr "ביקורות אחרונות"
+
+#: plugin/woocommerce/widgets/woo_general.php:165
+msgid "Number"
+msgstr "מִספָּר"
+
+#: plugin/woocommerce/widgets/woo_general.php:224
+msgid "Woo Widget"
+msgstr "Woo Widget"
+
+#: plugin/wp-query-control/util.php:16
+msgid "Pagination with Custom Queries in Archives isn't supported"
+msgstr "עידוד עם שאילתות מותאמות אישית בארכיונים אינו נתמך"
+
+#: plugin/wpwidgets/stock/stock.php:40
+msgid "Archives"
+msgstr "אַרְכִיוֹן"
+
+#: plugin/wpwidgets/stock/stock.php:51 plugin/wpwidgets/stock/stock.php:75
+msgid "Display as dropdown"
+msgstr "הצג כתפריט נפתח"
+
+#: plugin/wpwidgets/stock/stock.php:56 plugin/wpwidgets/stock/stock.php:85
+msgid "Show post count"
+msgstr "הצג את ספירת הפוסטים"
+
+#: plugin/wpwidgets/stock/stock.php:93
+msgid "Calendar"
+msgstr "לוּחַ שָׁנָה"
+
+#: plugin/wpwidgets/stock/stock.php:107
+msgid "Recent Comments"
+msgstr "הערות אחרונות"
+
+#: plugin/wpwidgets/stock/stock.php:118
+msgid "Number of comments to show"
+msgstr "מספר ההערות להצגה"
+
+#: plugin/wpwidgets/stock/stock.php:126
+msgid "Tag Cloud"
+msgstr "תגיות ענן"
+
+#: plugin/wpwidgets/stock/stock.php:144
+msgid "Link Categories"
+msgstr "קטגוריות קישור"
+
+#: plugin/wpwidgets/stock/stock.php:150
+msgid "Show tag count"
+msgstr "הצג ספירת תגים"
+
+#: plugin/wpwidgets/stock/stock.php:158
+msgid "RSS"
+msgstr "RSS"
+
+#: plugin/wpwidgets/stock/stock.php:164
+msgid "URL"
+msgstr "כתובת אתר"
+
+#: plugin/wpwidgets/stock/stock.php:174
+msgid "Items"
+msgstr "פריטים"
+
+#: plugin/wpwidgets/stock/stock.php:185
+msgid "Display item content"
+msgstr "הצגת תוכן הפריט"
+
+#: plugin/wpwidgets/stock/stock.php:190
+msgid "Display item author"
+msgstr "מחבר פריט הצג"
+
+#: plugin/wpwidgets/stock/stock.php:195
+msgid "Display item date"
+msgstr "הצג את תאריך הפריט"
+
+#: plugin/wpwidgets/stock/stock.php:203
+msgid "Recent Posts"
+msgstr "פוסטים אחרונים"
+
+#: plugin/wpwidgets/stock/stock.php:214
+msgid "Number of posts to show"
+msgstr "מספר הפוסטים להצגה"
+
+#: plugin/wpwidgets/stock/stock.php:219
+msgid "Show date"
+msgstr "הצג תאריך"
+
+#: plugin/wpwidgets/stock/stock.php:228
+msgid "Pages"
+msgstr "דפים"
+
+#: plugin/wpwidgets/stock/stock.php:239
+msgid "Sort by"
+msgstr "מיין לפי"
+
+#: plugin/wpwidgets/stock/stock.php:244
+msgid "Exclude"
+msgstr "אל תכלול"
+
+#: plugin/wpwidgets/stock/stock.php:246
+msgid "Page Title"
+msgstr "כותרת העמוד"
+
+#: plugin/wpwidgets/stock/stock.php:247
+msgid "Page Order"
+msgstr "סדר דפים"
+
+#: plugin/wpwidgets/stock/stock.php:248
+msgid "Page ID"
+msgstr "מזהה עמוד"
+
+#: plugin/wpwidgets/stock/stock.php:260
+msgid "WP Widget"
+msgstr "ווידג'ט של WP"

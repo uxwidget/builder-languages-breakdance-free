@@ -1,0 +1,183 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Breakdance Languages ux-0.1.0\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: breakdance-languages\n"
+
+msgid "Languages"
+msgstr "Talen"
+
+msgid ""
+"Upgrade to Pro to choose the Breakdance Builder language independently from "
+"the WordPress profile."
+msgstr ""
+"Upgrade naar Pro om de Breakdance Builder-taal onafhankelijk van het "
+"WordPress-profiel te kiezen."
+
+msgid "The selected language is not available on your current plan."
+msgstr "De geselecteerde taal is niet beschikbaar in uw huidige abonnement."
+
+msgid ""
+"Idioma salvo com sucesso. Agora clique em \"Atualizar\" para recarregar o "
+"Breakdance e aplicar a tradução."
+msgstr ""
+"Taal succesvol opgeslagen. Klik op \"Vernieuwen\" om de pagina opnieuw te "
+"laden en de vertaling toe te passen."
+
+msgid "Builder Language"
+msgstr "Bouwer taal"
+
+msgid ""
+"Choose the language used in the Breakdance Builder interface, element names,"
+" and first-party controls."
+msgstr ""
+"Kies de taal die wordt gebruikt in de Breakdance Builder-interface, "
+"elementnamen en directe besturingselementen."
+
+msgid ""
+"Free plan: translations follow your WordPress profile language when it is "
+"included in the free language pack."
+msgstr ""
+"Gratis abonnement: vertalingen volgen de taal van uw WordPress-profiel "
+"wanneer deze is opgenomen in het gratis taalpakket."
+
+msgid "Upgrade to Pro"
+msgstr "Upgrade naar Pro"
+
+msgid "to unlock all 8 languages and choose the builder language here."
+msgstr ""
+"om alle 8 talen te ontgrendelen en hier de taal van de bouwer te kiezen."
+
+msgid "Builder language"
+msgstr "Bouwerstaal"
+
+msgid "Use WordPress profile language"
+msgstr "Gebruik WordPress-profieltaal"
+
+msgid "Siga os passos:"
+msgstr "Volg deze stappen:"
+
+msgid "1) Clique em \"Salvar novo idioma\"."
+msgstr "1) Klik op \"Taal opslaan\"."
+
+msgid "2) Clique em \"Atualizar\"."
+msgstr "2) Klik op \"Vernieuwen\"."
+
+msgid "Salvar novo idioma"
+msgstr "Taal opslaan"
+
+msgid "Atualizar"
+msgstr "Vernieuwen"
+
+msgid "Permission denied."
+msgstr "Toestemming geweigerd."
+
+msgid "Upgrade to Pro to choose the builder language here."
+msgstr "Upgrade naar Pro om hier de bouwtaal te kiezen."
+
+msgid "Idioma salvo com sucesso."
+msgstr "Taal succesvol opgeslagen."
+
+msgid "Salvando idioma..."
+msgstr "Salvando-idioom..."
+
+msgid "Idioma salvo. Agora clique em \"Atualizar\"."
+msgstr "Taal opgeslagen. Klik nu op \"Vernieuwen\"."
+
+msgid "Não foi possível salvar o idioma selecionado."
+msgstr "Kan de geselecteerde taal niet opslaan."
+
+msgid ""
+"Breakdance Languages is active, but Breakdance Builder is not active. "
+"Activate Breakdance Builder to load the language packs."
+msgstr ""
+"Breakdance Languages ​​is actief, maar Breakdance Builder is niet actief. "
+"Activeer Breakdance Builder om de taalpakketten te laden."
+
+msgid "Portuguese (Brazil)"
+msgstr "Portugees (Brazilië)"
+
+msgid "Portuguese"
+msgstr "Portugees"
+
+msgid "French"
+msgstr "Frans"
+
+msgid "German"
+msgstr "Duits"
+
+msgid "Spanish"
+msgstr "Spaans"
+
+msgid "Arabic"
+msgstr "Arabisch"
+
+msgid "English (International)"
+msgstr "Engels (internationaal)"
+
+msgid "Japanese"
+msgstr "Japanse"
+
+msgid "English (United States)"
+msgstr "Engels (Verenigde Staten)"
+
+msgid "Licença"
+msgstr "Licentie"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Development mode"
+msgstr "Ontwikkelingsmodus"
+
+msgid "Active"
+msgstr "Actief"
+
+msgid "Inactive"
+msgstr "Inactief"
+
+msgid "Build de desenvolvimento: licenciamento Freemius não configurado."
+msgstr "Ontwerpontwerp: licentie Freemius is niet geconfigureerd."
+
+msgid "Ative sua licença para carregar as traduções do Breakdance Builder."
+msgstr "Activeer uw licentie om Breakdance Builder-vertalingen te laden."
+
+msgid ""
+"Sua licença está ativa. Todas as traduções incluídas estão disponíveis."
+msgstr "Uw licentie is actief. Alle opgenomen vertalingen zijn beschikbaar."
+
+msgid "Conta"
+msgstr "Conta"
+
+msgid "Gerenciar licença"
+msgstr "Beheer licentie"
+
+msgid "Comprar licença"
+msgstr "Koop licentie"
+
+msgid "Comprar"
+msgstr "Kopen"
+
+msgid ""
+"Ative uma licença válida para usar as traduções do Breakdance Languages."
+msgstr ""
+"Er is een geldige licentie voor het gebruik van de tradities van Breakdance "
+"Languages."
+
+msgid "The selected language is not available."
+msgstr "De geselecteerde taal is niet beschikbaar."
+
+msgid "Activate a valid license to use Breakdance Languages."
+msgstr "Activeer een geldige licentie om Breakdance Languages ​​te gebruiken."
+
+msgid "Breakdance Languages: activate your license to load translations."
+msgstr "Breakdance Languages: activeer uw licentie om vertalingen te laden."
+
+msgid "Manage license"
+msgstr "Beheer licentie"

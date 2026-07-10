@@ -1,0 +1,3874 @@
+{
+  "translation-revision-date": "2026-07-09 21:24:-0300",
+  "generator": "Breakdance Languages",
+  "domain": "breakdance",
+  "locale_data": {
+    "breakdance": {
+      "": {
+        "domain": "breakdance",
+        "lang": "hi-IN",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      ".my-cool-class": [
+        ".मेरी-कूल-क्लास"
+      ],
+      ".your.css > #selector-69::after": [
+        ".your.css > #selector-69::after"
+      ],
+      "\"%s\" is not a valid class name.": [
+        "\"%s\" मान्य वर्ग नाम नहीं है."
+      ],
+      "\"%s\" is not a valid CSS selector.": [
+        "\"%s\" वैध सीएसएस चयनकर्ता नहीं है."
+      ],
+      "(AND) %s for '{path}'": [
+        "(और) '{पथ}' के लिए %s"
+      ],
+      "(Draft)": [
+        "(मसौदा)"
+      ],
+      "(empty)": [
+        "(खाली)"
+      ],
+      "(Empty)": [
+        "(खाली)"
+      ],
+      "(no name)": [
+        "(कोई नाम नहीं)"
+      ],
+      "(no title)": [
+        "(कोई शीर्षक नहीं)"
+      ],
+      "(the returned value is trimmed for spaces and newlines)": [
+        "(रिक्त स्थान और न्यूलाइन के लिए लौटाया गया मान काट दिया गया है)"
+      ],
+      "%s - Error Code %s": [
+        "%s - त्रुटि कोड %s"
+      ],
+      "%s #%s": [
+        "%s #%s"
+      ],
+      "%s are also available.": [
+        "%s भी उपलब्ध हैं."
+      ],
+      "%s couldn't be found": [
+        "%s नहीं मिल सका"
+      ],
+      "%s Editor": [
+        "%s संपादक"
+      ],
+      "%s Element": [
+        "%s तत्व"
+      ],
+      "%s failed": [
+        "%s विफल"
+      ],
+      "%s Field in": [
+        "%s फ़ील्ड में"
+      ],
+      "%s generated an email you can send to your web host for help:": [
+        "%s ने एक ईमेल तैयार किया है जिसे आप मदद के लिए अपने वेब होस्ट को भेज सकते हैं:"
+      ],
+      "%s is already present on the element.": [
+        "%s पहले से ही तत्व पर मौजूद है."
+      ],
+      "%s is already present.": [
+        "%s पहले से मौजूद है."
+      ],
+      "%s is not a valid CSS class name.": [
+        "%s मान्य CSS वर्ग नाम नहीं है."
+      ],
+      "%s is not a valid CSS selector.": [
+        "%s वैध CSS चयनकर्ता नहीं है."
+      ],
+      "%s not present. Set it in the %s.": [
+        "%s मौजूद नहीं है. इसे %s में सेट करें."
+      ],
+      "%s on page": [
+        "पृष्ठ पर %s"
+      ],
+      "%s Options": [
+        "%s विकल्प"
+      ],
+      "%s selectors imported. %s existing selectors were kept.": [
+        "%s चयनकर्ता आयातित. %s मौजूदा चयनकर्ताओं को रखा गया था."
+      ],
+      "%s selectors imported. All existing selectors were replaced.": [
+        "%s चयनकर्ता आयातित. सभी मौजूदा चयनकर्ताओं को बदल दिया गया."
+      ],
+      "%s Settings, and also import all Pages, Posts, and Templates from the design set.": [
+        "%s सेटिंग्स, और डिज़ाइन सेट से सभी पेज, पोस्ट और टेम्पलेट भी आयात करें।"
+      ],
+      "%s variables imported. %s existing variables were kept.": [
+        "%s वेरिएबल आयातित. %s मौजूदा वेरिएबल रखे गए थे."
+      ],
+      "%s was not saved": [
+        "%s सहेजा नहीं गया"
+      ],
+      "%s was not saved, or it was saved but the value is invalid": [
+        "%s सहेजा नहीं गया था, या इसे सहेजा गया था लेकिन मान अमान्य है"
+      ],
+      "%s. Set it in the %s.": [
+        "%एस। इसे %s में सेट करें."
+      ],
+      "%spx and above": [
+        "%spx और ऊपर"
+      ],
+      "%spx and below": [
+        "%spx और नीचे"
+      ],
+      "⚠️ (deleted)": [
+        "⚠️ (हटाया गया)"
+      ],
+      "⚠️ Could not generate content, please try again.": [
+        "⚠️ सामग्री उत्पन्न नहीं हो सकी, कृपया पुनः प्रयास करें।"
+      ],
+      "👋 Do you want to start with a template?": [
+        "👋क्या आप किसी टेम्पलेट से शुरुआत करना चाहते हैं?"
+      ],
+      "404 Not Found": [
+        "404 नहीं मिला"
+      ],
+      "A %s with the title \"%s\" already exists. Please select another title.": [
+        "\" %s\" शीर्षक वाला एक %s पहले से मौजूद है। कृपया कोई अन्य शीर्षक चुनें."
+      ],
+      "A 403 error is almost caused by your host, firewall, or CDN blocking the request": [
+        "403 त्रुटि लगभग आपके होस्ट, फ़ायरवॉल, या सीडीएन द्वारा अनुरोध को अवरुद्ध करने के कारण होती है"
+      ],
+      "A 500 error is usually a server issue and must be resolved by your web hosting provider or server administrator. It can also be caused by a broken plugin.": [
+        "500 त्रुटि आमतौर पर एक सर्वर समस्या है और इसे आपके वेब होस्टिंग प्रदाता या सर्वर व्यवस्थापक द्वारा हल किया जाना चाहिए। यह टूटे हुए प्लगइन के कारण भी हो सकता है।"
+      ],
+      "A preset is currently selected for this element.": [
+        "इस तत्व के लिए वर्तमान में एक प्रीसेट चुना गया है।"
+      ],
+      "A weight is required": [
+        "एक वज़न आवश्यक है"
+      ],
+      "Accepted File Types": [
+        "स्वीकृत फ़ाइल प्रकार"
+      ],
+      "Accepts:": [
+        "स्वीकार करता है:"
+      ],
+      "ACF": [
+        "एसीएफ़"
+      ],
+      "ACF Flexible Content": [
+        "एसीएफ लचीली सामग्री"
+      ],
+      "ACF Relationship": [
+        "एसीएफ संबंध"
+      ],
+      "Action": [
+        "कार्रवाई"
+      ],
+      "Action will only run for the specified path.": [
+        "कार्रवाई केवल निर्दिष्ट पथ के लिए चलेगी."
+      ],
+      "Action will only run if element being moved is of that type, OR if the element was moved onto an element with that type.": [
+        "कार्रवाई केवल तभी चलेगी जब स्थानांतरित किया जा रहा तत्व उस प्रकार का हो, या यदि तत्व को उस प्रकार के तत्व पर ले जाया गया हो।"
+      ],
+      "Action will only run if the deleted element was inside a Section element.": [
+        "कार्रवाई केवल तभी चलेगी जब हटाया गया तत्व सेक्शन तत्व के अंदर था।"
+      ],
+      "Action will run for any control below 'background'.": [
+        "'पृष्ठभूमि' के नीचे किसी भी नियंत्रण के लिए कार्रवाई चलेगी."
+      ],
+      "Actions": [
+        "कार्रवाई"
+      ],
+      "Active": [
+        "सक्रिय"
+      ],
+      "Add": [
+        "जोड़ना"
+      ],
+      "Add a font family to %s's font family dropdowns, and optionally upload associated .woff/.woff2 files.": [
+        "%s के फ़ॉन्ट परिवार ड्रॉपडाउन में एक फ़ॉन्ट परिवार जोड़ें, और वैकल्पिक रूप से संबंधित .woff/.woff2 फ़ाइलें अपलोड करें।"
+      ],
+      "Add a link": [
+        "एक लिंक जोड़ें"
+      ],
+      "Add Action": [
+        "क्रिया जोड़ें"
+      ],
+      "Add an element to your page and it will show up here.": [
+        "अपने पृष्ठ पर एक तत्व जोड़ें और यह यहां दिखाई देगा।"
+      ],
+      "Add an element to your page or click an existing element to edit it.": [
+        "अपने पृष्ठ पर एक तत्व जोड़ें या किसी मौजूदा तत्व को संपादित करने के लिए उस पर क्लिक करें।"
+      ],
+      "Add Breakpoint": [
+        "ब्रेकप्वाइंट जोड़ें"
+      ],
+      "Add Class": [
+        "कक्षा जोड़ें"
+      ],
+      "Add Collection": [
+        "संग्रह जोड़ें"
+      ],
+      "Add Condition": [
+        "शर्त जोड़ें"
+      ],
+      "Add Control": [
+        "नियंत्रण जोड़ें"
+      ],
+      "Add Control Section": [
+        "नियंत्रण अनुभाग जोड़ें"
+      ],
+      "Add CSS URL": [
+        "सीएसएस यूआरएल जोड़ें"
+      ],
+      "Add Custom Template": [
+        "कस्टम टेम्पलेट जोड़ें"
+      ],
+      "Add dependency": [
+        "निर्भरता जोड़ें"
+      ],
+      "Add Element": [
+        "तत्व जोड़ें"
+      ],
+      "Add External CSS": [
+        "बाहरी सीएसएस जोड़ें"
+      ],
+      "Add Font": [
+        "फ़ॉन्ट जोड़ें"
+      ],
+      "Add Footer": [
+        "फ़ुटर जोड़ें"
+      ],
+      "Add Header": [
+        "शीर्षलेख जोड़ें"
+      ],
+      "Add Interaction": [
+        "इंटरैक्शन जोड़ें"
+      ],
+      "Add Item": [
+        "मद जोड़ें"
+      ],
+      "Add Macro": [
+        "मैक्रो जोड़ें"
+      ],
+      "Add Media": [
+        "मीडिया जोड़ो"
+      ],
+      "Add new": [
+        "नया जोड़ो"
+      ],
+      "Add new (AND) %s": [
+        "नया (और) %s जोड़ें"
+      ],
+      "Add New Breakpoint": [
+        "नया ब्रेकप्वाइंट जोड़ें"
+      ],
+      "Add new collection": [
+        "नया संग्रह जोड़ें"
+      ],
+      "Add new default element": [
+        "नया डिफ़ॉल्ट तत्व जोड़ें"
+      ],
+      "Add new Dynamic Property Path": [
+        "नया गतिशील संपत्ति पथ जोड़ें"
+      ],
+      "Add New Font": [
+        "नया फ़ॉन्ट जोड़ें"
+      ],
+      "Add new HTML attribute": [
+        "नई HTML विशेषता जोड़ें"
+      ],
+      "Add new OR condition": [
+        "नई OR शर्त जोड़ें"
+      ],
+      "Add new spacing bar": [
+        "नई रिक्ति पट्टी जोड़ें"
+      ],
+      "Add panel rules": [
+        "पैनल नियम जोड़ें"
+      ],
+      "Add Popup": [
+        "पॉपअप जोड़ें"
+      ],
+      "Add Preset": [
+        "प्रीसेट जोड़ें"
+      ],
+      "Add script": [
+        "स्क्रिप्ट जोड़ें"
+      ],
+      "Add Section": [
+        "अनुभाग जोड़ें"
+      ],
+      "Add Shadow": [
+        "छाया जोड़ें"
+      ],
+      "Add some content to your site that matches the template settings.": [
+        "अपनी साइट पर कुछ ऐसी सामग्री जोड़ें जो टेम्पलेट सेटिंग्स से मेल खाती हो।"
+      ],
+      "Add Template": [
+        "टेम्प्लेट जोड़ें"
+      ],
+      "Add Typography Preset": [
+        "टाइपोग्राफी प्रीसेट जोड़ें"
+      ],
+      "Add Variable": [
+        "वेरिएबल जोड़ें"
+      ],
+      "Add your first breakpoint by clicking the button below.": [
+        "नीचे दिए गए बटन पर क्लिक करके अपना पहला ब्रेकप्वाइंट जोड़ें।"
+      ],
+      "advanced": [
+        "विकसित"
+      ],
+      "Advanced": [
+        "विकसित"
+      ],
+      "Advanced Template Settings": [
+        "उन्नत टेम्पलेट सेटिंग्स"
+      ],
+      "Affected property path": [
+        "प्रभावित संपत्ति पथ"
+      ],
+      "After Date": [
+        "दिनांक के बाद"
+      ],
+      "AI Assistant": [
+        "एआई सहायक"
+      ],
+      "AI Site Creation Experience": [
+        "एआई साइट निर्माण अनुभव"
+      ],
+      "AJAX Error": [
+        "AJAX त्रुटि"
+      ],
+      "Ajax Handler Error": [
+        "अजाक्स हैंडलर त्रुटि"
+      ],
+      "All": [
+        "सभी"
+      ],
+      "All Borders": [
+        "सभी सीमाएँ"
+      ],
+      "All device widths": [
+        "सभी डिवाइस की चौड़ाई"
+      ],
+      "All file types are allowed by default.": [
+        "डिफ़ॉल्ट रूप से सभी फ़ाइल प्रकारों की अनुमति है."
+      ],
+      "All Icons": [
+        "सभी चिह्न"
+      ],
+      "All providers are allowed by default.": [
+        "सभी प्रदाताओं को डिफ़ॉल्ट रूप से अनुमति है."
+      ],
+      "Allow only certain file types": [
+        "केवल कुछ फ़ाइल प्रकारों की अनुमति दें"
+      ],
+      "Allowed post type": [
+        "अनुमत पोस्ट प्रकार"
+      ],
+      "Allowed types": [
+        "अनुमत प्रकार"
+      ],
+      "Alternatively, you can use your keyboard shortcuts:": [
+        "वैकल्पिक रूप से, आप अपने कीबोर्ड शॉर्टकट का उपयोग कर सकते हैं:"
+      ],
+      "Always hide element from the Add Panel": [
+        "ऐड पैनल से तत्व को हमेशा छिपाएं"
+      ],
+      "Amount": [
+        "मात्रा"
+      ],
+      "And": [
+        "और"
+      ],
+      "AND": [
+        "और"
+      ],
+      "Animations": [
+        "एनिमेशन"
+      ],
+      "API Key": [
+        "एपीआई कुंजी"
+      ],
+      "Applies to": [
+        "पर लागू होता है"
+      ],
+      "Apply": [
+        "आवेदन करना"
+      ],
+      "Apply %s to...": [
+        "%s को लागू करें..."
+      ],
+      "Apply all (=)": [
+        "सभी लागू करें (=)"
+      ],
+      "Apply All (=)": [
+        "सभी लागू करें (=)"
+      ],
+      "Apply Conditions": [
+        "शर्तें लागू करें"
+      ],
+      "Apply opposite": [
+        "विपरीत लगाएं"
+      ],
+      "Apply Query": [
+        "क्वेरी लागू करें"
+      ],
+      "Are you sure you want to delete %s?": [
+        "क्या आप वाकई %s को हटाना चाहते हैं?"
+      ],
+      "Are you sure you want to delete the collection \"%s\"?": [
+        "क्या आप वाकई संग्रह \"%s\" को हटाना चाहते हैं?"
+      ],
+      "Are you sure you want to delete the icon %s?": [
+        "क्या आप वाकई %s आइकन को हटाना चाहते हैं?"
+      ],
+      "Are you sure you want to delete this?": [
+        "क्या आप वाकई इसे हटाना चाहते हैं?"
+      ],
+      "Are you sure you want to edit?": [
+        "क्या आप वाकई संपादित करना चाहते हैं?"
+      ],
+      "are you sure?": [
+        "क्या आपको यकीन है?"
+      ],
+      "Array": [
+        "सरणी"
+      ],
+      "Ascending": [
+        "आरोही"
+      ],
+      "Attribute": [
+        "गुण"
+      ],
+      "Attribute Name": [
+        "गुण नाम"
+      ],
+      "Attribute Value": [
+        "मान बताइए"
+      ],
+      "Attributes": [
+        "गुण"
+      ],
+      "Attributes are added to the container of the element": [
+        "तत्व के कंटेनर में विशेषताएँ जोड़ी जाती हैं"
+      ],
+      "Auto-scroll to active element": [
+        "सक्रिय तत्व तक स्वतः स्क्रॉल करें"
+      ],
+      "Autofocus": [
+        "ऑटोफोकस"
+      ],
+      "Available In": [
+        "में उपलब्ध है"
+      ],
+      "Available variables:": [
+        "उपलब्ध चर:"
+      ],
+      "Available within the action's code:": [
+        "कार्रवाई के कोड के भीतर उपलब्ध:"
+      ],
+      "Back": [
+        "पीछे"
+      ],
+      "Back to WordPress admin": [
+        "वर्डप्रेस एडमिन पर वापस जाएँ"
+      ],
+      "Background Color": [
+        "पृष्ठभूमि का रंग"
+      ],
+      "Badge Background": [
+        "बैज पृष्ठभूमि"
+      ],
+      "Badge Label": [
+        "बैज लेबल"
+      ],
+      "Badge Text": [
+        "बैज पाठ"
+      ],
+      "Based on the control's path.": [
+        "नियंत्रण के पथ के आधार पर."
+      ],
+      "Based on the deleted element's parent type.": [
+        "हटाए गए तत्व के मूल प्रकार के आधार पर।"
+      ],
+      "Based on the element's and moved-on element's type.": [
+        "तत्व और स्थानांतरित तत्व के प्रकार के आधार पर।"
+      ],
+      "Baseline": [
+        "आधारभूत"
+      ],
+      "Be funny": [
+        "हास्यास्पद हों"
+      ],
+      "Be verbose": [
+        "वाचाल हो"
+      ],
+      "Be very concise": [
+        "बहुत संक्षिप्त रहें"
+      ],
+      "Before Date": [
+        "दिनांक से पहले"
+      ],
+      "before use.": [
+        "उपयोग से पहले."
+      ],
+      "Best Regards,": [
+        "साभार,"
+      ],
+      "beware that the Twig code running in the action will be with the child's data, including tags": [
+        "सावधान रहें कि कार्रवाई में चल रहा ट्विग कोड टैग सहित बच्चे के डेटा के साथ होगा"
+      ],
+      "Big Button Bar": [
+        "बड़ा बटन बार"
+      ],
+      "Blur": [
+        "कलंक"
+      ],
+      "Body": [
+        "शरीर"
+      ],
+      "Body:": [
+        "शरीर:"
+      ],
+      "Border Bottom": [
+        "सीमा तल"
+      ],
+      "Border Color": [
+        "सीमा रंग"
+      ],
+      "Border Left": [
+        "सीमा बाएँ"
+      ],
+      "Border Right": [
+        "सीमा दाएँ"
+      ],
+      "Border Top": [
+        "सीमा शीर्ष"
+      ],
+      "Bottom": [
+        "तल"
+      ],
+      "Breakdance > Templates > Edit Template": [
+        "ब्रेकडांस > टेम्प्लेट > टेम्प्लेट संपादित करें"
+      ],
+      "Breakdance Barebones": [
+        "ब्रेकडांस बेयरबोन्स"
+      ],
+      "Breakdance uses OpenAI's GPT-3.5 to rewrite your content. Please install the Breakdance AI plugin to use this feature.": [
+        "ब्रेकडांस आपकी सामग्री को फिर से लिखने के लिए OpenAI के GPT-3.5 का उपयोग करता है। कृपया इस सुविधा का उपयोग करने के लिए ब्रेकडांस एआई प्लगइन इंस्टॉल करें।"
+      ],
+      "Breakpoint name, ie. iPhone X or tablet": [
+        "ब्रेकप्वाइंट नाम, यानी. iPhone X या टैबलेट"
+      ],
+      "Breakpoint options": [
+        "ब्रेकप्वाइंट विकल्प"
+      ],
+      "Breakpoints": [
+        "ब्रेकप्वाइंट"
+      ],
+      "browse": [
+        "ब्राउज़"
+      ],
+      "browse...": [
+        "ब्राउज़ करें..."
+      ],
+      "Builder Condition (empty)": [
+        "बिल्डर की स्थिति (खाली)"
+      ],
+      "Builder Condition (present)": [
+        "बिल्डर की स्थिति (वर्तमान)"
+      ],
+      "Builder Only": [
+        "केवल बिल्डर"
+      ],
+      "Building your website...": [
+        "अपनी वेबसाइट का निर्माण..."
+      ],
+      "Business Name": [
+        "व्यवसाय का नाम"
+      ],
+      "Button Name": [
+        "बटन का नाम"
+      ],
+      "Button Text": [
+        "बटन पाठ"
+      ],
+      "Buttons & Forms": [
+        "बटन और फॉर्म"
+      ],
+      "Bypass Pointer Events": [
+        "बाईपास सूचक घटनाएँ"
+      ],
+      "Call to action section on services page": [
+        "सेवा पृष्ठ पर कॉल टू एक्शन अनुभाग"
+      ],
+      "Can run Twig and JS code.": [
+        "ट्विग और जेएस कोड चला सकते हैं।"
+      ],
+      "Can run Twig and PHP code.": [
+        "ट्विग और PHP कोड चला सकते हैं।"
+      ],
+      "Cancel": [
+        "रद्द करना"
+      ],
+      "Category": [
+        "वर्ग"
+      ],
+      "Center": [
+        "केंद्र"
+      ],
+      "Center horizontally": [
+        "क्षैतिज रूप से केन्द्रित करें"
+      ],
+      "Change Icon": [
+        "चिह्न बदलें"
+      ],
+      "Changing the slug of an existing element will make it obsolete in all pages, everywhere. Continue anyway?": [
+        "किसी मौजूदा तत्व का स्लग बदलने से यह सभी पृष्ठों, हर जगह अप्रचलित हो जाएगा। फिर भी जारी रखें?"
+      ],
+      "Check browser console for debug information.": [
+        "डिबग जानकारी के लिए ब्राउज़र कंसोल की जाँच करें।"
+      ],
+      "Children of Target": [
+        "लक्ष्य के बच्चे"
+      ],
+      "choose": [
+        "चुनना"
+      ],
+      "Choose": [
+        "चुनना"
+      ],
+      "Choose a %s": [
+        "एक %s चुनें"
+      ],
+      "Choose a Breakpoint": [
+        "एक ब्रेकप्वाइंट चुनें"
+      ],
+      "Choose a column structure": [
+        "एक स्तंभ संरचना चुनें"
+      ],
+      "Choose a Component": [
+        "एक घटक चुनें"
+      ],
+      "choose a document to edit": [
+        "संपादित करने के लिए कोई दस्तावेज़ चुनें"
+      ],
+      "Choose Breakpoints": [
+        "ब्रेकप्वाइंट चुनें"
+      ],
+      "Choose condition...": [
+        "शर्त चुनें..."
+      ],
+      "Choose Design Preset": [
+        "डिज़ाइन प्रीसेट चुनें"
+      ],
+      "Choose media": [
+        "मीडिया चुनें"
+      ],
+      "Choose one of the options below.": [
+        "नीचे दिए गए विकल्पों में से एक चुनें."
+      ],
+      "Choose operand...": [
+        "ऑपरेंड चुनें..."
+      ],
+      "Choose post type": [
+        "पोस्ट प्रकार चुनें"
+      ],
+      "Choose the category that best describes your website.": [
+        "वह श्रेणी चुनें जो आपकी वेबसाइट का सबसे अच्छा वर्णन करती हो।"
+      ],
+      "Choose the goals that best describe your website.": [
+        "वे लक्ष्य चुनें जो आपकी वेबसाइट का सबसे अच्छा वर्णन करते हों।"
+      ],
+      "Choose the writing style that best describes your website.": [
+        "वह लेखन शैली चुनें जो आपकी वेबसाइट का सबसे अच्छा वर्णन करती हो।"
+      ],
+      "Choose what to import:": [
+        "चुनें कि क्या आयात करना है:"
+      ],
+      "Class %s": [
+        "कक्षा %s"
+      ],
+      "Class Condition Twig Template": [
+        "क्लास कंडीशन ट्विग टेम्पलेट"
+      ],
+      "Class Name": [
+        "कक्षा का नाम"
+      ],
+      "Classes": [
+        "कक्षाओं"
+      ],
+      "Classes & selectors are only available in %s Pro. They won't work on the frontend.": [
+        "कक्षाएं और चयनकर्ता केवल %s प्रो में उपलब्ध हैं। वे फ़्रंटएंड पर काम नहीं करेंगे."
+      ],
+      "Classes are added to the container of the element": [
+        "कक्षाएं तत्व के कंटेनर में जोड़ी जाती हैं"
+      ],
+      "clear": [
+        "स्पष्ट"
+      ],
+      "Clear": [
+        "स्पष्ट"
+      ],
+      "Clear All": [
+        "सभी साफ करें"
+      ],
+      "Clear Badge": [
+        "बैज साफ़ करें"
+      ],
+      "Clear Search": [
+        "स्पष्ट खोज"
+      ],
+      "Clear Styles": [
+        "स्पष्ट शैलियाँ"
+      ],
+      "Clear Variable": [
+        "वैरिएबल साफ़ करें"
+      ],
+      "Click here to edit content": [
+        "सामग्री संपादित करने के लिए यहां क्लिक करें"
+      ],
+      "Click here to set up your API key": [
+        "अपनी एपीआई कुंजी सेट करने के लिए यहां क्लिक करें"
+      ],
+      "Click IMPORT to set the default properties to the properties of the currently active element. Active element must be a %s.": [
+        "डिफ़ॉल्ट गुणों को वर्तमान में सक्रिय तत्व के गुणों पर सेट करने के लिए आयात पर क्लिक करें। सक्रिय तत्व %s होना चाहिए."
+      ],
+      "Click on an element in the editor to rewrite it with AI.": [
+        "एआई के साथ इसे फिर से लिखने के लिए संपादक में एक तत्व पर क्लिक करें।"
+      ],
+      "Click the Error Details tab above and read the error message. If one is not available, consult your server's error log.": [
+        "ऊपर त्रुटि विवरण टैब पर क्लिक करें और त्रुटि संदेश पढ़ें। यदि कोई उपलब्ध नहीं है, तो अपने सर्वर का त्रुटि लॉग देखें।"
+      ],
+      "Click to set min and max widths.": [
+        "न्यूनतम और अधिकतम चौड़ाई निर्धारित करने के लिए क्लिक करें।"
+      ],
+      "Close": [
+        "बंद करना"
+      ],
+      "Close %s": [
+        "%s बंद करें"
+      ],
+      "Close Element Studio Panel": [
+        "एलिमेंट स्टूडियो पैनल बंद करें"
+      ],
+      "Close modal": [
+        "मोडल बंद करें"
+      ],
+      "Close Preview": [
+        "पूर्वावलोकन बंद करें"
+      ],
+      "CloseIcon": [
+        "बंद करें चिह्न"
+      ],
+      "Closest Parent": [
+        "निकटतम माता-पिता"
+      ],
+      "Code Help": [
+        "कोड सहायता"
+      ],
+      "Code input options": [
+        "कोड इनपुट विकल्प"
+      ],
+      "Code was not saved.": [
+        "कोड सहेजा नहीं गया था."
+      ],
+      "Collapse": [
+        "गिर जाना"
+      ],
+      "Collection": [
+        "संग्रह"
+      ],
+      "Color": [
+        "रंग"
+      ],
+      "Color Picker": [
+        "रंग चुनने वाली मशीन"
+      ],
+      "Color Type": [
+        "रंग प्रकार"
+      ],
+      "Colors": [
+        "रंग"
+      ],
+      "Comments count": [
+        "टिप्पणियाँ मायने रखती हैं"
+      ],
+      "Components must have a single root tag.": [
+        "घटकों में एक ही रूट टैग होना चाहिए."
+      ],
+      "Conditions": [
+        "स्थितियाँ"
+      ],
+      "Confirm": [
+        "पुष्टि करना"
+      ],
+      "Confirm Overwrite & Import": [
+        "ओवरराइट और आयात की पुष्टि करें"
+      ],
+      "Constrain Preview Size": [
+        "पूर्वावलोकन आकार को सीमित करें"
+      ],
+      "Consult our %stroubleshooting guide for the \"403\" error code%s which contains information your host can use to whitelist all requests coming from %s.": [
+        "\"403\" त्रुटि कोड%s के लिए हमारी %समस्या निवारण मार्गदर्शिका से परामर्श लें जिसमें वह जानकारी शामिल है जिसका उपयोग आपका होस्ट %s से आने वाले सभी अनुरोधों को श्वेतसूची में डालने के लिए कर सकता है।"
+      ],
+      "Consult our %stroubleshooting guide for the \"500\" error code%s": [
+        "\"500\" त्रुटि कोड%s के लिए हमारी %समस्या निवारण मार्गदर्शिका से परामर्श लें"
+      ],
+      "Contact": [
+        "संपर्क"
+      ],
+      "Contact your hosting provider with the prewritten email below.": [
+        "नीचे पूर्वलिखित ईमेल से अपने होस्टिंग प्रदाता से संपर्क करें।"
+      ],
+      "Container": [
+        "पात्र"
+      ],
+      "contains": [
+        "रोकना"
+      ],
+      "Content": [
+        "सामग्री"
+      ],
+      "Continue": [
+        "जारी रखना"
+      ],
+      "Continue writing": [
+        "लगातार लेखन"
+      ],
+      "Continue writing the text": [
+        "पाठ लिखना जारी रखें"
+      ],
+      "Control Label": [
+        "नियंत्रण लेबल"
+      ],
+      "Control Slider": [
+        "नियंत्रण स्लाइडर"
+      ],
+      "Copied!": [
+        "नकल की गई!"
+      ],
+      "copy": [
+        "कॉपी"
+      ],
+      "Copy": [
+        "प्रतिलिपि"
+      ],
+      "Copy All Elements": [
+        "सभी तत्वों की प्रतिलिपि बनाएँ"
+      ],
+      "Copy as text": [
+        "पाठ के रूप में कॉपी करें"
+      ],
+      "Copy CSS": [
+        "सीएसएस कॉपी करें"
+      ],
+      "Copy SVG": [
+        "एसवीजी कॉपी करें"
+      ],
+      "Copy the active element": [
+        "सक्रिय तत्व की प्रतिलिपि बनाएँ"
+      ],
+      "Copy to clipboard": [
+        "क्लिपबोर्ड पर कॉपी करें"
+      ],
+      "Copy URL": [
+        "यूआरएल कॉपी करें"
+      ],
+      "Corners": [
+        "कोने"
+      ],
+      "Correct grammar": [
+        "सही व्याकरण"
+      ],
+      "Correct the grammar of the text": [
+        "पाठ का व्याकरण ठीक करें"
+      ],
+      "Could not load media data.": [
+        "मीडिया डेटा लोड नहीं किया जा सका."
+      ],
+      "Couldn't import site, something went wrong": [
+        "साइट आयात नहीं की जा सकी, कुछ ग़लत हो गया"
+      ],
+      "Couldn't load blocks data": [
+        "ब्लॉक डेटा लोड नहीं किया जा सका"
+      ],
+      "Couldn't load Global Blocks data": [
+        "ग्लोबल ब्लॉक डेटा लोड नहीं किया जा सका"
+      ],
+      "Couldn't load templates data": [
+        "टेम्प्लेट डेटा लोड नहीं किया जा सका"
+      ],
+      "Couldn't recreate the cache for post \"%s\". Please re-save that post manually.": [
+        "पोस्ट \"%s\" के लिए कैश दोबारा नहीं बनाया जा सका। कृपया उस पोस्ट को मैन्युअल रूप से पुनः सहेजें।"
+      ],
+      "Create": [
+        "बनाएं"
+      ],
+      "Create %s": [
+        "%s बनाएं"
+      ],
+      "Create %s preset": [
+        "%s प्रीसेट बनाएं"
+      ],
+      "Create a new, original piece of text that complements and enhances the existing material.": [
+        "पाठ का एक नया, मूल टुकड़ा बनाएं जो मौजूदा सामग्री को पूरक और बढ़ाए।"
+      ],
+      "Create and manage variables in the": [
+        "में वेरिएबल बनाएं और प्रबंधित करें"
+      ],
+      "Create Design Preset": [
+        "डिज़ाइन प्रीसेट बनाएं"
+      ],
+      "Create new %s": [
+        "नया %s बनाएं"
+      ],
+      "Create Post": [
+        "पोस्ट बनाएं"
+      ],
+      "Create preset from design": [
+        "डिज़ाइन से प्रीसेट बनाएं"
+      ],
+      "Create Selector": [
+        "चयनकर्ता बनाएं"
+      ],
+      "Created: Newest first": [
+        "बनाया गया: सबसे नया पहले"
+      ],
+      "Created: Oldest first": [
+        "बनाया गया: सबसे पुराना पहले"
+      ],
+      "CSS": [
+        "सीएसएस"
+      ],
+      "CSS Selector": [
+        "सीएसएस चयनकर्ता"
+      ],
+      "CSS URL": [
+        "सीएसएस यूआरएल"
+      ],
+      "Current": [
+        "मौजूदा"
+      ],
+      "Current Default Properties": [
+        "वर्तमान डिफ़ॉल्ट गुण"
+      ],
+      "Custom": [
+        "रिवाज़"
+      ],
+      "Custom Elements": [
+        "कस्टम तत्व"
+      ],
+      "Custom font name, ie. Helvetica": [
+        "कस्टम फ़ॉन्ट नाम, यानी. Helvetica"
+      ],
+      "Custom Fonts": [
+        "कस्टम फोंट"
+      ],
+      "Custom width (px)": [
+        "कस्टम चौड़ाई (पीएक्स)"
+      ],
+      "Custom: %s": [
+        "प्रथाएँ"
+      ],
+      "Custom...": [
+        "रिवाज़..."
+      ],
+      "cut": [
+        "काटना"
+      ],
+      "Cycle to the next breakpoint": [
+        "अगले ब्रेकप्वाइंट तक साइकिल चलाएं"
+      ],
+      "Dark Mode": [
+        "डार्क मोड"
+      ],
+      "Dashboard": [
+        "डैशबोर्ड"
+      ],
+      "Date": [
+        "तारीख"
+      ],
+      "Date picker options": [
+        "दिनांक चयनकर्ता विकल्प"
+      ],
+      "De-activate the active element or close modal": [
+        "सक्रिय तत्व को निष्क्रिय करें या मोडल को बंद करें"
+      ],
+      "Decides if the dependencies are added to the builder": [
+        "यह तय करता है कि निर्भरताएँ बिल्डर में जोड़ी गई हैं या नहीं"
+      ],
+      "Decides if the dependencies are added to the frontend": [
+        "यह तय करता है कि निर्भरताएँ फ्रंटएंड में जोड़ी गई हैं या नहीं"
+      ],
+      "Decoration": [
+        "सजावट"
+      ],
+      "Default": [
+        "गलती करना"
+      ],
+      "Default Children": [
+        "डिफ़ॉल्ट बच्चे"
+      ],
+      "Default CSS": [
+        "डिफ़ॉल्ट सीएसएस"
+      ],
+      "Default Element": [
+        "डिफ़ॉल्ट तत्व"
+      ],
+      "Default Elements": [
+        "डिफ़ॉल्ट तत्व"
+      ],
+      "Default Preview Width": [
+        "डिफ़ॉल्ट पूर्वावलोकन चौड़ाई"
+      ],
+      "Default Properties": [
+        "डिफ़ॉल्ट गुण"
+      ],
+      "Default Tag": [
+        "डिफ़ॉल्ट टैग"
+      ],
+      "Default Title": [
+        "डिफ़ॉल्ट शीर्षक"
+      ],
+      "Default Type": [
+        "डिफ़ॉल्ट प्रकार"
+      ],
+      "Default Unit Type": [
+        "डिफ़ॉल्ट इकाई प्रकार"
+      ],
+      "Defaults to \"Add Item\".": [
+        "डिफ़ॉल्ट रूप से \"आइटम जोड़ें\"।"
+      ],
+      "Delete": [
+        "मिटाना"
+      ],
+      "Delete active element": [
+        "सक्रिय तत्व हटाएँ"
+      ],
+      "Delete nested selector permanently?": [
+        "नेस्टेड चयनकर्ता को स्थायी रूप से हटाएँ?"
+      ],
+      "Delete permanently": [
+        "स्थायी रूप से हटाएँ"
+      ],
+      "Delete selector permanently?": [
+        "चयनकर्ता को स्थायी रूप से हटाएँ?"
+      ],
+      "Delete?": [
+        "मिटाना?"
+      ],
+      "Deleted": [
+        "हटाए गए"
+      ],
+      "Dependencies": [
+        "निर्भरताएँ"
+      ],
+      "Dependency": [
+        "निर्भरता"
+      ],
+      "Descending": [
+        "अवरोही"
+      ],
+      "Describe This Section": [
+        "इस अनुभाग का वर्णन करें"
+      ],
+      "Describe Your Business": [
+        "अपने व्यवसाय का वर्णन करें"
+      ],
+      "Describe your website in a sentence or two": [
+        "एक या दो वाक्यों में अपनी वेबसाइट का वर्णन करें"
+      ],
+      "Description": [
+        "विवरण"
+      ],
+      "Design": [
+        "डिज़ाइन"
+      ],
+      "Design Library": [
+        "डिज़ाइन लाइब्रेरी"
+      ],
+      "Design Presets": [
+        "डिज़ाइन प्रीसेट"
+      ],
+      "Design Presets are only available in %s Pro. They won't work on the frontend.": [
+        "डिज़ाइन प्रीसेट केवल %s Pro में उपलब्ध हैं। वे फ़्रंटएंड पर काम नहीं करेंगे."
+      ],
+      "Design Set": [
+        "डिज़ाइन सेट"
+      ],
+      "Design Set:": [
+        "डिज़ाइन सेट:"
+      ],
+      "Design Template": [
+        "डिज़ाइन टेम्पलेट"
+      ],
+      "Detach": [
+        "अलग करें"
+      ],
+      "Detach Styles": [
+        "शैलियों को अलग करें"
+      ],
+      "Details & Troubleshooting": [
+        "विवरण एवं समस्या निवारण"
+      ],
+      "Dimensions": [
+        "DIMENSIONS"
+      ],
+      "Direction": [
+        "दिशा"
+      ],
+      "Disable AI": [
+        "एआई अक्षम करें"
+      ],
+      "Disable At": [
+        "पर अक्षम करें"
+      ],
+      "Disable Autoplay": [
+        "ऑटोप्ले अक्षम करें"
+      ],
+      "Disable Code Editor Line Wrapping": [
+        "कोड संपादक लाइन रैपिंग अक्षम करें"
+      ],
+      "Disable Custom Unit Dropdown": [
+        "कस्टम यूनिट ड्रॉपडाउन अक्षम करें"
+      ],
+      "Disable In FutureLayer": [
+        "FutureLayer में अक्षम करें"
+      ],
+      "Disable Message For Empty SSR Elements": [
+        "खाली SSR तत्वों के लिए संदेश अक्षम करें"
+      ],
+      "Disable Type Safety:": [
+        "प्रकार सुरक्षा अक्षम करें:"
+      ],
+      "Disable Wrapper HTML Tag (frontend-only)": [
+        "रैपर HTML टैग अक्षम करें (केवल फ्रंटएंड)"
+      ],
+      "Disallow if others are present": [
+        "यदि अन्य मौजूद हों तो अनुमति न दें"
+      ],
+      "Discard": [
+        "खारिज करना"
+      ],
+      "Discard my changes": [
+        "मेरे परिवर्तन त्यागें"
+      ],
+      "Div": [
+        "डिव"
+      ],
+      "Do not show this popup if any other popup has already shown": [
+        "यदि कोई अन्य पॉपअप पहले ही दिखाया जा चुका है तो इस पॉपअप को न दिखाएं"
+      ],
+      "documentation": [
+        "प्रलेखन"
+      ],
+      "Documentation": [
+        "प्रलेखन"
+      ],
+      "does not contain": [
+        "शामिल नहीं है"
+      ],
+      "Don't add srcset attribute to the Image object": [
+        "Image ऑब्जेक्ट में srcset विशेषता न जोड़ें"
+      ],
+      "Download": [
+        "डाउनलोड करना"
+      ],
+      "drag .woff or .woff2 files or": [
+        ".woff या .woff2 फ़ाइलें खींचें या"
+      ],
+      "Drag %s.json here": [
+        "%s.json को यहां खींचें"
+      ],
+      "Drag element": [
+        "तत्व खींचें"
+      ],
+      "Drag SVGs or an IcoMoon symbol-defs.svg file here or click to choose a file": [
+        "SVGs या IcoMoon Symbol-defs.svg फ़ाइल को यहां खींचें या फ़ाइल चुनने के लिए क्लिक करें"
+      ],
+      "Drag to reorder": [
+        "पुन: व्यवस्थित करने के लिए खींचें"
+      ],
+      "Dropdown items": [
+        "ड्रॉपडाउन आइटम"
+      ],
+      "Dropdown options": [
+        "ड्रॉपडाउन विकल्प"
+      ],
+      "dump search results": [
+        "खोज परिणाम डंप करें"
+      ],
+      "Duplicate": [
+        "डुप्लिकेट"
+      ],
+      "Duplicate the active element": [
+        "सक्रिय तत्व को डुप्लिकेट करें"
+      ],
+      "Duplicating template \"%s\" failed": [
+        "डुप्लिकेटिंग टेम्प्लेट \"%s\" विफल रहा"
+      ],
+      "Dynamic Behavior Works": [
+        "गतिशील व्यवहार कार्य"
+      ],
+      "Dynamic Behavior Works:": [
+        "गतिशील व्यवहार कार्य:"
+      ],
+      "Dynamic Property": [
+        "गतिशील संपत्ति"
+      ],
+      "Dynamic Property Path": [
+        "गतिशील संपत्ति पथ"
+      ],
+      "Dynamic Property Paths (deprecated)": [
+        "गतिशील संपत्ति पथ (अस्वीकृत)"
+      ],
+      "Dynamic Property Type": [
+        "गतिशील संपत्ति प्रकार"
+      ],
+      "Edit": [
+        "संपादन करना"
+      ],
+      "Edit anyway": [
+        "फिर भी संपादित करें"
+      ],
+      "Edit Anyway": [
+        "फिर भी संपादित करें"
+      ],
+      "Edit Component": [
+        "घटक संपादित करें"
+      ],
+      "Edit Conditions": [
+        "शर्तें संपादित करें"
+      ],
+      "Edit in %s": [
+        "%s में संपादित करें"
+      ],
+      "Edit in Builder": [
+        "बिल्डर में संपादित करें"
+      ],
+      "Edit Link": [
+        "लिंक संपादित करें"
+      ],
+      "Edit Query": [
+        "क्वेरी संपादित करें"
+      ],
+      "Edit Settings": [
+        "विन्यास बदलें"
+      ],
+      "Edit Template": [
+        "टेम्पलेट संपादित करें"
+      ],
+      "Edit the template anyway - this is not an error.": [
+        "टेम्पलेट को किसी भी तरह संपादित करें - यह कोई त्रुटि नहीं है।"
+      ],
+      "editing hover style": [
+        "होवर शैली का संपादन"
+      ],
+      "Editing Preset": [
+        "प्रीसेट संपादित करना"
+      ],
+      "Editing Selector": [
+        "संपादन चयनकर्ता"
+      ],
+      "Element": [
+        "तत्व"
+      ],
+      "Element activated": [
+        "तत्व सक्रिय हो गया"
+      ],
+      "Element depends on global scripts to work": [
+        "तत्व काम करने के लिए वैश्विक स्क्रिप्ट पर निर्भर करता है"
+      ],
+      "Element Properties": [
+        "तत्व गुण"
+      ],
+      "Element Studio": [
+        "एलिमेंट स्टूडियो"
+      ],
+      "Element Studio is for developers and is provided as-is.": [
+        "एलिमेंट स्टूडियो डेवलपर्स के लिए है और इसे यथावत प्रदान किया जाता है।"
+      ],
+      "Element that will be automatically added inside this current element": [
+        "वह तत्व जो स्वचालित रूप से इस वर्तमान तत्व के अंदर जुड़ जाएगा"
+      ],
+      "Element to be a descendant of": [
+        "तत्व का वंशज होना"
+      ],
+      "Element to be a direct child of": [
+        "तत्व की प्रत्यक्ष संतान होना"
+      ],
+      "Element Type": [
+        "तत्व प्रकार"
+      ],
+      "Element's class:": [
+        "तत्व का वर्ग:"
+      ],
+      "Elements": [
+        "तत्वों"
+      ],
+      "Email": [
+        "ईमेल"
+      ],
+      "Embedding...": [
+        "एम्बेडिंग..."
+      ],
+      "Empty Trash": [
+        "कचरा खाली करें"
+      ],
+      "Enable dynamic property": [
+        "गतिशील संपत्ति सक्षम करें"
+      ],
+      "Enable gallery mode": [
+        "गैलरी मोड सक्षम करें"
+      ],
+      "Enable Grid Mode": [
+        "ग्रिड मोड सक्षम करें"
+      ],
+      "Enable Hover": [
+        "होवर सक्षम करें"
+      ],
+      "Enable Media Queries": [
+        "मीडिया क्वेरीज़ सक्षम करें"
+      ],
+      "Enable Never": [
+        "कभी भी सक्षम न करें"
+      ],
+      "Enable Paste": [
+        "पेस्ट सक्षम करें"
+      ],
+      "Enable spacing bars": [
+        "रिक्ति पट्टियाँ सक्षम करें"
+      ],
+      "Enable variables": [
+        "वेरिएबल सक्षम करें"
+      ],
+      "Enable Variables": [
+        "वेरिएबल सक्षम करें"
+      ],
+      "Enter a name": [
+        "नाम डालें"
+      ],
+      "Enter name": [
+        "नाम दर्ज करें"
+      ],
+      "Enter Password": [
+        "पास वर्ड दर्ज करें"
+      ],
+      "Environment & details": [
+        "पर्यावरण और विवरण"
+      ],
+      "equals": [
+        "के बराबर होती है"
+      ],
+      "Error Code: %s": [
+        "त्रुटि कोड: %s"
+      ],
+      "Error Details": [
+        "त्रुटि विवरण"
+      ],
+      "Error importing %s for \"%s\"": [
+        "\" %s\" के लिए %s आयात करने में त्रुटि"
+      ],
+      "Error importing %s.": [
+        "%s आयात करने में त्रुटि."
+      ],
+      "Error importing Design Presets for \"%s\"": [
+        "\"%s\" के लिए डिज़ाइन प्रीसेट आयात करने में त्रुटि"
+      ],
+      "Error importing Selectors - the file is empty.": [
+        "चयनकर्ताओं को आयात करने में त्रुटि - फ़ाइल खाली है।"
+      ],
+      "Error importing Selectors - the file is invalid.": [
+        "चयनकर्ताओं को आयात करने में त्रुटि - फ़ाइल अमान्य है।"
+      ],
+      "Error importing Variables - the file is invalid or empty.": [
+        "वेरिएबल आयात करने में त्रुटि - फ़ाइल अमान्य या खाली है।"
+      ],
+      "Error importing Variables - the file is invalid.": [
+        "वेरिएबल आयात करने में त्रुटि - फ़ाइल अमान्य है।"
+      ],
+      "Error saving new space bar, please fill out all fields": [
+        "नया स्पेस बार सहेजने में त्रुटि, कृपया सभी फ़ील्ड भरें"
+      ],
+      "Error trashing existing Templates, Headers, Footers, %s, and Popups.": [
+        "मौजूदा टेम्प्लेट, हेडर, फ़ुटर, %s और पॉपअप को ट्रैश करने में त्रुटि।"
+      ],
+      "error: failed to load elements": [
+        "त्रुटि: तत्वों को लोड करने में विफल"
+      ],
+      "Error: no registered saving locations. Using the %s plugin will automatically register a saving location.": [
+        "त्रुटि: कोई पंजीकृत बचत स्थान नहीं. %s प्लगइन का उपयोग करने से स्वचालित रूप से एक बचत स्थान पंजीकृत हो जाएगा।"
+      ],
+      "Everywhere": [
+        "हर जगह"
+      ],
+      "Example:\nShorten the following text": [
+        "उदाहरण:\nनिम्नलिखित पाठ को छोटा करें"
+      ],
+      "Examples:": [
+        "उदाहरण:"
+      ],
+      "Execute code": [
+        "कोड निष्पादित करें"
+      ],
+      "Existing Classes": [
+        "मौजूदा कक्षाएं"
+      ],
+      "Exit": [
+        "बाहर निकलना"
+      ],
+      "Exit to Frontend": [
+        "फ़्रंटएंड से बाहर निकलें"
+      ],
+      "Exit to WordPress": [
+        "वर्डप्रेस से बाहर निकलें"
+      ],
+      "Expand": [
+        "बढ़ाना"
+      ],
+      "Experimental Element?": [
+        "प्रायोगिक तत्व?"
+      ],
+      "Experimental: Show Previous Breakpoint Value As Placeholder": [
+        "प्रायोगिक: प्लेसहोल्डर के रूप में पिछला ब्रेकप्वाइंट मान दिखाएं"
+      ],
+      "Export": [
+        "निर्यात"
+      ],
+      "Export %s": [
+        "%s निर्यात करें"
+      ],
+      "External conditions can't be edited": [
+        "बाहरी स्थितियाँ संपादित नहीं की जा सकतीं"
+      ],
+      "Failed to delete element": [
+        "तत्व हटाने में विफल"
+      ],
+      "Failed to export icon set.": [
+        "आइकन सेट निर्यात करने में विफल."
+      ],
+      "Failed to get a response from OpenAI API, please try again.": [
+        "OpenAI API से प्रतिक्रिया प्राप्त करने में विफल, कृपया पुनः प्रयास करें।"
+      ],
+      "Failed to get Unsplash keywords from OpenAI API.": [
+        "OpenAI API से अनस्प्लैश कीवर्ड प्राप्त करने में विफल।"
+      ],
+      "Failed to import all %s.": [
+        "सभी %s आयात करने में विफल."
+      ],
+      "Failed to load necessary post types for the Wp Query control": [
+        "Wp क्वेरी नियंत्रण के लिए आवश्यक पोस्ट प्रकार लोड करने में विफल"
+      ],
+      "Failed to save element, check console": [
+        "तत्व सहेजने में विफल, कंसोल की जाँच करें"
+      ],
+      "Fallback": [
+        "मैदान छोड़ना"
+      ],
+      "Fetch context path": [
+        "संदर्भ पथ प्राप्त करें"
+      ],
+      "Fetch data action route name": [
+        "डेटा क्रिया मार्ग का नाम प्राप्त करें"
+      ],
+      "Fetch images from Unsplash to use in your content, they are automatically added to Image elements in the selected section.": [
+        "अपनी सामग्री में उपयोग करने के लिए अनस्प्लैश से छवियां प्राप्त करें, वे स्वचालित रूप से चयनित अनुभाग में छवि तत्वों में जुड़ जाती हैं।"
+      ],
+      "Field": [
+        "मैदान"
+      ],
+      "Field's Value": [
+        "फ़ील्ड का मान"
+      ],
+      "File accepted": [
+        "फ़ाइल स्वीकृत"
+      ],
+      "File:": [
+        "फ़ाइल:"
+      ],
+      "Fill Empty Images Only": [
+        "केवल खाली छवियाँ भरें"
+      ],
+      "Filter by type": [
+        "प्रकार के अनुसार फ़िल्टर करें"
+      ],
+      "Filtering": [
+        "छनन"
+      ],
+      "Finished recreating all posts cache": [
+        "सभी पोस्ट कैश को पुनः बनाना समाप्त हो गया"
+      ],
+      "Focus Point Options": [
+        "फोकस बिंदु विकल्प"
+      ],
+      "Focus the properties search box and toggle the option to search advanced settings (element properties panel only).": [
+        "गुण खोज बॉक्स पर ध्यान केंद्रित करें और उन्नत सेटिंग्स (केवल तत्व गुण पैनल) खोजने के विकल्प को टॉगल करें।"
+      ],
+      "Focus the properties search box.": [
+        "गुण खोज बॉक्स पर ध्यान केंद्रित करें."
+      ],
+      "Font Family": [
+        "फुहारा परिवार"
+      ],
+      "Font Size": [
+        "फ़ॉन्ट आकार"
+      ],
+      "Font Weight": [
+        "फ़ॉन्ट वजन"
+      ],
+      "Footer": [
+        "फ़ुटबाल"
+      ],
+      "Footers": [
+        "पाद लेख"
+      ],
+      "Forever": [
+        "हमेशा के लिए"
+      ],
+      "Format Code (%s)": [
+        "प्रारूप कोड (%s)"
+      ],
+      "from %s to %s": [
+        "%s से %s तक"
+      ],
+      "Frontend Condition (empty)": [
+        "फ्रंटएंड स्थिति (खाली)"
+      ],
+      "Frontend Condition (present)": [
+        "फ्रंटएंड स्थिति (वर्तमान)"
+      ],
+      "Full": [
+        "भरा हुआ"
+      ],
+      "Gallery Media Path": [
+        "गैलरी मीडिया पथ"
+      ],
+      "Generate example": [
+        "उदाहरण उत्पन्न करें"
+      ],
+      "Generating your sitemap...": [
+        "आपका साइटमैप जनरेट किया जा रहा है..."
+      ],
+      "Get %s Pro to get access to all popup triggers.": [
+        "सभी पॉपअप ट्रिगर्स तक पहुंच पाने के लिए %s Pro प्राप्त करें।"
+      ],
+      "Get %s Pro to get access to all the conditions.": [
+        "सभी शर्तों तक पहुंच पाने के लिए %s Pro प्राप्त करें।"
+      ],
+      "Get Pro": [
+        "प्रो प्राप्त करें"
+      ],
+      "Get the Tag from a Control's path": [
+        "नियंत्रण पथ से टैग प्राप्त करें"
+      ],
+      "Getting Posts IDs to import": [
+        "आयात करने के लिए पोस्ट आईडी प्राप्त करना"
+      ],
+      "Getting template IDs to import": [
+        "आयात करने के लिए टेम्पलेट आईडी प्राप्त करना"
+      ],
+      "Global Settings": [
+        "वैश्विक सेटिंग्स"
+      ],
+      "Globals": [
+        "वैश्विक"
+      ],
+      "Go back": [
+        "वापस जाओ"
+      ],
+      "Go home": [
+        "घर जाओ"
+      ],
+      "Go To Slide": [
+        "स्लाइड पर जाएँ"
+      ],
+      "Go to the parent of the active element": [
+        "सक्रिय तत्व के जनक के पास जाएँ"
+      ],
+      "Gradient Only": [
+        "केवल ग्रेडिएंट"
+      ],
+      "Hang tight...": [
+        "कस के लटकाओ..."
+      ],
+      "Hardcode a value:": [
+        "किसी मान को हार्डकोड करें:"
+      ],
+      "Has Dynamic Stuff": [
+        "गतिशील सामग्री है"
+      ],
+      "Header": [
+        "हैडर"
+      ],
+      "Headers": [
+        "हेडर"
+      ],
+      "Headings": [
+        "शीर्षकों"
+      ],
+      "Height": [
+        "ऊंचाई"
+      ],
+      "Here's what happened:": [
+        "यहाँ क्या हुआ:"
+      ],
+      "Hi Hosting Provider Support,": [
+        "नमस्ते होस्टिंग प्रदाता सहायता,"
+      ],
+      "Hide Control From Specific Elements": [
+        "विशिष्ट तत्वों से नियंत्रण छिपाएँ"
+      ],
+      "Hide Feedback": [
+        "फीडबैक छुपाएं"
+      ],
+      "history": [
+        "इतिहास"
+      ],
+      "History": [
+        "इतिहास"
+      ],
+      "History & Revisions": [
+        "इतिहास और संशोधन"
+      ],
+      "Homepage hero section": [
+        "मुखपृष्ठ नायक अनुभाग"
+      ],
+      "How can we improve this experience?": [
+        "हम इस अनुभव को कैसे सुधार सकते हैं?"
+      ],
+      "How would you like to get started?": [
+        "आप कैसे शुरुआत करना चाहेंगे?"
+      ],
+      "HTML": [
+        "एचटीएमएल"
+      ],
+      "HTML Attribute": [
+        "HTML विशेषता"
+      ],
+      "HTML Attributes": [
+        "HTML विशेषताएँ"
+      ],
+      "HTML Tag options": [
+        "HTML टैग विकल्प"
+      ],
+      "I'll save them": [
+        "मैं उन्हें बचाऊंगा"
+      ],
+      "Icon": [
+        "आइकन"
+      ],
+      "Icon Library": [
+        "चिह्न पुस्तकालय"
+      ],
+      "Icon Options": [
+        "चिह्न विकल्प"
+      ],
+      "ID": [
+        "पहचान"
+      ],
+      "ID %s": [
+        "आईडी %s"
+      ],
+      "ie. ACME Studios": [
+        "यानी. एसीएमई स्टूडियो"
+      ],
+      "If": [
+        "अगर"
+      ],
+      "If any code is present and the result returns a %s value the dependencies will be added.": [
+        "यदि कोई कोड मौजूद है और परिणाम %s मान लौटाता है तो निर्भरताएं जोड़ दी जाएंगी।"
+      ],
+      "If it returns %s no dependencies are added.": [
+        "यदि यह %s लौटाता है तो कोई निर्भरता नहीं जोड़ी जाती है।"
+      ],
+      "If this isn't something you can fix, please send me the full text of the error from the relevant error log file.": [
+        "यदि यह कुछ ऐसा नहीं है जिसे आप ठीक कर सकते हैं, तो कृपया मुझे संबंधित त्रुटि लॉग फ़ाइल से त्रुटि का पूरा पाठ भेजें।"
+      ],
+      "Ignore current post": [
+        "वर्तमान पोस्ट पर ध्यान न दें"
+      ],
+      "Ignore sticky posts": [
+        "चिपचिपी पोस्टों पर ध्यान न दें"
+      ],
+      "Image": [
+        "छवि"
+      ],
+      "Image Path": [
+        "छवि पथ"
+      ],
+      "Import": [
+        "आयात"
+      ],
+      "Import all children of the currently active element": [
+        "वर्तमान में सक्रिय तत्व के सभी बच्चों को आयात करें"
+      ],
+      "Import Children": [
+        "बच्चों को आयात करें"
+      ],
+      "Import Design Presets": [
+        "डिज़ाइन प्रीसेट आयात करें"
+      ],
+      "Import Images From Unsplash": [
+        "अनस्प्लैश से छवियाँ आयात करें"
+      ],
+      "Import Page": [
+        "पेज आयात करें"
+      ],
+      "Import Settings": [
+        "सेटिंग आयात करना"
+      ],
+      "Imported %s from \"%s\"": [
+        "\" %s\" से आयातित %s"
+      ],
+      "Imported Design Presets from \"%s\"": [
+        "\"%s\" से आयातित डिज़ाइन प्रीसेट"
+      ],
+      "Importing %s.": [
+        "%s आयात कर रहा हूँ."
+      ],
+      "Importing a full site will replace your site's": [
+        "पूरी साइट आयात करने से आपकी साइट प्रतिस्थापित हो जाएगी"
+      ],
+      "Importing all post and pages": [
+        "सभी पोस्ट और पेज आयात किए जा रहे हैं"
+      ],
+      "Importing Design Presets": [
+        "डिज़ाइन प्रीसेट आयात करना"
+      ],
+      "Importing from this design set will replace some of your current settings.": [
+        "इस डिज़ाइन सेट से आयात करने से आपकी कुछ मौजूदा सेटिंग्स बदल जाएंगी।"
+      ],
+      "Importing Global Settings": [
+        "वैश्विक सेटिंग्स आयात करना"
+      ],
+      "Importing homepage id": [
+        "मुखपृष्ठ आईडी आयात किया जा रहा है"
+      ],
+      "Importing Oxy Selectors": [
+        "ऑक्सी चयनकर्ता आयात करना"
+      ],
+      "Importing template with ID \"%s\"": [
+        "आईडी \"%s\" के साथ टेम्पलेट आयात किया जा रहा है"
+      ],
+      "Importing the \"%s\" site": [
+        "\"%s\" साइट को आयात किया जा रहा है"
+      ],
+      "Importing the data": [
+        "डेटा आयात करना"
+      ],
+      "Importing Variables": [
+        "चर आयात करना"
+      ],
+      "in": [
+        "में"
+      ],
+      "Include": [
+        "शामिल करना"
+      ],
+      "Include by": [
+        "द्वारा शामिल करें"
+      ],
+      "Include Custom Breakpoints in Breakpoint Dropdowns": [
+        "ब्रेकप्वाइंट ड्रॉपडाउन में कस्टम ब्रेकप्वाइंट शामिल करें"
+      ],
+      "Include Settings": [
+        "सेटिंग्स शामिल करें"
+      ],
+      "Initial State": [
+        "आरंभिक राज्य"
+      ],
+      "Inline Editable": [
+        "इनलाइन संपादन योग्य"
+      ],
+      "Inline Editable Block Path": [
+        "इनलाइन संपादन योग्य ब्लॉक पथ"
+      ],
+      "Inline Scripts (%s)": [
+        "इनलाइन स्क्रिप्ट (%s)"
+      ],
+      "Inline Styles (%s)": [
+        "इनलाइन शैलियाँ (%s)"
+      ],
+      "Input": [
+        "इनपुट"
+      ],
+      "Insert": [
+        "डालना"
+      ],
+      "Insert Dynamic Data": [
+        "डायनामिक डेटा डालें"
+      ],
+      "Install now": [
+        "अब स्थापित करें"
+      ],
+      "Install Now": [
+        "अब स्थापित करें"
+      ],
+      "Interaction": [
+        "इंटरैक्शन"
+      ],
+      "Interactions": [
+        "इंटरैक्शन"
+      ],
+      "Internal Element Project Management Tool": [
+        "आंतरिक तत्व परियोजना प्रबंधन उपकरण"
+      ],
+      "Internal Server Error": [
+        "आंतरिक सर्वर त्रुटि"
+      ],
+      "Invalid class name": [
+        "अमान्य वर्ग नाम"
+      ],
+      "Invalid password. Please try again.": [
+        "अवैध पासवर्ड। कृपया पुन: प्रयास करें।"
+      ],
+      "Invalid post": [
+        "अमान्य पोस्ट"
+      ],
+      "invalid selector name": [
+        "अमान्य चयनकर्ता नाम"
+      ],
+      "is after": [
+        "के बाद है"
+      ],
+      "is before": [
+        "पहले है"
+      ],
+      "is greater than": [
+        "से बड़ा है"
+      ],
+      "is less than": [
+        "मै रुक जाना"
+      ],
+      "is none of": [
+        "इनमें से कोई नहीं है"
+      ],
+      "is not set": [
+        "सेट नहीं है"
+      ],
+      "is one of": [
+        "में से एक है"
+      ],
+      "Is Pro Only": [
+        "केवल प्रो है"
+      ],
+      "is set": [
+        "सेट है"
+      ],
+      "It can also be caused by misconfigured security plugins (if you're using Wordfence, put it into learning mode)": [
+        "यह गलत तरीके से कॉन्फ़िगर किए गए सुरक्षा प्लगइन्स के कारण भी हो सकता है (यदि आप वर्डफ़ेंस का उपयोग कर रहे हैं, तो इसे लर्निंग मोड में रखें)"
+      ],
+      "Italic": [
+        "तिरछा"
+      ],
+      "Item": [
+        "वस्तु"
+      ],
+      "JavaScript": [
+        "जावास्क्रिप्ट"
+      ],
+      "Keywords": [
+        "कीवर्ड"
+      ],
+      "Label": [
+        "लेबल"
+      ],
+      "Landscape": [
+        "परिदृश्य"
+      ],
+      "Last edited: Newest first": [
+        "अंतिम संपादित: नवीनतम प्रथम"
+      ],
+      "Last edited: Oldest first": [
+        "अंतिम संपादित: सबसे पुराना प्रथम"
+      ],
+      "Last modified date": [
+        "अंतिम संशोधित तिथि"
+      ],
+      "Layout": [
+        "लेआउट"
+      ],
+      "Leave Feedback": [
+        "प्रतिक्रिया दें"
+      ],
+      "left": [
+        "बाएं"
+      ],
+      "Left": [
+        "बाएं"
+      ],
+      "Let's get started": [
+        "आएँ शुरू करें"
+      ],
+      "Letter Spacing": [
+        "पत्र अंतराल"
+      ],
+      "Library": [
+        "पुस्तकालय"
+      ],
+      "Lightbox": [
+        "प्रकाश बॉक्स"
+      ],
+      "Limit how often this popup shows": [
+        "यह पॉपअप कितनी बार दिखाई दे, इसे सीमित करें"
+      ],
+      "Line": [
+        "रेखा"
+      ],
+      "Line Height": [
+        "ऊंची लाईन"
+      ],
+      "Line Height (deprecated)": [
+        "रेखा की ऊंचाई (अस्वीकृत)"
+      ],
+      "Linear": [
+        "रेखीय"
+      ],
+      "Link": [
+        "जोड़ना"
+      ],
+      "Live Preview": [
+        "लाइव पूर्वावलोकन"
+      ],
+      "Live preview changes": [
+        "लाइव पूर्वावलोकन परिवर्तन"
+      ],
+      "Loading...": [
+        "लोड हो रहा है..."
+      ],
+      "Local": [
+        "स्थानीय"
+      ],
+      "Location": [
+        "जगह"
+      ],
+      "Location is required": [
+        "स्थान आवश्यक है"
+      ],
+      "Lock": [
+        "ताला"
+      ],
+      "Lock all": [
+        "सभी को लॉक करें"
+      ],
+      "Login": [
+        "लॉग इन करें"
+      ],
+      "Looking for inspiration?": [
+        "प्रेरणा की तलाश?"
+      ],
+      "Looks Good": [
+        "अच्छा लग रहा है"
+      ],
+      "Looks Good:": [
+        "अच्छा लग रहा है:"
+      ],
+      "Macro": [
+        "मैक्रो"
+      ],
+      "Macros": [
+        "मैक्रो"
+      ],
+      "Make all control values in this section available in all breakpoints": [
+        "इस अनुभाग में सभी नियंत्रण मानों को सभी ब्रेकप्वाइंट में उपलब्ध कराएं"
+      ],
+      "Make dynamic data Pro only": [
+        "डायनामिक डेटा प्रो केवल बनाएं"
+      ],
+      "Make into a macro": [
+        "एक मैक्रो बनाएं"
+      ],
+      "Make into a Preset": [
+        "एक प्रीसेट बनाएं"
+      ],
+      "Make modal full screen": [
+        "मोडल पूर्ण स्क्रीन बनाएं"
+      ],
+      "Make the element SSR when any child control value changes": [
+        "जब कोई चाइल्ड कंट्रोल मान बदलता है तो तत्व SSR बनाएं"
+      ],
+      "Make the element SSR when this control's value changes": [
+        "जब इस नियंत्रण का मान बदलता है तो तत्व SSR बनाएं"
+      ],
+      "Make the text more formal": [
+        "पाठ को अधिक औपचारिक बनाएं"
+      ],
+      "Make the text more interesting": [
+        "पाठ को और अधिक रोचक बनाएं"
+      ],
+      "Make this control's value available in all breakpoints": [
+        "इस नियंत्रण का मान सभी ब्रेकप्वाइंट में उपलब्ध कराएं"
+      ],
+      "Manage Presets": [
+        "प्रीसेट प्रबंधित करें"
+      ],
+      "Managing custom fonts is only available in %s Pro": [
+        "कस्टम फ़ॉन्ट प्रबंधित करना केवल %s Pro में उपलब्ध है"
+      ],
+      "Margin": [
+        "अंतर"
+      ],
+      "Match": [
+        "मिलान"
+      ],
+      "Max (Integer)": [
+        "अधिकतम (पूर्णांक)"
+      ],
+      "Maximum width (px)": [
+        "अधिकतम चौड़ाई (पीएक्स)"
+      ],
+      "Media Size Options": [
+        "मीडिया आकार विकल्प"
+      ],
+      "Mention apples, oranges, and bananas": [
+        "सेब, संतरे और केले का उल्लेख करें"
+      ],
+      "Menu": [
+        "मेनू"
+      ],
+      "Menu order": [
+        "मेनू क्रम"
+      ],
+      "Merge with the existing %s.": [
+        "मौजूदा %s के साथ विलय करें."
+      ],
+      "Message": [
+        "संदेश"
+      ],
+      "Meta Box": [
+        "मेटा बॉक्स"
+      ],
+      "Meta Query": [
+        "मेटा क्वेरी"
+      ],
+      "Min (Integer)": [
+        "न्यूनतम (पूर्णांक)"
+      ],
+      "Minimum width (px)": [
+        "न्यूनतम चौड़ाई (पीएक्स)"
+      ],
+      "Misc options": [
+        "विविध विकल्प"
+      ],
+      "Misc Options": [
+        "विविध विकल्प"
+      ],
+      "Missing badge label": [
+        "बैज लेबल गुम है"
+      ],
+      "Modified": [
+        "संशोधित"
+      ],
+      "More formal": [
+        "जायदा औपचारिकत"
+      ],
+      "More interesting": [
+        "अधिक दिलचस्प"
+      ],
+      "Multiline": [
+        "बहुपंक्ति"
+      ],
+      "Multiline Bar": [
+        "मल्टीलाइन बार"
+      ],
+      "Multiple": [
+        "विभिन्न"
+      ],
+      "Name": [
+        "नाम"
+      ],
+      "Name is already in use": [
+        "नाम पहले से ही प्रयोग में है"
+      ],
+      "Name must be 1 character or more": [
+        "नाम 1 अक्षर या अधिक होना चाहिए"
+      ],
+      "Nested Selectors": [
+        "नेस्टेड चयनकर्ता"
+      ],
+      "Nesting rules": [
+        "घोंसला बनाने के नियम"
+      ],
+      "Never": [
+        "कभी नहीं"
+      ],
+      "New Control": [
+        "नया नियंत्रण"
+      ],
+      "New Section": [
+        "नया अनुभाग"
+      ],
+      "Next": [
+        "अगला"
+      ],
+      "Next Slide": [
+        "अगली स्लाइड"
+      ],
+      "Next Steps": [
+        "अगले कदम"
+      ],
+      "No %s found :(": [
+        "कोई %s नहीं मिला :("
+      ],
+      "No ACF fields found": [
+        "कोई ACF फ़ील्ड नहीं मिला"
+      ],
+      "No Active Element": [
+        "कोई सक्रिय तत्व नहीं"
+      ],
+      "No available extra elements.": [
+        "कोई अतिरिक्त तत्व उपलब्ध नहीं."
+      ],
+      "No Available Label": [
+        "कोई उपलब्ध लेबल नहीं"
+      ],
+      "No code help available for %s control type": [
+        "%s नियंत्रण प्रकार के लिए कोई कोड सहायता उपलब्ध नहीं है"
+      ],
+      "No conditions yet.": [
+        "अभी कोई शर्त नहीं."
+      ],
+      "No data available": [
+        "कोई डेटा मौजूद नहीं"
+      ],
+      "No data. Select a path first": [
+        "कोई डेटा नहीं। पहले एक पथ चुनें"
+      ],
+      "No Elements": [
+        "कोई तत्व नहीं"
+      ],
+      "No elements were returned from OpenAI API.": [
+        "OpenAI API से कोई तत्व वापस नहीं किया गया।"
+      ],
+      "No fields were found matching the criteria.": [
+        "मानदंड से मेल खाता कोई फ़ील्ड नहीं पाया गया."
+      ],
+      "No icons found.": [
+        "कोई चिह्न नहीं मिला."
+      ],
+      "No image chosen": [
+        "कोई छवि नहीं चुनी गई"
+      ],
+      "No images found in this section": [
+        "इस अनुभाग में कोई छवि नहीं मिली"
+      ],
+      "No images found. Please try again with different keywords.": [
+        "कोई चित्र नहीं मिला. कृपया भिन्न कीवर्ड के साथ पुनः प्रयास करें।"
+      ],
+      "No images to complete. Please add an image to the section first.": [
+        "पूरा करने के लिए कोई चित्र नहीं. कृपया पहले अनुभाग में एक छवि जोड़ें।"
+      ],
+      "No items found": [
+        "कोई आइटम नहीं मिला"
+      ],
+      "No match found": [
+        "कोई मेल नहीं मिला"
+      ],
+      "No matching variables found.": [
+        "कोई मेल खाता वैरिएबल नहीं मिला."
+      ],
+      "No Meta Box fields found": [
+        "कोई मेटा बॉक्स फ़ील्ड नहीं मिला"
+      ],
+      "No presets available": [
+        "कोई प्रीसेट उपलब्ध नहीं है"
+      ],
+      "No relationship fields found": [
+        "कोई संबंध फ़ील्ड नहीं मिला"
+      ],
+      "No repeaters present": [
+        "कोई पुनरावर्तक मौजूद नहीं है"
+      ],
+      "No response was returned from OpenAI API.": [
+        "OpenAI API से कोई प्रतिक्रिया नहीं मिली."
+      ],
+      "no results": [
+        "कोई परिणाम नहीं"
+      ],
+      "No results apply to this template": [
+        "इस टेम्पलेट पर कोई परिणाम लागू नहीं होता"
+      ],
+      "No revisions found": [
+        "कोई संशोधन नहीं मिला"
+      ],
+      "No support is provided. Please read the": [
+        "कोई सहायता प्रदान नहीं की जाती. कृपया पढ़ें"
+      ],
+      "No variables": [
+        "कोई चर नहीं"
+      ],
+      "No Variables to import.": [
+        "आयात करने के लिए कोई वेरिएबल नहीं."
+      ],
+      "No, thanks": [
+        "जी नहीं, धन्यवाद"
+      ],
+      "None": [
+        "कोई नहीं"
+      ],
+      "Normal": [
+        "सामान्य"
+      ],
+      "Not available for external images": [
+        "बाहरी छवियों के लिए उपलब्ध नहीं है"
+      ],
+      "Not available when grid mode is enabled.": [
+        "ग्रिड मोड सक्षम होने पर उपलब्ध नहीं है।"
+      ],
+      "not equals": [
+        "बराबर नहीं"
+      ],
+      "Not happy with the generated sitemap?": [
+        "जेनरेट किए गए साइटमैप से खुश नहीं हैं?"
+      ],
+      "Note: This breaks JavaScript functionality that relies on the tag being present (Ex: %%SELECTOR%%)": [
+        "नोट: यह जावास्क्रिप्ट कार्यक्षमता को तोड़ता है जो मौजूद टैग पर निर्भर करता है (उदा: %%SELECTOR%%)"
+      ],
+      "Nothing to import for %s.": [
+        "%s के लिए आयात करने के लिए कुछ भी नहीं."
+      ],
+      "Nothing to preview": [
+        "पूर्वावलोकन करने के लिए कुछ भी नहीं"
+      ],
+      "Offset": [
+        "ओफ़्सेट"
+      ],
+      "Oh no! Your server returned a %s error. 😢": [
+        "अरे नहीं! आपके सर्वर ने %s त्रुटि लौटा दी. 😢"
+      ],
+      "on": [
+        "पर"
+      ],
+      "One-Click Write": [
+        "एक-क्लिक लिखें"
+      ],
+      "Only  \".woff\" and \".woff2\" files are supported": [
+        "केवल \".woff\" और \".woff2\" फ़ाइलें समर्थित हैं"
+      ],
+      "Only change to create complex elements": [
+        "केवल जटिल तत्व बनाने के लिए परिवर्तन करें"
+      ],
+      "Only Children Of This Element": [
+        "इस तत्व के केवल बच्चे"
+      ],
+      "Open": [
+        "खुला"
+      ],
+      "Open %s Editor": [
+        "%s संपादक खोलें"
+      ],
+      "Open add elements panel": [
+        "तत्व जोड़ें पैनल खोलें"
+      ],
+      "Open Design Library": [
+        "डिज़ाइन लाइब्रेरी खोलें"
+      ],
+      "Open design sets modal": [
+        "ओपन डिज़ाइन सेट मोडल"
+      ],
+      "Open in %s": [
+        "%s में खोलें"
+      ],
+      "Open in new tab": [
+        "वेब टेब में खोलें"
+      ],
+      "Open options": [
+        "विकल्प खोलें"
+      ],
+      "Open selectors panel": [
+        "चयनकर्ता पैनल खोलें"
+      ],
+      "Open structure panel": [
+        "संरचना पैनल खोलें"
+      ],
+      "Open the active element's Advanced → Classes autocomplete and focus it.": [
+        "सक्रिय तत्व के उन्नत → कक्षाएं स्वत: पूर्ण खोलें और उस पर ध्यान केंद्रित करें।"
+      ],
+      "Open the active element's Advanced → Custom CSS and focus it.": [
+        "सक्रिय तत्व का उन्नत → कस्टम सीएसएस खोलें और उस पर ध्यान केंद्रित करें।"
+      ],
+      "Open the rich text editor modal. Only when the Rich Text element is selected": [
+        "रिच टेक्स्ट एडिटर मोडल खोलें. केवल तभी जब रिच टेक्स्ट तत्व चयनित हो"
+      ],
+      "Open Twig Code Helper": [
+        "ट्विग कोड हेल्पर खोलें"
+      ],
+      "Open variables panel": [
+        "वेरिएबल पैनल खोलें"
+      ],
+      "Open Website Dialog": [
+        "वेबसाइट डायलॉग खोलें"
+      ],
+      "Operand": [
+        "ओपेरंड"
+      ],
+      "Options": [
+        "विकल्प"
+      ],
+      "Options Are Good": [
+        "विकल्प अच्छे हैं"
+      ],
+      "Options Good:": [
+        "विकल्प अच्छे:"
+      ],
+      "Options Work": [
+        "विकल्प कार्य"
+      ],
+      "Options Work:": [
+        "विकल्प कार्य:"
+      ],
+      "OR": [
+        "या"
+      ],
+      "or view it live": [
+        "या इसे लाइव देखें"
+      ],
+      "Order": [
+        "आदेश"
+      ],
+      "Order By": [
+        "द्वारा आदेश"
+      ],
+      "Orientation": [
+        "अभिविन्यास"
+      ],
+      "Override Variables": [
+        "वेरिएबल्स को ओवरराइड करें"
+      ],
+      "Padding": [
+        "पैडिंग"
+      ],
+      "Panel Positions": [
+        "पैनल की स्थिति"
+      ],
+      "Parent with ID: %s": [
+        "आईडी वाले अभिभावक: %s"
+      ],
+      "Past day": [
+        "बीता दिन"
+      ],
+      "Past Month": [
+        "बीते हुए महीने में"
+      ],
+      "Past Three month": [
+        "पिछले तीन महीने"
+      ],
+      "Past week": [
+        "पिछला सप्ताह"
+      ],
+      "Past Year": [
+        "पिछले एक साल"
+      ],
+      "paste": [
+        "चिपकाएं"
+      ],
+      "Paste": [
+        "पेस्ट करें"
+      ],
+      "Paste As Child": [
+        "बच्चे के रूप में चिपकाएँ"
+      ],
+      "Paste copied element": [
+        "कॉपी किए गए तत्व को चिपकाएँ"
+      ],
+      "Paste Design": [
+        "डिज़ाइन चिपकाएँ"
+      ],
+      "Paste Elements": [
+        "तत्वों को चिपकाएँ"
+      ],
+      "Paste or type an URL": [
+        "URL चिपकाएँ या टाइप करें"
+      ],
+      "Paste or type URL": [
+        "यूआरएल चिपकाएं या टाइप करें"
+      ],
+      "Paste settings": [
+        "सेटिंग्स चिपकाएँ"
+      ],
+      "Paste Settings": [
+        "सेटिंग्स चिपकाएँ"
+      ],
+      "Paste SVG": [
+        "एसवीजी चिपकाएँ"
+      ],
+      "Path": [
+        "पथ"
+      ],
+      "Per Page Load": [
+        "प्रति पेज लोड"
+      ],
+      "Per Session": [
+        "प्रति सत्र"
+      ],
+      "Phone Number": [
+        "फ़ोन नंबर"
+      ],
+      "Placeholder": [
+        "प्लेसहोल्डर"
+      ],
+      "Plain Text": [
+        "सादे पाठ"
+      ],
+      "Please create your own template.": [
+        "कृपया अपना स्वयं का टेम्प्लेट बनाएं."
+      ],
+      "Please deactivate it and try again.": [
+        "कृपया इसे निष्क्रिय करें और पुनः प्रयास करें।"
+      ],
+      "Please don't close this tab until the import is finished.": [
+        "आयात समाप्त होने तक कृपया इस टैब को बंद न करें।"
+      ],
+      "Please enter a keyword to fetch images.": [
+        "कृपया छवियाँ लाने के लिए एक कीवर्ड दर्ज करें।"
+      ],
+      "Please enter a valid URL": [
+        "क्रुपया मान्य यूआरएल दर्ज करें"
+      ],
+      "Please enter a value": [
+        "कृपया एक मान दर्ज करें"
+      ],
+      "Please enter an API key": [
+        "कृपया एक एपीआई कुंजी दर्ज करें"
+      ],
+      "Please enter the %s's name.": [
+        "कृपया %s का नाम दर्ज करें."
+      ],
+      "Please extract the contents of the zip file and upload the individual SVG files.": [
+        "कृपया ज़िप फ़ाइल की सामग्री निकालें और अलग-अलग एसवीजी फ़ाइलें अपलोड करें।"
+      ],
+      "Please read the documentation before creating custom templates.": [
+        "कस्टम टेम्प्लेट बनाने से पहले कृपया दस्तावेज़ पढ़ें।"
+      ],
+      "Please read the documentation before making customizations to template settings.": [
+        "टेम्प्लेट सेटिंग्स में अनुकूलन करने से पहले कृपया दस्तावेज़ पढ़ें।"
+      ],
+      "Please save your changes before closing this %s, or discard your changes.": [
+        "कृपया इस %s को बंद करने से पहले अपने परिवर्तन सहेजें, या अपने परिवर्तन छोड़ दें।"
+      ],
+      "Please upgrade to pro to use this field.": [
+        "कृपया इस फ़ील्ड का उपयोग करने के लिए प्रो में अपग्रेड करें।"
+      ],
+      "Plugin Settings": [
+        "प्लगइन सेटिंग्स"
+      ],
+      "Popout Position": [
+        "पॉपआउट स्थिति"
+      ],
+      "Populate dropdown dynamically": [
+        "ड्रॉपडाउन को गतिशील रूप से पॉप्युलेट करें"
+      ],
+      "Populate from a Repeater's Input": [
+        "पुनरावर्तक के इनपुट से पॉप्युलेट करें"
+      ],
+      "Populate from server data": [
+        "सर्वर डेटा से पॉप्युलेट करें"
+      ],
+      "Populate variables based on a Repeater Input": [
+        "पुनरावर्तक इनपुट के आधार पर वेरिएबल पॉप्युलेट करें"
+      ],
+      "Populate with HTML Tag Options": [
+        "HTML टैग विकल्पों से आबाद करें"
+      ],
+      "Populating from server data. To use items instead, clear those fields below.": [
+        "सर्वर डेटा से पॉप्युलेट हो रहा है. इसके बजाय आइटम का उपयोग करने के लिए, नीचे दिए गए फ़ील्ड साफ़ करें।"
+      ],
+      "Popup": [
+        "पॉप अप"
+      ],
+      "Popup Opens When": [
+        "पॉपअप कब खुलता है"
+      ],
+      "Popups": [
+        "पॉप अप"
+      ],
+      "Portrait": [
+        "चित्र"
+      ],
+      "Post Archive": [
+        "पोस्ट पुरालेख"
+      ],
+      "Post Chooser Options": [
+        "पोस्ट चयनकर्ता विकल्प"
+      ],
+      "Post Title": [
+        "पोस्ट शीर्षक"
+      ],
+      "Post Type": [
+        "पद प्रकार"
+      ],
+      "Post Types": [
+        "पोस्ट प्रकार"
+      ],
+      "Posts and Pages": [
+        "पोस्ट और पेज"
+      ],
+      "Posts per page": [
+        "प्रति पेज पोस्ट"
+      ],
+      "Posts with post type \"%s\" can't be edited with %s directly. Please use a %s Template instead.": [
+        "पोस्ट प्रकार \"%s\" वाले पोस्ट को सीधे %s के साथ संपादित नहीं किया जा सकता है। कृपया इसके बजाय %s टेम्प्लेट का उपयोग करें."
+      ],
+      "Prefer TinyMCE For Rich Text": [
+        "रिच टेक्स्ट के लिए TinyMCE को प्राथमिकता दें"
+      ],
+      "Preferences": [
+        "प्राथमिकताएँ"
+      ],
+      "Premade templates to kickstart your design.": [
+        "आपके डिज़ाइन को किकस्टार्ट करने के लिए पूर्वनिर्मित टेम्पलेट।"
+      ],
+      "Preset": [
+        "प्रीसेट"
+      ],
+      "Preset Name": [
+        "पूर्व निर्धारित नाम"
+      ],
+      "Presets": [
+        "प्रीसेट"
+      ],
+      "Preview": [
+        "पूर्व दर्शन"
+      ],
+      "Preview %s:": [
+        "%s का पूर्वावलोकन करें:"
+      ],
+      "Preview Size": [
+        "पूर्वावलोकन आकार"
+      ],
+      "Previewing": [
+        "पूर्वावलोकन"
+      ],
+      "Previewing:": [
+        "पूर्वावलोकन:"
+      ],
+      "Previous Slide": [
+        "पिछली स्लाइड"
+      ],
+      "Primary": [
+        "प्राथमिक"
+      ],
+      "Priority": [
+        "प्राथमिकता"
+      ],
+      "Prompt": [
+        "तत्पर"
+      ],
+      "Property Key": [
+        "संपत्ति कुंजी"
+      ],
+      "Property Paths": [
+        "संपत्ति पथ"
+      ],
+      "Property paths to SSR the element when value changes": [
+        "जब मूल्य बदलता है तो संपत्ति तत्व को एसएसआर तक ले जाती है"
+      ],
+      "Property paths to whitelist in flat props": [
+        "फ़्लैट प्रॉप्स में श्वेतसूची में संपत्ति पथ"
+      ],
+      "Property Settings": [
+        "संपत्ति सेटिंग्स"
+      ],
+      "Providers": [
+        "प्रदाताओं"
+      ],
+      "Qualifiers (optional)": [
+        "क्वालिफायर (वैकल्पिक)"
+      ],
+      "Query Builder": [
+        "क्वेरी बिल्डर"
+      ],
+      "Radial": [
+        "रेडियल"
+      ],
+      "Random": [
+        "यादृच्छिक"
+      ],
+      "Range Options": [
+        "रेंज विकल्प"
+      ],
+      "Recommended": [
+        "अनुशंसित"
+      ],
+      "Redo": [
+        "फिर से करना"
+      ],
+      "Redo changes": [
+        "परिवर्तन पुनः करें"
+      ],
+      "Refetch data if a control's value changes (specify path)": [
+        "यदि नियंत्रण का मान बदलता है तो डेटा पुनः प्राप्त करें (पथ निर्दिष्ट करें)"
+      ],
+      "Refresh": [
+        "रीफ़्रेश"
+      ],
+      "Refresh element": [
+        "तत्व ताज़ा करें"
+      ],
+      "Regenerate CSS Cache": [
+        "सीएसएस कैश पुन: उत्पन्न करें"
+      ],
+      "Regenerating caches. Leaving the page will stop the process.": [
+        "कैश पुन: उत्पन्न करना. पेज छोड़ने से प्रक्रिया रुक जाएगी."
+      ],
+      "Registered Children options: add extra elements": [
+        "पंजीकृत बच्चों के विकल्प: अतिरिक्त तत्व जोड़ें"
+      ],
+      "Related": [
+        "संबंधित"
+      ],
+      "Relative Property Paths To Whitetlist In Flatprops": [
+        "फ़्लैटप्रॉप्स में व्हाइटटलिस्ट के लिए सापेक्ष संपत्ति पथ"
+      ],
+      "Reload dependencies files": [
+        "निर्भरता फ़ाइलें पुनः लोड करें"
+      ],
+      "Reload Key": [
+        "कुंजी पुनः लोड करें"
+      ],
+      "Remember to use": [
+        "उपयोग करना याद रखें"
+      ],
+      "Remove": [
+        "निकालना"
+      ],
+      "Rename": [
+        "नाम बदलें"
+      ],
+      "Reorder": [
+        "पुन: व्यवस्थित करें"
+      ],
+      "Repeater Options": [
+        "पुनरावर्तक विकल्प"
+      ],
+      "Rephrase": [
+        "इस प्रकार संशोधित"
+      ],
+      "Rephrase the text provided by the user.": [
+        "उपयोगकर्ता द्वारा प्रदान किए गए पाठ को दोबारा लिखें।"
+      ],
+      "Replace": [
+        "प्रतिस्थापित करें"
+      ],
+      "Request Details": [
+        "विवरण का अनुरोध करें"
+      ],
+      "Request Time:": [
+        "अनुरोध का समय:"
+      ],
+      "Request Time: %s": [
+        "अनुरोध समय: %s"
+      ],
+      "Request Type:": [
+        "अनुरोध प्रकार:"
+      ],
+      "Request Type: %s": [
+        "अनुरोध प्रकार: %s"
+      ],
+      "Request URI: %s": [
+        "यूआरआई का अनुरोध करें: %s"
+      ],
+      "Request URL:": [
+        "यूआरएल का अनुरोध करें:"
+      ],
+      "Required plugins": [
+        "आवश्यक प्लगइन्स"
+      ],
+      "Reset Content": [
+        "सामग्री रीसेट करें"
+      ],
+      "Reset Design": [
+        "डिज़ाइन रीसेट करें"
+      ],
+      "Reset Settings": [
+        "सेटिंग्स फिर से करिए"
+      ],
+      "Reset to defaults": [
+        "डिफ़ॉल्ट पर पुनः सेट करें"
+      ],
+      "Response Code:": [
+        "प्रतिसाद कोड:"
+      ],
+      "Restore": [
+        "पुनर्स्थापित करना"
+      ],
+      "Restore %s from revision": [
+        "पुनरीक्षण से %s पुनर्स्थापित करें"
+      ],
+      "Revisions": [
+        "संशोधन"
+      ],
+      "Rewrite": [
+        "पुनर्लेखन"
+      ],
+      "Rewrite %s": [
+        "%s को पुनः लिखें"
+      ],
+      "Rewrite With AI": [
+        "एआई के साथ पुनः लिखें"
+      ],
+      "Rewrite your content with the power of AI.": [
+        "एआई की शक्ति से अपनी सामग्री को फिर से लिखें।"
+      ],
+      "right": [
+        "सही"
+      ],
+      "Right": [
+        "सही"
+      ],
+      "Root Node": [
+        "रूट नोड"
+      ],
+      "Row Index": [
+        "पंक्ति सूचकांक"
+      ],
+      "Run for all children": [
+        "सभी बच्चों के लिए दौड़ें"
+      ],
+      "Run Only Once": [
+        "केवल एक बार चलाएँ"
+      ],
+      "Runs after adding this element to the canvas for the first time": [
+        "इस तत्व को पहली बार कैनवास में जोड़ने के बाद चलता है"
+      ],
+      "Runs after one of this element's property changes (a value in a control)": [
+        "इस तत्व की किसी एक संपत्ति में परिवर्तन के बाद चलता है (नियंत्रण में एक मान)"
+      ],
+      "Runs after the element is activated (selected)": [
+        "तत्व सक्रिय होने के बाद चलता है (चयनित)"
+      ],
+      "Runs after this element is moved in the canvas.": [
+        "इस तत्व को कैनवास में ले जाने के बाद चलता है।"
+      ],
+      "Runs after this element renders in the canvas": [
+        "इस तत्व को कैनवास में प्रस्तुत करने के बाद चलता है"
+      ],
+      "Runs AFTER this element was deleted": [
+        "इस तत्व को हटाए जाने के बाद चलता है"
+      ],
+      "Runs BEFORE this element is deleted": [
+        "इस तत्व को हटाए जाने से पहले चलता है"
+      ],
+      "Same author only": [
+        "केवल वही लेखक"
+      ],
+      "Save": [
+        "बचाना"
+      ],
+      "Save &amp; Bypass Psalm...": [
+        "सहेजें &amp; बाईपास भजन..."
+      ],
+      "Save A Copy In:": [
+        "इसमें एक प्रति सहेजें:"
+      ],
+      "Save and continue": [
+        "सहेजें और जारी रखें"
+      ],
+      "Save any changes to create a new revision": [
+        "नया संशोधन बनाने के लिए कोई भी परिवर्तन सहेजें"
+      ],
+      "Save as %s": [
+        "%s के रूप में सहेजें"
+      ],
+      "Save as Preset": [
+        "प्रीसेट के रूप में सहेजें"
+      ],
+      "Save Breakpoints": [
+        "ब्रेकप्वाइंट सहेजें"
+      ],
+      "Save element": [
+        "तत्व सहेजें"
+      ],
+      "Save Fonts": [
+        "फ़ॉन्ट सहेजें"
+      ],
+      "Save Icons": [
+        "चिह्न सहेजें"
+      ],
+      "Save icons to existing set, or create a new icon set...": [
+        "मौजूदा सेट में आइकन सहेजें, या एक नया आइकन सेट बनाएं..."
+      ],
+      "Saving selectors to WordPress": [
+        "चयनकर्ताओं को वर्डप्रेस में सहेजा जा रहा है"
+      ],
+      "Scale content to fit the screen (zoom)": [
+        "स्क्रीन पर फ़िट होने के लिए सामग्री को स्केल करें (ज़ूम करें)"
+      ],
+      "Screenshot couldn't be created, probably because it links to protected third party images. Please add an image manually": [
+        "स्क्रीनशॉट नहीं बनाया जा सका, शायद इसलिए क्योंकि यह संरक्षित तृतीय पक्ष छवियों से लिंक है। कृपया मैन्युअल रूप से एक छवि जोड़ें"
+      ],
+      "Script": [
+        "लिखी हुई कहानी"
+      ],
+      "Scripts (%s)": [
+        "स्क्रिप्ट (%s)"
+      ],
+      "Search": [
+        "खोज"
+      ],
+      "Search %d elements": [
+        "%d तत्व खोजें"
+      ],
+      "Search %ss": [
+        "%ss खोजें"
+      ],
+      "Search blocks": [
+        "ब्लॉक खोजें"
+      ],
+      "Search by title": [
+        "शीर्षक के आधार पर खोजें"
+      ],
+      "Search elements": [
+        "तत्व खोजें"
+      ],
+      "Search for %s": [
+        "%s खोजें"
+      ],
+      "Search in \"%s\"": [
+        "\"%s\" में खोजें"
+      ],
+      "Search More": [
+        "और अधिक खोजें"
+      ],
+      "Search Results": [
+        "खोज के परिणाम"
+      ],
+      "Search selectors": [
+        "चयनकर्ता खोजें"
+      ],
+      "Search variables": [
+        "चर खोजें"
+      ],
+      "Search...": [
+        "खोज..."
+      ],
+      "Secondary": [
+        "माध्यमिक"
+      ],
+      "Section Layout": [
+        "अनुभाग लेआउट"
+      ],
+      "Section showing testimonials": [
+        "प्रशंसापत्र दिखाने वाला अनुभाग"
+      ],
+      "See content editable code": [
+        "सामग्री संपादन योग्य कोड देखें"
+      ],
+      "See Details": [
+        "विस्तृत जानकारी देखें"
+      ],
+      "See examples": [
+        "उदाहरण देखें"
+      ],
+      "Select a field to preview": [
+        "पूर्वावलोकन करने के लिए एक फ़ील्ड चुनें"
+      ],
+      "Select a field...": [
+        "एक क्षेत्र का चयन करें..."
+      ],
+      "Select a popup...": [
+        "एक पॉपअप चुनें..."
+      ],
+      "Select a saving location": [
+        "एक बचत स्थान चुनें"
+      ],
+      "Select a type...": [
+        "एक प्रकार चुनें..."
+      ],
+      "Select an element first": [
+        "पहले एक तत्व चुनें"
+      ],
+      "Select or create a class": [
+        "कोई कक्षा चुनें या बनाएं"
+      ],
+      "Select parent": [
+        "अभिभावक का चयन करें"
+      ],
+      "Select up to four": [
+        "अधिकतम चार का चयन करें"
+      ],
+      "Select up to three": [
+        "तीन तक का चयन करें"
+      ],
+      "Select up to two": [
+        "अधिकतम दो का चयन करें"
+      ],
+      "Selected template with ID: %s no longer exists.": [
+        "आईडी के साथ चयनित टेम्पलेट: %s अब मौजूद नहीं है।"
+      ],
+      "Selectors": [
+        "चयनकर्ताओं"
+      ],
+      "Send Feedback": [
+        "प्रतिक्रिया भेजें"
+      ],
+      "Send To CodeBox": [
+        "कोडबॉक्स पर भेजें"
+      ],
+      "Set Default Properties": [
+        "डिफ़ॉल्ट गुण सेट करें"
+      ],
+      "Set default properties for %s to:": [
+        "%s के लिए डिफ़ॉल्ट गुण सेट करें:"
+      ],
+      "Set Up API Key": [
+        "एपीआई कुंजी सेट करें"
+      ],
+      "Set up your OpenAI API key": [
+        "अपनी OpenAI API कुंजी सेट करें"
+      ],
+      "Settings": [
+        "सेटिंग्स"
+      ],
+      "Shadow Type": [
+        "छाया प्रकार"
+      ],
+      "Share props with SSR children": [
+        "एसएसआर बच्चों के साथ प्रॉप्स साझा करें"
+      ],
+      "Shop Page & All Product Archives": [
+        "दुकान पृष्ठ और सभी उत्पाद पुरालेख"
+      ],
+      "Shortcode": [
+        "लघु कूट संख्या"
+      ],
+      "Shortcut": [
+        "शॉर्टकट"
+      ],
+      "Shorten it": [
+        "इसे छोटा करें"
+      ],
+      "Shorten the text": [
+        "पाठ को छोटा करें"
+      ],
+      "Show elements ID in the Structure Panel": [
+        "संरचना पैनल में तत्व आईडी दिखाएं"
+      ],
+      "Show Experimental Elements": [
+        "प्रायोगिक तत्व दिखाएँ"
+      ],
+      "Show items in the dropdown only if a condition is met": [
+        "कोई शर्त पूरी होने पर ही ड्रॉपडाउन में आइटम दिखाएं"
+      ],
+      "Show items in the variable only if a condition is met": [
+        "कोई शर्त पूरी होने पर ही वेरिएबल में आइटम दिखाएं"
+      ],
+      "Show keyboard shortcuts help modal": [
+        "कुंजीपटल शॉर्टकट सहायता मोडल दिखाएँ"
+      ],
+      "Show Property Keys": [
+        "संपत्ति कुंजियाँ दिखाएँ"
+      ],
+      "Show Thumbnails": [
+        "थंबनेल दिखाओ"
+      ],
+      "Shows an image as background of this input": [
+        "इस इनपुट की पृष्ठभूमि के रूप में एक छवि दिखाता है"
+      ],
+      "Shuffle": [
+        "मिश्रण"
+      ],
+      "Side By Side": [
+        "अगल बगल"
+      ],
+      "Single Post": [
+        "एकल पोस्ट"
+      ],
+      "Single Product": [
+        "एकल उत्पाद"
+      ],
+      "Slide #": [
+        "फिसलना #"
+      ],
+      "Slider": [
+        "स्लाइडर"
+      ],
+      "Slug": [
+        "काउंटर"
+      ],
+      "SMS": [
+        "एसएमएस"
+      ],
+      "Solid": [
+        "ठोस"
+      ],
+      "Solid and Gradient": [
+        "ठोस और ढाल"
+      ],
+      "Solid Only": [
+        "केवल ठोस"
+      ],
+      "Some fields are locked and will not be updated by AI. <b class='cursor-pointer'>Click to view.</b>": [
+        "कुछ फ़ील्ड लॉक हैं और AI द्वारा अपडेट नहीं किए जाएंगे। <b class='कर्सर-पॉइंटर'>देखने के लिए क्लिक करें।</b>"
+      ],
+      "Some requests failed. Try again": [
+        "कुछ अनुरोध विफल रहे. पुनः प्रयास करें"
+      ],
+      "Soon, the Design Library will only be available in the pro version. For now, enjoy your free preview!": [
+        "जल्द ही, डिज़ाइन लाइब्रेरी केवल प्रो संस्करण में उपलब्ध होगी। अभी के लिए, अपने निःशुल्क पूर्वावलोकन का आनंद लें!"
+      ],
+      "Sort By": [
+        "इसके अनुसार क्रमबद्ध करें"
+      ],
+      "Source": [
+        "स्रोत"
+      ],
+      "Space Around": [
+        "चारों ओर जगह"
+      ],
+      "Space Between": [
+        "बीच का स्थान"
+      ],
+      "Spacing bar": [
+        "रिक्ति पट्टी"
+      ],
+      "Spacing Bars": [
+        "स्पेसिंग बार्स"
+      ],
+      "Specific Product Archive": [
+        "विशिष्ट उत्पाद पुरालेख"
+      ],
+      "Spread": [
+        "फैलाना"
+      ],
+      "Squarish": [
+        "चौकोर"
+      ],
+      "Stack Trace": [
+        "स्टैक ट्रेस"
+      ],
+      "Stacked": [
+        "स्टैक्ड"
+      ],
+      "Stacked (First Visible)": [
+        "स्टैक्ड (पहले दृश्यमान)"
+      ],
+      "Start over": [
+        "प्रारंभ करें"
+      ],
+      "States": [
+        "राज्य अमेरिका"
+      ],
+      "Step (fixed to 2 decimals)": [
+        "चरण (2 दशमलव तक निश्चित)"
+      ],
+      "Stop Editing": [
+        "संपादन बंद करें"
+      ],
+      "Stretch": [
+        "खींचना"
+      ],
+      "Structure": [
+        "संरचना"
+      ],
+      "Style": [
+        "शैली"
+      ],
+      "Styles (%s)": [
+        "शैलियाँ (%s)"
+      ],
+      "Subject": [
+        "विषय"
+      ],
+      "Submit": [
+        "जमा करना"
+      ],
+      "Success loading the data": [
+        "डेटा लोड करने में सफलता"
+      ],
+      "Successfully imported %s.": [
+        "%s को सफलतापूर्वक आयात किया गया."
+      ],
+      "Successfully trashed existing Templates, Headers, Footers, %s, and Popups.": [
+        "मौजूदा टेम्प्लेट, हेडर, फ़ुटर, %s और पॉपअप को सफलतापूर्वक ट्रैश किया गया।"
+      ],
+      "Suggested Icons": [
+        "सुझाए गए चिह्न"
+      ],
+      "Suggestions": [
+        "सुझाव"
+      ],
+      "Support Multiple": [
+        "एकाधिक का समर्थन करें"
+      ],
+      "SVG code for icon": [
+        "आइकन के लिए एसवीजी कोड"
+      ],
+      "Switch between 'scale to fit' and 'actual size' content": [
+        "'स्केल टू फ़िट' और 'वास्तविक आकार' सामग्री के बीच स्विच करें"
+      ],
+      "Switch mode": [
+        "मोड स्विच करें"
+      ],
+      "Tag": [
+        "टैग"
+      ],
+      "Tag of the root element": [
+        "मूल तत्व का टैग"
+      ],
+      "Tag Options": [
+        "टैग विकल्प"
+      ],
+      "Tags: %s and %s are available.": [
+        "टैग: %s और %s उपलब्ध हैं."
+      ],
+      "Tailor your template to your needs.": [
+        "अपने टेम्पलेट को अपनी आवश्यकताओं के अनुरूप बनाएं।"
+      ],
+      "Take screenshot": [
+        "स्क्रीनशॉट लीजिये"
+      ],
+      "Target": [
+        "लक्ष्य"
+      ],
+      "Tel": [
+        "टेलीफोन"
+      ],
+      "Tell us about your business": [
+        "हमें अपने व्यवसाय के बारे में बताएं"
+      ],
+      "Tell us to...": [
+        "हमें बताएं..."
+      ],
+      "Temperature": [
+        "तापमान"
+      ],
+      "Template": [
+        "खाका"
+      ],
+      "Templates": [
+        "टेम्पलेट्स"
+      ],
+      "Templates page": [
+        "टेम्प्लेट पेज"
+      ],
+      "Templates save you hours of work. Each template is crafted by a pro and is fully customizable.": [
+        "टेम्प्लेट आपके काम के घंटे बचाते हैं। प्रत्येक टेम्पलेट एक पेशेवर द्वारा तैयार किया गया है और पूरी तरह से अनुकूलन योग्य है।"
+      ],
+      "Terms in taxonomy": [
+        "वर्गीकरण में शर्तें"
+      ],
+      "Text": [
+        "मूलपाठ"
+      ],
+      "Text Format": [
+        "पाठ प्रारूप"
+      ],
+      "Text Wrap": [
+        "पाठ लपेटें"
+      ],
+      "The %s element does not support AI writing.": [
+        "%s तत्व AI लेखन का समर्थन नहीं करता है."
+      ],
+      "The Breakdance AI Plugin is not installed. Please install it to use the AI assistant.": [
+        "ब्रेकडांस एआई प्लगइन स्थापित नहीं है। कृपया AI सहायक का उपयोग करने के लिए इसे इंस्टॉल करें।"
+      ],
+      "The dependency is a hardcoded value:": [
+        "निर्भरता एक हार्डकोडेड मान है:"
+      ],
+      "The field 'name' is required to create an automatic screenshot": [
+        "स्वचालित स्क्रीनशॉट बनाने के लिए फ़ील्ड 'नाम' आवश्यक है"
+      ],
+      "The file you selected does not contain any presets.": [
+        "आपके द्वारा चयनित फ़ाइल में कोई प्रीसेट नहीं है."
+      ],
+      "The file you selected is not a valid Presets file.": [
+        "आपके द्वारा चयनित फ़ाइल वैध प्रीसेट फ़ाइल नहीं है।"
+      ],
+      "The last full site import you performed was for %s": [
+        "आपके द्वारा किया गया अंतिम पूर्ण साइट आयात %s के लिए था"
+      ],
+      "The minimum priority is 1": [
+        "न्यूनतम प्राथमिकता 1 है"
+      ],
+      "The new %s couldn't be saved": [
+        "नया %s सहेजा नहीं जा सका"
+      ],
+      "The option %s is not available anymore, please select a new one.": [
+        "विकल्प %s अब उपलब्ध नहीं है, कृपया नया विकल्प चुनें।"
+      ],
+      "The plugin %s caused a %s error.": [
+        "प्लगइन %s के कारण %s त्रुटि हुई।"
+      ],
+      "The requested post can't be edited with %s.": [
+        "अनुरोधित पोस्ट को %s के साथ संपादित नहीं किया जा सकता."
+      ],
+      "The requested post doesn't exist. It may have been deleted, or maybe you used an outdated URL.": [
+        "अनुरोधित पोस्ट मौजूद नहीं है. हो सकता है कि इसे हटा दिया गया हो, या हो सकता है कि आपने किसी पुराने URL का उपयोग किया हो।"
+      ],
+      "The selected field expects \"%s\", but \"%s\" only returns \"%s\". To use this field anyway, choose \"All\" from the \"Type\" dropdown and then toggle \"Disable Type Safety\" on.": [
+        "चयनित फ़ील्ड \"%s\" की अपेक्षा करती है, लेकिन \"%s\" केवल \"%s\" लौटाता है। किसी भी तरह इस फ़ील्ड का उपयोग करने के लिए, \"प्रकार\" ड्रॉपडाउन से \"सभी\" चुनें और फिर \"प्रकार सुरक्षा अक्षम करें\" को चालू करें।"
+      ],
+      "The selected preset does not exist or has been deleted. Please select another preset.": [
+        "चयनित प्रीसेट मौजूद नहीं है या हटा दिया गया है। कृपया कोई अन्य प्रीसेट चुनें."
+      ],
+      "The selector %s is locked.": [
+        "चयनकर्ता %s लॉक है."
+      ],
+      "The task failed due a problem on the server side.": [
+        "सर्वर साइड पर समस्या के कारण कार्य विफल हुआ।"
+      ],
+      "The template can run Twig code. Properties like design.something.whatever are available. If the template returns a blank string, the class will not be added. If the template returns anything, the class will be added.": [
+        "टेम्प्लेट ट्विग कोड चला सकता है। design.something.whatever जैसे गुण उपलब्ध हैं। यदि टेम्प्लेट एक रिक्त स्ट्रिंग लौटाता है, तो क्लास नहीं जोड़ी जाएगी। यदि टेम्प्लेट कुछ भी लौटाता है, तो क्लास जोड़ दी जाएगी।"
+      ],
+      "the_best_class": [
+        "सर्वोत्तम_श्रेणी"
+      ],
+      "There are no elements added to the page": [
+        "पृष्ठ में कोई तत्व नहीं जोड़ा गया है"
+      ],
+      "There was an error embedding the video": [
+        "वीडियो एम्बेड करने में त्रुटि हुई"
+      ],
+      "There was an error loading the data": [
+        "डेटा लोड करने में त्रुटि हुई"
+      ],
+      "Thickness": [
+        "मोटाई"
+      ],
+      "This action cannot be undone.": [
+        "इस एक्शन को वापस नहीं किया जा सकता।"
+      ],
+      "This design relies on Design Presets. It won't look the same unless you import them.": [
+        "यह डिज़ाइन डिज़ाइन प्रीसेट पर निर्भर करता है। जब तक आप उन्हें आयात नहीं करेंगे, यह पहले जैसा नहीं दिखेगा।"
+      ],
+      "This Design Set is password protected by the author. Please enter the password below to view it.": [
+        "यह डिज़ाइन सेट लेखक द्वारा पासवर्ड से सुरक्षित है। कृपया इसे देखने के लिए नीचे पासवर्ड दर्ज करें।"
+      ],
+      "This design set relies on %s. It won't look the same unless you import them.": [
+        "यह डिज़ाइन सेट %s पर निर्भर करता है. जब तक आप उन्हें आयात नहीं करेंगे, यह पहले जैसा नहीं दिखेगा।"
+      ],
+      "This Element": [
+        "यह तत्व"
+      ],
+      "This element can't be added for unknown reasons": [
+        "यह तत्व अज्ञात कारणों से नहीं जोड़ा जा सकता"
+      ],
+      "This element contains a Global Block that can be edited inline. Requires a Global Block Chooser control to be present.": [
+        "इस तत्व में एक ग्लोबल ब्लॉक है जिसे इनलाइन संपादित किया जा सकता है। वैश्विक ब्लॉक चयनकर्ता नियंत्रण मौजूद होना आवश्यक है।"
+      ],
+      "This element is empty, please add some content first.": [
+        "यह तत्व खाली है, कृपया पहले कुछ सामग्री जोड़ें।"
+      ],
+      "This element will not be allowed on a page if one of the following elements is already present on the page": [
+        "यदि निम्न में से कोई एक तत्व पहले से ही पृष्ठ पर मौजूद है तो इस तत्व को किसी पृष्ठ पर अनुमति नहीं दी जाएगी"
+      ],
+      "This element will only be allowed as a direct child of the selected elements": [
+        "इस तत्व को केवल चयनित तत्वों के प्रत्यक्ष बच्चे के रूप में अनुमति दी जाएगी"
+      ],
+      "This element will only be allowed inside the selected elements": [
+        "इस तत्व को केवल चयनित तत्वों के अंदर ही अनुमति दी जाएगी"
+      ],
+      "This font style already exists with this weight, and format": [
+        "यह फ़ॉन्ट शैली इस भार और प्रारूप के साथ पहले से मौजूद है"
+      ],
+      "This font weight already exists with this style, and format": [
+        "यह फ़ॉन्ट भार इस शैली और प्रारूप के साथ पहले से मौजूद है"
+      ],
+      "this is currently used at https://breakdance.com/features/elements": [
+        "यह वर्तमान में https://breakdance.com/features/elements पर उपयोग किया जाता है"
+      ],
+      "This post can't be edited directly.": [
+        "इस पोस्ट को सीधे संपादित नहीं किया जा सकता."
+      ],
+      "This post is rendered with a \"%s\" template.": [
+        "यह पोस्ट \"%s\" टेम्पलेट के साथ प्रस्तुत किया गया है।"
+      ],
+      "This post is rendered with a builder's internal \"%s\" template.": [
+        "यह पोस्ट बिल्डर के आंतरिक \"%s\" टेम्पलेट के साथ प्रस्तुत किया गया है।"
+      ],
+      "This post is rendered with a builder's internal template.": [
+        "यह पोस्ट एक बिल्डर के आंतरिक टेम्पलेट के साथ प्रस्तुत किया गया है।"
+      ],
+      "This post is rendered with a template.": [
+        "यह पोस्ट एक टेम्पलेट के साथ प्रस्तुत किया गया है।"
+      ],
+      "This selector already exists.": [
+        "यह चयनकर्ता पहले से मौजूद है."
+      ],
+      "This selector is no longer available. Remove it from the element?": [
+        "यह चयनकर्ता अब उपलब्ध नहीं है. इसे तत्व से हटाएं?"
+      ],
+      "This variable has been deleted, but it is still used here.": [
+        "यह वेरिएबल हटा दिया गया है, लेकिन इसका उपयोग अभी भी यहां किया जाता है।"
+      ],
+      "This video could not be embedded.": [
+        "यह वीडियो एम्बेड नहीं किया जा सका."
+      ],
+      "This will disable the 'Settings -> Html -> Tag' control": [
+        "यह 'सेटिंग्स -> एचटीएमएल -> टैग' नियंत्रण को अक्षम कर देगा"
+      ],
+      "This won't be visible on the website but helps us understand your needs.": [
+        "यह वेबसाइट पर दिखाई नहीं देगा लेकिन हमें आपकी ज़रूरतों को समझने में मदद मिलेगी।"
+      ],
+      "Title": [
+        "शीर्षक"
+      ],
+      "Title field can't be empty": [
+        "शीर्षक फ़ील्ड खाली नहीं हो सकती"
+      ],
+      "Title is required": [
+        "शीर्षक आवश्यक है"
+      ],
+      "Title Template": [
+        "शीर्षक टेम्पलेट"
+      ],
+      "To describe a repeater, use &quot;[]&quot;. e.g: &quot;content.list.my_repeater[].url&quot;": [
+        "पुनरावर्तक का वर्णन करने के लिए, &quot;[]&quot; का उपयोग करें. उदाहरण के लिए: &quot;content.list.my_repeater[].url&quot;"
+      ],
+      "To edit, select %s element with this preset applied.": [
+        "संपादित करने के लिए, इस प्रीसेट को लागू करके %s तत्व का चयन करें।"
+      ],
+      "To paste using the Edit menu, please allow access to your clipboard.": [
+        "संपादन मेनू का उपयोग करके पेस्ट करने के लिए, कृपया अपने क्लिपबोर्ड तक पहुंच की अनुमति दें।"
+      ],
+      "To paste using the Edit menu, your website needs to be served with HTTPS.": [
+        "संपादन मेनू का उपयोग करके पेस्ट करने के लिए, आपकी वेबसाइट को HTTPS के साथ प्रस्तुत किया जाना आवश्यक है।"
+      ],
+      "To use %s, log in to WordPress admin.": [
+        "%s का उपयोग करने के लिए, वर्डप्रेस एडमिन में लॉग इन करें।"
+      ],
+      "To use %s, you need to login to WordPress.": [
+        "%s का उपयोग करने के लिए, आपको वर्डप्रेस पर लॉग इन करना होगा।"
+      ],
+      "Toggle": [
+        "टॉगल"
+      ],
+      "Toggle the modified option in the properties search box.": [
+        "गुण खोज बॉक्स में संशोधित विकल्प को टॉगल करें।"
+      ],
+      "Toggle the preview mode.": [
+        "पूर्वावलोकन मोड टॉगल करें."
+      ],
+      "Top": [
+        "शीर्ष"
+      ],
+      "Total posts": [
+        "कुल पद"
+      ],
+      "Total posts must be equal to or greater than Posts Per Page": [
+        "कुल पोस्ट प्रति पृष्ठ पोस्ट के बराबर या उससे अधिक होनी चाहिए"
+      ],
+      "Transform": [
+        "परिवर्तन"
+      ],
+      "Trash": [
+        "कचरा"
+      ],
+      "Trash (%d)": [
+        "कचरा (%d)"
+      ],
+      "Trashing existing Templates, Headers, Footers, %s, and Popups.": [
+        "मौजूदा टेम्प्लेट, हेडर, फ़ुटर, %s और पॉपअप को ट्रैश करना।"
+      ],
+      "Trigger": [
+        "चालू कर देना"
+      ],
+      "Trigger action button options": [
+        "ट्रिगर एक्शन बटन विकल्प"
+      ],
+      "Triggers": [
+        "चलाता है"
+      ],
+      "Try adjusting your search to find what you are looking for.": [
+        "आप जो खोज रहे हैं उसे ढूंढने के लिए अपनी खोज को समायोजित करने का प्रयास करें।"
+      ],
+      "Try Breakdance Pro": [
+        "ब्रेकडांस प्रो आज़माएं"
+      ],
+      "Try Oxygen Pro": [
+        "ऑक्सीजन प्रो आज़माएँ"
+      ],
+      "Tutorials": [
+        "ट्यूटोरियल"
+      ],
+      "Type": [
+        "प्रकार"
+      ],
+      "Type:": [
+        "प्रकार:"
+      ],
+      "Types": [
+        "प्रकार"
+      ],
+      "Typography": [
+        "टाइपोग्राफी"
+      ],
+      "UI Icon": [
+        "यूआई चिह्न"
+      ],
+      "UI Order (number)": [
+        "यूआई ऑर्डर (संख्या)"
+      ],
+      "UI Settings": [
+        "यूआई सेटिंग्स"
+      ],
+      "Unable to format %s code. Please check for syntax errors like missing brackets, quotes, or semicolons, then try formatting again.": [
+        "%s कोड को फ़ॉर्मेट करने में असमर्थ. कृपया लुप्त कोष्ठक, उद्धरण चिह्न या अर्धविराम जैसी वाक्यविन्यास त्रुटियों की जाँच करें, फिर पुनः स्वरूपण का प्रयास करें।"
+      ],
+      "Unable to retrieve a video from this URL": [
+        "इस URL से वीडियो पुनर्प्राप्त करने में असमर्थ"
+      ],
+      "Uncategorized": [
+        "अवर्गीकृत"
+      ],
+      "Underline Offset": [
+        "ऑफसेट को रेखांकित करें"
+      ],
+      "Undo": [
+        "पूर्ववत"
+      ],
+      "Undo changes": [
+        "परिवर्तन पूर्ववत करें"
+      ],
+      "Unexpected error occurred.": [
+        "अनपेक्षित त्रुटि उत्पन्न हुई."
+      ],
+      "Unit Options": [
+        "इकाई विकल्प"
+      ],
+      "Unknown": [
+        "अज्ञात"
+      ],
+      "Unknown breakpoint": [
+        "अज्ञात ब्रेकप्वाइंट"
+      ],
+      "Unknown Document": [
+        "अज्ञात दस्तावेज़"
+      ],
+      "Unknown notification type %s": [
+        "अज्ञात अधिसूचना प्रकार %s"
+      ],
+      "Unlink it or select a new variable.": [
+        "इसे अनलिंक करें या एक नया वेरिएबल चुनें।"
+      ],
+      "Unlink variable": [
+        "वेरिएबल को अनलिंक करें"
+      ],
+      "Unlock": [
+        "अनलॉक"
+      ],
+      "Unlock all": [
+        "सबको अनलॉक करें"
+      ],
+      "Unrecoverable Errors": [
+        "पुनर्प्राप्त न की जा सकने वाली त्रुटियाँ"
+      ],
+      "Unsplash": [
+        "unsplash"
+      ],
+      "Unsupported template": [
+        "असमर्थित टेम्पलेट"
+      ],
+      "Unsupported templates": [
+        "असमर्थित टेम्प्लेट"
+      ],
+      "Update for template \"%s\" failed": [
+        "टेम्पलेट \"%s\" के लिए अद्यतन विफल रहा"
+      ],
+      "Update slug": [
+        "स्लग अद्यतन करें"
+      ],
+      "Update your template settings in the WP admin at": [
+        "WP एडमिन में अपनी टेम्प्लेट सेटिंग अपडेट करें"
+      ],
+      "Updated prompt info for element #%s": [
+        "तत्व #%s के लिए अद्यतन शीघ्र जानकारी"
+      ],
+      "Updating the Class Name will make the previous class obsolete. You'll need to update your CSS": [
+        "कक्षा का नाम अद्यतन करने से पिछली कक्षा अप्रचलित हो जाएगी। आपको अपना सीएसएस अपडेट करना होगा"
+      ],
+      "Upload": [
+        "अपलोड करें"
+      ],
+      "Upload a Video or paste a URL": [
+        "एक वीडियो अपलोड करें या एक यूआरएल पेस्ट करें"
+      ],
+      "Upload a Video or paste a URL from %s": [
+        "एक वीडियो अपलोड करें या %s से एक यूआरएल पेस्ट करें"
+      ],
+      "Upload some icons.": [
+        "कुछ आइकन अपलोड करें."
+      ],
+      "Upload symbol-defs.svg from an IcoMoon export, or an individual SVG file.": [
+        "IcoMoon निर्यात, या एक व्यक्तिगत SVG फ़ाइल से प्रतीक-defs.svg अपलोड करें।"
+      ],
+      "URL": [
+        "यूआरएल"
+      ],
+      "URL to CSS file containing Font Face definitions": [
+        "फ़ॉन्ट फेस परिभाषाओं वाली सीएसएस फ़ाइल का यूआरएल"
+      ],
+      "URL to script": [
+        "स्क्रिप्ट का यूआरएल"
+      ],
+      "URL to style": [
+        "शैली के लिए यूआरएल"
+      ],
+      "Use Fonts In External CSS": [
+        "बाहरी सीएसएस में फ़ॉन्ट्स का प्रयोग करें"
+      ],
+      "Use hosted fonts from providers like Adobe Fonts.": [
+        "Adobe फ़ॉन्ट्स जैसे प्रदाताओं से होस्ट किए गए फ़ॉन्ट का उपयोग करें।"
+      ],
+      "use the below HTML code on breakdance.com to display a list of elements.": [
+        "तत्वों की सूची प्रदर्शित करने के लिए breakingdance.com पर नीचे दिए गए HTML कोड का उपयोग करें।"
+      ],
+      "Use the lock icon to prevent AI from changing this image during bulk rewrites.": [
+        "थोक पुनर्लेखन के दौरान AI को इस छवि को बदलने से रोकने के लिए लॉक आइकन का उपयोग करें।"
+      ],
+      "Use this if clicking on the element doesn't active it, but instead clicks something inside of it": [
+        "यदि तत्व पर क्लिक करने से यह सक्रिय नहीं होता है, बल्कि इसके अंदर कुछ क्लिक होता है तो इसका उपयोग करें"
+      ],
+      "Use this if the element should only be visible in the builder": [
+        "यदि तत्व केवल बिल्डर में दिखाई देना चाहिए तो इसका उपयोग करें"
+      ],
+      "Use this if you need to access the properties data from this element in a child SSR element.": [
+        "यदि आपको चाइल्ड एसएसआर तत्व में इस तत्व से गुण डेटा तक पहुंचने की आवश्यकता है तो इसका उपयोग करें।"
+      ],
+      "Use this if you want to disable the AI for this element": [
+        "यदि आप इस तत्व के लिए AI को अक्षम करना चाहते हैं तो इसका उपयोग करें"
+      ],
+      "Used as a fallback when the title template is blank.": [
+        "शीर्षक टेम्पलेट रिक्त होने पर फ़ॉलबैक के रूप में उपयोग किया जाता है।"
+      ],
+      "Validation Error:": [
+        "सत्यापन त्रुटि:"
+      ],
+      "Value": [
+        "कीमत"
+      ],
+      "Value comes from:": [
+        "मूल्य इससे आता है:"
+      ],
+      "Value is overwritten by:": [
+        "मान को इसके द्वारा अधिलेखित किया गया है:"
+      ],
+      "Values": [
+        "मान"
+      ],
+      "Variables": [
+        "चर"
+      ],
+      "Variables panel.": [
+        "चर पैनल."
+      ],
+      "Variations": [
+        "बदलाव"
+      ],
+      "Vertically Center": [
+        "लंबवत केंद्र"
+      ],
+      "Video": [
+        "वीडियो"
+      ],
+      "Video Options": [
+        "वीडियो विकल्प"
+      ],
+      "Videos from %s are not allowed for this field. Allowed embed platforms are %s": [
+        "इस फ़ील्ड के लिए %s के वीडियो की अनुमति नहीं है. अनुमत एंबेड प्लेटफ़ॉर्म %s हैं"
+      ],
+      "Videos from this platform, are not allowed for this field. Allowed embed platforms are %s": [
+        "इस प्लेटफ़ॉर्म के वीडियो, इस फ़ील्ड के लिए अनुमति नहीं हैं। अनुमत एंबेड प्लेटफ़ॉर्म %s हैं"
+      ],
+      "View Design Set": [
+        "डिज़ाइन सेट देखें"
+      ],
+      "Viewing Page": [
+        "पेज देखना"
+      ],
+      "Visit site": [
+        "साइट पर जाएँ"
+      ],
+      "Visual": [
+        "तस्वीर"
+      ],
+      "Warning: Deleted Variable": [
+        "चेतावनी: हटा दिया गया वेरिएबल"
+      ],
+      "We couldn't find any icons matching \"%s\".": [
+        "हमें \"%s\" से मेल खाता कोई चिह्न नहीं मिला।"
+      ],
+      "We just need a few details. These answers help us generate a starting point that feels right for you.": [
+        "हमें बस कुछ विवरण चाहिए। ये उत्तर हमें एक शुरुआती बिंदु तैयार करने में मदद करते हैं जो आपके लिए सही लगता है।"
+      ],
+      "We're creating a sitemap.": [
+        "हम एक साइटमैप बना रहे हैं."
+      ],
+      "We're setting up your design library.": [
+        "हम आपकी डिज़ाइन लाइब्रेरी स्थापित कर रहे हैं।"
+      ],
+      "We're setting up your website based on your choices.": [
+        "हम आपकी पसंद के आधार पर आपकी वेबसाइट स्थापित कर रहे हैं।"
+      ],
+      "We've set up your website based on your choices. You can now start customizing it to make it truly yours.": [
+        "हमने आपकी पसंद के आधार पर आपकी वेबसाइट बनाई है। अब आप इसे वास्तव में अपना बनाने के लिए इसे अनुकूलित करना शुरू कर सकते हैं।"
+      ],
+      "Weight": [
+        "वज़न"
+      ],
+      "Welcome to %s": [
+        "%s में आपका स्वागत है"
+      ],
+      "Welcome to Breakdance AI": [
+        "ब्रेकडांस एआई में आपका स्वागत है"
+      ],
+      "What are your website goals?": [
+        "आपकी वेबसाइट के लक्ष्य क्या हैं?"
+      ],
+      "What category does your website fall under?": [
+        "आपकी वेबसाइट किस श्रेणी में आती है?"
+      ],
+      "What is your website about?": [
+        "आपकी वेबसाइट किस बारे में है?"
+      ],
+      "What is your website called?": [
+        "आपकी वेबसाइट को क्या कहा जाता है?"
+      ],
+      "What is your website's writing style?": [
+        "आपकी वेबसाइट की लेखन शैली क्या है?"
+      ],
+      "WhatsApp": [
+        "WhatsApp"
+      ],
+      "When field": [
+        "जब फ़ील्ड"
+      ],
+      "When left empty the dependencies will always be added.": [
+        "खाली छोड़े जाने पर निर्भरताएँ हमेशा जोड़ी जाएंगी।"
+      ],
+      "When saving in %s, the CSS and other dependencies required by the saved item are cached. Use this tool to regenerate the caches for all %s-created content.": [
+        "%s में सहेजते समय, सहेजे गए आइटम के लिए आवश्यक सीएसएस और अन्य निर्भरताएँ कैश हो जाती हैं। सभी %s-निर्मित सामग्री के लिए कैश पुन: उत्पन्न करने के लिए इस टूल का उपयोग करें।"
+      ],
+      "When using the Breakdance or Oxygen plugin, my server failed to fulfill the following request as expected. Instead, it returned an error code.": [
+        "ब्रेकडांस या ऑक्सीजन प्लगइन का उपयोग करते समय, मेरा सर्वर अपेक्षा के अनुरूप निम्नलिखित अनुरोध को पूरा करने में विफल रहा। इसके बजाय, इसने एक त्रुटि कोड लौटाया।"
+      ],
+      "Why did the server return a %s error?": [
+        "सर्वर ने %s त्रुटि क्यों लौटाई?"
+      ],
+      "Width": [
+        "चौड़ाई"
+      ],
+      "will be replaced with the correct path in the element.": [
+        "तत्व में सही पथ से प्रतिस्थापित किया जाएगा।"
+      ],
+      "Will only show an image's available sizes. Use [] when inside a repeater.": [
+        "केवल छवि के उपलब्ध आकार दिखाएगा. पुनरावर्तक के अंदर होने पर [] का उपयोग करें।"
+      ],
+      "Word Spacing": [
+        "शब्द रिक्ति"
+      ],
+      "Would you like to save or discard these changes?": [
+        "क्या आप इन परिवर्तनों को सहेजना या छोड़ना चाहेंगे?"
+      ],
+      "WP Media Options": [
+        "WP मीडिया विकल्प"
+      ],
+      "Wrap In": [
+        "लपेटो"
+      ],
+      "Write CSS with AI.": [
+        "AI के साथ CSS लिखें."
+      ],
+      "Write it like snoop dogg": [
+        "इसे स्नूप डॉग की तरह लिखें"
+      ],
+      "X": [
+        "एक्स"
+      ],
+      "Y": [
+        "वाई"
+      ],
+      "You already did full site import for this site.": [
+        "आप पहले ही इस साइट के लिए पूर्ण साइट आयात कर चुके हैं।"
+      ],
+      "You are not logged in": [
+        "आपने लॉग - इन नहीं किया"
+      ],
+      "You can now view and manage your sitemap.": [
+        "अब आप अपना साइटमैप देख और प्रबंधित कर सकते हैं."
+      ],
+      "You can use Twig to access the element properties. eg.": [
+        "आप तत्व गुणों तक पहुँचने के लिए ट्विग का उपयोग कर सकते हैं। जैसे."
+      ],
+      "You can't edit this item because it is in the Trash. Please restore it and try again.": [
+        "आप इस आइटम को संपादित नहीं कर सकते क्योंकि यह कूड़ेदान में है। कृपया इसे पुनर्स्थापित करें और पुनः प्रयास करें।"
+      ],
+      "You don't have any presets yet.": [
+        "आपके पास अभी तक कोई प्रीसेट नहीं है."
+      ],
+      "You don't have enough permissions to edit \"%s\" post type.": [
+        "आपके पास \"%s\" पोस्ट प्रकार को संपादित करने के लिए पर्याप्त अनुमतियाँ नहीं हैं।"
+      ],
+      "You have no deleted %s.": [
+        "आपने कोई %s हटाया नहीं है."
+      ],
+      "You have no published %s.": [
+        "आपके पास कोई प्रकाशित %s नहीं है."
+      ],
+      "You have unsaved changes": [
+        "आपके पास सहेजे नहीं गए परिवर्तन हैं"
+      ],
+      "You have unsaved changes to your AI Settings.": [
+        "आपकी AI सेटिंग्स में परिवर्तन सहेजे नहीं गए हैं।"
+      ],
+      "You have unsaved changes to your Global Settings.": [
+        "आपकी वैश्विक सेटिंग्स में परिवर्तन सहेजे नहीं गए हैं।"
+      ],
+      "You have unsaved changes to your Presets.": [
+        "आपके प्रीसेट में परिवर्तन सहेजे नहीं गए हैं।"
+      ],
+      "You have unsaved changes to your Selectors.": [
+        "आपके चयनकर्ताओं में परिवर्तन सहेजे नहीं गए हैं."
+      ],
+      "You have unsaved changes to your Variables.": [
+        "आपके वेरिएबल्स में परिवर्तन सहेजे नहीं गए हैं।"
+      ],
+      "You must save your changes first": [
+        "आपको पहले अपने परिवर्तन सहेजने होंगे"
+      ],
+      "You need to set up your OpenAI API key before you can use the AI assistant.": [
+        "AI सहायक का उपयोग करने से पहले आपको अपनी OpenAI API कुंजी सेट करनी होगी।"
+      ],
+      "You're about to delete \"%s\" permanently from the site. Are you sure?": [
+        "आप साइट से \"%s\" को स्थायी रूप से हटाने वाले हैं। क्या आपको यकीन है?"
+      ],
+      "You've already imported settings from this Design Library.": [
+        "आप पहले ही इस डिज़ाइन लाइब्रेरी से सेटिंग्स आयात कर चुके हैं।"
+      ],
+      "You've already imported the Design Presets from this site.": [
+        "आप पहले ही इस साइट से डिज़ाइन प्रीसेट आयात कर चुके हैं।"
+      ],
+      "You've been logged out of WordPress. Log back in to continue using %s.": [
+        "आप वर्डप्रेस से लॉग आउट हो गए हैं। %s का उपयोग जारी रखने के लिए वापस लॉग इन करें।"
+      ],
+      "Your existing %s will be moved to the trash. You can restore them from the trash after the import.": [
+        "आपका मौजूदा %s ट्रैश में ले जाया जाएगा. आप आयात के बाद उन्हें कूड़ेदान से पुनर्स्थापित कर सकते हैं।"
+      ],
+      "Your existing Design Presets will be overwritten with the Presets from this library website.": [
+        "आपके मौजूदा डिज़ाइन प्रीसेट को इस लाइब्रेरी वेबसाइट के प्रीसेट के साथ अधिलेखित कर दिया जाएगा।"
+      ],
+      "Your Name": [
+        "आपका नाम"
+      ],
+      "Your server returned a %s error.": [
+        "आपके सर्वर ने %s त्रुटि लौटा दी."
+      ],
+      "Your session has expired": [
+        "आपका सत्र समाप्त हो गया है"
+      ],
+      "Your session has expired. Refresh your session to continue using %s.": [
+        "आपका सत्र समाप्त हो गया है। %s का उपयोग जारी रखने के लिए अपने सत्र को ताज़ा करें।"
+      ],
+      "Your sitemap is ready!": [
+        "आपका साइटमैप तैयार है!"
+      ],
+      "Your template settings don't match any content. You can:": [
+        "आपकी टेम्प्लेट सेटिंग किसी भी सामग्री से मेल नहीं खाती. तुम कर सकते हो:"
+      ],
+      "Your website is ready!": [
+        "आपकी वेबसाइट तैयार है!"
+      ],
+      "%s: CSS class name(s)\u0004%s is assigned to this element but is no longer present on the site. Remove it by <span>clicking here</span> or editing the class list.": [
+        "%s इस तत्व को सौंपा गया है लेकिन अब साइट पर मौजूद नहीं है। इसे <span>यहां क्लिक करके</span> या कक्षा सूची संपादित करके हटाएं।",
+        "%s को इस तत्व को सौंपा गया है लेकिन वे अब साइट पर मौजूद नहीं हैं। <span>यहां क्लिक करके</span> या कक्षा सूची संपादित करके उन्हें हटाएं।"
+      ],
+      "Color\u0004Add %s": [
+        "%s जोड़ें"
+      ],
+      "Controls Tree\u0004Clear %s": [
+        "%s साफ़ करें"
+      ],
+      "Controls Tree\u0004Copy %s": [
+        "%s कॉपी करें"
+      ],
+      "Controls Tree\u0004Paste %s": [
+        "%s चिपकाएँ"
+      ],
+      "Design Library\u0004Import %s": [
+        "%s आयात करें"
+      ],
+      "Document\u0004Edit %s": [
+        "%s संपादित करें"
+      ],
+      "Document\u0004Editing %s": [
+        "%s का संपादन"
+      ],
+      "element nesting\u0004Must be added inside a \"%s\" element": [
+        "\"%s\" तत्व के अंदर अवश्य जोड़ा जाना चाहिए",
+        "\"%s\" तत्वों के अंदर अवश्य जोड़ा जाना चाहिए"
+      ],
+      "Element Presets\u0004Search results for \"%s\"": [
+        "एस के लिये परिणाम खोजें\""
+      ],
+      "Element Properties\u0004Search results for \"%s\"": [
+        "एस के लिये परिणाम खोजें\""
+      ],
+      "Element Studio\u0004New %s": [
+        "समाचार"
+      ],
+      "Element Studio Item Type\u0004Open %s": [
+        "%s खोलें"
+      ],
+      "Global Block\u0004Add %s": [
+        "%s जोड़ें"
+      ],
+      "Global Block\u0004Copy of \"%s\"": [
+        "\"%s\" की प्रतिलिपि"
+      ],
+      "Global Block\u0004Edit %s": [
+        "%s संपादित करें"
+      ],
+      "Global Block\u0004Editing \"%s\"": [
+        "\"%s\" का संपादन"
+      ],
+      "Global Block\u0004New %s": [
+        "समाचार"
+      ],
+      "Global Blocks\u0004Deleted %s": [
+        "%s हटा दिया गया"
+      ],
+      "Global Settings\u0004Search results for \"%s\"": [
+        "एस के लिये परिणाम खोजें\""
+      ],
+      "Oxygen Control\u0004Paste %s": [
+        "%s चिपकाएँ"
+      ],
+      "Plugin name\u0004The template does not contain a Template Content Area element. Therefore, the posts it applies to are not editable in %s.": [
+        "टेम्प्लेट में टेम्प्लेट सामग्री क्षेत्र तत्व शामिल नहीं है। इसलिए, जिन पोस्टों पर यह लागू होता है वे %s में संपादन योग्य नहीं हैं।"
+      ],
+      "Search\u0004No %s found.": [
+        "कोई %s नहीं मिला."
+      ],
+      "Selectors\u0004Search results for \"%s\"": [
+        "एस के लिये परिणाम खोजें\""
+      ],
+      "Settings\u0004Import %s": [
+        "%s आयात करें"
+      ],
+      "Template\u0004Add %s": [
+        "%s जोड़ें"
+      ],
+      "Template\u0004Copy of \"%s\"": [
+        "\"%s\" की प्रतिलिपि"
+      ],
+      "Template\u0004Edit in %s": [
+        "%s में संपादित करें"
+      ],
+      "Template\u0004Editing \"%s\"": [
+        "\"%s\" का संपादन"
+      ],
+      "Template\u0004New %s": [
+        "समाचार"
+      ],
+      "Templates\u0004Deleted %s": [
+        "%s हटा दिया गया"
+      ],
+      "Templates\u0004No %s found.": [
+        "कोई %s नहीं मिला."
+      ]
+    }
+  }
+}

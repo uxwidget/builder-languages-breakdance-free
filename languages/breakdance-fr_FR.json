@@ -1,0 +1,3874 @@
+{
+  "translation-revision-date": "2026-06-26 00:00+0000",
+  "generator": "Breakdance Languages",
+  "domain": "breakdance",
+  "locale_data": {
+    "breakdance": {
+      "": {
+        "domain": "breakdance",
+        "lang": "fr-FR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      ".my-cool-class": [
+        ".ma-classe-cool"
+      ],
+      ".your.css > #selector-69::after": [
+        ".votre.css > #selector-69 :: après"
+      ],
+      "\"%s\" is not a valid class name.": [
+        "\"%s\" n'est pas un nom de classe valide."
+      ],
+      "\"%s\" is not a valid CSS selector.": [
+        "\"%s\" n'est pas un sélecteur CSS valide."
+      ],
+      "(AND) %s for '{path}'": [
+        "(ET) %s pour '{path}'"
+      ],
+      "(Draft)": [
+        "(Brouillon)"
+      ],
+      "(empty)": [
+        "(vide)"
+      ],
+      "(Empty)": [
+        "(Vide)"
+      ],
+      "(no name)": [
+        "(pas de nom)"
+      ],
+      "(no title)": [
+        "(pas de titre)"
+      ],
+      "(the returned value is trimmed for spaces and newlines)": [
+        "(la valeur renvoyée est tronquée pour les espaces et les nouvelles lignes)"
+      ],
+      "%s - Error Code %s": [
+        "%s - Code d'erreur %s"
+      ],
+      "%s #%s": [
+        "%s #%s"
+      ],
+      "%s are also available.": [
+        "%s sont également disponibles."
+      ],
+      "%s couldn't be found": [
+        "%s est introuvable"
+      ],
+      "%s Editor": [
+        "%s Éditeur"
+      ],
+      "%s Element": [
+        "Élément %s"
+      ],
+      "%s failed": [
+        "Échec de %s"
+      ],
+      "%s Field in": [
+        "%s Champ dans"
+      ],
+      "%s generated an email you can send to your web host for help:": [
+        "%s a généré un e-mail que vous pouvez envoyer à votre hébergeur pour obtenir de l'aide :"
+      ],
+      "%s is already present on the element.": [
+        "%s est déjà présent sur l'élément."
+      ],
+      "%s is already present.": [
+        "%s est déjà présent."
+      ],
+      "%s is not a valid CSS class name.": [
+        "%s n'est pas un nom de classe CSS valide."
+      ],
+      "%s is not a valid CSS selector.": [
+        "%s n'est pas un sélecteur CSS valide."
+      ],
+      "%s not present. Set it in the %s.": [
+        "%s n'est pas présent. Définissez-le dans le %s."
+      ],
+      "%s on page": [
+        "%s à la page"
+      ],
+      "%s Options": [
+        "Options %s"
+      ],
+      "%s selectors imported. %s existing selectors were kept.": [
+        "Sélecteurs %s importés. %s sélecteurs existants ont été conservés."
+      ],
+      "%s selectors imported. All existing selectors were replaced.": [
+        "Sélecteurs %s importés. Tous les sélecteurs existants ont été remplacés."
+      ],
+      "%s Settings, and also import all Pages, Posts, and Templates from the design set.": [
+        "Paramètres %s, et importez également toutes les pages, publications et modèles de l'ensemble de conception."
+      ],
+      "%s variables imported. %s existing variables were kept.": [
+        "Variables %s importées. %s variables existantes ont été conservées."
+      ],
+      "%s was not saved": [
+        "%s n'a pas été enregistré"
+      ],
+      "%s was not saved, or it was saved but the value is invalid": [
+        "%s n'a pas été enregistré, ou il a été enregistré mais la valeur n'est pas valide"
+      ],
+      "%s. Set it in the %s.": [
+        "%s. Définissez-le dans le %s."
+      ],
+      "%spx and above": [
+        "%spx et plus"
+      ],
+      "%spx and below": [
+        "%spx et moins"
+      ],
+      "⚠️ (deleted)": [
+        "⚠️ (supprimé)"
+      ],
+      "⚠️ Could not generate content, please try again.": [
+        "⚠️ Impossible de générer du contenu, veuillez réessayer."
+      ],
+      "👋 Do you want to start with a template?": [
+        "👋 Vous souhaitez commencer avec un modèle ?"
+      ],
+      "404 Not Found": [
+        "404 introuvable"
+      ],
+      "A %s with the title \"%s\" already exists. Please select another title.": [
+        "Un %s portant le titre « %s » existe déjà. Veuillez sélectionner un autre titre."
+      ],
+      "A 403 error is almost caused by your host, firewall, or CDN blocking the request": [
+        "Une erreur 403 est presque causée par le blocage de la requête par votre hôte, votre pare-feu ou votre CDN."
+      ],
+      "A 500 error is usually a server issue and must be resolved by your web hosting provider or server administrator. It can also be caused by a broken plugin.": [
+        "Une erreur 500 est généralement un problème de serveur et doit être résolue par votre fournisseur d'hébergement Web ou votre administrateur de serveur. Cela peut également être dû à un plugin défectueux."
+      ],
+      "A preset is currently selected for this element.": [
+        "Un préréglage est actuellement sélectionné pour cet élément."
+      ],
+      "A weight is required": [
+        "Un poids est requis"
+      ],
+      "Accepted File Types": [
+        "Types de fichiers acceptés"
+      ],
+      "Accepts:": [
+        "Accepte :"
+      ],
+      "ACF": [
+        "ACF"
+      ],
+      "ACF Flexible Content": [
+        "Contenu flexible d'ACF"
+      ],
+      "ACF Relationship": [
+        "Relation ACF"
+      ],
+      "Action": [
+        "Action"
+      ],
+      "Action will only run for the specified path.": [
+        "L'action ne s'exécutera que pour le chemin spécifié."
+      ],
+      "Action will only run if element being moved is of that type, OR if the element was moved onto an element with that type.": [
+        "L'action ne s'exécutera que si l'élément déplacé est de ce type, OU si l'élément a été déplacé sur un élément de ce type."
+      ],
+      "Action will only run if the deleted element was inside a Section element.": [
+        "L'action ne s'exécutera que si l'élément supprimé se trouvait à l'intérieur d'un élément Section."
+      ],
+      "Action will run for any control below 'background'.": [
+        "L'action s'exécutera pour tout contrôle situé en dessous de « arrière-plan »."
+      ],
+      "Actions": [
+        "Actes"
+      ],
+      "Active": [
+        "Actif"
+      ],
+      "Add": [
+        "Ajouter"
+      ],
+      "Add a font family to %s's font family dropdowns, and optionally upload associated .woff/.woff2 files.": [
+        "Ajoutez une famille de polices aux listes déroulantes des familles de polices de %s et téléchargez éventuellement les fichiers .woff/.woff2 associés."
+      ],
+      "Add a link": [
+        "Ajouter un lien"
+      ],
+      "Add Action": [
+        "Ajouter une action"
+      ],
+      "Add an element to your page and it will show up here.": [
+        "Ajoutez un élément à votre page et il apparaîtra ici."
+      ],
+      "Add an element to your page or click an existing element to edit it.": [
+        "Ajoutez un élément à votre page ou cliquez sur un élément existant pour le modifier."
+      ],
+      "Add Breakpoint": [
+        "Ajouter un point d'arrêt"
+      ],
+      "Add Class": [
+        "Ajouter une classe"
+      ],
+      "Add Collection": [
+        "Ajouter une collection"
+      ],
+      "Add Condition": [
+        "Ajouter une condition"
+      ],
+      "Add Control": [
+        "Ajouter un contrôle"
+      ],
+      "Add Control Section": [
+        "Ajouter une section de contrôle"
+      ],
+      "Add CSS URL": [
+        "Ajouter une URL CSS"
+      ],
+      "Add Custom Template": [
+        "Ajouter un modèle personnalisé"
+      ],
+      "Add dependency": [
+        "Ajouter une dépendance"
+      ],
+      "Add Element": [
+        "Ajouter un élément"
+      ],
+      "Add External CSS": [
+        "Ajouter du CSS externe"
+      ],
+      "Add Font": [
+        "Ajouter une police"
+      ],
+      "Add Footer": [
+        "Ajouter un pied de page"
+      ],
+      "Add Header": [
+        "Ajouter un en-tête"
+      ],
+      "Add Interaction": [
+        "Ajouter une interaction"
+      ],
+      "Add Item": [
+        "Ajouter un article"
+      ],
+      "Add Macro": [
+        "Ajouter une macro"
+      ],
+      "Add Media": [
+        "Ajouter un média"
+      ],
+      "Add new": [
+        "Ajouter un nouveau"
+      ],
+      "Add new (AND) %s": [
+        "Ajouter un nouveau (ET) %s"
+      ],
+      "Add New Breakpoint": [
+        "Ajouter un nouveau point d'arrêt"
+      ],
+      "Add new collection": [
+        "Ajouter une nouvelle collection"
+      ],
+      "Add new default element": [
+        "Ajouter un nouvel élément par défaut"
+      ],
+      "Add new Dynamic Property Path": [
+        "Ajouter un nouveau chemin de propriété dynamique"
+      ],
+      "Add New Font": [
+        "Ajouter une nouvelle police"
+      ],
+      "Add new HTML attribute": [
+        "Ajouter un nouvel attribut HTML"
+      ],
+      "Add new OR condition": [
+        "Ajouter une nouvelle condition OU"
+      ],
+      "Add new spacing bar": [
+        "Ajouter une nouvelle barre d'espacement"
+      ],
+      "Add panel rules": [
+        "Ajouter des règles de panneau"
+      ],
+      "Add Popup": [
+        "Ajouter une pop-up"
+      ],
+      "Add Preset": [
+        "Ajouter un préréglage"
+      ],
+      "Add script": [
+        "Ajouter un script"
+      ],
+      "Add Section": [
+        "Ajouter une section"
+      ],
+      "Add Shadow": [
+        "Ajouter une ombre"
+      ],
+      "Add some content to your site that matches the template settings.": [
+        "Ajoutez du contenu à votre site qui correspond aux paramètres du modèle."
+      ],
+      "Add Template": [
+        "Ajouter un modèle"
+      ],
+      "Add Typography Preset": [
+        "Ajouter un préréglage de typographie"
+      ],
+      "Add Variable": [
+        "Ajouter une variable"
+      ],
+      "Add your first breakpoint by clicking the button below.": [
+        "Ajoutez votre premier point d'arrêt en cliquant sur le bouton ci-dessous."
+      ],
+      "advanced": [
+        "avancé"
+      ],
+      "Advanced": [
+        "Avancé"
+      ],
+      "Advanced Template Settings": [
+        "Paramètres avancés du modèle"
+      ],
+      "Affected property path": [
+        "Chemin de propriété concerné"
+      ],
+      "After Date": [
+        "Après la date"
+      ],
+      "AI Assistant": [
+        "Assistant IA"
+      ],
+      "AI Site Creation Experience": [
+        "Expérience de création de sites IA"
+      ],
+      "AJAX Error": [
+        "Erreur AJAX"
+      ],
+      "Ajax Handler Error": [
+        "Erreur du gestionnaire Ajax"
+      ],
+      "All": [
+        "Tous"
+      ],
+      "All Borders": [
+        "Toutes les frontières"
+      ],
+      "All device widths": [
+        "Toutes les largeurs d'appareil"
+      ],
+      "All file types are allowed by default.": [
+        "Tous les types de fichiers sont autorisés par défaut."
+      ],
+      "All Icons": [
+        "Toutes les icônes"
+      ],
+      "All providers are allowed by default.": [
+        "Tous les fournisseurs sont autorisés par défaut."
+      ],
+      "Allow only certain file types": [
+        "Autoriser uniquement certains types de fichiers"
+      ],
+      "Allowed post type": [
+        "Type de message autorisé"
+      ],
+      "Allowed types": [
+        "Types autorisés"
+      ],
+      "Alternatively, you can use your keyboard shortcuts:": [
+        "Vous pouvez également utiliser vos raccourcis clavier :"
+      ],
+      "Always hide element from the Add Panel": [
+        "Masquez toujours l'élément du panneau d'ajout"
+      ],
+      "Amount": [
+        "Montant"
+      ],
+      "And": [
+        "Et"
+      ],
+      "AND": [
+        "AND"
+      ],
+      "Animations": [
+        "Animations"
+      ],
+      "API Key": [
+        "Clé API"
+      ],
+      "Applies to": [
+        "S'applique à"
+      ],
+      "Apply": [
+        "Appliquer"
+      ],
+      "Apply %s to...": [
+        "Appliquez %s à..."
+      ],
+      "Apply all (=)": [
+        "Appliquer tout (=)"
+      ],
+      "Apply All (=)": [
+        "Appliquer tout (=)"
+      ],
+      "Apply Conditions": [
+        "Appliquer les conditions"
+      ],
+      "Apply opposite": [
+        "Appliquer ci-contre"
+      ],
+      "Apply Query": [
+        "Appliquer la requête"
+      ],
+      "Are you sure you want to delete %s?": [
+        "Etes-vous sûr de vouloir supprimer %s?"
+      ],
+      "Are you sure you want to delete the collection \"%s\"?": [
+        "Etes-vous sûr de vouloir supprimer la collection «%s» ?"
+      ],
+      "Are you sure you want to delete the icon %s?": [
+        "Etes-vous sûr de vouloir supprimer l'icône %s?"
+      ],
+      "Are you sure you want to delete this?": [
+        "Êtes-vous sûr de vouloir supprimer ceci ?"
+      ],
+      "Are you sure you want to edit?": [
+        "Êtes-vous sûr de vouloir modifier ?"
+      ],
+      "are you sure?": [
+        "es-tu sûr?"
+      ],
+      "Array": [
+        "Tableau"
+      ],
+      "Ascending": [
+        "Ascendant"
+      ],
+      "Attribute": [
+        "Attribut"
+      ],
+      "Attribute Name": [
+        "Nom de l'attribut"
+      ],
+      "Attribute Value": [
+        "Valeur d'attribut"
+      ],
+      "Attributes": [
+        "Attributs"
+      ],
+      "Attributes are added to the container of the element": [
+        "Les attributs sont ajoutés au conteneur de l'élément"
+      ],
+      "Auto-scroll to active element": [
+        "Défilement automatique jusqu'à l'élément actif"
+      ],
+      "Autofocus": [
+        "Mise au point automatique"
+      ],
+      "Available In": [
+        "Disponible dans"
+      ],
+      "Available variables:": [
+        "Variables disponibles :"
+      ],
+      "Available within the action's code:": [
+        "Disponible dans le code de l'action :"
+      ],
+      "Back": [
+        "Retour"
+      ],
+      "Back to WordPress admin": [
+        "Retour à l'administrateur WordPress"
+      ],
+      "Background Color": [
+        "Couleur d'arrière-plan"
+      ],
+      "Badge Background": [
+        "Fond d'insigne"
+      ],
+      "Badge Label": [
+        "Étiquette d'insigne"
+      ],
+      "Badge Text": [
+        "Texte du badge"
+      ],
+      "Based on the control's path.": [
+        "Basé sur le chemin du contrôle."
+      ],
+      "Based on the deleted element's parent type.": [
+        "Basé sur le type parent de l'élément supprimé."
+      ],
+      "Based on the element's and moved-on element's type.": [
+        "Basé sur le type de l'élément et de l'élément déplacé."
+      ],
+      "Baseline": [
+        "Référence"
+      ],
+      "Be funny": [
+        "Soyez drôle"
+      ],
+      "Be verbose": [
+        "Soyez verbeux"
+      ],
+      "Be very concise": [
+        "Soyez très concis"
+      ],
+      "Before Date": [
+        "Avant la date"
+      ],
+      "before use.": [
+        "avant utilisation."
+      ],
+      "Best Regards,": [
+        "Cordialement,"
+      ],
+      "beware that the Twig code running in the action will be with the child's data, including tags": [
+        "attention, le code Twig exécuté dans l'action contiendra les données de l'enfant, y compris les balises"
+      ],
+      "Big Button Bar": [
+        "Grande barre de boutons"
+      ],
+      "Blur": [
+        "Se brouiller"
+      ],
+      "Body": [
+        "Corps"
+      ],
+      "Body:": [
+        "Corps:"
+      ],
+      "Border Bottom": [
+        "Bordure inférieure"
+      ],
+      "Border Color": [
+        "Couleur de la bordure"
+      ],
+      "Border Left": [
+        "Bordure gauche"
+      ],
+      "Border Right": [
+        "Frontière droite"
+      ],
+      "Border Top": [
+        "Bordure supérieure"
+      ],
+      "Bottom": [
+        "Bas"
+      ],
+      "Breakdance > Templates > Edit Template": [
+        "Breakdance > Modèles > Modifier le modèle"
+      ],
+      "Breakdance Barebones": [
+        "Barebones de breakdance"
+      ],
+      "Breakdance uses OpenAI's GPT-3.5 to rewrite your content. Please install the Breakdance AI plugin to use this feature.": [
+        "Breakdance utilise GPT-3.5 d'OpenAI pour réécrire votre contenu. Veuillez installer le plugin Breakdance AI pour utiliser cette fonctionnalité."
+      ],
+      "Breakpoint name, ie. iPhone X or tablet": [
+        "Nom du point d'arrêt, c'est-à-dire. iPhone X ou tablette"
+      ],
+      "Breakpoint options": [
+        "Options de point d'arrêt"
+      ],
+      "Breakpoints": [
+        "Points d'arrêt"
+      ],
+      "browse": [
+        "parcourir"
+      ],
+      "browse...": [
+        "parcourir..."
+      ],
+      "Builder Condition (empty)": [
+        "État du constructeur (vide)"
+      ],
+      "Builder Condition (present)": [
+        "État du constructeur (présent)"
+      ],
+      "Builder Only": [
+        "Constructeur uniquement"
+      ],
+      "Building your website...": [
+        "Construire votre site Web..."
+      ],
+      "Business Name": [
+        "Nom de l'entreprise"
+      ],
+      "Button Name": [
+        "Nom du bouton"
+      ],
+      "Button Text": [
+        "Texte du bouton"
+      ],
+      "Buttons & Forms": [
+        "Boutons et formulaires"
+      ],
+      "Bypass Pointer Events": [
+        "Contourner les événements de pointeur"
+      ],
+      "Call to action section on services page": [
+        "Section d'appel à l'action sur la page des services"
+      ],
+      "Can run Twig and JS code.": [
+        "Peut exécuter du code Twig et JS."
+      ],
+      "Can run Twig and PHP code.": [
+        "Peut exécuter du code Twig et PHP."
+      ],
+      "Cancel": [
+        "Annuler"
+      ],
+      "Category": [
+        "Catégorie"
+      ],
+      "Center": [
+        "Centre"
+      ],
+      "Center horizontally": [
+        "Centrer horizontalement"
+      ],
+      "Change Icon": [
+        "Changer d'icône"
+      ],
+      "Changing the slug of an existing element will make it obsolete in all pages, everywhere. Continue anyway?": [
+        "Changer le slug d'un élément existant le rendra obsolète dans toutes les pages, partout. Continuer quand même ?"
+      ],
+      "Check browser console for debug information.": [
+        "Consultez la console du navigateur pour obtenir des informations de débogage."
+      ],
+      "Children of Target": [
+        "Enfants de la cible"
+      ],
+      "choose": [
+        "choisir"
+      ],
+      "Choose": [
+        "Choisir"
+      ],
+      "Choose a %s": [
+        "Choisissez un %s"
+      ],
+      "Choose a Breakpoint": [
+        "Choisissez un point d'arrêt"
+      ],
+      "Choose a column structure": [
+        "Choisissez une structure de colonnes"
+      ],
+      "Choose a Component": [
+        "Choisissez un composant"
+      ],
+      "choose a document to edit": [
+        "choisir un document à modifier"
+      ],
+      "Choose Breakpoints": [
+        "Choisir des points d'arrêt"
+      ],
+      "Choose condition...": [
+        "Choisissez la condition..."
+      ],
+      "Choose Design Preset": [
+        "Choisissez un préréglage de conception"
+      ],
+      "Choose media": [
+        "Choisissez un média"
+      ],
+      "Choose one of the options below.": [
+        "Choisissez l'une des options ci-dessous."
+      ],
+      "Choose operand...": [
+        "Choisissez l'opérande..."
+      ],
+      "Choose post type": [
+        "Choisissez le type de message"
+      ],
+      "Choose the category that best describes your website.": [
+        "Choisissez la catégorie qui décrit le mieux votre site Web."
+      ],
+      "Choose the goals that best describe your website.": [
+        "Choisissez les objectifs qui décrivent le mieux votre site Web."
+      ],
+      "Choose the writing style that best describes your website.": [
+        "Choisissez le style d'écriture qui décrit le mieux votre site Web."
+      ],
+      "Choose what to import:": [
+        "Choisissez ce que vous souhaitez importer :"
+      ],
+      "Class %s": [
+        "Classe %s"
+      ],
+      "Class Condition Twig Template": [
+        "Modèle de brindille de condition de classe"
+      ],
+      "Class Name": [
+        "Nom de la classe"
+      ],
+      "Classes": [
+        "Cours"
+      ],
+      "Classes & selectors are only available in %s Pro. They won't work on the frontend.": [
+        "Les classes et les sélecteurs ne sont disponibles que dans %s Pro. Ils ne fonctionneront pas sur le frontend."
+      ],
+      "Classes are added to the container of the element": [
+        "Les classes sont ajoutées au conteneur de l'élément"
+      ],
+      "clear": [
+        "clair"
+      ],
+      "Clear": [
+        "Clair"
+      ],
+      "Clear All": [
+        "Tout effacer"
+      ],
+      "Clear Badge": [
+        "Effacer l'insigne"
+      ],
+      "Clear Search": [
+        "Effacer la recherche"
+      ],
+      "Clear Styles": [
+        "Styles clairs"
+      ],
+      "Clear Variable": [
+        "Effacer la variable"
+      ],
+      "Click here to edit content": [
+        "Cliquez ici pour modifier le contenu"
+      ],
+      "Click here to set up your API key": [
+        "Cliquez ici pour configurer votre clé API"
+      ],
+      "Click IMPORT to set the default properties to the properties of the currently active element. Active element must be a %s.": [
+        "Cliquez sur IMPORTER pour définir les propriétés par défaut sur les propriétés de l'élément actuellement actif. L'élément actif doit être un %s."
+      ],
+      "Click on an element in the editor to rewrite it with AI.": [
+        "Cliquez sur un élément dans l'éditeur pour le réécrire avec l'IA."
+      ],
+      "Click the Error Details tab above and read the error message. If one is not available, consult your server's error log.": [
+        "Cliquez sur l'onglet Détails de l'erreur ci-dessus et lisez le message d'erreur. S'il n'y en a pas, consultez le journal des erreurs de votre serveur."
+      ],
+      "Click to set min and max widths.": [
+        "Cliquez pour définir les largeurs minimale et maximale."
+      ],
+      "Close": [
+        "Fermer"
+      ],
+      "Close %s": [
+        "Fermer %s"
+      ],
+      "Close Element Studio Panel": [
+        "Fermer le panneau Element Studio"
+      ],
+      "Close modal": [
+        "Fermer modale"
+      ],
+      "Close Preview": [
+        "Fermer l'aperçu"
+      ],
+      "CloseIcon": [
+        "Icône Fermer"
+      ],
+      "Closest Parent": [
+        "Parent le plus proche"
+      ],
+      "Code Help": [
+        "Aide sur les codes"
+      ],
+      "Code input options": [
+        "Options de saisie de code"
+      ],
+      "Code was not saved.": [
+        "Le code n'a pas été enregistré."
+      ],
+      "Collapse": [
+        "Effondrement"
+      ],
+      "Collection": [
+        "Collection"
+      ],
+      "Color": [
+        "Couleur"
+      ],
+      "Color Picker": [
+        "Sélecteur de couleurs"
+      ],
+      "Color Type": [
+        "Type de couleur"
+      ],
+      "Colors": [
+        "Couleurs"
+      ],
+      "Comments count": [
+        "Les commentaires comptent"
+      ],
+      "Components must have a single root tag.": [
+        "Les composants doivent avoir une seule balise racine."
+      ],
+      "Conditions": [
+        "Conditions"
+      ],
+      "Confirm": [
+        "Confirmer"
+      ],
+      "Confirm Overwrite & Import": [
+        "Confirmer l'écrasement et l'importation"
+      ],
+      "Constrain Preview Size": [
+        "Contraindre la taille de l'aperçu"
+      ],
+      "Consult our %stroubleshooting guide for the \"403\" error code%s which contains information your host can use to whitelist all requests coming from %s.": [
+        "Consultez notre guide de dépannage %s pour le code d'erreur « 403 »%s qui contient des informations que votre hôte peut utiliser pour mettre sur liste blanche toutes les requêtes provenant de %s."
+      ],
+      "Consult our %stroubleshooting guide for the \"500\" error code%s": [
+        "Consultez notre guide de dépannage %spour le code d'erreur \"500\"%s"
+      ],
+      "Contact": [
+        "Contact"
+      ],
+      "Contact your hosting provider with the prewritten email below.": [
+        "Contactez votre fournisseur d'hébergement avec l'e-mail pré-écrit ci-dessous."
+      ],
+      "Container": [
+        "Récipient"
+      ],
+      "contains": [
+        "contient"
+      ],
+      "Content": [
+        "Contenu"
+      ],
+      "Continue": [
+        "Continuer"
+      ],
+      "Continue writing": [
+        "Continuer à écrire"
+      ],
+      "Continue writing the text": [
+        "Continuez à écrire le texte"
+      ],
+      "Control Label": [
+        "Étiquette de contrôle"
+      ],
+      "Control Slider": [
+        "Curseur de contrôle"
+      ],
+      "Copied!": [
+        "Copié!"
+      ],
+      "copy": [
+        "copie"
+      ],
+      "Copy": [
+        "Copier"
+      ],
+      "Copy All Elements": [
+        "Copier tous les éléments"
+      ],
+      "Copy as text": [
+        "Copier sous forme de texte"
+      ],
+      "Copy CSS": [
+        "Copier CSS"
+      ],
+      "Copy SVG": [
+        "Copier SVG"
+      ],
+      "Copy the active element": [
+        "Copiez l'élément actif"
+      ],
+      "Copy to clipboard": [
+        "Copier dans le presse-papier"
+      ],
+      "Copy URL": [
+        "Copier l'URL"
+      ],
+      "Corners": [
+        "Coins"
+      ],
+      "Correct grammar": [
+        "Corriger la grammaire"
+      ],
+      "Correct the grammar of the text": [
+        "Corriger la grammaire du texte"
+      ],
+      "Could not load media data.": [
+        "Impossible de charger les données multimédias."
+      ],
+      "Couldn't import site, something went wrong": [
+        "Impossible d'importer le site, quelque chose s'est mal passé"
+      ],
+      "Couldn't load blocks data": [
+        "Impossible de charger les données des blocs"
+      ],
+      "Couldn't load Global Blocks data": [
+        "Impossible de charger les données des blocs globaux"
+      ],
+      "Couldn't load templates data": [
+        "Impossible de charger les données des modèles"
+      ],
+      "Couldn't recreate the cache for post \"%s\". Please re-save that post manually.": [
+        "Impossible de recréer le cache pour la publication \"%s\". Veuillez réenregistrer ce message manuellement."
+      ],
+      "Create": [
+        "Créer"
+      ],
+      "Create %s": [
+        "Créer %s"
+      ],
+      "Create %s preset": [
+        "Créer un préréglage %s"
+      ],
+      "Create a new, original piece of text that complements and enhances the existing material.": [
+        "Créez un nouveau morceau de texte original qui complète et améliore le matériel existant."
+      ],
+      "Create and manage variables in the": [
+        "Créez et gérez des variables dans le"
+      ],
+      "Create Design Preset": [
+        "Créer un préréglage de conception"
+      ],
+      "Create new %s": [
+        "Créer un nouveau %s"
+      ],
+      "Create Post": [
+        "Créer un message"
+      ],
+      "Create preset from design": [
+        "Créer un préréglage à partir de la conception"
+      ],
+      "Create Selector": [
+        "Créer un sélecteur"
+      ],
+      "Created: Newest first": [
+        "Créé : le plus récent en premier"
+      ],
+      "Created: Oldest first": [
+        "Créé : le plus ancien en premier"
+      ],
+      "CSS": [
+        "CSS"
+      ],
+      "CSS Selector": [
+        "Sélecteur CSS"
+      ],
+      "CSS URL": [
+        "CSS URL"
+      ],
+      "Current": [
+        "Actuel"
+      ],
+      "Current Default Properties": [
+        "Propriétés par défaut actuelles"
+      ],
+      "Custom": [
+        "Coutume"
+      ],
+      "Custom Elements": [
+        "Éléments personnalisés"
+      ],
+      "Custom font name, ie. Helvetica": [
+        "Nom de police personnalisé, c'est-à-dire. Helvétique"
+      ],
+      "Custom Fonts": [
+        "Polices personnalisées"
+      ],
+      "Custom width (px)": [
+        "Largeur personnalisée (px)"
+      ],
+      "Custom: %s": [
+        "Personnalisé : %s"
+      ],
+      "Custom...": [
+        "Coutume..."
+      ],
+      "cut": [
+        "couper"
+      ],
+      "Cycle to the next breakpoint": [
+        "Passer au point d'arrêt suivant"
+      ],
+      "Dark Mode": [
+        "Mode sombre"
+      ],
+      "Dashboard": [
+        "Tableau de bord"
+      ],
+      "Date": [
+        "Date"
+      ],
+      "Date picker options": [
+        "Options du sélecteur de date"
+      ],
+      "De-activate the active element or close modal": [
+        "Désactiver l'élément actif ou fermer le modal"
+      ],
+      "Decides if the dependencies are added to the builder": [
+        "Décide si les dépendances sont ajoutées au constructeur"
+      ],
+      "Decides if the dependencies are added to the frontend": [
+        "Décide si les dépendances sont ajoutées au frontend"
+      ],
+      "Decoration": [
+        "Décoration"
+      ],
+      "Default": [
+        "Défaut"
+      ],
+      "Default Children": [
+        "Enfants par défaut"
+      ],
+      "Default CSS": [
+        "CSS par défaut"
+      ],
+      "Default Element": [
+        "Élément par défaut"
+      ],
+      "Default Elements": [
+        "Éléments par défaut"
+      ],
+      "Default Preview Width": [
+        "Largeur d'aperçu par défaut"
+      ],
+      "Default Properties": [
+        "Propriétés par défaut"
+      ],
+      "Default Tag": [
+        "Balise par défaut"
+      ],
+      "Default Title": [
+        "Titre par défaut"
+      ],
+      "Default Type": [
+        "Type par défaut"
+      ],
+      "Default Unit Type": [
+        "Type d'unité par défaut"
+      ],
+      "Defaults to \"Add Item\".": [
+        "La valeur par défaut est « Ajouter un élément »."
+      ],
+      "Delete": [
+        "Supprimer"
+      ],
+      "Delete active element": [
+        "Supprimer l'élément actif"
+      ],
+      "Delete nested selector permanently?": [
+        "Supprimer définitivement le sélecteur imbriqué ?"
+      ],
+      "Delete permanently": [
+        "Supprimer définitivement"
+      ],
+      "Delete selector permanently?": [
+        "Supprimer définitivement le sélecteur ?"
+      ],
+      "Delete?": [
+        "Supprimer?"
+      ],
+      "Deleted": [
+        "Supprimé"
+      ],
+      "Dependencies": [
+        "Dépendances"
+      ],
+      "Dependency": [
+        "Dépendance"
+      ],
+      "Descending": [
+        "Descendant"
+      ],
+      "Describe This Section": [
+        "Décrire cette section"
+      ],
+      "Describe Your Business": [
+        "Décrivez votre entreprise"
+      ],
+      "Describe your website in a sentence or two": [
+        "Décrivez votre site Web en une phrase ou deux"
+      ],
+      "Description": [
+        "Description"
+      ],
+      "Design": [
+        "Design"
+      ],
+      "Design Library": [
+        "Bibliothèque de conception"
+      ],
+      "Design Presets": [
+        "Préréglages de conception"
+      ],
+      "Design Presets are only available in %s Pro. They won't work on the frontend.": [
+        "Les préréglages de conception ne sont disponibles que dans %s Pro. Ils ne fonctionneront pas sur le frontend."
+      ],
+      "Design Set": [
+        "Ensemble de conception"
+      ],
+      "Design Set:": [
+        "Ensemble de conception :"
+      ],
+      "Design Template": [
+        "Modèle de conception"
+      ],
+      "Detach": [
+        "Détacher"
+      ],
+      "Detach Styles": [
+        "Détacher les styles"
+      ],
+      "Details & Troubleshooting": [
+        "Détails et dépannage"
+      ],
+      "Dimensions": [
+        "Dimensions"
+      ],
+      "Direction": [
+        "Direction"
+      ],
+      "Disable AI": [
+        "Désactiver l'IA"
+      ],
+      "Disable At": [
+        "Désactiver à"
+      ],
+      "Disable Autoplay": [
+        "Désactiver la lecture automatique"
+      ],
+      "Disable Code Editor Line Wrapping": [
+        "Désactiver le retour à la ligne de l'éditeur de code"
+      ],
+      "Disable Custom Unit Dropdown": [
+        "Désactiver la liste déroulante des unités personnalisées"
+      ],
+      "Disable In FutureLayer": [
+        "Désactiver dans FutureLayer"
+      ],
+      "Disable Message For Empty SSR Elements": [
+        "Désactiver le message pour les éléments SSR vides"
+      ],
+      "Disable Type Safety:": [
+        "Désactiver la sécurité des types :"
+      ],
+      "Disable Wrapper HTML Tag (frontend-only)": [
+        "Désactiver la balise HTML Wrapper (frontend uniquement)"
+      ],
+      "Disallow if others are present": [
+        "Interdire si d'autres personnes sont présentes"
+      ],
+      "Discard": [
+        "Jeter"
+      ],
+      "Discard my changes": [
+        "Annuler mes modifications"
+      ],
+      "Div": [
+        "Division"
+      ],
+      "Do not show this popup if any other popup has already shown": [
+        "Ne pas afficher cette fenêtre contextuelle si une autre fenêtre contextuelle s'est déjà affichée"
+      ],
+      "documentation": [
+        "documentation"
+      ],
+      "Documentation": [
+        "Documentation"
+      ],
+      "does not contain": [
+        "ne contient pas"
+      ],
+      "Don't add srcset attribute to the Image object": [
+        "N'ajoutez pas l'attribut srcset à l'objet Image"
+      ],
+      "Download": [
+        "Télécharger"
+      ],
+      "drag .woff or .woff2 files or": [
+        "faites glisser les fichiers .woff ou .woff2 ou"
+      ],
+      "Drag %s.json here": [
+        "Faites glisser %s.json ici"
+      ],
+      "Drag element": [
+        "Faites glisser l'élément"
+      ],
+      "Drag SVGs or an IcoMoon symbol-defs.svg file here or click to choose a file": [
+        "Faites glisser des SVG ou un fichier IcoMoon symbol-defs.svg ici ou cliquez pour choisir un fichier"
+      ],
+      "Drag to reorder": [
+        "Faites glisser pour réorganiser"
+      ],
+      "Dropdown items": [
+        "Éléments déroulants"
+      ],
+      "Dropdown options": [
+        "Options de liste déroulante"
+      ],
+      "dump search results": [
+        "vider les résultats de la recherche"
+      ],
+      "Duplicate": [
+        "Dupliquer"
+      ],
+      "Duplicate the active element": [
+        "Dupliquer l'élément actif"
+      ],
+      "Duplicating template \"%s\" failed": [
+        "La duplication du modèle \"%s\" a échoué"
+      ],
+      "Dynamic Behavior Works": [
+        "Le comportement dynamique fonctionne"
+      ],
+      "Dynamic Behavior Works:": [
+        "Le comportement dynamique fonctionne :"
+      ],
+      "Dynamic Property": [
+        "Propriété dynamique"
+      ],
+      "Dynamic Property Path": [
+        "Chemin de propriété dynamique"
+      ],
+      "Dynamic Property Paths (deprecated)": [
+        "Chemins de propriétés dynamiques (obsolètes)"
+      ],
+      "Dynamic Property Type": [
+        "Type de propriété dynamique"
+      ],
+      "Edit": [
+        "Modifier"
+      ],
+      "Edit anyway": [
+        "Modifier quand même"
+      ],
+      "Edit Anyway": [
+        "Modifier quand même"
+      ],
+      "Edit Component": [
+        "Modifier le composant"
+      ],
+      "Edit Conditions": [
+        "Modifier les conditions"
+      ],
+      "Edit in %s": [
+        "Modifier dans %s"
+      ],
+      "Edit in Builder": [
+        "Modifier dans le générateur"
+      ],
+      "Edit Link": [
+        "Modifier le lien"
+      ],
+      "Edit Query": [
+        "Modifier la requête"
+      ],
+      "Edit Settings": [
+        "Modifier les paramètres"
+      ],
+      "Edit Template": [
+        "Modifier le modèle"
+      ],
+      "Edit the template anyway - this is not an error.": [
+        "Modifiez quand même le modèle – ce n’est pas une erreur."
+      ],
+      "editing hover style": [
+        "modification du style de survol"
+      ],
+      "Editing Preset": [
+        "Modification du préréglage"
+      ],
+      "Editing Selector": [
+        "Sélecteur d'édition"
+      ],
+      "Element": [
+        "Élément"
+      ],
+      "Element activated": [
+        "Élément activé"
+      ],
+      "Element depends on global scripts to work": [
+        "L'élément dépend des scripts globaux pour fonctionner"
+      ],
+      "Element Properties": [
+        "Propriétés des éléments"
+      ],
+      "Element Studio": [
+        "Élément Studio"
+      ],
+      "Element Studio is for developers and is provided as-is.": [
+        "Element Studio est destiné aux développeurs et est fourni tel quel."
+      ],
+      "Element that will be automatically added inside this current element": [
+        "Élément qui sera automatiquement ajouté à l'intérieur de cet élément courant"
+      ],
+      "Element to be a descendant of": [
+        "Élément dont il faut être un descendant"
+      ],
+      "Element to be a direct child of": [
+        "Élément devant être un enfant direct de"
+      ],
+      "Element Type": [
+        "Type d'élément"
+      ],
+      "Element's class:": [
+        "Classe de l'élément :"
+      ],
+      "Elements": [
+        "Éléments"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "Embedding...": [
+        "Intégration..."
+      ],
+      "Empty Trash": [
+        "Vider la corbeille"
+      ],
+      "Enable dynamic property": [
+        "Activer la propriété dynamique"
+      ],
+      "Enable gallery mode": [
+        "Activer le mode galerie"
+      ],
+      "Enable Grid Mode": [
+        "Activer le mode grille"
+      ],
+      "Enable Hover": [
+        "Activer le survol"
+      ],
+      "Enable Media Queries": [
+        "Activer les requêtes multimédias"
+      ],
+      "Enable Never": [
+        "Activer Jamais"
+      ],
+      "Enable Paste": [
+        "Activer le collage"
+      ],
+      "Enable spacing bars": [
+        "Activer les barres d'espacement"
+      ],
+      "Enable variables": [
+        "Activer les variables"
+      ],
+      "Enable Variables": [
+        "Activer les variables"
+      ],
+      "Enter a name": [
+        "Entrez un nom"
+      ],
+      "Enter name": [
+        "Entrez le nom"
+      ],
+      "Enter Password": [
+        "Entrez le mot de passe"
+      ],
+      "Environment & details": [
+        "Environnement & détails"
+      ],
+      "equals": [
+        "est égal"
+      ],
+      "Error Code: %s": [
+        "Code d'erreur : %s"
+      ],
+      "Error Details": [
+        "Détails de l'erreur"
+      ],
+      "Error importing %s for \"%s\"": [
+        "Erreur lors de l'importation de %s pour \"%s\""
+      ],
+      "Error importing %s.": [
+        "Erreur lors de l'importation de %s."
+      ],
+      "Error importing Design Presets for \"%s\"": [
+        "Erreur lors de l'importation des préréglages de conception pour \"%s\""
+      ],
+      "Error importing Selectors - the file is empty.": [
+        "Erreur lors de l'importation des sélecteurs : le fichier est vide."
+      ],
+      "Error importing Selectors - the file is invalid.": [
+        "Erreur lors de l'importation des sélecteurs : le fichier n'est pas valide."
+      ],
+      "Error importing Variables - the file is invalid or empty.": [
+        "Erreur lors de l'importation des variables : le fichier est invalide ou vide."
+      ],
+      "Error importing Variables - the file is invalid.": [
+        "Erreur lors de l'importation des variables : le fichier n'est pas valide."
+      ],
+      "Error saving new space bar, please fill out all fields": [
+        "Erreur lors de l'enregistrement de la nouvelle barre d'espace, veuillez remplir tous les champs"
+      ],
+      "Error trashing existing Templates, Headers, Footers, %s, and Popups.": [
+        "Erreur lors de la suppression des modèles, en-têtes, pieds de page, %s et fenêtres contextuelles existants."
+      ],
+      "error: failed to load elements": [
+        "erreur : échec du chargement des éléments"
+      ],
+      "Error: no registered saving locations. Using the %s plugin will automatically register a saving location.": [
+        "Erreur : aucun emplacement de sauvegarde enregistré. L’utilisation du plugin %s enregistrera automatiquement un emplacement de sauvegarde."
+      ],
+      "Everywhere": [
+        "Partout"
+      ],
+      "Example:\nShorten the following text": [
+        "Exemple :\nRaccourcir le texte suivant"
+      ],
+      "Examples:": [
+        "Exemples :"
+      ],
+      "Execute code": [
+        "Exécuter le code"
+      ],
+      "Existing Classes": [
+        "Cours existants"
+      ],
+      "Exit": [
+        "Sortie"
+      ],
+      "Exit to Frontend": [
+        "Quitter vers le front-end"
+      ],
+      "Exit to WordPress": [
+        "Sortie vers WordPress"
+      ],
+      "Expand": [
+        "Développer"
+      ],
+      "Experimental Element?": [
+        "Élément expérimental ?"
+      ],
+      "Experimental: Show Previous Breakpoint Value As Placeholder": [
+        "Expérimental : afficher la valeur du point d'arrêt précédent comme espace réservé"
+      ],
+      "Export": [
+        "Exporter"
+      ],
+      "Export %s": [
+        "Exporter %s"
+      ],
+      "External conditions can't be edited": [
+        "Les conditions externes ne peuvent pas être modifiées"
+      ],
+      "Failed to delete element": [
+        "Échec de la suppression de l'élément"
+      ],
+      "Failed to export icon set.": [
+        "Échec de l'exportation du jeu d'icônes."
+      ],
+      "Failed to get a response from OpenAI API, please try again.": [
+        "Impossible d'obtenir une réponse de l'API OpenAI. Veuillez réessayer."
+      ],
+      "Failed to get Unsplash keywords from OpenAI API.": [
+        "Échec de l'obtention des mots-clés Unsplash à partir de l'API OpenAI."
+      ],
+      "Failed to import all %s.": [
+        "Échec de l'importation de tous les %s."
+      ],
+      "Failed to load necessary post types for the Wp Query control": [
+        "Échec du chargement des types de publication nécessaires pour le contrôle Wp Query"
+      ],
+      "Failed to save element, check console": [
+        "Échec de l'enregistrement de l'élément, vérifiez la console"
+      ],
+      "Fallback": [
+        "Retomber"
+      ],
+      "Fetch context path": [
+        "Récupérer le chemin du contexte"
+      ],
+      "Fetch data action route name": [
+        "Récupérer le nom de la route d'action de données"
+      ],
+      "Fetch images from Unsplash to use in your content, they are automatically added to Image elements in the selected section.": [
+        "Récupérez des images depuis Unsplash pour les utiliser dans votre contenu, elles sont automatiquement ajoutées aux éléments Image dans la section sélectionnée."
+      ],
+      "Field": [
+        "Champ"
+      ],
+      "Field's Value": [
+        "Valeur du champ"
+      ],
+      "File accepted": [
+        "Dossier accepté"
+      ],
+      "File:": [
+        "Déposer:"
+      ],
+      "Fill Empty Images Only": [
+        "Remplir uniquement les images vides"
+      ],
+      "Filter by type": [
+        "Filtrer par type"
+      ],
+      "Filtering": [
+        "Filtration"
+      ],
+      "Finished recreating all posts cache": [
+        "Fin de la recréation de tous les caches de publications"
+      ],
+      "Focus Point Options": [
+        "Options de point focal"
+      ],
+      "Focus the properties search box and toggle the option to search advanced settings (element properties panel only).": [
+        "Concentrez la zone de recherche des propriétés et activez l'option de recherche des paramètres avancés (panneau des propriétés des éléments uniquement)."
+      ],
+      "Focus the properties search box.": [
+        "Concentrez la zone de recherche de propriétés."
+      ],
+      "Font Family": [
+        "Famille de polices"
+      ],
+      "Font Size": [
+        "Taille de la police"
+      ],
+      "Font Weight": [
+        "Poids de la police"
+      ],
+      "Footer": [
+        "Pied de page"
+      ],
+      "Footers": [
+        "Pieds de page"
+      ],
+      "Forever": [
+        "Pour toujours"
+      ],
+      "Format Code (%s)": [
+        "Code de format (%s)"
+      ],
+      "from %s to %s": [
+        "de %s à %s"
+      ],
+      "Frontend Condition (empty)": [
+        "État du frontend (vide)"
+      ],
+      "Frontend Condition (present)": [
+        "État du frontal (présent)"
+      ],
+      "Full": [
+        "Complet"
+      ],
+      "Gallery Media Path": [
+        "Chemin des médias de la galerie"
+      ],
+      "Generate example": [
+        "Générer un exemple"
+      ],
+      "Generating your sitemap...": [
+        "Génération de votre plan de site..."
+      ],
+      "Get %s Pro to get access to all popup triggers.": [
+        "Obtenez %s Pro pour accéder à tous les déclencheurs contextuels."
+      ],
+      "Get %s Pro to get access to all the conditions.": [
+        "Obtenez %s Pro pour accéder à toutes les conditions."
+      ],
+      "Get Pro": [
+        "Devenez Pro"
+      ],
+      "Get the Tag from a Control's path": [
+        "Récupérer la balise à partir du chemin d'un contrôle"
+      ],
+      "Getting Posts IDs to import": [
+        "Obtenir les identifiants de publication à importer"
+      ],
+      "Getting template IDs to import": [
+        "Obtenir les ID de modèle à importer"
+      ],
+      "Global Settings": [
+        "Paramètres globaux"
+      ],
+      "Globals": [
+        "Mondiales"
+      ],
+      "Go back": [
+        "Retourner"
+      ],
+      "Go home": [
+        "Rentre chez toi"
+      ],
+      "Go To Slide": [
+        "Aller à la diapositive"
+      ],
+      "Go to the parent of the active element": [
+        "Aller au parent de l'élément actif"
+      ],
+      "Gradient Only": [
+        "Dégradé uniquement"
+      ],
+      "Hang tight...": [
+        "Accrochez-vous bien..."
+      ],
+      "Hardcode a value:": [
+        "Coder en dur une valeur :"
+      ],
+      "Has Dynamic Stuff": [
+        "A des trucs dynamiques"
+      ],
+      "Header": [
+        "En-tête"
+      ],
+      "Headers": [
+        "En-têtes"
+      ],
+      "Headings": [
+        "Rubriques"
+      ],
+      "Height": [
+        "Hauteur"
+      ],
+      "Here's what happened:": [
+        "Voici ce qui s'est passé :"
+      ],
+      "Hi Hosting Provider Support,": [
+        "Bonjour le support du fournisseur d'hébergement,"
+      ],
+      "Hide Control From Specific Elements": [
+        "Masquer le contrôle d'éléments spécifiques"
+      ],
+      "Hide Feedback": [
+        "Masquer les commentaires"
+      ],
+      "history": [
+        "histoire"
+      ],
+      "History": [
+        "Histoire"
+      ],
+      "History & Revisions": [
+        "Historique et révisions"
+      ],
+      "Homepage hero section": [
+        "Section héros de la page d'accueil"
+      ],
+      "How can we improve this experience?": [
+        "Comment pouvons-nous améliorer cette expérience ?"
+      ],
+      "How would you like to get started?": [
+        "Comment aimeriez-vous commencer ?"
+      ],
+      "HTML": [
+        "HTML"
+      ],
+      "HTML Attribute": [
+        "Attribut HTML"
+      ],
+      "HTML Attributes": [
+        "Attributs HTML"
+      ],
+      "HTML Tag options": [
+        "Options des balises HTML"
+      ],
+      "I'll save them": [
+        "je vais les sauver"
+      ],
+      "Icon": [
+        "Icône"
+      ],
+      "Icon Library": [
+        "Bibliothèque d'icônes"
+      ],
+      "Icon Options": [
+        "Options des icônes"
+      ],
+      "ID": [
+        "ID"
+      ],
+      "ID %s": [
+        "ID %s"
+      ],
+      "ie. ACME Studios": [
+        "c'est à dire. ACME Studios"
+      ],
+      "If": [
+        "Si"
+      ],
+      "If any code is present and the result returns a %s value the dependencies will be added.": [
+        "Si un code est présent et que le résultat renvoie une valeur %s, les dépendances seront ajoutées."
+      ],
+      "If it returns %s no dependencies are added.": [
+        "S'il renvoie %s, aucune dépendance n'est ajoutée."
+      ],
+      "If this isn't something you can fix, please send me the full text of the error from the relevant error log file.": [
+        "Si vous ne pouvez pas corriger ce problème, envoyez-moi le texte intégral de l'erreur à partir du fichier journal des erreurs correspondant."
+      ],
+      "Ignore current post": [
+        "Ignorer le message actuel"
+      ],
+      "Ignore sticky posts": [
+        "Ignorer les messages collants"
+      ],
+      "Image": [
+        "Image"
+      ],
+      "Image Path": [
+        "Chemin de l'image"
+      ],
+      "Import": [
+        "Importer"
+      ],
+      "Import all children of the currently active element": [
+        "Importer tous les enfants de l'élément actuellement actif"
+      ],
+      "Import Children": [
+        "Importer des enfants"
+      ],
+      "Import Design Presets": [
+        "Importer des préréglages de conception"
+      ],
+      "Import Images From Unsplash": [
+        "Importer des images depuis Unsplash"
+      ],
+      "Import Page": [
+        "Page d'importation"
+      ],
+      "Import Settings": [
+        "Paramètres d'importation"
+      ],
+      "Imported %s from \"%s\"": [
+        "%s importé de \"%s\""
+      ],
+      "Imported Design Presets from \"%s\"": [
+        "Préréglages de conception importés de \"%s\""
+      ],
+      "Importing %s.": [
+        "Importation de %s."
+      ],
+      "Importing a full site will replace your site's": [
+        "L'importation d'un site complet remplacera celui de votre site"
+      ],
+      "Importing all post and pages": [
+        "Importer tous les articles et pages"
+      ],
+      "Importing Design Presets": [
+        "Importation de préréglages de conception"
+      ],
+      "Importing from this design set will replace some of your current settings.": [
+        "L'importation à partir de cet ensemble de conceptions remplacera certains de vos paramètres actuels."
+      ],
+      "Importing Global Settings": [
+        "Importation des paramètres globaux"
+      ],
+      "Importing homepage id": [
+        "Importation de l'identifiant de la page d'accueil"
+      ],
+      "Importing Oxy Selectors": [
+        "Importation de sélecteurs Oxy"
+      ],
+      "Importing template with ID \"%s\"": [
+        "Importation du modèle avec l'ID \"%s\""
+      ],
+      "Importing the \"%s\" site": [
+        "Importation du site « %s »"
+      ],
+      "Importing the data": [
+        "Importer les données"
+      ],
+      "Importing Variables": [
+        "Importation de variables"
+      ],
+      "in": [
+        "dans"
+      ],
+      "Include": [
+        "Inclure"
+      ],
+      "Include by": [
+        "Inclure par"
+      ],
+      "Include Custom Breakpoints in Breakpoint Dropdowns": [
+        "Inclure des points d'arrêt personnalisés dans les listes déroulantes de points d'arrêt"
+      ],
+      "Include Settings": [
+        "Inclure les paramètres"
+      ],
+      "Initial State": [
+        "État initial"
+      ],
+      "Inline Editable": [
+        "Modifiable en ligne"
+      ],
+      "Inline Editable Block Path": [
+        "Chemin de bloc modifiable en ligne"
+      ],
+      "Inline Scripts (%s)": [
+        "Scripts en ligne (%s)"
+      ],
+      "Inline Styles (%s)": [
+        "Styles en ligne (%s)"
+      ],
+      "Input": [
+        "Saisir"
+      ],
+      "Insert": [
+        "Insérer"
+      ],
+      "Insert Dynamic Data": [
+        "Insérer des données dynamiques"
+      ],
+      "Install now": [
+        "Installer maintenant"
+      ],
+      "Install Now": [
+        "Installer maintenant"
+      ],
+      "Interaction": [
+        "Interaction"
+      ],
+      "Interactions": [
+        "Interactions"
+      ],
+      "Internal Element Project Management Tool": [
+        "Outil de gestion de projet d'éléments internes"
+      ],
+      "Internal Server Error": [
+        "Erreur interne du serveur"
+      ],
+      "Invalid class name": [
+        "Nom de classe invalide"
+      ],
+      "Invalid password. Please try again.": [
+        "Mot de passe invalide. Veuillez réessayer."
+      ],
+      "Invalid post": [
+        "Message invalide"
+      ],
+      "invalid selector name": [
+        "nom de sélecteur invalide"
+      ],
+      "is after": [
+        "c'est après"
+      ],
+      "is before": [
+        "est avant"
+      ],
+      "is greater than": [
+        "est supérieur à"
+      ],
+      "is less than": [
+        "est inférieur à"
+      ],
+      "is none of": [
+        "n'est rien de"
+      ],
+      "is not set": [
+        "n'est pas défini"
+      ],
+      "is one of": [
+        "est l'un des"
+      ],
+      "Is Pro Only": [
+        "Est Pro uniquement"
+      ],
+      "is set": [
+        "est réglé"
+      ],
+      "It can also be caused by misconfigured security plugins (if you're using Wordfence, put it into learning mode)": [
+        "Cela peut également être dû à des plugins de sécurité mal configurés (si vous utilisez Wordfence, mettez-le en mode apprentissage)"
+      ],
+      "Italic": [
+        "Italique"
+      ],
+      "Item": [
+        "Article"
+      ],
+      "JavaScript": [
+        "Javascript"
+      ],
+      "Keywords": [
+        "Mots-clés"
+      ],
+      "Label": [
+        "Étiquette"
+      ],
+      "Landscape": [
+        "Paysage"
+      ],
+      "Last edited: Newest first": [
+        "Dernière modification : la plus récente en premier"
+      ],
+      "Last edited: Oldest first": [
+        "Dernière modification : la plus ancienne en premier"
+      ],
+      "Last modified date": [
+        "Date de dernière modification"
+      ],
+      "Layout": [
+        "Mise en page"
+      ],
+      "Leave Feedback": [
+        "Laisser les commentaires"
+      ],
+      "left": [
+        "gauche"
+      ],
+      "Left": [
+        "Gauche"
+      ],
+      "Let's get started": [
+        "Commençons"
+      ],
+      "Letter Spacing": [
+        "Espacement des lettres"
+      ],
+      "Library": [
+        "Bibliothèque"
+      ],
+      "Lightbox": [
+        "Boîte lumineuse"
+      ],
+      "Limit how often this popup shows": [
+        "Limiter la fréquence d'affichage de cette fenêtre contextuelle"
+      ],
+      "Line": [
+        "Doubler"
+      ],
+      "Line Height": [
+        "Hauteur de ligne"
+      ],
+      "Line Height (deprecated)": [
+        "Hauteur de ligne (obsolète)"
+      ],
+      "Linear": [
+        "Linéaire"
+      ],
+      "Link": [
+        "Lien"
+      ],
+      "Live Preview": [
+        "Aperçu en direct"
+      ],
+      "Live preview changes": [
+        "Modifications de l'aperçu en direct"
+      ],
+      "Loading...": [
+        "Chargement..."
+      ],
+      "Local": [
+        "Locale"
+      ],
+      "Location": [
+        "Emplacement"
+      ],
+      "Location is required": [
+        "L'emplacement est requis"
+      ],
+      "Lock": [
+        "Verrouillage"
+      ],
+      "Lock all": [
+        "Verrouiller tout"
+      ],
+      "Login": [
+        "Se connecter"
+      ],
+      "Looking for inspiration?": [
+        "En quête d'inspiration ?"
+      ],
+      "Looks Good": [
+        "Ça a l'air bien"
+      ],
+      "Looks Good:": [
+        "Ça a l'air bien :"
+      ],
+      "Macro": [
+        "Macro"
+      ],
+      "Macros": [
+        "Macro"
+      ],
+      "Make all control values in this section available in all breakpoints": [
+        "Rendre toutes les valeurs de contrôle de cette section disponibles dans tous les points d'arrêt"
+      ],
+      "Make dynamic data Pro only": [
+        "Créer des données dynamiques Pro uniquement"
+      ],
+      "Make into a macro": [
+        "Transformer en macro"
+      ],
+      "Make into a Preset": [
+        "Transformer en préréglage"
+      ],
+      "Make modal full screen": [
+        "Rendre le plein écran modal"
+      ],
+      "Make the element SSR when any child control value changes": [
+        "Rendre l'élément SSR lorsqu'une valeur de contrôle enfant change"
+      ],
+      "Make the element SSR when this control's value changes": [
+        "Rendre l'élément SSR lorsque la valeur de ce contrôle change"
+      ],
+      "Make the text more formal": [
+        "Rendre le texte plus formel"
+      ],
+      "Make the text more interesting": [
+        "Rendre le texte plus intéressant"
+      ],
+      "Make this control's value available in all breakpoints": [
+        "Rendre la valeur de ce contrôle disponible dans tous les points d'arrêt"
+      ],
+      "Manage Presets": [
+        "Gérer les préréglages"
+      ],
+      "Managing custom fonts is only available in %s Pro": [
+        "La gestion des polices personnalisées n'est disponible que dans %s Pro"
+      ],
+      "Margin": [
+        "Marge"
+      ],
+      "Match": [
+        "Correspondre"
+      ],
+      "Max (Integer)": [
+        "Max (entier)"
+      ],
+      "Maximum width (px)": [
+        "Largeur maximale (px)"
+      ],
+      "Media Size Options": [
+        "Options de taille de support"
+      ],
+      "Mention apples, oranges, and bananas": [
+        "Mentionnez les pommes, les oranges et les bananes"
+      ],
+      "Menu": [
+        "Menu"
+      ],
+      "Menu order": [
+        "Ordre des menus"
+      ],
+      "Merge with the existing %s.": [
+        "Fusionner avec le %s existant."
+      ],
+      "Message": [
+        "Message"
+      ],
+      "Meta Box": [
+        "Méta-boîte"
+      ],
+      "Meta Query": [
+        "Méta-requête"
+      ],
+      "Min (Integer)": [
+        "Min (entier)"
+      ],
+      "Minimum width (px)": [
+        "Largeur minimale (px)"
+      ],
+      "Misc options": [
+        "Diverses options"
+      ],
+      "Misc Options": [
+        "Diverses options"
+      ],
+      "Missing badge label": [
+        "Étiquette de badge manquante"
+      ],
+      "Modified": [
+        "Modifié"
+      ],
+      "More formal": [
+        "Plus formel"
+      ],
+      "More interesting": [
+        "Plus intéressant"
+      ],
+      "Multiline": [
+        "Multiligne"
+      ],
+      "Multiline Bar": [
+        "Barre multiligne"
+      ],
+      "Multiple": [
+        "Multiple"
+      ],
+      "Name": [
+        "Nom"
+      ],
+      "Name is already in use": [
+        "Le nom est déjà utilisé"
+      ],
+      "Name must be 1 character or more": [
+        "Le nom doit contenir 1 caractère ou plus"
+      ],
+      "Nested Selectors": [
+        "Sélecteurs imbriqués"
+      ],
+      "Nesting rules": [
+        "Règles d'imbrication"
+      ],
+      "Never": [
+        "Jamais"
+      ],
+      "New Control": [
+        "Nouveau contrôle"
+      ],
+      "New Section": [
+        "Nouvelle rubrique"
+      ],
+      "Next": [
+        "Suivant"
+      ],
+      "Next Slide": [
+        "Diapositive suivante"
+      ],
+      "Next Steps": [
+        "Prochaines étapes"
+      ],
+      "No %s found :(": [
+        "Aucun %s trouvé :("
+      ],
+      "No ACF fields found": [
+        "Aucun champ ACF trouvé"
+      ],
+      "No Active Element": [
+        "Aucun élément actif"
+      ],
+      "No available extra elements.": [
+        "Aucun élément supplémentaire disponible."
+      ],
+      "No Available Label": [
+        "Aucune étiquette disponible"
+      ],
+      "No code help available for %s control type": [
+        "Aucune aide sur le code disponible pour le type de contrôle %s"
+      ],
+      "No conditions yet.": [
+        "Aucune condition pour l'instant."
+      ],
+      "No data available": [
+        "Aucune donnée disponible"
+      ],
+      "No data. Select a path first": [
+        "Aucune donnée. Sélectionnez d'abord un chemin"
+      ],
+      "No Elements": [
+        "Aucun élément"
+      ],
+      "No elements were returned from OpenAI API.": [
+        "Aucun élément n'a été renvoyé par l'API OpenAI."
+      ],
+      "No fields were found matching the criteria.": [
+        "Aucun champ correspondant aux critères n'a été trouvé."
+      ],
+      "No icons found.": [
+        "Aucune icône trouvée."
+      ],
+      "No image chosen": [
+        "Aucune image choisie"
+      ],
+      "No images found in this section": [
+        "Aucune image trouvée dans cette section"
+      ],
+      "No images found. Please try again with different keywords.": [
+        "Aucune image trouvée. Veuillez réessayer avec des mots-clés différents."
+      ],
+      "No images to complete. Please add an image to the section first.": [
+        "Aucune image à compléter. Veuillez d'abord ajouter une image à la section."
+      ],
+      "No items found": [
+        "Aucun article trouvé"
+      ],
+      "No match found": [
+        "Aucune correspondance trouvée"
+      ],
+      "No matching variables found.": [
+        "Aucune variable correspondante trouvée."
+      ],
+      "No Meta Box fields found": [
+        "Aucun champ Meta Box trouvé"
+      ],
+      "No presets available": [
+        "Aucun préréglage disponible"
+      ],
+      "No relationship fields found": [
+        "Aucun champ de relation trouvé"
+      ],
+      "No repeaters present": [
+        "Aucun répéteur présent"
+      ],
+      "No response was returned from OpenAI API.": [
+        "Aucune réponse n'a été renvoyée par l'API OpenAI."
+      ],
+      "no results": [
+        "aucun résultat"
+      ],
+      "No results apply to this template": [
+        "Aucun résultat ne s'applique à ce modèle"
+      ],
+      "No revisions found": [
+        "Aucune révision trouvée"
+      ],
+      "No support is provided. Please read the": [
+        "Aucun support n'est fourni. Veuillez lire le"
+      ],
+      "No variables": [
+        "Aucune variable"
+      ],
+      "No Variables to import.": [
+        "Aucune variable à importer."
+      ],
+      "No, thanks": [
+        "Non merci"
+      ],
+      "None": [
+        "Aucun"
+      ],
+      "Normal": [
+        "Normale"
+      ],
+      "Not available for external images": [
+        "Non disponible pour les images externes"
+      ],
+      "Not available when grid mode is enabled.": [
+        "Non disponible lorsque le mode grille est activé."
+      ],
+      "not equals": [
+        "pas égal"
+      ],
+      "Not happy with the generated sitemap?": [
+        "Vous n'êtes pas satisfait du plan du site généré ?"
+      ],
+      "Note: This breaks JavaScript functionality that relies on the tag being present (Ex: %%SELECTOR%%)": [
+        "Remarque : Cela interrompt la fonctionnalité JavaScript qui repose sur la présence de la balise (Ex :%%SELECTOR%%)"
+      ],
+      "Nothing to import for %s.": [
+        "Rien à importer pour %s."
+      ],
+      "Nothing to preview": [
+        "Rien à prévisualiser"
+      ],
+      "Offset": [
+        "Compenser"
+      ],
+      "Oh no! Your server returned a %s error. 😢": [
+        "Oh non! Votre serveur a renvoyé une erreur %s. 😢"
+      ],
+      "on": [
+        "sur"
+      ],
+      "One-Click Write": [
+        "Écriture en un clic"
+      ],
+      "Only  \".woff\" and \".woff2\" files are supported": [
+        "Seuls les fichiers \".woff\" et \".woff2\" sont pris en charge"
+      ],
+      "Only change to create complex elements": [
+        "Changer uniquement pour créer des éléments complexes"
+      ],
+      "Only Children Of This Element": [
+        "Seuls les enfants de cet élément"
+      ],
+      "Open": [
+        "Ouvrir"
+      ],
+      "Open %s Editor": [
+        "Ouvrez l'éditeur %s"
+      ],
+      "Open add elements panel": [
+        "Ouvrir le panneau d'ajout d'éléments"
+      ],
+      "Open Design Library": [
+        "Bibliothèque de conception ouverte"
+      ],
+      "Open design sets modal": [
+        "Ensembles de conception ouverts modaux"
+      ],
+      "Open in %s": [
+        "Ouvrir dans %s"
+      ],
+      "Open in new tab": [
+        "Ouvrir dans un nouvel onglet"
+      ],
+      "Open options": [
+        "Options ouvertes"
+      ],
+      "Open selectors panel": [
+        "Ouvrir le panneau des sélecteurs"
+      ],
+      "Open structure panel": [
+        "Panneau à structure ouverte"
+      ],
+      "Open the active element's Advanced → Classes autocomplete and focus it.": [
+        "Ouvrez la saisie semi-automatique Avancé → Classes de l'élément actif et concentrez-le."
+      ],
+      "Open the active element's Advanced → Custom CSS and focus it.": [
+        "Ouvrez le CSS avancé → personnalisé de l'élément actif et concentrez-le."
+      ],
+      "Open the rich text editor modal. Only when the Rich Text element is selected": [
+        "Ouvrez le modal de l’éditeur de texte enrichi. Uniquement lorsque l'élément Rich Text est sélectionné"
+      ],
+      "Open Twig Code Helper": [
+        "Ouvrir l'assistant de code Twig"
+      ],
+      "Open variables panel": [
+        "Ouvrir le panneau des variables"
+      ],
+      "Open Website Dialog": [
+        "Boîte de dialogue Ouvrir le site Web"
+      ],
+      "Operand": [
+        "Opérande"
+      ],
+      "Options": [
+        "Possibilités"
+      ],
+      "Options Are Good": [
+        "Les options sont bonnes"
+      ],
+      "Options Good:": [
+        "Options bonnes :"
+      ],
+      "Options Work": [
+        "Fonctionnement des options"
+      ],
+      "Options Work:": [
+        "Fonctionnement des options :"
+      ],
+      "OR": [
+        "OR"
+      ],
+      "or view it live": [
+        "ou regardez-le en direct"
+      ],
+      "Order": [
+        "Commande"
+      ],
+      "Order By": [
+        "Commander par"
+      ],
+      "Orientation": [
+        "Orientation"
+      ],
+      "Override Variables": [
+        "Remplacer les variables"
+      ],
+      "Padding": [
+        "Rembourrage"
+      ],
+      "Panel Positions": [
+        "Positions des panneaux"
+      ],
+      "Parent with ID: %s": [
+        "Parent avec pièce d'identité : %s"
+      ],
+      "Past day": [
+        "Jour passé"
+      ],
+      "Past Month": [
+        "Mois passé"
+      ],
+      "Past Three month": [
+        "Trois derniers mois"
+      ],
+      "Past week": [
+        "La semaine dernière"
+      ],
+      "Past Year": [
+        "Année passée"
+      ],
+      "paste": [
+        "coller"
+      ],
+      "Paste": [
+        "Coller"
+      ],
+      "Paste As Child": [
+        "Coller en tant qu'enfant"
+      ],
+      "Paste copied element": [
+        "Coller l'élément copié"
+      ],
+      "Paste Design": [
+        "Coller la conception"
+      ],
+      "Paste Elements": [
+        "Coller des éléments"
+      ],
+      "Paste or type an URL": [
+        "Collez ou saisissez une URL"
+      ],
+      "Paste or type URL": [
+        "Collez ou saisissez l'URL"
+      ],
+      "Paste settings": [
+        "Coller les paramètres"
+      ],
+      "Paste Settings": [
+        "Coller les paramètres"
+      ],
+      "Paste SVG": [
+        "Coller SVG"
+      ],
+      "Path": [
+        "Chemin"
+      ],
+      "Per Page Load": [
+        "Par chargement de page"
+      ],
+      "Per Session": [
+        "Par session"
+      ],
+      "Phone Number": [
+        "Numéro de téléphone"
+      ],
+      "Placeholder": [
+        "Espace réservé"
+      ],
+      "Plain Text": [
+        "Texte brut"
+      ],
+      "Please create your own template.": [
+        "Veuillez créer votre propre modèle."
+      ],
+      "Please deactivate it and try again.": [
+        "Veuillez le désactiver et réessayer."
+      ],
+      "Please don't close this tab until the import is finished.": [
+        "Veuillez ne pas fermer cet onglet tant que l'importation n'est pas terminée."
+      ],
+      "Please enter a keyword to fetch images.": [
+        "Veuillez entrer un mot-clé pour récupérer des images."
+      ],
+      "Please enter a valid URL": [
+        "Veuillez saisir une URL valide"
+      ],
+      "Please enter a value": [
+        "Veuillez saisir une valeur"
+      ],
+      "Please enter an API key": [
+        "Veuillez saisir une clé API"
+      ],
+      "Please enter the %s's name.": [
+        "Veuillez saisir le nom de %s."
+      ],
+      "Please extract the contents of the zip file and upload the individual SVG files.": [
+        "Veuillez extraire le contenu du fichier zip et télécharger les fichiers SVG individuels."
+      ],
+      "Please read the documentation before creating custom templates.": [
+        "Veuillez lire la documentation avant de créer des modèles personnalisés."
+      ],
+      "Please read the documentation before making customizations to template settings.": [
+        "Veuillez lire la documentation avant de personnaliser les paramètres du modèle."
+      ],
+      "Please save your changes before closing this %s, or discard your changes.": [
+        "Veuillez enregistrer vos modifications avant de fermer cet %s ou ignorez vos modifications."
+      ],
+      "Please upgrade to pro to use this field.": [
+        "veuillez passer à la version professionnelle pour utiliser ce champ."
+      ],
+      "Plugin Settings": [
+        "Paramètres du plugin"
+      ],
+      "Popout Position": [
+        "Position de la fenêtre contextuelle"
+      ],
+      "Populate dropdown dynamically": [
+        "Remplir la liste déroulante dynamiquement"
+      ],
+      "Populate from a Repeater's Input": [
+        "Remplir à partir de l'entrée d'un répéteur"
+      ],
+      "Populate from server data": [
+        "Remplir à partir des données du serveur"
+      ],
+      "Populate variables based on a Repeater Input": [
+        "Remplir les variables en fonction d'une entrée de répéteur"
+      ],
+      "Populate with HTML Tag Options": [
+        "Remplir avec les options de balises HTML"
+      ],
+      "Populating from server data. To use items instead, clear those fields below.": [
+        "Remplissage à partir des données du serveur. Pour utiliser des éléments à la place, effacez les champs ci-dessous."
+      ],
+      "Popup": [
+        "Surgir"
+      ],
+      "Popup Opens When": [
+        "La fenêtre contextuelle s'ouvre quand"
+      ],
+      "Popups": [
+        "Fenêtres contextuelles"
+      ],
+      "Portrait": [
+        "Portrait"
+      ],
+      "Post Archive": [
+        "Archives des publications"
+      ],
+      "Post Chooser Options": [
+        "Options du sélecteur de publication"
+      ],
+      "Post Title": [
+        "Titre du message"
+      ],
+      "Post Type": [
+        "Type de message"
+      ],
+      "Post Types": [
+        "Types de messages"
+      ],
+      "Posts and Pages": [
+        "Articles et pages"
+      ],
+      "Posts per page": [
+        "Articles par page"
+      ],
+      "Posts with post type \"%s\" can't be edited with %s directly. Please use a %s Template instead.": [
+        "Les publications avec le type de publication «%s» ne peuvent pas être modifiées directement avec %s. Veuillez utiliser un modèle %s à la place."
+      ],
+      "Prefer TinyMCE For Rich Text": [
+        "Préférez TinyMCE pour le texte enrichi"
+      ],
+      "Preferences": [
+        "Préférences"
+      ],
+      "Premade templates to kickstart your design.": [
+        "Modèles prédéfinis pour démarrer votre conception."
+      ],
+      "Preset": [
+        "Préréglage"
+      ],
+      "Preset Name": [
+        "Nom du préréglage"
+      ],
+      "Presets": [
+        "Préréglages"
+      ],
+      "Preview": [
+        "Aperçu"
+      ],
+      "Preview %s:": [
+        "Aperçu de %s:"
+      ],
+      "Preview Size": [
+        "Taille de l'aperçu"
+      ],
+      "Previewing": [
+        "Aperçu"
+      ],
+      "Previewing:": [
+        "Aperçu :"
+      ],
+      "Previous Slide": [
+        "Diapositive précédente"
+      ],
+      "Primary": [
+        "Primaire"
+      ],
+      "Priority": [
+        "Priorité"
+      ],
+      "Prompt": [
+        "Rapide"
+      ],
+      "Property Key": [
+        "Clé de propriété"
+      ],
+      "Property Paths": [
+        "Chemins de propriété"
+      ],
+      "Property paths to SSR the element when value changes": [
+        "Chemins de propriété vers SSR l'élément lorsque la valeur change"
+      ],
+      "Property paths to whitelist in flat props": [
+        "Chemins de propriété vers la liste blanche dans les accessoires plats"
+      ],
+      "Property Settings": [
+        "Paramètres de propriété"
+      ],
+      "Providers": [
+        "Fournisseurs"
+      ],
+      "Qualifiers (optional)": [
+        "Qualificateurs (facultatif)"
+      ],
+      "Query Builder": [
+        "Générateur de requêtes"
+      ],
+      "Radial": [
+        "Radial"
+      ],
+      "Random": [
+        "Aléatoire"
+      ],
+      "Range Options": [
+        "Options de plage"
+      ],
+      "Recommended": [
+        "Recommandé"
+      ],
+      "Redo": [
+        "Rétablir"
+      ],
+      "Redo changes": [
+        "Refaire les modifications"
+      ],
+      "Refetch data if a control's value changes (specify path)": [
+        "Récupérer les données si la valeur d'un contrôle change (spécifier le chemin)"
+      ],
+      "Refresh": [
+        "Rafraîchir"
+      ],
+      "Refresh element": [
+        "Actualiser l'élément"
+      ],
+      "Regenerate CSS Cache": [
+        "Régénérer le cache CSS"
+      ],
+      "Regenerating caches. Leaving the page will stop the process.": [
+        "Régénération des caches. Quitter la page arrêtera le processus."
+      ],
+      "Registered Children options: add extra elements": [
+        "Options Enfants inscrits : ajoutez des éléments supplémentaires"
+      ],
+      "Related": [
+        "En rapport"
+      ],
+      "Relative Property Paths To Whitetlist In Flatprops": [
+        "Chemins de propriété relatifs vers la liste blanche dans Flatprops"
+      ],
+      "Reload dependencies files": [
+        "Recharger les fichiers de dépendances"
+      ],
+      "Reload Key": [
+        "Clé de rechargement"
+      ],
+      "Remember to use": [
+        "N'oubliez pas d'utiliser"
+      ],
+      "Remove": [
+        "Retirer"
+      ],
+      "Rename": [
+        "Rebaptiser"
+      ],
+      "Reorder": [
+        "Réorganiser"
+      ],
+      "Repeater Options": [
+        "Options du répéteur"
+      ],
+      "Rephrase": [
+        "Reformuler"
+      ],
+      "Rephrase the text provided by the user.": [
+        "Reformulez le texte fourni par l'utilisateur."
+      ],
+      "Replace": [
+        "Remplacer"
+      ],
+      "Request Details": [
+        "Détails de la demande"
+      ],
+      "Request Time:": [
+        "Heure de la demande :"
+      ],
+      "Request Time: %s": [
+        "Heure de la demande : %s"
+      ],
+      "Request Type:": [
+        "Type de demande :"
+      ],
+      "Request Type: %s": [
+        "Type de demande : %s"
+      ],
+      "Request URI: %s": [
+        "URI de la demande : %s"
+      ],
+      "Request URL:": [
+        "URL de la demande :"
+      ],
+      "Required plugins": [
+        "Plugins requis"
+      ],
+      "Reset Content": [
+        "Réinitialiser le contenu"
+      ],
+      "Reset Design": [
+        "Réinitialiser la conception"
+      ],
+      "Reset Settings": [
+        "Réinitialiser les paramètres"
+      ],
+      "Reset to defaults": [
+        "Réinitialiser aux valeurs par défaut"
+      ],
+      "Response Code:": [
+        "Code de réponse :"
+      ],
+      "Restore": [
+        "Restaurer"
+      ],
+      "Restore %s from revision": [
+        "Restaurer %s à partir de la révision"
+      ],
+      "Revisions": [
+        "Révisions"
+      ],
+      "Rewrite": [
+        "Récrire"
+      ],
+      "Rewrite %s": [
+        "Réécrire %s"
+      ],
+      "Rewrite With AI": [
+        "Réécrire avec l'IA"
+      ],
+      "Rewrite your content with the power of AI.": [
+        "Réécrivez votre contenu avec la puissance de l'IA."
+      ],
+      "right": [
+        "droite"
+      ],
+      "Right": [
+        "Droite"
+      ],
+      "Root Node": [
+        "Noeud racine"
+      ],
+      "Row Index": [
+        "Index des lignes"
+      ],
+      "Run for all children": [
+        "Courez pour tous les enfants"
+      ],
+      "Run Only Once": [
+        "Exécuter une seule fois"
+      ],
+      "Runs after adding this element to the canvas for the first time": [
+        "S'exécute après avoir ajouté cet élément au canevas pour la première fois"
+      ],
+      "Runs after one of this element's property changes (a value in a control)": [
+        "S'exécute après l'une des modifications de propriété de cet élément (une valeur dans un contrôle)"
+      ],
+      "Runs after the element is activated (selected)": [
+        "S'exécute après l'activation de l'élément (sélectionné)"
+      ],
+      "Runs after this element is moved in the canvas.": [
+        "S'exécute après le déplacement de cet élément dans le canevas."
+      ],
+      "Runs after this element renders in the canvas": [
+        "S'exécute après le rendu de cet élément dans le canevas"
+      ],
+      "Runs AFTER this element was deleted": [
+        "S'exécute APRÈS la suppression de cet élément"
+      ],
+      "Runs BEFORE this element is deleted": [
+        "S'exécute AVANT la suppression de cet élément"
+      ],
+      "Same author only": [
+        "Même auteur uniquement"
+      ],
+      "Save": [
+        "Enregistrer"
+      ],
+      "Save &amp; Bypass Psalm...": [
+        "Enregistrer&amp;Contourner le Psaume..."
+      ],
+      "Save A Copy In:": [
+        "Enregistrer une copie dans :"
+      ],
+      "Save and continue": [
+        "Enregistrer et continuer"
+      ],
+      "Save any changes to create a new revision": [
+        "Enregistrez toutes les modifications pour créer une nouvelle révision"
+      ],
+      "Save as %s": [
+        "Enregistrer sous %s"
+      ],
+      "Save as Preset": [
+        "Enregistrer comme préréglage"
+      ],
+      "Save Breakpoints": [
+        "Enregistrer les points d'arrêt"
+      ],
+      "Save element": [
+        "Enregistrer l'élément"
+      ],
+      "Save Fonts": [
+        "Enregistrer les polices"
+      ],
+      "Save Icons": [
+        "Enregistrer les icônes"
+      ],
+      "Save icons to existing set, or create a new icon set...": [
+        "Enregistrez les icônes dans un ensemble existant ou créez un nouveau jeu d'icônes..."
+      ],
+      "Saving selectors to WordPress": [
+        "Enregistrer les sélecteurs sur WordPress"
+      ],
+      "Scale content to fit the screen (zoom)": [
+        "Ajuster le contenu à l'écran (zoom)"
+      ],
+      "Screenshot couldn't be created, probably because it links to protected third party images. Please add an image manually": [
+        "La capture d'écran n'a pas pu être créée, probablement parce qu'elle renvoie à des images tierces protégées. Veuillez ajouter une image manuellement"
+      ],
+      "Script": [
+        "Scénario"
+      ],
+      "Scripts (%s)": [
+        "Scripts (%s)"
+      ],
+      "Search": [
+        "Rechercher"
+      ],
+      "Search %d elements": [
+        "Rechercher des éléments %d"
+      ],
+      "Search %ss": [
+        "Rechercher %ss"
+      ],
+      "Search blocks": [
+        "Blocs de recherche"
+      ],
+      "Search by title": [
+        "Recherche par titre"
+      ],
+      "Search elements": [
+        "Éléments de recherche"
+      ],
+      "Search for %s": [
+        "Rechercher %s"
+      ],
+      "Search in \"%s\"": [
+        "Rechercher dans \"%s\""
+      ],
+      "Search More": [
+        "Rechercher plus"
+      ],
+      "Search Results": [
+        "Résultats de la recherche"
+      ],
+      "Search selectors": [
+        "Sélecteurs de recherche"
+      ],
+      "Search variables": [
+        "Variables de recherche"
+      ],
+      "Search...": [
+        "Recherche..."
+      ],
+      "Secondary": [
+        "Secondaire"
+      ],
+      "Section Layout": [
+        "Disposition des sections"
+      ],
+      "Section showing testimonials": [
+        "Section présentant des témoignages"
+      ],
+      "See content editable code": [
+        "Voir le code modifiable du contenu"
+      ],
+      "See Details": [
+        "Voir les détails"
+      ],
+      "See examples": [
+        "Voir des exemples"
+      ],
+      "Select a field to preview": [
+        "Sélectionnez un champ à prévisualiser"
+      ],
+      "Select a field...": [
+        "Sélectionnez un champ..."
+      ],
+      "Select a popup...": [
+        "Sélectionnez une fenêtre contextuelle..."
+      ],
+      "Select a saving location": [
+        "Sélectionnez un emplacement de sauvegarde"
+      ],
+      "Select a type...": [
+        "Sélectionnez un type..."
+      ],
+      "Select an element first": [
+        "Sélectionnez d'abord un élément"
+      ],
+      "Select or create a class": [
+        "Sélectionner ou créer une classe"
+      ],
+      "Select parent": [
+        "Sélectionner un parent"
+      ],
+      "Select up to four": [
+        "Sélectionnez jusqu'à quatre"
+      ],
+      "Select up to three": [
+        "Sélectionnez jusqu'à trois"
+      ],
+      "Select up to two": [
+        "Sélectionnez jusqu'à deux"
+      ],
+      "Selected template with ID: %s no longer exists.": [
+        "Le modèle sélectionné avec l'ID : %s n'existe plus."
+      ],
+      "Selectors": [
+        "Sélecteurs"
+      ],
+      "Send Feedback": [
+        "Envoyer des commentaires"
+      ],
+      "Send To CodeBox": [
+        "Envoyer à CodeBox"
+      ],
+      "Set Default Properties": [
+        "Définir les propriétés par défaut"
+      ],
+      "Set default properties for %s to:": [
+        "Définissez les propriétés par défaut de %s sur :"
+      ],
+      "Set Up API Key": [
+        "Configurer la clé API"
+      ],
+      "Set up your OpenAI API key": [
+        "Configurez votre clé API OpenAI"
+      ],
+      "Settings": [
+        "Réglages"
+      ],
+      "Shadow Type": [
+        "Type d'ombre"
+      ],
+      "Share props with SSR children": [
+        "Partagez des accessoires avec les enfants de la RSS"
+      ],
+      "Shop Page & All Product Archives": [
+        "Page de la boutique et toutes les archives de produits"
+      ],
+      "Shortcode": [
+        "Code court"
+      ],
+      "Shortcut": [
+        "Raccourci"
+      ],
+      "Shorten it": [
+        "Raccourcissez-le"
+      ],
+      "Shorten the text": [
+        "raccourcir le texte"
+      ],
+      "Show elements ID in the Structure Panel": [
+        "Afficher l'ID des éléments dans le panneau Structure"
+      ],
+      "Show Experimental Elements": [
+        "Afficher les éléments expérimentaux"
+      ],
+      "Show items in the dropdown only if a condition is met": [
+        "Afficher les éléments dans la liste déroulante uniquement si une condition est remplie"
+      ],
+      "Show items in the variable only if a condition is met": [
+        "Afficher les éléments dans la variable uniquement si une condition est remplie"
+      ],
+      "Show keyboard shortcuts help modal": [
+        "Afficher l'aide des raccourcis clavier modale"
+      ],
+      "Show Property Keys": [
+        "Afficher les clés de propriété"
+      ],
+      "Show Thumbnails": [
+        "Afficher les vignettes"
+      ],
+      "Shows an image as background of this input": [
+        "Affiche une image comme arrière-plan de cette entrée"
+      ],
+      "Shuffle": [
+        "Mélanger"
+      ],
+      "Side By Side": [
+        "Côte à côte"
+      ],
+      "Single Post": [
+        "Message unique"
+      ],
+      "Single Product": [
+        "Produit unique"
+      ],
+      "Slide #": [
+        "Glisser #"
+      ],
+      "Slider": [
+        "Curseur"
+      ],
+      "Slug": [
+        "Limace"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Solid": [
+        "Solide"
+      ],
+      "Solid and Gradient": [
+        "Solide et dégradé"
+      ],
+      "Solid Only": [
+        "Solide uniquement"
+      ],
+      "Some fields are locked and will not be updated by AI. <b class='cursor-pointer'>Click to view.</b>": [
+        "Certains champs sont verrouillés et ne seront pas mis à jour par l'IA.<b class='cursor-pointer'>Cliquez pour voir.</b>"
+      ],
+      "Some requests failed. Try again": [
+        "Certaines demandes ont échoué. Essayer à nouveau"
+      ],
+      "Soon, the Design Library will only be available in the pro version. For now, enjoy your free preview!": [
+        "Bientôt, la Design Library ne sera disponible que dans la version pro. Pour l'instant, profitez de votre aperçu gratuit !"
+      ],
+      "Sort By": [
+        "Trier par"
+      ],
+      "Source": [
+        "Source"
+      ],
+      "Space Around": [
+        "Espace autour"
+      ],
+      "Space Between": [
+        "Espace entre"
+      ],
+      "Spacing bar": [
+        "Barre d'espacement"
+      ],
+      "Spacing Bars": [
+        "Barres d'espacement"
+      ],
+      "Specific Product Archive": [
+        "Archives de produits spécifiques"
+      ],
+      "Spread": [
+        "Propagé"
+      ],
+      "Squarish": [
+        "Carré"
+      ],
+      "Stack Trace": [
+        "Trace de pile"
+      ],
+      "Stacked": [
+        "Empilé"
+      ],
+      "Stacked (First Visible)": [
+        "Empilé (premier visible)"
+      ],
+      "Start over": [
+        "Recommencer"
+      ],
+      "States": [
+        "États"
+      ],
+      "Step (fixed to 2 decimals)": [
+        "Pas (fixé à 2 décimales)"
+      ],
+      "Stop Editing": [
+        "Arrêter l'édition"
+      ],
+      "Stretch": [
+        "Extensible"
+      ],
+      "Structure": [
+        "Structure"
+      ],
+      "Style": [
+        "Style"
+      ],
+      "Styles (%s)": [
+        "Styles (%s)"
+      ],
+      "Subject": [
+        "Sujet"
+      ],
+      "Submit": [
+        "Soumettre"
+      ],
+      "Success loading the data": [
+        "Succès du chargement des données"
+      ],
+      "Successfully imported %s.": [
+        "%s a été importé avec succès."
+      ],
+      "Successfully trashed existing Templates, Headers, Footers, %s, and Popups.": [
+        "Les modèles, en-têtes, pieds de page, %s et fenêtres contextuelles existants ont été supprimés avec succès."
+      ],
+      "Suggested Icons": [
+        "Icônes suggérées"
+      ],
+      "Suggestions": [
+        "Suggestions"
+      ],
+      "Support Multiple": [
+        "Prise en charge multiple"
+      ],
+      "SVG code for icon": [
+        "Code SVG pour l'icône"
+      ],
+      "Switch between 'scale to fit' and 'actual size' content": [
+        "Basculer entre le contenu « à l'échelle » et « à la taille réelle »"
+      ],
+      "Switch mode": [
+        "Mode de commutation"
+      ],
+      "Tag": [
+        "Étiqueter"
+      ],
+      "Tag of the root element": [
+        "Balise de l'élément racine"
+      ],
+      "Tag Options": [
+        "Options de balise"
+      ],
+      "Tags: %s and %s are available.": [
+        "Balises : %s et %s sont disponibles."
+      ],
+      "Tailor your template to your needs.": [
+        "Adaptez votre modèle à vos besoins."
+      ],
+      "Take screenshot": [
+        "Prendre une capture d'écran"
+      ],
+      "Target": [
+        "Cible"
+      ],
+      "Tel": [
+        "Tél"
+      ],
+      "Tell us about your business": [
+        "Parlez-nous de votre entreprise"
+      ],
+      "Tell us to...": [
+        "Dites-nous de..."
+      ],
+      "Temperature": [
+        "Température"
+      ],
+      "Template": [
+        "Modèle"
+      ],
+      "Templates": [
+        "Modèles"
+      ],
+      "Templates page": [
+        "Page des modèles"
+      ],
+      "Templates save you hours of work. Each template is crafted by a pro and is fully customizable.": [
+        "Les modèles vous font gagner des heures de travail. Chaque modèle est conçu par un professionnel et est entièrement personnalisable."
+      ],
+      "Terms in taxonomy": [
+        "Termes de taxonomie"
+      ],
+      "Text": [
+        "Texte"
+      ],
+      "Text Format": [
+        "Format du texte"
+      ],
+      "Text Wrap": [
+        "Renvoi à la ligne du texte"
+      ],
+      "The %s element does not support AI writing.": [
+        "L'élément %s ne prend pas en charge l'écriture AI."
+      ],
+      "The Breakdance AI Plugin is not installed. Please install it to use the AI assistant.": [
+        "Le plugin Breakdance AI n’est pas installé. Veuillez l'installer pour utiliser l'assistant AI."
+      ],
+      "The dependency is a hardcoded value:": [
+        "La dépendance est une valeur codée en dur :"
+      ],
+      "The field 'name' is required to create an automatic screenshot": [
+        "Le champ 'nom' est obligatoire pour créer une capture d'écran automatique"
+      ],
+      "The file you selected does not contain any presets.": [
+        "Le fichier que vous avez sélectionné ne contient aucun préréglage."
+      ],
+      "The file you selected is not a valid Presets file.": [
+        "Le fichier que vous avez sélectionné n'est pas un fichier de préréglages valide."
+      ],
+      "The last full site import you performed was for %s": [
+        "La dernière importation de site complète que vous avez effectuée concernait %s."
+      ],
+      "The minimum priority is 1": [
+        "La priorité minimale est 1"
+      ],
+      "The new %s couldn't be saved": [
+        "Le nouveau %s n'a pas pu être enregistré"
+      ],
+      "The option %s is not available anymore, please select a new one.": [
+        "L'option %s n'est plus disponible, veuillez en sélectionner une nouvelle."
+      ],
+      "The plugin %s caused a %s error.": [
+        "Le plugin %s a provoqué une erreur %s."
+      ],
+      "The requested post can't be edited with %s.": [
+        "La publication demandée ne peut pas être modifiée avec %s."
+      ],
+      "The requested post doesn't exist. It may have been deleted, or maybe you used an outdated URL.": [
+        "Le message demandé n'existe pas. Il a peut-être été supprimé ou peut-être avez-vous utilisé une URL obsolète."
+      ],
+      "The selected field expects \"%s\", but \"%s\" only returns \"%s\". To use this field anyway, choose \"All\" from the \"Type\" dropdown and then toggle \"Disable Type Safety\" on.": [
+        "Le champ sélectionné attend «%s», mais «%s» renvoie uniquement «%s». Pour utiliser ce champ quand même, choisissez « Tous » dans la liste déroulante « Type », puis activez « Désactiver la sécurité des types »."
+      ],
+      "The selected preset does not exist or has been deleted. Please select another preset.": [
+        "Le préréglage sélectionné n'existe pas ou a été supprimé. Veuillez sélectionner un autre préréglage."
+      ],
+      "The selector %s is locked.": [
+        "Le sélecteur %s est verrouillé."
+      ],
+      "The task failed due a problem on the server side.": [
+        "La tâche a échoué en raison d'un problème côté serveur."
+      ],
+      "The template can run Twig code. Properties like design.something.whatever are available. If the template returns a blank string, the class will not be added. If the template returns anything, the class will be added.": [
+        "Le modèle peut exécuter du code Twig. Des propriétés comme design.something.whatever sont disponibles. Si le modèle renvoie une chaîne vide, la classe ne sera pas ajoutée. Si le modèle renvoie quelque chose, la classe sera ajoutée."
+      ],
+      "the_best_class": [
+        "the_best_class"
+      ],
+      "There are no elements added to the page": [
+        "Aucun élément n'a été ajouté à la page"
+      ],
+      "There was an error embedding the video": [
+        "Une erreur s'est produite lors de l'intégration de la vidéo"
+      ],
+      "There was an error loading the data": [
+        "Une erreur s'est produite lors du chargement des données"
+      ],
+      "Thickness": [
+        "Épaisseur"
+      ],
+      "This action cannot be undone.": [
+        "Cette action ne peut pas être annulée."
+      ],
+      "This design relies on Design Presets. It won't look the same unless you import them.": [
+        "Cette conception repose sur des préréglages de conception. Cela n’aura pas la même apparence sauf si vous les importez."
+      ],
+      "This Design Set is password protected by the author. Please enter the password below to view it.": [
+        "Cet ensemble de conceptions est protégé par mot de passe par l'auteur. Veuillez entrer le mot de passe ci-dessous pour le visualiser."
+      ],
+      "This design set relies on %s. It won't look the same unless you import them.": [
+        "Cet ensemble de conceptions repose sur %s. Cela n’aura pas la même apparence sauf si vous les importez."
+      ],
+      "This Element": [
+        "Cet élément"
+      ],
+      "This element can't be added for unknown reasons": [
+        "Cet élément ne peut pas être ajouté pour des raisons inconnues"
+      ],
+      "This element contains a Global Block that can be edited inline. Requires a Global Block Chooser control to be present.": [
+        "Cet élément contient un bloc global qui peut être modifié en ligne. Nécessite la présence d’un contrôle Global Block Chooser."
+      ],
+      "This element is empty, please add some content first.": [
+        "Cet élément est vide, veuillez d'abord ajouter du contenu."
+      ],
+      "This element will not be allowed on a page if one of the following elements is already present on the page": [
+        "Cet élément ne sera pas autorisé sur une page si l'un des éléments suivants est déjà présent sur la page"
+      ],
+      "This element will only be allowed as a direct child of the selected elements": [
+        "Cet élément ne sera autorisé qu'en tant qu'enfant direct des éléments sélectionnés"
+      ],
+      "This element will only be allowed inside the selected elements": [
+        "Cet élément ne sera autorisé qu'à l'intérieur des éléments sélectionnés"
+      ],
+      "This font style already exists with this weight, and format": [
+        "Ce style de police existe déjà avec ce poids et ce format"
+      ],
+      "This font weight already exists with this style, and format": [
+        "Cette épaisseur de police existe déjà avec ce style et ce format"
+      ],
+      "this is currently used at https://breakdance.com/features/elements": [
+        "ceci est actuellement utilisé àhttps://breakdance.com/features/elements"
+      ],
+      "This post can't be edited directly.": [
+        "Ce message ne peut pas être modifié directement."
+      ],
+      "This post is rendered with a \"%s\" template.": [
+        "Ce message est rendu avec un modèle \"%s\"."
+      ],
+      "This post is rendered with a builder's internal \"%s\" template.": [
+        "Cet article est rendu avec le modèle interne \"%s\" d'un constructeur."
+      ],
+      "This post is rendered with a builder's internal template.": [
+        "Cet article est rendu avec le modèle interne d'un constructeur."
+      ],
+      "This post is rendered with a template.": [
+        "Cet article est rendu avec un modèle."
+      ],
+      "This selector already exists.": [
+        "Ce sélecteur existe déjà."
+      ],
+      "This selector is no longer available. Remove it from the element?": [
+        "Ce sélecteur n'est plus disponible. Le supprimer de l'élément ?"
+      ],
+      "This variable has been deleted, but it is still used here.": [
+        "Cette variable a été supprimée, mais elle est toujours utilisée ici."
+      ],
+      "This video could not be embedded.": [
+        "Cette vidéo n'a pas pu être intégrée."
+      ],
+      "This will disable the 'Settings -> Html -> Tag' control": [
+        "Cela désactivera le contrôle \"Paramètres -> HTML -> Balise\"."
+      ],
+      "This won't be visible on the website but helps us understand your needs.": [
+        "Cela ne sera pas visible sur le site Web mais nous aide à comprendre vos besoins."
+      ],
+      "Title": [
+        "Titre"
+      ],
+      "Title field can't be empty": [
+        "Le champ de titre ne peut pas être vide"
+      ],
+      "Title is required": [
+        "Le titre est requis"
+      ],
+      "Title Template": [
+        "Modèle de titre"
+      ],
+      "To describe a repeater, use &quot;[]&quot;. e.g: &quot;content.list.my_repeater[].url&quot;": [
+        "Pour décrire un répéteur, utilisez&quot;[]&quot;. par exemple :&quot;content.list.my_repeater[].url&quot;"
+      ],
+      "To edit, select %s element with this preset applied.": [
+        "Pour modifier, sélectionnez l'élément %s avec ce préréglage appliqué."
+      ],
+      "To paste using the Edit menu, please allow access to your clipboard.": [
+        "Pour coller à l'aide du menu Edition, veuillez autoriser l'accès à votre presse-papiers."
+      ],
+      "To paste using the Edit menu, your website needs to be served with HTTPS.": [
+        "Pour coller à l'aide du menu Edition, votre site Web doit être servi avec HTTPS."
+      ],
+      "To use %s, log in to WordPress admin.": [
+        "Pour utiliser %s, connectez-vous à l'administrateur WordPress."
+      ],
+      "To use %s, you need to login to WordPress.": [
+        "Pour utiliser %s, vous devez vous connecter à WordPress."
+      ],
+      "Toggle": [
+        "Basculer"
+      ],
+      "Toggle the modified option in the properties search box.": [
+        "Basculez l’option modifiée dans la zone de recherche des propriétés."
+      ],
+      "Toggle the preview mode.": [
+        "Basculez le mode aperçu."
+      ],
+      "Top": [
+        "Haut"
+      ],
+      "Total posts": [
+        "Nombre total de messages"
+      ],
+      "Total posts must be equal to or greater than Posts Per Page": [
+        "Le nombre total de publications doit être égal ou supérieur à Messages par page"
+      ],
+      "Transform": [
+        "Transformer"
+      ],
+      "Trash": [
+        "Poubelle"
+      ],
+      "Trash (%d)": [
+        "Corbeille (%d)"
+      ],
+      "Trashing existing Templates, Headers, Footers, %s, and Popups.": [
+        "Suppression des modèles, en-têtes, pieds de page, %s et fenêtres contextuelles existants."
+      ],
+      "Trigger": [
+        "Déclenchement"
+      ],
+      "Trigger action button options": [
+        "Options du bouton d'action de déclenchement"
+      ],
+      "Triggers": [
+        "Déclencheurs"
+      ],
+      "Try adjusting your search to find what you are looking for.": [
+        "Essayez d'ajuster votre recherche pour trouver ce que vous recherchez."
+      ],
+      "Try Breakdance Pro": [
+        "Essayez Breakdance Pro"
+      ],
+      "Try Oxygen Pro": [
+        "Essayez Oxygène Pro"
+      ],
+      "Tutorials": [
+        "Tutoriels"
+      ],
+      "Type": [
+        "Taper"
+      ],
+      "Type:": [
+        "Taper:"
+      ],
+      "Types": [
+        "Espèces"
+      ],
+      "Typography": [
+        "Typographie"
+      ],
+      "UI Icon": [
+        "Icône de l'interface utilisateur"
+      ],
+      "UI Order (number)": [
+        "Commande d'assurance-chômage (numéro)"
+      ],
+      "UI Settings": [
+        "Paramètres de l'interface utilisateur"
+      ],
+      "Unable to format %s code. Please check for syntax errors like missing brackets, quotes, or semicolons, then try formatting again.": [
+        "Impossible de formater le code %s. Veuillez vérifier les erreurs de syntaxe telles que les crochets, guillemets ou points-virgules manquants, puis réessayez le formatage."
+      ],
+      "Unable to retrieve a video from this URL": [
+        "Impossible de récupérer une vidéo à partir de cette URL"
+      ],
+      "Uncategorized": [
+        "Non classé"
+      ],
+      "Underline Offset": [
+        "Décalage de soulignement"
+      ],
+      "Undo": [
+        "Annuler"
+      ],
+      "Undo changes": [
+        "Annuler les modifications"
+      ],
+      "Unexpected error occurred.": [
+        "Une erreur inattendue s'est produite."
+      ],
+      "Unit Options": [
+        "Options d'unité"
+      ],
+      "Unknown": [
+        "Inconnu"
+      ],
+      "Unknown breakpoint": [
+        "Point d'arrêt inconnu"
+      ],
+      "Unknown Document": [
+        "Document inconnu"
+      ],
+      "Unknown notification type %s": [
+        "Type de notification inconnu %s"
+      ],
+      "Unlink it or select a new variable.": [
+        "Dissociez-le ou sélectionnez une nouvelle variable."
+      ],
+      "Unlink variable": [
+        "Dissocier une variable"
+      ],
+      "Unlock": [
+        "Ouvrir"
+      ],
+      "Unlock all": [
+        "Débloquez tout"
+      ],
+      "Unrecoverable Errors": [
+        "Erreurs irrécupérables"
+      ],
+      "Unsplash": [
+        "Unsplash"
+      ],
+      "Unsupported template": [
+        "Modèle non pris en charge"
+      ],
+      "Unsupported templates": [
+        "Modèles non pris en charge"
+      ],
+      "Update for template \"%s\" failed": [
+        "La mise à jour du modèle \"%s\" a échoué"
+      ],
+      "Update slug": [
+        "Limace de mise à jour"
+      ],
+      "Update your template settings in the WP admin at": [
+        "Mettez à jour les paramètres de votre modèle dans l'administrateur WP à l'adresse"
+      ],
+      "Updated prompt info for element #%s": [
+        "Informations d'invite mises à jour pour l'élément n°%s"
+      ],
+      "Updating the Class Name will make the previous class obsolete. You'll need to update your CSS": [
+        "La mise à jour du nom de classe rendra la classe précédente obsolète. Vous devrez mettre à jour votre CSS"
+      ],
+      "Upload": [
+        "Télécharger"
+      ],
+      "Upload a Video or paste a URL": [
+        "Téléchargez une vidéo ou collez une URL"
+      ],
+      "Upload a Video or paste a URL from %s": [
+        "Téléversez une vidéo ou collez une URL de %s."
+      ],
+      "Upload some icons.": [
+        "Téléchargez quelques icônes."
+      ],
+      "Upload symbol-defs.svg from an IcoMoon export, or an individual SVG file.": [
+        "Téléchargez symbol-defs.svg à partir d’une exportation IcoMoon ou d’un fichier SVG individuel."
+      ],
+      "URL": [
+        "URL"
+      ],
+      "URL to CSS file containing Font Face definitions": [
+        "URL vers le fichier CSS contenant les définitions de polices"
+      ],
+      "URL to script": [
+        "URL vers le script"
+      ],
+      "URL to style": [
+        "URL à styliser"
+      ],
+      "Use Fonts In External CSS": [
+        "Utiliser des polices dans du CSS externe"
+      ],
+      "Use hosted fonts from providers like Adobe Fonts.": [
+        "Utilisez des polices hébergées auprès de fournisseurs comme Adobe Fonts."
+      ],
+      "use the below HTML code on breakdance.com to display a list of elements.": [
+        "utilisez le code HTML ci-dessous sur breakdance.com pour afficher une liste d'éléments."
+      ],
+      "Use the lock icon to prevent AI from changing this image during bulk rewrites.": [
+        "Utilisez l'icône de verrouillage pour empêcher l'IA de modifier cette image lors des réécritures groupées."
+      ],
+      "Use this if clicking on the element doesn't active it, but instead clicks something inside of it": [
+        "Utilisez-le si cliquer sur l'élément ne l'active pas, mais clique à la place sur quelque chose à l'intérieur de celui-ci."
+      ],
+      "Use this if the element should only be visible in the builder": [
+        "Utilisez-le si l'élément ne doit être visible que dans le générateur"
+      ],
+      "Use this if you need to access the properties data from this element in a child SSR element.": [
+        "Utilisez-le si vous devez accéder aux données de propriétés de cet élément dans un élément SSR enfant."
+      ],
+      "Use this if you want to disable the AI for this element": [
+        "Utilisez-le si vous souhaitez désactiver l'IA pour cet élément"
+      ],
+      "Used as a fallback when the title template is blank.": [
+        "Utilisé comme solution de secours lorsque le modèle de titre est vide."
+      ],
+      "Validation Error:": [
+        "Erreur de validation :"
+      ],
+      "Value": [
+        "Valeur"
+      ],
+      "Value comes from:": [
+        "La valeur vient de :"
+      ],
+      "Value is overwritten by:": [
+        "La valeur est écrasée par :"
+      ],
+      "Values": [
+        "Valeurs"
+      ],
+      "Variables": [
+        "Variables"
+      ],
+      "Variables panel.": [
+        "Panneau Variables."
+      ],
+      "Variations": [
+        "Variantes"
+      ],
+      "Vertically Center": [
+        "Centrer verticalement"
+      ],
+      "Video": [
+        "Vidéo"
+      ],
+      "Video Options": [
+        "Options vidéo"
+      ],
+      "Videos from %s are not allowed for this field. Allowed embed platforms are %s": [
+        "Les vidéos de %s ne sont pas autorisées pour ce champ. Les plates-formes d'intégration autorisées sont %s"
+      ],
+      "Videos from this platform, are not allowed for this field. Allowed embed platforms are %s": [
+        "Les vidéos de cette plateforme ne sont pas autorisées pour ce champ. Les plates-formes d'intégration autorisées sont %s"
+      ],
+      "View Design Set": [
+        "Afficher l'ensemble de conceptions"
+      ],
+      "Viewing Page": [
+        "Affichage de la page"
+      ],
+      "Visit site": [
+        "Visiter le site"
+      ],
+      "Visual": [
+        "Visuel"
+      ],
+      "Warning: Deleted Variable": [
+        "Avertissement : variable supprimée"
+      ],
+      "We couldn't find any icons matching \"%s\".": [
+        "Nous n'avons trouvé aucune icône correspondant à \"%s\"."
+      ],
+      "We just need a few details. These answers help us generate a starting point that feels right for you.": [
+        "Nous avons juste besoin de quelques détails. Ces réponses nous aident à générer un point de départ qui vous convient."
+      ],
+      "We're creating a sitemap.": [
+        "Nous créons un plan du site."
+      ],
+      "We're setting up your design library.": [
+        "Nous mettons en place votre bibliothèque de conception."
+      ],
+      "We're setting up your website based on your choices.": [
+        "Nous créons votre site internet en fonction de vos choix."
+      ],
+      "We've set up your website based on your choices. You can now start customizing it to make it truly yours.": [
+        "Nous avons créé votre site Internet en fonction de vos choix. Vous pouvez maintenant commencer à le personnaliser pour qu'il soit vraiment le vôtre."
+      ],
+      "Weight": [
+        "Poids"
+      ],
+      "Welcome to %s": [
+        "Bienvenue sur %s"
+      ],
+      "Welcome to Breakdance AI": [
+        "Bienvenue sur Breakdance AI"
+      ],
+      "What are your website goals?": [
+        "Quels sont les objectifs de votre site Web ?"
+      ],
+      "What category does your website fall under?": [
+        "À quelle catégorie appartient votre site Web ?"
+      ],
+      "What is your website about?": [
+        "De quoi parle votre site Web ?"
+      ],
+      "What is your website called?": [
+        "Comment s’appelle votre site internet ?"
+      ],
+      "What is your website's writing style?": [
+        "Quel est le style d'écriture de votre site Web ?"
+      ],
+      "WhatsApp": [
+        "WhatsApp"
+      ],
+      "When field": [
+        "Lorsque le champ"
+      ],
+      "When left empty the dependencies will always be added.": [
+        "Lorsqu'elles sont laissées vides, les dépendances seront toujours ajoutées."
+      ],
+      "When saving in %s, the CSS and other dependencies required by the saved item are cached. Use this tool to regenerate the caches for all %s-created content.": [
+        "Lors de l'enregistrement dans %s, le CSS et les autres dépendances requises par l'élément enregistré sont mis en cache. Utilisez cet outil pour régénérer les caches pour tout le contenu créé par %s."
+      ],
+      "When using the Breakdance or Oxygen plugin, my server failed to fulfill the following request as expected. Instead, it returned an error code.": [
+        "Lors de l'utilisation du plugin Breakdance ou Oxygen, mon serveur n'a pas réussi à répondre à la demande suivante comme prévu. Au lieu de cela, il a renvoyé un code d'erreur."
+      ],
+      "Why did the server return a %s error?": [
+        "Pourquoi le serveur a-t-il renvoyé une erreur %s?"
+      ],
+      "Width": [
+        "Largeur"
+      ],
+      "will be replaced with the correct path in the element.": [
+        "sera remplacé par le chemin correct dans l'élément."
+      ],
+      "Will only show an image's available sizes. Use [] when inside a repeater.": [
+        "N'affichera que les tailles disponibles d'une image. Utilisez [] à l’intérieur d’un répéteur."
+      ],
+      "Word Spacing": [
+        "Espacement des mots"
+      ],
+      "Would you like to save or discard these changes?": [
+        "Souhaitez-vous enregistrer ou ignorer ces modifications ?"
+      ],
+      "WP Media Options": [
+        "Options multimédia WP"
+      ],
+      "Wrap In": [
+        "Envelopper"
+      ],
+      "Write CSS with AI.": [
+        "Écrivez du CSS avec l'IA."
+      ],
+      "Write it like snoop dogg": [
+        "Écrivez-le comme Snoop Dogg"
+      ],
+      "X": [
+        "X"
+      ],
+      "Y": [
+        "Y"
+      ],
+      "You already did full site import for this site.": [
+        "Vous avez déjà effectué une importation complète du site pour ce site."
+      ],
+      "You are not logged in": [
+        "Vous n'êtes pas connecté"
+      ],
+      "You can now view and manage your sitemap.": [
+        "Vous pouvez désormais afficher et gérer votre plan de site."
+      ],
+      "You can use Twig to access the element properties. eg.": [
+        "Vous pouvez utiliser Twig pour accéder aux propriétés de l'élément. par exemple."
+      ],
+      "You can't edit this item because it is in the Trash. Please restore it and try again.": [
+        "Vous ne pouvez pas modifier cet élément car il se trouve dans la corbeille. Veuillez le restaurer et réessayer."
+      ],
+      "You don't have any presets yet.": [
+        "Vous n'avez pas encore de préréglages."
+      ],
+      "You don't have enough permissions to edit \"%s\" post type.": [
+        "Vous ne disposez pas de suffisamment d'autorisations pour modifier le type de publication \"%s\"."
+      ],
+      "You have no deleted %s.": [
+        "Vous n'avez aucun %s supprimé."
+      ],
+      "You have no published %s.": [
+        "Vous n'avez aucun %s publié."
+      ],
+      "You have unsaved changes": [
+        "Vous avez des modifications non enregistrées"
+      ],
+      "You have unsaved changes to your AI Settings.": [
+        "Vous avez des modifications non enregistrées dans vos paramètres AI."
+      ],
+      "You have unsaved changes to your Global Settings.": [
+        "Vous avez des modifications non enregistrées dans vos paramètres globaux."
+      ],
+      "You have unsaved changes to your Presets.": [
+        "Vous avez des modifications non enregistrées dans vos préréglages."
+      ],
+      "You have unsaved changes to your Selectors.": [
+        "Vous avez des modifications non enregistrées dans vos sélecteurs."
+      ],
+      "You have unsaved changes to your Variables.": [
+        "Vous avez des modifications non enregistrées dans vos variables."
+      ],
+      "You must save your changes first": [
+        "Vous devez d'abord enregistrer vos modifications"
+      ],
+      "You need to set up your OpenAI API key before you can use the AI assistant.": [
+        "Vous devez configurer votre clé API OpenAI avant de pouvoir utiliser l'assistant AI."
+      ],
+      "You're about to delete \"%s\" permanently from the site. Are you sure?": [
+        "Vous êtes sur le point de supprimer définitivement «%s» du site. Es-tu sûr?"
+      ],
+      "You've already imported settings from this Design Library.": [
+        "Vous avez déjà importé les paramètres de cette bibliothèque de conception."
+      ],
+      "You've already imported the Design Presets from this site.": [
+        "Vous avez déjà importé les préréglages de conception depuis ce site."
+      ],
+      "You've been logged out of WordPress. Log back in to continue using %s.": [
+        "Vous avez été déconnecté de WordPress. Reconnectez-vous pour continuer à utiliser %s."
+      ],
+      "Your existing %s will be moved to the trash. You can restore them from the trash after the import.": [
+        "Votre %s existant sera déplacé vers la corbeille. Vous pouvez les restaurer depuis la corbeille après l'importation."
+      ],
+      "Your existing Design Presets will be overwritten with the Presets from this library website.": [
+        "Vos préréglages de conception existants seront remplacés par les préréglages de ce site Web de bibliothèque."
+      ],
+      "Your Name": [
+        "Votre nom"
+      ],
+      "Your server returned a %s error.": [
+        "Votre serveur a renvoyé une erreur %s."
+      ],
+      "Your session has expired": [
+        "Votre session a expiré"
+      ],
+      "Your session has expired. Refresh your session to continue using %s.": [
+        "Votre session a expiré. Actualisez votre session pour continuer à utiliser %s."
+      ],
+      "Your sitemap is ready!": [
+        "Votre plan de site est prêt !"
+      ],
+      "Your template settings don't match any content. You can:": [
+        "Les paramètres de votre modèle ne correspondent à aucun contenu. Tu peux:"
+      ],
+      "Your website is ready!": [
+        "Votre site Internet est prêt !"
+      ],
+      "%s: CSS class name(s)\u0004%s is assigned to this element but is no longer present on the site. Remove it by <span>clicking here</span> or editing the class list.": [
+        "%s est attribué à cet élément mais n'est plus présent sur le site. Supprimez-le en<span>en cliquant ici</span>ou en modifiant la liste des classes.",
+        "%s sont affectés à cet élément mais ne sont plus présents sur le site. Supprimez-les en<span>cliquant ici</span>ou en modifiant la liste des classes."
+      ],
+      "Color\u0004Add %s": [
+        "Ajouter %s"
+      ],
+      "Controls Tree\u0004Clear %s": [
+        "Effacer %s"
+      ],
+      "Controls Tree\u0004Copy %s": [
+        "Copier %s"
+      ],
+      "Controls Tree\u0004Paste %s": [
+        "Coller %s"
+      ],
+      "Design Library\u0004Import %s": [
+        "Importer %s"
+      ],
+      "Document\u0004Edit %s": [
+        "Modifier %s"
+      ],
+      "Document\u0004Editing %s": [
+        "Modification de %s"
+      ],
+      "element nesting\u0004Must be added inside a \"%s\" element": [
+        "Doit être ajouté à l'intérieur d'un élément \"%s\"",
+        "Doit être ajouté à l'intérieur d'un élément \"%s\""
+      ],
+      "Element Presets\u0004Search results for \"%s\"": [
+        "Résultats de recherche pour \"%s\""
+      ],
+      "Element Properties\u0004Search results for \"%s\"": [
+        "Résultats de recherche pour \"%s\""
+      ],
+      "Element Studio\u0004New %s": [
+        "Nouveau %s"
+      ],
+      "Element Studio Item Type\u0004Open %s": [
+        "Ouvrez %s"
+      ],
+      "Global Block\u0004Add %s": [
+        "Ajouter %s"
+      ],
+      "Global Block\u0004Copy of \"%s\"": [
+        "Copie de \"%s\""
+      ],
+      "Global Block\u0004Edit %s": [
+        "Modifier %s"
+      ],
+      "Global Block\u0004Editing \"%s\"": [
+        "Modification de \"%s\""
+      ],
+      "Global Block\u0004New %s": [
+        "Nouveau %s"
+      ],
+      "Global Blocks\u0004Deleted %s": [
+        "%ssupprimé"
+      ],
+      "Global Settings\u0004Search results for \"%s\"": [
+        "Résultats de recherche pour \"%s\""
+      ],
+      "Oxygen Control\u0004Paste %s": [
+        "Coller %s"
+      ],
+      "Plugin name\u0004The template does not contain a Template Content Area element. Therefore, the posts it applies to are not editable in %s.": [
+        "Le modèle ne contient pas d'élément de zone de contenu de modèle. Par conséquent, les publications auxquelles il s'applique ne sont pas modifiables dans %s."
+      ],
+      "Search\u0004No %s found.": [
+        "Aucun %s trouvé."
+      ],
+      "Selectors\u0004Search results for \"%s\"": [
+        "Résultats de recherche pour \"%s\""
+      ],
+      "Settings\u0004Import %s": [
+        "Importer %s"
+      ],
+      "Template\u0004Add %s": [
+        "Ajouter %s"
+      ],
+      "Template\u0004Copy of \"%s\"": [
+        "Copie de \"%s\""
+      ],
+      "Template\u0004Edit in %s": [
+        "Modifier dans %s"
+      ],
+      "Template\u0004Editing \"%s\"": [
+        "Modification de \"%s\""
+      ],
+      "Template\u0004New %s": [
+        "Nouveau %s"
+      ],
+      "Templates\u0004Deleted %s": [
+        "%ssupprimé"
+      ],
+      "Templates\u0004No %s found.": [
+        "Aucun %s trouvé."
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/.git
+/.agents
+/translation-cache.json
+/scripts
+/marketing
+/docs/AVALIACAO.md
+/config/freemius.php
+.blb-secret
+.blb-secret.*
+config/blb-secret.local
+*.pyc
+__pycache__

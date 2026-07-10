@@ -1,0 +1,9 @@
+translation-cache.json
+__pycache__/
+*.pyc
+
+# BLB private signing secret — NEVER commit
+.blb-secret
+.blb-secret.*
+config/blb-secret.local
+config/freemius.php

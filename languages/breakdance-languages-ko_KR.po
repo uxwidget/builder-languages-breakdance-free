@@ -1,0 +1,172 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Breakdance Languages ux-0.1.0\n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: breakdance-languages\n"
+
+msgid "Languages"
+msgstr "언어"
+
+msgid ""
+"Upgrade to Pro to choose the Breakdance Builder language independently from "
+"the WordPress profile."
+msgstr "WordPress 프로필과 별도로 Breakdance Builder 언어를 선택하려면 Pro로 업그레이드하세요."
+
+msgid "The selected language is not available on your current plan."
+msgstr "선택한 언어는 현재 요금제에서 사용할 수 없습니다."
+
+msgid ""
+"Idioma salvo com sucesso. Agora clique em \"Atualizar\" para recarregar o "
+"Breakdance e aplicar a tradução."
+msgstr "언어가 성공적으로 저장되었습니다. 페이지를 다시 로드하고 번역을 적용하려면 \"새로 고침\"을 클릭하세요."
+
+msgid "Builder Language"
+msgstr "빌더 언어"
+
+msgid ""
+"Choose the language used in the Breakdance Builder interface, element names,"
+" and first-party controls."
+msgstr "Breakdance Builder 인터페이스, 요소 이름 및 자사 컨트롤에 사용되는 언어를 선택하십시오."
+
+msgid ""
+"Free plan: translations follow your WordPress profile language when it is "
+"included in the free language pack."
+msgstr "무료 플랜: 무료 언어 팩에 포함된 경우 번역은 WordPress 프로필 언어를 따릅니다."
+
+msgid "Upgrade to Pro"
+msgstr "프로로 업그레이드"
+
+msgid "to unlock all 8 languages and choose the builder language here."
+msgstr "8개 언어를 모두 잠금 해제하고 여기에서 빌더 언어를 선택하세요."
+
+msgid "Builder language"
+msgstr "빌더 언어"
+
+msgid "Use WordPress profile language"
+msgstr "WordPress 프로필 언어 사용"
+
+msgid "Siga os passos:"
+msgstr "다음 단계를 따르세요."
+
+msgid "1) Clique em \"Salvar novo idioma\"."
+msgstr "1) '언어 저장'을 클릭하세요."
+
+msgid "2) Clique em \"Atualizar\"."
+msgstr "2) \"새로고침\"을 클릭하세요."
+
+msgid "Salvar novo idioma"
+msgstr "언어 저장"
+
+msgid "Atualizar"
+msgstr "새로 고치다"
+
+msgid "Permission denied."
+msgstr "허가가 거부되었습니다."
+
+msgid "Upgrade to Pro to choose the builder language here."
+msgstr "여기에서 빌더 언어를 선택하려면 Pro로 업그레이드하세요."
+
+msgid "Idioma salvo com sucesso."
+msgstr "언어가 성공적으로 저장되었습니다."
+
+msgid "Salvando idioma..."
+msgstr "살반도 관용구..."
+
+msgid "Idioma salvo. Agora clique em \"Atualizar\"."
+msgstr "언어가 저장되었습니다. 이제 \"새로 고침\"을 클릭하세요."
+
+msgid "Não foi possível salvar o idioma selecionado."
+msgstr "선택한 언어를 저장할 수 없습니다."
+
+msgid ""
+"Breakdance Languages is active, but Breakdance Builder is not active. "
+"Activate Breakdance Builder to load the language packs."
+msgstr ""
+"Breakdance Languages는 활성화되어 있지만 Breakdance Builder는 활성화되어 있지 않습니다. 언어 팩을 "
+"로드하려면 Breakdance Builder를 활성화하세요."
+
+msgid "Portuguese (Brazil)"
+msgstr "포르투갈어(브라질)"
+
+msgid "Portuguese"
+msgstr "포르투갈 인"
+
+msgid "French"
+msgstr "프랑스 국민"
+
+msgid "German"
+msgstr "독일 사람"
+
+msgid "Spanish"
+msgstr "스페인 사람"
+
+msgid "Arabic"
+msgstr "아라비아 말"
+
+msgid "English (International)"
+msgstr "영어(국제)"
+
+msgid "Japanese"
+msgstr "일본어"
+
+msgid "English (United States)"
+msgstr "영어(미국)"
+
+msgid "Licença"
+msgstr "특허"
+
+msgid "Status"
+msgstr "상태"
+
+msgid "Development mode"
+msgstr "개발 모드"
+
+msgid "Active"
+msgstr "활동적인"
+
+msgid "Inactive"
+msgstr "비활성"
+
+msgid "Build de desenvolvimento: licenciamento Freemius não configurado."
+msgstr "Desenvolvimento 빌드: 라이센스는 Freemius não configurado에서 사용 가능합니다."
+
+msgid "Ative sua licença para carregar as traduções do Breakdance Builder."
+msgstr "Breakdance Builder 번역을 로드하려면 라이선스를 활성화하세요."
+
+msgid ""
+"Sua licença está ativa. Todas as traduções incluídas estão disponíveis."
+msgstr "귀하의 라이센스가 활성화되었습니다. 포함된 모든 번역이 가능합니다."
+
+msgid "Conta"
+msgstr "콘타"
+
+msgid "Gerenciar licença"
+msgstr "라이선스 관리"
+
+msgid "Comprar licença"
+msgstr "라이센스 구매"
+
+msgid "Comprar"
+msgstr "구입하다"
+
+msgid ""
+"Ative uma licença válida para usar as traduções do Breakdance Languages."
+msgstr "Breakdance Languages의 트레이딩과 마찬가지로 유효한 라이센스입니다."
+
+msgid "The selected language is not available."
+msgstr "선택한 언어를 사용할 수 없습니다."
+
+msgid "Activate a valid license to use Breakdance Languages."
+msgstr "Breakdance 언어를 사용하려면 유효한 라이선스를 활성화하세요."
+
+msgid "Breakdance Languages: activate your license to load translations."
+msgstr "브레이크댄스 언어: 번역을 로드하려면 라이센스를 활성화하세요."
+
+msgid "Manage license"
+msgstr "라이선스 관리"

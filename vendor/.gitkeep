@@ -1,0 +1,5 @@
+# Place the Freemius WordPress SDK here:
+# vendor/freemius/start.php
+#
+# Download: https://github.com/Freemius/wordpress-sdk/archive/master.zip
+# Rename folder to "freemius" and copy into this vendor directory.

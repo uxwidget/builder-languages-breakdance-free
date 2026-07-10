@@ -1,0 +1,3874 @@
+{
+  "translation-revision-date": "2026-07-09 21:24:-0300",
+  "generator": "Breakdance Languages",
+  "domain": "breakdance",
+  "locale_data": {
+    "breakdance": {
+      "": {
+        "domain": "breakdance",
+        "lang": "nl-NL",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      ".my-cool-class": [
+        ".mijn-coole-klas"
+      ],
+      ".your.css > #selector-69::after": [
+        ".uw.css > #selector-69::after"
+      ],
+      "\"%s\" is not a valid class name.": [
+        "\"%s\" is geen geldige klassenaam."
+      ],
+      "\"%s\" is not a valid CSS selector.": [
+        "\"%s\" is geen geldige CSS-selector."
+      ],
+      "(AND) %s for '{path}'": [
+        "(EN) %s voor '{pad}'"
+      ],
+      "(Draft)": [
+        "(Voorlopige versie)"
+      ],
+      "(empty)": [
+        "(leeg)"
+      ],
+      "(Empty)": [
+        "(Leeg)"
+      ],
+      "(no name)": [
+        "(geen naam)"
+      ],
+      "(no title)": [
+        "(geen titel)"
+      ],
+      "(the returned value is trimmed for spaces and newlines)": [
+        "(de geretourneerde waarde wordt bijgesneden voor spaties en nieuwe regels)"
+      ],
+      "%s - Error Code %s": [
+        "%s - Foutcode %s"
+      ],
+      "%s #%s": [
+        "%s #%s"
+      ],
+      "%s are also available.": [
+        "%s zijn ook beschikbaar."
+      ],
+      "%s couldn't be found": [
+        "%s kon niet worden gevonden"
+      ],
+      "%s Editor": [
+        "%s Editor"
+      ],
+      "%s Element": [
+        "%s Element"
+      ],
+      "%s failed": [
+        "%s mislukt"
+      ],
+      "%s Field in": [
+        "%s Veld in"
+      ],
+      "%s generated an email you can send to your web host for help:": [
+        "%s heeft een e-mail gegenereerd die u voor hulp naar uw webhost kunt sturen:"
+      ],
+      "%s is already present on the element.": [
+        "%s is al aanwezig op het element."
+      ],
+      "%s is already present.": [
+        "%s is al aanwezig."
+      ],
+      "%s is not a valid CSS class name.": [
+        "%s is geen geldige CSS-klassenaam."
+      ],
+      "%s is not a valid CSS selector.": [
+        "%s is geen geldige CSS-selector."
+      ],
+      "%s not present. Set it in the %s.": [
+        "%s niet aanwezig. Stel het in in %s."
+      ],
+      "%s on page": [
+        "%s op pagina"
+      ],
+      "%s Options": [
+        "%s Opties"
+      ],
+      "%s selectors imported. %s existing selectors were kept.": [
+        "%s selectors geïmporteerd. %s bestaande selectors zijn behouden."
+      ],
+      "%s selectors imported. All existing selectors were replaced.": [
+        "%s selectors geïmporteerd. Alle bestaande selectors zijn vervangen."
+      ],
+      "%s Settings, and also import all Pages, Posts, and Templates from the design set.": [
+        "%s Instellingen, en importeer ook alle pagina's, berichten en sjablonen uit de ontwerpset."
+      ],
+      "%s variables imported. %s existing variables were kept.": [
+        "%s variabelen geïmporteerd. %s bestaande variabelen zijn behouden."
+      ],
+      "%s was not saved": [
+        "%s is niet opgeslagen"
+      ],
+      "%s was not saved, or it was saved but the value is invalid": [
+        "%s is niet opgeslagen, of is opgeslagen, maar de waarde is ongeldig"
+      ],
+      "%s. Set it in the %s.": [
+        "%S. Stel het in in %s."
+      ],
+      "%spx and above": [
+        "%spx en hoger"
+      ],
+      "%spx and below": [
+        "%spx en lager"
+      ],
+      "⚠️ (deleted)": [
+        "⚠️ (verwijderd)"
+      ],
+      "⚠️ Could not generate content, please try again.": [
+        "⚠️ Kan geen inhoud genereren. Probeer het opnieuw."
+      ],
+      "👋 Do you want to start with a template?": [
+        "👋 Wil je beginnen met een sjabloon?"
+      ],
+      "404 Not Found": [
+        "404 Niet gevonden"
+      ],
+      "A %s with the title \"%s\" already exists. Please select another title.": [
+        "Er bestaat al een %s met de titel \"%s\". Selecteer een andere titel."
+      ],
+      "A 403 error is almost caused by your host, firewall, or CDN blocking the request": [
+        "Een 403-fout wordt bijna veroorzaakt doordat uw host, firewall of CDN het verzoek blokkeert"
+      ],
+      "A 500 error is usually a server issue and must be resolved by your web hosting provider or server administrator. It can also be caused by a broken plugin.": [
+        "Een 500-fout is meestal een serverprobleem en moet worden opgelost door uw webhostingprovider of serverbeheerder. Het kan ook worden veroorzaakt door een kapotte plug-in."
+      ],
+      "A preset is currently selected for this element.": [
+        "Voor dit element is momenteel een preset geselecteerd."
+      ],
+      "A weight is required": [
+        "Er is een gewicht vereist"
+      ],
+      "Accepted File Types": [
+        "Geaccepteerde bestandstypen"
+      ],
+      "Accepts:": [
+        "Accepteert:"
+      ],
+      "ACF": [
+        "ACF"
+      ],
+      "ACF Flexible Content": [
+        "ACF flexibele inhoud"
+      ],
+      "ACF Relationship": [
+        "ACF-relatie"
+      ],
+      "Action": [
+        "Actie"
+      ],
+      "Action will only run for the specified path.": [
+        "Actie wordt alleen uitgevoerd voor het opgegeven pad."
+      ],
+      "Action will only run if element being moved is of that type, OR if the element was moved onto an element with that type.": [
+        "De actie wordt alleen uitgevoerd als het element dat wordt verplaatst van dat type is, OF als het element naar een element met dat type is verplaatst."
+      ],
+      "Action will only run if the deleted element was inside a Section element.": [
+        "Actie wordt alleen uitgevoerd als het verwijderde element zich in een Sectie-element bevond."
+      ],
+      "Action will run for any control below 'background'.": [
+        "De actie wordt uitgevoerd voor elk besturingselement onder 'achtergrond'."
+      ],
+      "Actions": [
+        "Acties"
+      ],
+      "Active": [
+        "Actief"
+      ],
+      "Add": [
+        "Toevoegen"
+      ],
+      "Add a font family to %s's font family dropdowns, and optionally upload associated .woff/.woff2 files.": [
+        "Voeg een lettertypefamilie toe aan de vervolgkeuzelijsten voor lettertypefamilies van %s en upload eventueel bijbehorende .woff/.woff2-bestanden."
+      ],
+      "Add a link": [
+        "Voeg een link toe"
+      ],
+      "Add Action": [
+        "Actie toevoegen"
+      ],
+      "Add an element to your page and it will show up here.": [
+        "Voeg een element toe aan uw pagina en het zal hier verschijnen."
+      ],
+      "Add an element to your page or click an existing element to edit it.": [
+        "Voeg een element toe aan uw pagina of klik op een bestaand element om het te bewerken."
+      ],
+      "Add Breakpoint": [
+        "Breekpunt toevoegen"
+      ],
+      "Add Class": [
+        "Klasse toevoegen"
+      ],
+      "Add Collection": [
+        "Verzameling toevoegen"
+      ],
+      "Add Condition": [
+        "Voorwaarde toevoegen"
+      ],
+      "Add Control": [
+        "Controle toevoegen"
+      ],
+      "Add Control Section": [
+        "Voeg controlesectie toe"
+      ],
+      "Add CSS URL": [
+        "Voeg CSS-URL toe"
+      ],
+      "Add Custom Template": [
+        "Aangepaste sjabloon toevoegen"
+      ],
+      "Add dependency": [
+        "Voeg afhankelijkheid toe"
+      ],
+      "Add Element": [
+        "Element toevoegen"
+      ],
+      "Add External CSS": [
+        "Voeg externe CSS toe"
+      ],
+      "Add Font": [
+        "Lettertype toevoegen"
+      ],
+      "Add Footer": [
+        "Voettekst toevoegen"
+      ],
+      "Add Header": [
+        "Koptekst toevoegen"
+      ],
+      "Add Interaction": [
+        "Interactie toevoegen"
+      ],
+      "Add Item": [
+        "Artikel toevoegen"
+      ],
+      "Add Macro": [
+        "Macro toevoegen"
+      ],
+      "Add Media": [
+        "Media toevoegen"
+      ],
+      "Add new": [
+        "Nieuw toevoegen"
+      ],
+      "Add new (AND) %s": [
+        "Voeg nieuwe (EN) %s toe"
+      ],
+      "Add New Breakpoint": [
+        "Nieuw breekpunt toevoegen"
+      ],
+      "Add new collection": [
+        "Nieuwe collectie toevoegen"
+      ],
+      "Add new default element": [
+        "Nieuw standaardelement toevoegen"
+      ],
+      "Add new Dynamic Property Path": [
+        "Voeg een nieuw dynamisch eigenschappenpad toe"
+      ],
+      "Add New Font": [
+        "Nieuw lettertype toevoegen"
+      ],
+      "Add new HTML attribute": [
+        "Voeg een nieuw HTML-kenmerk toe"
+      ],
+      "Add new OR condition": [
+        "Voeg een nieuwe OR-voorwaarde toe"
+      ],
+      "Add new spacing bar": [
+        "Voeg een nieuwe afstandsbalk toe"
+      ],
+      "Add panel rules": [
+        "Voeg paneelregels toe"
+      ],
+      "Add Popup": [
+        "Pop-up toevoegen"
+      ],
+      "Add Preset": [
+        "Voorinstelling toevoegen"
+      ],
+      "Add script": [
+        "Script toevoegen"
+      ],
+      "Add Section": [
+        "Sectie toevoegen"
+      ],
+      "Add Shadow": [
+        "Schaduw toevoegen"
+      ],
+      "Add some content to your site that matches the template settings.": [
+        "Voeg wat inhoud toe aan uw site die overeenkomt met de sjablooninstellingen."
+      ],
+      "Add Template": [
+        "Sjabloon toevoegen"
+      ],
+      "Add Typography Preset": [
+        "Typografievoorinstelling toevoegen"
+      ],
+      "Add Variable": [
+        "Variabele toevoegen"
+      ],
+      "Add your first breakpoint by clicking the button below.": [
+        "Voeg uw eerste breekpunt toe door op de onderstaande knop te klikken."
+      ],
+      "advanced": [
+        "geavanceerd"
+      ],
+      "Advanced": [
+        "Geavanceerd"
+      ],
+      "Advanced Template Settings": [
+        "Geavanceerde sjablooninstellingen"
+      ],
+      "Affected property path": [
+        "Betrokken eigendomspad"
+      ],
+      "After Date": [
+        "Na datum"
+      ],
+      "AI Assistant": [
+        "AI-assistent"
+      ],
+      "AI Site Creation Experience": [
+        "Ervaring met het maken van AI-sites"
+      ],
+      "AJAX Error": [
+        "Ajax-fout"
+      ],
+      "Ajax Handler Error": [
+        "Ajax-handlerfout"
+      ],
+      "All": [
+        "Alle"
+      ],
+      "All Borders": [
+        "Alle grenzen"
+      ],
+      "All device widths": [
+        "Alle apparaatbreedtes"
+      ],
+      "All file types are allowed by default.": [
+        "Standaard zijn alle bestandstypen toegestaan."
+      ],
+      "All Icons": [
+        "Alle iconen"
+      ],
+      "All providers are allowed by default.": [
+        "Standaard zijn alle providers toegestaan."
+      ],
+      "Allow only certain file types": [
+        "Alleen bepaalde bestandstypen toestaan"
+      ],
+      "Allowed post type": [
+        "Toegestaan ​​berichttype"
+      ],
+      "Allowed types": [
+        "Toegestane typen"
+      ],
+      "Alternatively, you can use your keyboard shortcuts:": [
+        "Als alternatief kunt u uw sneltoetsen gebruiken:"
+      ],
+      "Always hide element from the Add Panel": [
+        "Verberg altijd een element in het Add-paneel"
+      ],
+      "Amount": [
+        "Hoeveelheid"
+      ],
+      "And": [
+        "En"
+      ],
+      "AND": [
+        "EN"
+      ],
+      "Animations": [
+        "Animaties"
+      ],
+      "API Key": [
+        "API-sleutel"
+      ],
+      "Applies to": [
+        "Geldt voor"
+      ],
+      "Apply": [
+        "Toepassen"
+      ],
+      "Apply %s to...": [
+        "%s toepassen op..."
+      ],
+      "Apply all (=)": [
+        "Alles toepassen (=)"
+      ],
+      "Apply All (=)": [
+        "Alles toepassen (=)"
+      ],
+      "Apply Conditions": [
+        "Voorwaarden toepassen"
+      ],
+      "Apply opposite": [
+        "Tegenover toepassen"
+      ],
+      "Apply Query": [
+        "Query toepassen"
+      ],
+      "Are you sure you want to delete %s?": [
+        "Weet u zeker dat u %s wilt verwijderen?"
+      ],
+      "Are you sure you want to delete the collection \"%s\"?": [
+        "Weet u zeker dat u de verzameling \"%s\" wilt verwijderen?"
+      ],
+      "Are you sure you want to delete the icon %s?": [
+        "Weet u zeker dat u het pictogram %s wilt verwijderen?"
+      ],
+      "Are you sure you want to delete this?": [
+        "Weet je zeker dat je dit wilt verwijderen?"
+      ],
+      "Are you sure you want to edit?": [
+        "Weet je zeker dat je wilt bewerken?"
+      ],
+      "are you sure?": [
+        "weet je het zeker?"
+      ],
+      "Array": [
+        "Array"
+      ],
+      "Ascending": [
+        "Oplopend"
+      ],
+      "Attribute": [
+        "Attribuut"
+      ],
+      "Attribute Name": [
+        "Kenmerknaam"
+      ],
+      "Attribute Value": [
+        "Kenmerkwaarde"
+      ],
+      "Attributes": [
+        "Kenmerken"
+      ],
+      "Attributes are added to the container of the element": [
+        "Attributen worden toegevoegd aan de container van het element"
+      ],
+      "Auto-scroll to active element": [
+        "Automatisch scrollen naar actief element"
+      ],
+      "Autofocus": [
+        "Autofocus"
+      ],
+      "Available In": [
+        "Beschikbaar binnen"
+      ],
+      "Available variables:": [
+        "Beschikbare variabelen:"
+      ],
+      "Available within the action's code:": [
+        "Beschikbaar binnen de actiecode:"
+      ],
+      "Back": [
+        "Rug"
+      ],
+      "Back to WordPress admin": [
+        "Terug naar WordPress-beheerder"
+      ],
+      "Background Color": [
+        "Achtergrondkleur"
+      ],
+      "Badge Background": [
+        "Kentekenachtergrond"
+      ],
+      "Badge Label": [
+        "Badge-label"
+      ],
+      "Badge Text": [
+        "Badgetekst"
+      ],
+      "Based on the control's path.": [
+        "Gebaseerd op het pad van de besturing."
+      ],
+      "Based on the deleted element's parent type.": [
+        "Gebaseerd op het bovenliggende type van het verwijderde element."
+      ],
+      "Based on the element's and moved-on element's type.": [
+        "Gebaseerd op het type van het element en het verplaatste element."
+      ],
+      "Baseline": [
+        "Basislijn"
+      ],
+      "Be funny": [
+        "Wees grappig"
+      ],
+      "Be verbose": [
+        "Wees uitgebreid"
+      ],
+      "Be very concise": [
+        "Wees heel beknopt"
+      ],
+      "Before Date": [
+        "Vóór datum"
+      ],
+      "before use.": [
+        "vóór gebruik."
+      ],
+      "Best Regards,": [
+        "Hartelijke groeten,"
+      ],
+      "beware that the Twig code running in the action will be with the child's data, including tags": [
+        "Houd er rekening mee dat de Twig-code die in de actie wordt uitgevoerd, de gegevens van het kind bevat, inclusief tags"
+      ],
+      "Big Button Bar": [
+        "Grote knoppenbalk"
+      ],
+      "Blur": [
+        "Vervagen"
+      ],
+      "Body": [
+        "Lichaam"
+      ],
+      "Body:": [
+        "Lichaam:"
+      ],
+      "Border Bottom": [
+        "Rand onderkant"
+      ],
+      "Border Color": [
+        "Randkleur"
+      ],
+      "Border Left": [
+        "Grens links"
+      ],
+      "Border Right": [
+        "Grens rechts"
+      ],
+      "Border Top": [
+        "Rand bovenaan"
+      ],
+      "Bottom": [
+        "Onderkant"
+      ],
+      "Breakdance > Templates > Edit Template": [
+        "Breakdance > Sjablonen > Sjabloon bewerken"
+      ],
+      "Breakdance Barebones": [
+        "Breakdance-barebones"
+      ],
+      "Breakdance uses OpenAI's GPT-3.5 to rewrite your content. Please install the Breakdance AI plugin to use this feature.": [
+        "Breakdance gebruikt GPT-3.5 van OpenAI om uw inhoud te herschrijven. Installeer de Breakdance AI-plug-in om deze functie te gebruiken."
+      ],
+      "Breakpoint name, ie. iPhone X or tablet": [
+        "Breekpuntnaam, bijv. iPhone X of tablet"
+      ],
+      "Breakpoint options": [
+        "Breekpunt-opties"
+      ],
+      "Breakpoints": [
+        "Breekpunten"
+      ],
+      "browse": [
+        "bladeren"
+      ],
+      "browse...": [
+        "bladeren..."
+      ],
+      "Builder Condition (empty)": [
+        "Bouwerconditie (leeg)"
+      ],
+      "Builder Condition (present)": [
+        "Conditie van bouwer (aanwezig)"
+      ],
+      "Builder Only": [
+        "Alleen bouwer"
+      ],
+      "Building your website...": [
+        "Uw website bouwen..."
+      ],
+      "Business Name": [
+        "Bedrijfsnaam"
+      ],
+      "Button Name": [
+        "Knopnaam"
+      ],
+      "Button Text": [
+        "Knoptekst"
+      ],
+      "Buttons & Forms": [
+        "Knoppen en formulieren"
+      ],
+      "Bypass Pointer Events": [
+        "Aanwijzergebeurtenissen omzeilen"
+      ],
+      "Call to action section on services page": [
+        "Call-to-action-sectie op de servicespagina"
+      ],
+      "Can run Twig and JS code.": [
+        "Kan Twig- en JS-code uitvoeren."
+      ],
+      "Can run Twig and PHP code.": [
+        "Kan Twig- en PHP-code uitvoeren."
+      ],
+      "Cancel": [
+        "Annuleren"
+      ],
+      "Category": [
+        "Categorie"
+      ],
+      "Center": [
+        "Centrum"
+      ],
+      "Center horizontally": [
+        "Horizontaal centreren"
+      ],
+      "Change Icon": [
+        "Pictogram wijzigen"
+      ],
+      "Changing the slug of an existing element will make it obsolete in all pages, everywhere. Continue anyway?": [
+        "Als u de slug van een bestaand element wijzigt, wordt het op alle pagina's en overal overbodig. Toch doorgaan?"
+      ],
+      "Check browser console for debug information.": [
+        "Controleer de browserconsole voor foutopsporingsinformatie."
+      ],
+      "Children of Target": [
+        "Kinderen van Doel"
+      ],
+      "choose": [
+        "kiezen"
+      ],
+      "Choose": [
+        "Kiezen"
+      ],
+      "Choose a %s": [
+        "Kies een %s"
+      ],
+      "Choose a Breakpoint": [
+        "Kies een breekpunt"
+      ],
+      "Choose a column structure": [
+        "Kies een kolomstructuur"
+      ],
+      "Choose a Component": [
+        "Kies een onderdeel"
+      ],
+      "choose a document to edit": [
+        "kies een document om te bewerken"
+      ],
+      "Choose Breakpoints": [
+        "Kies Breekpunten"
+      ],
+      "Choose condition...": [
+        "Kies voorwaarde..."
+      ],
+      "Choose Design Preset": [
+        "Kies Ontwerpvoorinstelling"
+      ],
+      "Choose media": [
+        "Kies medium"
+      ],
+      "Choose one of the options below.": [
+        "Kies een van de onderstaande opties."
+      ],
+      "Choose operand...": [
+        "Kies operand..."
+      ],
+      "Choose post type": [
+        "Kies berichttype"
+      ],
+      "Choose the category that best describes your website.": [
+        "Kies de categorie die uw website het beste beschrijft."
+      ],
+      "Choose the goals that best describe your website.": [
+        "Kies de doelen die uw website het beste beschrijven."
+      ],
+      "Choose the writing style that best describes your website.": [
+        "Kies de schrijfstijl die uw website het beste beschrijft."
+      ],
+      "Choose what to import:": [
+        "Kies wat u wilt importeren:"
+      ],
+      "Class %s": [
+        "Klasse %s"
+      ],
+      "Class Condition Twig Template": [
+        "Klasse conditie takje sjabloon"
+      ],
+      "Class Name": [
+        "Naam van de klas"
+      ],
+      "Classes": [
+        "Klassen"
+      ],
+      "Classes & selectors are only available in %s Pro. They won't work on the frontend.": [
+        "Klassen en selectors zijn alleen beschikbaar in %s Pro. Aan de frontend werken ze niet."
+      ],
+      "Classes are added to the container of the element": [
+        "Klassen worden toegevoegd aan de container van het element"
+      ],
+      "clear": [
+        "duidelijk"
+      ],
+      "Clear": [
+        "Duidelijk"
+      ],
+      "Clear All": [
+        "Alles wissen"
+      ],
+      "Clear Badge": [
+        "Duidelijk kenteken"
+      ],
+      "Clear Search": [
+        "Zoekopdracht wissen"
+      ],
+      "Clear Styles": [
+        "Duidelijke stijlen"
+      ],
+      "Clear Variable": [
+        "Variabele wissen"
+      ],
+      "Click here to edit content": [
+        "Klik hier om de inhoud te bewerken"
+      ],
+      "Click here to set up your API key": [
+        "Klik hier om uw API-sleutel in te stellen"
+      ],
+      "Click IMPORT to set the default properties to the properties of the currently active element. Active element must be a %s.": [
+        "Klik op IMPORTEREN om de standaardeigenschappen in te stellen op de eigenschappen van het momenteel actieve element. Actief element moet een %s zijn."
+      ],
+      "Click on an element in the editor to rewrite it with AI.": [
+        "Klik op een element in de editor om het te herschrijven met AI."
+      ],
+      "Click the Error Details tab above and read the error message. If one is not available, consult your server's error log.": [
+        "Klik op het tabblad Foutdetails hierboven en lees het foutbericht. Als er geen beschikbaar is, raadpleeg dan het foutenlogboek van uw server."
+      ],
+      "Click to set min and max widths.": [
+        "Klik om de minimale en maximale breedte in te stellen."
+      ],
+      "Close": [
+        "Dichtbij"
+      ],
+      "Close %s": [
+        "Sluit %s"
+      ],
+      "Close Element Studio Panel": [
+        "Sluit het Element Studio-paneel"
+      ],
+      "Close modal": [
+        "Sluit modaal"
+      ],
+      "Close Preview": [
+        "Voorbeeld sluiten"
+      ],
+      "CloseIcon": [
+        "SluitenIcoon"
+      ],
+      "Closest Parent": [
+        "Dichtstbijzijnde ouder"
+      ],
+      "Code Help": [
+        "Codehulp"
+      ],
+      "Code input options": [
+        "Opties voor code-invoer"
+      ],
+      "Code was not saved.": [
+        "Code is niet opgeslagen."
+      ],
+      "Collapse": [
+        "Instorten"
+      ],
+      "Collection": [
+        "Verzameling"
+      ],
+      "Color": [
+        "Kleur"
+      ],
+      "Color Picker": [
+        "Kleurkiezer"
+      ],
+      "Color Type": [
+        "Kleurtype"
+      ],
+      "Colors": [
+        "Kleuren"
+      ],
+      "Comments count": [
+        "Opmerkingen tellen"
+      ],
+      "Components must have a single root tag.": [
+        "Componenten moeten één roottag hebben."
+      ],
+      "Conditions": [
+        "Voorwaarden"
+      ],
+      "Confirm": [
+        "Bevestigen"
+      ],
+      "Confirm Overwrite & Import": [
+        "Bevestig overschrijven en importeren"
+      ],
+      "Constrain Preview Size": [
+        "Beperk de voorbeeldgrootte"
+      ],
+      "Consult our %stroubleshooting guide for the \"403\" error code%s which contains information your host can use to whitelist all requests coming from %s.": [
+        "Raadpleeg onze %probleemoplossingsgids voor de \"403\"-foutcode%s, die informatie bevat die uw host kan gebruiken om alle verzoeken afkomstig van %s op de witte lijst te zetten."
+      ],
+      "Consult our %stroubleshooting guide for the \"500\" error code%s": [
+        "Raadpleeg onze %probleemoplossingsgids voor de \"500\" foutcode%s"
+      ],
+      "Contact": [
+        "Contact"
+      ],
+      "Contact your hosting provider with the prewritten email below.": [
+        "Neem contact op met uw hostingprovider via het onderstaande vooraf geschreven e-mailadres."
+      ],
+      "Container": [
+        "Houder"
+      ],
+      "contains": [
+        "bevat"
+      ],
+      "Content": [
+        "Inhoud"
+      ],
+      "Continue": [
+        "Doorgaan"
+      ],
+      "Continue writing": [
+        "Ga door met schrijven"
+      ],
+      "Continue writing the text": [
+        "Ga door met het schrijven van de tekst"
+      ],
+      "Control Label": [
+        "Controlelabel"
+      ],
+      "Control Slider": [
+        "Controle schuifregelaar"
+      ],
+      "Copied!": [
+        "Gekopieerd!"
+      ],
+      "copy": [
+        "kopiëren"
+      ],
+      "Copy": [
+        "Kopiëren"
+      ],
+      "Copy All Elements": [
+        "Kopieer alle elementen"
+      ],
+      "Copy as text": [
+        "Kopieer als tekst"
+      ],
+      "Copy CSS": [
+        "Kopieer CSS"
+      ],
+      "Copy SVG": [
+        "Kopieer SVG"
+      ],
+      "Copy the active element": [
+        "Kopieer het actieve element"
+      ],
+      "Copy to clipboard": [
+        "Kopiëren naar klembord"
+      ],
+      "Copy URL": [
+        "Kopieer URL"
+      ],
+      "Corners": [
+        "Hoeken"
+      ],
+      "Correct grammar": [
+        "Correcte grammatica"
+      ],
+      "Correct the grammar of the text": [
+        "Corrigeer de grammatica van de tekst"
+      ],
+      "Could not load media data.": [
+        "Kan mediagegevens niet laden."
+      ],
+      "Couldn't import site, something went wrong": [
+        "Kan site niet importeren, er is iets misgegaan"
+      ],
+      "Couldn't load blocks data": [
+        "Kan blokgegevens niet laden"
+      ],
+      "Couldn't load Global Blocks data": [
+        "Kan Global Blocks-gegevens niet laden"
+      ],
+      "Couldn't load templates data": [
+        "Kan sjabloongegevens niet laden"
+      ],
+      "Couldn't recreate the cache for post \"%s\". Please re-save that post manually.": [
+        "Kan de cache voor bericht \"%s\" niet opnieuw aanmaken. Sla dat bericht handmatig opnieuw op."
+      ],
+      "Create": [
+        "Creëren"
+      ],
+      "Create %s": [
+        "Maak %s aan"
+      ],
+      "Create %s preset": [
+        "Maak %s voorinstelling"
+      ],
+      "Create a new, original piece of text that complements and enhances the existing material.": [
+        "Creëer een nieuw, origineel stuk tekst dat het bestaande materiaal aanvult en verbetert."
+      ],
+      "Create and manage variables in the": [
+        "Maak en beheer variabelen in de"
+      ],
+      "Create Design Preset": [
+        "Ontwerpvoorinstelling maken"
+      ],
+      "Create new %s": [
+        "Maak nieuwe %s"
+      ],
+      "Create Post": [
+        "Bericht maken"
+      ],
+      "Create preset from design": [
+        "Voorinstelling maken op basis van ontwerp"
+      ],
+      "Create Selector": [
+        "Selector maken"
+      ],
+      "Created: Newest first": [
+        "Gemaakt: Nieuwste eerst"
+      ],
+      "Created: Oldest first": [
+        "Gemaakt: Oudste eerst"
+      ],
+      "CSS": [
+        "CSS"
+      ],
+      "CSS Selector": [
+        "CSS-kiezer"
+      ],
+      "CSS URL": [
+        "CSS-URL"
+      ],
+      "Current": [
+        "Huidig"
+      ],
+      "Current Default Properties": [
+        "Huidige standaardeigenschappen"
+      ],
+      "Custom": [
+        "Aangepast"
+      ],
+      "Custom Elements": [
+        "Aangepaste elementen"
+      ],
+      "Custom font name, ie. Helvetica": [
+        "Aangepaste lettertypenaam, dwz. Helvetica"
+      ],
+      "Custom Fonts": [
+        "Aangepaste lettertypen"
+      ],
+      "Custom width (px)": [
+        "Aangepaste breedte (px)"
+      ],
+      "Custom: %s": [
+        "Douane"
+      ],
+      "Custom...": [
+        "Aangepast..."
+      ],
+      "cut": [
+        "snee"
+      ],
+      "Cycle to the next breakpoint": [
+        "Fiets naar het volgende breekpunt"
+      ],
+      "Dark Mode": [
+        "Donkere modus"
+      ],
+      "Dashboard": [
+        "Dashboard"
+      ],
+      "Date": [
+        "Datum"
+      ],
+      "Date picker options": [
+        "Opties voor datumkiezer"
+      ],
+      "De-activate the active element or close modal": [
+        "Deactiveer het actieve element of sluit modal"
+      ],
+      "Decides if the dependencies are added to the builder": [
+        "Bepaalt of de afhankelijkheden worden toegevoegd aan de builder"
+      ],
+      "Decides if the dependencies are added to the frontend": [
+        "Bepaalt of de afhankelijkheden aan de frontend worden toegevoegd"
+      ],
+      "Decoration": [
+        "Decoratie"
+      ],
+      "Default": [
+        "Standaard"
+      ],
+      "Default Children": [
+        "Standaard kinderen"
+      ],
+      "Default CSS": [
+        "Standaard CSS"
+      ],
+      "Default Element": [
+        "Standaardelement"
+      ],
+      "Default Elements": [
+        "Standaardelementen"
+      ],
+      "Default Preview Width": [
+        "Standaard voorbeeldbreedte"
+      ],
+      "Default Properties": [
+        "Standaardeigenschappen"
+      ],
+      "Default Tag": [
+        "Standaardtag"
+      ],
+      "Default Title": [
+        "Standaardtitel"
+      ],
+      "Default Type": [
+        "Standaardtype"
+      ],
+      "Default Unit Type": [
+        "Standaard eenheidstype"
+      ],
+      "Defaults to \"Add Item\".": [
+        "Standaard ingesteld op \"Item toevoegen\"."
+      ],
+      "Delete": [
+        "Verwijderen"
+      ],
+      "Delete active element": [
+        "Actief element verwijderen"
+      ],
+      "Delete nested selector permanently?": [
+        "Geneste selector permanent verwijderen?"
+      ],
+      "Delete permanently": [
+        "Permanent verwijderen"
+      ],
+      "Delete selector permanently?": [
+        "Selector definitief verwijderen?"
+      ],
+      "Delete?": [
+        "Verwijderen?"
+      ],
+      "Deleted": [
+        "Verwijderd"
+      ],
+      "Dependencies": [
+        "Afhankelijkheden"
+      ],
+      "Dependency": [
+        "Afhankelijkheid"
+      ],
+      "Descending": [
+        "Aflopend"
+      ],
+      "Describe This Section": [
+        "Beschrijf deze sectie"
+      ],
+      "Describe Your Business": [
+        "Beschrijf uw bedrijf"
+      ],
+      "Describe your website in a sentence or two": [
+        "Beschrijf uw website in een of twee zinnen"
+      ],
+      "Description": [
+        "Beschrijving"
+      ],
+      "Design": [
+        "Ontwerp"
+      ],
+      "Design Library": [
+        "Ontwerpbibliotheek"
+      ],
+      "Design Presets": [
+        "Ontwerpvoorinstellingen"
+      ],
+      "Design Presets are only available in %s Pro. They won't work on the frontend.": [
+        "Ontwerpvoorinstellingen zijn alleen beschikbaar in %s Pro. Aan de frontend werken ze niet."
+      ],
+      "Design Set": [
+        "Ontwerpset"
+      ],
+      "Design Set:": [
+        "Ontwerpset:"
+      ],
+      "Design Template": [
+        "Ontwerpsjabloon"
+      ],
+      "Detach": [
+        "Losmaken"
+      ],
+      "Detach Styles": [
+        "Stijlen losmaken"
+      ],
+      "Details & Troubleshooting": [
+        "Details en probleemoplossing"
+      ],
+      "Dimensions": [
+        "Afmetingen"
+      ],
+      "Direction": [
+        "Richting"
+      ],
+      "Disable AI": [
+        "Schakel AI uit"
+      ],
+      "Disable At": [
+        "Uitschakelen bij"
+      ],
+      "Disable Autoplay": [
+        "Schakel automatisch afspelen uit"
+      ],
+      "Disable Code Editor Line Wrapping": [
+        "Regelterugloop in de Code-editor uitschakelen"
+      ],
+      "Disable Custom Unit Dropdown": [
+        "Schakel de vervolgkeuzelijst Aangepaste eenheden uit"
+      ],
+      "Disable In FutureLayer": [
+        "Uitschakelen in FutureLayer"
+      ],
+      "Disable Message For Empty SSR Elements": [
+        "Bericht uitschakelen voor lege SSR-elementen"
+      ],
+      "Disable Type Safety:": [
+        "Typeveiligheid uitschakelen:"
+      ],
+      "Disable Wrapper HTML Tag (frontend-only)": [
+        "Wrapper HTML-tag uitschakelen (alleen frontend)"
+      ],
+      "Disallow if others are present": [
+        "Niet toestaan ​​als er anderen aanwezig zijn"
+      ],
+      "Discard": [
+        "Weggooien"
+      ],
+      "Discard my changes": [
+        "Gooi mijn wijzigingen weg"
+      ],
+      "Div": [
+        "Afd"
+      ],
+      "Do not show this popup if any other popup has already shown": [
+        "Laat deze pop-up niet zien als er al een andere pop-up is weergegeven"
+      ],
+      "documentation": [
+        "documentatie"
+      ],
+      "Documentation": [
+        "Documentatie"
+      ],
+      "does not contain": [
+        "bevat niet"
+      ],
+      "Don't add srcset attribute to the Image object": [
+        "Voeg geen srcset-kenmerk toe aan het Image-object"
+      ],
+      "Download": [
+        "Downloaden"
+      ],
+      "drag .woff or .woff2 files or": [
+        "sleep .woff- of .woff2-bestanden of"
+      ],
+      "Drag %s.json here": [
+        "Sleep %s.json hierheen"
+      ],
+      "Drag element": [
+        "Sleepelement"
+      ],
+      "Drag SVGs or an IcoMoon symbol-defs.svg file here or click to choose a file": [
+        "Sleep SVG's of een IcoMoon symbol-defs.svg-bestand hierheen of klik om een ​​bestand te kiezen"
+      ],
+      "Drag to reorder": [
+        "Sleep om de volgorde te wijzigen"
+      ],
+      "Dropdown items": [
+        "Dropdown-items"
+      ],
+      "Dropdown options": [
+        "Dropdown-opties"
+      ],
+      "dump search results": [
+        "zoekresultaten dumpen"
+      ],
+      "Duplicate": [
+        "Duplicaat"
+      ],
+      "Duplicate the active element": [
+        "Dupliceer het actieve element"
+      ],
+      "Duplicating template \"%s\" failed": [
+        "Het dupliceren van sjabloon \"%s\" is mislukt"
+      ],
+      "Dynamic Behavior Works": [
+        "Dynamisch gedrag werkt"
+      ],
+      "Dynamic Behavior Works:": [
+        "Dynamisch gedrag werkt:"
+      ],
+      "Dynamic Property": [
+        "Dynamische eigenschap"
+      ],
+      "Dynamic Property Path": [
+        "Dynamisch eigendomspad"
+      ],
+      "Dynamic Property Paths (deprecated)": [
+        "Dynamische eigenschapspaden (verouderd)"
+      ],
+      "Dynamic Property Type": [
+        "Dynamisch eigendomstype"
+      ],
+      "Edit": [
+        "Bewerking"
+      ],
+      "Edit anyway": [
+        "Hoe dan ook bewerken"
+      ],
+      "Edit Anyway": [
+        "Hoe dan ook bewerken"
+      ],
+      "Edit Component": [
+        "Component bewerken"
+      ],
+      "Edit Conditions": [
+        "Voorwaarden bewerken"
+      ],
+      "Edit in %s": [
+        "Bewerken in %s"
+      ],
+      "Edit in Builder": [
+        "Bewerken in Bouwer"
+      ],
+      "Edit Link": [
+        "Link bewerken"
+      ],
+      "Edit Query": [
+        "Zoekopdracht bewerken"
+      ],
+      "Edit Settings": [
+        "Instellingen bewerken"
+      ],
+      "Edit Template": [
+        "Sjabloon bewerken"
+      ],
+      "Edit the template anyway - this is not an error.": [
+        "Bewerk de sjabloon toch. Dit is geen fout."
+      ],
+      "editing hover style": [
+        "hoverstijl bewerken"
+      ],
+      "Editing Preset": [
+        "Voorinstelling bewerken"
+      ],
+      "Editing Selector": [
+        "Selectie bewerken"
+      ],
+      "Element": [
+        "Element"
+      ],
+      "Element activated": [
+        "Element geactiveerd"
+      ],
+      "Element depends on global scripts to work": [
+        "Element is afhankelijk van de werking van globale scripts"
+      ],
+      "Element Properties": [
+        "Elementeigenschappen"
+      ],
+      "Element Studio": [
+        "Elementstudio"
+      ],
+      "Element Studio is for developers and is provided as-is.": [
+        "Element Studio is bedoeld voor ontwikkelaars en wordt geleverd zoals het is."
+      ],
+      "Element that will be automatically added inside this current element": [
+        "Element dat automatisch wordt toegevoegd binnen dit huidige element"
+      ],
+      "Element to be a descendant of": [
+        "Element waar een afstammeling van moet zijn"
+      ],
+      "Element to be a direct child of": [
+        "Element om een ​​direct kind van te zijn"
+      ],
+      "Element Type": [
+        "Elementtype"
+      ],
+      "Element's class:": [
+        "Elementklasse:"
+      ],
+      "Elements": [
+        "Elementen"
+      ],
+      "Email": [
+        "E-mail"
+      ],
+      "Embedding...": [
+        "Insluiten..."
+      ],
+      "Empty Trash": [
+        "Prullenbak legen"
+      ],
+      "Enable dynamic property": [
+        "Schakel dynamische eigenschap in"
+      ],
+      "Enable gallery mode": [
+        "Schakel de galerijmodus in"
+      ],
+      "Enable Grid Mode": [
+        "Schakel Rastermodus in"
+      ],
+      "Enable Hover": [
+        "Schakel Hover in"
+      ],
+      "Enable Media Queries": [
+        "Schakel mediaquery's in"
+      ],
+      "Enable Never": [
+        "Schakel Nooit in"
+      ],
+      "Enable Paste": [
+        "Plakken inschakelen"
+      ],
+      "Enable spacing bars": [
+        "Schakel afstandsbalken in"
+      ],
+      "Enable variables": [
+        "Schakel variabelen in"
+      ],
+      "Enable Variables": [
+        "Variabelen inschakelen"
+      ],
+      "Enter a name": [
+        "Voer een naam in"
+      ],
+      "Enter name": [
+        "Voer naam in"
+      ],
+      "Enter Password": [
+        "Voer wachtwoord in"
+      ],
+      "Environment & details": [
+        "Omgeving & details"
+      ],
+      "equals": [
+        "gelijk aan"
+      ],
+      "Error Code: %s": [
+        "Foutcode: %s"
+      ],
+      "Error Details": [
+        "Foutdetails"
+      ],
+      "Error importing %s for \"%s\"": [
+        "Fout bij het importeren van %s voor \"%s\""
+      ],
+      "Error importing %s.": [
+        "Fout bij het importeren van %s."
+      ],
+      "Error importing Design Presets for \"%s\"": [
+        "Fout bij het importeren van ontwerpvoorinstellingen voor '%s'"
+      ],
+      "Error importing Selectors - the file is empty.": [
+        "Fout bij importeren van selectors: het bestand is leeg."
+      ],
+      "Error importing Selectors - the file is invalid.": [
+        "Fout bij importeren van selectors: het bestand is ongeldig."
+      ],
+      "Error importing Variables - the file is invalid or empty.": [
+        "Fout bij importeren van variabelen: het bestand is ongeldig of leeg."
+      ],
+      "Error importing Variables - the file is invalid.": [
+        "Fout bij importeren van variabelen - het bestand is ongeldig."
+      ],
+      "Error saving new space bar, please fill out all fields": [
+        "Fout bij het opslaan van de nieuwe spatiebalk. Vul alle velden in"
+      ],
+      "Error trashing existing Templates, Headers, Footers, %s, and Popups.": [
+        "Fout bij het weggooien van bestaande sjablonen, kopteksten, voetteksten, %s en pop-ups."
+      ],
+      "error: failed to load elements": [
+        "fout: kon elementen niet laden"
+      ],
+      "Error: no registered saving locations. Using the %s plugin will automatically register a saving location.": [
+        "Fout: geen geregistreerde opslaglocaties. Als u de %s -plug-in gebruikt, wordt automatisch een opslaglocatie geregistreerd."
+      ],
+      "Everywhere": [
+        "Overal"
+      ],
+      "Example:\nShorten the following text": [
+        "Voorbeeld:\nKort de volgende tekst in"
+      ],
+      "Examples:": [
+        "Voorbeelden:"
+      ],
+      "Execute code": [
+        "Code uitvoeren"
+      ],
+      "Existing Classes": [
+        "Bestaande klassen"
+      ],
+      "Exit": [
+        "Uitgang"
+      ],
+      "Exit to Frontend": [
+        "Afsluiten naar Frontend"
+      ],
+      "Exit to WordPress": [
+        "Sluit af naar WordPress"
+      ],
+      "Expand": [
+        "Uitbreiden"
+      ],
+      "Experimental Element?": [
+        "Experimenteel element?"
+      ],
+      "Experimental: Show Previous Breakpoint Value As Placeholder": [
+        "Experimenteel: Vorige breekpuntwaarde weergeven als tijdelijke aanduiding"
+      ],
+      "Export": [
+        "Exporteren"
+      ],
+      "Export %s": [
+        "Exporteer %s"
+      ],
+      "External conditions can't be edited": [
+        "Externe voorwaarden kunnen niet worden bewerkt"
+      ],
+      "Failed to delete element": [
+        "Kan element niet verwijderen"
+      ],
+      "Failed to export icon set.": [
+        "Kan de pictogramset niet exporteren."
+      ],
+      "Failed to get a response from OpenAI API, please try again.": [
+        "Er is geen reactie ontvangen van de OpenAI API. Probeer het opnieuw."
+      ],
+      "Failed to get Unsplash keywords from OpenAI API.": [
+        "Kan Unsplash-trefwoorden niet ophalen uit de OpenAI API."
+      ],
+      "Failed to import all %s.": [
+        "Het importeren van alle %s is mislukt."
+      ],
+      "Failed to load necessary post types for the Wp Query control": [
+        "Kan de benodigde berichttypen voor het Wp Query-besturingselement niet laden"
+      ],
+      "Failed to save element, check console": [
+        "Kan het element niet opslaan. Controleer de console"
+      ],
+      "Fallback": [
+        "Terugval"
+      ],
+      "Fetch context path": [
+        "Contextpad ophalen"
+      ],
+      "Fetch data action route name": [
+        "Routenaam van gegevensactie ophalen"
+      ],
+      "Fetch images from Unsplash to use in your content, they are automatically added to Image elements in the selected section.": [
+        "Haal afbeeldingen op van Unsplash om in uw inhoud te gebruiken. Ze worden automatisch toegevoegd aan afbeeldingselementen in de geselecteerde sectie."
+      ],
+      "Field": [
+        "Veld"
+      ],
+      "Field's Value": [
+        "Veldwaarde"
+      ],
+      "File accepted": [
+        "Bestand geaccepteerd"
+      ],
+      "File:": [
+        "Bestand:"
+      ],
+      "Fill Empty Images Only": [
+        "Vul alleen lege afbeeldingen in"
+      ],
+      "Filter by type": [
+        "Filter op type"
+      ],
+      "Filtering": [
+        "Filteren"
+      ],
+      "Finished recreating all posts cache": [
+        "Het opnieuw aanmaken van de cache van alle berichten is voltooid"
+      ],
+      "Focus Point Options": [
+        "Focuspuntopties"
+      ],
+      "Focus the properties search box and toggle the option to search advanced settings (element properties panel only).": [
+        "Focus op het zoekvak voor eigenschappen en schakel de optie in om naar geavanceerde instellingen te zoeken (alleen paneel met elementeigenschappen)."
+      ],
+      "Focus the properties search box.": [
+        "Focus op het zoekvak voor eigenschappen."
+      ],
+      "Font Family": [
+        "Lettertypefamilie"
+      ],
+      "Font Size": [
+        "Lettergrootte"
+      ],
+      "Font Weight": [
+        "Lettertype gewicht"
+      ],
+      "Footer": [
+        "Voettekst"
+      ],
+      "Footers": [
+        "Voetteksten"
+      ],
+      "Forever": [
+        "Voor altijd"
+      ],
+      "Format Code (%s)": [
+        "Formaatcode (%s)"
+      ],
+      "from %s to %s": [
+        "van %s tot %s"
+      ],
+      "Frontend Condition (empty)": [
+        "Frontend-voorwaarde (leeg)"
+      ],
+      "Frontend Condition (present)": [
+        "Frontendconditie (aanwezig)"
+      ],
+      "Full": [
+        "Vol"
+      ],
+      "Gallery Media Path": [
+        "Galerij mediapad"
+      ],
+      "Generate example": [
+        "Voorbeeld genereren"
+      ],
+      "Generating your sitemap...": [
+        "Uw sitemap genereren..."
+      ],
+      "Get %s Pro to get access to all popup triggers.": [
+        "Koop %s Pro om toegang te krijgen tot alle pop-uptriggers."
+      ],
+      "Get %s Pro to get access to all the conditions.": [
+        "Koop %s Pro om toegang te krijgen tot alle voorwaarden."
+      ],
+      "Get Pro": [
+        "Koop Pro"
+      ],
+      "Get the Tag from a Control's path": [
+        "Haal de tag uit het pad van een controle"
+      ],
+      "Getting Posts IDs to import": [
+        "Bericht-ID's ophalen om te importeren"
+      ],
+      "Getting template IDs to import": [
+        "Sjabloon-ID's ophalen om te importeren"
+      ],
+      "Global Settings": [
+        "Algemene instellingen"
+      ],
+      "Globals": [
+        "Globalen"
+      ],
+      "Go back": [
+        "Ga terug"
+      ],
+      "Go home": [
+        "Ga naar huis"
+      ],
+      "Go To Slide": [
+        "Ga naar dia"
+      ],
+      "Go to the parent of the active element": [
+        "Ga naar het bovenliggende element van het actieve element"
+      ],
+      "Gradient Only": [
+        "Alleen verloop"
+      ],
+      "Hang tight...": [
+        "Houd je vast..."
+      ],
+      "Hardcode a value:": [
+        "Een waarde hardcoderen:"
+      ],
+      "Has Dynamic Stuff": [
+        "Heeft dynamische dingen"
+      ],
+      "Header": [
+        "Koptekst"
+      ],
+      "Headers": [
+        "Kopteksten"
+      ],
+      "Headings": [
+        "Koppen"
+      ],
+      "Height": [
+        "Hoogte"
+      ],
+      "Here's what happened:": [
+        "Dit is wat er gebeurde:"
+      ],
+      "Hi Hosting Provider Support,": [
+        "Hallo hostingproviderondersteuning,"
+      ],
+      "Hide Control From Specific Elements": [
+        "Verberg de bediening voor specifieke elementen"
+      ],
+      "Hide Feedback": [
+        "Feedback verbergen"
+      ],
+      "history": [
+        "geschiedenis"
+      ],
+      "History": [
+        "Geschiedenis"
+      ],
+      "History & Revisions": [
+        "Geschiedenis en herzieningen"
+      ],
+      "Homepage hero section": [
+        "Hero-sectie op de startpagina"
+      ],
+      "How can we improve this experience?": [
+        "Hoe kunnen we deze ervaring verbeteren?"
+      ],
+      "How would you like to get started?": [
+        "Hoe zou jij willen beginnen?"
+      ],
+      "HTML": [
+        "HTML"
+      ],
+      "HTML Attribute": [
+        "HTML-kenmerk"
+      ],
+      "HTML Attributes": [
+        "HTML-attributen"
+      ],
+      "HTML Tag options": [
+        "HTML-tagopties"
+      ],
+      "I'll save them": [
+        "Ik zal ze redden"
+      ],
+      "Icon": [
+        "Icon"
+      ],
+      "Icon Library": [
+        "Pictogrambibliotheek"
+      ],
+      "Icon Options": [
+        "Pictogram Opties"
+      ],
+      "ID": [
+        "Identiteitskaart"
+      ],
+      "ID %s": [
+        "ID %s"
+      ],
+      "ie. ACME Studios": [
+        "d.w.z. ACME-studio's"
+      ],
+      "If": [
+        "Als"
+      ],
+      "If any code is present and the result returns a %s value the dependencies will be added.": [
+        "Als er code aanwezig is en het resultaat een %s -waarde retourneert, worden de afhankelijkheden toegevoegd."
+      ],
+      "If it returns %s no dependencies are added.": [
+        "Als het %s retourneert, worden er geen afhankelijkheden toegevoegd."
+      ],
+      "If this isn't something you can fix, please send me the full text of the error from the relevant error log file.": [
+        "Als u dit niet kunt oplossen, stuur mij dan de volledige tekst van de fout uit het relevante foutenlogbestand."
+      ],
+      "Ignore current post": [
+        "Negeer huidige bericht"
+      ],
+      "Ignore sticky posts": [
+        "Negeer sticky berichten"
+      ],
+      "Image": [
+        "Afbeelding"
+      ],
+      "Image Path": [
+        "Afbeeldingspad"
+      ],
+      "Import": [
+        "Importeren"
+      ],
+      "Import all children of the currently active element": [
+        "Importeer alle onderliggende elementen van het momenteel actieve element"
+      ],
+      "Import Children": [
+        "Kinderen importeren"
+      ],
+      "Import Design Presets": [
+        "Ontwerpvoorinstellingen importeren"
+      ],
+      "Import Images From Unsplash": [
+        "Afbeeldingen importeren uit Unsplash"
+      ],
+      "Import Page": [
+        "Pagina importeren"
+      ],
+      "Import Settings": [
+        "Instellingen importeren"
+      ],
+      "Imported %s from \"%s\"": [
+        "%s geïmporteerd uit \"%s\""
+      ],
+      "Imported Design Presets from \"%s\"": [
+        "Geïmporteerde ontwerpvoorinstellingen van \"%s\""
+      ],
+      "Importing %s.": [
+        "%s importeren."
+      ],
+      "Importing a full site will replace your site's": [
+        "Als u een volledige site importeert, wordt die van uw site vervangen"
+      ],
+      "Importing all post and pages": [
+        "Alle berichten en pagina's importeren"
+      ],
+      "Importing Design Presets": [
+        "Ontwerpvoorinstellingen importeren"
+      ],
+      "Importing from this design set will replace some of your current settings.": [
+        "Als u uit deze ontwerpset importeert, worden enkele van uw huidige instellingen vervangen."
+      ],
+      "Importing Global Settings": [
+        "Algemene instellingen importeren"
+      ],
+      "Importing homepage id": [
+        "Homepage-ID importeren"
+      ],
+      "Importing Oxy Selectors": [
+        "Oxy-selectors importeren"
+      ],
+      "Importing template with ID \"%s\"": [
+        "Sjabloon importeren met ID \"%s\""
+      ],
+      "Importing the \"%s\" site": [
+        "Importeren van de \"%s\"-site"
+      ],
+      "Importing the data": [
+        "Het importeren van de gegevens"
+      ],
+      "Importing Variables": [
+        "Variabelen importeren"
+      ],
+      "in": [
+        "in"
+      ],
+      "Include": [
+        "Erbij betrekken"
+      ],
+      "Include by": [
+        "Inclusief door"
+      ],
+      "Include Custom Breakpoints in Breakpoint Dropdowns": [
+        "Neem aangepaste breekpunten op in de vervolgkeuzelijsten voor breekpunten"
+      ],
+      "Include Settings": [
+        "Inclusief instellingen"
+      ],
+      "Initial State": [
+        "Oorspronkelijke staat"
+      ],
+      "Inline Editable": [
+        "Inline bewerkbaar"
+      ],
+      "Inline Editable Block Path": [
+        "Inline bewerkbaar blokpad"
+      ],
+      "Inline Scripts (%s)": [
+        "Inline-scripts (%s)"
+      ],
+      "Inline Styles (%s)": [
+        "Inlinestijlen (%s)"
+      ],
+      "Input": [
+        "Invoer"
+      ],
+      "Insert": [
+        "Invoegen"
+      ],
+      "Insert Dynamic Data": [
+        "Dynamische gegevens invoegen"
+      ],
+      "Install now": [
+        "Installeer nu"
+      ],
+      "Install Now": [
+        "Installeer nu"
+      ],
+      "Interaction": [
+        "Interactie"
+      ],
+      "Interactions": [
+        "Interacties"
+      ],
+      "Internal Element Project Management Tool": [
+        "Projectmanagementtool voor interne elementen"
+      ],
+      "Internal Server Error": [
+        "Interne serverfout"
+      ],
+      "Invalid class name": [
+        "Ongeldige klassenaam"
+      ],
+      "Invalid password. Please try again.": [
+        "Ongeldig wachtwoord. Probeer het opnieuw."
+      ],
+      "Invalid post": [
+        "Ongeldig bericht"
+      ],
+      "invalid selector name": [
+        "ongeldige selectornaam"
+      ],
+      "is after": [
+        "is na"
+      ],
+      "is before": [
+        "is vóór"
+      ],
+      "is greater than": [
+        "is groter dan"
+      ],
+      "is less than": [
+        "is minder dan"
+      ],
+      "is none of": [
+        "is geen van"
+      ],
+      "is not set": [
+        "is niet ingesteld"
+      ],
+      "is one of": [
+        "is er één van"
+      ],
+      "Is Pro Only": [
+        "Is alleen Pro"
+      ],
+      "is set": [
+        "is ingesteld"
+      ],
+      "It can also be caused by misconfigured security plugins (if you're using Wordfence, put it into learning mode)": [
+        "Het kan ook worden veroorzaakt door verkeerd geconfigureerde beveiligingsplug-ins (als u Wordfence gebruikt, zet deze dan in de leermodus)"
+      ],
+      "Italic": [
+        "Cursief"
+      ],
+      "Item": [
+        "Item"
+      ],
+      "JavaScript": [
+        "JavaScript"
+      ],
+      "Keywords": [
+        "Trefwoorden"
+      ],
+      "Label": [
+        "Label"
+      ],
+      "Landscape": [
+        "Landschap"
+      ],
+      "Last edited: Newest first": [
+        "Laatst gewijzigd: Nieuwste eerst"
+      ],
+      "Last edited: Oldest first": [
+        "Laatst gewijzigd: Oudste eerst"
+      ],
+      "Last modified date": [
+        "Datum laatste wijziging"
+      ],
+      "Layout": [
+        "Indeling"
+      ],
+      "Leave Feedback": [
+        "Laat feedback achter"
+      ],
+      "left": [
+        "links"
+      ],
+      "Left": [
+        "Links"
+      ],
+      "Let's get started": [
+        "Laten we beginnen"
+      ],
+      "Letter Spacing": [
+        "Letterafstand"
+      ],
+      "Library": [
+        "Bibliotheek"
+      ],
+      "Lightbox": [
+        "Lichtbak"
+      ],
+      "Limit how often this popup shows": [
+        "Beperk hoe vaak deze pop-up wordt weergegeven"
+      ],
+      "Line": [
+        "Lijn"
+      ],
+      "Line Height": [
+        "Lijn hoogte"
+      ],
+      "Line Height (deprecated)": [
+        "Lijnhoogte (verouderd)"
+      ],
+      "Linear": [
+        "Lineair"
+      ],
+      "Link": [
+        "Link"
+      ],
+      "Live Preview": [
+        "Live voorbeeld"
+      ],
+      "Live preview changes": [
+        "Wijzigingen in livevoorbeelden"
+      ],
+      "Loading...": [
+        "Laden..."
+      ],
+      "Local": [
+        "Lokaal"
+      ],
+      "Location": [
+        "Locatie"
+      ],
+      "Location is required": [
+        "Locatie is vereist"
+      ],
+      "Lock": [
+        "Slot"
+      ],
+      "Lock all": [
+        "Vergrendel alles"
+      ],
+      "Login": [
+        "Login"
+      ],
+      "Looking for inspiration?": [
+        "Op zoek naar inspiratie?"
+      ],
+      "Looks Good": [
+        "Ziet er goed uit"
+      ],
+      "Looks Good:": [
+        "Ziet er goed uit:"
+      ],
+      "Macro": [
+        "Macro"
+      ],
+      "Macros": [
+        "Macro's"
+      ],
+      "Make all control values in this section available in all breakpoints": [
+        "Maak alle controlewaarden in deze sectie beschikbaar in alle breekpunten"
+      ],
+      "Make dynamic data Pro only": [
+        "Maak dynamische gegevens alleen Pro"
+      ],
+      "Make into a macro": [
+        "Maak er een macro van"
+      ],
+      "Make into a Preset": [
+        "Maak er een voorinstelling van"
+      ],
+      "Make modal full screen": [
+        "Maak modaal volledig scherm"
+      ],
+      "Make the element SSR when any child control value changes": [
+        "Maak het element SSR wanneer een onderliggende controlewaarde verandert"
+      ],
+      "Make the element SSR when this control's value changes": [
+        "Maak het element SSR wanneer de waarde van dit besturingselement verandert"
+      ],
+      "Make the text more formal": [
+        "Maak de tekst formeler"
+      ],
+      "Make the text more interesting": [
+        "Maak de tekst interessanter"
+      ],
+      "Make this control's value available in all breakpoints": [
+        "Maak de waarde van dit besturingselement beschikbaar in alle breekpunten"
+      ],
+      "Manage Presets": [
+        "Beheer voorinstellingen"
+      ],
+      "Managing custom fonts is only available in %s Pro": [
+        "Het beheren van aangepaste lettertypen is alleen beschikbaar in %s Pro"
+      ],
+      "Margin": [
+        "Marge"
+      ],
+      "Match": [
+        "Overeenkomst"
+      ],
+      "Max (Integer)": [
+        "Maximaal (geheel getal)"
+      ],
+      "Maximum width (px)": [
+        "Maximale breedte (px)"
+      ],
+      "Media Size Options": [
+        "Opties voor mediaformaat"
+      ],
+      "Mention apples, oranges, and bananas": [
+        "Noem appels, sinaasappels en bananen"
+      ],
+      "Menu": [
+        "Menu"
+      ],
+      "Menu order": [
+        "Menuvolgorde"
+      ],
+      "Merge with the existing %s.": [
+        "Samenvoegen met de bestaande %s."
+      ],
+      "Message": [
+        "Bericht"
+      ],
+      "Meta Box": [
+        "Meta-box"
+      ],
+      "Meta Query": [
+        "Metaquery"
+      ],
+      "Min (Integer)": [
+        "Min (geheel getal)"
+      ],
+      "Minimum width (px)": [
+        "Minimale breedte (px)"
+      ],
+      "Misc options": [
+        "Diverse opties"
+      ],
+      "Misc Options": [
+        "Diverse opties"
+      ],
+      "Missing badge label": [
+        "Ontbrekend badgelabel"
+      ],
+      "Modified": [
+        "Gewijzigd"
+      ],
+      "More formal": [
+        "Meer formeel"
+      ],
+      "More interesting": [
+        "Interessanter"
+      ],
+      "Multiline": [
+        "Meerdere regels"
+      ],
+      "Multiline Bar": [
+        "Meerlijnige balk"
+      ],
+      "Multiple": [
+        "Meerdere"
+      ],
+      "Name": [
+        "Naam"
+      ],
+      "Name is already in use": [
+        "Naam is al in gebruik"
+      ],
+      "Name must be 1 character or more": [
+        "Naam moet 1 teken of meer bevatten"
+      ],
+      "Nested Selectors": [
+        "Geneste kiezers"
+      ],
+      "Nesting rules": [
+        "Regels voor nesten"
+      ],
+      "Never": [
+        "Nooit"
+      ],
+      "New Control": [
+        "Nieuwe controle"
+      ],
+      "New Section": [
+        "Nieuwe sectie"
+      ],
+      "Next": [
+        "Volgende"
+      ],
+      "Next Slide": [
+        "Volgende dia"
+      ],
+      "Next Steps": [
+        "Volgende stappen"
+      ],
+      "No %s found :(": [
+        "Geen %s gevonden :("
+      ],
+      "No ACF fields found": [
+        "Geen ACF-velden gevonden"
+      ],
+      "No Active Element": [
+        "Geen actief element"
+      ],
+      "No available extra elements.": [
+        "Geen beschikbare extra elementen."
+      ],
+      "No Available Label": [
+        "Geen beschikbaar etiket"
+      ],
+      "No code help available for %s control type": [
+        "Er is geen codehulp beschikbaar voor %s controletype"
+      ],
+      "No conditions yet.": [
+        "Nog geen voorwaarden."
+      ],
+      "No data available": [
+        "Geen gegevens beschikbaar"
+      ],
+      "No data. Select a path first": [
+        "Geen gegevens. Selecteer eerst een pad"
+      ],
+      "No Elements": [
+        "Geen elementen"
+      ],
+      "No elements were returned from OpenAI API.": [
+        "Er zijn geen elementen geretourneerd uit de OpenAI API."
+      ],
+      "No fields were found matching the criteria.": [
+        "Er zijn geen velden gevonden die aan de criteria voldoen."
+      ],
+      "No icons found.": [
+        "Geen iconen gevonden."
+      ],
+      "No image chosen": [
+        "Geen afbeelding gekozen"
+      ],
+      "No images found in this section": [
+        "Er zijn geen afbeeldingen gevonden in deze sectie"
+      ],
+      "No images found. Please try again with different keywords.": [
+        "Geen afbeeldingen gevonden. Probeer het opnieuw met andere zoekwoorden."
+      ],
+      "No images to complete. Please add an image to the section first.": [
+        "Geen afbeeldingen om te voltooien. Voeg eerst een afbeelding toe aan de sectie."
+      ],
+      "No items found": [
+        "Geen artikelen gevonden"
+      ],
+      "No match found": [
+        "Geen overeenkomst gevonden"
+      ],
+      "No matching variables found.": [
+        "Geen overeenkomende variabelen gevonden."
+      ],
+      "No Meta Box fields found": [
+        "Geen Meta Box-velden gevonden"
+      ],
+      "No presets available": [
+        "Geen voorinstellingen beschikbaar"
+      ],
+      "No relationship fields found": [
+        "Geen relatievelden gevonden"
+      ],
+      "No repeaters present": [
+        "Geen repeaters aanwezig"
+      ],
+      "No response was returned from OpenAI API.": [
+        "Er is geen reactie geretourneerd van de OpenAI API."
+      ],
+      "no results": [
+        "geen resultaten"
+      ],
+      "No results apply to this template": [
+        "Er zijn geen resultaten van toepassing op deze sjabloon"
+      ],
+      "No revisions found": [
+        "Geen revisies gevonden"
+      ],
+      "No support is provided. Please read the": [
+        "Er wordt geen ondersteuning geboden. Lees alstublieft de"
+      ],
+      "No variables": [
+        "Geen variabelen"
+      ],
+      "No Variables to import.": [
+        "Geen variabelen om te importeren."
+      ],
+      "No, thanks": [
+        "Nee, bedankt"
+      ],
+      "None": [
+        "Geen"
+      ],
+      "Normal": [
+        "Normaal"
+      ],
+      "Not available for external images": [
+        "Niet beschikbaar voor externe afbeeldingen"
+      ],
+      "Not available when grid mode is enabled.": [
+        "Niet beschikbaar als de rastermodus is ingeschakeld."
+      ],
+      "not equals": [
+        "niet gelijk"
+      ],
+      "Not happy with the generated sitemap?": [
+        "Niet tevreden met de gegenereerde sitemap?"
+      ],
+      "Note: This breaks JavaScript functionality that relies on the tag being present (Ex: %%SELECTOR%%)": [
+        "Opmerking: hierdoor wordt de JavaScript-functionaliteit verbroken die afhankelijk is van de aanwezigheid van de tag (bijvoorbeeld: %%SELECTOR%%)"
+      ],
+      "Nothing to import for %s.": [
+        "Niets om te importeren voor %s."
+      ],
+      "Nothing to preview": [
+        "Niets om te bekijken"
+      ],
+      "Offset": [
+        "Offset"
+      ],
+      "Oh no! Your server returned a %s error. 😢": [
+        "O nee! Uw server heeft een %s -fout geretourneerd. 😢"
+      ],
+      "on": [
+        "op"
+      ],
+      "One-Click Write": [
+        "Met één klik schrijven"
+      ],
+      "Only  \".woff\" and \".woff2\" files are supported": [
+        "Alleen \".woff\"- en \".woff2\"-bestanden worden ondersteund"
+      ],
+      "Only change to create complex elements": [
+        "Wijzig alleen om complexe elementen te creëren"
+      ],
+      "Only Children Of This Element": [
+        "Alleen kinderen van dit element"
+      ],
+      "Open": [
+        "Open"
+      ],
+      "Open %s Editor": [
+        "Open de %s -editor"
+      ],
+      "Open add elements panel": [
+        "Open het paneel Elementen toevoegen"
+      ],
+      "Open Design Library": [
+        "Open de ontwerpbibliotheek"
+      ],
+      "Open design sets modal": [
+        "Open ontwerpsets modaal"
+      ],
+      "Open in %s": [
+        "Openen over %s"
+      ],
+      "Open in new tab": [
+        "Openen in nieuw tabblad"
+      ],
+      "Open options": [
+        "Opties openen"
+      ],
+      "Open selectors panel": [
+        "Open het selectiepaneel"
+      ],
+      "Open structure panel": [
+        "Open structuurpaneel"
+      ],
+      "Open the active element's Advanced → Classes autocomplete and focus it.": [
+        "Open de automatische aanvulling Geavanceerd → Klassen van het actieve element en focus hierop."
+      ],
+      "Open the active element's Advanced → Custom CSS and focus it.": [
+        "Open Geavanceerd → Aangepaste CSS van het actieve element en focus erop."
+      ],
+      "Open the rich text editor modal. Only when the Rich Text element is selected": [
+        "Open de modale rich-text-editor. Alleen als het Rich Text-element is geselecteerd"
+      ],
+      "Open Twig Code Helper": [
+        "Open Twig-codehelper"
+      ],
+      "Open variables panel": [
+        "Open het variabelenpaneel"
+      ],
+      "Open Website Dialog": [
+        "Dialoogvenster Website openen"
+      ],
+      "Operand": [
+        "Operand"
+      ],
+      "Options": [
+        "Opties"
+      ],
+      "Options Are Good": [
+        "Opties zijn goed"
+      ],
+      "Options Good:": [
+        "Opties Goed:"
+      ],
+      "Options Work": [
+        "Opties Werk"
+      ],
+      "Options Work:": [
+        "Opties werk:"
+      ],
+      "OR": [
+        "OF"
+      ],
+      "or view it live": [
+        "of bekijk het live"
+      ],
+      "Order": [
+        "Volgorde"
+      ],
+      "Order By": [
+        "Bestel per"
+      ],
+      "Orientation": [
+        "Oriëntatie"
+      ],
+      "Override Variables": [
+        "Variabelen overschrijven"
+      ],
+      "Padding": [
+        "Opvulling"
+      ],
+      "Panel Positions": [
+        "Paneelposities"
+      ],
+      "Parent with ID: %s": [
+        "Ouder met ID: %s"
+      ],
+      "Past day": [
+        "Afgelopen dag"
+      ],
+      "Past Month": [
+        "Afgelopen maand"
+      ],
+      "Past Three month": [
+        "Afgelopen drie maanden"
+      ],
+      "Past week": [
+        "Afgelopen week"
+      ],
+      "Past Year": [
+        "Afgelopen jaar"
+      ],
+      "paste": [
+        "plakken"
+      ],
+      "Paste": [
+        "Plakken"
+      ],
+      "Paste As Child": [
+        "Plakken als kind"
+      ],
+      "Paste copied element": [
+        "Gekopieerd element plakken"
+      ],
+      "Paste Design": [
+        "Ontwerp plakken"
+      ],
+      "Paste Elements": [
+        "Elementen plakken"
+      ],
+      "Paste or type an URL": [
+        "Plak of typ een URL"
+      ],
+      "Paste or type URL": [
+        "Plak of typ de URL"
+      ],
+      "Paste settings": [
+        "Instellingen plakken"
+      ],
+      "Paste Settings": [
+        "Instellingen plakken"
+      ],
+      "Paste SVG": [
+        "Plak SVG"
+      ],
+      "Path": [
+        "Pad"
+      ],
+      "Per Page Load": [
+        "Per paginalading"
+      ],
+      "Per Session": [
+        "Per sessie"
+      ],
+      "Phone Number": [
+        "Telefoonnummer"
+      ],
+      "Placeholder": [
+        "Tijdelijke aanduiding"
+      ],
+      "Plain Text": [
+        "Platte tekst"
+      ],
+      "Please create your own template.": [
+        "Maak uw eigen sjabloon."
+      ],
+      "Please deactivate it and try again.": [
+        "Deactiveer het en probeer het opnieuw."
+      ],
+      "Please don't close this tab until the import is finished.": [
+        "Sluit dit tabblad niet voordat het importeren is voltooid."
+      ],
+      "Please enter a keyword to fetch images.": [
+        "Voer een trefwoord in om afbeeldingen op te halen."
+      ],
+      "Please enter a valid URL": [
+        "Voer een geldige URL in"
+      ],
+      "Please enter a value": [
+        "Voer een waarde in"
+      ],
+      "Please enter an API key": [
+        "Voer een API-sleutel in"
+      ],
+      "Please enter the %s's name.": [
+        "Voer de naam van %s in."
+      ],
+      "Please extract the contents of the zip file and upload the individual SVG files.": [
+        "Pak de inhoud van het zipbestand uit en upload de afzonderlijke SVG-bestanden."
+      ],
+      "Please read the documentation before creating custom templates.": [
+        "Lees de documentatie voordat u aangepaste sjablonen maakt."
+      ],
+      "Please read the documentation before making customizations to template settings.": [
+        "Lees de documentatie voordat u aanpassingen aan de sjablooninstellingen aanbrengt."
+      ],
+      "Please save your changes before closing this %s, or discard your changes.": [
+        "Sla uw wijzigingen op voordat u deze %s sluit, of verwijder uw wijzigingen."
+      ],
+      "Please upgrade to pro to use this field.": [
+        "Upgrade naar pro om dit veld te gebruiken."
+      ],
+      "Plugin Settings": [
+        "Plugin-instellingen"
+      ],
+      "Popout Position": [
+        "Pop-outpositie"
+      ],
+      "Populate dropdown dynamically": [
+        "Vul de vervolgkeuzelijst dynamisch in"
+      ],
+      "Populate from a Repeater's Input": [
+        "Invullen via de invoer van een repeater"
+      ],
+      "Populate from server data": [
+        "Invullen op basis van servergegevens"
+      ],
+      "Populate variables based on a Repeater Input": [
+        "Vul variabelen in op basis van een repeaterinvoer"
+      ],
+      "Populate with HTML Tag Options": [
+        "Vul het in met HTML-tagopties"
+      ],
+      "Populating from server data. To use items instead, clear those fields below.": [
+        "Invullen van servergegevens. Als u in plaats daarvan items wilt gebruiken, wist u de onderstaande velden."
+      ],
+      "Popup": [
+        "Pop-up"
+      ],
+      "Popup Opens When": [
+        "Pop-up wordt geopend wanneer"
+      ],
+      "Popups": [
+        "Pop-ups"
+      ],
+      "Portrait": [
+        "Portret"
+      ],
+      "Post Archive": [
+        "Postarchief"
+      ],
+      "Post Chooser Options": [
+        "Opties voor berichtkiezer"
+      ],
+      "Post Title": [
+        "Berichttitel"
+      ],
+      "Post Type": [
+        "Berichttype"
+      ],
+      "Post Types": [
+        "Berichttypen"
+      ],
+      "Posts and Pages": [
+        "Berichten en pagina's"
+      ],
+      "Posts per page": [
+        "Berichten per pagina"
+      ],
+      "Posts with post type \"%s\" can't be edited with %s directly. Please use a %s Template instead.": [
+        "Berichten met berichttype \"%s\" kunnen niet rechtstreeks met %s worden bewerkt. Gebruik in plaats daarvan een %s -sjabloon."
+      ],
+      "Prefer TinyMCE For Rich Text": [
+        "Geef de voorkeur aan TinyMCE voor Rich Text"
+      ],
+      "Preferences": [
+        "Voorkeuren"
+      ],
+      "Premade templates to kickstart your design.": [
+        "Kant-en-klare sjablonen om uw ontwerp een vliegende start te geven."
+      ],
+      "Preset": [
+        "Voorinstelling"
+      ],
+      "Preset Name": [
+        "Vooraf ingestelde naam"
+      ],
+      "Presets": [
+        "Voorinstellingen"
+      ],
+      "Preview": [
+        "Voorbeeld"
+      ],
+      "Preview %s:": [
+        "Voorbeeld %s:"
+      ],
+      "Preview Size": [
+        "Voorbeeldgrootte"
+      ],
+      "Previewing": [
+        "Voorbeeld bekijken"
+      ],
+      "Previewing:": [
+        "Voorbeeld bekijken:"
+      ],
+      "Previous Slide": [
+        "Vorige dia"
+      ],
+      "Primary": [
+        "Primair"
+      ],
+      "Priority": [
+        "Prioriteit"
+      ],
+      "Prompt": [
+        "Snel"
+      ],
+      "Property Key": [
+        "Eigendomssleutel"
+      ],
+      "Property Paths": [
+        "Eigenschapspaden"
+      ],
+      "Property paths to SSR the element when value changes": [
+        "Eigenschapspaden naar het SSR-element wanneer de waarde verandert"
+      ],
+      "Property paths to whitelist in flat props": [
+        "Eigenschapspaden naar de witte lijst in platte rekwisieten"
+      ],
+      "Property Settings": [
+        "Eigenschapsinstellingen"
+      ],
+      "Providers": [
+        "Aanbieders"
+      ],
+      "Qualifiers (optional)": [
+        "Kwalificaties (optioneel)"
+      ],
+      "Query Builder": [
+        "Query-bouwer"
+      ],
+      "Radial": [
+        "Radiaal"
+      ],
+      "Random": [
+        "Willekeurig"
+      ],
+      "Range Options": [
+        "Bereik opties"
+      ],
+      "Recommended": [
+        "Aanbevolen"
+      ],
+      "Redo": [
+        "Opnieuw uitvoeren"
+      ],
+      "Redo changes": [
+        "Wijzigingen opnieuw uitvoeren"
+      ],
+      "Refetch data if a control's value changes (specify path)": [
+        "Gegevens opnieuw ophalen als de waarde van een besturingselement verandert (geef pad op)"
+      ],
+      "Refresh": [
+        "Vernieuwen"
+      ],
+      "Refresh element": [
+        "Element vernieuwen"
+      ],
+      "Regenerate CSS Cache": [
+        "Genereer CSS-cache opnieuw"
+      ],
+      "Regenerating caches. Leaving the page will stop the process.": [
+        "Caches opnieuw genereren. Als u de pagina verlaat, stopt het proces."
+      ],
+      "Registered Children options: add extra elements": [
+        "Opties voor geregistreerde kinderen: voeg extra elementen toe"
+      ],
+      "Related": [
+        "Verwant"
+      ],
+      "Relative Property Paths To Whitetlist In Flatprops": [
+        "Relatieve eigendomspaden naar whitetlist in flatprops"
+      ],
+      "Reload dependencies files": [
+        "Afhankelijkheidsbestanden opnieuw laden"
+      ],
+      "Reload Key": [
+        "Sleutel opnieuw laden"
+      ],
+      "Remember to use": [
+        "Vergeet niet te gebruiken"
+      ],
+      "Remove": [
+        "Verwijderen"
+      ],
+      "Rename": [
+        "Hernoemen"
+      ],
+      "Reorder": [
+        "Opnieuw ordenen"
+      ],
+      "Repeater Options": [
+        "Repeater-opties"
+      ],
+      "Rephrase": [
+        "Herformuleren"
+      ],
+      "Rephrase the text provided by the user.": [
+        "Herformuleer de tekst die door de gebruiker is aangeleverd."
+      ],
+      "Replace": [
+        "Vervangen"
+      ],
+      "Request Details": [
+        "Details aanvragen"
+      ],
+      "Request Time:": [
+        "Verzoektijd:"
+      ],
+      "Request Time: %s": [
+        "Verzoektijd: %s"
+      ],
+      "Request Type:": [
+        "Verzoektype:"
+      ],
+      "Request Type: %s": [
+        "Verzoektype: %s"
+      ],
+      "Request URI: %s": [
+        "Verzoek-URI: %s"
+      ],
+      "Request URL:": [
+        "Verzoek-URL:"
+      ],
+      "Required plugins": [
+        "Vereiste plug-ins"
+      ],
+      "Reset Content": [
+        "Inhoud opnieuw instellen"
+      ],
+      "Reset Design": [
+        "Ontwerp opnieuw instellen"
+      ],
+      "Reset Settings": [
+        "Instellingen resetten"
+      ],
+      "Reset to defaults": [
+        "Resetten naar standaardwaarden"
+      ],
+      "Response Code:": [
+        "Reactiecode:"
+      ],
+      "Restore": [
+        "Herstellen"
+      ],
+      "Restore %s from revision": [
+        "Herstel %s van revisie"
+      ],
+      "Revisions": [
+        "Revisies"
+      ],
+      "Rewrite": [
+        "Herschrijf"
+      ],
+      "Rewrite %s": [
+        "Herschrijf %s"
+      ],
+      "Rewrite With AI": [
+        "Herschrijf met AI"
+      ],
+      "Rewrite your content with the power of AI.": [
+        "Herschrijf uw inhoud met de kracht van AI."
+      ],
+      "right": [
+        "rechts"
+      ],
+      "Right": [
+        "Rechts"
+      ],
+      "Root Node": [
+        "Wortelknooppunt"
+      ],
+      "Row Index": [
+        "Rij-index"
+      ],
+      "Run for all children": [
+        "Ren voor alle kinderen"
+      ],
+      "Run Only Once": [
+        "Slechts één keer uitvoeren"
+      ],
+      "Runs after adding this element to the canvas for the first time": [
+        "Wordt uitgevoerd nadat dit element voor de eerste keer aan het canvas is toegevoegd"
+      ],
+      "Runs after one of this element's property changes (a value in a control)": [
+        "Wordt uitgevoerd nadat een van de eigenschappen van dit element is gewijzigd (een waarde in een besturingselement)"
+      ],
+      "Runs after the element is activated (selected)": [
+        "Loopt nadat het element is geactiveerd (geselecteerd)"
+      ],
+      "Runs after this element is moved in the canvas.": [
+        "Wordt uitgevoerd nadat dit element in het canvas is verplaatst."
+      ],
+      "Runs after this element renders in the canvas": [
+        "Wordt uitgevoerd nadat dit element op het canvas is weergegeven"
+      ],
+      "Runs AFTER this element was deleted": [
+        "Wordt uitgevoerd NADAT dit element is verwijderd"
+      ],
+      "Runs BEFORE this element is deleted": [
+        "Wordt uitgevoerd VOORDAT dit element wordt verwijderd"
+      ],
+      "Same author only": [
+        "Alleen dezelfde auteur"
+      ],
+      "Save": [
+        "Redden"
+      ],
+      "Save &amp; Bypass Psalm...": [
+        "Opslaan &amp; Omzeil Psalm..."
+      ],
+      "Save A Copy In:": [
+        "Bewaar een kopie in:"
+      ],
+      "Save and continue": [
+        "Opslaan en doorgaan"
+      ],
+      "Save any changes to create a new revision": [
+        "Sla eventuele wijzigingen op om een ​​nieuwe revisie te maken"
+      ],
+      "Save as %s": [
+        "Opslaan als %s"
+      ],
+      "Save as Preset": [
+        "Opslaan als voorinstelling"
+      ],
+      "Save Breakpoints": [
+        "Breekpunten opslaan"
+      ],
+      "Save element": [
+        "Element opslaan"
+      ],
+      "Save Fonts": [
+        "Lettertypen opslaan"
+      ],
+      "Save Icons": [
+        "Pictogrammen opslaan"
+      ],
+      "Save icons to existing set, or create a new icon set...": [
+        "Sla pictogrammen op in een bestaande set of maak een nieuwe pictogrammenset..."
+      ],
+      "Saving selectors to WordPress": [
+        "Selectors opslaan in WordPress"
+      ],
+      "Scale content to fit the screen (zoom)": [
+        "Inhoud schalen zodat deze op het scherm past (zoom)"
+      ],
+      "Screenshot couldn't be created, probably because it links to protected third party images. Please add an image manually": [
+        "Er kon geen screenshot worden gemaakt, waarschijnlijk omdat deze linkt naar beveiligde afbeeldingen van derden. Voeg handmatig een afbeelding toe"
+      ],
+      "Script": [
+        "Script"
+      ],
+      "Scripts (%s)": [
+        "Scripts (%s)"
+      ],
+      "Search": [
+        "Zoekopdracht"
+      ],
+      "Search %d elements": [
+        "Zoek %d elementen"
+      ],
+      "Search %ss": [
+        "Zoek %ss"
+      ],
+      "Search blocks": [
+        "Zoek blokken"
+      ],
+      "Search by title": [
+        "Zoek op titel"
+      ],
+      "Search elements": [
+        "Zoek elementen"
+      ],
+      "Search for %s": [
+        "Zoek naar %s"
+      ],
+      "Search in \"%s\"": [
+        "Zoeken in \"%s\""
+      ],
+      "Search More": [
+        "Zoek meer"
+      ],
+      "Search Results": [
+        "Zoekresultaten"
+      ],
+      "Search selectors": [
+        "Zoekkiezers"
+      ],
+      "Search variables": [
+        "Variabelen zoeken"
+      ],
+      "Search...": [
+        "Zoekopdracht..."
+      ],
+      "Secondary": [
+        "Secundair"
+      ],
+      "Section Layout": [
+        "Sectie-indeling"
+      ],
+      "Section showing testimonials": [
+        "Sectie met getuigenissen"
+      ],
+      "See content editable code": [
+        "Zie inhoud bewerkbare code"
+      ],
+      "See Details": [
+        "Zie Details"
+      ],
+      "See examples": [
+        "Zie voorbeelden"
+      ],
+      "Select a field to preview": [
+        "Selecteer een veld waarvan u een voorbeeld wilt bekijken"
+      ],
+      "Select a field...": [
+        "Selecteer een veld..."
+      ],
+      "Select a popup...": [
+        "Selecteer een pop-up..."
+      ],
+      "Select a saving location": [
+        "Selecteer een opslaglocatie"
+      ],
+      "Select a type...": [
+        "Selecteer een soort..."
+      ],
+      "Select an element first": [
+        "Selecteer eerst een element"
+      ],
+      "Select or create a class": [
+        "Selecteer of maak een klas"
+      ],
+      "Select parent": [
+        "Selecteer ouder"
+      ],
+      "Select up to four": [
+        "Selecteer er maximaal vier"
+      ],
+      "Select up to three": [
+        "Selecteer er maximaal drie"
+      ],
+      "Select up to two": [
+        "Selecteer er maximaal twee"
+      ],
+      "Selected template with ID: %s no longer exists.": [
+        "Geselecteerde sjabloon met ID: %s bestaat niet meer."
+      ],
+      "Selectors": [
+        "Selectoren"
+      ],
+      "Send Feedback": [
+        "Feedback verzenden"
+      ],
+      "Send To CodeBox": [
+        "Verzenden naar CodeBox"
+      ],
+      "Set Default Properties": [
+        "Stel standaardeigenschappen in"
+      ],
+      "Set default properties for %s to:": [
+        "Stel de standaardeigenschappen voor %s in op:"
+      ],
+      "Set Up API Key": [
+        "API-sleutel instellen"
+      ],
+      "Set up your OpenAI API key": [
+        "Stel uw OpenAI API-sleutel in"
+      ],
+      "Settings": [
+        "Instellingen"
+      ],
+      "Shadow Type": [
+        "Schaduwtype"
+      ],
+      "Share props with SSR children": [
+        "Deel rekwisieten met SSR-kinderen"
+      ],
+      "Shop Page & All Product Archives": [
+        "Winkelpagina en alle productarchieven"
+      ],
+      "Shortcode": [
+        "Shortcode"
+      ],
+      "Shortcut": [
+        "Snelkoppeling"
+      ],
+      "Shorten it": [
+        "Verkort het"
+      ],
+      "Shorten the text": [
+        "Verkort de tekst"
+      ],
+      "Show elements ID in the Structure Panel": [
+        "Toon de elementen-ID in het structuurpaneel"
+      ],
+      "Show Experimental Elements": [
+        "Toon experimentele elementen"
+      ],
+      "Show items in the dropdown only if a condition is met": [
+        "Toon items in de vervolgkeuzelijst alleen als aan een voorwaarde is voldaan"
+      ],
+      "Show items in the variable only if a condition is met": [
+        "Toon items in de variabele alleen als aan een voorwaarde is voldaan"
+      ],
+      "Show keyboard shortcuts help modal": [
+        "Toon sneltoetsen help modaal"
+      ],
+      "Show Property Keys": [
+        "Eigenschapssleutels weergeven"
+      ],
+      "Show Thumbnails": [
+        "Miniaturen weergeven"
+      ],
+      "Shows an image as background of this input": [
+        "Toont een afbeelding als achtergrond van deze ingang"
+      ],
+      "Shuffle": [
+        "Schudden"
+      ],
+      "Side By Side": [
+        "Naast elkaar"
+      ],
+      "Single Post": [
+        "Enkele post"
+      ],
+      "Single Product": [
+        "Enkel product"
+      ],
+      "Slide #": [
+        "Dia #"
+      ],
+      "Slider": [
+        "Schuifregelaar"
+      ],
+      "Slug": [
+        "Naaktslak"
+      ],
+      "SMS": [
+        "Sms"
+      ],
+      "Solid": [
+        "Stevig"
+      ],
+      "Solid and Gradient": [
+        "Effen en verloop"
+      ],
+      "Solid Only": [
+        "Alleen solide"
+      ],
+      "Some fields are locked and will not be updated by AI. <b class='cursor-pointer'>Click to view.</b>": [
+        "Sommige velden zijn vergrendeld en worden niet bijgewerkt door AI. <b class='cursor-pointer'>Klik om te bekijken.</b>"
+      ],
+      "Some requests failed. Try again": [
+        "Sommige verzoeken zijn mislukt. Probeer het opnieuw"
+      ],
+      "Soon, the Design Library will only be available in the pro version. For now, enjoy your free preview!": [
+        "Binnenkort is de Design Library alleen beschikbaar in de pro-versie. Geniet voorlopig van uw gratis preview!"
+      ],
+      "Sort By": [
+        "Sorteer op"
+      ],
+      "Source": [
+        "Bron"
+      ],
+      "Space Around": [
+        "Ruimte rondom"
+      ],
+      "Space Between": [
+        "Ruimte tussen"
+      ],
+      "Spacing bar": [
+        "Afstandsbalk"
+      ],
+      "Spacing Bars": [
+        "Afstandsbalken"
+      ],
+      "Specific Product Archive": [
+        "Specifiek productarchief"
+      ],
+      "Spread": [
+        "Spreiding"
+      ],
+      "Squarish": [
+        "Vierkant"
+      ],
+      "Stack Trace": [
+        "Stapeltrace"
+      ],
+      "Stacked": [
+        "Gestapeld"
+      ],
+      "Stacked (First Visible)": [
+        "Gestapeld (eerst zichtbaar)"
+      ],
+      "Start over": [
+        "Begin opnieuw"
+      ],
+      "States": [
+        "Staten"
+      ],
+      "Step (fixed to 2 decimals)": [
+        "Stap (vastgesteld op 2 decimalen)"
+      ],
+      "Stop Editing": [
+        "Stop met bewerken"
+      ],
+      "Stretch": [
+        "Strek"
+      ],
+      "Structure": [
+        "Structuur"
+      ],
+      "Style": [
+        "Stijl"
+      ],
+      "Styles (%s)": [
+        "Stijlen (%s)"
+      ],
+      "Subject": [
+        "Onderwerp"
+      ],
+      "Submit": [
+        "Indienen"
+      ],
+      "Success loading the data": [
+        "Succes met het laden van de gegevens"
+      ],
+      "Successfully imported %s.": [
+        "%s succesvol geïmporteerd."
+      ],
+      "Successfully trashed existing Templates, Headers, Footers, %s, and Popups.": [
+        "Bestaande sjablonen, kopteksten, voetteksten, %s en pop-ups zijn succesvol verwijderd."
+      ],
+      "Suggested Icons": [
+        "Voorgestelde pictogrammen"
+      ],
+      "Suggestions": [
+        "Suggesties"
+      ],
+      "Support Multiple": [
+        "Ondersteuning meerdere"
+      ],
+      "SVG code for icon": [
+        "SVG-code voor pictogram"
+      ],
+      "Switch between 'scale to fit' and 'actual size' content": [
+        "Schakel tussen content op 'schaal om te passen' en 'werkelijke grootte'"
+      ],
+      "Switch mode": [
+        "Schakelmodus"
+      ],
+      "Tag": [
+        "Label"
+      ],
+      "Tag of the root element": [
+        "Tag van het hoofdelement"
+      ],
+      "Tag Options": [
+        "Tag-opties"
+      ],
+      "Tags: %s and %s are available.": [
+        "Tags: %s en %s zijn beschikbaar."
+      ],
+      "Tailor your template to your needs.": [
+        "Pas uw sjabloon aan uw behoeften aan."
+      ],
+      "Take screenshot": [
+        "Maak een schermafdruk"
+      ],
+      "Target": [
+        "Doel"
+      ],
+      "Tel": [
+        "Tel"
+      ],
+      "Tell us about your business": [
+        "Vertel ons over uw bedrijf"
+      ],
+      "Tell us to...": [
+        "Vertel ons om..."
+      ],
+      "Temperature": [
+        "Temperatuur"
+      ],
+      "Template": [
+        "Sjabloon"
+      ],
+      "Templates": [
+        "Sjablonen"
+      ],
+      "Templates page": [
+        "Sjablonen pagina"
+      ],
+      "Templates save you hours of work. Each template is crafted by a pro and is fully customizable.": [
+        "Sjablonen besparen u uren werk. Elke sjabloon is gemaakt door een professional en is volledig aanpasbaar."
+      ],
+      "Terms in taxonomy": [
+        "Termen in taxonomie"
+      ],
+      "Text": [
+        "Tekst"
+      ],
+      "Text Format": [
+        "Tekstformaat"
+      ],
+      "Text Wrap": [
+        "Tekstomloop"
+      ],
+      "The %s element does not support AI writing.": [
+        "Het %s -element ondersteunt geen AI-schrijven."
+      ],
+      "The Breakdance AI Plugin is not installed. Please install it to use the AI assistant.": [
+        "De Breakdance AI-plug-in is niet geïnstalleerd. Installeer het om de AI-assistent te gebruiken."
+      ],
+      "The dependency is a hardcoded value:": [
+        "De afhankelijkheid is een hardgecodeerde waarde:"
+      ],
+      "The field 'name' is required to create an automatic screenshot": [
+        "Het veld 'naam' is vereist om een ​​automatische screenshot te maken"
+      ],
+      "The file you selected does not contain any presets.": [
+        "Het door u geselecteerde bestand bevat geen voorinstellingen."
+      ],
+      "The file you selected is not a valid Presets file.": [
+        "Het door u geselecteerde bestand is geen geldig voorinstellingenbestand."
+      ],
+      "The last full site import you performed was for %s": [
+        "De laatste volledige site-import die u hebt uitgevoerd, was voor %s"
+      ],
+      "The minimum priority is 1": [
+        "De minimale prioriteit is 1"
+      ],
+      "The new %s couldn't be saved": [
+        "De nieuwe %s kon niet worden opgeslagen"
+      ],
+      "The option %s is not available anymore, please select a new one.": [
+        "De optie %s is niet meer beschikbaar, selecteer een nieuwe."
+      ],
+      "The plugin %s caused a %s error.": [
+        "De plug-in %s veroorzaakte een %s -fout."
+      ],
+      "The requested post can't be edited with %s.": [
+        "Het gevraagde bericht kan niet worden bewerkt met %s."
+      ],
+      "The requested post doesn't exist. It may have been deleted, or maybe you used an outdated URL.": [
+        "Het opgevraagde bericht bestaat niet. Mogelijk is deze verwijderd of heeft u een verouderde URL gebruikt."
+      ],
+      "The selected field expects \"%s\", but \"%s\" only returns \"%s\". To use this field anyway, choose \"All\" from the \"Type\" dropdown and then toggle \"Disable Type Safety\" on.": [
+        "Het geselecteerde veld verwacht \"%s\", maar \"%s\" retourneert alleen \"%s\". Als u dit veld toch wilt gebruiken, kiest u 'Alle' in de vervolgkeuzelijst 'Type' en schakelt u 'Typeveiligheid uitschakelen' in."
+      ],
+      "The selected preset does not exist or has been deleted. Please select another preset.": [
+        "De geselecteerde preset bestaat niet of is verwijderd. Selecteer een andere voorinstelling."
+      ],
+      "The selector %s is locked.": [
+        "De selector %s is vergrendeld."
+      ],
+      "The task failed due a problem on the server side.": [
+        "De taak is mislukt vanwege een probleem aan de serverzijde."
+      ],
+      "The template can run Twig code. Properties like design.something.whatever are available. If the template returns a blank string, the class will not be added. If the template returns anything, the class will be added.": [
+        "De sjabloon kan Twig-code uitvoeren. Eigenschappen als design.something.whatever zijn beschikbaar. Als de sjabloon een lege string retourneert, wordt de klasse niet toegevoegd. Als de sjabloon iets retourneert, wordt de klasse toegevoegd."
+      ],
+      "the_best_class": [
+        "de_beste_klasse"
+      ],
+      "There are no elements added to the page": [
+        "Er zijn geen elementen aan de pagina toegevoegd"
+      ],
+      "There was an error embedding the video": [
+        "Er is een fout opgetreden bij het insluiten van de video"
+      ],
+      "There was an error loading the data": [
+        "Er is een fout opgetreden bij het laden van de gegevens"
+      ],
+      "Thickness": [
+        "Dikte"
+      ],
+      "This action cannot be undone.": [
+        "Deze actie kan niet ongedaan worden gemaakt."
+      ],
+      "This design relies on Design Presets. It won't look the same unless you import them.": [
+        "Dit ontwerp is afhankelijk van ontwerpvoorinstellingen. Het ziet er niet hetzelfde uit, tenzij je ze importeert."
+      ],
+      "This Design Set is password protected by the author. Please enter the password below to view it.": [
+        "Deze ontwerpset is met een wachtwoord beveiligd door de auteur. Voer hieronder het wachtwoord in om het te bekijken."
+      ],
+      "This design set relies on %s. It won't look the same unless you import them.": [
+        "Deze ontwerpset is afhankelijk van %s. Het ziet er niet hetzelfde uit, tenzij je ze importeert."
+      ],
+      "This Element": [
+        "Dit element"
+      ],
+      "This element can't be added for unknown reasons": [
+        "Dit element kan om onbekende redenen niet worden toegevoegd"
+      ],
+      "This element contains a Global Block that can be edited inline. Requires a Global Block Chooser control to be present.": [
+        "Dit element bevat een Globaal Blok dat inline kan worden bewerkt. Vereist dat er een Global Block Chooser-besturingselement aanwezig is."
+      ],
+      "This element is empty, please add some content first.": [
+        "Dit element is leeg. Voeg eerst wat inhoud toe."
+      ],
+      "This element will not be allowed on a page if one of the following elements is already present on the page": [
+        "Dit element is niet toegestaan ​​op een pagina als een van de volgende elementen al op de pagina aanwezig is"
+      ],
+      "This element will only be allowed as a direct child of the selected elements": [
+        "Dit element is alleen toegestaan ​​als direct onderliggend element van de geselecteerde elementen"
+      ],
+      "This element will only be allowed inside the selected elements": [
+        "Dit element is alleen toegestaan ​​binnen de geselecteerde elementen"
+      ],
+      "This font style already exists with this weight, and format": [
+        "Deze lettertypestijl bestaat al met dit gewicht en formaat"
+      ],
+      "This font weight already exists with this style, and format": [
+        "Dit lettertypegewicht bestaat al met deze stijl en indeling"
+      ],
+      "this is currently used at https://breakdance.com/features/elements": [
+        "dit wordt momenteel gebruikt op https://breakdance.com/features/elements"
+      ],
+      "This post can't be edited directly.": [
+        "Dit bericht kan niet rechtstreeks worden bewerkt."
+      ],
+      "This post is rendered with a \"%s\" template.": [
+        "Dit bericht wordt weergegeven met een \"%s\"-sjabloon."
+      ],
+      "This post is rendered with a builder's internal \"%s\" template.": [
+        "Dit bericht wordt weergegeven met de interne \"%s\"-sjabloon van een bouwer."
+      ],
+      "This post is rendered with a builder's internal template.": [
+        "Dit bericht wordt weergegeven met de interne sjabloon van een bouwer."
+      ],
+      "This post is rendered with a template.": [
+        "Dit bericht wordt weergegeven met een sjabloon."
+      ],
+      "This selector already exists.": [
+        "Deze selector bestaat al."
+      ],
+      "This selector is no longer available. Remove it from the element?": [
+        "Deze selector is niet langer beschikbaar. Verwijderen uit het element?"
+      ],
+      "This variable has been deleted, but it is still used here.": [
+        "Deze variabele is verwijderd, maar wordt hier nog steeds gebruikt."
+      ],
+      "This video could not be embedded.": [
+        "Deze video kan niet worden ingesloten."
+      ],
+      "This will disable the 'Settings -> Html -> Tag' control": [
+        "Hierdoor wordt het besturingselement 'Instellingen -> Html -> Tag' uitgeschakeld"
+      ],
+      "This won't be visible on the website but helps us understand your needs.": [
+        "Dit is niet zichtbaar op de website, maar helpt ons uw behoeften te begrijpen."
+      ],
+      "Title": [
+        "Titel"
+      ],
+      "Title field can't be empty": [
+        "Titelveld mag niet leeg zijn"
+      ],
+      "Title is required": [
+        "Titel is vereist"
+      ],
+      "Title Template": [
+        "Titelsjabloon"
+      ],
+      "To describe a repeater, use &quot;[]&quot;. e.g: &quot;content.list.my_repeater[].url&quot;": [
+        "Gebruik \"[]\" om een ​​repeater te beschrijven. bijvoorbeeld: &quot;content.list.my_repeater[].url&quot;"
+      ],
+      "To edit, select %s element with this preset applied.": [
+        "Om te bewerken selecteert u %s element waarop deze voorinstelling is toegepast."
+      ],
+      "To paste using the Edit menu, please allow access to your clipboard.": [
+        "Als u wilt plakken via het menu Bewerken, moet u toegang tot uw klembord toestaan."
+      ],
+      "To paste using the Edit menu, your website needs to be served with HTTPS.": [
+        "Om te plakken via het menu Bewerken, moet uw website worden bediend met HTTPS."
+      ],
+      "To use %s, log in to WordPress admin.": [
+        "Om %s te gebruiken, logt u in op WordPress admin."
+      ],
+      "To use %s, you need to login to WordPress.": [
+        "Om %s te gebruiken, moet u inloggen op WordPress."
+      ],
+      "Toggle": [
+        "Schakelaar"
+      ],
+      "Toggle the modified option in the properties search box.": [
+        "Schakel de gewijzigde optie in het zoekvak voor eigenschappen in of uit."
+      ],
+      "Toggle the preview mode.": [
+        "Schakel de voorbeeldmodus in."
+      ],
+      "Top": [
+        "Bovenkant"
+      ],
+      "Total posts": [
+        "Totaal aantal berichten"
+      ],
+      "Total posts must be equal to or greater than Posts Per Page": [
+        "Het totale aantal berichten moet gelijk zijn aan of groter zijn dan het aantal berichten per pagina"
+      ],
+      "Transform": [
+        "Transformeren"
+      ],
+      "Trash": [
+        "Afval"
+      ],
+      "Trash (%d)": [
+        "Prullenbak (%d)"
+      ],
+      "Trashing existing Templates, Headers, Footers, %s, and Popups.": [
+        "Bestaande sjablonen, kopteksten, voetteksten, %s en pop-ups weggooien."
+      ],
+      "Trigger": [
+        "Trekker"
+      ],
+      "Trigger action button options": [
+        "Actieknopopties activeren"
+      ],
+      "Triggers": [
+        "Triggers"
+      ],
+      "Try adjusting your search to find what you are looking for.": [
+        "Probeer uw zoekopdracht aan te passen om te vinden wat u zoekt."
+      ],
+      "Try Breakdance Pro": [
+        "Probeer Breakdance Pro"
+      ],
+      "Try Oxygen Pro": [
+        "Probeer Oxygen Pro"
+      ],
+      "Tutorials": [
+        "Handleidingen"
+      ],
+      "Type": [
+        "Type"
+      ],
+      "Type:": [
+        "Type:"
+      ],
+      "Types": [
+        "Soorten"
+      ],
+      "Typography": [
+        "Typografie"
+      ],
+      "UI Icon": [
+        "UI-pictogram"
+      ],
+      "UI Order (number)": [
+        "UI-bestelling (nummer)"
+      ],
+      "UI Settings": [
+        "UI-instellingen"
+      ],
+      "Unable to format %s code. Please check for syntax errors like missing brackets, quotes, or semicolons, then try formatting again.": [
+        "Kan %s code niet formatteren. Controleer op syntaxisfouten zoals ontbrekende haakjes, aanhalingstekens of puntkomma's en probeer vervolgens opnieuw te formatteren."
+      ],
+      "Unable to retrieve a video from this URL": [
+        "Kan geen video ophalen van deze URL"
+      ],
+      "Uncategorized": [
+        "Niet gecategoriseerd"
+      ],
+      "Underline Offset": [
+        "Onderstreep de verschuiving"
+      ],
+      "Undo": [
+        "Ongedaan maken"
+      ],
+      "Undo changes": [
+        "Wijzigingen ongedaan maken"
+      ],
+      "Unexpected error occurred.": [
+        "Er is een onverwachte fout opgetreden."
+      ],
+      "Unit Options": [
+        "Eenheidsopties"
+      ],
+      "Unknown": [
+        "Onbekend"
+      ],
+      "Unknown breakpoint": [
+        "Onbekend breekpunt"
+      ],
+      "Unknown Document": [
+        "Onbekend document"
+      ],
+      "Unknown notification type %s": [
+        "Onbekend meldingstype %s"
+      ],
+      "Unlink it or select a new variable.": [
+        "Ontkoppel deze of selecteer een nieuwe variabele."
+      ],
+      "Unlink variable": [
+        "Variabele ontkoppelen"
+      ],
+      "Unlock": [
+        "Ontgrendelen"
+      ],
+      "Unlock all": [
+        "Ontgrendel alles"
+      ],
+      "Unrecoverable Errors": [
+        "Onherstelbare fouten"
+      ],
+      "Unsplash": [
+        "Ontsplashen"
+      ],
+      "Unsupported template": [
+        "Niet-ondersteunde sjabloon"
+      ],
+      "Unsupported templates": [
+        "Niet-ondersteunde sjablonen"
+      ],
+      "Update for template \"%s\" failed": [
+        "Update voor sjabloon \"%s\" is mislukt"
+      ],
+      "Update slug": [
+        "Slak bijwerken"
+      ],
+      "Update your template settings in the WP admin at": [
+        "Update uw sjablooninstellingen in de WP-beheerder op"
+      ],
+      "Updated prompt info for element #%s": [
+        "Bijgewerkte promptinformatie voor element #%s"
+      ],
+      "Updating the Class Name will make the previous class obsolete. You'll need to update your CSS": [
+        "Als u de klassenaam bijwerkt, wordt de vorige klasse overbodig. U moet uw CSS bijwerken"
+      ],
+      "Upload": [
+        "Uploaden"
+      ],
+      "Upload a Video or paste a URL": [
+        "Upload een video of plak een URL"
+      ],
+      "Upload a Video or paste a URL from %s": [
+        "Upload een video of plak een URL uit %s"
+      ],
+      "Upload some icons.": [
+        "Upload enkele pictogrammen."
+      ],
+      "Upload symbol-defs.svg from an IcoMoon export, or an individual SVG file.": [
+        "Upload symbol-defs.svg vanuit een IcoMoon-export of een afzonderlijk SVG-bestand."
+      ],
+      "URL": [
+        "URL"
+      ],
+      "URL to CSS file containing Font Face definitions": [
+        "URL naar CSS-bestand met lettertypedefinities"
+      ],
+      "URL to script": [
+        "URL naar script"
+      ],
+      "URL to style": [
+        "URL naar stijl"
+      ],
+      "Use Fonts In External CSS": [
+        "Gebruik lettertypen in externe CSS"
+      ],
+      "Use hosted fonts from providers like Adobe Fonts.": [
+        "Gebruik gehoste lettertypen van providers zoals Adobe Fonts."
+      ],
+      "use the below HTML code on breakdance.com to display a list of elements.": [
+        "gebruik de onderstaande HTML-code op breakdance.com om een ​​lijst met elementen weer te geven."
+      ],
+      "Use the lock icon to prevent AI from changing this image during bulk rewrites.": [
+        "Gebruik het slotpictogram om te voorkomen dat AI deze afbeelding wijzigt tijdens bulkherschrijvingen."
+      ],
+      "Use this if clicking on the element doesn't active it, but instead clicks something inside of it": [
+        "Gebruik dit als klikken op het element het element niet activeert, maar in plaats daarvan op iets erin klikt"
+      ],
+      "Use this if the element should only be visible in the builder": [
+        "Gebruik dit als het element alleen zichtbaar moet zijn in de builder"
+      ],
+      "Use this if you need to access the properties data from this element in a child SSR element.": [
+        "Gebruik dit als u toegang wilt krijgen tot de eigenschappengegevens van dit element in een onderliggend SSR-element."
+      ],
+      "Use this if you want to disable the AI for this element": [
+        "Gebruik dit als u de AI voor dit element wilt uitschakelen"
+      ],
+      "Used as a fallback when the title template is blank.": [
+        "Wordt gebruikt als reserve wanneer de titelsjabloon leeg is."
+      ],
+      "Validation Error:": [
+        "Validatiefout:"
+      ],
+      "Value": [
+        "Waarde"
+      ],
+      "Value comes from:": [
+        "Waarde komt van:"
+      ],
+      "Value is overwritten by:": [
+        "Waarde wordt overschreven door:"
+      ],
+      "Values": [
+        "Waarden"
+      ],
+      "Variables": [
+        "Variabelen"
+      ],
+      "Variables panel.": [
+        "Variabelenpaneel."
+      ],
+      "Variations": [
+        "Variaties"
+      ],
+      "Vertically Center": [
+        "Verticaal gecentreerd"
+      ],
+      "Video": [
+        "Video"
+      ],
+      "Video Options": [
+        "Video-opties"
+      ],
+      "Videos from %s are not allowed for this field. Allowed embed platforms are %s": [
+        "Video's van %s zijn niet toegestaan ​​voor dit veld. Toegestane insluitplatforms zijn %s"
+      ],
+      "Videos from this platform, are not allowed for this field. Allowed embed platforms are %s": [
+        "Video's van dit platform zijn niet toegestaan ​​voor dit veld. Toegestane insluitplatforms zijn %s"
+      ],
+      "View Design Set": [
+        "Ontwerpset bekijken"
+      ],
+      "Viewing Page": [
+        "Pagina bekijken"
+      ],
+      "Visit site": [
+        "Bezoek website"
+      ],
+      "Visual": [
+        "Visueel"
+      ],
+      "Warning: Deleted Variable": [
+        "Waarschuwing: Variabele verwijderd"
+      ],
+      "We couldn't find any icons matching \"%s\".": [
+        "We konden geen pictogrammen vinden die overeenkomen met \"%s\"."
+      ],
+      "We just need a few details. These answers help us generate a starting point that feels right for you.": [
+        "We hebben slechts een paar details nodig. Deze antwoorden helpen ons een startpunt te creëren dat bij u past."
+      ],
+      "We're creating a sitemap.": [
+        "We maken een sitemap."
+      ],
+      "We're setting up your design library.": [
+        "We zijn uw ontwerpbibliotheek aan het opzetten."
+      ],
+      "We're setting up your website based on your choices.": [
+        "We richten uw website in op basis van uw keuzes."
+      ],
+      "We've set up your website based on your choices. You can now start customizing it to make it truly yours.": [
+        "We hebben uw website opgezet op basis van uw keuzes. Je kunt het nu gaan aanpassen, zodat het echt van jou wordt."
+      ],
+      "Weight": [
+        "Gewicht"
+      ],
+      "Welcome to %s": [
+        "Welkom bij %s"
+      ],
+      "Welcome to Breakdance AI": [
+        "Welkom bij Breakdance AI"
+      ],
+      "What are your website goals?": [
+        "Wat zijn uw websitedoelen?"
+      ],
+      "What category does your website fall under?": [
+        "Onder welke categorie valt uw website?"
+      ],
+      "What is your website about?": [
+        "Waar gaat uw website over?"
+      ],
+      "What is your website called?": [
+        "Hoe heet uw website?"
+      ],
+      "What is your website's writing style?": [
+        "Wat is de schrijfstijl van uw website?"
+      ],
+      "WhatsApp": [
+        "WhatsAppen"
+      ],
+      "When field": [
+        "Wanneer veld"
+      ],
+      "When left empty the dependencies will always be added.": [
+        "Als u dit leeg laat, worden de afhankelijkheden altijd toegevoegd."
+      ],
+      "When saving in %s, the CSS and other dependencies required by the saved item are cached. Use this tool to regenerate the caches for all %s-created content.": [
+        "Bij het opslaan in %s worden de CSS en andere afhankelijkheden die vereist zijn voor het opgeslagen item in de cache opgeslagen. Gebruik deze tool om de caches voor alle door %s gemaakte inhoud opnieuw te genereren."
+      ],
+      "When using the Breakdance or Oxygen plugin, my server failed to fulfill the following request as expected. Instead, it returned an error code.": [
+        "Bij het gebruik van de Breakdance- of Oxygen-plug-in kon mijn server niet zoals verwacht aan het volgende verzoek voldoen. In plaats daarvan retourneerde het een foutcode."
+      ],
+      "Why did the server return a %s error?": [
+        "Waarom heeft de server een %s -fout geretourneerd?"
+      ],
+      "Width": [
+        "Breedte"
+      ],
+      "will be replaced with the correct path in the element.": [
+        "wordt vervangen door het juiste pad in het element."
+      ],
+      "Will only show an image's available sizes. Use [] when inside a repeater.": [
+        "Toont alleen de beschikbare formaten van een afbeelding. Gebruik [] als u zich in een repeater bevindt."
+      ],
+      "Word Spacing": [
+        "Woordafstand"
+      ],
+      "Would you like to save or discard these changes?": [
+        "Wilt u deze wijzigingen opslaan of verwijderen?"
+      ],
+      "WP Media Options": [
+        "WP Media-opties"
+      ],
+      "Wrap In": [
+        "Wikkel in"
+      ],
+      "Write CSS with AI.": [
+        "Schrijf CSS met AI."
+      ],
+      "Write it like snoop dogg": [
+        "Schrijf het als Snoop Dogg"
+      ],
+      "X": [
+        "X"
+      ],
+      "Y": [
+        "Y"
+      ],
+      "You already did full site import for this site.": [
+        "U heeft de volledige site-import voor deze site al uitgevoerd."
+      ],
+      "You are not logged in": [
+        "U bent niet ingelogd"
+      ],
+      "You can now view and manage your sitemap.": [
+        "U kunt nu uw sitemap bekijken en beheren."
+      ],
+      "You can use Twig to access the element properties. eg.": [
+        "U kunt Twig gebruiken om toegang te krijgen tot de elementeigenschappen. bijv."
+      ],
+      "You can't edit this item because it is in the Trash. Please restore it and try again.": [
+        "Je kunt dit item niet bewerken omdat het in de prullenbak staat. Herstel het en probeer het opnieuw."
+      ],
+      "You don't have any presets yet.": [
+        "Je hebt nog geen voorinstellingen."
+      ],
+      "You don't have enough permissions to edit \"%s\" post type.": [
+        "Je hebt niet genoeg rechten om het berichttype '%s' te bewerken."
+      ],
+      "You have no deleted %s.": [
+        "Je hebt geen verwijderde %s."
+      ],
+      "You have no published %s.": [
+        "Je hebt geen gepubliceerde %s."
+      ],
+      "You have unsaved changes": [
+        "U heeft niet-opgeslagen wijzigingen"
+      ],
+      "You have unsaved changes to your AI Settings.": [
+        "U heeft niet-opgeslagen wijzigingen in uw AI-instellingen."
+      ],
+      "You have unsaved changes to your Global Settings.": [
+        "U heeft niet-opgeslagen wijzigingen in uw Algemene instellingen."
+      ],
+      "You have unsaved changes to your Presets.": [
+        "Er zijn niet-opgeslagen wijzigingen in uw voorinstellingen."
+      ],
+      "You have unsaved changes to your Selectors.": [
+        "Er zijn niet-opgeslagen wijzigingen in uw kiezers."
+      ],
+      "You have unsaved changes to your Variables.": [
+        "Er zijn niet-opgeslagen wijzigingen in uw variabelen."
+      ],
+      "You must save your changes first": [
+        "U moet uw wijzigingen eerst opslaan"
+      ],
+      "You need to set up your OpenAI API key before you can use the AI assistant.": [
+        "U moet uw OpenAI API-sleutel instellen voordat u de AI-assistent kunt gebruiken."
+      ],
+      "You're about to delete \"%s\" permanently from the site. Are you sure?": [
+        "U staat op het punt \"%s\" permanent van de site te verwijderen. Weet je het zeker?"
+      ],
+      "You've already imported settings from this Design Library.": [
+        "U heeft al instellingen uit deze ontwerpbibliotheek geïmporteerd."
+      ],
+      "You've already imported the Design Presets from this site.": [
+        "U heeft de ontwerpvoorinstellingen al van deze site geïmporteerd."
+      ],
+      "You've been logged out of WordPress. Log back in to continue using %s.": [
+        "U bent uitgelogd bij WordPress. Log opnieuw in om %s te blijven gebruiken."
+      ],
+      "Your existing %s will be moved to the trash. You can restore them from the trash after the import.": [
+        "Uw bestaande %s wordt naar de prullenbak verplaatst. U kunt ze na het importeren vanuit de prullenbak herstellen."
+      ],
+      "Your existing Design Presets will be overwritten with the Presets from this library website.": [
+        "Uw bestaande ontwerpvoorinstellingen worden overschreven met de voorinstellingen van deze bibliotheekwebsite."
+      ],
+      "Your Name": [
+        "Jouw naam"
+      ],
+      "Your server returned a %s error.": [
+        "Uw server heeft een %s -fout geretourneerd."
+      ],
+      "Your session has expired": [
+        "Uw sessie is verlopen"
+      ],
+      "Your session has expired. Refresh your session to continue using %s.": [
+        "Uw sessie is verlopen. Vernieuw uw sessie om %s te blijven gebruiken."
+      ],
+      "Your sitemap is ready!": [
+        "Je sitemap is klaar!"
+      ],
+      "Your template settings don't match any content. You can:": [
+        "Uw sjablooninstellingen komen met geen enkele inhoud overeen. U kunt:"
+      ],
+      "Your website is ready!": [
+        "Je website is klaar!"
+      ],
+      "%s: CSS class name(s)\u0004%s is assigned to this element but is no longer present on the site. Remove it by <span>clicking here</span> or editing the class list.": [
+        "%s is toegewezen aan dit element, maar is niet langer aanwezig op de site. Verwijder het door <span>hier te klikken</span> of door de klassenlijst te bewerken.",
+        "%s zijn toegewezen aan dit element, maar zijn niet langer aanwezig op de site. Verwijder ze door <span>hier te klikken</span> of door de klassenlijst te bewerken."
+      ],
+      "Color\u0004Add %s": [
+        "Voeg %s toe"
+      ],
+      "Controls Tree\u0004Clear %s": [
+        "Wis %s"
+      ],
+      "Controls Tree\u0004Copy %s": [
+        "Kopieer %s"
+      ],
+      "Controls Tree\u0004Paste %s": [
+        "Plak %s"
+      ],
+      "Design Library\u0004Import %s": [
+        "Importeer %s"
+      ],
+      "Document\u0004Edit %s": [
+        "Bewerk %s"
+      ],
+      "Document\u0004Editing %s": [
+        "%s bewerken"
+      ],
+      "element nesting\u0004Must be added inside a \"%s\" element": [
+        "Moet worden toegevoegd binnen een \"%s\"-element",
+        "Moet worden toegevoegd binnen een \"%s\"-element"
+      ],
+      "Element Presets\u0004Search results for \"%s\"": [
+        "Zoekresultaten voor \"%s\""
+      ],
+      "Element Properties\u0004Search results for \"%s\"": [
+        "Zoekresultaten voor \"%s\""
+      ],
+      "Element Studio\u0004New %s": [
+        "Nieuws"
+      ],
+      "Element Studio Item Type\u0004Open %s": [
+        "%s openen"
+      ],
+      "Global Block\u0004Add %s": [
+        "Voeg %s toe"
+      ],
+      "Global Block\u0004Copy of \"%s\"": [
+        "Kopie van \"%s\""
+      ],
+      "Global Block\u0004Edit %s": [
+        "Bewerk %s"
+      ],
+      "Global Block\u0004Editing \"%s\"": [
+        "\"%s\" bewerken"
+      ],
+      "Global Block\u0004New %s": [
+        "Nieuws"
+      ],
+      "Global Blocks\u0004Deleted %s": [
+        "%s verwijderd"
+      ],
+      "Global Settings\u0004Search results for \"%s\"": [
+        "Zoekresultaten voor \"%s\""
+      ],
+      "Oxygen Control\u0004Paste %s": [
+        "Plak %s"
+      ],
+      "Plugin name\u0004The template does not contain a Template Content Area element. Therefore, the posts it applies to are not editable in %s.": [
+        "De sjabloon bevat geen Template Content Area-element. Daarom zijn de berichten waarop het van toepassing is, niet bewerkbaar in %s."
+      ],
+      "Search\u0004No %s found.": [
+        "Geen %s gevonden."
+      ],
+      "Selectors\u0004Search results for \"%s\"": [
+        "Zoekresultaten voor \"%s\""
+      ],
+      "Settings\u0004Import %s": [
+        "Importeer %s"
+      ],
+      "Template\u0004Add %s": [
+        "Voeg %s toe"
+      ],
+      "Template\u0004Copy of \"%s\"": [
+        "Kopie van \"%s\""
+      ],
+      "Template\u0004Edit in %s": [
+        "Bewerken in %s"
+      ],
+      "Template\u0004Editing \"%s\"": [
+        "\"%s\" bewerken"
+      ],
+      "Template\u0004New %s": [
+        "Nieuws"
+      ],
+      "Templates\u0004Deleted %s": [
+        "%s verwijderd"
+      ],
+      "Templates\u0004No %s found.": [
+        "Geen %s gevonden."
+      ]
+    }
+  }
+}

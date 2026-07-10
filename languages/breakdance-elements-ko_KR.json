@@ -1,0 +1,6782 @@
+{
+  "translation-revision-date": "2026-07-09 21:24:-0300",
+  "generator": "Breakdance Languages",
+  "domain": "breakdance-elements",
+  "locale_data": {
+    "breakdance-elements": {
+      "": {
+        "domain": "breakdance-elements",
+        "lang": "ko-KR",
+        "plural-forms": "nplurals=1; plural=0;"
+      },
+      "Breakdance Element Development": [
+        "브레이크댄스 요소 개발"
+      ],
+      "https://breakdance.com/": [
+        "https://breakdance.com/"
+      ],
+      "First-party Breakdance elements.": [
+        "자사 브레이크댄스 요소."
+      ],
+      "Breakdance": [
+        "브레이크 댄스"
+      ],
+      "This element is missing. Please open the page in Breakdance and check the browser console for details.": [
+        "이 요소가 누락되었습니다. 자세한 내용은 Breakdance에서 페이지를 열고 브라우저 콘솔을 확인하세요."
+      ],
+      "Have questions? We’re here to help. <a href=\"https://breakdance.com/support/\" target=\"_blank\">Click here</a> to contact support.": [
+        "질문이 있으신가요? 우리가 도와드리겠습니다. 지원팀에 문의하려면 <a href=\"https://breakdance.com/support/\" target=\"_blank\">여기를 클릭</a>하세요."
+      ],
+      "Element name\u0004WP Menu": [
+        "WP 메뉴"
+      ],
+      "Control label\u0004Desktop Menu": [
+        "데스크탑 메뉴"
+      ],
+      "Control label\u0004Links": [
+        "모래밭"
+      ],
+      "Control label\u0004Effect": [
+        "효과"
+      ],
+      "Control label\u0004Effect Type": [
+        "효과 유형"
+      ],
+      "Control label\u0004Effect Direction": [
+        "효과 방향"
+      ],
+      "Control label\u0004Thickness": [
+        "두께"
+      ],
+      "Control label\u0004Color": [
+        "색상"
+      ],
+      "Control label\u0004Radius": [
+        "반지름"
+      ],
+      "Control label\u0004Active": [
+        "활동적인"
+      ],
+      "Control label\u0004Text Color": [
+        "텍스트 색상"
+      ],
+      "Control label\u0004Space Between": [
+        "사이의 공간"
+      ],
+      "Control label\u0004Dropdown Arrows": [
+        "드롭다운 화살표"
+      ],
+      "Control label\u0004Disable": [
+        "장애를 입히다"
+      ],
+      "Control label\u0004Size": [
+        "크기"
+      ],
+      "Control label\u0004Gap": [
+        "갭"
+      ],
+      "Control label\u0004Offset": [
+        "오프셋"
+      ],
+      "Control label\u0004Closed Rotation": [
+        "닫힌 회전"
+      ],
+      "Control label\u0004Open Rotation": [
+        "개방형 회전"
+      ],
+      "Control label\u0004Custom Arrow": [
+        "맞춤 화살표"
+      ],
+      "Control label\u0004Dropdowns": [
+        "드롭다운"
+      ],
+      "Control label\u0004Wrapper": [
+        "싸개"
+      ],
+      "Control label\u0004Background": [
+        "배경"
+      ],
+      "Control label\u0004Placement": [
+        "놓기"
+      ],
+      "Control label\u0004Width": [
+        "너비"
+      ],
+      "Control label\u0004Caret Radius": [
+        "캐럿 반경"
+      ],
+      "Control label\u0004Disable Caret": [
+        "캐럿 비활성화"
+      ],
+      "Control label\u0004Animation": [
+        "생기"
+      ],
+      "Control label\u0004Transition Duration": [
+        "전환 기간"
+      ],
+      "Control label\u0004Spacing": [
+        "간격"
+      ],
+      "Control label\u0004Between Links": [
+        "링크 사이"
+      ],
+      "Control label\u0004Hover Background": [
+        "호버 배경"
+      ],
+      "Control label\u0004Open Dropdowns on Click": [
+        "클릭 시 드롭다운 열기"
+      ],
+      "Control label\u0004Vertical": [
+        "수직의"
+      ],
+      "Control label\u0004Vertical Mode": [
+        "수직 모드"
+      ],
+      "Control label\u0004Alignment": [
+        "조정"
+      ],
+      "Control label\u0004Mobile Menu": [
+        "모바일 메뉴"
+      ],
+      "Control label\u0004Show At": [
+        "표시 위치"
+      ],
+      "Control label\u0004Mode": [
+        "방법"
+      ],
+      "Control label\u0004Offcanvas Width": [
+        "오프캔버스 너비"
+      ],
+      "Control label\u0004Offcanvas Position": [
+        "오프캔버스 위치"
+      ],
+      "Control label\u0004Top Bar": [
+        "상단 바"
+      ],
+      "Control label\u0004Logo": [
+        "심벌 마크"
+      ],
+      "Control label\u0004Logo Width": [
+        "로고 너비"
+      ],
+      "Control label\u0004Logo On Right": [
+        "오른쪽에 로고"
+      ],
+      "Control label\u0004Logo URL": [
+        "로고 URL"
+      ],
+      "Control label\u0004Logo Alt": [
+        "로고 대체"
+      ],
+      "Control label\u0004Alt": [
+        "Alt"
+      ],
+      "Control label\u0004Custom Alt": [
+        "사용자 정의 Alt"
+      ],
+      "Control label\u0004Padding": [
+        "심"
+      ],
+      "Control label\u0004Close Button": [
+        "닫기 버튼"
+      ],
+      "Control label\u0004Bar Height": [
+        "바 높이"
+      ],
+      "Control label\u0004Vertically Align Center": [
+        "수직으로 가운데 정렬"
+      ],
+      "Control label\u0004No Border": [
+        "국경 없음"
+      ],
+      "Control label\u0004Border": [
+        "국경"
+      ],
+      "Control label\u0004Typography": [
+        "타이포그래피"
+      ],
+      "Control label\u0004Level 1": [
+        "레벨 1"
+      ],
+      "Control label\u0004Level 2": [
+        "레벨 2"
+      ],
+      "Control label\u0004Dropdowns Like Desktop": [
+        "데스크톱과 같은 드롭다운"
+      ],
+      "Control label\u0004Hide Link Graphic": [
+        "링크 그래픽 숨기기"
+      ],
+      "Control label\u0004Hide Link Description": [
+        "링크 설명 숨기기"
+      ],
+      "Control label\u0004Horizontally Center Links": [
+        "수평 중심 링크"
+      ],
+      "Control label\u0004Toggle": [
+        "비녀장"
+      ],
+      "Control label\u0004Icon": [
+        "상"
+      ],
+      "Control label\u0004Icon Open": [
+        "아이콘 열기"
+      ],
+      "Control label\u0004Wrapper Open": [
+        "래퍼 오픈"
+      ],
+      "Control label\u0004Wrapper Padding": [
+        "래퍼 패딩"
+      ],
+      "Control label\u0004Wrapper Radius": [
+        "래퍼 반경"
+      ],
+      "Control label\u0004Custom Icon": [
+        "맞춤 아이콘"
+      ],
+      "Control label\u0004Bar Width": [
+        "바 너비"
+      ],
+      "Control label\u0004Bar Spacing": [
+        "바 간격"
+      ],
+      "Control label\u0004Bar Radius": [
+        "바 반경"
+      ],
+      "Control label\u0004Open Icon": [
+        "열기 아이콘"
+      ],
+      "Control label\u0004Close Icon": [
+        "닫기 아이콘"
+      ],
+      "Control label\u0004Menu": [
+        "메뉴"
+      ],
+      "Control label\u0004Accessibility": [
+        "접근성"
+      ],
+      "Control label\u0004Attributes": [
+        "속성"
+      ],
+      "Control label\u0004Name": [
+        "이름"
+      ],
+      "Control label\u0004Value": [
+        "값"
+      ],
+      "Item text\u0004Underline": [
+        "밑줄"
+      ],
+      "Item text\u0004Overline": [
+        "윗줄"
+      ],
+      "Item text\u0004Strikethrough": [
+        "취소선"
+      ],
+      "Item text\u0004Background": [
+        "배경"
+      ],
+      "Item text\u0004None": [
+        "없음"
+      ],
+      "Item text\u0004Left": [
+        "왼쪽"
+      ],
+      "Item text\u0004Center": [
+        "센터"
+      ],
+      "Item text\u0004Right": [
+        "오른쪽"
+      ],
+      "Item text\u0004Top": [
+        "맨 위"
+      ],
+      "Item text\u0004Bottom": [
+        "맨 아래"
+      ],
+      "Item text\u0004Full Width": [
+        "전폭"
+      ],
+      "Item text\u0004Section Width": [
+        "단면 폭"
+      ],
+      "Item text\u0004Fade": [
+        "바래다"
+      ],
+      "Item text\u0004Stripe": [
+        "줄무늬"
+      ],
+      "Item text\u0004Skew": [
+        "비스듬한"
+      ],
+      "Item text\u0004Rotate": [
+        "회전"
+      ],
+      "Item text\u0004Scale Down": [
+        "축소"
+      ],
+      "Item text\u0004Scale Down Right": [
+        "오른쪽으로 축소"
+      ],
+      "Item text\u0004Dropdown": [
+        "드롭다운"
+      ],
+      "Item text\u0004Accordion": [
+        "아코디언"
+      ],
+      "Item text\u0004Side": [
+        "옆"
+      ],
+      "Item text\u0004Default": [
+        "기본"
+      ],
+      "Item text\u0004Fullscreen": [
+        "전체 화면"
+      ],
+      "Item text\u0004Offcanvas": [
+        "오프캔버스"
+      ],
+      "Item text\u0004Disable": [
+        "장애를 입히다"
+      ],
+      "Item text\u0004Custom": [
+        "관습"
+      ],
+      "Item text\u0004Disabled": [
+        "장애가 있는"
+      ],
+      "Item text\u0004Arrow": [
+        "화살"
+      ],
+      "Item text\u0004Collapse": [
+        "무너지다"
+      ],
+      "Item text\u0004Elastic": [
+        "탄력 있는"
+      ],
+      "Item text\u0004Emphatic": [
+        "강조된"
+      ],
+      "Item text\u0004Minus": [
+        "마이너스"
+      ],
+      "Item text\u0004Slider": [
+        "슬라이더"
+      ],
+      "Item text\u0004Spin": [
+        "회전"
+      ],
+      "Item text\u0004Spring": [
+        "봄"
+      ],
+      "Item text\u0004Squeeze": [
+        "짜내다"
+      ],
+      "Item text\u0004Stand": [
+        "서다"
+      ],
+      "Item text\u0004Vortex": [
+        "와동"
+      ],
+      "Item text\u00043DX": [
+        "3DX"
+      ],
+      "Item text\u00043DXY": [
+        "3DXY"
+      ],
+      "Item text\u00043DY": [
+        "3DY"
+      ],
+      "Preset section label\u0004Typography": [
+        "타이포그래피"
+      ],
+      "Preset section label\u0004Size": [
+        "크기"
+      ],
+      "Preset section label\u0004Padding": [
+        "심"
+      ],
+      "Preset section label\u0004Borders": [
+        "테두리"
+      ],
+      "Preset section label\u0004Title": [
+        "제목"
+      ],
+      "Preset section label\u0004Level 1": [
+        "레벨 1"
+      ],
+      "Preset section label\u0004Level 2": [
+        "레벨 2"
+      ],
+      "Preset section label\u0004Spacing": [
+        "간격"
+      ],
+      "Element name\u0004Product Tabs": [
+        "제품 탭"
+      ],
+      "Control label\u0004Below Tabs": [
+        "탭 아래"
+      ],
+      "Control label\u0004Advanced": [
+        "고급의"
+      ],
+      "Control label\u0004Tabs": [
+        "탭"
+      ],
+      "Control label\u0004Description": [
+        "설명"
+      ],
+      "Control label\u0004Title": [
+        "제목"
+      ],
+      "Control label\u0004Additional Information": [
+        "추가 정보"
+      ],
+      "Control label\u0004Reviews": [
+        "리뷰"
+      ],
+      "Item label\u0004Woo": [
+        "우"
+      ],
+      "Preset section label\u0004Tabs": [
+        "탭"
+      ],
+      "Preset section label\u0004Container": [
+        "컨테이너"
+      ],
+      "Preset section label\u0004Global Styles Override": [
+        "전역 스타일 재정의"
+      ],
+      "Element name\u0004Tabs": [
+        "탭"
+      ],
+      "Control label\u0004Content": [
+        "콘텐츠"
+      ],
+      "Control label\u0004Active Tab": [
+        "활성 탭"
+      ],
+      "Control label\u0004Open On Hover": [
+        "마우스오버 시 열기"
+      ],
+      "Item text\u0004title": [
+        "제목"
+      ],
+      "Preset section label\u0004Content": [
+        "콘텐츠"
+      ],
+      "Preset section label\u0004Wrapper": [
+        "싸개"
+      ],
+      "Element name\u0004Business Hours": [
+        "영업시간"
+      ],
+      "Control label\u0004Rows": [
+        "행"
+      ],
+      "Control label\u0004Background A": [
+        "배경 A"
+      ],
+      "Control label\u0004Background B": [
+        "배경 B"
+      ],
+      "Control label\u0004Background Accent": [
+        "배경 악센트"
+      ],
+      "Control label\u0004Border Color": [
+        "테두리 색상"
+      ],
+      "Control label\u0004Day B": [
+        "B일차"
+      ],
+      "Control label\u0004Time B": [
+        "시간 B"
+      ],
+      "Control label\u0004Container": [
+        "컨테이너"
+      ],
+      "Control label\u0004Shadow": [
+        "그림자"
+      ],
+      "Control label\u0004Days": [
+        "날"
+      ],
+      "Control label\u0004Day": [
+        "낮"
+      ],
+      "Control label\u0004Time": [
+        "시간"
+      ],
+      "Control label\u0004Accent Style": [
+        "악센트 스타일"
+      ],
+      "Preset section label\u0004Day": [
+        "낮"
+      ],
+      "Preset section label\u0004Time": [
+        "시간"
+      ],
+      "Preset section label\u0004Day Accent": [
+        "데이 액센트"
+      ],
+      "Preset section label\u0004Time Accent": [
+        "시간 악센트"
+      ],
+      "Element name\u0004Repeater Field": [
+        "리피터 필드"
+      ],
+      "Control label\u0004Item": [
+        "목"
+      ],
+      "Control label\u0004Repeated Block": [
+        "반복 차단"
+      ],
+      "Control label\u0004Global Block": [
+        "글로벌 블록"
+      ],
+      "Control label\u0004Tag": [
+        "꼬리표"
+      ],
+      "Control label\u0004Alternates": [
+        "대체"
+      ],
+      "Control label\u0004Position": [
+        "위치"
+      ],
+      "Control label\u0004Repeat": [
+        "반복하다"
+      ],
+      "Control label\u0004Frequency": [
+        "빈도"
+      ],
+      "Control label\u0004Static Items": [
+        "정적 항목"
+      ],
+      "Control label\u0004When Empty": [
+        "비어 있을 때"
+      ],
+      "Control label\u0004Field": [
+        "필드"
+      ],
+      "Control label\u0004Item Title": [
+        "항목 제목"
+      ],
+      "Control label\u0004Repeater Field": [
+        "리피터 필드"
+      ],
+      "Item text\u0004article": [
+        "기사"
+      ],
+      "Item text\u0004section": [
+        "부분"
+      ],
+      "Item text\u0004div": [
+        "div"
+      ],
+      "Preset section label\u0004List": [
+        "목록"
+      ],
+      "Element name\u0004Wrapper Link": [
+        "래퍼 링크"
+      ],
+      "Control label\u0004Min Height": [
+        "최소 높이"
+      ],
+      "Control label\u0004Hover": [
+        "호버"
+      ],
+      "Control label\u0004Text Colors": [
+        "텍스트 색상"
+      ],
+      "Control label\u0004Headings": [
+        "제목"
+      ],
+      "Control label\u0004Text": [
+        "텍스트"
+      ],
+      "Control label\u0004Brand": [
+        "상표"
+      ],
+      "Control label\u0004Link": [
+        "링크"
+      ],
+      "Control label\u0004Warning": [
+        "경고"
+      ],
+      "Preset section label\u0004Layout": [
+        "공들여 나열한 것"
+      ],
+      "Preset section label\u0004Background": [
+        "배경"
+      ],
+      "Element name\u0004Register Form": [
+        "등록 양식"
+      ],
+      "Control label\u0004Form": [
+        "형태"
+      ],
+      "Control label\u0004Labels": [
+        "라벨"
+      ],
+      "Control label\u0004Username Label": [
+        "사용자 이름 라벨"
+      ],
+      "Control label\u0004Username Placeholder": [
+        "사용자 이름 자리표시자"
+      ],
+      "Control label\u0004Email Label": [
+        "이메일 라벨"
+      ],
+      "Control label\u0004Email Placeholder": [
+        "이메일 자리표시자"
+      ],
+      "Control label\u0004Password Label": [
+        "비밀번호 라벨"
+      ],
+      "Control label\u0004Password Placeholder": [
+        "비밀번호 자리 표시자"
+      ],
+      "Control label\u0004Submit Text": [
+        "텍스트 제출"
+      ],
+      "Control label\u0004Success Message": [
+        "성공 메시지"
+      ],
+      "Control label\u0004Auto Log In User": [
+        "자동 로그인 사용자"
+      ],
+      "Control label\u0004Redirect After Registration": [
+        "등록 후 리디렉션"
+      ],
+      "Control label\u0004Redirect URL": [
+        "리디렉션 URL"
+      ],
+      "Preset section label\u0004Form": [
+        "형태"
+      ],
+      "Element name\u0004Fancy Container": [
+        "멋진 컨테이너"
+      ],
+      "Control label\u0004Height": [
+        "키"
+      ],
+      "Element name\u0004Simple Counter": [
+        "단순 카운터"
+      ],
+      "Control label\u0004Content Alignment": [
+        "콘텐츠 정렬"
+      ],
+      "Control label\u0004Below Number": [
+        "아래 번호"
+      ],
+      "Control label\u0004Around Number": [
+        "숫자 주변"
+      ],
+      "Control label\u0004Counter": [
+        "계수기"
+      ],
+      "Control label\u0004Prefix": [
+        "접두사"
+      ],
+      "Control label\u0004Suffix": [
+        "접미사"
+      ],
+      "Control label\u0004Start": [
+        "시작"
+      ],
+      "Control label\u0004End": [
+        "끝"
+      ],
+      "Control label\u0004Duration": [
+        "지속"
+      ],
+      "Control label\u0004Ease Count": [
+        "용이성 수"
+      ],
+      "Control label\u0004Format Number": [
+        "형식 번호"
+      ],
+      "Control label\u0004Separator": [
+        "분리 기호"
+      ],
+      "Control label\u0004HTML Tags": [
+        "HTML 태그"
+      ],
+      "Control label\u0004Number": [
+        "숫자"
+      ],
+      "Item text\u0004Right;": [
+        "오른쪽;"
+      ],
+      "Item text\u0004Space": [
+        "공간"
+      ],
+      "Item text\u0004Dot": [
+        "점"
+      ],
+      "Item text\u0004Comma": [
+        "콤마"
+      ],
+      "Item text\u0004h1": [
+        "h1"
+      ],
+      "Item text\u0004h2": [
+        "h2"
+      ],
+      "Item text\u0004h3": [
+        "h3"
+      ],
+      "Item text\u0004h4": [
+        "h4"
+      ],
+      "Item text\u0004h5": [
+        "h5"
+      ],
+      "Item text\u0004h6": [
+        "h6"
+      ],
+      "Preset section label\u0004Number": [
+        "숫자"
+      ],
+      "Preset section label\u0004Prefix": [
+        "접두사"
+      ],
+      "Preset section label\u0004Suffix": [
+        "접미사"
+      ],
+      "Element name\u0004Circle Counter": [
+        "서클 카운터"
+      ],
+      "Control label\u0004Progress Bar": [
+        "진행률 표시줄"
+      ],
+      "Control label\u0004Background Bar": [
+        "배경 표시줄"
+      ],
+      "Control label\u0004Style": [
+        "스타일"
+      ],
+      "Control label\u0004Value Position": [
+        "가치 위치"
+      ],
+      "Control label\u0004Space Above": [
+        "위의 공간"
+      ],
+      "Control label\u0004Line Cap": [
+        "라인 캡"
+      ],
+      "Control label\u0004Bar Style": [
+        "바 스타일"
+      ],
+      "Control label\u0004Gradient": [
+        "구배"
+      ],
+      "Control label\u0004Max Value": [
+        "최대값"
+      ],
+      "Item text\u0004Inside": [
+        "내부에"
+      ],
+      "Item text\u0004Outside": [
+        "밖의"
+      ],
+      "Item text\u0004Round": [
+        "둥근"
+      ],
+      "Item text\u0004Flat": [
+        "평평한"
+      ],
+      "Item text\u0004Color": [
+        "색상"
+      ],
+      "Item text\u0004Gradient": [
+        "구배"
+      ],
+      "Preset section label\u0004Value": [
+        "값"
+      ],
+      "Element name\u0004Pagination": [
+        "쪽수 매기기"
+      ],
+      "Control label\u0004Pagination": [
+        "쪽수 매기기"
+      ],
+      "Control label\u0004Active Color": [
+        "활성 색상"
+      ],
+      "Control label\u0004Dots Color": [
+        "도트 색상"
+      ],
+      "Control label\u0004Display As Buttons": [
+        "버튼으로 표시"
+      ],
+      "Control label\u0004Buttons": [
+        "버튼"
+      ],
+      "Element name\u0004Order Tracking Page": [
+        "주문 추적 페이지"
+      ],
+      "Preset section label\u0004Override Global Styles": [
+        "전역 스타일 재정의"
+      ],
+      "Element name\u0004Product Price": [
+        "제품 가격"
+      ],
+      "Control label\u0004Layout": [
+        "공들여 나열한 것"
+      ],
+      "Control label\u0004Stack Vertically": [
+        "수직으로 쌓기"
+      ],
+      "Item text\u0004Veritical": [
+        "수직"
+      ],
+      "Item text\u0004Horizontal": [
+        "수평의"
+      ],
+      "Preset section label\u0004Current Price": [
+        "현재 가격"
+      ],
+      "Preset section label\u0004Old Price": [
+        "이전 가격"
+      ],
+      "Element name\u0004FacetWP Facet": [
+        "패싯WP 패싯"
+      ],
+      "Control label\u0004Facet": [
+        "한 면"
+      ],
+      "Element name\u0004Popup": [
+        "팝업"
+      ],
+      "Control label\u0004Popup": [
+        "팝업"
+      ],
+      "Control label\u0004Align": [
+        "맞추다"
+      ],
+      "Control label\u0004Vertical Align": [
+        "수직 정렬"
+      ],
+      "Control label\u0004Translate": [
+        "번역하다"
+      ],
+      "Control label\u0004Max Height": [
+        "최대 높이"
+      ],
+      "Control label\u0004Entrance": [
+        "입구"
+      ],
+      "Control label\u0004Animation Type": [
+        "애니메이션 유형"
+      ],
+      "Control label\u0004Delay": [
+        "지연"
+      ],
+      "Control label\u0004Ease": [
+        "쉬움"
+      ],
+      "Control label\u0004Exit": [
+        "출구"
+      ],
+      "Control label\u0004Wrapped": [
+        "포장"
+      ],
+      "Control label\u0004Outside": [
+        "밖의"
+      ],
+      "Control label\u0004Disable Overlay": [
+        "오버레이 비활성화"
+      ],
+      "Control label\u0004Allow Scroll": [
+        "스크롤 허용"
+      ],
+      "Control label\u0004Disable Close Button": [
+        "닫기 버튼 비활성화"
+      ],
+      "Control label\u0004Show Close Button After": [
+        "다음 이후에 닫기 버튼 표시"
+      ],
+      "Control label\u0004Popup Can": [
+        "팝업 캔"
+      ],
+      "Control label\u0004Automatically Close After": [
+        "다음 이후 자동 종료"
+      ],
+      "Control label\u0004Popup HTML ID": [
+        "팝업 HTML ID"
+      ],
+      "Control label\u0004Popup CSS Class": [
+        "팝업 CSS 클래스"
+      ],
+      "Control label\u0004Keep Open On Hashlink Clicks": [
+        "해시링크 클릭 시 열린 상태 유지"
+      ],
+      "Item text\u0004Middle": [
+        "가운데"
+      ],
+      "Item text\u0004Slide Up": [
+        "슬라이드 업"
+      ],
+      "Item text\u0004Slide Down": [
+        "아래로 슬라이드"
+      ],
+      "Item text\u0004Slide Left": [
+        "왼쪽으로 슬라이드"
+      ],
+      "Item text\u0004Slide Right": [
+        "오른쪽으로 슬라이드"
+      ],
+      "Item text\u0004Flip Up": [
+        "뒤집기"
+      ],
+      "Item text\u0004Flip Down": [
+        "아래로 뒤집기"
+      ],
+      "Item text\u0004Flip Left": [
+        "왼쪽으로 뒤집기"
+      ],
+      "Item text\u0004Flip Right": [
+        "오른쪽으로 뒤집기"
+      ],
+      "Item text\u0004Zoom In": [
+        "확대"
+      ],
+      "Item text\u0004Zoom Out": [
+        "축소"
+      ],
+      "Item text\u0004Linear": [
+        "선의"
+      ],
+      "Item text\u0004Expo In": [
+        "엑스포 인"
+      ],
+      "Item text\u0004Expo Out": [
+        "엑스포 아웃"
+      ],
+      "Item text\u0004Expo InOut": [
+        "엑스포 인아웃"
+      ],
+      "Item text\u0004Power1 In": [
+        "전원1 입력"
+      ],
+      "Item text\u0004Power1 Out": [
+        "전원1 출력"
+      ],
+      "Item text\u0004Power1 InOut": [
+        "전원1 입력 출력"
+      ],
+      "Item text\u0004Power2 In": [
+        "Power2 입력"
+      ],
+      "Item text\u0004Power2 Out": [
+        "전원2 출력"
+      ],
+      "Item text\u0004Power2 InOut": [
+        "Power2 입력 출력"
+      ],
+      "Item text\u0004Power3 In": [
+        "Power3 입력"
+      ],
+      "Item text\u0004Power3 Out": [
+        "전원3 출력"
+      ],
+      "Item text\u0004Power3 InOut": [
+        "Power3 입력 출력"
+      ],
+      "Item text\u0004Power4 In": [
+        "Power4 입력"
+      ],
+      "Item text\u0004Power4 Out": [
+        "전원4 출력"
+      ],
+      "Item text\u0004Power4 InOut": [
+        "Power4 입력 출력"
+      ],
+      "Item text\u0004Back In": [
+        "복귀"
+      ],
+      "Item text\u0004Back Out": [
+        "뒤로가기"
+      ],
+      "Item text\u0004Back InOut": [
+        "백인아웃"
+      ],
+      "Item text\u0004Elastic In": [
+        "탄성 있음"
+      ],
+      "Item text\u0004Elastic Out": [
+        "탄성 아웃"
+      ],
+      "Item text\u0004Elastic InOut": [
+        "탄력적 인아웃"
+      ],
+      "Item text\u0004Bounce In": [
+        "바운스 인"
+      ],
+      "Item text\u0004Bounce Out": [
+        "바운스 아웃"
+      ],
+      "Item text\u0004Bounce InOut": [
+        "바운스 인아웃"
+      ],
+      "Item text\u0004Top Right": [
+        "오른쪽 상단"
+      ],
+      "Item text\u0004Middle Right": [
+        "가운데 오른쪽"
+      ],
+      "Item text\u0004Bottom Right": [
+        "오른쪽 하단"
+      ],
+      "Item text\u0004Top Left": [
+        "왼쪽 상단"
+      ],
+      "Item text\u0004Middle Left": [
+        "중간 왼쪽"
+      ],
+      "Item text\u0004Bottom Left": [
+        "왼쪽 하단"
+      ],
+      "Preset section label\u0004Overlay": [
+        "씌우다"
+      ],
+      "Element name\u0004Video": [
+        "동영상"
+      ],
+      "Control label\u0004Overlay": [
+        "씌우다"
+      ],
+      "Control label\u0004Lazy Load": [
+        "지연 로드"
+      ],
+      "Control label\u0004Icon Color": [
+        "아이콘 색상"
+      ],
+      "Control label\u0004Icon Size": [
+        "아이콘 크기"
+      ],
+      "Control label\u0004Video": [
+        "동영상"
+      ],
+      "Control label\u0004Ratio": [
+        "비율"
+      ],
+      "Control label\u0004Custom width": [
+        "맞춤 너비"
+      ],
+      "Control label\u0004Custom height": [
+        "맞춤 높이"
+      ],
+      "Control label\u0004Video Options": [
+        "비디오 옵션"
+      ],
+      "Control label\u0004Poster": [
+        "포스터"
+      ],
+      "Control label\u0004Autoplay": [
+        "자동재생"
+      ],
+      "Control label\u0004Controls": [
+        "통제 수단"
+      ],
+      "Control label\u0004Loop": [
+        "고리"
+      ],
+      "Control label\u0004Muted": [
+        "음소거됨"
+      ],
+      "Control label\u0004Download Button": [
+        "다운로드 버튼"
+      ],
+      "Control label\u0004YouTube": [
+        "유튜브"
+      ],
+      "Control label\u0004Load Method": [
+        "로드 방법"
+      ],
+      "Control label\u0004Background Image": [
+        "배경 이미지"
+      ],
+      "Control label\u0004Mute": [
+        "무음"
+      ],
+      "Control label\u0004Modest Branding": [
+        "겸손한 브랜딩"
+      ],
+      "Control label\u0004Hide Player Controls": [
+        "플레이어 컨트롤 숨기기"
+      ],
+      "Control label\u0004Play Inline": [
+        "인라인으로 플레이"
+      ],
+      "Control label\u0004Privacy mode": [
+        "개인 정보 보호 모드"
+      ],
+      "Control label\u0004Start Time": [
+        "시작 시간"
+      ],
+      "Control label\u0004End Time": [
+        "종료 시간"
+      ],
+      "Control label\u0004Suggested Videos": [
+        "추천 동영상"
+      ],
+      "Control label\u0004Vimeo": [
+        "비메오"
+      ],
+      "Control label\u0004DailyMotion": [
+        "데일리모션"
+      ],
+      "Control label\u0004Hide All Controls": [
+        "모든 컨트롤 숨기기"
+      ],
+      "Control label\u0004Hide Logo": [
+        "로고 숨기기"
+      ],
+      "Control label\u0004Hide Video Info": [
+        "비디오 정보 숨기기"
+      ],
+      "Control label\u0004Disable Sharing": [
+        "공유 비활성화"
+      ],
+      "Item text\u000416:9": [
+        "16:9"
+      ],
+      "Item text\u000416:10": [
+        "16:10"
+      ],
+      "Item text\u00044:3": [
+        "4:3"
+      ],
+      "Item text\u00041:1": [
+        "1:1"
+      ],
+      "Item text\u000421:9": [
+        "21:9"
+      ],
+      "Item text\u00043:2": [
+        "3:2"
+      ],
+      "Item text\u0004Lightweight": [
+        "경량"
+      ],
+      "Item text\u0004Lazy load": [
+        "지연 로드"
+      ],
+      "Item text\u0004Full Embed": [
+        "전체 포함"
+      ],
+      "Item text\u0004From same channel": [
+        "같은 채널에서"
+      ],
+      "Item text\u0004Recommendations": [
+        "권장사항"
+      ],
+      "Item text\u0004Lazy Load": [
+        "지연 로드"
+      ],
+      "Item text\u0004Full embed": [
+        "전체 삽입"
+      ],
+      "Element name\u0004Twitter Timeline": [
+        "트위터 타임라인"
+      ],
+      "Control label\u0004Theme": [
+        "주제"
+      ],
+      "Control label\u0004No Background": [
+        "배경 없음"
+      ],
+      "Control label\u0004No Header": [
+        "헤더 없음"
+      ],
+      "Control label\u0004No Footer": [
+        "바닥글 없음"
+      ],
+      "Control label\u0004No Scrollbar": [
+        "스크롤바 없음"
+      ],
+      "Control label\u0004Timeline": [
+        "타임라인"
+      ],
+      "Control label\u0004Username": [
+        "사용자 이름"
+      ],
+      "Control label\u0004Limit Tweets": [
+        "트윗 제한"
+      ],
+      "Control label\u0004Tweet Count": [
+        "트윗 수"
+      ],
+      "Item text\u0004Light": [
+        "빛"
+      ],
+      "Item text\u0004Dark": [
+        "어두운"
+      ],
+      "Element name\u0004Social Icons": [
+        "소셜 아이콘"
+      ],
+      "Control label\u0004Icons": [
+        "아이콘"
+      ],
+      "Control label\u0004Shape": [
+        "모양"
+      ],
+      "Control label\u0004Direction": [
+        "방향"
+      ],
+      "Control label\u0004Scale On Hover": [
+        "마우스 오버 시 크기 조정"
+      ],
+      "Control label\u0004Opacity": [
+        "불투명"
+      ],
+      "Control label\u0004Social Networks": [
+        "소셜 네트워크"
+      ],
+      "Control label\u0004Type": [
+        "유형"
+      ],
+      "Control label\u0004Aria Label": [
+        "아리아 라벨"
+      ],
+      "Item text\u0004Circle": [
+        "원"
+      ],
+      "Item text\u0004Square": [
+        "정사각형"
+      ],
+      "Item text\u0004Facebook": [
+        "페이스북"
+      ],
+      "Item text\u0004Twitter": [
+        "지저귀다"
+      ],
+      "Item text\u0004Instagram": [
+        "인스타그램"
+      ],
+      "Item text\u0004YouTube": [
+        "유튜브"
+      ],
+      "Item text\u0004Dribbble": [
+        "드리블"
+      ],
+      "Item text\u0004Behance": [
+        "비핸스"
+      ],
+      "Item text\u0004GitHub": [
+        "GitHub"
+      ],
+      "Item text\u0004LinkedIn": [
+        "링크드인"
+      ],
+      "Item text\u0004Vimeo": [
+        "비메오"
+      ],
+      "Element name\u0004Facebook Share Button": [
+        "페이스북 공유 버튼"
+      ],
+      "Control label\u0004Button": [
+        "단추"
+      ],
+      "Control label\u0004Facebook App": [
+        "페이스북 앱"
+      ],
+      "Control label\u0004URL to Like": [
+        "좋아요를 누른 URL"
+      ],
+      "Control label\u0004Custom URL": [
+        "맞춤 URL"
+      ],
+      "Item text\u0004Box Count": [
+        "박스 개수"
+      ],
+      "Item text\u0004Button Count": [
+        "버튼 수"
+      ],
+      "Item text\u0004Button": [
+        "단추"
+      ],
+      "Item text\u0004Small": [
+        "작은"
+      ],
+      "Item text\u0004Large": [
+        "크기가 큰"
+      ],
+      "Item text\u0004Current Page": [
+        "현재 페이지"
+      ],
+      "Item text\u0004Custom URL": [
+        "맞춤 URL"
+      ],
+      "Element name\u0004Tooltip": [
+        "툴팁"
+      ],
+      "Control label\u0004Tooltip": [
+        "툴팁"
+      ],
+      "Control label\u0004In-Builder Preview": [
+        "빌더 내 미리보기"
+      ],
+      "Preset section label\u0004Tooltip": [
+        "툴팁"
+      ],
+      "Element name\u0004Post List": [
+        "게시물 목록"
+      ],
+      "Control label\u0004Post": [
+        "우편"
+      ],
+      "Control label\u0004Image": [
+        "영상"
+      ],
+      "Control label\u0004Stack Vertically At": [
+        "수직으로 쌓기"
+      ],
+      "Control label\u0004Space": [
+        "공간"
+      ],
+      "Control label\u0004Aspect Ratio": [
+        "종횡비"
+      ],
+      "Control label\u0004Space Below": [
+        "아래 공간"
+      ],
+      "Control label\u0004Order": [
+        "주문하다"
+      ],
+      "Control label\u0004Meta": [
+        "메타"
+      ],
+      "Control label\u0004Taxonomy": [
+        "분류"
+      ],
+      "Control label\u0004Fallback Image": [
+        "대체 이미지"
+      ],
+      "Control label\u0004Count": [
+        "세다"
+      ],
+      "Control label\u0004Excerpt Length": [
+        "발췌 길이"
+      ],
+      "Control label\u0004Button Text": [
+        "버튼 텍스트"
+      ],
+      "Control label\u0004Open In New Tab": [
+        "새 탭에서 열기"
+      ],
+      "Control label\u0004Query": [
+        "질문"
+      ],
+      "Item text\u0004Justify": [
+        "신이 옳다고 하다"
+      ],
+      "Item text\u0004H1": [
+        "H1"
+      ],
+      "Item text\u0004H2": [
+        "H2"
+      ],
+      "Item text\u0004H3": [
+        "H3"
+      ],
+      "Item text\u0004H4": [
+        "H4"
+      ],
+      "Item text\u0004H5": [
+        "H5"
+      ],
+      "Item text\u0004H6": [
+        "H6"
+      ],
+      "Item text\u0004span": [
+        "기간"
+      ],
+      "Item text\u0004Author": [
+        "작가"
+      ],
+      "Item text\u0004Date": [
+        "날짜"
+      ],
+      "Item text\u0004Comment": [
+        "논평"
+      ],
+      "Item text\u0004Categories": [
+        "카테고리"
+      ],
+      "Item text\u0004Tags": [
+        "태그"
+      ],
+      "Item text\u0004Excerpt": [
+        "발췌"
+      ],
+      "Item text\u0004Content": [
+        "콘텐츠"
+      ],
+      "Preset section label\u0004Text": [
+        "텍스트"
+      ],
+      "Preset section label\u0004Button": [
+        "단추"
+      ],
+      "Preset section label\u0004Pagination": [
+        "쪽수 매기기"
+      ],
+      "Preset section label\u0004Filter Bar": [
+        "필터 막대"
+      ],
+      "Element name\u0004Product Builder": [
+        "제품 빌더"
+      ],
+      "Control label\u0004Product": [
+        "제품"
+      ],
+      "Control label\u0004Add Elements": [
+        "요소 추가"
+      ],
+      "Control label\u0004Disable Woo ID": [
+        "Woo ID 비활성화"
+      ],
+      "Item text\u0004This is a heading.": [
+        "이것은 제목입니다."
+      ],
+      "Item text\u0004<h2>Rich Text</h2><p>This is my rich text.</p><h3>I am a subheading</h3><p>This is <strong>more</strong> rich text.</p><ul><li><p>I am a list</p></li><li><p>Lists are cool</p></li></ul>": [
+        "<h2>서식 있는 텍스트</h2><p>이것은 내 서식 있는 텍스트입니다.</p><h3>나는 부제목입니다</h3><p>이것은 <strong>더 많은</strong> 서식 있는 텍스트입니다.</p><ul><li><p>나는 목록입니다</p></li><li><p>목록은 멋집니다</p></li></ul>"
+      ],
+      "Element name\u0004Pulse Dot": [
+        "펄스 도트"
+      ],
+      "Control label\u0004Pulse Dot": [
+        "펄스 도트"
+      ],
+      "Control label\u0004Pulse Duration": [
+        "펄스 지속 시간"
+      ],
+      "Control label\u0004Pulse Scale": [
+        "펄스 규모"
+      ],
+      "Element name\u0004Lottie Animation": [
+        "로티 애니메이션"
+      ],
+      "Control label\u0004Background Color": [
+        "배경색"
+      ],
+      "Control label\u0004Asset Url": [
+        "자산 URL"
+      ],
+      "Control label\u0004Animation Speed": [
+        "애니메이션 속도"
+      ],
+      "Control label\u0004Trigger": [
+        "방아쇠"
+      ],
+      "Control label\u0004Hover Area": [
+        "호버 영역"
+      ],
+      "Control label\u0004On Hover Out": [
+        "호버아웃 시"
+      ],
+      "Control label\u0004Reverse on finish": [
+        "마무리 시 반전"
+      ],
+      "Control label\u0004Loop Animation": [
+        "루프 애니메이션"
+      ],
+      "Control label\u0004Times to loop": [
+        "반복할 시간"
+      ],
+      "Control label\u0004Frames": [
+        "프레임"
+      ],
+      "Item text\u00040.5x": [
+        "0.5배"
+      ],
+      "Item text\u00041x": [
+        "1x"
+      ],
+      "Item text\u00042x": [
+        "2배"
+      ],
+      "Item text\u0004Viewport": [
+        "뷰포트"
+      ],
+      "Item text\u0004Click": [
+        "딸깍 하는 소리"
+      ],
+      "Item text\u0004Hover": [
+        "호버"
+      ],
+      "Item text\u0004Animation": [
+        "생기"
+      ],
+      "Item text\u0004Section": [
+        "부분"
+      ],
+      "Item text\u0004Parent element": [
+        "상위 요소"
+      ],
+      "Item text\u0004Do nothing": [
+        "아무것도 하지 마세요"
+      ],
+      "Item text\u0004Pause": [
+        "정지시키다"
+      ],
+      "Item text\u0004Reverse": [
+        "뒤집다"
+      ],
+      "Item text\u0004Yes": [
+        "예"
+      ],
+      "Item text\u0004No": [
+        "아니요"
+      ],
+      "Element name\u0004Section": [
+        "부분"
+      ],
+      "Control label\u0004Custom Height": [
+        "사용자 정의 높이"
+      ],
+      "Control label\u0004Container Width": [
+        "컨테이너 폭"
+      ],
+      "Control label\u0004Margin Top": [
+        "여백 상단"
+      ],
+      "Control label\u0004Margin Bottom": [
+        "여백 하단"
+      ],
+      "Control label\u0004Dividers": [
+        "분할기"
+      ],
+      "Item text\u0004Fit Content": [
+        "콘텐츠에 맞게"
+      ],
+      "Item text\u0004Contained": [
+        "격리됨"
+      ],
+      "Item text\u0004Full": [
+        "가득한"
+      ],
+      "Preset section label\u0004Primary": [
+        "주요한"
+      ],
+      "Preset section label\u0004Secondary": [
+        "반성"
+      ],
+      "Preset section label\u0004Shape Dividers": [
+        "모양 구분선"
+      ],
+      "Element name\u0004FancyBackgroundPreset": [
+        "멋진배경사전 설정"
+      ],
+      "Control label\u0004Image Size": [
+        "이미지 크기"
+      ],
+      "Control label\u0004Image Settings": [
+        "이미지 설정"
+      ],
+      "Control label\u0004Custom Position": [
+        "맞춤 위치"
+      ],
+      "Control label\u0004Attachment": [
+        "부착"
+      ],
+      "Control label\u0004Unset Image At": [
+        "이미지 설정 해제 시간"
+      ],
+      "Control label\u0004Gradient Animation": [
+        "그라데이션 애니메이션"
+      ],
+      "Control label\u0004Scale": [
+        "규모"
+      ],
+      "Control label\u0004Speed": [
+        "속도"
+      ],
+      "Control label\u0004Video Warning": [
+        "영상 경고"
+      ],
+      "Control label\u0004Video Settings": [
+        "비디오 설정"
+      ],
+      "Control label\u0004Play On Mobile": [
+        "모바일에서 플레이"
+      ],
+      "Control label\u0004No Loop": [
+        "루프 없음"
+      ],
+      "Control label\u0004Pause When Out Of View": [
+        "시야에서 벗어날 때 일시 중지"
+      ],
+      "Control label\u0004YouTube Privacy Mode": [
+        "YouTube 개인정보 보호 모드"
+      ],
+      "Control label\u0004Zoom": [
+        "줌"
+      ],
+      "Control label\u0004Offset Y": [
+        "오프셋 Y"
+      ],
+      "Control label\u0004Offset X": [
+        "오프셋 X"
+      ],
+      "Control label\u0004Slideshow": [
+        "슬라이드쇼"
+      ],
+      "Control label\u0004Slideshow Settings": [
+        "슬라이드쇼 설정"
+      ],
+      "Control label\u0004Slide Duration": [
+        "슬라이드 지속 시간"
+      ],
+      "Control label\u0004Transition Effect": [
+        "전환 효과"
+      ],
+      "Control label\u0004Effect Duration": [
+        "효과 지속 시간"
+      ],
+      "Control label\u0004Slide Direction": [
+        "슬라이드 방향"
+      ],
+      "Control label\u0004Ken Burns": [
+        "켄 번스"
+      ],
+      "Control label\u0004Origin": [
+        "기원"
+      ],
+      "Control label\u0004Play Only Once": [
+        "한 번만 플레이"
+      ],
+      "Control label\u0004Effects": [
+        "효과"
+      ],
+      "Control label\u0004Blend Mode": [
+        "블렌드 모드"
+      ],
+      "Item text\u0004Image": [
+        "영상"
+      ],
+      "Item text\u0004Video": [
+        "동영상"
+      ],
+      "Item text\u0004Slideshow": [
+        "슬라이드쇼"
+      ],
+      "Item text\u0004cover": [
+        "씌우다"
+      ],
+      "Item text\u0004contain": [
+        "포함하다"
+      ],
+      "Item text\u0004auto": [
+        "자동"
+      ],
+      "Item text\u0004custom": [
+        "관습"
+      ],
+      "Item text\u0004repeat": [
+        "반복하다"
+      ],
+      "Item text\u0004no-repeat": [
+        "반복하지 않음"
+      ],
+      "Item text\u0004repeat-x": [
+        "반복-x"
+      ],
+      "Item text\u0004repeat-y": [
+        "반복-y"
+      ],
+      "Item text\u0004center top": [
+        "중앙 상단"
+      ],
+      "Item text\u0004center center": [
+        "센터 센터"
+      ],
+      "Item text\u0004center bottom": [
+        "중앙 하단"
+      ],
+      "Item text\u0004left top": [
+        "왼쪽 상단"
+      ],
+      "Item text\u0004left center": [
+        "왼쪽 중앙"
+      ],
+      "Item text\u0004left bottom": [
+        "왼쪽 하단"
+      ],
+      "Item text\u0004right top": [
+        "오른쪽 상단"
+      ],
+      "Item text\u0004right center": [
+        "오른쪽 중앙"
+      ],
+      "Item text\u0004right bottom": [
+        "오른쪽 하단"
+      ],
+      "Item text\u0004scroll": [
+        "스크롤"
+      ],
+      "Item text\u0004fixed": [
+        "결정된"
+      ],
+      "Item text\u0004Slide": [
+        "슬라이드"
+      ],
+      "Item text\u0004Vertical": [
+        "수직의"
+      ],
+      "Item text\u0004In": [
+        "~ 안에"
+      ],
+      "Item text\u0004Out": [
+        "밖으로"
+      ],
+      "Item text\u0004normal": [
+        "정상"
+      ],
+      "Item text\u0004multiply": [
+        "곱하다"
+      ],
+      "Item text\u0004screen": [
+        "화면"
+      ],
+      "Item text\u0004overlay": [
+        "씌우다"
+      ],
+      "Item text\u0004darken": [
+        "어둡게 되다"
+      ],
+      "Item text\u0004lighten": [
+        "가볍게 하다"
+      ],
+      "Item text\u0004color-dodge": [
+        "색상 회피"
+      ],
+      "Item text\u0004color-burn": [
+        "탈색하다"
+      ],
+      "Item text\u0004hard-light": [
+        "하드 라이트"
+      ],
+      "Item text\u0004soft-light": [
+        "부드러운 빛"
+      ],
+      "Item text\u0004difference": [
+        "차이점"
+      ],
+      "Item text\u0004exclusion": [
+        "제외"
+      ],
+      "Item text\u0004hue": [
+        "색조"
+      ],
+      "Item text\u0004saturation": [
+        "포화"
+      ],
+      "Item text\u0004color": [
+        "색상"
+      ],
+      "Item text\u0004luminosity": [
+        "밝기"
+      ],
+      "Preset section label\u0004Filter": [
+        "필터"
+      ],
+      "Element name\u0004Div": [
+        "사업부"
+      ],
+      "Element name\u0004Back To Top": [
+        "맨 위로 돌아가기"
+      ],
+      "Control label\u0004Sticky": [
+        "어려운"
+      ],
+      "Control label\u0004Horizontal Align": [
+        "수평 정렬"
+      ],
+      "Control label\u0004Hide At The Top": [
+        "상단에 숨기기"
+      ],
+      "Control label\u0004Show": [
+        "보여주다"
+      ],
+      "Control label\u0004Button Styles": [
+        "버튼 스타일"
+      ],
+      "Control label\u0004Space After": [
+        "이후 공백"
+      ],
+      "Control label\u0004Progress": [
+        "진전"
+      ],
+      "Control label\u0004Tracker": [
+        "트래커"
+      ],
+      "Control label\u0004Scroll Offset": [
+        "스크롤 오프셋"
+      ],
+      "Control label\u0004Scroll To Selector": [
+        "선택기로 스크롤"
+      ],
+      "Item text\u0004Always": [
+        "언제나"
+      ],
+      "Item text\u0004Half Way": [
+        "하프 웨이"
+      ],
+      "Item text\u0004Near Bottom": [
+        "바닥 근처"
+      ],
+      "Item text\u0004Fade In": [
+        "페이드 인"
+      ],
+      "Item text\u0004Zoom": [
+        "줌"
+      ],
+      "Item text\u0004Slide up": [
+        "위로 슬라이드"
+      ],
+      "Item text\u0004Scroll Progress": [
+        "스크롤 진행"
+      ],
+      "Item text\u0004Icon": [
+        "상"
+      ],
+      "Item text\u0004Icon + Text": [
+        "아이콘 + 텍스트"
+      ],
+      "Element name\u0004Atom V1 Button": [
+        "아톰 V1 버튼"
+      ],
+      "Control label\u0004Fancy Underline": [
+        "멋진 밑줄"
+      ],
+      "Control label\u0004Underline Color": [
+        "밑줄 색상"
+      ],
+      "Control label\u0004Arrow": [
+        "화살"
+      ],
+      "Control label\u0004Space Before": [
+        "이전 공간"
+      ],
+      "Control label\u0004Hover Transform": [
+        "호버 변환"
+      ],
+      "Control label\u0004Arrow Size": [
+        "화살표 크기"
+      ],
+      "Control label\u0004Custom Type": [
+        "맞춤 유형"
+      ],
+      "Control label\u0004Custom": [
+        "관습"
+      ],
+      "Control label\u0004Override Width": [
+        "폭 재지정"
+      ],
+      "Control label\u0004Full Width At": [
+        "전체 너비"
+      ],
+      "Control label\u0004Outline": [
+        "개요"
+      ],
+      "Control label\u0004No Fill On Hover": [
+        "마우스 오버 시 채우기 없음"
+      ],
+      "Control label\u0004Corners": [
+        "코너"
+      ],
+      "Control label\u0004Corner Radius": [
+        "코너 반경"
+      ],
+      "Control label\u0004Preset": [
+        "프리셋"
+      ],
+      "Item text\u0004Primary": [
+        "주요한"
+      ],
+      "Item text\u0004Secondary": [
+        "반성"
+      ],
+      "Item text\u0004Text": [
+        "텍스트"
+      ],
+      "Item text\u0004Style 1": [
+        "스타일 1"
+      ],
+      "Item text\u0004Style 2": [
+        "스타일 2"
+      ],
+      "Item text\u0004Style 3": [
+        "스타일 3"
+      ],
+      "Item text\u0004Style 4": [
+        "스타일 4"
+      ],
+      "Item text\u0004Style 5": [
+        "스타일 5"
+      ],
+      "Item text\u0004Style 6": [
+        "스타일 6"
+      ],
+      "Item text\u0004Style 7": [
+        "스타일 7"
+      ],
+      "Item text\u0004Style 8": [
+        "스타일 8"
+      ],
+      "Item text\u0004Arrow 1": [
+        "화살표 1"
+      ],
+      "Item text\u0004Arrow 2": [
+        "화살표 2"
+      ],
+      "Item text\u0004Arrow 3": [
+        "화살표 3"
+      ],
+      "Item text\u0004Preset": [
+        "프리셋"
+      ],
+      "Item text\u0004Solid": [
+        "단단한"
+      ],
+      "Item text\u0004Outline": [
+        "개요"
+      ],
+      "Item text\u0004Before": [
+        "전에"
+      ],
+      "Item text\u0004After": [
+        "후에"
+      ],
+      "Element name\u0004Product Images": [
+        "제품 이미지"
+      ],
+      "Control label\u0004Sale Badge": [
+        "세일 뱃지"
+      ],
+      "Control label\u0004Nudge": [
+        "슬쩍 찌르다"
+      ],
+      "Control label\u0004Zoom Icon": [
+        "확대/축소 아이콘"
+      ],
+      "Control label\u0004Thumbnails": [
+        "썸네일"
+      ],
+      "Control label\u0004Per Row": [
+        "행당"
+      ],
+      "Control label\u0004Border Radius": [
+        "테두리 반경"
+      ],
+      "Control label\u0004Border Width": [
+        "테두리 너비"
+      ],
+      "Control label\u0004Between Images": [
+        "이미지 사이"
+      ],
+      "Element name\u0004Pricing Table": [
+        "가격표"
+      ],
+      "Control label\u0004Accent": [
+        "악센트"
+      ],
+      "Control label\u0004Label Radius": [
+        "라벨 반경"
+      ],
+      "Control label\u0004Price": [
+        "가격"
+      ],
+      "Control label\u0004Amount": [
+        "양"
+      ],
+      "Control label\u0004Period Position": [
+        "기간 위치"
+      ],
+      "Control label\u0004Currency Position": [
+        "통화 포지션"
+      ],
+      "Control label\u0004Badge": [
+        "배지"
+      ],
+      "Control label\u0004Currency X": [
+        "통화 X"
+      ],
+      "Control label\u0004Currency Y": [
+        "통화 Y"
+      ],
+      "Control label\u0004Period X": [
+        "기간 X"
+      ],
+      "Control label\u0004Period Y": [
+        "기간 Y"
+      ],
+      "Control label\u0004Fraction X": [
+        "분수 X"
+      ],
+      "Control label\u0004Fraction Y": [
+        "분수 Y"
+      ],
+      "Control label\u0004Features": [
+        "특징"
+      ],
+      "Control label\u0004Force Left Alignment": [
+        "강제 왼쪽 정렬"
+      ],
+      "Control label\u0004Included Color": [
+        "포함된 색상"
+      ],
+      "Control label\u0004Excluded Color": [
+        "제외된 색상"
+      ],
+      "Control label\u0004Included Icon": [
+        "포함된 아이콘"
+      ],
+      "Control label\u0004Excluded Icon": [
+        "제외 아이콘"
+      ],
+      "Control label\u0004Custom Icons": [
+        "사용자 정의 아이콘"
+      ],
+      "Control label\u0004Not Included Icon": [
+        "포함되지 않음 아이콘"
+      ],
+      "Control label\u0004Icon Y Nudge": [
+        "아이콘 Y 너지"
+      ],
+      "Control label\u0004Icon X Nudge": [
+        "아이콘 X 넛지"
+      ],
+      "Control label\u0004Text Indent": [
+        "텍스트 들여쓰기"
+      ],
+      "Control label\u0004Space Between Items": [
+        "항목 사이의 공간"
+      ],
+      "Control label\u0004After Icon": [
+        "아이콘 이후"
+      ],
+      "Control label\u0004After Title": [
+        "제목 뒤"
+      ],
+      "Control label\u0004After Price Area": [
+        "가격 이후 지역"
+      ],
+      "Control label\u0004After Description": [
+        "설명 후"
+      ],
+      "Control label\u0004After Features": [
+        "기능 후"
+      ],
+      "Control label\u0004Price Area": [
+        "가격 지역"
+      ],
+      "Control label\u0004Before Amount": [
+        "이전 금액"
+      ],
+      "Control label\u0004Amount / Period": [
+        "금액/기간"
+      ],
+      "Control label\u0004Before Badge": [
+        "배지 전"
+      ],
+      "Control label\u0004Accent Text": [
+        "악센트 텍스트"
+      ],
+      "Control label\u0004Before Price": [
+        "가격 전"
+      ],
+      "Control label\u0004Per Period": [
+        "기간별"
+      ],
+      "Control label\u0004Currency Symbol": [
+        "통화 기호"
+      ],
+      "Control label\u0004Fractional Amount": [
+        "분수 금액"
+      ],
+      "Control label\u0004Not Included": [
+        "포함되지 않음"
+      ],
+      "Item text\u0004Use on unlimited websites": [
+        "무제한 웹사이트에서 사용"
+      ],
+      "Item text\u0004WooCommerce integration": [
+        "WooCommerce 통합"
+      ],
+      "Item text\u0004Design library": [
+        "디자인 라이브러리"
+      ],
+      "Item text\u0004No bloat": [
+        "부풀어오르지 않음"
+      ],
+      "Item text\u0004Get Breakdance": [
+        "브레이크 댄스 받기"
+      ],
+      "Item text\u0004After Title": [
+        "제목 뒤"
+      ],
+      "Item text\u0004After Features": [
+        "기능 후"
+      ],
+      "Item text\u0004Prepend": [
+        "앞에 추가"
+      ],
+      "Item text\u0004Append": [
+        "추가"
+      ],
+      "Preset section label\u0004Label": [
+        "상표"
+      ],
+      "Preset section label\u0004Before Price": [
+        "가격 전"
+      ],
+      "Preset section label\u0004Price": [
+        "가격"
+      ],
+      "Preset section label\u0004Currency": [
+        "통화"
+      ],
+      "Preset section label\u0004Fractional Part": [
+        "분수 부분"
+      ],
+      "Preset section label\u0004Period": [
+        "기간"
+      ],
+      "Preset section label\u0004Description": [
+        "설명"
+      ],
+      "Preset section label\u0004Features": [
+        "특징"
+      ],
+      "Element name\u0004Checkout Coupon Form": [
+        "체크아웃 쿠폰 양식"
+      ],
+      "Element name\u0004Cart Cross Sells": [
+        "장바구니 교차 판매"
+      ],
+      "Preset section label\u0004Cross Sells": [
+        "교차 판매"
+      ],
+      "Element name\u0004Star Rating": [
+        "별점"
+      ],
+      "Control label\u0004Stars": [
+        "별"
+      ],
+      "Control label\u0004Stars Color": [
+        "별 색상"
+      ],
+      "Control label\u0004Unmarked Color": [
+        "표시되지 않은 색상"
+      ],
+      "Control label\u0004Label": [
+        "상표"
+      ],
+      "Control label\u0004Label Position": [
+        "라벨 위치"
+      ],
+      "Control label\u0004Vertical Layout": [
+        "수직 레이아웃"
+      ],
+      "Control label\u0004Label Spacing": [
+        "라벨 간격"
+      ],
+      "Control label\u0004Components": [
+        "구성요소"
+      ],
+      "Control label\u0004Rating": [
+        "평가"
+      ],
+      "Control label\u0004Icon Type": [
+        "아이콘 유형"
+      ],
+      "Control label\u0004Show Label": [
+        "라벨 표시"
+      ],
+      "Control label\u0004Label Text": [
+        "라벨 텍스트"
+      ],
+      "Item text\u0004One": [
+        "하나"
+      ],
+      "Item text\u0004Two": [
+        "둘"
+      ],
+      "Item text\u0004Three": [
+        "삼"
+      ],
+      "Item text\u0004Four": [
+        "4개"
+      ],
+      "Item text\u0004Five": [
+        "다섯"
+      ],
+      "Item text\u0004Six": [
+        "육"
+      ],
+      "Item text\u0004Seven": [
+        "세븐"
+      ],
+      "Item text\u0004Eight": [
+        "여덟"
+      ],
+      "Item text\u0004Nine": [
+        "아홉"
+      ],
+      "Item text\u0004Ten": [
+        "열"
+      ],
+      "Item text\u0004Font Awesome": [
+        "멋진 글꼴"
+      ],
+      "Item text\u0004Icon Moon": [
+        "아이콘 문"
+      ],
+      "Preset section label\u0004Label Typography": [
+        "라벨 타이포그래피"
+      ],
+      "Element name\u0004Shop Page": [
+        "쇼핑 페이지"
+      ],
+      "Control label\u0004Products List": [
+        "제품 목록"
+      ],
+      "Control label\u0004Result Count": [
+        "결과 개수"
+      ],
+      "Control label\u0004Above Products": [
+        "위 제품"
+      ],
+      "Control label\u0004Above Pagination": [
+        "페이지 매김 위"
+      ],
+      "Preset section label\u0004Elements": [
+        "강요"
+      ],
+      "Preset section label\u0004Product Wrapper": [
+        "제품 포장지"
+      ],
+      "Element name\u0004Menu Dropdown": [
+        "메뉴 드롭다운"
+      ],
+      "Control label\u0004Disable Desktop Styles At": [
+        "데스크탑 스타일 비활성화"
+      ],
+      "Control label\u0004Alert": [
+        "알리다"
+      ],
+      "Control label\u0004Columns": [
+        "열"
+      ],
+      "Control label\u0004URL": [
+        "URL"
+      ],
+      "Control label\u0004Icon or Image": [
+        "아이콘 또는 이미지"
+      ],
+      "Control label\u0004Show Another Section": [
+        "다른 섹션 표시"
+      ],
+      "Control label\u0004Columns 2": [
+        "열 2"
+      ],
+      "Item text\u0004Prebuilt checkout": [
+        "사전 구축된 결제"
+      ],
+      "Item text\u0004Libraries and SDKs": [
+        "라이브러리 및 SDK"
+      ],
+      "Item text\u0004Plugins": [
+        "플러그인"
+      ],
+      "Item text\u0004Code samples": [
+        "코드 샘플"
+      ],
+      "Item text\u0004Accept online payments": [
+        "온라인 결제 수락"
+      ],
+      "Item text\u0004Manage subscriptions": [
+        "구독 관리"
+      ],
+      "Item text\u0004Send payments": [
+        "지불금 보내기"
+      ],
+      "Item text\u0004Set up in-person payments": [
+        "직접 결제 설정"
+      ],
+      "Item text\u0004Link": [
+        "링크"
+      ],
+      "Preset section label\u0004Links": [
+        "모래밭"
+      ],
+      "Preset section label\u0004Columns": [
+        "열"
+      ],
+      "Preset section label\u0004Additional Section": [
+        "추가 섹션"
+      ],
+      "Preset section label\u0004Graphic": [
+        "그래픽"
+      ],
+      "Element name\u0004Advanced Slider": [
+        "고급 슬라이더"
+      ],
+      "Control label\u0004Slides": [
+        "슬라이드"
+      ],
+      "Control label\u0004Add Slide": [
+        "슬라이드 추가"
+      ],
+      "Item text\u0004Put anything you want in a slide.": [
+        "슬라이드에 원하는 내용을 넣으세요."
+      ],
+      "Item text\u0004Advanced Slider": [
+        "고급 슬라이더"
+      ],
+      "Preset section label\u0004Slider": [
+        "슬라이더"
+      ],
+      "Element name\u0004Accordion Content": [
+        "아코디언 콘텐츠"
+      ],
+      "Control label\u0004Title Tag": [
+        "제목 태그"
+      ],
+      "Element name\u0004Product Reviews": [
+        "제품 리뷰"
+      ],
+      "Control label\u0004Avatar": [
+        "화신"
+      ],
+      "Control label\u0004Hide Heading": [
+        "제목 숨기기"
+      ],
+      "Control label\u0004Around Review": [
+        "주변 리뷰"
+      ],
+      "Control label\u0004After Stars": [
+        "애프터 스타즈"
+      ],
+      "Control label\u0004After Meta": [
+        "메타 이후"
+      ],
+      "Control label\u0004After Avatar": [
+        "아바타 이후"
+      ],
+      "Control label\u0004After Reviews": [
+        "리뷰 후"
+      ],
+      "Control label\u0004After Form Heading": [
+        "양식 제목 뒤"
+      ],
+      "Preset section label\u0004Heading": [
+        "표제"
+      ],
+      "Preset section label\u0004Username": [
+        "사용자 이름"
+      ],
+      "Preset section label\u0004Meta": [
+        "메타"
+      ],
+      "Preset section label\u0004Review": [
+        "검토"
+      ],
+      "Preset section label\u0004Form Heading": [
+        "양식 제목"
+      ],
+      "Element name\u0004Tab Content": [
+        "탭 내용"
+      ],
+      "Item text\u0004Tab Content": [
+        "탭 내용"
+      ],
+      "Element name\u0004WooGlobalStyler": [
+        "우글로벌스타일러"
+      ],
+      "Control label\u0004Colors": [
+        "그림 물감"
+      ],
+      "Control label\u0004Borders": [
+        "테두리"
+      ],
+      "Control label\u0004Text On Brand": [
+        "브랜드에 대한 텍스트"
+      ],
+      "Control label\u0004Weights": [
+        "가중치"
+      ],
+      "Control label\u0004Normal": [
+        "정상"
+      ],
+      "Control label\u0004Medium": [
+        "중간"
+      ],
+      "Control label\u0004Heavy": [
+        "무거운"
+      ],
+      "Control label\u0004Sizes": [
+        "크기"
+      ],
+      "Control label\u0004Small": [
+        "작은"
+      ],
+      "Control label\u0004Font": [
+        "세례반"
+      ],
+      "Control label\u0004Standard": [
+        "기준"
+      ],
+      "Control label\u0004Large": [
+        "크기가 큰"
+      ],
+      "Control label\u0004Extra Large": [
+        "특대"
+      ],
+      "Control label\u0004Buttons & Links": [
+        "버튼 및 링크"
+      ],
+      "Control label\u0004Text Links": [
+        "텍스트 링크"
+      ],
+      "Control label\u0004Disabled": [
+        "장애가 있는"
+      ],
+      "Control label\u0004Other": [
+        "다른"
+      ],
+      "Control label\u0004Base": [
+        "베이스"
+      ],
+      "Control label\u0004Extra Small": [
+        "아주 작은"
+      ],
+      "Control label\u0004Big": [
+        "큰"
+      ],
+      "Control label\u0004Notices": [
+        "공지사항"
+      ],
+      "Control label\u0004Padding Left": [
+        "왼쪽 패딩"
+      ],
+      "Control label\u0004Info": [
+        "정보"
+      ],
+      "Control label\u0004Error": [
+        "오류"
+      ],
+      "Control label\u0004Success": [
+        "성공"
+      ],
+      "Control label\u0004Font Size": [
+        "글꼴 크기"
+      ],
+      "Control label\u0004Font Weight": [
+        "글꼴 두께"
+      ],
+      "Control label\u0004Horizontal Padding": [
+        "수평 패딩"
+      ],
+      "Control label\u0004Ratings": [
+        "평가"
+      ],
+      "Control label\u0004Star Color": [
+        "별색"
+      ],
+      "Control label\u0004Star Size": [
+        "별 크기"
+      ],
+      "Control label\u0004Product Images": [
+        "제품 이미지"
+      ],
+      "Control label\u0004Widgets": [
+        "위젯"
+      ],
+      "Control label\u0004Chip Background": [
+        "칩 배경"
+      ],
+      "Control label\u0004Chip Text": [
+        "칩 텍스트"
+      ],
+      "Control label\u0004Wrappers": [
+        "래퍼"
+      ],
+      "Control label\u0004Tables": [
+        "테이블"
+      ],
+      "Control label\u0004Header": [
+        "헤더"
+      ],
+      "Control label\u0004Products Per Row": [
+        "행당 제품"
+      ],
+      "Control label\u0004Products Per Page": [
+        "페이지당 제품"
+      ],
+      "Control label\u0004Excerpt": [
+        "발췌"
+      ],
+      "Control label\u0004Categories": [
+        "카테고리"
+      ],
+      "Control label\u0004Quantity Input": [
+        "수량 입력"
+      ],
+      "Control label\u0004Payment Box": [
+        "지불 상자"
+      ],
+      "Control label\u0004Quicklook": [
+        "훑어보기"
+      ],
+      "Control label\u0004Enable": [
+        "할 수 있게 하다"
+      ],
+      "Control label\u0004Show Arrows": [
+        "화살표 표시"
+      ],
+      "Control label\u0004Redirect On Add": [
+        "추가 시 리디렉션"
+      ],
+      "Control label\u0004Hide Label": [
+        "라벨 숨기기"
+      ],
+      "Control label\u0004Backdrop": [
+        "배경"
+      ],
+      "Control label\u0004Modal": [
+        "모달"
+      ],
+      "Control label\u0004Overlay Color": [
+        "오버레이 색상"
+      ],
+      "Control label\u0004Arrows": [
+        "화살"
+      ],
+      "Control label\u0004Misc": [
+        "기타"
+      ],
+      "Control label\u0004Remove Item From Cart": [
+        "장바구니에서 품목 제거"
+      ],
+      "Control label\u0004Select2 Active Item": [
+        "Select2 활성 항목"
+      ],
+      "Control label\u0004Gallery Zoom Icon Shadow": [
+        "갤러리 줌 아이콘 그림자"
+      ],
+      "Control label\u0004Variation Swatches": [
+        "변형 견본"
+      ],
+      "Control label\u0004All Swatches": [
+        "모든 견본"
+      ],
+      "Control label\u0004Selected": [
+        "선택된"
+      ],
+      "Control label\u0004Cross Color": [
+        "크로스 컬러"
+      ],
+      "Control label\u0004Image and Color Swatches": [
+        "이미지 및 색상 견본"
+      ],
+      "Control label\u0004After Label": [
+        "라벨 이후"
+      ],
+      "Control label\u0004Between Items": [
+        "항목 간"
+      ],
+      "Control label\u0004Between Options": [
+        "옵션 사이"
+      ],
+      "Item text\u0004Enable": [
+        "할 수 있게 하다"
+      ],
+      "Item text\u0004Product Page": [
+        "제품 페이지"
+      ],
+      "Item text\u0004Cart": [
+        "카트"
+      ],
+      "Preset section label\u0004Primary Buttons": [
+        "기본 버튼"
+      ],
+      "Preset section label\u0004Secondary Buttons": [
+        "보조 버튼"
+      ],
+      "Preset section label\u0004Destructive Buttons": [
+        "파괴적인 버튼"
+      ],
+      "Preset section label\u0004Forms": [
+        "양식"
+      ],
+      "Element name\u0004Facebook Like Button": [
+        "페이스북 좋아요 버튼"
+      ],
+      "Control label\u0004Action Type": [
+        "작업 유형"
+      ],
+      "Control label\u0004Share Button": [
+        "공유 버튼"
+      ],
+      "Item text\u0004Standard": [
+        "기준"
+      ],
+      "Item text\u0004Like": [
+        "좋다"
+      ],
+      "Item text\u0004Recommend": [
+        "추천하다"
+      ],
+      "Element name\u0004Progress Bar": [
+        "진행률 표시줄"
+      ],
+      "Control label\u0004Disable Stripes": [
+        "줄무늬 비활성화"
+      ],
+      "Control label\u0004Vertical Padding": [
+        "수직 패딩"
+      ],
+      "Control label\u0004Animation Stripes": [
+        "애니메이션 줄무늬"
+      ],
+      "Control label\u0004Animation Duration": [
+        "애니메이션 기간"
+      ],
+      "Control label\u0004Animate Progress On Scroll": [
+        "스크롤 시 진행 상황 애니메이션"
+      ],
+      "Control label\u0004Animate Once": [
+        "한 번 애니메이션"
+      ],
+      "Control label\u0004Title Text": [
+        "제목 텍스트"
+      ],
+      "Control label\u0004Hide Percentage": [
+        "백분율 숨기기"
+      ],
+      "Preset section label\u0004Percent Counter": [
+        "퍼센트 카운터"
+      ],
+      "Element name\u0004Checkout Shipping Form": [
+        "결제 배송 양식"
+      ],
+      "Preset section label\u0004Shipping Address": [
+        "배송 주소"
+      ],
+      "Element name\u0004Product Rating": [
+        "제품 평가"
+      ],
+      "Control label\u0004Stacking": [
+        "스태킹"
+      ],
+      "Preset section label\u0004Link": [
+        "링크"
+      ],
+      "Element name\u0004Shortcode": [
+        "단축 코드"
+      ],
+      "Control label\u0004Shortcode": [
+        "단축 코드"
+      ],
+      "Control label\u0004Full Shortcode": [
+        "전체 단축 코드"
+      ],
+      "Element name\u0004Product Cart Button": [
+        "제품 장바구니 버튼"
+      ],
+      "Control label\u0004Button Fills Container": [
+        "버튼 채우기 컨테이너"
+      ],
+      "Control label\u0004Variable": [
+        "변하기 쉬운"
+      ],
+      "Control label\u0004Grouped": [
+        "그룹화됨"
+      ],
+      "Control label\u0004Vertical Spacing": [
+        "수직 간격"
+      ],
+      "Control label\u0004Quantity Width": [
+        "수량 너비"
+      ],
+      "Control label\u0004After Dropdown": [
+        "드롭다운 후"
+      ],
+      "Control label\u0004After Stock Qty": [
+        "재고 수량 이후"
+      ],
+      "Control label\u0004After Notice": [
+        "공지 후"
+      ],
+      "Control label\u0004Before Button": [
+        "이전 버튼"
+      ],
+      "Control label\u0004Variation Reset": [
+        "변형 재설정"
+      ],
+      "Control label\u0004Table Separator": [
+        "테이블 구분 기호"
+      ],
+      "Control label\u0004Hide Table Separator": [
+        "표 구분 기호 숨기기"
+      ],
+      "Preset section label\u0004Notices": [
+        "공지사항"
+      ],
+      "Preset section label\u0004Stock Quantity": [
+        "재고 수량"
+      ],
+      "Preset section label\u0004Grouped Product Title": [
+        "그룹화된 제품 제목"
+      ],
+      "Element name\u0004Product Stock": [
+        "제품 재고"
+      ],
+      "Preset section label\u0004In Stock": [
+        "재고 있음"
+      ],
+      "Element name\u0004Gallery": [
+        "갱도"
+      ],
+      "Control label\u0004Row Height": [
+        "행 높이"
+      ],
+      "Control label\u0004Vertical At": [
+        "수직 위치"
+      ],
+      "Control label\u0004Slider Images": [
+        "슬라이더 이미지"
+      ],
+      "Control label\u0004Images": [
+        "이미지"
+      ],
+      "Control label\u0004Hover Animation": [
+        "호버 애니메이션"
+      ],
+      "Control label\u0004Captions": [
+        "캡션"
+      ],
+      "Control label\u0004Show Captions": [
+        "캡션 표시"
+      ],
+      "Control label\u0004Hide below": [
+        "아래 숨기기"
+      ],
+      "Control label\u0004Caption": [
+        "표제"
+      ],
+      "Control label\u0004Galleries": [
+        "갤러리"
+      ],
+      "Control label\u0004Filter Bar": [
+        "필터 막대"
+      ],
+      "Control label\u0004All Filter": [
+        "모든 필터"
+      ],
+      "Control label\u0004All Label": [
+        "모든 라벨"
+      ],
+      "Control label\u0004New Tab": [
+        "새 탭"
+      ],
+      "Control label\u0004Disable Srcset & Sizes": [
+        "Srcset 및 크기 비활성화"
+      ],
+      "Item text\u0004Grid": [
+        "그리드"
+      ],
+      "Item text\u0004Masonry": [
+        "벽돌공 직"
+      ],
+      "Item text\u0004Justified": [
+        "정당화됨"
+      ],
+      "Item text\u0004fTop": [
+        "fTop"
+      ],
+      "Item text\u0004center": [
+        "센터"
+      ],
+      "Item text\u0004Slide Bottom": [
+        "슬라이드 하단"
+      ],
+      "Item text\u0004Never": [
+        "절대"
+      ],
+      "Item text\u0004On Hover": [
+        "호버에서"
+      ],
+      "Item text\u0004Stretch": [
+        "뻗기"
+      ],
+      "Item text\u0004Single": [
+        "하나의"
+      ],
+      "Item text\u0004Multiple": [
+        "다수의"
+      ],
+      "Item text\u0004Lightbox": [
+        "라이트박스"
+      ],
+      "Item text\u0004Media File": [
+        "미디어 파일"
+      ],
+      "Item text\u0004Eager: loads immediately": [
+        "Eager: 즉시 로드됨"
+      ],
+      "Item text\u0004Lazy: loads on scroll": [
+        "게으른: 스크롤 시 로드"
+      ],
+      "Item text\u0004Auto: browser decides what is best": [
+        "자동: 브라우저가 최선의 것을 결정합니다."
+      ],
+      "Preset section label\u0004Filters": [
+        "필터"
+      ],
+      "Preset section label\u0004Lightbox": [
+        "라이트박스"
+      ],
+      "Element name\u0004Heading": [
+        "표제"
+      ],
+      "Control label\u0004Tags": [
+        "태그"
+      ],
+      "Element name\u0004Author": [
+        "작가"
+      ],
+      "Control label\u0004Image Position": [
+        "이미지 위치"
+      ],
+      "Control label\u0004Top At": [
+        "상단"
+      ],
+      "Control label\u0004After Image": [
+        "애프터 이미지"
+      ],
+      "Control label\u0004After Name": [
+        "이름 이후"
+      ],
+      "Control label\u0004After Biography": [
+        "전기 후"
+      ],
+      "Control label\u0004Biography": [
+        "전기"
+      ],
+      "Control label\u0004All Posts Link": [
+        "모든 게시물 링크"
+      ],
+      "Control label\u0004All Posts Link Text": [
+        "모든 게시물 링크 텍스트"
+      ],
+      "Control label\u0004Website Link": [
+        "웹사이트 링크"
+      ],
+      "Control label\u0004Website Link Text": [
+        "웹사이트 링크 텍스트"
+      ],
+      "Control label\u0004Name HTML Tag": [
+        "이름 HTML 태그"
+      ],
+      "Control label\u0004Link On Name & Image": [
+        "이름 및 이미지에 대한 링크"
+      ],
+      "Item text\u0004left": [
+        "왼쪽"
+      ],
+      "Item text\u0004right": [
+        "오른쪽"
+      ],
+      "Item text\u0004Div": [
+        "사업부"
+      ],
+      "Item text\u0004Website": [
+        "웹사이트"
+      ],
+      "Item text\u0004All Posts": [
+        "모든 게시물"
+      ],
+      "Preset section label\u0004All Posts": [
+        "모든 게시물"
+      ],
+      "Preset section label\u0004Website": [
+        "웹사이트"
+      ],
+      "Preset section label\u0004Name": [
+        "이름"
+      ],
+      "Preset section label\u0004Biography": [
+        "전기"
+      ],
+      "Element name\u0004Image Box": [
+        "이미지 박스"
+      ],
+      "Control label\u0004Content Position": [
+        "콘텐츠 위치"
+      ],
+      "Control label\u0004Content Padding Only": [
+        "콘텐츠 패딩만"
+      ],
+      "Control label\u0004Object Fit": [
+        "개체 맞춤"
+      ],
+      "Control label\u0004Object Position": [
+        "개체 위치"
+      ],
+      "Control label\u0004Vertical Alignment": [
+        "수직 정렬"
+      ],
+      "Control label\u0004Below Title": [
+        "제목 아래"
+      ],
+      "Control label\u0004Above Button": [
+        "위 버튼"
+      ],
+      "Control label\u0004Image Options": [
+        "이미지 옵션"
+      ],
+      "Item text\u0004Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Labore et dolore magna aliqua."
+      ],
+      "Item text\u0004Learn More": [
+        "자세히 알아보기"
+      ],
+      "Item text\u0004Cover": [
+        "씌우다"
+      ],
+      "Item text\u0004Contain": [
+        "포함하다"
+      ],
+      "Item text\u0004Fill": [
+        "채우다"
+      ],
+      "Element name\u0004Cart Totals": [
+        "장바구니 합계"
+      ],
+      "Preset section label\u0004Totals": [
+        "합계"
+      ],
+      "Element name\u0004Countdown Timer": [
+        "카운트다운 타이머"
+      ],
+      "Control label\u0004Timer": [
+        "시간제 노동자"
+      ],
+      "Control label\u0004Divider Width": [
+        "분배기 폭"
+      ],
+      "Control label\u0004Above Label": [
+        "라벨 위"
+      ],
+      "Control label\u0004Divider": [
+        "분할기"
+      ],
+      "Control label\u0004Digits": [
+        "숫자"
+      ],
+      "Control label\u0004Default": [
+        "기본"
+      ],
+      "Control label\u0004Donut": [
+        "도넛"
+      ],
+      "Control label\u0004Line": [
+        "선"
+      ],
+      "Control label\u0004Line Width": [
+        "선 너비"
+      ],
+      "Control label\u0004Flip": [
+        "튀기다"
+      ],
+      "Control label\u0004Timer Type": [
+        "타이머 유형"
+      ],
+      "Control label\u0004Timezone": [
+        "시간대"
+      ],
+      "Control label\u0004Year": [
+        "년도"
+      ],
+      "Control label\u0004Month": [
+        "월"
+      ],
+      "Control label\u0004Hours": [
+        "시간"
+      ],
+      "Control label\u0004Minutes": [
+        "분"
+      ],
+      "Control label\u0004Seconds": [
+        "초"
+      ],
+      "Control label\u0004Time Units": [
+        "시간 단위"
+      ],
+      "Control label\u0004Hide": [
+        "숨다"
+      ],
+      "Control label\u0004Singular": [
+        "단수형"
+      ],
+      "Control label\u0004Plural": [
+        "복수형"
+      ],
+      "Control label\u0004Expire": [
+        "내쉬다"
+      ],
+      "Control label\u0004Expire Type": [
+        "만료 유형"
+      ],
+      "Control label\u0004Hide timer when expired": [
+        "만료 시 타이머 숨기기"
+      ],
+      "Control label\u0004Message": [
+        "메시지"
+      ],
+      "Control label\u0004Redirect": [
+        "리디렉션"
+      ],
+      "Control label\u0004Show Message Preview": [
+        "메시지 미리보기 표시"
+      ],
+      "Item text\u0004Line": [
+        "선"
+      ],
+      "Item text\u0004Colon": [
+        "콜론"
+      ],
+      "Item text\u0004Donut": [
+        "도넛"
+      ],
+      "Item text\u0004Flip": [
+        "튀기다"
+      ],
+      "Item text\u0004Fixed": [
+        "결정된"
+      ],
+      "Item text\u0004Evergreen": [
+        "상록수"
+      ],
+      "Item text\u0004User Local": [
+        "사용자 로컬"
+      ],
+      "Item text\u0004(UTC-11:00) Midway Island": [
+        "(UTC-11:00) 미드웨이 섬"
+      ],
+      "Item text\u0004(UTC-11:00) Samoa": [
+        "(UTC-11:00) 사모아"
+      ],
+      "Item text\u0004(UTC-10:00) Hawaii": [
+        "(UTC-10:00) 하와이"
+      ],
+      "Item text\u0004(UTC-09:00) Alaska": [
+        "(UTC-09:00) 알래스카"
+      ],
+      "Item text\u0004(UTC-08:00) Pacific Time (US & Canada)": [
+        "(UTC-08:00) 태평양 표준시(미국 및 캐나다)"
+      ],
+      "Item text\u0004(UTC-08:00) Tijuana": [
+        "(UTC-08:00) 티후아나"
+      ],
+      "Item text\u0004(UTC-07:00) Arizona": [
+        "(UTC-07:00) 애리조나"
+      ],
+      "Item text\u0004(UTC-07:00) Chihuahua": [
+        "(UTC-07:00) 치와와"
+      ],
+      "Item text\u0004(UTC-07:00) La Paz": [
+        "(UTC-07:00) 라파스"
+      ],
+      "Item text\u0004(UTC-07:00) Mazatlan": [
+        "(UTC-07:00) 마사틀란"
+      ],
+      "Item text\u0004(UTC-07:00) Mountain Time (US & Canada)": [
+        "(UTC-07:00) 산지 표준시(미국 및 캐나다)"
+      ],
+      "Item text\u0004(UTC-06:00) Central America": [
+        "(UTC-06:00) 중앙 아메리카"
+      ],
+      "Item text\u0004(UTC-06:00) Central Time (US & Canada)": [
+        "(UTC-06:00) 중부 표준시(미국 및 캐나다)"
+      ],
+      "Item text\u0004UTC-06:00) Guadalajara": [
+        "UTC-06:00) 과달라하라"
+      ],
+      "Item text\u0004(UTC-06:00) Mexico City": [
+        "(UTC-06:00) 멕시코시티"
+      ],
+      "Item text\u0004(UTC-06:00) Monterrey": [
+        "(UTC-06:00) 몬테레이"
+      ],
+      "Item text\u0004(UTC-06:00) Saskatchewan": [
+        "(UTC-06:00) 서스캐처원"
+      ],
+      "Item text\u0004(UTC-05:00) Bogota": [
+        "(UTC-05:00) 보고타"
+      ],
+      "Item text\u0004(UTC-05:00) Eastern Time (US & Canada)": [
+        "(UTC-05:00) 동부 표준시(미국 및 캐나다)"
+      ],
+      "Item text\u0004(UTC-05:00) Indiana (East)": [
+        "(UTC-05:00) 인디애나(동부)"
+      ],
+      "Item text\u0004(UTC-05:00) Lima": [
+        "(UTC-05:00) 리마"
+      ],
+      "Item text\u0004(UTC-05:00) Quito": [
+        "(UTC-05:00) 키토"
+      ],
+      "Item text\u0004(UTC-04:00) Atlantic Time (Canada)": [
+        "(UTC-04:00) 대서양 표준시(캐나다)"
+      ],
+      "Item text\u0004(UTC-04:30) Caracas": [
+        "(UTC-04:30) 카라카스"
+      ],
+      "Item text\u0004(UTC-04:00) La Paz": [
+        "(UTC-04:00) 라파스"
+      ],
+      "Item text\u0004(UTC-04:00) Santiago": [
+        "(UTC-04:00) 산티아고"
+      ],
+      "Item text\u0004(UTC-03:30) Newfoundland": [
+        "(UTC-03:30) 뉴펀들랜드"
+      ],
+      "Item text\u0004(UTC-03:00) Brasilia": [
+        "(UTC-03:00) 브라질리아"
+      ],
+      "Item text\u0004(UTC-03:00) Buenos Aires": [
+        "(UTC-03:00) 부에노스아이레스"
+      ],
+      "Item text\u0004UTC-03:00) Georgetown": [
+        "UTC-03:00) 조지타운"
+      ],
+      "Item text\u0004(UTC-03:00) Greenland": [
+        "(UTC-03:00) 그린란드"
+      ],
+      "Item text\u0004(UTC-02:00) Mid-Atlantic": [
+        "(UTC-02:00) 대서양 중부"
+      ],
+      "Item text\u0004(UTC-01:00) Azores": [
+        "(UTC-01:00) 아조레스"
+      ],
+      "Item text\u0004(UTC-01:00) Cape Verde Is.": [
+        "(UTC-01:00) 카보베르데 제도."
+      ],
+      "Item text\u0004(UTC+00:00) Casablanca": [
+        "(UTC+00:00) 카사블랑카"
+      ],
+      "Item text\u0004(UTC+00:00) Edinburgh": [
+        "(UTC+00:00) 에든버러"
+      ],
+      "Item text\u0004(UTC+00:00) Greenwich Mean Time : Dublin": [
+        "(UTC+00:00) 그리니치 표준시 : 더블린"
+      ],
+      "Item text\u0004(UTC+00:00) Lisbon": [
+        "(UTC+00:00) 리스본"
+      ],
+      "Item text\u0004(UTC+00:00) London": [
+        "(UTC+00:00) 런던"
+      ],
+      "Item text\u0004UTC+00:00) Monrovia": [
+        "UTC+00:00) 몬로비아"
+      ],
+      "Item text\u0004UTC ": [
+        "UTC"
+      ],
+      "Item text\u0004(UTC+01:00) Amsterdam": [
+        "(UTC+01:00) 암스테르담"
+      ],
+      "Item text\u0004(UTC+01:00) Belgrade": [
+        "(UTC+01:00) 베오그라드"
+      ],
+      "Item text\u0004(UTC+01:00) Berlin": [
+        "(UTC+01:00) 베를린"
+      ],
+      "Item text\u0004(UTC+01:00) Bern": [
+        "(UTC+01:00) 베른"
+      ],
+      "Item text\u0004(UTC+01:00) Bratislava": [
+        "(UTC+01:00) 브라티슬라바"
+      ],
+      "Item text\u0004(UTC+01:00) Brussels": [
+        "(UTC+01:00) 브뤼셀"
+      ],
+      "Item text\u0004(UTC+01:00) Budapest": [
+        "(UTC+01:00) 부다페스트"
+      ],
+      "Item text\u0004(UTC+01:00) Copenhagen": [
+        "(UTC+01:00) 코펜하겐"
+      ],
+      "Item text\u0004(UTC+01:00) Ljubljana": [
+        "(UTC+01:00) 류블랴나"
+      ],
+      "Item text\u0004(UTC+01:00) Madrid": [
+        "(UTC+01:00) 마드리드"
+      ],
+      "Item text\u0004(UTC+01:00) Paris": [
+        "(UTC+01:00) 파리"
+      ],
+      "Item text\u0004(UTC+01:00) Prague": [
+        "(UTC+01:00) 프라하"
+      ],
+      "Item text\u0004(UTC+01:00) Rome": [
+        "(UTC+01:00) 로마"
+      ],
+      "Item text\u0004UTC+01:00) Sarajevo": [
+        "UTC+01:00) 사라예보"
+      ],
+      "Item text\u0004(UTC+01:00) Skopje": [
+        "(UTC+01:00) 스코페"
+      ],
+      "Item text\u0004(UTC+01:00) Stockholm": [
+        "(UTC+01:00) 스톡홀름"
+      ],
+      "Item text\u0004UTC+01:00) Vienna": [
+        "UTC+01:00) 비엔나"
+      ],
+      "Item text\u0004(UTC+01:00) Warsaw": [
+        "(UTC+01:00) 바르샤바"
+      ],
+      "Item text\u0004(UTC+01:00) West Central Africa": [
+        "(UTC+01:00) 서부 중앙아프리카"
+      ],
+      "Item text\u0004(UTC+01:00) Zagreb": [
+        "(UTC+01:00) 자그레브"
+      ],
+      "Item text\u0004(UTC+02:00) Athens": [
+        "(UTC+02:00) 아테네"
+      ],
+      "Item text\u0004(UTC+02:00) Bucharest": [
+        "(UTC+02:00) 부쿠레슈티"
+      ],
+      "Item text\u0004(UTC+02:00) Cairo": [
+        "(UTC+02:00) 카이로"
+      ],
+      "Item text\u0004(UTC+02:00) Harare": [
+        "(UTC+02:00) 하라레"
+      ],
+      "Item text\u0004(UTC+02:00) Helsinki": [
+        "(UTC+02:00) 헬싱키"
+      ],
+      "Item text\u0004(UTC+02:00) Istanbul": [
+        "(UTC+02:00) 이스탄불"
+      ],
+      "Item text\u0004(UTC+02:00) Jerusalem": [
+        "(UTC+02:00) 예루살렘"
+      ],
+      "Item text\u0004(UTC+02:00) Kyiv": [
+        "(UTC+02:00) 키예프"
+      ],
+      "Item text\u0004(UTC+02:00) Pretoria": [
+        "(UTC+02:00) 프리토리아"
+      ],
+      "Item text\u0004(UTC+02:00) Riga": [
+        "(UTC+02:00) 리가"
+      ],
+      "Item text\u0004UTC+02:00) Sofia": [
+        "UTC+02:00) 소피아"
+      ],
+      "Item text\u0004(UTC+02:00) Tallinn": [
+        "(UTC+02:00) 탈린"
+      ],
+      "Item text\u0004(UTC+02:00) Vilnius": [
+        "(UTC+02:00) 빌니우스"
+      ],
+      "Item text\u0004(UTC+03:00) Baghdad": [
+        "(UTC+03:00) 바그다드"
+      ],
+      "Item text\u0004(UTC+03:00) Kuwait": [
+        "(UTC+03:00) 쿠웨이트"
+      ],
+      "Item text\u0004(UTC+03:00) Minsk": [
+        "(UTC+03:00) 민스크"
+      ],
+      "Item text\u0004(UTC+03:00) Nairobi": [
+        "(UTC+03:00) 나이로비"
+      ],
+      "Item text\u0004(UTC+03:00) Riyadh": [
+        "(UTC+03:00) 리야드"
+      ],
+      "Item text\u0004(UTC+03:00) Volgograd": [
+        "(UTC+03:00) 볼고그라드"
+      ],
+      "Item text\u0004(UTC+03:30) Tehran": [
+        "(UTC+03:30) 테헤란"
+      ],
+      "Item text\u0004(UTC+04:00) Abu Dhabi": [
+        "(UTC+04:00) 아부다비"
+      ],
+      "Item text\u0004(UTC+04:00) Baku": [
+        "(UTC+04:00) 바쿠"
+      ],
+      "Item text\u0004UTC+04:00) Moscow": [
+        "UTC+04:00) 모스크바"
+      ],
+      "Item text\u0004UTC+04:00) Muscat": [
+        "UTC+04:00) 무스카트"
+      ],
+      "Item text\u0004(UTC+04:00) St. Petersburg": [
+        "(UTC+04:00) 상트페테르부르크"
+      ],
+      "Item text\u0004(UTC+04:00) Tbilisi": [
+        "(UTC+04:00) 트빌리시"
+      ],
+      "Item text\u0004(UTC+04:00) Yerevan": [
+        "(UTC+04:00) 예레반"
+      ],
+      "Item text\u0004(UTC+04:30) Kabul": [
+        "(UTC+04:30) 카불"
+      ],
+      "Item text\u0004(UTC+05:00) Islamabad": [
+        "(UTC+05:00) 이슬라마바드"
+      ],
+      "Item text\u0004UTC+05:00) Karachi": [
+        "UTC+05:00) 카라치"
+      ],
+      "Item text\u0004(UTC+05:00) Tashkent": [
+        "(UTC+05:00) 타슈켄트"
+      ],
+      "Item text\u0004(UTC+05:30) Chennai": [
+        "(UTC+05:30) 첸나이"
+      ],
+      "Item text\u0004(UTC+05:30) Kolkata": [
+        "(UTC+05:30) 콜카타"
+      ],
+      "Item text\u0004(UTC+05:30) Mumbai": [
+        "(UTC+05:30) 뭄바이"
+      ],
+      "Item text\u0004(UTC+05:30) New Delhi": [
+        "(UTC+05:30) 뉴델리"
+      ],
+      "Item text\u0004(UTC+05:30) Sri Jayawardenepura": [
+        "(UTC+05:30) 스리자야와르데네푸라"
+      ],
+      "Item text\u0004(UTC+05:45) Kathmandu": [
+        "(UTC+05:45) 카트만두"
+      ],
+      "Item text\u0004(UTC+06:00) Almaty": [
+        "(UTC+06:00) 알마티"
+      ],
+      "Item text\u0004(UTC+06:00) Astana": [
+        "(UTC+06:00) 아스타나"
+      ],
+      "Item text\u0004(UTC+06:00) Dhaka": [
+        "(UTC+06:00) 다카"
+      ],
+      "Item text\u0004(UTC+06:00) Ekaterinburg": [
+        "(UTC+06:00) 에카테린부르크"
+      ],
+      "Item text\u0004(UTC+06:30) Rangoon": [
+        "(UTC+06:30) 랑군"
+      ],
+      "Item text\u0004(UTC+07:00) Bangkok": [
+        "(UTC+07:00) 방콕"
+      ],
+      "Item text\u0004UTC+07:00) Hanoi": [
+        "UTC+07:00) 하노이"
+      ],
+      "Item text\u0004(UTC+07:00) Jakarta": [
+        "(UTC+07:00) 자카르타"
+      ],
+      "Item text\u0004(UTC+07:00) Novosibirsk": [
+        "(UTC+07:00) 노보시비르스크"
+      ],
+      "Item text\u0004(UTC+08:00) Beijing": [
+        "(UTC+08:00) 베이징"
+      ],
+      "Item text\u0004(UTC+08:00) Chongqing": [
+        "(UTC+08:00) 충칭"
+      ],
+      "Item text\u0004(UTC+08:00) Hong Kong": [
+        "(UTC+08:00) 홍콩"
+      ],
+      "Item text\u0004(UTC+08:00) Krasnoyarsk": [
+        "(UTC+08:00) 크라스노야르스크"
+      ],
+      "Item text\u0004(UTC+08:00) Kuala Lumpur": [
+        "(UTC+08:00) 쿠알라룸푸르"
+      ],
+      "Item text\u0004(UTC+08:00) Perth": [
+        "(UTC+08:00) 퍼스"
+      ],
+      "Item text\u0004(UTC+08:00) Singapore": [
+        "(UTC+08:00) 싱가포르"
+      ],
+      "Item text\u0004(UTC+08:00) Taipei": [
+        "(UTC+08:00) 타이베이"
+      ],
+      "Item text\u0004(UTC+08:00) Ulaan Bataar": [
+        "(UTC+08:00) 울란바타르"
+      ],
+      "Item text\u0004(UTC+08:00) Urumqi": [
+        "(UTC+08:00) 우루무치"
+      ],
+      "Item text\u0004(UTC+09:00) Irkutsk": [
+        "(UTC+09:00) 이르쿠츠크"
+      ],
+      "Item text\u0004(UTC+09:00) Osaka": [
+        "(UTC+09:00) 오사카"
+      ],
+      "Item text\u0004UTC+09:00) Sapporo": [
+        "UTC+09:00) 삿포로"
+      ],
+      "Item text\u0004(UTC+09:00) Seoul": [
+        "(UTC+09:00) 서울"
+      ],
+      "Item text\u0004(UTC+09:00) Tokyo": [
+        "(UTC+09:00) 도쿄"
+      ],
+      "Item text\u0004(UTC+09:30) Adelaide": [
+        "(UTC+09:30) 애들레이드"
+      ],
+      "Item text\u0004(UTC+09:30) Darwin": [
+        "(UTC+09:30) 다윈"
+      ],
+      "Item text\u0004(UTC+10:00) Brisbane": [
+        "(UTC+10:00) 브리즈번"
+      ],
+      "Item text\u0004(UTC+10:00) Canberra": [
+        "(UTC+10:00) 캔버라"
+      ],
+      "Item text\u0004(UTC+10:00) Guam": [
+        "(UTC+10:00) 괌"
+      ],
+      "Item text\u0004(UTC+10:00) Hobart": [
+        "(UTC+10:00) 호바트"
+      ],
+      "Item text\u0004(UTC+10:00) Melbourne": [
+        "(UTC+10:00) 멜버른"
+      ],
+      "Item text\u0004(UTC+10:00) Port Moresby": [
+        "(UTC+10:00) 포트모르즈비"
+      ],
+      "Item text\u0004(UTC+10:00) Sydney": [
+        "(UTC+10:00) 시드니"
+      ],
+      "Item text\u0004(UTC+10:00) Yakutsk": [
+        "(UTC+10:00) 야쿠츠크"
+      ],
+      "Item text\u0004(UTC+11:00) Vladivostok": [
+        "(UTC+11:00) 블라디보스토크"
+      ],
+      "Item text\u0004(UTC+12:00) Auckland": [
+        "(UTC+12:00) 오클랜드"
+      ],
+      "Item text\u0004(UTC+12:00) Fiji": [
+        "(UTC+12:00) 피지"
+      ],
+      "Item text\u0004UTC+12:00) International Date Line West": [
+        "UTC+12:00) 국제 날짜 변경선 서쪽"
+      ],
+      "Item text\u0004(UTC+12:00) Kamchatka": [
+        "(UTC+12:00) 캄차카"
+      ],
+      "Item text\u0004(UTC+12:00) Magadan": [
+        "(UTC+12:00) 마가단"
+      ],
+      "Item text\u0004(UTC+12:00) Marshall Is.": [
+        "(UTC+12:00) 마샬 제도."
+      ],
+      "Item text\u0004(UTC+12:00) New Caledonia": [
+        "(UTC+12:00) 뉴칼레도니아"
+      ],
+      "Item text\u0004(UTC+12:00) Solomon Is.": [
+        "(UTC+12:00) 솔로몬 제도."
+      ],
+      "Item text\u0004UTC+12:00) Wellington": [
+        "UTC+12:00) 웰링턴"
+      ],
+      "Item text\u0004(UTC+13:00) Nukualofa": [
+        "(UTC+13:00) 누쿠알로파"
+      ],
+      "Item text\u0004Jan": [
+        "1월"
+      ],
+      "Item text\u0004Feb": [
+        "2월"
+      ],
+      "Item text\u0004Mar": [
+        "3월"
+      ],
+      "Item text\u0004Apr": [
+        "4월"
+      ],
+      "Item text\u0004May": [
+        "5월"
+      ],
+      "Item text\u0004Jun": [
+        "준"
+      ],
+      "Item text\u0004Jul": [
+        "7월"
+      ],
+      "Item text\u0004Aug": [
+        "8월"
+      ],
+      "Item text\u0004Sep": [
+        "9월"
+      ],
+      "Item text\u0004Oct": [
+        "10월"
+      ],
+      "Item text\u0004Nov": [
+        "11월"
+      ],
+      "Item text\u0004Dec": [
+        "12월"
+      ],
+      "Item text\u0004Show Message": [
+        "메시지 표시"
+      ],
+      "Item text\u0004Redirect": [
+        "리디렉션"
+      ],
+      "Preset section label\u0004Digits": [
+        "숫자"
+      ],
+      "Preset section label\u0004Labels": [
+        "라벨"
+      ],
+      "Preset section label\u0004Expired Message": [
+        "만료된 메시지"
+      ],
+      "Element name\u0004Mini Cart": [
+        "미니카트"
+      ],
+      "Control label\u0004Borders Hover": [
+        "테두리 호버"
+      ],
+      "Control label\u0004Subtotal": [
+        "소계"
+      ],
+      "Control label\u0004Quantity": [
+        "수량"
+      ],
+      "Control label\u0004Overlap": [
+        "중복"
+      ],
+      "Control label\u0004Top Nudge": [
+        "탑 넛지"
+      ],
+      "Control label\u0004Right Nudge": [
+        "오른쪽 넛지"
+      ],
+      "Control label\u0004Cart": [
+        "카트"
+      ],
+      "Control label\u0004Dropdown Position": [
+        "드롭다운 위치"
+      ],
+      "Control label\u0004Sidebar Position": [
+        "사이드바 위치"
+      ],
+      "Control label\u0004Full Screen At": [
+        "전체 화면"
+      ],
+      "Control label\u0004Full Screen Position": [
+        "전체 화면 위치"
+      ],
+      "Control label\u0004Contents": [
+        "내용물"
+      ],
+      "Control label\u0004Separator Color": [
+        "구분자 색상"
+      ],
+      "Control label\u0004Separator Height": [
+        "구분선 높이"
+      ],
+      "Control label\u0004Remove Icon": [
+        "아이콘 제거"
+      ],
+      "Control label\u0004Actions": [
+        "행위"
+      ],
+      "Control label\u0004Continue Shopping": [
+        "계속 쇼핑하기"
+      ],
+      "Control label\u0004After Top Bar": [
+        "상단 바 이후"
+      ],
+      "Control label\u0004After Contents": [
+        "이후 내용"
+      ],
+      "Control label\u0004After Subtotal": [
+        "소계 후"
+      ],
+      "Control label\u0004After Button": [
+        "이후 버튼"
+      ],
+      "Control label\u0004Hide Count": [
+        "개수 숨기기"
+      ],
+      "Control label\u0004Hide Count When Empty": [
+        "비어 있으면 개수 숨기기"
+      ],
+      "Control label\u0004Hide Subtotal": [
+        "소계 숨기기"
+      ],
+      "Control label\u0004Hide Subtotal When Empty": [
+        "비어 있으면 소계 숨기기"
+      ],
+      "Control label\u0004Primary Button": [
+        "기본 버튼"
+      ],
+      "Control label\u0004Continue Shopping Link": [
+        "계속 쇼핑링크"
+      ],
+      "Control label\u0004Open Cart On Add": [
+        "추가 시 장바구니 열기"
+      ],
+      "Control label\u0004Hide Quantity Input": [
+        "수량 입력 숨기기"
+      ],
+      "Control label\u0004After Title Bar": [
+        "제목 표시줄 뒤"
+      ],
+      "Control label\u0004After Footer": [
+        "바닥글 이후"
+      ],
+      "Item text\u0004Sidebar": [
+        "사이드바"
+      ],
+      "Item text\u0004Checkout": [
+        "점검"
+      ],
+      "Item text\u0004Homepage": [
+        "홈페이지"
+      ],
+      "Item text\u0004Shop Page": [
+        "쇼핑 페이지"
+      ],
+      "Preset section label\u0004Product Title": [
+        "제품명"
+      ],
+      "Preset section label\u0004Quantity": [
+        "수량"
+      ],
+      "Preset section label\u0004Amount": [
+        "양"
+      ],
+      "Element name\u0004Advanced Accordion": [
+        "고급 아코디언"
+      ],
+      "Control label\u0004Below Item": [
+        "아래 항목"
+      ],
+      "Control label\u0004Accordion": [
+        "아코디언"
+      ],
+      "Control label\u0004First Item Opened": [
+        "첫 번째 항목이 열렸습니다."
+      ],
+      "Item text\u0004McWay Falls": [
+        "맥웨이 폭포"
+      ],
+      "Item text\u0004McWay Falls is an 80-foot-tall waterfall on the coast of Big Sur in central California that flows year-round from McWay Creek in Julia Pfeiffer Burns State Park, about 37 miles south of Carmel, into the Pacific Ocean. During high tide, it is a tidefall, a waterfall that empties directly into the ocean": [
+        "McWay Falls는 캘리포니아 중부 Big Sur 해안에 있는 80피트 높이의 폭포로, Carmel에서 남쪽으로 약 37마일 떨어진 Julia Pfeiffer Burns 주립공원의 McWay Creek에서 일년 내내 태평양으로 흐릅니다. 만조 때에는 바다로 직접 떨어지는 폭포인 조수폭포입니다."
+      ],
+      "Preset section label\u0004Item": [
+        "목"
+      ],
+      "Element name\u0004Login Form": [
+        "로그인 양식"
+      ],
+      "Control label\u0004Remember Me": [
+        "나를 기억해"
+      ],
+      "Control label\u0004Lost Password": [
+        "비밀번호 분실"
+      ],
+      "Control label\u0004Custom Lost Password Page": [
+        "사용자 정의 분실된 비밀번호 페이지"
+      ],
+      "Control label\u0004Redirect After Login": [
+        "로그인 후 리디렉션"
+      ],
+      "Element name\u0004Frequently Asked Questions": [
+        "자주 묻는 질문"
+      ],
+      "Control label\u0004Active Icon": [
+        "활성 아이콘"
+      ],
+      "Control label\u0004Active Background": [
+        "활성 배경"
+      ],
+      "Control label\u0004After Item": [
+        "항목 이후"
+      ],
+      "Control label\u0004Active Title": [
+        "활성 제목"
+      ],
+      "Control label\u0004Below Only": [
+        "아래만"
+      ],
+      "Control label\u0004Settings": [
+        "설정"
+      ],
+      "Control label\u0004Items": [
+        "품목"
+      ],
+      "Control label\u0004Question": [
+        "질문"
+      ],
+      "Control label\u0004Answer": [
+        "답변"
+      ],
+      "Control label\u0004First tab opened": [
+        "첫 번째 탭이 열렸습니다."
+      ],
+      "Item text\u0004Click Here": [
+        "여기를 클릭하세요"
+      ],
+      "Element name\u0004WooPresetInputs": [
+        "WooPreset입력"
+      ],
+      "Control label\u0004Inputs": [
+        "입력"
+      ],
+      "Control label\u0004Placeholder": [
+        "자리 표시자"
+      ],
+      "Control label\u0004Focused": [
+        "집중"
+      ],
+      "Control label\u0004Select2": [
+        "선택2"
+      ],
+      "Control label\u0004Selected Item": [
+        "선택한 항목"
+      ],
+      "Element name\u0004Tab Link": [
+        "탭 링크"
+      ],
+      "Control label\u0004Design": [
+        "설계"
+      ],
+      "Item text\u0004Your tab link  text": [
+        "탭 링크 텍스트"
+      ],
+      "Preset section label\u0004Layout (Basic Flex)": [
+        "레이아웃(기본 Flex)"
+      ],
+      "Element name\u0004Product Meta": [
+        "제품 메타"
+      ],
+      "Control label\u0004Divider Color": [
+        "구분선 색상"
+      ],
+      "Control label\u0004Divider Style": [
+        "디바이더 스타일"
+      ],
+      "Item text\u0004Stacked": [
+        "쌓인"
+      ],
+      "Item text\u0004Inline": [
+        "인라인"
+      ],
+      "Item text\u0004Dotted": [
+        "점이 찍힌"
+      ],
+      "Item text\u0004Dashed": [
+        "점선"
+      ],
+      "Item text\u0004Double": [
+        "더블"
+      ],
+      "Preset section label\u0004Values": [
+        "가치"
+      ],
+      "Element name\u0004Woo Widget": [
+        "우 위젯"
+      ],
+      "Control label\u0004General": [
+        "일반적인"
+      ],
+      "Element name\u0004Term Loop Builder": [
+        "용어 루프 빌더"
+      ],
+      "Control label\u0004Load Terms By Query": [
+        "쿼리별로 용어 로드"
+      ],
+      "Control label\u0004Limit": [
+        "한계"
+      ],
+      "Control label\u0004Hide Empty": [
+        "비어 있음 숨기기"
+      ],
+      "Control label\u0004Term Query": [
+        "용어 쿼리"
+      ],
+      "Element name\u0004FormDesignOptions": [
+        "양식디자인옵션"
+      ],
+      "Control label\u0004Form Design Options": [
+        "양식 디자인 옵션"
+      ],
+      "Control label\u0004Between Fields": [
+        "필드 사이"
+      ],
+      "Control label\u0004Sub Label": [
+        "하위 라벨"
+      ],
+      "Control label\u0004Fields": [
+        "전지"
+      ],
+      "Control label\u0004Required": [
+        "필수의"
+      ],
+      "Control label\u0004Nudge X": [
+        "넛지 X"
+      ],
+      "Control label\u0004Nudge Y": [
+        "넛지 Y"
+      ],
+      "Control label\u0004Hide Labels": [
+        "라벨 숨기기"
+      ],
+      "Control label\u0004Radio & Checkbox": [
+        "라디오 및 체크박스"
+      ],
+      "Control label\u0004File Input": [
+        "파일 입력"
+      ],
+      "Control label\u0004Drag & Drop": [
+        "드래그 앤 드롭"
+      ],
+      "Control label\u0004Files List": [
+        "파일 목록"
+      ],
+      "Control label\u0004Delete Color": [
+        "색상 삭제"
+      ],
+      "Control label\u0004Max Width": [
+        "최대 너비"
+      ],
+      "Control label\u0004No Overlap": [
+        "중복 없음"
+      ],
+      "Control label\u0004Between Inputs": [
+        "입력 사이"
+      ],
+      "Control label\u0004Responsive": [
+        "반응형"
+      ],
+      "Control label\u0004Messages": [
+        "메시지"
+      ],
+      "Control label\u0004Submit Button": [
+        "제출 버튼"
+      ],
+      "Control label\u0004Stepper": [
+        "스테퍼"
+      ],
+      "Control label\u0004Step": [
+        "단계"
+      ],
+      "Control label\u0004Bullet": [
+        "총알"
+      ],
+      "Control label\u0004Bullet Background": [
+        "글머리 기호 배경"
+      ],
+      "Control label\u0004Disable At": [
+        "비활성화 시간"
+      ],
+      "Preset section label\u0004Sub Labels": [
+        "하위 라벨"
+      ],
+      "Preset section label\u0004Styles": [
+        "스타일"
+      ],
+      "Preset section label\u0004Previous Button": [
+        "이전 버튼"
+      ],
+      "Preset section label\u0004Next Button": [
+        "다음 버튼"
+      ],
+      "Element name\u0004Widget": [
+        "위젯"
+      ],
+      "Control label\u0004Hide Title": [
+        "제목 숨기기"
+      ],
+      "Preset section label\u0004Headings": [
+        "제목"
+      ],
+      "Element name\u0004Content Toggle": [
+        "콘텐츠 토글"
+      ],
+      "Control label\u0004Fade Content": [
+        "콘텐츠 페이드"
+      ],
+      "Control label\u0004Switch": [
+        "스위치"
+      ],
+      "Control label\u0004Inactive": [
+        "비활성"
+      ],
+      "Control label\u0004Vertical at": [
+        "수직 위치"
+      ],
+      "Control label\u0004Below Toggle": [
+        "아래 토글"
+      ],
+      "Control label\u0004After Labels": [
+        "라벨 이후"
+      ],
+      "Control label\u0004Label Left": [
+        "라벨 왼쪽"
+      ],
+      "Control label\u0004Label Right": [
+        "라벨 오른쪽"
+      ],
+      "Control label\u0004Add Content": [
+        "콘텐츠 추가"
+      ],
+      "Element name\u0004Facebook Post": [
+        "페이스북 포스트"
+      ],
+      "Control label\u0004Post URL": [
+        "게시물 URL"
+      ],
+      "Control label\u0004Show Full Post": [
+        "전체 게시물 표시"
+      ],
+      "Element name\u0004Column": [
+        "열"
+      ],
+      "Element name\u0004Image Accordion": [
+        "이미지 아코디언"
+      ],
+      "Control label\u0004Orientation": [
+        "정위"
+      ],
+      "Control label\u0004Expand On Hover": [
+        "마우스오버 시 확장"
+      ],
+      "Control label\u0004Overlay Opacity": [
+        "오버레이 불투명도"
+      ],
+      "Control label\u0004Hide Until Hover": [
+        "호버할 때까지 숨기기"
+      ],
+      "Control label\u0004Hover Effect": [
+        "호버 효과"
+      ],
+      "Control label\u0004Below Icon": [
+        "아래 아이콘"
+      ],
+      "Control label\u0004Image options": [
+        "이미지 옵션"
+      ],
+      "Control label\u0004Lazy load": [
+        "지연 로드"
+      ],
+      "Item text\u0004Massages and more.": [
+        "마사지 등."
+      ],
+      "Item text\u0004Rent surfboards, kayas, and jet skis.": [
+        "서핑보드, 카야, 제트스키를 대여하세요."
+      ],
+      "Item text\u0004Walking, bike, and jeep tours.": [
+        "걷기, 자전거, 지프 투어."
+      ],
+      "Preset section label\u0004Title Typography": [
+        "제목 타이포그래피"
+      ],
+      "Preset section label\u0004Text Typography": [
+        "텍스트 타이포그래피"
+      ],
+      "Element name\u0004Facebook Page Plugin": [
+        "페이스북 페이지 플러그인"
+      ],
+      "Control label\u0004Page": [
+        "페이지"
+      ],
+      "Control label\u0004Page URL": [
+        "페이지 URL"
+      ],
+      "Control label\u0004Events": [
+        "이벤트"
+      ],
+      "Control label\u0004Small Header": [
+        "작은 헤더"
+      ],
+      "Control label\u0004Hide Cover Photo": [
+        "표지 사진 숨기기"
+      ],
+      "Control label\u0004Profile Photos": [
+        "프로필 사진"
+      ],
+      "Control label\u0004CTA Button": [
+        "CTA 버튼"
+      ],
+      "Element name\u0004Code Block": [
+        "코드 블록"
+      ],
+      "Control label\u0004PHP & HTML Code": [
+        "PHP 및 HTML 코드"
+      ],
+      "Control label\u0004CSS Code": [
+        "CSS 코드"
+      ],
+      "Control label\u0004JavaScript Code": [
+        "자바스크립트 코드"
+      ],
+      "Control label\u0004Execute JavaScript": [
+        "자바스크립트 실행"
+      ],
+      "Control label\u0004Disable Builder Label": [
+        "빌더 라벨 비활성화"
+      ],
+      "Control label\u0004Builder Label": [
+        "빌더 라벨"
+      ],
+      "Item text\u0004Execute": [
+        "실행하다"
+      ],
+      "Item text\u0004hidden": [
+        "숨겨진"
+      ],
+      "Item text\u0004visible": [
+        "보이는"
+      ],
+      "Element name\u0004Comments List": [
+        "댓글 목록"
+      ],
+      "Control label\u0004Comment": [
+        "논평"
+      ],
+      "Control label\u0004Inset": [
+        "삽입"
+      ],
+      "Control label\u0004After Date": [
+        "이후 날짜"
+      ],
+      "Control label\u0004After Comment": [
+        "댓글 후"
+      ],
+      "Preset section label\u0004Date": [
+        "날짜"
+      ],
+      "Preset section label\u0004Comment": [
+        "논평"
+      ],
+      "Element name\u0004Product": [
+        "제품"
+      ],
+      "Control label\u0004Disable Upsells": [
+        "상향 판매 비활성화"
+      ],
+      "Control label\u0004Disable Related": [
+        "관련 비활성화"
+      ],
+      "Element name\u0004Missing Element": [
+        "누락된 요소"
+      ],
+      "Element name\u0004Post Meta": [
+        "포스트 메타"
+      ],
+      "Control label\u0004Alignment When Vertical": [
+        "수직일 때 정렬"
+      ],
+      "Control label\u0004Graphics": [
+        "제도법"
+      ],
+      "Control label\u0004Author Avatar": [
+        "작성자 아바타"
+      ],
+      "Control label\u0004After Graphics": [
+        "그래픽 후"
+      ],
+      "Control label\u0004Meta Data": [
+        "메타데이터"
+      ],
+      "Control label\u0004Date Format": [
+        "날짜 형식"
+      ],
+      "Control label\u0004Custom Date Format": [
+        "사용자 정의 날짜 형식"
+      ],
+      "Control label\u0004No Comments": [
+        "코멘트 없음"
+      ],
+      "Control label\u0004One Comment": [
+        "댓글 하나"
+      ],
+      "Control label\u0004Comments": [
+        "댓글"
+      ],
+      "Control label\u0004Before Text": [
+        "텍스트 앞"
+      ],
+      "Item text\u0004Between": [
+        "사이"
+      ],
+      "Item text\u0004Around": [
+        "약"
+      ],
+      "Item text\u0004Start": [
+        "시작"
+      ],
+      "Item text\u0004End": [
+        "끝"
+      ],
+      "Item text\u0004Comments": [
+        "댓글"
+      ],
+      "Item text\u0004Terms": [
+        "자귀"
+      ],
+      "Item text\u0004April 1st,2022 (F jS, Y)": [
+        "2022년 4월 1일 (F jS, Y)"
+      ],
+      "Item text\u00042022-04-01 (Y-m-d)": [
+        "2022-04-01 (Y-M-D)"
+      ],
+      "Item text\u000404/01/2022 (m/d/Y)": [
+        "2022년 4월 1일 (월/일/년)"
+      ],
+      "Item text\u000401/04/2022 (d/m/Y)": [
+        "2022년 1월 4일 (일/월/년)"
+      ],
+      "Preset section label\u0004Icons": [
+        "아이콘"
+      ],
+      "Preset section label\u0004Before Text": [
+        "텍스트 앞"
+      ],
+      "Element name\u0004Overlapped Images": [
+        "겹쳐진 이미지"
+      ],
+      "Control label\u0004Allow Overflow": [
+        "오버플로 허용"
+      ],
+      "Control label\u0004Default Image Width": [
+        "기본 이미지 너비"
+      ],
+      "Element name\u0004Image Comparison": [
+        "이미지 비교"
+      ],
+      "Control label\u0004Initial Position": [
+        "초기 위치"
+      ],
+      "Control label\u0004Start On Hover": [
+        "호버에서 시작"
+      ],
+      "Control label\u0004Auto Animation": [
+        "자동 애니메이션"
+      ],
+      "Control label\u0004Before": [
+        "전에"
+      ],
+      "Control label\u0004After": [
+        "후에"
+      ],
+      "Element name\u0004Cart Contents": [
+        "장바구니 내용"
+      ],
+      "Preset section label\u0004Cart Contents": [
+        "장바구니 내용"
+      ],
+      "Element name\u0004Facebook Video": [
+        "페이스북 비디오"
+      ],
+      "Control label\u0004Video URL": [
+        "비디오 URL"
+      ],
+      "Control label\u0004Allow Fullscreen": [
+        "전체 화면 허용"
+      ],
+      "Element name\u0004Atom V1 Custom Button Design": [
+        "Atom V1 맞춤형 버튼 디자인"
+      ],
+      "Control label\u0004Styles": [
+        "스타일"
+      ],
+      "Control label\u0004New Section": [
+        "새 섹션"
+      ],
+      "Element name\u0004Image V1": [
+        "이미지 V1"
+      ],
+      "Control label\u0004Custom Ratio": [
+        "맞춤 비율"
+      ],
+      "Control label\u0004Focus Point": [
+        "초점 포인트"
+      ],
+      "Control label\u0004Mask": [
+        "마스크"
+      ],
+      "Control label\u0004Custom Shape": [
+        "사용자 정의 모양"
+      ],
+      "Control label\u0004Custom Size": [
+        "사용자 정의 크기"
+      ],
+      "Control label\u0004From Library": [
+        "도서관에서"
+      ],
+      "Item text\u00048:5": [
+        "8:5"
+      ],
+      "Item text\u0004Tv": [
+        "TV"
+      ],
+      "Item text\u0004Waves": [
+        "파도"
+      ],
+      "Item text\u0004Waves 2": [
+        "파도 2"
+      ],
+      "Item text\u0004Blob": [
+        "얼룩"
+      ],
+      "Item text\u0004Star 1": [
+        "스타 1"
+      ],
+      "Item text\u0004Star 2": [
+        "스타 2"
+      ],
+      "Item text\u0004Star 3": [
+        "스타 3"
+      ],
+      "Item text\u0004Star 4": [
+        "스타 4"
+      ],
+      "Item text\u0004Stripes": [
+        "문"
+      ],
+      "Item text\u0004Pill": [
+        "알약"
+      ],
+      "Item text\u0004space": [
+        "공간"
+      ],
+      "Item text\u0004round": [
+        "둥근"
+      ],
+      "Item text\u0004Overlap": [
+        "중복"
+      ],
+      "Item text\u0004Below": [
+        "아래에"
+      ],
+      "Item text\u0004From Library": [
+        "도서관에서"
+      ],
+      "Item text\u0004URL": [
+        "URL"
+      ],
+      "Item text\u0004Full Size Image": [
+        "전체 크기 이미지"
+      ],
+      "Element name\u0004Image Hover Card": [
+        "이미지 호버 카드"
+      ],
+      "Control label\u0004Image Effect": [
+        "이미지 효과"
+      ],
+      "Control label\u0004Border Effect": [
+        "테두리 효과"
+      ],
+      "Item text\u0004use breakdance": [
+        "브레이크 댄스를 사용하다"
+      ],
+      "Item text\u0004be happy": [
+        "행복해요"
+      ],
+      "Item text\u0004Easily add beautiful": [
+        "쉽게 아름다운 추가"
+      ],
+      "Item text\u0004image hover effects": [
+        "이미지 호버 효과"
+      ],
+      "Item text\u0004Pan Up": [
+        "팬업"
+      ],
+      "Item text\u0004Pan Down": [
+        "아래로 이동"
+      ],
+      "Item text\u0004Pan Left": [
+        "왼쪽으로 이동"
+      ],
+      "Item text\u0004Pan Right": [
+        "오른쪽으로 이동"
+      ],
+      "Item text\u0004Rotate Left": [
+        "왼쪽으로 회전"
+      ],
+      "Item text\u0004Rotate Right": [
+        "오른쪽으로 회전"
+      ],
+      "Item text\u0004Blur": [
+        "흐림"
+      ],
+      "Item text\u0004Corners": [
+        "코너"
+      ],
+      "Item text\u0004Corners 2": [
+        "코너킥 2"
+      ],
+      "Item text\u0004CC 1": [
+        "CC 1"
+      ],
+      "Item text\u0004CC 2": [
+        "CC 2"
+      ],
+      "Item text\u0004CC 3": [
+        "CC 3"
+      ],
+      "Item text\u0004CCC 1": [
+        "CCC 1"
+      ],
+      "Item text\u0004CCC 2": [
+        "CCC 2"
+      ],
+      "Item text\u0004CCC 3": [
+        "CCC 3"
+      ],
+      "Item text\u0004reveal-up": [
+        "공개"
+      ],
+      "Item text\u0004reveal-down": [
+        "공개다운"
+      ],
+      "Item text\u0004reveal-left": [
+        "왼쪽 공개"
+      ],
+      "Item text\u0004reveal-right": [
+        "공개 권리"
+      ],
+      "Item text\u0004fade-up": [
+        "페이드업"
+      ],
+      "Item text\u0004fade-down": [
+        "페이드다운"
+      ],
+      "Item text\u0004fade-left": [
+        "페이드 레프트"
+      ],
+      "Item text\u0004fade-right": [
+        "페이드 라이트"
+      ],
+      "Item text\u0004rotate-up-right": [
+        "오른쪽 위로 회전"
+      ],
+      "Item text\u0004rotate-up-left": [
+        "왼쪽 위로 회전"
+      ],
+      "Item text\u0004rotate-down-right": [
+        "아래로 오른쪽으로 회전"
+      ],
+      "Item text\u0004rotate-down-left": [
+        "왼쪽 아래로 회전"
+      ],
+      "Item text\u0004100ms": [
+        "100ms"
+      ],
+      "Item text\u0004200ms": [
+        "200ms"
+      ],
+      "Item text\u0004300ms": [
+        "300ms"
+      ],
+      "Item text\u0004400ms": [
+        "400ms"
+      ],
+      "Item text\u0004500ms": [
+        "500ms"
+      ],
+      "Item text\u0004600ms": [
+        "600ms"
+      ],
+      "Item text\u0004700ms": [
+        "700ms"
+      ],
+      "Item text\u0004800ms": [
+        "800ms"
+      ],
+      "Item text\u0004900ms": [
+        "900ms"
+      ],
+      "Item text\u00041s": [
+        "1초"
+      ],
+      "Item text\u0004Top Center": [
+        "상단 중앙"
+      ],
+      "Item text\u0004Center Left": [
+        "중앙 왼쪽"
+      ],
+      "Item text\u0004Center Center": [
+        "센터 센터"
+      ],
+      "Item text\u0004Center Right": [
+        "중앙 오른쪽"
+      ],
+      "Item text\u0004Bottom Center": [
+        "하단 중앙"
+      ],
+      "Element name\u0004Fancy Testimonial": [
+        "멋진 평가"
+      ],
+      "Control label\u0004Stack Vertically at": [
+        "수직으로 쌓기"
+      ],
+      "Control label\u0004Boxed": [
+        "박스형"
+      ],
+      "Control label\u0004Quotes": [
+        "인용 부호"
+      ],
+      "Control label\u0004Below Testimonial": [
+        "아래 사용후기"
+      ],
+      "Control label\u0004Below Stars": [
+        "별 아래"
+      ],
+      "Control label\u0004Below Name": [
+        "아래 이름"
+      ],
+      "Control label\u0004Below Occupation": [
+        "직업 이하"
+      ],
+      "Control label\u0004Testimonial": [
+        "증명서"
+      ],
+      "Control label\u0004Occupation": [
+        "직업"
+      ],
+      "Item text\u0004First": [
+        "첫 번째"
+      ],
+      "Item text\u0004Second": [
+        "두번째"
+      ],
+      "Item text\u0004Third": [
+        "제삼"
+      ],
+      "Item text\u0004Fourth": [
+        "네번째"
+      ],
+      "Item text\u0004Fifth": [
+        "제오"
+      ],
+      "Preset section label\u0004Testimonial": [
+        "증명서"
+      ],
+      "Preset section label\u0004Occupation": [
+        "직업"
+      ],
+      "Element name\u0004Checkout Builder": [
+        "결제 빌더"
+      ],
+      "Control label\u0004Elements": [
+        "강요"
+      ],
+      "Item text\u0004Billing details": [
+        "결제 세부정보"
+      ],
+      "Item text\u0004Order Summary": [
+        "주문 요약"
+      ],
+      "Item text\u0004Free Shipping on orders over $100": [
+        "$100 이상 주문 시 무료 배송"
+      ],
+      "Item text\u0004Free returns within 30 days of purchase": [
+        "구매 후 30일 이내 무료 반품"
+      ],
+      "Item text\u00041-year Warranty included": [
+        "1년 보증 포함"
+      ],
+      "Element name\u0004Form Builder": [
+        "양식 작성기"
+      ],
+      "Control label\u0004Free mode warning": [
+        "무료 모드 경고"
+      ],
+      "Item text\u0004label": [
+        "상표"
+      ],
+      "Item label\u0004Name": [
+        "이름"
+      ],
+      "Item label\u0004Email": [
+        "이메일"
+      ],
+      "Item label\u0004Message": [
+        "메시지"
+      ],
+      "Element name\u0004Advanced Tabs": [
+        "고급 탭"
+      ],
+      "Item text\u0004This is a basic text element.": [
+        "이것은 기본 텍스트 요소입니다."
+      ],
+      "Element name\u0004Cart Empty Message": [
+        "장바구니가 비어 있음 메시지"
+      ],
+      "Element name\u0004GridbuilderWP Facet": [
+        "GridbuilderWP 패싯"
+      ],
+      "Element name\u0004Account Page": [
+        "계정 페이지"
+      ],
+      "Control label\u0004Vertical Tabs Position": [
+        "수직 탭 위치"
+      ],
+      "Control label\u0004Horizontal Tabs Position": [
+        "수평 탭 위치"
+      ],
+      "Control label\u0004Sticky Tabs": [
+        "접착 탭"
+      ],
+      "Control label\u0004Sticky Offset": [
+        "고정 오프셋"
+      ],
+      "Control label\u0004Tab": [
+        "꼬리표"
+      ],
+      "Preset section label\u0004Titles": [
+        "제목"
+      ],
+      "Preset section label\u0004Total Label": [
+        "총 라벨"
+      ],
+      "Preset section label\u0004Total Value": [
+        "총 가치"
+      ],
+      "Element name\u0004Product Info": [
+        "제품 정보"
+      ],
+      "Control label\u0004Separators": [
+        "구분 기호"
+      ],
+      "Control label\u0004Hide Separators": [
+        "구분 기호 숨기기"
+      ],
+      "Control label\u0004After Heading": [
+        "향 후"
+      ],
+      "Control label\u0004After Attribute": [
+        "속성 이후"
+      ],
+      "Control label\u0004Row": [
+        "열"
+      ],
+      "Preset section label\u0004Attribute Title": [
+        "속성 제목"
+      ],
+      "Preset section label\u0004Attribute Value": [
+        "속성 값"
+      ],
+      "Element name\u0004Checkout Payment": [
+        "체크아웃 결제"
+      ],
+      "Preset section label\u0004Payment": [
+        "지불"
+      ],
+      "Element name\u0004Scrolling Image": [
+        "스크롤 이미지"
+      ],
+      "Control label\u0004Hover Offset": [
+        "호버 오프셋"
+      ],
+      "Control label\u0004Full Width": [
+        "전폭"
+      ],
+      "Element name\u0004Checkout Login Form": [
+        "체크아웃 로그인 양식"
+      ],
+      "Element name\u0004Products List": [
+        "제품 목록"
+      ],
+      "Control label\u0004Include": [
+        "포함하다"
+      ],
+      "Control label\u0004Show Second Image On Hover": [
+        "마우스오버 시 두 번째 이미지 표시"
+      ],
+      "Control label\u0004Review Count": [
+        "리뷰 수"
+      ],
+      "Control label\u0004Custom Areas": [
+        "사용자 정의 영역"
+      ],
+      "Control label\u0004Areas": [
+        "지역"
+      ],
+      "Control label\u0004Between Products": [
+        "제품간"
+      ],
+      "Control label\u0004Product Wrapper": [
+        "제품 포장지"
+      ],
+      "Control label\u0004Align Content": [
+        "콘텐츠 정렬"
+      ],
+      "Control label\u0004Show Products": [
+        "제품보기"
+      ],
+      "Control label\u0004Products": [
+        "제품"
+      ],
+      "Control label\u0004Product Count": [
+        "제품수"
+      ],
+      "Control label\u0004Order By": [
+        "주문 기준"
+      ],
+      "Item text\u0004Inside Link": [
+        "내부 링크"
+      ],
+      "Item text\u0004Outside Link": [
+        "외부링크"
+      ],
+      "Item text\u0004All": [
+        "모두"
+      ],
+      "Item text\u0004Featured": [
+        "추천"
+      ],
+      "Item text\u0004On sale": [
+        "판매중"
+      ],
+      "Item text\u0004Manually": [
+        "수동으로"
+      ],
+      "Item text\u0004Query": [
+        "질문"
+      ],
+      "Item text\u0004Price": [
+        "가격"
+      ],
+      "Item text\u0004Random": [
+        "무작위의"
+      ],
+      "Item text\u0004Descending": [
+        "내림차순"
+      ],
+      "Item text\u0004Ascending": [
+        "오름차순"
+      ],
+      "Preset section label\u0004Old Price Typography": [
+        "이전 가격 타이포그래피"
+      ],
+      "Preset section label\u0004Current Price Typography": [
+        "현재 가격 타이포그래피"
+      ],
+      "Preset section label\u0004Count Typography": [
+        "카운트 타이포그래피"
+      ],
+      "Element name\u0004Button": [
+        "단추"
+      ],
+      "Element name\u0004Image With Zoom": [
+        "확대/축소된 이미지"
+      ],
+      "Control label\u0004Zoom Scale": [
+        "줌 배율"
+      ],
+      "Control label\u0004Cursor": [
+        "커서"
+      ],
+      "Item text\u0004Zoom-In": [
+        "확대"
+      ],
+      "Item text\u0004Move": [
+        "이동하다"
+      ],
+      "Item text\u0004Crosshair": [
+        "십자선"
+      ],
+      "Element name\u0004Text Link": [
+        "텍스트 링크"
+      ],
+      "Element name\u0004LayoutPreset": [
+        "레이아웃사전 설정"
+      ],
+      "Control label\u0004Display": [
+        "표시하다"
+      ],
+      "Control label\u0004Flex Direction": [
+        "플렉스 방향"
+      ],
+      "Control label\u0004Align Items": [
+        "항목 정렬"
+      ],
+      "Control label\u0004Justify Content": [
+        "콘텐츠 정당화"
+      ],
+      "Control label\u0004Flex Wrap": [
+        "플렉스 랩"
+      ],
+      "Control label\u0004Z-Index": [
+        "Z-지수"
+      ],
+      "Control label\u0004Overflow": [
+        "과다"
+      ],
+      "Control label\u0004Legacy": [
+        "유산"
+      ],
+      "Control label\u0004Float": [
+        "뜨다"
+      ],
+      "Control label\u0004Clear": [
+        "분명한"
+      ],
+      "Control label\u0004Visibility": [
+        "시계"
+      ],
+      "Control label\u0004Top": [
+        "맨 위"
+      ],
+      "Control label\u0004Left": [
+        "왼쪽"
+      ],
+      "Control label\u0004Right": [
+        "오른쪽"
+      ],
+      "Control label\u0004Bottom": [
+        "맨 아래"
+      ],
+      "Control label\u0004Flex Child": [
+        "플렉스 차일드"
+      ],
+      "Control label\u0004Align Self": [
+        "자기 정렬"
+      ],
+      "Control label\u0004Flex Grow": [
+        "플렉스 성장"
+      ],
+      "Control label\u0004Flex Shrink": [
+        "플렉스 수축"
+      ],
+      "Control label\u0004Flex Basis": [
+        "플렉스 기반"
+      ],
+      "Control label\u0004Grid Child": [
+        "그리드 하위"
+      ],
+      "Control label\u0004Grid Column": [
+        "그리드 컬럼"
+      ],
+      "Control label\u0004Grid Row": [
+        "그리드 행"
+      ],
+      "Control label\u0004Grid Area": [
+        "그리드 영역"
+      ],
+      "Control label\u0004Justify Self": [
+        "자기 정당화"
+      ],
+      "Item text\u0004block": [
+        "차단하다"
+      ],
+      "Item text\u0004inline-block": [
+        "인라인 블록"
+      ],
+      "Item text\u0004inline": [
+        "인라인"
+      ],
+      "Item text\u0004flex": [
+        "몸을 풀다"
+      ],
+      "Item text\u0004inline-flex": [
+        "인라인 플렉스"
+      ],
+      "Item text\u0004none": [
+        "없음"
+      ],
+      "Item text\u0004column": [
+        "열"
+      ],
+      "Item text\u0004row": [
+        "열"
+      ],
+      "Item text\u0004column-reverse": [
+        "열 역방향"
+      ],
+      "Item text\u0004row-reverse": [
+        "행 역방향"
+      ],
+      "Item text\u0004flex-start": [
+        "플렉스 스타트"
+      ],
+      "Item text\u0004flex-end": [
+        "플렉스엔드"
+      ],
+      "Item text\u0004stretch": [
+        "뻗기"
+      ],
+      "Item text\u0004baseline": [
+        "기준선"
+      ],
+      "Item text\u0004space-between": [
+        "공백 사이"
+      ],
+      "Item text\u0004space-around": [
+        "우주 주변"
+      ],
+      "Item text\u0004space-evenly": [
+        "공간 균등하게"
+      ],
+      "Item text\u0004nowrap": [
+        "지금 랩"
+      ],
+      "Item text\u0004wrap": [
+        "포장하다"
+      ],
+      "Item text\u0004wrap-reverse": [
+        "랩 리버스"
+      ],
+      "Item text\u0004both": [
+        "둘 다"
+      ],
+      "Item text\u0004static": [
+        "공전"
+      ],
+      "Item text\u0004relative": [
+        "상대적인"
+      ],
+      "Item text\u0004absolute": [
+        "순수한"
+      ],
+      "Item text\u0004sticky": [
+        "어려운"
+      ],
+      "Item text\u0004start": [
+        "시작"
+      ],
+      "Item text\u0004end": [
+        "끝"
+      ],
+      "Element name\u0004Comment Form": [
+        "댓글 양식"
+      ],
+      "Element name\u0004Blockquote": [
+        "인용구"
+      ],
+      "Control label\u0004Icon Position": [
+        "아이콘 위치"
+      ],
+      "Control label\u0004After Quote": [
+        "견적 후"
+      ],
+      "Control label\u0004Before Author": [
+        "작성자 이전"
+      ],
+      "Control label\u0004Author": [
+        "작가"
+      ],
+      "Item text\u0004It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.": [
+        "살아남는 종은 가장 강한 종도, 가장 지능이 높은 종이 아니라 변화에 가장 잘 반응하는 종입니다."
+      ],
+      "Item text\u0004Above Text": [
+        "텍스트 위"
+      ],
+      "Preset section label\u0004Author": [
+        "작가"
+      ],
+      "Element name\u0004Post Loop Builder": [
+        "포스트 루프 빌더"
+      ],
+      "Element name\u0004Facebook Comments": [
+        "페이스북 댓글"
+      ],
+      "Control label\u0004Sort By": [
+        "정렬 기준"
+      ],
+      "Control label\u0004Comment on": [
+        "댓글 달기"
+      ],
+      "Item text\u0004Newest": [
+        "최신"
+      ],
+      "Item text\u0004Oldest": [
+        "가장 오래된"
+      ],
+      "Element name\u0004Content Reveal": [
+        "콘텐츠 공개"
+      ],
+      "Control label\u0004Transition": [
+        "이행"
+      ],
+      "Control label\u0004Hide By": [
+        "숨기기 기준"
+      ],
+      "Control label\u0004Max Lines": [
+        "최대 라인"
+      ],
+      "Control label\u0004Scroll To Top When Closed": [
+        "닫혀 있으면 맨 위로 스크롤"
+      ],
+      "Control label\u0004Reveal Label": [
+        "라벨 공개"
+      ],
+      "Item text\u0004<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex ut dolor porttitor, ut ultricies leo porttitor. Etiam ac convallis nisl. Curabitur dapibus nec nunc nec iaculis. Quisque vitae ullamcorper risus. Ut rhoncus convallis nisi eget accumsan. Integer vitae lectus iaculis, volutpat diam eu, faucibus enim. Maecenas augue purus, hendrerit ac fermentum a, mollis ut nisl. Cras egestas lobortis dolor. Quisque nunc felis, bibendum quis risus ac, facilisis ultrices enim.</p><p>Maecenas mattis dolor est, in hendrerit libero ornare eget. Nam eget tortor et diam laoreet aliquam id ut dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean convallis molestie massa, id luctus ex scelerisque scelerisque. Integer bibendum ullamcorper mi. Sed congue, nibh et tincidunt vulputate, turpis risus maximus mauris, eget commodo nulla risus eu ante. Nulla at dolor aliquam quam accumsan venenatis. Aliquam hendrerit accumsan convallis. Ut consequat urna id lorem vestibulum blandit. Fusce dui metus, molestie vel mattis vitae, tempus tempor urna. Sed lacinia ligula nec enim tempus, at porta urna varius. Nam eget lobortis diam. Etiam ultricies libero et libero consectetur, at imperdiet orci tristique. Morbi pulvinar nunc ut molestie ornare. Vestibulum finibus pulvinar ligula id auctor.</p><p>Duis ullamcorper ornare metus at condimentum. Sed auctor, ipsum et sagittis dapibus, augue urna pretium metus, vitae tempor sem quam sit amet justo. Cras hendrerit condimentum odio, ac rhoncus magna mollis ac. Vestibulum rhoncus placerat risus vel lobortis. Nullam fringilla augue eu mauris ultrices, in imperdiet elit tincidunt. Maecenas tincidunt id mauris id rutrum. Duis imperdiet nisi est, in scelerisque diam sagittis et. Etiam rutrum nulla ut augue cursus finibus. Quisque posuere auctor sem, sed volutpat odio ullamcorper quis. Proin nec orci condimentum, ultrices turpis ac, fermentum metus. Ut tempor felis risus, efficitur ultricies augue mattis finibus. Nulla aliquet tempor velit. Proin eget ligula bibendum, finibus sem eu, congue ligula. Ut magna diam, feugiat ut leo et, gravida accumsan ante.</p><p>Nulla lacinia tempor accumsan. Maecenas volutpat quam eu massa accumsan ultrices. Praesent maximus lorem in augue pretium aliquet. Nam mauris massa, fermentum in tincidunt quis, gravida eget dolor. Vestibulum in tristique lorem. Vivamus non malesuada dolor. Morbi vulputate bibendum aliquet. Etiam sed varius ipsum, vitae tincidunt massa.</p>": [
+        "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex ut dolor porttitor, ut ultricies leo porttitor. Etiam ac conballis nisl. Curabitur dapibus nec nunc nec iaculis. Quisque vitae ullamcorper risus. Ut rhoncus convallis nisi eget accumsan. Integer vitae lectus iaculis, volutpat diam eu, faucibus enim. Maecenas augue purus, hendrerit ac fermentum a, mollis ut nisl. Cras egestas lobortis dolor. Quisque nunc felis, bibendum quis risus ac, facilisis ultrices enim.</p><p>Maecenas mattis dolor est, in hendrerit libero ornare eget. Nam eget tortor et diam laoreet aliquam id ut dui. Interdum et Malesuada는 Faucibus에서 ac ante ipsum primis로 유명합니다. Aenean convallis Molestie Massa, id luctus ex scelerisque scelerisque. 정수 bibendum ullamcorper mi. Sed congue, nibh ettincidunt vulputate, turpis risus maximus mauris, eget commodo nulla risus eu ante. Nulla at dolor aliquam quam accumsan venenatis. Aliquam hendrerit accumsan conballis. Ut consequat urna id lorem Vestibulum blandit. Fusce dui metus, Molestie vel mattis vitae, tempus tempor urna. Sed lacinia ligula nec enim tempus, at porta urna varius. Nam eget lobortis diam. Etiam ultricies libero et libero consectetur, at imperdiet orci tristique. Morbi pulvinar nunc ut Molestie Ornare. Vestibulum finibus pulvinar ligula id auctor.</p><p>Duis ullamcorper ornare metus at condimentum. Sed auctor, ipsum et sagittis dapibus, augue urna pretium metus, vitae tempor sem quam sit amet justo. Cras hendrerit condimentum odio, ac rhoncus magna mollis ac. 전정 rhoncus placerat risus vel lobortis. Nullam fringilla augue eu mauris ultrices, in imperdiet elittincidunt. Maecenastincidunt id mauris id rutrum. Duis imperdiet nisi est, in scelerisque diam sagittis et. Etiam rutrum nulla ut augu cursus finibus. Quisque posuere auctor sem, sed volutpat odio ullamcorper quis. Proin nec orci condimentum, ultrices turpis ac, fermentum metus. 시간이 지남에 따라 효율성이 향상되어 Mattis Finibus가 향상됩니다. Nulla aliquet tempor velit. Proin eget ligula bibendum, finibus sem eu, congue ligula. Ut magna diam, feugiat ut leo et, gravida accumsan ante.</p><p>Nulla lacinia tempor accumsan. Maecenas volutpat quam eu matsa accumsan ultrices. 오그 프레티엄 알리케에 담긴 프레젠트 막시무스 로렘. Nam mauris Massa, fermentum intincidunt quis, gravida eget dolor. tristique lorem의 현관. Vivamus non Malesuada dolor. Morbi vulputate bibendum aliquet. Etiam sed varius ipsum, vitaetincidunt Massa.</p>"
+      ],
+      "Item text\u0004Height": [
+        "키"
+      ],
+      "Item text\u0004Lines": [
+        "윤곽"
+      ],
+      "Element name\u0004HTML IMG": [
+        "HTML IMG"
+      ],
+      "Control label\u0004src": [
+        "소스"
+      ],
+      "Control label\u0004srcset": [
+        "srcset"
+      ],
+      "Control label\u0004sizes": [
+        "크기"
+      ],
+      "Control label\u0004alt": [
+        "대체"
+      ],
+      "Control label\u0004loading": [
+        "로드 중"
+      ],
+      "Control label\u0004width": [
+        "너비"
+      ],
+      "Control label\u0004height": [
+        "키"
+      ],
+      "Item text\u0004eager": [
+        "열렬한"
+      ],
+      "Item text\u0004lazy": [
+        "게으른"
+      ],
+      "Element name\u0004ShortcodeWrapper": [
+        "단축코드래퍼"
+      ],
+      "Element name\u0004Simple Testimonial": [
+        "간단한 사용후기"
+      ],
+      "Control label\u0004Shape & Outline": [
+        "모양 및 윤곽"
+      ],
+      "Control label\u0004Offset Width": [
+        "오프셋 폭"
+      ],
+      "Control label\u0004Offset Color": [
+        "오프셋 색상"
+      ],
+      "Control label\u0004Black & White": [
+        "흑백"
+      ],
+      "Control label\u0004Horizontal Offset": [
+        "수평 오프셋"
+      ],
+      "Control label\u0004Vertical Offset": [
+        "수직 오프셋"
+      ],
+      "Control label\u0004Hide Below": [
+        "아래 숨기기"
+      ],
+      "Control label\u0004Below Image": [
+        "아래 이미지"
+      ],
+      "Control label\u0004Below Author": [
+        "아래 작성자"
+      ],
+      "Control label\u0004Below Author Info": [
+        "작성자 정보 아래"
+      ],
+      "Control label\u0004Author Info": [
+        "작성자 정보"
+      ],
+      "Item text\u0004Outlined Circle": [
+        "윤곽선이 있는 원"
+      ],
+      "Item text\u0004Masked": [
+        "가면을 쓴"
+      ],
+      "Item text\u0004Rounded": [
+        "둥근"
+      ],
+      "Item text\u0004Blob 2": [
+        "블롭 2"
+      ],
+      "Item text\u0004Blob 3": [
+        "블롭 3"
+      ],
+      "Item text\u0004Blob 4": [
+        "블롭 4"
+      ],
+      "Item text\u0004Blob 5": [
+        "블롭 5"
+      ],
+      "Item text\u0004Blob 6": [
+        "블롭 6"
+      ],
+      "Item text\u0004Blob 7": [
+        "블롭 7"
+      ],
+      "Item text\u0004Blob 8": [
+        "블롭 8"
+      ],
+      "Item text\u0004Quotes 1": [
+        "인용문 1"
+      ],
+      "Item text\u0004Quotes 2": [
+        "인용문 2"
+      ],
+      "Item text\u0004Quotes 3": [
+        "인용문 3"
+      ],
+      "Item text\u0004Quotes 4": [
+        "인용문 4"
+      ],
+      "Item text\u0004Quotes 5": [
+        "인용문 5"
+      ],
+      "Preset section label\u0004Author Info": [
+        "작성자 정보"
+      ],
+      "Element name\u0004Woo Breadcrumb": [
+        "우 탐색경로"
+      ],
+      "Control label\u0004Delimiter": [
+        "구분 기호"
+      ],
+      "Preset section label\u0004Delimiter Typography": [
+        "구분자 타이포그래피"
+      ],
+      "Preset section label\u0004Last Item": [
+        "마지막 항목"
+      ],
+      "Element name\u0004Twitter Button": [
+        "트위터 버튼"
+      ],
+      "Control label\u0004Follow User": [
+        "사용자 팔로우"
+      ],
+      "Control label\u0004Mention User": [
+        "사용자 언급"
+      ],
+      "Control label\u0004Hashtag": [
+        "해시태그"
+      ],
+      "Control label\u0004Show Count": [
+        "쇼 카운트"
+      ],
+      "Control label\u0004Via Username": [
+        "사용자 이름을 통해"
+      ],
+      "Control label\u0004Show Screen Name": [
+        "화면 이름 표시"
+      ],
+      "Control label\u0004Text to Tweet": [
+        "트윗할 텍스트"
+      ],
+      "Control label\u0004URL to Tweet": [
+        "트윗할 URL"
+      ],
+      "Item text\u0004Share": [
+        "공유하다"
+      ],
+      "Item text\u0004Follow": [
+        "따르다"
+      ],
+      "Item text\u0004Mention": [
+        "언급하다"
+      ],
+      "Item text\u0004Hashtag": [
+        "해시태그"
+      ],
+      "Element name\u0004Basic Slider": [
+        "기본 슬라이더"
+      ],
+      "Control label\u0004Slide": [
+        "슬라이드"
+      ],
+      "Control label\u0004Align Children": [
+        "하위 정렬"
+      ],
+      "Control label\u0004Vertical Align Children": [
+        "수직 정렬 하위"
+      ],
+      "Control label\u0004Content Width": [
+        "콘텐츠 너비"
+      ],
+      "Control label\u0004After Text": [
+        "텍스트 뒤"
+      ],
+      "Control label\u0004Title HTML Tag": [
+        "제목 HTML 태그"
+      ],
+      "Item text\u0004<p>The quick, brown, classic rose, and bossanova fox jumped over the lazy dog.</p>": [
+        "<p>빠른 갈색의 클래식 장미와 보사노바 여우가 게으른 개를 뛰어넘었습니다.</p>"
+      ],
+      "Item text\u0004<p>The quick, brown, bizarre, and thunderbird fox jumped over the lazy dog.</p>": [
+        "<p>날렵하고, 갈색이고, 기괴하고, 천둥새 여우가 게으른 개를 뛰어넘었습니다.</p>"
+      ],
+      "Item text\u0004<p>The quick, brown, charlotte, and red fox jumped over the lazy dog.</p>": [
+        "<p>빠른 여우, 갈색여우, 샬롯, 붉은여우가 게으른 개를 뛰어넘었습니다.</p>"
+      ],
+      "Element name\u0004Adjacent Posts": [
+        "인접 기둥"
+      ],
+      "Control label\u0004Previous On Right": [
+        "이전 오른쪽"
+      ],
+      "Control label\u0004Previous": [
+        "이전의"
+      ],
+      "Control label\u0004Next": [
+        "다음"
+      ],
+      "Control label\u0004Between Posts": [
+        "게시물 사이"
+      ],
+      "Control label\u0004Disable Arrow": [
+        "화살표 비활성화"
+      ],
+      "Control label\u0004Disable Post Title": [
+        "게시물 제목 비활성화"
+      ],
+      "Control label\u0004Same taxonomy only": [
+        "동일한 분류만 가능"
+      ],
+      "Control label\u0004Post Title Tag": [
+        "게시물 제목 태그"
+      ],
+      "Preset section label\u0004Post Title": [
+        "게시물 제목"
+      ],
+      "Element name\u0004Social Share Buttons": [
+        "소셜 공유 버튼"
+      ],
+      "Control label\u0004Floating Position": [
+        "부동 위치"
+      ],
+      "Control label\u0004Between Buttons": [
+        "버튼 사이"
+      ],
+      "Control label\u0004Network": [
+        "회로망"
+      ],
+      "Control label\u0004Custom Label": [
+        "맞춤 라벨"
+      ],
+      "Control label\u0004Share": [
+        "공유하다"
+      ],
+      "Control label\u0004Custom Text": [
+        "맞춤 텍스트"
+      ],
+      "Item text\u0004Icon & Text": [
+        "아이콘 및 텍스트"
+      ],
+      "Item text\u0004Minimal": [
+        "최소"
+      ],
+      "Item text\u0004Box": [
+        "상자"
+      ],
+      "Item text\u0004Static": [
+        "공전"
+      ],
+      "Item text\u0004Floating": [
+        "떠 있는"
+      ],
+      "Item text\u0004Pinterest": [
+        "핀터레스트"
+      ],
+      "Item text\u0004VK": [
+        "VK"
+      ],
+      "Item text\u0004Tumblr": [
+        "텀블러"
+      ],
+      "Item text\u0004Reddit": [
+        "레딧"
+      ],
+      "Item text\u0004Digg": [
+        "디그"
+      ],
+      "Item text\u0004StumbleUpon": [
+        "StumbleUpon"
+      ],
+      "Item text\u0004Pocket": [
+        "포켓"
+      ],
+      "Item text\u0004WhatsApp": [
+        "왓츠앱"
+      ],
+      "Item text\u0004Xing": [
+        "싱"
+      ],
+      "Item text\u0004Telegram": [
+        "전보"
+      ],
+      "Item text\u0004Skype": [
+        "스카이프"
+      ],
+      "Item text\u0004Print": [
+        "인쇄"
+      ],
+      "Item text\u0004Email": [
+        "이메일"
+      ],
+      "Item text\u0004Page Title": [
+        "페이지 제목"
+      ],
+      "Item text\u0004Custom Text": [
+        "맞춤 텍스트"
+      ],
+      "Element name\u0004Menu Builder": [
+        "메뉴 빌더"
+      ],
+      "Control label\u0004Graphic": [
+        "그래픽"
+      ],
+      "Control label\u0004Image Opacity": [
+        "이미지 불투명도"
+      ],
+      "Control label\u0004After Graphic": [
+        "그래픽 이후"
+      ],
+      "Control label\u0004Before Description": [
+        "설명 전"
+      ],
+      "Control label\u0004Space After Title": [
+        "제목 뒤 공백"
+      ],
+      "Control label\u0004Gap Between Columns": [
+        "기둥 사이의 간격"
+      ],
+      "Control label\u0004Additional Section": [
+        "추가 섹션"
+      ],
+      "Control label\u0004Stack Horizontally": [
+        "수평으로 쌓기"
+      ],
+      "Control label\u0004Level 3": [
+        "레벨 3"
+      ],
+      "Control label\u0004Remove Column Titles": [
+        "열 제목 제거"
+      ],
+      "Control label\u0004Keep Menu Selected While Styling": [
+        "스타일을 지정하는 동안 메뉴를 선택한 상태로 유지"
+      ],
+      "Item text\u0004Home": [
+        "집"
+      ],
+      "Item text\u0004Products": [
+        "제품"
+      ],
+      "Item text\u0004Flyer Basic": [
+        "전단지 기본"
+      ],
+      "Item text\u0004Flyer Intermediate": [
+        "전단지 중급"
+      ],
+      "Item text\u0004Flyer Matrix Edition": [
+        "플라이어 매트릭스 에디션"
+      ],
+      "Item text\u0004ExpressRocket": [
+        "익스프레스로켓"
+      ],
+      "Item text\u0004Boomslang Level 1": [
+        "붐슬랭 레벨 1"
+      ],
+      "Item text\u0004Liftmeister 21": [
+        "리프트마이스터 21"
+      ],
+      "Item text\u0004Heavymeister": [
+        "헤비마이스터"
+      ],
+      "Item text\u0004Triblade Vortex": [
+        "삼블레이드 소용돌이"
+      ],
+      "Item text\u0004Rugged & Heavy Industry": [
+        "견고하고 중공업"
+      ],
+      "Item text\u0004Identity 6000": [
+        "아이덴티티 6000"
+      ],
+      "Item text\u0004Use Cases": [
+        "사용 사례"
+      ],
+      "Item text\u0004Small Business": [
+        "중소기업"
+      ],
+      "Item text\u0004Medium Business": [
+        "중견기업"
+      ],
+      "Item text\u0004Enterprise": [
+        "기업"
+      ],
+      "Item text\u0004Organizations": [
+        "조직"
+      ],
+      "Item text\u0004Developers": [
+        "개발자"
+      ],
+      "Item text\u0004Getting Started Guide": [
+        "시작하기 가이드"
+      ],
+      "Item text\u0004API Reference": [
+        "API 참조"
+      ],
+      "Item text\u0004Sample Code": [
+        "샘플 코드"
+      ],
+      "Item text\u0004Plugin Developer Handbook": [
+        "플러그인 개발자 핸드북"
+      ],
+      "Item text\u0004Forums": [
+        "포럼"
+      ],
+      "Item text\u0004Slack Channel": [
+        "슬랙 채널"
+      ],
+      "Item text\u0004Facebook Group": [
+        "페이스북 그룹"
+      ],
+      "Item text\u0004About": [
+        "에 대한"
+      ],
+      "Item text\u0004Custom Dropdown": [
+        "맞춤 드롭다운"
+      ],
+      "Item text\u0004Design your dropdowns with Breakdance.": [
+        "Breakdance로 드롭다운을 디자인하세요."
+      ],
+      "Item text\u0004Live": [
+        "살다"
+      ],
+      "Item text\u0004Edit": [
+        "편집하다"
+      ],
+      "Preset section label\u0004Level 3": [
+        "레벨 3"
+      ],
+      "Element name\u0004SimpleLayoutPreset": [
+        "SimpleLayoutPreset"
+      ],
+      "Control label\u0004Horizontal": [
+        "수평의"
+      ],
+      "Item text\u0004Space Between": [
+        "사이의 공간"
+      ],
+      "Item text\u0004Space Around": [
+        "주변 공간"
+      ],
+      "Item text\u0004Space Evenly": [
+        "균등한 간격"
+      ],
+      "Item text\u0004Baseline": [
+        "기준선"
+      ],
+      "Element name\u0004Notification Bar": [
+        "알림바"
+      ],
+      "Control label\u0004Box": [
+        "상자"
+      ],
+      "Control label\u0004Link Text": [
+        "링크 텍스트"
+      ],
+      "Control label\u0004Show Close Button": [
+        "닫기 버튼 표시"
+      ],
+      "Item text\u0004Tip": [
+        "팁"
+      ],
+      "Item text\u0004Info": [
+        "정보"
+      ],
+      "Item text\u0004Success": [
+        "성공"
+      ],
+      "Item text\u0004Warning": [
+        "경고"
+      ],
+      "Item text\u0004Alert": [
+        "알리다"
+      ],
+      "Item text\u0004Border On Left": [
+        "왼쪽에 테두리"
+      ],
+      "Item text\u0004Wrapped With Border": [
+        "테두리로 포장됨"
+      ],
+      "Element name\u0004Global Block": [
+        "글로벌 블록"
+      ],
+      "Control label\u0004Block": [
+        "차단하다"
+      ],
+      "Element name\u0004Cart Page": [
+        "장바구니 페이지"
+      ],
+      "Control label\u0004Totals Position": [
+        "총계 위치"
+      ],
+      "Control label\u0004Sticky Totals": [
+        "고정 합계"
+      ],
+      "Control label\u0004After Notification": [
+        "통지 후"
+      ],
+      "Control label\u0004After Cart": [
+        "장바구니 후"
+      ],
+      "Control label\u0004Before Cross Sells": [
+        "교차판매 전"
+      ],
+      "Control label\u0004Between Columns": [
+        "열 사이"
+      ],
+      "Preset section label\u0004Contents": [
+        "내용물"
+      ],
+      "Element name\u0004Template Content Area": [
+        "템플릿 콘텐츠 영역"
+      ],
+      "Element name\u0004Basic List": [
+        "기본 목록"
+      ],
+      "Control label\u0004List": [
+        "목록"
+      ],
+      "Control label\u0004Marker Type": [
+        "마커 유형"
+      ],
+      "Control label\u0004Emoji": [
+        "이모티콘"
+      ],
+      "Control label\u0004Custom Hint": [
+        "맞춤 힌트"
+      ],
+      "Control label\u0004Marker Color": [
+        "마커 색상"
+      ],
+      "Control label\u0004Marker Position": [
+        "마커 위치"
+      ],
+      "Item text\u0004This is a list element.": [
+        "이것은 목록 요소입니다."
+      ],
+      "Item text\u0004Spice it up with an emoji bullet point.": [
+        "이모티콘 글머리 기호로 멋을 더해보세요."
+      ],
+      "Item text\u0004Control spacing between the items.": [
+        "항목 사이의 간격을 제어합니다."
+      ],
+      "Item text\u0004Or clear the styles and get a basic HTML list.": [
+        "또는 스타일을 지우고 기본 HTML 목록을 얻으세요."
+      ],
+      "Item text\u0004Disc": [
+        "디스크"
+      ],
+      "Item text\u0004Emoji": [
+        "이모티콘"
+      ],
+      "Element name\u0004Icon Box": [
+        "아이콘 상자"
+      ],
+      "Control label\u0004Rotate": [
+        "회전"
+      ],
+      "Item text\u0004Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in justo imperdiet, convallis velit ac, malesuada enim. Etiam vitae tempus enim. Cras hendrerit efficitur eros.": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in justo imperdiet, conballis velit ac,malesuada enim. Etiam vitae tempus enim. Cras hendrerit efficitur eros."
+      ],
+      "Preset section label\u0004Style": [
+        "스타일"
+      ],
+      "Element name\u0004Forgot Password Form": [
+        "비밀번호 분실 양식"
+      ],
+      "Control label\u0004Redirect After Submit": [
+        "제출 후 리디렉션"
+      ],
+      "Element name\u0004Upsell Products": [
+        "제품 상향 판매"
+      ],
+      "Element name\u0004Advanced Slide": [
+        "고급 슬라이드"
+      ],
+      "Element name\u0004SliderOptionsPreset": [
+        "슬라이더옵션사전 설정"
+      ],
+      "Control label\u0004Slider": [
+        "슬라이더"
+      ],
+      "Control label\u0004Coverflow": [
+        "커버플로우"
+      ],
+      "Control label\u0004Depth": [
+        "깊이"
+      ],
+      "Control label\u0004Stretch": [
+        "뻗기"
+      ],
+      "Control label\u0004Infinite": [
+        "무한"
+      ],
+      "Control label\u0004Center Slides": [
+        "센터 슬라이드"
+      ],
+      "Control label\u0004Autoplay Settings": [
+        "자동재생 설정"
+      ],
+      "Control label\u0004Stop On Interaction": [
+        "상호작용 시 중지"
+      ],
+      "Control label\u0004Pause On Hover": [
+        "마우스 오버 시 일시 중지"
+      ],
+      "Control label\u0004Swipe On Scroll": [
+        "스크롤 시 스와이프"
+      ],
+      "Control label\u0004Auto Height": [
+        "자동 높이"
+      ],
+      "Control label\u0004Between Slides": [
+        "슬라이드 사이"
+      ],
+      "Control label\u0004Slides Per View": [
+        "보기당 슬라이드 수"
+      ],
+      "Control label\u0004Initial Slide": [
+        "초기 슬라이드"
+      ],
+      "Control label\u0004One Per View At": [
+        "보기당 하나"
+      ],
+      "Control label\u0004Slides Per Group": [
+        "그룹당 슬라이드"
+      ],
+      "Control label\u0004Disable Keyboard Control": [
+        "키보드 제어 비활성화"
+      ],
+      "Control label\u0004Play Animations On": [
+        "애니메이션 재생 켜기"
+      ],
+      "Control label\u0004Space To Slides": [
+        "슬라이드에 공간"
+      ],
+      "Control label\u0004Space To Edge": [
+        "가장자리까지의 공간"
+      ],
+      "Control label\u0004Bullets": [
+        "총알"
+      ],
+      "Control label\u0004Margin": [
+        "여유"
+      ],
+      "Item text\u0004Coverflow": [
+        "커버플로우"
+      ],
+      "Item text\u0004Enabled (frontend only)": [
+        "활성화됨(프런트엔드에만 해당)"
+      ],
+      "Item text\u0004Transition Start": [
+        "전환 시작"
+      ],
+      "Item text\u0004Transition End": [
+        "전환 종료"
+      ],
+      "Item text\u0004Bullets": [
+        "총알"
+      ],
+      "Item text\u0004Fraction": [
+        "분수"
+      ],
+      "Item text\u0004Progress Bar": [
+        "진행률 표시줄"
+      ],
+      "Preset section label\u0004Fraction": [
+        "분수"
+      ],
+      "Element name\u0004Stats Grid": [
+        "통계 그리드"
+      ],
+      "Control label\u0004Items Per Row": [
+        "행당 항목"
+      ],
+      "Control label\u0004After Number": [
+        "번호 뒤"
+      ],
+      "Item text\u0004Animals Saved": [
+        "동물이 구해졌습니다"
+      ],
+      "Item text\u0004Restaurants Visited": [
+        "방문한 레스토랑"
+      ],
+      "Item text\u0004Countries": [
+        "국가"
+      ],
+      "Item text\u0004Songs Performed": [
+        "연주한 곡"
+      ],
+      "Item text\u0004Hours Spent": [
+        "보낸 시간"
+      ],
+      "Item text\u0004Hollidays Missed": [
+        "놓친 휴일"
+      ],
+      "Item text\u0004Buses Stoped": [
+        "정차된 버스"
+      ],
+      "Item text\u0004Lectures Attended": [
+        "참석한 강의"
+      ],
+      "Preset section label\u0004Icon": [
+        "상"
+      ],
+      "Element name\u0004Logo List": [
+        "로고 목록"
+      ],
+      "Control label\u0004Vertical Gap": [
+        "수직 간격"
+      ],
+      "Control label\u0004Gradient Overlay": [
+        "그라데이션 오버레이"
+      ],
+      "Control label\u0004Between Logos": [
+        "로고 사이"
+      ],
+      "Control label\u0004Setting": [
+        "환경"
+      ],
+      "Control label\u0004Logos": [
+        "로고"
+      ],
+      "Item text\u0004Animated": [
+        "생기 있는"
+      ],
+      "Item text\u0004Side Scroll": [
+        "사이드 스크롤"
+      ],
+      "Item text\u0004Show All": [
+        "모두 표시"
+      ],
+      "Item text\u0004To Left": [
+        "왼쪽으로"
+      ],
+      "Item text\u0004To Right": [
+        "오른쪽으로"
+      ],
+      "Item text\u0004Infinite": [
+        "무한"
+      ],
+      "Item text\u0004Start on Hover": [
+        "호버에서 시작"
+      ],
+      "Item text\u0004Stop on Hover": [
+        "호버에서 중지"
+      ],
+      "Item text\u0004Both": [
+        "둘 다"
+      ],
+      "Element name\u0004Icon List": [
+        "아이콘 목록"
+      ],
+      "Control label\u0004Fill": [
+        "채우다"
+      ],
+      "Control label\u0004Stack": [
+        "스택"
+      ],
+      "Control label\u0004Stack Vertical At": [
+        "수직 스택 위치"
+      ],
+      "Item text\u0004Automatic dimming at night": [
+        "밤에는 자동으로 어두워짐"
+      ],
+      "Item text\u0004500 lumens of brightness": [
+        "밝기 500루멘"
+      ],
+      "Item text\u0004Extremely energy efficient": [
+        "매우 에너지 효율적"
+      ],
+      "Element name\u0004Search Form": [
+        "검색 양식"
+      ],
+      "Control label\u0004Classic Styles": [
+        "클래식 스타일"
+      ],
+      "Control label\u0004Icon Button": [
+        "아이콘 버튼"
+      ],
+      "Control label\u0004Full Screen Styles": [
+        "전체 화면 스타일"
+      ],
+      "Control label\u0004Open Button": [
+        "열기 버튼"
+      ],
+      "Control label\u0004Search Box": [
+        "검색창"
+      ],
+      "Control label\u0004Limit To Post Type": [
+        "게시물 유형으로 제한"
+      ],
+      "Item text\u0004Classic": [
+        "권위 있는"
+      ],
+      "Item text\u0004Full Screen": [
+        "전체 화면"
+      ],
+      "Element name\u0004Related Products": [
+        "관련 제품"
+      ],
+      "Element name\u0004Google Map": [
+        "구글 지도"
+      ],
+      "Control label\u0004Address": [
+        "주소"
+      ],
+      "Control label\u0004Use Without API Key": [
+        "API 키 없이 사용"
+      ],
+      "Element name\u0004Text": [
+        "텍스트"
+      ],
+      "Element name\u0004Columns": [
+        "열"
+      ],
+      "Control label\u0004Add Column": [
+        "열 추가"
+      ],
+      "Control label\u000450% Width": [
+        "50% 너비"
+      ],
+      "Control label\u0004Reverse Order": [
+        "역순"
+      ],
+      "Control label\u0004Column Gap": [
+        "기둥 간격"
+      ],
+      "Control label\u0004Column Padding": [
+        "열 패딩"
+      ],
+      "Item text\u0004Fit To Content": [
+        "콘텐츠에 맞추기"
+      ],
+      "Item text\u0004Expand To Fill": [
+        "확장하여 채우기"
+      ],
+      "Element name\u0004Flexible Content": [
+        "유연한 콘텐츠"
+      ],
+      "Control label\u0004Flexible Content Field": [
+        "유연한 콘텐츠 필드"
+      ],
+      "Control label\u0004Blocks": [
+        "블록"
+      ],
+      "Element name\u0004Menu Custom Dropdown": [
+        "메뉴 사용자 정의 드롭다운"
+      ],
+      "Element name\u0004Image": [
+        "영상"
+      ],
+      "Control label\u0004From": [
+        "에서"
+      ],
+      "Control label\u0004Media": [
+        "메디아"
+      ],
+      "Control label\u0004Set HTML Width & Height": [
+        "HTML 너비 및 높이 설정"
+      ],
+      "Item text\u0004Media Library": [
+        "미디어 라이브러리"
+      ],
+      "Item text\u0004Decorative": [
+        "장식적인"
+      ],
+      "Element name\u0004Checkout Order Review": [
+        "결제 주문 검토"
+      ],
+      "Preset section label\u0004Your Order": [
+        "귀하의 주문"
+      ],
+      "Element name\u0004Content Toggle - Content": [
+        "콘텐츠 전환 - 콘텐츠"
+      ],
+      "Control label\u0004Primary": [
+        "주요한"
+      ],
+      "Element name\u0004Icon": [
+        "상"
+      ],
+      "Control label\u0004Outline Width": [
+        "외곽선 너비"
+      ],
+      "Element name\u0004AnalyticsWP Event": [
+        "AnalyticsWP 이벤트"
+      ],
+      "Control label\u0004Event": [
+        "이벤트"
+      ],
+      "Control label\u0004Time Active On Page": [
+        "페이지에서 활동한 시간"
+      ],
+      "Item text\u0004Scrolled Into View": [
+        "스크롤하여 보기"
+      ],
+      "Item text\u0004Time Active On Page": [
+        "페이지에서 활동한 시간"
+      ],
+      "Element name\u0004Header Builder": [
+        "헤더 빌더"
+      ],
+      "Control label\u0004Custom Width": [
+        "사용자 정의 너비"
+      ],
+      "Control label\u0004Page Top Margin": [
+        "페이지 상단 여백"
+      ],
+      "Control label\u0004Page Bottom Margin": [
+        "페이지 하단 여백"
+      ],
+      "Control label\u0004Scroll Behavior": [
+        "스크롤 동작"
+      ],
+      "Control label\u0004Hide After": [
+        "다음 이후 숨기기"
+      ],
+      "Control label\u0004Hide Until Scroll": [
+        "스크롤할 때까지 숨기기"
+      ],
+      "Control label\u0004Scroll Distance": [
+        "스크롤 거리"
+      ],
+      "Control label\u0004Reveal Animation": [
+        "애니메이션 공개"
+      ],
+      "Control label\u0004Reveal On Scroll Up": [
+        "위로 스크롤 시 공개"
+      ],
+      "Control label\u0004Offset After Scroll": [
+        "스크롤 후 오프셋"
+      ],
+      "Control label\u0004Keep Style": [
+        "스타일 유지"
+      ],
+      "Control label\u0004Disable Builder Preview Mode": [
+        "빌더 미리보기 모드 비활성화"
+      ],
+      "Element name\u0004Checkout Page": [
+        "결제 페이지"
+      ],
+      "Control label\u0004Single Column": [
+        "단일 열"
+      ],
+      "Control label\u0004Your Order": [
+        "귀하의 주문"
+      ],
+      "Control label\u0004Below Headings": [
+        "제목 아래"
+      ],
+      "Control label\u0004Force Full Width Form Fields": [
+        "전체 너비 양식 필드 강제 적용"
+      ],
+      "Preset section label\u0004Coupon": [
+        "쿠폰"
+      ],
+      "Preset section label\u0004Billing Details": [
+        "청구 세부정보"
+      ],
+      "Preset section label\u0004Additional Info": [
+        "추가 정보"
+      ],
+      "Preset section label\u0004Table Heading": [
+        "테이블 제목"
+      ],
+      "Preset section label\u0004Prices": [
+        "물가"
+      ],
+      "Preset section label\u0004Payment Info": [
+        "결제 정보"
+      ],
+      "Element name\u0004EffectsPreset": [
+        "효과사전 설정"
+      ],
+      "Control label\u0004Box Shadow": [
+        "박스 섀도우"
+      ],
+      "Control label\u0004Mix Blend Mode": [
+        "믹스 블렌드 모드"
+      ],
+      "Control label\u0004Timing Function": [
+        "타이밍 기능"
+      ],
+      "Control label\u0004Property": [
+        "재산"
+      ],
+      "Control label\u0004Custom Property": [
+        "사용자 정의 속성"
+      ],
+      "Control label\u0004Transform": [
+        "변환"
+      ],
+      "Control label\u0004Transforms": [
+        "변환"
+      ],
+      "Control label\u0004Skew X": [
+        "기울이기 X"
+      ],
+      "Control label\u0004Skew Y": [
+        "스큐 Y"
+      ],
+      "Control label\u0004Translate X": [
+        "X 번역"
+      ],
+      "Control label\u0004Translate Y": [
+        "번역 Y"
+      ],
+      "Control label\u0004Translate Z": [
+        "Z 번역"
+      ],
+      "Control label\u0004Angle": [
+        "각도"
+      ],
+      "Control label\u0004Perspective": [
+        "관점"
+      ],
+      "Control label\u0004Scale X": [
+        "스케일 X"
+      ],
+      "Control label\u0004Scale Y": [
+        "스케일 Y"
+      ],
+      "Control label\u0004Scale Z": [
+        "스케일 Z"
+      ],
+      "Control label\u0004Rotate X": [
+        "X 회전"
+      ],
+      "Control label\u0004Rotate Y": [
+        "Y 회전"
+      ],
+      "Control label\u0004Rotate Z": [
+        "Z 회전"
+      ],
+      "Control label\u0004Origin Position": [
+        "원점 위치"
+      ],
+      "Control label\u0004Perspective Origin": [
+        "관점 원점"
+      ],
+      "Control label\u0004Transform Style": [
+        "스타일 변환"
+      ],
+      "Control label\u0004Filter": [
+        "필터"
+      ],
+      "Control label\u0004Blur Amount": [
+        "흐림 정도"
+      ],
+      "Item text\u0004ease-in-out": [
+        "쉽게 꺼낼 수 있다"
+      ],
+      "Item text\u0004ease-in": [
+        "이지인"
+      ],
+      "Item text\u0004ease-out": [
+        "완화"
+      ],
+      "Item text\u0004ease": [
+        "쉬움"
+      ],
+      "Item text\u0004linear": [
+        "선의"
+      ],
+      "Item text\u0004all": [
+        "모두"
+      ],
+      "Item text\u0004perspective": [
+        "관점"
+      ],
+      "Item text\u0004rotate": [
+        "회전하다"
+      ],
+      "Item text\u0004rotate3d": [
+        "회전3D"
+      ],
+      "Item text\u0004scale": [
+        "규모"
+      ],
+      "Item text\u0004scale3d": [
+        "규모3d"
+      ],
+      "Item text\u0004skew": [
+        "비스듬한"
+      ],
+      "Item text\u0004translate": [
+        "번역하다"
+      ],
+      "Item text\u0004top left": [
+        "왼쪽 위"
+      ],
+      "Item text\u0004top right": [
+        "오른쪽 상단"
+      ],
+      "Item text\u0004top center": [
+        "상단 중앙"
+      ],
+      "Item text\u0004center left": [
+        "중앙 왼쪽"
+      ],
+      "Item text\u0004center right": [
+        "중앙 오른쪽"
+      ],
+      "Item text\u0004bottom left": [
+        "왼쪽 하단"
+      ],
+      "Item text\u0004bottom center": [
+        "하단 중앙"
+      ],
+      "Item text\u0004bottom right": [
+        "오른쪽 하단"
+      ],
+      "Item text\u0004Preserve 3D": [
+        "3D 보존"
+      ],
+      "Item text\u0004blur": [
+        "흐림"
+      ],
+      "Item text\u0004brightness": [
+        "명도"
+      ],
+      "Item text\u0004contrast": [
+        "차이"
+      ],
+      "Item text\u0004grayscale": [
+        "회색조"
+      ],
+      "Item text\u0004hue-rotate": [
+        "색조 회전"
+      ],
+      "Item text\u0004invert": [
+        "거꾸로 하다"
+      ],
+      "Item text\u0004saturate": [
+        "가득한"
+      ],
+      "Item text\u0004sepia": [
+        "세피아"
+      ],
+      "Element name\u0004Rich Text": [
+        "리치 텍스트"
+      ],
+      "Control label\u0004H1": [
+        "H1"
+      ],
+      "Control label\u0004Margin Block Start": [
+        "마진 블록 시작"
+      ],
+      "Control label\u0004Margin Block End": [
+        "마진 블록 끝"
+      ],
+      "Control label\u0004H2": [
+        "H2"
+      ],
+      "Control label\u0004H3": [
+        "H3"
+      ],
+      "Control label\u0004H4": [
+        "H4"
+      ],
+      "Control label\u0004Paragraph": [
+        "절"
+      ],
+      "Control label\u0004Padding Inline Start": [
+        "패딩 인라인 시작"
+      ],
+      "Control label\u0004List Item P": [
+        "목록 항목 P"
+      ],
+      "Preset section label\u0004Default": [
+        "기본"
+      ],
+      "Preset section label\u0004H1": [
+        "H1"
+      ],
+      "Preset section label\u0004H2": [
+        "H2"
+      ],
+      "Preset section label\u0004H3": [
+        "H3"
+      ],
+      "Preset section label\u0004H4": [
+        "H4"
+      ],
+      "Preset section label\u0004Paragraph": [
+        "절"
+      ],
+      "Element name\u0004Checkout Billing Form": [
+        "결제 청구 양식"
+      ],
+      "Element name\u0004Masker": [
+        "마스커"
+      ],
+      "Element name\u0004Breadcrumbs": [
+        "이동 경로"
+      ],
+      "Control label\u0004Breadcrumbs": [
+        "이동 경로"
+      ],
+      "Control label\u0004Integration": [
+        "완성"
+      ],
+      "Item text\u0004Yoast SEO": [
+        "요스트 SEO"
+      ],
+      "Item text\u0004Rank Math": [
+        "순위 수학"
+      ],
+      "Item text\u0004SEOPress": [
+        "SEO프레스"
+      ],
+      "Preset section label\u0004Separator": [
+        "분리 기호"
+      ],
+      "Element name\u0004Checkmark List": [
+        "체크 표시 목록"
+      ],
+      "Control label\u0004Positive Color": [
+        "포지티브 컬러"
+      ],
+      "Control label\u0004Negative Color": [
+        "네거티브 컬러"
+      ],
+      "Control label\u0004Positive Nudge": [
+        "긍정적인 넛지"
+      ],
+      "Control label\u0004Negative Nudge": [
+        "부정적인 넛지"
+      ],
+      "Control label\u0004Force Vertical Stacking": [
+        "강제 수직 스태킹"
+      ],
+      "Control label\u0004Positive Icon": [
+        "긍정적인 아이콘"
+      ],
+      "Control label\u0004Negative Icon": [
+        "부정적인 아이콘"
+      ],
+      "Item text\u0004Lifetime unlimited license": [
+        "평생 무제한 라이센스"
+      ],
+      "Item text\u0004Everything you need and more": [
+        "필요한 모든 것, 그 이상"
+      ],
+      "Item text\u0004All the features you want": [
+        "원하는 모든 기능"
+      ],
+      "Item text\u0004Gutenberg integration": [
+        "구텐베르크 통합"
+      ],
+      "Item text\u0004Composite elements": [
+        "복합요소"
+      ],
+      "Item text\u0004Positive": [
+        "긍정적인"
+      ],
+      "Item text\u0004Negative": [
+        "부정적인"
+      ],
+      "Element name\u0004Dual Heading": [
+        "이중 제목"
+      ],
+      "Control label\u0004Annotate": [
+        "주석 달기"
+      ],
+      "Control label\u0004Stroke Width": [
+        "획 폭"
+      ],
+      "Control label\u0004Multiline": [
+        "여러 줄"
+      ],
+      "Control label\u0004Iterations": [
+        "반복"
+      ],
+      "Control label\u0004RTL": [
+        "RTL"
+      ],
+      "Control label\u0004Brackets": [
+        "괄호"
+      ],
+      "Control label\u0004Secondary": [
+        "반성"
+      ],
+      "Control label\u0004Words": [
+        "단어"
+      ],
+      "Control label\u0004Secondary Style": [
+        "보조 스타일"
+      ],
+      "Item text\u0004This is": [
+        "이것은"
+      ],
+      "Item text\u0004amazing!": [
+        "놀라운!"
+      ],
+      "Item text\u0004underline": [
+        "밑줄"
+      ],
+      "Item text\u0004box": [
+        "상자"
+      ],
+      "Item text\u0004circle": [
+        "원"
+      ],
+      "Item text\u0004strike-through": [
+        "취소선"
+      ],
+      "Item text\u0004crossed-off": [
+        "교차된"
+      ],
+      "Item text\u0004bracket": [
+        "까치발"
+      ],
+      "Preset section label\u0004Both": [
+        "둘 다"
+      ],
+      "Element name\u0004Scroll Progress": [
+        "스크롤 진행"
+      ],
+      "Control label\u0004Circle": [
+        "원"
+      ],
+      "Control label\u0004Percentage": [
+        "백분율"
+      ],
+      "Control label\u0004Show Percentage": [
+        "백분율 표시"
+      ],
+      "Control label\u0004Track Progress Of": [
+        "진행 상황 추적"
+      ],
+      "Control label\u0004Custom Selector": [
+        "사용자 정의 선택기"
+      ],
+      "Item text\u0004Page": [
+        "페이지"
+      ],
+      "Item text\u0004Custom Selector": [
+        "사용자 정의 선택기"
+      ],
+      "Element name\u0004Hover Swapper": [
+        "호버 스와퍼"
+      ],
+      "Control label\u0004New Control": [
+        "새로운 컨트롤"
+      ],
+      "Element name\u0004WooPresetStock": [
+        "우프리셋스톡"
+      ],
+      "Control label\u0004Out Of Stock": [
+        "품절"
+      ],
+      "Control label\u0004Disable Icon": [
+        "아이콘 비활성화"
+      ],
+      "Control label\u0004Backorder": [
+        "이월 주문"
+      ],
+      "Element name\u0004Animated Heading": [
+        "애니메이션 제목"
+      ],
+      "Control label\u0004Typing": [
+        "타자"
+      ],
+      "Control label\u0004Type Speed": [
+        "유형 속도"
+      ],
+      "Control label\u0004Start Delay": [
+        "시작 지연"
+      ],
+      "Control label\u0004Back Speed": [
+        "역속"
+      ],
+      "Control label\u0004Back Delay": [
+        "백 딜레이"
+      ],
+      "Control label\u0004Shuffle": [
+        "혼합"
+      ],
+      "Control label\u0004Disable Loop": [
+        "루프 비활성화"
+      ],
+      "Control label\u0004Hide Cursor": [
+        "커서 숨기기"
+      ],
+      "Control label\u0004Rotating": [
+        "회전"
+      ],
+      "Control label\u0004Easing In": [
+        "이징 인"
+      ],
+      "Control label\u0004Easing Out": [
+        "이징 아웃"
+      ],
+      "Control label\u0004Transform origin": [
+        "원점 변환"
+      ],
+      "Control label\u0004Changing Text": [
+        "텍스트 변경"
+      ],
+      "Item text\u0004awesome": [
+        "엄청난"
+      ],
+      "Item text\u0004great": [
+        "엄청난"
+      ],
+      "Item text\u0004cool": [
+        "시원한"
+      ],
+      "Item text\u0004Typing": [
+        "타자"
+      ],
+      "Item text\u0004Rotating": [
+        "회전"
+      ],
+      "Item text\u0004easeOutSine": [
+        "easyOutSine"
+      ],
+      "Item text\u0004easeOutExpo": [
+        "easyOutExpo"
+      ],
+      "Item text\u0004easeOutBack": [
+        "easyOutBack"
+      ],
+      "Item text\u0004easeOutBounce": [
+        "easyOutBounce"
+      ],
+      "Item text\u0004easeInSine": [
+        "easyInSine"
+      ],
+      "Item text\u0004easeInExpo": [
+        "이즈인엑스포"
+      ],
+      "Item text\u0004easeInBack": [
+        "이즈인백"
+      ],
+      "Item text\u0004easeInBounce": [
+        "easyInBounce"
+      ],
+      "Item text\u0004Slide down": [
+        "아래로 슬라이드"
+      ],
+      "Item text\u0004Slide right": [
+        "오른쪽으로 슬라이드"
+      ],
+      "Item text\u0004Slide left": [
+        "왼쪽으로 슬라이드"
+      ],
+      "Item text\u0004Flip x": [
+        "뒤집기x"
+      ],
+      "Item text\u0004Flip y": [
+        "Y 뒤집기"
+      ],
+      "Item text\u0004Zoom in": [
+        "확대"
+      ],
+      "Item text\u0004Zoom out": [
+        "축소"
+      ],
+      "Preset section label\u0004Cursor Style": [
+        "커서 스타일"
+      ],
+      "Element name\u0004Twitter Embed Tweet": [
+        "트위터 트윗 삽입"
+      ],
+      "Control label\u0004Tweet": [
+        "짹짹"
+      ],
+      "Control label\u0004Tweet URL": [
+        "트윗 URL"
+      ],
+      "Control label\u0004Hide Conversation": [
+        "대화 숨기기"
+      ],
+      "Control label\u0004Hide Media": [
+        "미디어 숨기기"
+      ],
+      "Element name\u0004Menu Custom Area": [
+        "메뉴 사용자 정의 영역"
+      ],
+      "Control label\u0004Hide In": [
+        "숨기기"
+      ],
+      "Control label\u0004Dropdown": [
+        "드롭다운"
+      ],
+      "Control label\u0004Inherit Link Styles": [
+        "링크 스타일 상속"
+      ],
+      "Control label\u0004Icons Inherit Link Styles": [
+        "아이콘은 링크 스타일을 상속합니다."
+      ],
+      "Control label\u0004Enable Dropdown": [
+        "드롭다운 활성화"
+      ],
+      "Control label\u0004Menu Source": [
+        "메뉴 소스"
+      ],
+      "Item text\u0004Our Story": [
+        "우리의 이야기"
+      ],
+      "Item text\u0004Mission & Vision": [
+        "사명과 비전"
+      ],
+      "Item text\u0004Team": [
+        "팀"
+      ],
+      "Item text\u0004Consulting": [
+        "컨설팅"
+      ],
+      "Item text\u0004Development": [
+        "개발"
+      ],
+      "Item text\u0004Design": [
+        "설계"
+      ],
+      "Item text\u0004Job Openings": [
+        "채용공고"
+      ],
+      "Item text\u0004Internships": [
+        "인턴십"
+      ],
+      "Item text\u0004Employee Benefits": [
+        "직원 복리후생"
+      ],
+      "Item text\u0004Desktop Menu": [
+        "데스크탑 메뉴"
+      ],
+      "Item text\u0004Mobile Menu": [
+        "모바일 메뉴"
+      ],
+      "Item text\u0004Standard Controls": [
+        "표준 컨트롤"
+      ],
+      "Item text\u0004Global Block": [
+        "글로벌 블록"
+      ],
+      "Element name\u0004Fancy Divider": [
+        "팬시 디바이더"
+      ],
+      "Control label\u0004Pattern": [
+        "무늬"
+      ],
+      "Control label\u0004Space Around": [
+        "주변 공간"
+      ],
+      "Item text\u0004Zigzag": [
+        "지그재그"
+      ],
+      "Item text\u0004Pills": [
+        "의사"
+      ],
+      "Item text\u0004Stars": [
+        "별"
+      ],
+      "Item text\u0004Leafs": [
+        "잎"
+      ],
+      "Item text\u0004Smiley": [
+        "스마일리"
+      ],
+      "Item text\u0004Arrows": [
+        "화살"
+      ],
+      "Item text\u0004Pluses": [
+        "플러스"
+      ],
+      "Item text\u0004Triangles": [
+        "삼각형"
+      ],
+      "Item text\u0004Doodles": [
+        "기념일 로고"
+      ],
+      "Item text\u0004Dots": [
+        "도트"
+      ],
+      "Item text\u0004Rectangles": [
+        "직사각형"
+      ],
+      "Item text\u0004Half Circle": [
+        "반원"
+      ],
+      "Element name\u0004Shop Filters": [
+        "쇼핑 필터"
+      ],
+      "Control label\u0004Chips": [
+        "작은 조각"
+      ],
+      "Control label\u0004Hover Border": [
+        "호버 테두리"
+      ],
+      "Control label\u0004Hover Shadow": [
+        "호버 섀도우"
+      ],
+      "Control label\u0004Price Filter": [
+        "가격 필터"
+      ],
+      "Control label\u0004Bar": [
+        "술집"
+      ],
+      "Control label\u0004Selection": [
+        "선택"
+      ],
+      "Control label\u0004Handle": [
+        "핸들"
+      ],
+      "Control label\u0004Rating Filter": [
+        "평가 필터"
+      ],
+      "Control label\u0004Between Stars": [
+        "별들 사이"
+      ],
+      "Control label\u0004Attribute Filter": [
+        "속성 필터"
+      ],
+      "Control label\u0004After Titles": [
+        "제목 이후"
+      ],
+      "Control label\u0004Between Filters": [
+        "필터 사이"
+      ],
+      "Element name\u0004Table Of Contents": [
+        "목차"
+      ],
+      "Control label\u0004Heading Offset": [
+        "방향 오프셋"
+      ],
+      "Control label\u0004Collapse": [
+        "무너지다"
+      ],
+      "Control label\u0004Indent": [
+        "톱니 모양"
+      ],
+      "Control label\u0004Active Typography": [
+        "액티브 타이포그래피"
+      ],
+      "Control label\u0004Weight": [
+        "무게"
+      ],
+      "Control label\u0004Below Header": [
+        "헤더 아래"
+      ],
+      "Control label\u0004Table": [
+        "테이블"
+      ],
+      "Control label\u0004Included Headings": [
+        "포함된 제목"
+      ],
+      "Control label\u0004H5": [
+        "H5"
+      ],
+      "Control label\u0004H6": [
+        "H6"
+      ],
+      "Control label\u0004Ignore Selectors": [
+        "선택기 무시"
+      ],
+      "Control label\u0004Container Selector": [
+        "컨테이너 선택기"
+      ],
+      "Item text\u0004Label": [
+        "상표"
+      ],
+      "Item text\u0004Riht": [
+        "리히트"
+      ],
+      "Item text\u0004Numbers": [
+        "숫자"
+      ],
+      "Element name\u0004Instagram Post": [
+        "인스타그램 포스트"
+      ],
+      "Control label\u0004Hide Caption": [
+        "캡션 숨기기"
+      ],
+      "Element name\u0004Grid": [
+        "그리드"
+      ],
+      "Control label\u0004Grid": [
+        "그리드"
+      ],
+      "Control label\u0004Item Vertical Alignment": [
+        "항목 수직 정렬"
+      ],
+      "Control label\u0004Item Horizontal Alignment": [
+        "항목 수평 정렬"
+      ],
+      "Control label\u0004Use Original Item Dimensions": [
+        "최초 품목 치수 사용"
+      ],
+      "Element name\u0004Badge": [
+        "배지"
+      ],
+      "Item text\u0004My Badge": [
+        "내 배지"
+      ],
+      "Control label\u0004Row Gap": [
+        "Espaçamento entre linhas"
+      ],
+      "Control label\u0004Text Align": [
+        "Alinhamento do texto"
+      ],
+      "Control label\u0004Justify Items": [
+        "Justificar itens"
+      ],
+      "Control label\u0004Grid Template": [
+        "Modelo de grade"
+      ],
+      "Control label\u0004Grid Auto Columns": [
+        "Colunas automáticas da grade"
+      ],
+      "Control label\u0004Grid Auto Rows": [
+        "Linhas automáticas da grade"
+      ],
+      "Control label\u0004Grid Auto Flow": [
+        "Fluxo automático da grade"
+      ],
+      "Item text\u0004Flex Start": [
+        "Início flex"
+      ],
+      "Item text\u0004Flex End": [
+        "Fim flex"
+      ],
+      "Item text\u0004No Wrap": [
+        "Sem quebra"
+      ],
+      "Item text\u0004Wrap": [
+        "Quebra de linha"
+      ],
+      "Item text\u0004Wrap Reverse": [
+        "Quebra reversa"
+      ],
+      "Item text\u0004Column Reverse": [
+        "Coluna reversa"
+      ],
+      "Item text\u0004Row Reverse": [
+        "Linha reversa"
+      ],
+      "Item text\u0004Column Dense": [
+        "Coluna densa"
+      ],
+      "Item text\u0004Row Dense": [
+        "Linha densa"
+      ],
+      "Control label\u0004Clip": [
+        "Recorte"
+      ],
+      "Control label\u0004Layers": [
+        "Camadas"
+      ],
+      "Control label\u0004Form Name": [
+        "양식 이름"
+      ],
+      "Control label\u0004Actions After Submission": [
+        "제출 후 조치"
+      ],
+      "Placeholder\u0004No action selected": [
+        "선택한 작업이 없습니다."
+      ],
+      "Control label\u0004Add Field": [
+        "필드 추가"
+      ],
+      "Control label\u0004Error Message": [
+        "오류 메시지"
+      ],
+      "Control label\u0004Hide Form On Success": [
+        "성공 시 양식 숨기기"
+      ],
+      "Control label\u0004Form HTML ID": [
+        "양식 HTML ID"
+      ],
+      "Control label\u0004Submit HTML ID": [
+        "HTML ID 제출"
+      ],
+      "Control label\u0004Add Honeypot Field": [
+        "허니팟 필드 추가"
+      ],
+      "Control label\u0004Enable CSRF Protection": [
+        "CSRF 보호 활성화"
+      ],
+      "Control label\u0004Enable reCAPTCHA": [
+        "reCAPTCHA 활성화"
+      ],
+      "Control label\u0004Store Submission": [
+        "스토어 제출"
+      ],
+      "Control label\u0004Submission Title": [
+        "제출 제목"
+      ],
+      "Control label\u0004Store uploaded files": [
+        "업로드된 파일 저장"
+      ],
+      "Control label\u0004Add uploaded files to WordPress media library": [
+        "WordPress 미디어 라이브러리에 업로드된 파일 추가"
+      ],
+      "Control label\u0004Run Action Conditionally": [
+        "조건부로 작업 실행"
+      ],
+      "Control label\u0004Emails": [
+        "이메일"
+      ],
+      "Control label\u0004Subject": [
+        "주제"
+      ],
+      "Control label\u0004To Email": [
+        "이메일로"
+      ],
+      "Control label\u0004From Email": [
+        "이메일에서"
+      ],
+      "Control label\u0004From Name": [
+        "이름에서"
+      ],
+      "Control label\u0004Reply To": [
+        "답장하다"
+      ],
+      "Control label\u0004Attach uploaded files": [
+        "업로드된 파일 첨부"
+      ],
+      "Control label\u0004BCC": [
+        "숨은참조"
+      ],
+      "Control label\u0004Disable Prefix": [
+        "접두사 비활성화"
+      ],
+      "Element name\u0004Archive Title": [
+        "아카이브 제목"
+      ],
+      "Element name\u0004Post Title": [
+        "게시물 제목"
+      ]
+    }
+  }
+}

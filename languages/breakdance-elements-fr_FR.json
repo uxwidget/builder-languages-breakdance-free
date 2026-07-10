@@ -1,0 +1,6782 @@
+{
+  "translation-revision-date": "2026-06-26 00:00+0000",
+  "generator": "Breakdance Languages",
+  "domain": "breakdance-elements",
+  "locale_data": {
+    "breakdance-elements": {
+      "": {
+        "domain": "breakdance-elements",
+        "lang": "fr-FR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      "Breakdance Element Development": [
+        "Développement d’éléments de breakdance"
+      ],
+      "https://breakdance.com/": [
+        "https://breakdance.com/"
+      ],
+      "First-party Breakdance elements.": [
+        "Éléments Breakdance propriétaires."
+      ],
+      "Breakdance": [
+        "Breakdance"
+      ],
+      "This element is missing. Please open the page in Breakdance and check the browser console for details.": [
+        "Cet élément manque. Veuillez ouvrir la page dans Breakdance et vérifier la console du navigateur pour plus de détails."
+      ],
+      "Have questions? We’re here to help. <a href=\"https://breakdance.com/support/\" target=\"_blank\">Click here</a> to contact support.": [
+        "Vous avez des questions ? Nous sommes là pour vous aider.<a href=\"https://breakdance.com/support/\" target=\"_blank\">Cliquez ici</a>pour contacter l'assistance."
+      ],
+      "Element name\u0004WP Menu": [
+        "Menu WP"
+      ],
+      "Control label\u0004Desktop Menu": [
+        "Menu du bureau"
+      ],
+      "Control label\u0004Links": [
+        "Liens"
+      ],
+      "Control label\u0004Effect": [
+        "Effet"
+      ],
+      "Control label\u0004Effect Type": [
+        "Type d'effet"
+      ],
+      "Control label\u0004Effect Direction": [
+        "Direction de l'effet"
+      ],
+      "Control label\u0004Thickness": [
+        "Épaisseur"
+      ],
+      "Control label\u0004Color": [
+        "Couleur"
+      ],
+      "Control label\u0004Radius": [
+        "Rayon"
+      ],
+      "Control label\u0004Active": [
+        "Actif"
+      ],
+      "Control label\u0004Text Color": [
+        "Couleur du texte"
+      ],
+      "Control label\u0004Space Between": [
+        "Espace entre"
+      ],
+      "Control label\u0004Dropdown Arrows": [
+        "Flèches déroulantes"
+      ],
+      "Control label\u0004Disable": [
+        "Désactiver"
+      ],
+      "Control label\u0004Size": [
+        "Taille"
+      ],
+      "Control label\u0004Gap": [
+        "Écart"
+      ],
+      "Control label\u0004Offset": [
+        "Compenser"
+      ],
+      "Control label\u0004Closed Rotation": [
+        "Rotation fermée"
+      ],
+      "Control label\u0004Open Rotation": [
+        "Rotation ouverte"
+      ],
+      "Control label\u0004Custom Arrow": [
+        "Flèche personnalisée"
+      ],
+      "Control label\u0004Dropdowns": [
+        "Listes déroulantes"
+      ],
+      "Control label\u0004Wrapper": [
+        "Emballage"
+      ],
+      "Control label\u0004Background": [
+        "Arrière-plan"
+      ],
+      "Control label\u0004Placement": [
+        "emplacement"
+      ],
+      "Control label\u0004Width": [
+        "Largeur"
+      ],
+      "Control label\u0004Caret Radius": [
+        "Rayon du curseur"
+      ],
+      "Control label\u0004Disable Caret": [
+        "Désactiver le curseur"
+      ],
+      "Control label\u0004Animation": [
+        "Animation"
+      ],
+      "Control label\u0004Transition Duration": [
+        "Durée de la transition"
+      ],
+      "Control label\u0004Spacing": [
+        "Espacement"
+      ],
+      "Control label\u0004Between Links": [
+        "Entre les liens"
+      ],
+      "Control label\u0004Hover Background": [
+        "Survoler l'arrière-plan"
+      ],
+      "Control label\u0004Open Dropdowns on Click": [
+        "Ouvrir les listes déroulantes en un clic"
+      ],
+      "Control label\u0004Vertical": [
+        "Verticale"
+      ],
+      "Control label\u0004Vertical Mode": [
+        "Mode vertical"
+      ],
+      "Control label\u0004Alignment": [
+        "Alignement"
+      ],
+      "Control label\u0004Mobile Menu": [
+        "Menu mobile"
+      ],
+      "Control label\u0004Show At": [
+        "Afficher à"
+      ],
+      "Control label\u0004Mode": [
+        "Mode"
+      ],
+      "Control label\u0004Offcanvas Width": [
+        "Largeur hors toile"
+      ],
+      "Control label\u0004Offcanvas Position": [
+        "Position hors toile"
+      ],
+      "Control label\u0004Top Bar": [
+        "Barre supérieure"
+      ],
+      "Control label\u0004Logo": [
+        "Logo"
+      ],
+      "Control label\u0004Logo Width": [
+        "Largeur du logo"
+      ],
+      "Control label\u0004Logo On Right": [
+        "Logo à droite"
+      ],
+      "Control label\u0004Logo URL": [
+        "URL du logo"
+      ],
+      "Control label\u0004Logo Alt": [
+        "Logo Alt"
+      ],
+      "Control label\u0004Alt": [
+        "Alt"
+      ],
+      "Control label\u0004Custom Alt": [
+        "Alt personnalisé"
+      ],
+      "Control label\u0004Padding": [
+        "Rembourrage"
+      ],
+      "Control label\u0004Close Button": [
+        "Bouton Fermer"
+      ],
+      "Control label\u0004Bar Height": [
+        "Hauteur de la barre"
+      ],
+      "Control label\u0004Vertically Align Center": [
+        "Aligner verticalement le centre"
+      ],
+      "Control label\u0004No Border": [
+        "Pas de frontière"
+      ],
+      "Control label\u0004Border": [
+        "Frontière"
+      ],
+      "Control label\u0004Typography": [
+        "Typographie"
+      ],
+      "Control label\u0004Level 1": [
+        "Niveau 1"
+      ],
+      "Control label\u0004Level 2": [
+        "Niveau 2"
+      ],
+      "Control label\u0004Dropdowns Like Desktop": [
+        "Listes déroulantes comme le bureau"
+      ],
+      "Control label\u0004Hide Link Graphic": [
+        "Masquer le graphique du lien"
+      ],
+      "Control label\u0004Hide Link Description": [
+        "Masquer la description du lien"
+      ],
+      "Control label\u0004Horizontally Center Links": [
+        "Liens centraux horizontaux"
+      ],
+      "Control label\u0004Toggle": [
+        "Basculer"
+      ],
+      "Control label\u0004Icon": [
+        "Icône"
+      ],
+      "Control label\u0004Icon Open": [
+        "Icône Ouvrir"
+      ],
+      "Control label\u0004Wrapper Open": [
+        "Emballage ouvert"
+      ],
+      "Control label\u0004Wrapper Padding": [
+        "Rembourrage d'emballage"
+      ],
+      "Control label\u0004Wrapper Radius": [
+        "Rayon d'emballage"
+      ],
+      "Control label\u0004Custom Icon": [
+        "Icône personnalisée"
+      ],
+      "Control label\u0004Bar Width": [
+        "Largeur de la barre"
+      ],
+      "Control label\u0004Bar Spacing": [
+        "Espacement des barres"
+      ],
+      "Control label\u0004Bar Radius": [
+        "Rayon de la barre"
+      ],
+      "Control label\u0004Open Icon": [
+        "Icône Ouvrir"
+      ],
+      "Control label\u0004Close Icon": [
+        "Icône Fermer"
+      ],
+      "Control label\u0004Menu": [
+        "Menu"
+      ],
+      "Control label\u0004Accessibility": [
+        "Accessibilité"
+      ],
+      "Control label\u0004Attributes": [
+        "Attributs"
+      ],
+      "Control label\u0004Name": [
+        "Nom"
+      ],
+      "Control label\u0004Value": [
+        "Valeur"
+      ],
+      "Item text\u0004Underline": [
+        "Souligner"
+      ],
+      "Item text\u0004Overline": [
+        "Surligner"
+      ],
+      "Item text\u0004Strikethrough": [
+        "Barré"
+      ],
+      "Item text\u0004Background": [
+        "Arrière-plan"
+      ],
+      "Item text\u0004None": [
+        "Aucun"
+      ],
+      "Item text\u0004Left": [
+        "Gauche"
+      ],
+      "Item text\u0004Center": [
+        "Centre"
+      ],
+      "Item text\u0004Right": [
+        "Droite"
+      ],
+      "Item text\u0004Top": [
+        "Haut"
+      ],
+      "Item text\u0004Bottom": [
+        "Bas"
+      ],
+      "Item text\u0004Full Width": [
+        "Pleine largeur"
+      ],
+      "Item text\u0004Section Width": [
+        "Largeur de section"
+      ],
+      "Item text\u0004Fade": [
+        "Disparaître"
+      ],
+      "Item text\u0004Stripe": [
+        "Bande"
+      ],
+      "Item text\u0004Skew": [
+        "Fausser"
+      ],
+      "Item text\u0004Rotate": [
+        "Tourner"
+      ],
+      "Item text\u0004Scale Down": [
+        "Réduire"
+      ],
+      "Item text\u0004Scale Down Right": [
+        "Réduire à droite"
+      ],
+      "Item text\u0004Dropdown": [
+        "Dérouler"
+      ],
+      "Item text\u0004Accordion": [
+        "Accordéon"
+      ],
+      "Item text\u0004Side": [
+        "Côté"
+      ],
+      "Item text\u0004Default": [
+        "Défaut"
+      ],
+      "Item text\u0004Fullscreen": [
+        "Plein écran"
+      ],
+      "Item text\u0004Offcanvas": [
+        "Hors toile"
+      ],
+      "Item text\u0004Disable": [
+        "Désactiver"
+      ],
+      "Item text\u0004Custom": [
+        "Coutume"
+      ],
+      "Item text\u0004Disabled": [
+        "Désactivé"
+      ],
+      "Item text\u0004Arrow": [
+        "Flèche"
+      ],
+      "Item text\u0004Collapse": [
+        "Effondrement"
+      ],
+      "Item text\u0004Elastic": [
+        "Élastique"
+      ],
+      "Item text\u0004Emphatic": [
+        "Catégorique"
+      ],
+      "Item text\u0004Minus": [
+        "Moins"
+      ],
+      "Item text\u0004Slider": [
+        "Curseur"
+      ],
+      "Item text\u0004Spin": [
+        "Rotation"
+      ],
+      "Item text\u0004Spring": [
+        "Printemps"
+      ],
+      "Item text\u0004Squeeze": [
+        "Presser"
+      ],
+      "Item text\u0004Stand": [
+        "Rester"
+      ],
+      "Item text\u0004Vortex": [
+        "Vortex"
+      ],
+      "Item text\u00043DX": [
+        "3DX"
+      ],
+      "Item text\u00043DXY": [
+        "3DXY"
+      ],
+      "Item text\u00043DY": [
+        "3DY"
+      ],
+      "Preset section label\u0004Typography": [
+        "Typographie"
+      ],
+      "Preset section label\u0004Size": [
+        "Taille"
+      ],
+      "Preset section label\u0004Padding": [
+        "Rembourrage"
+      ],
+      "Preset section label\u0004Borders": [
+        "Frontières"
+      ],
+      "Preset section label\u0004Title": [
+        "Titre"
+      ],
+      "Preset section label\u0004Level 1": [
+        "Niveau 1"
+      ],
+      "Preset section label\u0004Level 2": [
+        "Niveau 2"
+      ],
+      "Preset section label\u0004Spacing": [
+        "Espacement"
+      ],
+      "Element name\u0004Product Tabs": [
+        "Onglets de produits"
+      ],
+      "Control label\u0004Below Tabs": [
+        "Sous les onglets"
+      ],
+      "Control label\u0004Advanced": [
+        "Avancé"
+      ],
+      "Control label\u0004Tabs": [
+        "Onglets"
+      ],
+      "Control label\u0004Description": [
+        "Description"
+      ],
+      "Control label\u0004Title": [
+        "Titre"
+      ],
+      "Control label\u0004Additional Information": [
+        "Informations Complémentaires"
+      ],
+      "Control label\u0004Reviews": [
+        "Avis"
+      ],
+      "Item label\u0004Woo": [
+        "Courtiser"
+      ],
+      "Preset section label\u0004Tabs": [
+        "Onglets"
+      ],
+      "Preset section label\u0004Container": [
+        "Récipient"
+      ],
+      "Preset section label\u0004Global Styles Override": [
+        "Remplacement des styles globaux"
+      ],
+      "Element name\u0004Tabs": [
+        "Onglets"
+      ],
+      "Control label\u0004Content": [
+        "Contenu"
+      ],
+      "Control label\u0004Active Tab": [
+        "Onglet Actif"
+      ],
+      "Control label\u0004Open On Hover": [
+        "Ouvrir au survol"
+      ],
+      "Item text\u0004title": [
+        "titre"
+      ],
+      "Preset section label\u0004Content": [
+        "Contenu"
+      ],
+      "Preset section label\u0004Wrapper": [
+        "Emballage"
+      ],
+      "Element name\u0004Business Hours": [
+        "Heures d'ouverture"
+      ],
+      "Control label\u0004Rows": [
+        "Lignes"
+      ],
+      "Control label\u0004Background A": [
+        "Contexte A"
+      ],
+      "Control label\u0004Background B": [
+        "Contexte B"
+      ],
+      "Control label\u0004Background Accent": [
+        "Accent d’arrière-plan"
+      ],
+      "Control label\u0004Border Color": [
+        "Couleur de la bordure"
+      ],
+      "Control label\u0004Day B": [
+        "Jour B"
+      ],
+      "Control label\u0004Time B": [
+        "Temps B"
+      ],
+      "Control label\u0004Container": [
+        "Récipient"
+      ],
+      "Control label\u0004Shadow": [
+        "Ombre"
+      ],
+      "Control label\u0004Days": [
+        "Jours"
+      ],
+      "Control label\u0004Day": [
+        "Jour"
+      ],
+      "Control label\u0004Time": [
+        "Temps"
+      ],
+      "Control label\u0004Accent Style": [
+        "Style d'accentuation"
+      ],
+      "Preset section label\u0004Day": [
+        "Jour"
+      ],
+      "Preset section label\u0004Time": [
+        "Temps"
+      ],
+      "Preset section label\u0004Day Accent": [
+        "Accent de jour"
+      ],
+      "Preset section label\u0004Time Accent": [
+        "Accent temporel"
+      ],
+      "Element name\u0004Repeater Field": [
+        "Champ du répéteur"
+      ],
+      "Control label\u0004Item": [
+        "Article"
+      ],
+      "Control label\u0004Repeated Block": [
+        "Blocage répété"
+      ],
+      "Control label\u0004Global Block": [
+        "Bloc global"
+      ],
+      "Control label\u0004Tag": [
+        "Étiqueter"
+      ],
+      "Control label\u0004Alternates": [
+        "Suppléants"
+      ],
+      "Control label\u0004Position": [
+        "Position"
+      ],
+      "Control label\u0004Repeat": [
+        "Répéter"
+      ],
+      "Control label\u0004Frequency": [
+        "Fréquence"
+      ],
+      "Control label\u0004Static Items": [
+        "Articles statiques"
+      ],
+      "Control label\u0004When Empty": [
+        "Lorsqu'il est vide"
+      ],
+      "Control label\u0004Field": [
+        "Champ"
+      ],
+      "Control label\u0004Item Title": [
+        "Titre de l'article"
+      ],
+      "Control label\u0004Repeater Field": [
+        "Champ du répéteur"
+      ],
+      "Item text\u0004article": [
+        "article"
+      ],
+      "Item text\u0004section": [
+        "section"
+      ],
+      "Item text\u0004div": [
+        "div"
+      ],
+      "Preset section label\u0004List": [
+        "Liste"
+      ],
+      "Element name\u0004Wrapper Link": [
+        "Lien d'emballage"
+      ],
+      "Control label\u0004Min Height": [
+        "Hauteur minimale"
+      ],
+      "Control label\u0004Hover": [
+        "Flotter"
+      ],
+      "Control label\u0004Text Colors": [
+        "Couleurs du texte"
+      ],
+      "Control label\u0004Headings": [
+        "Rubriques"
+      ],
+      "Control label\u0004Text": [
+        "Texte"
+      ],
+      "Control label\u0004Brand": [
+        "Marque"
+      ],
+      "Control label\u0004Link": [
+        "Lien"
+      ],
+      "Control label\u0004Warning": [
+        "Avertissement"
+      ],
+      "Preset section label\u0004Layout": [
+        "Mise en page"
+      ],
+      "Preset section label\u0004Background": [
+        "Arrière-plan"
+      ],
+      "Element name\u0004Register Form": [
+        "Formulaire d'inscription"
+      ],
+      "Control label\u0004Form": [
+        "Formulaire"
+      ],
+      "Control label\u0004Labels": [
+        "Étiquettes"
+      ],
+      "Control label\u0004Username Label": [
+        "Libellé du nom d'utilisateur"
+      ],
+      "Control label\u0004Username Placeholder": [
+        "Espace réservé pour le nom d'utilisateur"
+      ],
+      "Control label\u0004Email Label": [
+        "Étiquette d'e-mail"
+      ],
+      "Control label\u0004Email Placeholder": [
+        "Espace réservé pour l'e-mail"
+      ],
+      "Control label\u0004Password Label": [
+        "Étiquette de mot de passe"
+      ],
+      "Control label\u0004Password Placeholder": [
+        "Espace réservé pour le mot de passe"
+      ],
+      "Control label\u0004Submit Text": [
+        "Soumettre le texte"
+      ],
+      "Control label\u0004Success Message": [
+        "Message de réussite"
+      ],
+      "Control label\u0004Auto Log In User": [
+        "Utilisateur de connexion automatique"
+      ],
+      "Control label\u0004Redirect After Registration": [
+        "Redirection après inscription"
+      ],
+      "Control label\u0004Redirect URL": [
+        "URL de redirection"
+      ],
+      "Preset section label\u0004Form": [
+        "Formulaire"
+      ],
+      "Element name\u0004Fancy Container": [
+        "Conteneur fantaisie"
+      ],
+      "Control label\u0004Height": [
+        "Hauteur"
+      ],
+      "Element name\u0004Simple Counter": [
+        "Compteur simple"
+      ],
+      "Control label\u0004Content Alignment": [
+        "Alignement du contenu"
+      ],
+      "Control label\u0004Below Number": [
+        "Sous le numéro"
+      ],
+      "Control label\u0004Around Number": [
+        "Autour du numéro"
+      ],
+      "Control label\u0004Counter": [
+        "Comptoir"
+      ],
+      "Control label\u0004Prefix": [
+        "Préfixe"
+      ],
+      "Control label\u0004Suffix": [
+        "Suffixe"
+      ],
+      "Control label\u0004Start": [
+        "Commencer"
+      ],
+      "Control label\u0004End": [
+        "Fin"
+      ],
+      "Control label\u0004Duration": [
+        "Durée"
+      ],
+      "Control label\u0004Ease Count": [
+        "Facilité de comptage"
+      ],
+      "Control label\u0004Format Number": [
+        "Formater le numéro"
+      ],
+      "Control label\u0004Separator": [
+        "Séparateur"
+      ],
+      "Control label\u0004HTML Tags": [
+        "Balises HTML"
+      ],
+      "Control label\u0004Number": [
+        "Nombre"
+      ],
+      "Item text\u0004Right;": [
+        "Droite;"
+      ],
+      "Item text\u0004Space": [
+        "Espace"
+      ],
+      "Item text\u0004Dot": [
+        "Point"
+      ],
+      "Item text\u0004Comma": [
+        "Virgule"
+      ],
+      "Item text\u0004h1": [
+        "h1"
+      ],
+      "Item text\u0004h2": [
+        "h2"
+      ],
+      "Item text\u0004h3": [
+        "h3"
+      ],
+      "Item text\u0004h4": [
+        "h4"
+      ],
+      "Item text\u0004h5": [
+        "h5"
+      ],
+      "Item text\u0004h6": [
+        "h6"
+      ],
+      "Preset section label\u0004Number": [
+        "Nombre"
+      ],
+      "Preset section label\u0004Prefix": [
+        "Préfixe"
+      ],
+      "Preset section label\u0004Suffix": [
+        "Suffixe"
+      ],
+      "Element name\u0004Circle Counter": [
+        "Compteur de cercle"
+      ],
+      "Control label\u0004Progress Bar": [
+        "Barre de progression"
+      ],
+      "Control label\u0004Background Bar": [
+        "Barre d'arrière-plan"
+      ],
+      "Control label\u0004Style": [
+        "Style"
+      ],
+      "Control label\u0004Value Position": [
+        "Position de valeur"
+      ],
+      "Control label\u0004Space Above": [
+        "Espace au-dessus"
+      ],
+      "Control label\u0004Line Cap": [
+        "Capuchon de ligne"
+      ],
+      "Control label\u0004Bar Style": [
+        "Style de barre"
+      ],
+      "Control label\u0004Gradient": [
+        "Pente"
+      ],
+      "Control label\u0004Max Value": [
+        "Valeur maximale"
+      ],
+      "Item text\u0004Inside": [
+        "À l'intérieur"
+      ],
+      "Item text\u0004Outside": [
+        "Dehors"
+      ],
+      "Item text\u0004Round": [
+        "Rond"
+      ],
+      "Item text\u0004Flat": [
+        "Plat"
+      ],
+      "Item text\u0004Color": [
+        "Couleur"
+      ],
+      "Item text\u0004Gradient": [
+        "Pente"
+      ],
+      "Preset section label\u0004Value": [
+        "Valeur"
+      ],
+      "Element name\u0004Pagination": [
+        "Pagination"
+      ],
+      "Control label\u0004Pagination": [
+        "Pagination"
+      ],
+      "Control label\u0004Active Color": [
+        "Couleur active"
+      ],
+      "Control label\u0004Dots Color": [
+        "Couleur des points"
+      ],
+      "Control label\u0004Display As Buttons": [
+        "Afficher sous forme de boutons"
+      ],
+      "Control label\u0004Buttons": [
+        "Boutons"
+      ],
+      "Element name\u0004Order Tracking Page": [
+        "Page de suivi des commandes"
+      ],
+      "Preset section label\u0004Override Global Styles": [
+        "Remplacer les styles globaux"
+      ],
+      "Element name\u0004Product Price": [
+        "Prix ​​du produit"
+      ],
+      "Control label\u0004Layout": [
+        "Mise en page"
+      ],
+      "Control label\u0004Stack Vertically": [
+        "Empiler verticalement"
+      ],
+      "Item text\u0004Veritical": [
+        "Veritique"
+      ],
+      "Item text\u0004Horizontal": [
+        "Horizontal"
+      ],
+      "Preset section label\u0004Current Price": [
+        "Prix ​​actuel"
+      ],
+      "Preset section label\u0004Old Price": [
+        "Ancien prix"
+      ],
+      "Element name\u0004FacetWP Facet": [
+        "FacetteWP Facette"
+      ],
+      "Control label\u0004Facet": [
+        "Facette"
+      ],
+      "Element name\u0004Popup": [
+        "Surgir"
+      ],
+      "Control label\u0004Popup": [
+        "Surgir"
+      ],
+      "Control label\u0004Align": [
+        "Aligner"
+      ],
+      "Control label\u0004Vertical Align": [
+        "Alignement vertical"
+      ],
+      "Control label\u0004Translate": [
+        "Traduire"
+      ],
+      "Control label\u0004Max Height": [
+        "Hauteur maximale"
+      ],
+      "Control label\u0004Entrance": [
+        "Entrée"
+      ],
+      "Control label\u0004Animation Type": [
+        "Type d'animation"
+      ],
+      "Control label\u0004Delay": [
+        "Retard"
+      ],
+      "Control label\u0004Ease": [
+        "Facilité"
+      ],
+      "Control label\u0004Exit": [
+        "Sortie"
+      ],
+      "Control label\u0004Wrapped": [
+        "Emballé"
+      ],
+      "Control label\u0004Outside": [
+        "Dehors"
+      ],
+      "Control label\u0004Disable Overlay": [
+        "Désactiver la superposition"
+      ],
+      "Control label\u0004Allow Scroll": [
+        "Autoriser le défilement"
+      ],
+      "Control label\u0004Disable Close Button": [
+        "Désactiver le bouton de fermeture"
+      ],
+      "Control label\u0004Show Close Button After": [
+        "Afficher le bouton de fermeture après"
+      ],
+      "Control label\u0004Popup Can": [
+        "Boîte contextuelle"
+      ],
+      "Control label\u0004Automatically Close After": [
+        "Fermer automatiquement après"
+      ],
+      "Control label\u0004Popup HTML ID": [
+        "ID HTML contextuel"
+      ],
+      "Control label\u0004Popup CSS Class": [
+        "Classe CSS contextuelle"
+      ],
+      "Control label\u0004Keep Open On Hashlink Clicks": [
+        "Rester ouvert sur les clics Hashlink"
+      ],
+      "Item text\u0004Middle": [
+        "Milieu"
+      ],
+      "Item text\u0004Slide Up": [
+        "Glisser vers le haut"
+      ],
+      "Item text\u0004Slide Down": [
+        "Glisser vers le bas"
+      ],
+      "Item text\u0004Slide Left": [
+        "Glisser vers la gauche"
+      ],
+      "Item text\u0004Slide Right": [
+        "Glisser vers la droite"
+      ],
+      "Item text\u0004Flip Up": [
+        "Relevez"
+      ],
+      "Item text\u0004Flip Down": [
+        "Rabattre"
+      ],
+      "Item text\u0004Flip Left": [
+        "Retourner à gauche"
+      ],
+      "Item text\u0004Flip Right": [
+        "Retourner à droite"
+      ],
+      "Item text\u0004Zoom In": [
+        "Zoomer"
+      ],
+      "Item text\u0004Zoom Out": [
+        "Zoom arrière"
+      ],
+      "Item text\u0004Linear": [
+        "Linéaire"
+      ],
+      "Item text\u0004Expo In": [
+        "Expo à"
+      ],
+      "Item text\u0004Expo Out": [
+        "Sortie de l'expo"
+      ],
+      "Item text\u0004Expo InOut": [
+        "Expo Entrée Sortie"
+      ],
+      "Item text\u0004Power1 In": [
+        "Puissance1 dans"
+      ],
+      "Item text\u0004Power1 Out": [
+        "Sortie puissance 1"
+      ],
+      "Item text\u0004Power1 InOut": [
+        "Puissance1 EntréeSortie"
+      ],
+      "Item text\u0004Power2 In": [
+        "Puissance 2 entrées"
+      ],
+      "Item text\u0004Power2 Out": [
+        "Sortie Power2"
+      ],
+      "Item text\u0004Power2 InOut": [
+        "Alimentation2 EntréeSortie"
+      ],
+      "Item text\u0004Power3 In": [
+        "Puissance3 en"
+      ],
+      "Item text\u0004Power3 Out": [
+        "Sortie puissance 3"
+      ],
+      "Item text\u0004Power3 InOut": [
+        "Alimentation3 EntréeSortie"
+      ],
+      "Item text\u0004Power4 In": [
+        "Puissance 4 entrées"
+      ],
+      "Item text\u0004Power4 Out": [
+        "Sortie Power4"
+      ],
+      "Item text\u0004Power4 InOut": [
+        "Power4 EntréeSortie"
+      ],
+      "Item text\u0004Back In": [
+        "De retour"
+      ],
+      "Item text\u0004Back Out": [
+        "Recul"
+      ],
+      "Item text\u0004Back InOut": [
+        "Retour EntréeSortie"
+      ],
+      "Item text\u0004Elastic In": [
+        "Élastique"
+      ],
+      "Item text\u0004Elastic Out": [
+        "Élastique"
+      ],
+      "Item text\u0004Elastic InOut": [
+        "Entrée-sortie élastique"
+      ],
+      "Item text\u0004Bounce In": [
+        "Rebondir"
+      ],
+      "Item text\u0004Bounce Out": [
+        "Rebondir"
+      ],
+      "Item text\u0004Bounce InOut": [
+        "Rebondir"
+      ],
+      "Item text\u0004Top Right": [
+        "En haut à droite"
+      ],
+      "Item text\u0004Middle Right": [
+        "Milieu droit"
+      ],
+      "Item text\u0004Bottom Right": [
+        "En bas à droite"
+      ],
+      "Item text\u0004Top Left": [
+        "En haut à gauche"
+      ],
+      "Item text\u0004Middle Left": [
+        "Milieu gauche"
+      ],
+      "Item text\u0004Bottom Left": [
+        "En bas à gauche"
+      ],
+      "Preset section label\u0004Overlay": [
+        "Recouvrir"
+      ],
+      "Element name\u0004Video": [
+        "Vidéo"
+      ],
+      "Control label\u0004Overlay": [
+        "Recouvrir"
+      ],
+      "Control label\u0004Lazy Load": [
+        "Charge paresseuse"
+      ],
+      "Control label\u0004Icon Color": [
+        "Couleur de l'icône"
+      ],
+      "Control label\u0004Icon Size": [
+        "Taille de l'icône"
+      ],
+      "Control label\u0004Video": [
+        "Vidéo"
+      ],
+      "Control label\u0004Ratio": [
+        "Rapport"
+      ],
+      "Control label\u0004Custom width": [
+        "Largeur personnalisée"
+      ],
+      "Control label\u0004Custom height": [
+        "Hauteur personnalisée"
+      ],
+      "Control label\u0004Video Options": [
+        "Options vidéo"
+      ],
+      "Control label\u0004Poster": [
+        "Affiche"
+      ],
+      "Control label\u0004Autoplay": [
+        "Lecture automatique"
+      ],
+      "Control label\u0004Controls": [
+        "Contrôles"
+      ],
+      "Control label\u0004Loop": [
+        "Boucle"
+      ],
+      "Control label\u0004Muted": [
+        "En sourdine"
+      ],
+      "Control label\u0004Download Button": [
+        "Bouton de téléchargement"
+      ],
+      "Control label\u0004YouTube": [
+        "YouTube"
+      ],
+      "Control label\u0004Load Method": [
+        "Méthode de chargement"
+      ],
+      "Control label\u0004Background Image": [
+        "Image d'arrière-plan"
+      ],
+      "Control label\u0004Mute": [
+        "Muet"
+      ],
+      "Control label\u0004Modest Branding": [
+        "Image de marque modeste"
+      ],
+      "Control label\u0004Hide Player Controls": [
+        "Masquer les commandes du joueur"
+      ],
+      "Control label\u0004Play Inline": [
+        "Jouer en ligne"
+      ],
+      "Control label\u0004Privacy mode": [
+        "Mode confidentialité"
+      ],
+      "Control label\u0004Start Time": [
+        "Heure de début"
+      ],
+      "Control label\u0004End Time": [
+        "Heure de fin"
+      ],
+      "Control label\u0004Suggested Videos": [
+        "Vidéos suggérées"
+      ],
+      "Control label\u0004Vimeo": [
+        "Viméo"
+      ],
+      "Control label\u0004DailyMotion": [
+        "Mouvement quotidien"
+      ],
+      "Control label\u0004Hide All Controls": [
+        "Masquer tous les contrôles"
+      ],
+      "Control label\u0004Hide Logo": [
+        "Masquer le logo"
+      ],
+      "Control label\u0004Hide Video Info": [
+        "Masquer les informations vidéo"
+      ],
+      "Control label\u0004Disable Sharing": [
+        "Désactiver le partage"
+      ],
+      "Item text\u000416:9": [
+        "16:9"
+      ],
+      "Item text\u000416:10": [
+        "16:10"
+      ],
+      "Item text\u00044:3": [
+        "4:3"
+      ],
+      "Item text\u00041:1": [
+        "1:1"
+      ],
+      "Item text\u000421:9": [
+        "21:9"
+      ],
+      "Item text\u00043:2": [
+        "3:2"
+      ],
+      "Item text\u0004Lightweight": [
+        "Léger"
+      ],
+      "Item text\u0004Lazy load": [
+        "Chargement paresseux"
+      ],
+      "Item text\u0004Full Embed": [
+        "Intégration complète"
+      ],
+      "Item text\u0004From same channel": [
+        "De la même chaîne"
+      ],
+      "Item text\u0004Recommendations": [
+        "Recommandations"
+      ],
+      "Item text\u0004Lazy Load": [
+        "Charge paresseuse"
+      ],
+      "Item text\u0004Full embed": [
+        "Intégration complète"
+      ],
+      "Element name\u0004Twitter Timeline": [
+        "Chronologie Twitter"
+      ],
+      "Control label\u0004Theme": [
+        "Thème"
+      ],
+      "Control label\u0004No Background": [
+        "Aucun arrière-plan"
+      ],
+      "Control label\u0004No Header": [
+        "Pas d'en-tête"
+      ],
+      "Control label\u0004No Footer": [
+        "Pas de pied de page"
+      ],
+      "Control label\u0004No Scrollbar": [
+        "Pas de barre de défilement"
+      ],
+      "Control label\u0004Timeline": [
+        "Chronologie"
+      ],
+      "Control label\u0004Username": [
+        "Nom d'utilisateur"
+      ],
+      "Control label\u0004Limit Tweets": [
+        "Limiter les tweets"
+      ],
+      "Control label\u0004Tweet Count": [
+        "Nombre de tweets"
+      ],
+      "Item text\u0004Light": [
+        "Lumière"
+      ],
+      "Item text\u0004Dark": [
+        "Sombre"
+      ],
+      "Element name\u0004Social Icons": [
+        "Icônes sociales"
+      ],
+      "Control label\u0004Icons": [
+        "Icônes"
+      ],
+      "Control label\u0004Shape": [
+        "Forme"
+      ],
+      "Control label\u0004Direction": [
+        "Direction"
+      ],
+      "Control label\u0004Scale On Hover": [
+        "Échelle en survol"
+      ],
+      "Control label\u0004Opacity": [
+        "Opacité"
+      ],
+      "Control label\u0004Social Networks": [
+        "Réseaux sociaux"
+      ],
+      "Control label\u0004Type": [
+        "Taper"
+      ],
+      "Control label\u0004Aria Label": [
+        "Étiquette Aria"
+      ],
+      "Item text\u0004Circle": [
+        "Cercle"
+      ],
+      "Item text\u0004Square": [
+        "Carré"
+      ],
+      "Item text\u0004Facebook": [
+        "Facebook"
+      ],
+      "Item text\u0004Twitter": [
+        "Gazouillement"
+      ],
+      "Item text\u0004Instagram": [
+        "Instagram"
+      ],
+      "Item text\u0004YouTube": [
+        "YouTube"
+      ],
+      "Item text\u0004Dribbble": [
+        "Dribbler"
+      ],
+      "Item text\u0004Behance": [
+        "Behance"
+      ],
+      "Item text\u0004GitHub": [
+        "GitHub"
+      ],
+      "Item text\u0004LinkedIn": [
+        "LinkedIn"
+      ],
+      "Item text\u0004Vimeo": [
+        "Viméo"
+      ],
+      "Element name\u0004Facebook Share Button": [
+        "Bouton de partage Facebook"
+      ],
+      "Control label\u0004Button": [
+        "Bouton"
+      ],
+      "Control label\u0004Facebook App": [
+        "Application Facebook"
+      ],
+      "Control label\u0004URL to Like": [
+        "URL à aimer"
+      ],
+      "Control label\u0004Custom URL": [
+        "URL personnalisée"
+      ],
+      "Item text\u0004Box Count": [
+        "Nombre de boîtes"
+      ],
+      "Item text\u0004Button Count": [
+        "Nombre de boutons"
+      ],
+      "Item text\u0004Button": [
+        "Bouton"
+      ],
+      "Item text\u0004Small": [
+        "Petit"
+      ],
+      "Item text\u0004Large": [
+        "Grand"
+      ],
+      "Item text\u0004Current Page": [
+        "Page actuelle"
+      ],
+      "Item text\u0004Custom URL": [
+        "URL personnalisée"
+      ],
+      "Element name\u0004Tooltip": [
+        "Info-bulle"
+      ],
+      "Control label\u0004Tooltip": [
+        "Info-bulle"
+      ],
+      "Control label\u0004In-Builder Preview": [
+        "Aperçu dans le constructeur"
+      ],
+      "Preset section label\u0004Tooltip": [
+        "Info-bulle"
+      ],
+      "Element name\u0004Post List": [
+        "Liste des messages"
+      ],
+      "Control label\u0004Post": [
+        "Poste"
+      ],
+      "Control label\u0004Image": [
+        "Image"
+      ],
+      "Control label\u0004Stack Vertically At": [
+        "Empiler verticalement à"
+      ],
+      "Control label\u0004Space": [
+        "Espace"
+      ],
+      "Control label\u0004Aspect Ratio": [
+        "Rapport hauteur/largeur"
+      ],
+      "Control label\u0004Space Below": [
+        "Espace ci-dessous"
+      ],
+      "Control label\u0004Order": [
+        "Commande"
+      ],
+      "Control label\u0004Meta": [
+        "Méta"
+      ],
+      "Control label\u0004Taxonomy": [
+        "Taxonomie"
+      ],
+      "Control label\u0004Fallback Image": [
+        "Image de secours"
+      ],
+      "Control label\u0004Count": [
+        "Compter"
+      ],
+      "Control label\u0004Excerpt Length": [
+        "Durée de l'extrait"
+      ],
+      "Control label\u0004Button Text": [
+        "Texte du bouton"
+      ],
+      "Control label\u0004Open In New Tab": [
+        "Ouvrir dans un nouvel onglet"
+      ],
+      "Control label\u0004Query": [
+        "Requête"
+      ],
+      "Item text\u0004Justify": [
+        "Justifier"
+      ],
+      "Item text\u0004H1": [
+        "H1"
+      ],
+      "Item text\u0004H2": [
+        "H2"
+      ],
+      "Item text\u0004H3": [
+        "H3"
+      ],
+      "Item text\u0004H4": [
+        "H4"
+      ],
+      "Item text\u0004H5": [
+        "H5"
+      ],
+      "Item text\u0004H6": [
+        "H6"
+      ],
+      "Item text\u0004span": [
+        "portée"
+      ],
+      "Item text\u0004Author": [
+        "Auteur"
+      ],
+      "Item text\u0004Date": [
+        "Date"
+      ],
+      "Item text\u0004Comment": [
+        "Commentaire"
+      ],
+      "Item text\u0004Categories": [
+        "Catégories"
+      ],
+      "Item text\u0004Tags": [
+        "Balises"
+      ],
+      "Item text\u0004Excerpt": [
+        "Extrait"
+      ],
+      "Item text\u0004Content": [
+        "Contenu"
+      ],
+      "Preset section label\u0004Text": [
+        "Texte"
+      ],
+      "Preset section label\u0004Button": [
+        "Bouton"
+      ],
+      "Preset section label\u0004Pagination": [
+        "Pagination"
+      ],
+      "Preset section label\u0004Filter Bar": [
+        "Barre de filtre"
+      ],
+      "Element name\u0004Product Builder": [
+        "Constructeur de produits"
+      ],
+      "Control label\u0004Product": [
+        "Produit"
+      ],
+      "Control label\u0004Add Elements": [
+        "Ajouter des éléments"
+      ],
+      "Control label\u0004Disable Woo ID": [
+        "Désactiver l'identifiant Woo"
+      ],
+      "Item text\u0004This is a heading.": [
+        "Ceci est un titre."
+      ],
+      "Item text\u0004<h2>Rich Text</h2><p>This is my rich text.</p><h3>I am a subheading</h3><p>This is <strong>more</strong> rich text.</p><ul><li><p>I am a list</p></li><li><p>Lists are cool</p></li></ul>": [
+        "<h2>Texte enrichi</h2><p>Ceci est mon texte enrichi.</p><h3>Je suis un sous-titre</h3><p>Ceci est<strong>plus de texte riche</strong>.</p><ul><li><p>Je suis une liste</p></li><li><p>Les listes sont cool</p></li></ul>"
+      ],
+      "Element name\u0004Pulse Dot": [
+        "Point d'impulsion"
+      ],
+      "Control label\u0004Pulse Dot": [
+        "Point d'impulsion"
+      ],
+      "Control label\u0004Pulse Duration": [
+        "Durée d'impulsion"
+      ],
+      "Control label\u0004Pulse Scale": [
+        "Échelle de pouls"
+      ],
+      "Element name\u0004Lottie Animation": [
+        "Lottie Animation"
+      ],
+      "Control label\u0004Background Color": [
+        "Couleur d'arrière-plan"
+      ],
+      "Control label\u0004Asset Url": [
+        "URL de l'actif"
+      ],
+      "Control label\u0004Animation Speed": [
+        "Vitesse d'animation"
+      ],
+      "Control label\u0004Trigger": [
+        "Déclenchement"
+      ],
+      "Control label\u0004Hover Area": [
+        "Zone de survol"
+      ],
+      "Control label\u0004On Hover Out": [
+        "En survol"
+      ],
+      "Control label\u0004Reverse on finish": [
+        "Inverser à la fin"
+      ],
+      "Control label\u0004Loop Animation": [
+        "Animation en boucle"
+      ],
+      "Control label\u0004Times to loop": [
+        "Temps de boucle"
+      ],
+      "Control label\u0004Frames": [
+        "Cadres"
+      ],
+      "Item text\u00040.5x": [
+        "0,5x"
+      ],
+      "Item text\u00041x": [
+        "1x"
+      ],
+      "Item text\u00042x": [
+        "2x"
+      ],
+      "Item text\u0004Viewport": [
+        "Fenêtre"
+      ],
+      "Item text\u0004Click": [
+        "Cliquez"
+      ],
+      "Item text\u0004Hover": [
+        "Flotter"
+      ],
+      "Item text\u0004Animation": [
+        "Animation"
+      ],
+      "Item text\u0004Section": [
+        "Section"
+      ],
+      "Item text\u0004Parent element": [
+        "Élément parent"
+      ],
+      "Item text\u0004Do nothing": [
+        "Ne rien faire"
+      ],
+      "Item text\u0004Pause": [
+        "Pause"
+      ],
+      "Item text\u0004Reverse": [
+        "Inverse"
+      ],
+      "Item text\u0004Yes": [
+        "Oui"
+      ],
+      "Item text\u0004No": [
+        "Non"
+      ],
+      "Element name\u0004Section": [
+        "Section"
+      ],
+      "Control label\u0004Custom Height": [
+        "Hauteur personnalisée"
+      ],
+      "Control label\u0004Container Width": [
+        "Largeur du conteneur"
+      ],
+      "Control label\u0004Margin Top": [
+        "Marge supérieure"
+      ],
+      "Control label\u0004Margin Bottom": [
+        "Marge inférieure"
+      ],
+      "Control label\u0004Dividers": [
+        "Diviseurs"
+      ],
+      "Item text\u0004Fit Content": [
+        "Ajuster le contenu"
+      ],
+      "Item text\u0004Contained": [
+        "Contenu"
+      ],
+      "Item text\u0004Full": [
+        "Complet"
+      ],
+      "Preset section label\u0004Primary": [
+        "Primaire"
+      ],
+      "Preset section label\u0004Secondary": [
+        "Secondaire"
+      ],
+      "Preset section label\u0004Shape Dividers": [
+        "Diviseurs de forme"
+      ],
+      "Element name\u0004FancyBackgroundPreset": [
+        "FantaisieArrière-PlanPreset"
+      ],
+      "Control label\u0004Image Size": [
+        "Taille de l'image"
+      ],
+      "Control label\u0004Image Settings": [
+        "Paramètres d'image"
+      ],
+      "Control label\u0004Custom Position": [
+        "Position personnalisée"
+      ],
+      "Control label\u0004Attachment": [
+        "Pièce jointe"
+      ],
+      "Control label\u0004Unset Image At": [
+        "Désactiver l'image à"
+      ],
+      "Control label\u0004Gradient Animation": [
+        "Animation de dégradé"
+      ],
+      "Control label\u0004Scale": [
+        "Échelle"
+      ],
+      "Control label\u0004Speed": [
+        "Vitesse"
+      ],
+      "Control label\u0004Video Warning": [
+        "Avertissement vidéo"
+      ],
+      "Control label\u0004Video Settings": [
+        "Paramètres vidéo"
+      ],
+      "Control label\u0004Play On Mobile": [
+        "Jouez sur mobile"
+      ],
+      "Control label\u0004No Loop": [
+        "Pas de boucle"
+      ],
+      "Control label\u0004Pause When Out Of View": [
+        "Pause lorsque hors de vue"
+      ],
+      "Control label\u0004YouTube Privacy Mode": [
+        "Mode de confidentialité YouTube"
+      ],
+      "Control label\u0004Zoom": [
+        "Zoom"
+      ],
+      "Control label\u0004Offset Y": [
+        "Décalage Y"
+      ],
+      "Control label\u0004Offset X": [
+        "Décalage X"
+      ],
+      "Control label\u0004Slideshow": [
+        "Diaporama"
+      ],
+      "Control label\u0004Slideshow Settings": [
+        "Paramètres du diaporama"
+      ],
+      "Control label\u0004Slide Duration": [
+        "Durée de la diapositive"
+      ],
+      "Control label\u0004Transition Effect": [
+        "Effet de transition"
+      ],
+      "Control label\u0004Effect Duration": [
+        "Durée de l'effet"
+      ],
+      "Control label\u0004Slide Direction": [
+        "Direction du glissement"
+      ],
+      "Control label\u0004Ken Burns": [
+        "Ken Burns"
+      ],
+      "Control label\u0004Origin": [
+        "Origine"
+      ],
+      "Control label\u0004Play Only Once": [
+        "Jouez une seule fois"
+      ],
+      "Control label\u0004Effects": [
+        "Effets"
+      ],
+      "Control label\u0004Blend Mode": [
+        "Mode de fusion"
+      ],
+      "Item text\u0004Image": [
+        "Image"
+      ],
+      "Item text\u0004Video": [
+        "Vidéo"
+      ],
+      "Item text\u0004Slideshow": [
+        "Diaporama"
+      ],
+      "Item text\u0004cover": [
+        "couverture"
+      ],
+      "Item text\u0004contain": [
+        "contenir"
+      ],
+      "Item text\u0004auto": [
+        "auto"
+      ],
+      "Item text\u0004custom": [
+        "coutume"
+      ],
+      "Item text\u0004repeat": [
+        "répéter"
+      ],
+      "Item text\u0004no-repeat": [
+        "pas de répétition"
+      ],
+      "Item text\u0004repeat-x": [
+        "répéter-x"
+      ],
+      "Item text\u0004repeat-y": [
+        "répéter"
+      ],
+      "Item text\u0004center top": [
+        "centre en haut"
+      ],
+      "Item text\u0004center center": [
+        "centre centre"
+      ],
+      "Item text\u0004center bottom": [
+        "centre en bas"
+      ],
+      "Item text\u0004left top": [
+        "en haut à gauche"
+      ],
+      "Item text\u0004left center": [
+        "centre gauche"
+      ],
+      "Item text\u0004left bottom": [
+        "en bas à gauche"
+      ],
+      "Item text\u0004right top": [
+        "en haut à droite"
+      ],
+      "Item text\u0004right center": [
+        "centre droit"
+      ],
+      "Item text\u0004right bottom": [
+        "en bas à droite"
+      ],
+      "Item text\u0004scroll": [
+        "rouleau"
+      ],
+      "Item text\u0004fixed": [
+        "fixé"
+      ],
+      "Item text\u0004Slide": [
+        "Glisser"
+      ],
+      "Item text\u0004Vertical": [
+        "Verticale"
+      ],
+      "Item text\u0004In": [
+        "Dans"
+      ],
+      "Item text\u0004Out": [
+        "Dehors"
+      ],
+      "Item text\u0004normal": [
+        "normale"
+      ],
+      "Item text\u0004multiply": [
+        "multiplier"
+      ],
+      "Item text\u0004screen": [
+        "écran"
+      ],
+      "Item text\u0004overlay": [
+        "recouvrir"
+      ],
+      "Item text\u0004darken": [
+        "assombrir"
+      ],
+      "Item text\u0004lighten": [
+        "alléger"
+      ],
+      "Item text\u0004color-dodge": [
+        "couleur-esquive"
+      ],
+      "Item text\u0004color-burn": [
+        "brûlure de couleur"
+      ],
+      "Item text\u0004hard-light": [
+        "lumière dure"
+      ],
+      "Item text\u0004soft-light": [
+        "lumière douce"
+      ],
+      "Item text\u0004difference": [
+        "différence"
+      ],
+      "Item text\u0004exclusion": [
+        "exclusion"
+      ],
+      "Item text\u0004hue": [
+        "teinte"
+      ],
+      "Item text\u0004saturation": [
+        "saturation"
+      ],
+      "Item text\u0004color": [
+        "couleur"
+      ],
+      "Item text\u0004luminosity": [
+        "luminosité"
+      ],
+      "Preset section label\u0004Filter": [
+        "Filtre"
+      ],
+      "Element name\u0004Div": [
+        "Division"
+      ],
+      "Element name\u0004Back To Top": [
+        "Retour en haut"
+      ],
+      "Control label\u0004Sticky": [
+        "Collant"
+      ],
+      "Control label\u0004Horizontal Align": [
+        "Alignement horizontal"
+      ],
+      "Control label\u0004Hide At The Top": [
+        "Cacher en haut"
+      ],
+      "Control label\u0004Show": [
+        "Montrer"
+      ],
+      "Control label\u0004Button Styles": [
+        "Styles de boutons"
+      ],
+      "Control label\u0004Space After": [
+        "Espace après"
+      ],
+      "Control label\u0004Progress": [
+        "Progrès"
+      ],
+      "Control label\u0004Tracker": [
+        "Traqueur"
+      ],
+      "Control label\u0004Scroll Offset": [
+        "Décalage de défilement"
+      ],
+      "Control label\u0004Scroll To Selector": [
+        "Faire défiler jusqu'au sélecteur"
+      ],
+      "Item text\u0004Always": [
+        "Toujours"
+      ],
+      "Item text\u0004Half Way": [
+        "À mi-chemin"
+      ],
+      "Item text\u0004Near Bottom": [
+        "Près du bas"
+      ],
+      "Item text\u0004Fade In": [
+        "Fondu entrant"
+      ],
+      "Item text\u0004Zoom": [
+        "Zoom"
+      ],
+      "Item text\u0004Slide up": [
+        "Glisser vers le haut"
+      ],
+      "Item text\u0004Scroll Progress": [
+        "Progression du défilement"
+      ],
+      "Item text\u0004Icon": [
+        "Icône"
+      ],
+      "Item text\u0004Icon + Text": [
+        "Icône + Texte"
+      ],
+      "Element name\u0004Atom V1 Button": [
+        "Bouton Atome V1"
+      ],
+      "Control label\u0004Fancy Underline": [
+        "Soulignement fantaisie"
+      ],
+      "Control label\u0004Underline Color": [
+        "Couleur de soulignement"
+      ],
+      "Control label\u0004Arrow": [
+        "Flèche"
+      ],
+      "Control label\u0004Space Before": [
+        "Espace avant"
+      ],
+      "Control label\u0004Hover Transform": [
+        "Transformation en survol"
+      ],
+      "Control label\u0004Arrow Size": [
+        "Taille de la flèche"
+      ],
+      "Control label\u0004Custom Type": [
+        "Type personnalisé"
+      ],
+      "Control label\u0004Custom": [
+        "Coutume"
+      ],
+      "Control label\u0004Override Width": [
+        "Remplacer la largeur"
+      ],
+      "Control label\u0004Full Width At": [
+        "Pleine largeur à"
+      ],
+      "Control label\u0004Outline": [
+        "Contour"
+      ],
+      "Control label\u0004No Fill On Hover": [
+        "Pas de remplissage au survol"
+      ],
+      "Control label\u0004Corners": [
+        "Coins"
+      ],
+      "Control label\u0004Corner Radius": [
+        "Rayon de coin"
+      ],
+      "Control label\u0004Preset": [
+        "Préréglage"
+      ],
+      "Item text\u0004Primary": [
+        "Primaire"
+      ],
+      "Item text\u0004Secondary": [
+        "Secondaire"
+      ],
+      "Item text\u0004Text": [
+        "Texte"
+      ],
+      "Item text\u0004Style 1": [
+        "Style 1"
+      ],
+      "Item text\u0004Style 2": [
+        "Style 2"
+      ],
+      "Item text\u0004Style 3": [
+        "Style 3"
+      ],
+      "Item text\u0004Style 4": [
+        "Style 4"
+      ],
+      "Item text\u0004Style 5": [
+        "Style 5"
+      ],
+      "Item text\u0004Style 6": [
+        "Style 6"
+      ],
+      "Item text\u0004Style 7": [
+        "Style 7"
+      ],
+      "Item text\u0004Style 8": [
+        "Style 8"
+      ],
+      "Item text\u0004Arrow 1": [
+        "Flèche 1"
+      ],
+      "Item text\u0004Arrow 2": [
+        "Flèche 2"
+      ],
+      "Item text\u0004Arrow 3": [
+        "Flèche 3"
+      ],
+      "Item text\u0004Preset": [
+        "Préréglage"
+      ],
+      "Item text\u0004Solid": [
+        "Solide"
+      ],
+      "Item text\u0004Outline": [
+        "Contour"
+      ],
+      "Item text\u0004Before": [
+        "Avant"
+      ],
+      "Item text\u0004After": [
+        "Après"
+      ],
+      "Element name\u0004Product Images": [
+        "Images du produit"
+      ],
+      "Control label\u0004Sale Badge": [
+        "Insigne de vente"
+      ],
+      "Control label\u0004Nudge": [
+        "Coup de coude"
+      ],
+      "Control label\u0004Zoom Icon": [
+        "Icône de zoom"
+      ],
+      "Control label\u0004Thumbnails": [
+        "Miniatures"
+      ],
+      "Control label\u0004Per Row": [
+        "Par ligne"
+      ],
+      "Control label\u0004Border Radius": [
+        "Rayon de frontière"
+      ],
+      "Control label\u0004Border Width": [
+        "Largeur de la bordure"
+      ],
+      "Control label\u0004Between Images": [
+        "Entre les images"
+      ],
+      "Element name\u0004Pricing Table": [
+        "Tableau des prix"
+      ],
+      "Control label\u0004Accent": [
+        "Accent"
+      ],
+      "Control label\u0004Label Radius": [
+        "Rayon de l'étiquette"
+      ],
+      "Control label\u0004Price": [
+        "Prix"
+      ],
+      "Control label\u0004Amount": [
+        "Montant"
+      ],
+      "Control label\u0004Period Position": [
+        "Poste de la période"
+      ],
+      "Control label\u0004Currency Position": [
+        "Position monétaire"
+      ],
+      "Control label\u0004Badge": [
+        "Badge"
+      ],
+      "Control label\u0004Currency X": [
+        "Devise X"
+      ],
+      "Control label\u0004Currency Y": [
+        "Devise Y"
+      ],
+      "Control label\u0004Period X": [
+        "Période X"
+      ],
+      "Control label\u0004Period Y": [
+        "Période Y"
+      ],
+      "Control label\u0004Fraction X": [
+        "FractionX"
+      ],
+      "Control label\u0004Fraction Y": [
+        "Fraction Y"
+      ],
+      "Control label\u0004Features": [
+        "Caractéristiques"
+      ],
+      "Control label\u0004Force Left Alignment": [
+        "Forcer l'alignement à gauche"
+      ],
+      "Control label\u0004Included Color": [
+        "Couleur incluse"
+      ],
+      "Control label\u0004Excluded Color": [
+        "Couleur exclue"
+      ],
+      "Control label\u0004Included Icon": [
+        "Icône incluse"
+      ],
+      "Control label\u0004Excluded Icon": [
+        "Icône exclue"
+      ],
+      "Control label\u0004Custom Icons": [
+        "Icônes personnalisées"
+      ],
+      "Control label\u0004Not Included Icon": [
+        "Icône non incluse"
+      ],
+      "Control label\u0004Icon Y Nudge": [
+        "Icône Y Coup de pouce"
+      ],
+      "Control label\u0004Icon X Nudge": [
+        "Icon X Coup de pouce"
+      ],
+      "Control label\u0004Text Indent": [
+        "Retrait du texte"
+      ],
+      "Control label\u0004Space Between Items": [
+        "Espace entre les éléments"
+      ],
+      "Control label\u0004After Icon": [
+        "Après l'icône"
+      ],
+      "Control label\u0004After Title": [
+        "Après le titre"
+      ],
+      "Control label\u0004After Price Area": [
+        "Après la zone de prix"
+      ],
+      "Control label\u0004After Description": [
+        "Après Description"
+      ],
+      "Control label\u0004After Features": [
+        "Après les fonctionnalités"
+      ],
+      "Control label\u0004Price Area": [
+        "Zone de prix"
+      ],
+      "Control label\u0004Before Amount": [
+        "Avant Montant"
+      ],
+      "Control label\u0004Amount / Period": [
+        "Montant / Période"
+      ],
+      "Control label\u0004Before Badge": [
+        "Avant l'insigne"
+      ],
+      "Control label\u0004Accent Text": [
+        "Texte accentué"
+      ],
+      "Control label\u0004Before Price": [
+        "Avant le prix"
+      ],
+      "Control label\u0004Per Period": [
+        "Par période"
+      ],
+      "Control label\u0004Currency Symbol": [
+        "Symbole monétaire"
+      ],
+      "Control label\u0004Fractional Amount": [
+        "Montant fractionnaire"
+      ],
+      "Control label\u0004Not Included": [
+        "Non inclus"
+      ],
+      "Item text\u0004Use on unlimited websites": [
+        "Utilisation sur des sites Web illimités"
+      ],
+      "Item text\u0004WooCommerce integration": [
+        "Intégration WooCommerce"
+      ],
+      "Item text\u0004Design library": [
+        "Bibliothèque de conception"
+      ],
+      "Item text\u0004No bloat": [
+        "Pas de ballonnement"
+      ],
+      "Item text\u0004Get Breakdance": [
+        "Obtenez le breakdance"
+      ],
+      "Item text\u0004After Title": [
+        "Après le titre"
+      ],
+      "Item text\u0004After Features": [
+        "Après les fonctionnalités"
+      ],
+      "Item text\u0004Prepend": [
+        "Ajouter un préfixe"
+      ],
+      "Item text\u0004Append": [
+        "Ajouter"
+      ],
+      "Preset section label\u0004Label": [
+        "Étiquette"
+      ],
+      "Preset section label\u0004Before Price": [
+        "Avant le prix"
+      ],
+      "Preset section label\u0004Price": [
+        "Prix"
+      ],
+      "Preset section label\u0004Currency": [
+        "Devise"
+      ],
+      "Preset section label\u0004Fractional Part": [
+        "Partie fractionnaire"
+      ],
+      "Preset section label\u0004Period": [
+        "Période"
+      ],
+      "Preset section label\u0004Description": [
+        "Description"
+      ],
+      "Preset section label\u0004Features": [
+        "Caractéristiques"
+      ],
+      "Element name\u0004Checkout Coupon Form": [
+        "Formulaire de coupon de paiement"
+      ],
+      "Element name\u0004Cart Cross Sells": [
+        "Ventes croisées de panier"
+      ],
+      "Preset section label\u0004Cross Sells": [
+        "Ventes croisées"
+      ],
+      "Element name\u0004Star Rating": [
+        "Nombre d'étoiles"
+      ],
+      "Control label\u0004Stars": [
+        "Étoiles"
+      ],
+      "Control label\u0004Stars Color": [
+        "Couleur des étoiles"
+      ],
+      "Control label\u0004Unmarked Color": [
+        "Couleur non marquée"
+      ],
+      "Control label\u0004Label": [
+        "Étiquette"
+      ],
+      "Control label\u0004Label Position": [
+        "Position de l'étiquette"
+      ],
+      "Control label\u0004Vertical Layout": [
+        "Disposition verticale"
+      ],
+      "Control label\u0004Label Spacing": [
+        "Espacement des étiquettes"
+      ],
+      "Control label\u0004Components": [
+        "Composants"
+      ],
+      "Control label\u0004Rating": [
+        "Notation"
+      ],
+      "Control label\u0004Icon Type": [
+        "Type d'icône"
+      ],
+      "Control label\u0004Show Label": [
+        "Afficher l'étiquette"
+      ],
+      "Control label\u0004Label Text": [
+        "Texte de l'étiquette"
+      ],
+      "Item text\u0004One": [
+        "Un"
+      ],
+      "Item text\u0004Two": [
+        "Deux"
+      ],
+      "Item text\u0004Three": [
+        "Trois"
+      ],
+      "Item text\u0004Four": [
+        "Quatre"
+      ],
+      "Item text\u0004Five": [
+        "Cinq"
+      ],
+      "Item text\u0004Six": [
+        "Six"
+      ],
+      "Item text\u0004Seven": [
+        "Sept"
+      ],
+      "Item text\u0004Eight": [
+        "Huit"
+      ],
+      "Item text\u0004Nine": [
+        "Neuf"
+      ],
+      "Item text\u0004Ten": [
+        "Dix"
+      ],
+      "Item text\u0004Font Awesome": [
+        "Police géniale"
+      ],
+      "Item text\u0004Icon Moon": [
+        "Icône Lune"
+      ],
+      "Preset section label\u0004Label Typography": [
+        "Typographie des étiquettes"
+      ],
+      "Element name\u0004Shop Page": [
+        "Page de la boutique"
+      ],
+      "Control label\u0004Products List": [
+        "Liste des produits"
+      ],
+      "Control label\u0004Result Count": [
+        "Nombre de résultats"
+      ],
+      "Control label\u0004Above Products": [
+        "Produits ci-dessus"
+      ],
+      "Control label\u0004Above Pagination": [
+        "Au-dessus de la pagination"
+      ],
+      "Preset section label\u0004Elements": [
+        "Éléments"
+      ],
+      "Preset section label\u0004Product Wrapper": [
+        "Emballage du produit"
+      ],
+      "Element name\u0004Menu Dropdown": [
+        "Menu déroulant"
+      ],
+      "Control label\u0004Disable Desktop Styles At": [
+        "Désactivez les styles de bureau à"
+      ],
+      "Control label\u0004Alert": [
+        "Alerte"
+      ],
+      "Control label\u0004Columns": [
+        "Colonnes"
+      ],
+      "Control label\u0004URL": [
+        "URL"
+      ],
+      "Control label\u0004Icon or Image": [
+        "Icône ou image"
+      ],
+      "Control label\u0004Show Another Section": [
+        "Afficher une autre section"
+      ],
+      "Control label\u0004Columns 2": [
+        "Colonnes 2"
+      ],
+      "Item text\u0004Prebuilt checkout": [
+        "Caisse prédéfinie"
+      ],
+      "Item text\u0004Libraries and SDKs": [
+        "Bibliothèques et SDK"
+      ],
+      "Item text\u0004Plugins": [
+        "Plugins"
+      ],
+      "Item text\u0004Code samples": [
+        "Exemples de codes"
+      ],
+      "Item text\u0004Accept online payments": [
+        "Acceptez les paiements en ligne"
+      ],
+      "Item text\u0004Manage subscriptions": [
+        "Gérer les abonnements"
+      ],
+      "Item text\u0004Send payments": [
+        "Envoyer des paiements"
+      ],
+      "Item text\u0004Set up in-person payments": [
+        "Configurer les paiements en personne"
+      ],
+      "Item text\u0004Link": [
+        "Lien"
+      ],
+      "Preset section label\u0004Links": [
+        "Liens"
+      ],
+      "Preset section label\u0004Columns": [
+        "Colonnes"
+      ],
+      "Preset section label\u0004Additional Section": [
+        "Section supplémentaire"
+      ],
+      "Preset section label\u0004Graphic": [
+        "Graphique"
+      ],
+      "Element name\u0004Advanced Slider": [
+        "Curseur avancé"
+      ],
+      "Control label\u0004Slides": [
+        "Diapositives"
+      ],
+      "Control label\u0004Add Slide": [
+        "Ajouter une diapositive"
+      ],
+      "Item text\u0004Put anything you want in a slide.": [
+        "Mettez tout ce que vous voulez dans une diapositive."
+      ],
+      "Item text\u0004Advanced Slider": [
+        "Curseur avancé"
+      ],
+      "Preset section label\u0004Slider": [
+        "Curseur"
+      ],
+      "Element name\u0004Accordion Content": [
+        "Contenu accordéon"
+      ],
+      "Control label\u0004Title Tag": [
+        "Balise de titre"
+      ],
+      "Element name\u0004Product Reviews": [
+        "Avis sur les produits"
+      ],
+      "Control label\u0004Avatar": [
+        "Avatar"
+      ],
+      "Control label\u0004Hide Heading": [
+        "Masquer le titre"
+      ],
+      "Control label\u0004Around Review": [
+        "Autour de l'examen"
+      ],
+      "Control label\u0004After Stars": [
+        "Après les étoiles"
+      ],
+      "Control label\u0004After Meta": [
+        "Après la méta"
+      ],
+      "Control label\u0004After Avatar": [
+        "Après Avatar"
+      ],
+      "Control label\u0004After Reviews": [
+        "Après les examens"
+      ],
+      "Control label\u0004After Form Heading": [
+        "Après l'en-tête du formulaire"
+      ],
+      "Preset section label\u0004Heading": [
+        "Titre"
+      ],
+      "Preset section label\u0004Username": [
+        "Nom d'utilisateur"
+      ],
+      "Preset section label\u0004Meta": [
+        "Méta"
+      ],
+      "Preset section label\u0004Review": [
+        "Revoir"
+      ],
+      "Preset section label\u0004Form Heading": [
+        "En-tête du formulaire"
+      ],
+      "Element name\u0004Tab Content": [
+        "Contenu de l'onglet"
+      ],
+      "Item text\u0004Tab Content": [
+        "Contenu de l'onglet"
+      ],
+      "Element name\u0004WooGlobalStyler": [
+        "WooGlobalStyler"
+      ],
+      "Control label\u0004Colors": [
+        "Couleurs"
+      ],
+      "Control label\u0004Borders": [
+        "Frontières"
+      ],
+      "Control label\u0004Text On Brand": [
+        "Texte sur la marque"
+      ],
+      "Control label\u0004Weights": [
+        "Poids"
+      ],
+      "Control label\u0004Normal": [
+        "Normale"
+      ],
+      "Control label\u0004Medium": [
+        "Moyen"
+      ],
+      "Control label\u0004Heavy": [
+        "Lourd"
+      ],
+      "Control label\u0004Sizes": [
+        "Tailles"
+      ],
+      "Control label\u0004Small": [
+        "Petit"
+      ],
+      "Control label\u0004Font": [
+        "Fonte"
+      ],
+      "Control label\u0004Standard": [
+        "Standard"
+      ],
+      "Control label\u0004Large": [
+        "Grand"
+      ],
+      "Control label\u0004Extra Large": [
+        "Très grand"
+      ],
+      "Control label\u0004Buttons & Links": [
+        "Boutons et liens"
+      ],
+      "Control label\u0004Text Links": [
+        "Liens texte"
+      ],
+      "Control label\u0004Disabled": [
+        "Désactivé"
+      ],
+      "Control label\u0004Other": [
+        "Autre"
+      ],
+      "Control label\u0004Base": [
+        "Base"
+      ],
+      "Control label\u0004Extra Small": [
+        "Très petit"
+      ],
+      "Control label\u0004Big": [
+        "Grand"
+      ],
+      "Control label\u0004Notices": [
+        "Avis"
+      ],
+      "Control label\u0004Padding Left": [
+        "Rembourrage à gauche"
+      ],
+      "Control label\u0004Info": [
+        "Informations"
+      ],
+      "Control label\u0004Error": [
+        "Erreur"
+      ],
+      "Control label\u0004Success": [
+        "Succès"
+      ],
+      "Control label\u0004Font Size": [
+        "Taille de la police"
+      ],
+      "Control label\u0004Font Weight": [
+        "Poids de la police"
+      ],
+      "Control label\u0004Horizontal Padding": [
+        "Rembourrage horizontal"
+      ],
+      "Control label\u0004Ratings": [
+        "Notes"
+      ],
+      "Control label\u0004Star Color": [
+        "Couleur des étoiles"
+      ],
+      "Control label\u0004Star Size": [
+        "Taille des étoiles"
+      ],
+      "Control label\u0004Product Images": [
+        "Images du produit"
+      ],
+      "Control label\u0004Widgets": [
+        "Widgets"
+      ],
+      "Control label\u0004Chip Background": [
+        "Fond de puce"
+      ],
+      "Control label\u0004Chip Text": [
+        "Texte de la puce"
+      ],
+      "Control label\u0004Wrappers": [
+        "Emballages"
+      ],
+      "Control label\u0004Tables": [
+        "Tableaux"
+      ],
+      "Control label\u0004Header": [
+        "En-tête"
+      ],
+      "Control label\u0004Products Per Row": [
+        "Produits par rangée"
+      ],
+      "Control label\u0004Products Per Page": [
+        "Produits par page"
+      ],
+      "Control label\u0004Excerpt": [
+        "Extrait"
+      ],
+      "Control label\u0004Categories": [
+        "Catégories"
+      ],
+      "Control label\u0004Quantity Input": [
+        "Entrée de quantité"
+      ],
+      "Control label\u0004Payment Box": [
+        "Boîte de paiement"
+      ],
+      "Control label\u0004Quicklook": [
+        "Aperçu rapide"
+      ],
+      "Control label\u0004Enable": [
+        "Activer"
+      ],
+      "Control label\u0004Show Arrows": [
+        "Afficher les flèches"
+      ],
+      "Control label\u0004Redirect On Add": [
+        "Redirection lors de l'ajout"
+      ],
+      "Control label\u0004Hide Label": [
+        "Masquer l'étiquette"
+      ],
+      "Control label\u0004Backdrop": [
+        "Toile de fond"
+      ],
+      "Control label\u0004Modal": [
+        "Modal"
+      ],
+      "Control label\u0004Overlay Color": [
+        "Couleur de superposition"
+      ],
+      "Control label\u0004Arrows": [
+        "Flèches"
+      ],
+      "Control label\u0004Misc": [
+        "Divers"
+      ],
+      "Control label\u0004Remove Item From Cart": [
+        "Supprimer l'article du panier"
+      ],
+      "Control label\u0004Select2 Active Item": [
+        "Sélectionner 2 éléments actifs"
+      ],
+      "Control label\u0004Gallery Zoom Icon Shadow": [
+        "Galerie Zoom Icône Ombre"
+      ],
+      "Control label\u0004Variation Swatches": [
+        "Échantillons de variations"
+      ],
+      "Control label\u0004All Swatches": [
+        "Tous les échantillons"
+      ],
+      "Control label\u0004Selected": [
+        "Choisi"
+      ],
+      "Control label\u0004Cross Color": [
+        "Couleur de la croix"
+      ],
+      "Control label\u0004Image and Color Swatches": [
+        "Échantillons d’images et de couleurs"
+      ],
+      "Control label\u0004After Label": [
+        "Après l'étiquette"
+      ],
+      "Control label\u0004Between Items": [
+        "Entre les éléments"
+      ],
+      "Control label\u0004Between Options": [
+        "Entre les options"
+      ],
+      "Item text\u0004Enable": [
+        "Activer"
+      ],
+      "Item text\u0004Product Page": [
+        "Page produit"
+      ],
+      "Item text\u0004Cart": [
+        "Panier"
+      ],
+      "Preset section label\u0004Primary Buttons": [
+        "Boutons principaux"
+      ],
+      "Preset section label\u0004Secondary Buttons": [
+        "Boutons secondaires"
+      ],
+      "Preset section label\u0004Destructive Buttons": [
+        "Boutons destructeurs"
+      ],
+      "Preset section label\u0004Forms": [
+        "Formulaires"
+      ],
+      "Element name\u0004Facebook Like Button": [
+        "Bouton J'aime sur Facebook"
+      ],
+      "Control label\u0004Action Type": [
+        "Type d'action"
+      ],
+      "Control label\u0004Share Button": [
+        "Bouton Partager"
+      ],
+      "Item text\u0004Standard": [
+        "Standard"
+      ],
+      "Item text\u0004Like": [
+        "Comme"
+      ],
+      "Item text\u0004Recommend": [
+        "Recommander"
+      ],
+      "Element name\u0004Progress Bar": [
+        "Barre de progression"
+      ],
+      "Control label\u0004Disable Stripes": [
+        "Désactiver les rayures"
+      ],
+      "Control label\u0004Vertical Padding": [
+        "Rembourrage vertical"
+      ],
+      "Control label\u0004Animation Stripes": [
+        "Bandes d'animation"
+      ],
+      "Control label\u0004Animation Duration": [
+        "Durée de l'animation"
+      ],
+      "Control label\u0004Animate Progress On Scroll": [
+        "Animer la progression lors du défilement"
+      ],
+      "Control label\u0004Animate Once": [
+        "Animer une fois"
+      ],
+      "Control label\u0004Title Text": [
+        "Texte du titre"
+      ],
+      "Control label\u0004Hide Percentage": [
+        "Masquer le pourcentage"
+      ],
+      "Preset section label\u0004Percent Counter": [
+        "Compteur de pourcentage"
+      ],
+      "Element name\u0004Checkout Shipping Form": [
+        "Formulaire d'expédition de paiement"
+      ],
+      "Preset section label\u0004Shipping Address": [
+        "adresse de livraison"
+      ],
+      "Element name\u0004Product Rating": [
+        "Évaluation du produit"
+      ],
+      "Control label\u0004Stacking": [
+        "Empilage"
+      ],
+      "Preset section label\u0004Link": [
+        "Lien"
+      ],
+      "Element name\u0004Shortcode": [
+        "Code court"
+      ],
+      "Control label\u0004Shortcode": [
+        "Code court"
+      ],
+      "Control label\u0004Full Shortcode": [
+        "Code court complet"
+      ],
+      "Element name\u0004Product Cart Button": [
+        "Bouton du panier de produits"
+      ],
+      "Control label\u0004Button Fills Container": [
+        "Le bouton remplit le conteneur"
+      ],
+      "Control label\u0004Variable": [
+        "Variable"
+      ],
+      "Control label\u0004Grouped": [
+        "Groupé"
+      ],
+      "Control label\u0004Vertical Spacing": [
+        "Espacement vertical"
+      ],
+      "Control label\u0004Quantity Width": [
+        "Quantité Largeur"
+      ],
+      "Control label\u0004After Dropdown": [
+        "Après la liste déroulante"
+      ],
+      "Control label\u0004After Stock Qty": [
+        "Après la quantité de stock"
+      ],
+      "Control label\u0004After Notice": [
+        "Après préavis"
+      ],
+      "Control label\u0004Before Button": [
+        "Avant le bouton"
+      ],
+      "Control label\u0004Variation Reset": [
+        "Réinitialisation des variations"
+      ],
+      "Control label\u0004Table Separator": [
+        "Séparateur de tableaux"
+      ],
+      "Control label\u0004Hide Table Separator": [
+        "Masquer le séparateur de tableau"
+      ],
+      "Preset section label\u0004Notices": [
+        "Avis"
+      ],
+      "Preset section label\u0004Stock Quantity": [
+        "Quantité en stock"
+      ],
+      "Preset section label\u0004Grouped Product Title": [
+        "Titre du produit groupé"
+      ],
+      "Element name\u0004Product Stock": [
+        "Stock de produits"
+      ],
+      "Preset section label\u0004In Stock": [
+        "En stock"
+      ],
+      "Element name\u0004Gallery": [
+        "Galerie"
+      ],
+      "Control label\u0004Row Height": [
+        "Hauteur de rangée"
+      ],
+      "Control label\u0004Vertical At": [
+        "Verticale à"
+      ],
+      "Control label\u0004Slider Images": [
+        "Images de curseur"
+      ],
+      "Control label\u0004Images": [
+        "Images"
+      ],
+      "Control label\u0004Hover Animation": [
+        "Animation de survol"
+      ],
+      "Control label\u0004Captions": [
+        "Légendes"
+      ],
+      "Control label\u0004Show Captions": [
+        "Afficher les légendes"
+      ],
+      "Control label\u0004Hide below": [
+        "Masquer ci-dessous"
+      ],
+      "Control label\u0004Caption": [
+        "Légende"
+      ],
+      "Control label\u0004Galleries": [
+        "Galeries"
+      ],
+      "Control label\u0004Filter Bar": [
+        "Barre de filtre"
+      ],
+      "Control label\u0004All Filter": [
+        "Tous les filtres"
+      ],
+      "Control label\u0004All Label": [
+        "Toutes les étiquettes"
+      ],
+      "Control label\u0004New Tab": [
+        "Nouvel onglet"
+      ],
+      "Control label\u0004Disable Srcset & Sizes": [
+        "Désactiver Srcset et tailles"
+      ],
+      "Item text\u0004Grid": [
+        "Grille"
+      ],
+      "Item text\u0004Masonry": [
+        "Maçonnerie"
+      ],
+      "Item text\u0004Justified": [
+        "Justifié"
+      ],
+      "Item text\u0004fTop": [
+        "fHaut"
+      ],
+      "Item text\u0004center": [
+        "centre"
+      ],
+      "Item text\u0004Slide Bottom": [
+        "Faites glisser le bas"
+      ],
+      "Item text\u0004Never": [
+        "Jamais"
+      ],
+      "Item text\u0004On Hover": [
+        "En survol"
+      ],
+      "Item text\u0004Stretch": [
+        "Extensible"
+      ],
+      "Item text\u0004Single": [
+        "Célibataire"
+      ],
+      "Item text\u0004Multiple": [
+        "Multiple"
+      ],
+      "Item text\u0004Lightbox": [
+        "Boîte lumineuse"
+      ],
+      "Item text\u0004Media File": [
+        "Fichier multimédia"
+      ],
+      "Item text\u0004Eager: loads immediately": [
+        "Impatient : se charge immédiatement"
+      ],
+      "Item text\u0004Lazy: loads on scroll": [
+        "Paresseux : chargements lors du défilement"
+      ],
+      "Item text\u0004Auto: browser decides what is best": [
+        "Auto : le navigateur décide de ce qui est le mieux"
+      ],
+      "Preset section label\u0004Filters": [
+        "Filtres"
+      ],
+      "Preset section label\u0004Lightbox": [
+        "Boîte lumineuse"
+      ],
+      "Element name\u0004Heading": [
+        "Titre"
+      ],
+      "Control label\u0004Tags": [
+        "Balises"
+      ],
+      "Element name\u0004Author": [
+        "Auteur"
+      ],
+      "Control label\u0004Image Position": [
+        "Position de l'image"
+      ],
+      "Control label\u0004Top At": [
+        "Haut à"
+      ],
+      "Control label\u0004After Image": [
+        "Après l'image"
+      ],
+      "Control label\u0004After Name": [
+        "Après le nom"
+      ],
+      "Control label\u0004After Biography": [
+        "Après la biographie"
+      ],
+      "Control label\u0004Biography": [
+        "Biographie"
+      ],
+      "Control label\u0004All Posts Link": [
+        "Lien vers tous les messages"
+      ],
+      "Control label\u0004All Posts Link Text": [
+        "Texte du lien pour tous les messages"
+      ],
+      "Control label\u0004Website Link": [
+        "Lien vers le site Web"
+      ],
+      "Control label\u0004Website Link Text": [
+        "Texte du lien vers le site Web"
+      ],
+      "Control label\u0004Name HTML Tag": [
+        "Nom de la balise HTML"
+      ],
+      "Control label\u0004Link On Name & Image": [
+        "Lien sur le nom et l'image"
+      ],
+      "Item text\u0004left": [
+        "gauche"
+      ],
+      "Item text\u0004right": [
+        "droite"
+      ],
+      "Item text\u0004Div": [
+        "Division"
+      ],
+      "Item text\u0004Website": [
+        "Site web"
+      ],
+      "Item text\u0004All Posts": [
+        "Tous les messages"
+      ],
+      "Preset section label\u0004All Posts": [
+        "Tous les messages"
+      ],
+      "Preset section label\u0004Website": [
+        "Site web"
+      ],
+      "Preset section label\u0004Name": [
+        "Nom"
+      ],
+      "Preset section label\u0004Biography": [
+        "Biographie"
+      ],
+      "Element name\u0004Image Box": [
+        "Boîte à images"
+      ],
+      "Control label\u0004Content Position": [
+        "Position du contenu"
+      ],
+      "Control label\u0004Content Padding Only": [
+        "Remplissage de contenu uniquement"
+      ],
+      "Control label\u0004Object Fit": [
+        "Ajustement de l'objet"
+      ],
+      "Control label\u0004Object Position": [
+        "Position de l'objet"
+      ],
+      "Control label\u0004Vertical Alignment": [
+        "Alignement vertical"
+      ],
+      "Control label\u0004Below Title": [
+        "Sous le titre"
+      ],
+      "Control label\u0004Above Button": [
+        "Au-dessus du bouton"
+      ],
+      "Control label\u0004Image Options": [
+        "Options d'images"
+      ],
+      "Item text\u0004Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ": [
+        "Traduisez cette étiquette d'interface utilisateur : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ],
+      "Item text\u0004Learn More": [
+        "Apprendre encore plus"
+      ],
+      "Item text\u0004Cover": [
+        "Couverture"
+      ],
+      "Item text\u0004Contain": [
+        "Contenir"
+      ],
+      "Item text\u0004Fill": [
+        "Remplir"
+      ],
+      "Element name\u0004Cart Totals": [
+        "Totaux du panier"
+      ],
+      "Preset section label\u0004Totals": [
+        "Totaux"
+      ],
+      "Element name\u0004Countdown Timer": [
+        "Compte à rebours"
+      ],
+      "Control label\u0004Timer": [
+        "Minuteur"
+      ],
+      "Control label\u0004Divider Width": [
+        "Largeur du séparateur"
+      ],
+      "Control label\u0004Above Label": [
+        "Au-dessus de l'étiquette"
+      ],
+      "Control label\u0004Divider": [
+        "Diviseur"
+      ],
+      "Control label\u0004Digits": [
+        "Chiffres"
+      ],
+      "Control label\u0004Default": [
+        "Défaut"
+      ],
+      "Control label\u0004Donut": [
+        "Donut"
+      ],
+      "Control label\u0004Line": [
+        "Doubler"
+      ],
+      "Control label\u0004Line Width": [
+        "Largeur de ligne"
+      ],
+      "Control label\u0004Flip": [
+        "Retourner"
+      ],
+      "Control label\u0004Timer Type": [
+        "Type de minuterie"
+      ],
+      "Control label\u0004Timezone": [
+        "Fuseau horaire"
+      ],
+      "Control label\u0004Year": [
+        "Année"
+      ],
+      "Control label\u0004Month": [
+        "Mois"
+      ],
+      "Control label\u0004Hours": [
+        "Heures"
+      ],
+      "Control label\u0004Minutes": [
+        "Minutes"
+      ],
+      "Control label\u0004Seconds": [
+        "Secondes"
+      ],
+      "Control label\u0004Time Units": [
+        "Unités de temps"
+      ],
+      "Control label\u0004Hide": [
+        "Cacher"
+      ],
+      "Control label\u0004Singular": [
+        "Singulier"
+      ],
+      "Control label\u0004Plural": [
+        "Pluriel"
+      ],
+      "Control label\u0004Expire": [
+        "Expirer"
+      ],
+      "Control label\u0004Expire Type": [
+        "Type d'expiration"
+      ],
+      "Control label\u0004Hide timer when expired": [
+        "Masquer le minuteur une fois expiré"
+      ],
+      "Control label\u0004Message": [
+        "Message"
+      ],
+      "Control label\u0004Redirect": [
+        "Réorienter"
+      ],
+      "Control label\u0004Show Message Preview": [
+        "Afficher l'aperçu du message"
+      ],
+      "Item text\u0004Line": [
+        "Doubler"
+      ],
+      "Item text\u0004Colon": [
+        "Côlon"
+      ],
+      "Item text\u0004Donut": [
+        "Donut"
+      ],
+      "Item text\u0004Flip": [
+        "Retourner"
+      ],
+      "Item text\u0004Fixed": [
+        "Fixé"
+      ],
+      "Item text\u0004Evergreen": [
+        "À feuilles persistantes"
+      ],
+      "Item text\u0004User Local": [
+        "Utilisateur local"
+      ],
+      "Item text\u0004(UTC-11:00) Midway Island": [
+        "(UTC-11:00) Île Midway"
+      ],
+      "Item text\u0004(UTC-11:00) Samoa": [
+        "(UTC-11:00) Samoa"
+      ],
+      "Item text\u0004(UTC-10:00) Hawaii": [
+        "(UTC-10:00) Hawaï"
+      ],
+      "Item text\u0004(UTC-09:00) Alaska": [
+        "(UTC-09:00) Alaska"
+      ],
+      "Item text\u0004(UTC-08:00) Pacific Time (US & Canada)": [
+        "(UTC-08:00) Heure du Pacifique (États-Unis et Canada)"
+      ],
+      "Item text\u0004(UTC-08:00) Tijuana": [
+        "(UTC-08:00) Tijuana"
+      ],
+      "Item text\u0004(UTC-07:00) Arizona": [
+        "(UTC-07:00)Arizona"
+      ],
+      "Item text\u0004(UTC-07:00) Chihuahua": [
+        "(UTC-07:00) Chihuahua"
+      ],
+      "Item text\u0004(UTC-07:00) La Paz": [
+        "(UTC-07:00) La Paz"
+      ],
+      "Item text\u0004(UTC-07:00) Mazatlan": [
+        "(UTC-07:00) Mazatlán"
+      ],
+      "Item text\u0004(UTC-07:00) Mountain Time (US & Canada)": [
+        "(UTC-07:00) Heure des Rocheuses (États-Unis et Canada)"
+      ],
+      "Item text\u0004(UTC-06:00) Central America": [
+        "(UTC-06:00) Amérique centrale"
+      ],
+      "Item text\u0004(UTC-06:00) Central Time (US & Canada)": [
+        "(UTC-06:00) Heure centrale (États-Unis et Canada)"
+      ],
+      "Item text\u0004UTC-06:00) Guadalajara": [
+        "UTC-06:00) Guadalajara"
+      ],
+      "Item text\u0004(UTC-06:00) Mexico City": [
+        "(UTC-06:00) Mexico"
+      ],
+      "Item text\u0004(UTC-06:00) Monterrey": [
+        "(UTC-06:00)Monterrey"
+      ],
+      "Item text\u0004(UTC-06:00) Saskatchewan": [
+        "(UTC-06:00) Saskatchewan"
+      ],
+      "Item text\u0004(UTC-05:00) Bogota": [
+        "(UTC-05:00) Bogotá"
+      ],
+      "Item text\u0004(UTC-05:00) Eastern Time (US & Canada)": [
+        "(UTC-05:00) Heure de l'Est (États-Unis et Canada)"
+      ],
+      "Item text\u0004(UTC-05:00) Indiana (East)": [
+        "(UTC-05:00) Indiana (Est)"
+      ],
+      "Item text\u0004(UTC-05:00) Lima": [
+        "(UTC-05:00) Lima"
+      ],
+      "Item text\u0004(UTC-05:00) Quito": [
+        "(UTC-05:00)Quito"
+      ],
+      "Item text\u0004(UTC-04:00) Atlantic Time (Canada)": [
+        "(UTC-04:00) Heure de l'Atlantique (Canada)"
+      ],
+      "Item text\u0004(UTC-04:30) Caracas": [
+        "(UTC-04:30)Caracas"
+      ],
+      "Item text\u0004(UTC-04:00) La Paz": [
+        "(UTC-04:00) La Paz"
+      ],
+      "Item text\u0004(UTC-04:00) Santiago": [
+        "(UTC-04:00) Saint-Jacques"
+      ],
+      "Item text\u0004(UTC-03:30) Newfoundland": [
+        "(UTC-03:30) Terre-Neuve"
+      ],
+      "Item text\u0004(UTC-03:00) Brasilia": [
+        "(UTC-03:00) Brasilia"
+      ],
+      "Item text\u0004(UTC-03:00) Buenos Aires": [
+        "(UTC-03:00)Buenos Aires"
+      ],
+      "Item text\u0004UTC-03:00) Georgetown": [
+        "UTC-03:00) Georgetown"
+      ],
+      "Item text\u0004(UTC-03:00) Greenland": [
+        "(UTC-03:00) Groenland"
+      ],
+      "Item text\u0004(UTC-02:00) Mid-Atlantic": [
+        "(UTC-02:00) Centre de l'Atlantique"
+      ],
+      "Item text\u0004(UTC-01:00) Azores": [
+        "(UTC-01:00) Açores"
+      ],
+      "Item text\u0004(UTC-01:00) Cape Verde Is.": [
+        "(UTC-01:00) Le Cap-Vert est."
+      ],
+      "Item text\u0004(UTC+00:00) Casablanca": [
+        "(UTC+00:00)Casablanca"
+      ],
+      "Item text\u0004(UTC+00:00) Edinburgh": [
+        "(UTC+00:00) Édimbourg"
+      ],
+      "Item text\u0004(UTC+00:00) Greenwich Mean Time : Dublin": [
+        "(UTC+00:00) Heure moyenne de Greenwich : Dublin"
+      ],
+      "Item text\u0004(UTC+00:00) Lisbon": [
+        "(UTC+00:00) Lisbonne"
+      ],
+      "Item text\u0004(UTC+00:00) London": [
+        "(UTC+00:00) Londres"
+      ],
+      "Item text\u0004UTC+00:00) Monrovia": [
+        "UTC+00:00)Monrovia"
+      ],
+      "Item text\u0004UTC ": [
+        "UTC "
+      ],
+      "Item text\u0004(UTC+01:00) Amsterdam": [
+        "(UTC+01:00) Amsterdam"
+      ],
+      "Item text\u0004(UTC+01:00) Belgrade": [
+        "(UTC+01:00) Belgrade"
+      ],
+      "Item text\u0004(UTC+01:00) Berlin": [
+        "(UTC+01:00)Berlin"
+      ],
+      "Item text\u0004(UTC+01:00) Bern": [
+        "(UTC+01:00) Berne"
+      ],
+      "Item text\u0004(UTC+01:00) Bratislava": [
+        "(UTC+01:00) Bratislava"
+      ],
+      "Item text\u0004(UTC+01:00) Brussels": [
+        "(UTC+01:00) Bruxelles"
+      ],
+      "Item text\u0004(UTC+01:00) Budapest": [
+        "(UTC+01:00)Budapest"
+      ],
+      "Item text\u0004(UTC+01:00) Copenhagen": [
+        "(UTC+01:00) Copenhague"
+      ],
+      "Item text\u0004(UTC+01:00) Ljubljana": [
+        "(UTC+01:00) Ljubljana"
+      ],
+      "Item text\u0004(UTC+01:00) Madrid": [
+        "(UTC+01:00)Madrid"
+      ],
+      "Item text\u0004(UTC+01:00) Paris": [
+        "(UTC+01:00)Paris"
+      ],
+      "Item text\u0004(UTC+01:00) Prague": [
+        "(UTC+01:00) Prague"
+      ],
+      "Item text\u0004(UTC+01:00) Rome": [
+        "(UTC+01:00) Rome"
+      ],
+      "Item text\u0004UTC+01:00) Sarajevo": [
+        "UTC+01:00)Sarajevo"
+      ],
+      "Item text\u0004(UTC+01:00) Skopje": [
+        "(UTC+01:00) Skopje"
+      ],
+      "Item text\u0004(UTC+01:00) Stockholm": [
+        "(UTC+01:00) Stockholm"
+      ],
+      "Item text\u0004UTC+01:00) Vienna": [
+        "UTC+01:00) Vienne"
+      ],
+      "Item text\u0004(UTC+01:00) Warsaw": [
+        "(UTC+01:00) Varsovie"
+      ],
+      "Item text\u0004(UTC+01:00) West Central Africa": [
+        "(UTC+01:00) Afrique du Centre-Ouest"
+      ],
+      "Item text\u0004(UTC+01:00) Zagreb": [
+        "(UTC+01:00) Zagreb"
+      ],
+      "Item text\u0004(UTC+02:00) Athens": [
+        "(UTC+02:00) Athènes"
+      ],
+      "Item text\u0004(UTC+02:00) Bucharest": [
+        "(UTC+02:00) Bucarest"
+      ],
+      "Item text\u0004(UTC+02:00) Cairo": [
+        "(UTC+02:00) Le Caire"
+      ],
+      "Item text\u0004(UTC+02:00) Harare": [
+        "(UTC+02:00) Harare"
+      ],
+      "Item text\u0004(UTC+02:00) Helsinki": [
+        "(UTC+02:00)Helsinki"
+      ],
+      "Item text\u0004(UTC+02:00) Istanbul": [
+        "(UTC+02:00) Istanbul"
+      ],
+      "Item text\u0004(UTC+02:00) Jerusalem": [
+        "(UTC+02:00) Jérusalem"
+      ],
+      "Item text\u0004(UTC+02:00) Kyiv": [
+        "(UTC+02:00) Kyiv"
+      ],
+      "Item text\u0004(UTC+02:00) Pretoria": [
+        "(UTC+02:00) Prétoria"
+      ],
+      "Item text\u0004(UTC+02:00) Riga": [
+        "(UTC+02:00) Riga"
+      ],
+      "Item text\u0004UTC+02:00) Sofia": [
+        "UTC+02:00)Sofia"
+      ],
+      "Item text\u0004(UTC+02:00) Tallinn": [
+        "(UTC+02:00) Tallinn"
+      ],
+      "Item text\u0004(UTC+02:00) Vilnius": [
+        "(UTC+02:00) Vilnius"
+      ],
+      "Item text\u0004(UTC+03:00) Baghdad": [
+        "(UTC+03:00) Bagdad"
+      ],
+      "Item text\u0004(UTC+03:00) Kuwait": [
+        "(UTC+03:00) Koweït"
+      ],
+      "Item text\u0004(UTC+03:00) Minsk": [
+        "(UTC+03:00) Minsk"
+      ],
+      "Item text\u0004(UTC+03:00) Nairobi": [
+        "(UTC+03:00)Nairobi"
+      ],
+      "Item text\u0004(UTC+03:00) Riyadh": [
+        "(UTC+03:00) Riyad"
+      ],
+      "Item text\u0004(UTC+03:00) Volgograd": [
+        "(UTC+03:00) Volgograd"
+      ],
+      "Item text\u0004(UTC+03:30) Tehran": [
+        "(UTC+03:30) Téhéran"
+      ],
+      "Item text\u0004(UTC+04:00) Abu Dhabi": [
+        "(UTC+04:00) Abou Dhabi"
+      ],
+      "Item text\u0004(UTC+04:00) Baku": [
+        "(UTC+04:00) Bakou"
+      ],
+      "Item text\u0004UTC+04:00) Moscow": [
+        "UTC+04:00) Moscou"
+      ],
+      "Item text\u0004UTC+04:00) Muscat": [
+        "UTC+04:00) Mascate"
+      ],
+      "Item text\u0004(UTC+04:00) St. Petersburg": [
+        "(UTC+04:00) Saint-Pétersbourg"
+      ],
+      "Item text\u0004(UTC+04:00) Tbilisi": [
+        "(UTC+04:00) Tbilissi"
+      ],
+      "Item text\u0004(UTC+04:00) Yerevan": [
+        "(UTC+04:00) Erevan"
+      ],
+      "Item text\u0004(UTC+04:30) Kabul": [
+        "(UTC+04:30) Kaboul"
+      ],
+      "Item text\u0004(UTC+05:00) Islamabad": [
+        "(UTC+05:00)Islamabad"
+      ],
+      "Item text\u0004UTC+05:00) Karachi": [
+        "UTC+05:00)Karachi"
+      ],
+      "Item text\u0004(UTC+05:00) Tashkent": [
+        "(UTC+05:00) Tachkent"
+      ],
+      "Item text\u0004(UTC+05:30) Chennai": [
+        "(UTC+05:30) Chennai"
+      ],
+      "Item text\u0004(UTC+05:30) Kolkata": [
+        "(UTC+05:30) Calcutta"
+      ],
+      "Item text\u0004(UTC+05:30) Mumbai": [
+        "(UTC+05:30) Bombay"
+      ],
+      "Item text\u0004(UTC+05:30) New Delhi": [
+        "(UTC+05:30) New Delhi"
+      ],
+      "Item text\u0004(UTC+05:30) Sri Jayawardenepura": [
+        "(UTC+05:30) Sri Jayawardenepura"
+      ],
+      "Item text\u0004(UTC+05:45) Kathmandu": [
+        "(UTC+05:45) Katmandou"
+      ],
+      "Item text\u0004(UTC+06:00) Almaty": [
+        "(UTC+06:00)Almaty"
+      ],
+      "Item text\u0004(UTC+06:00) Astana": [
+        "(UTC+06:00) Astana"
+      ],
+      "Item text\u0004(UTC+06:00) Dhaka": [
+        "(UTC+06:00) Dacca"
+      ],
+      "Item text\u0004(UTC+06:00) Ekaterinburg": [
+        "(UTC+06:00) Ekaterinbourg"
+      ],
+      "Item text\u0004(UTC+06:30) Rangoon": [
+        "(UTC+06:30) Rangoun"
+      ],
+      "Item text\u0004(UTC+07:00) Bangkok": [
+        "(UTC+07:00)Bangkok"
+      ],
+      "Item text\u0004UTC+07:00) Hanoi": [
+        "UTC+07:00) Hanoï"
+      ],
+      "Item text\u0004(UTC+07:00) Jakarta": [
+        "(UTC+07:00) Djakarta"
+      ],
+      "Item text\u0004(UTC+07:00) Novosibirsk": [
+        "(UTC+07:00) Novossibirsk"
+      ],
+      "Item text\u0004(UTC+08:00) Beijing": [
+        "(UTC+08:00) Pékin"
+      ],
+      "Item text\u0004(UTC+08:00) Chongqing": [
+        "(UTC+08:00)Chongqing"
+      ],
+      "Item text\u0004(UTC+08:00) Hong Kong": [
+        "(UTC+08:00) Hong Kong"
+      ],
+      "Item text\u0004(UTC+08:00) Krasnoyarsk": [
+        "(UTC+08:00) Krasnoïarsk"
+      ],
+      "Item text\u0004(UTC+08:00) Kuala Lumpur": [
+        "(UTC+08:00) Kuala Lumpur"
+      ],
+      "Item text\u0004(UTC+08:00) Perth": [
+        "(UTC+08:00)Perth"
+      ],
+      "Item text\u0004(UTC+08:00) Singapore": [
+        "(UTC+08:00) Singapour"
+      ],
+      "Item text\u0004(UTC+08:00) Taipei": [
+        "(UTC+08:00)Taipei"
+      ],
+      "Item text\u0004(UTC+08:00) Ulaan Bataar": [
+        "(UTC+08:00) Oulan-Bator"
+      ],
+      "Item text\u0004(UTC+08:00) Urumqi": [
+        "(UTC+08:00) Ürumqi"
+      ],
+      "Item text\u0004(UTC+09:00) Irkutsk": [
+        "(UTC+09:00) Irkoutsk"
+      ],
+      "Item text\u0004(UTC+09:00) Osaka": [
+        "(UTC+09:00) Ōsaka"
+      ],
+      "Item text\u0004UTC+09:00) Sapporo": [
+        "UTC+09:00)Sapporo"
+      ],
+      "Item text\u0004(UTC+09:00) Seoul": [
+        "(UTC+09:00) Séoul"
+      ],
+      "Item text\u0004(UTC+09:00) Tokyo": [
+        "(UTC+09:00) Tokyo"
+      ],
+      "Item text\u0004(UTC+09:30) Adelaide": [
+        "(UTC+09:30) Adélaïde"
+      ],
+      "Item text\u0004(UTC+09:30) Darwin": [
+        "(UTC+09:30)Darwin"
+      ],
+      "Item text\u0004(UTC+10:00) Brisbane": [
+        "(UTC+10:00)Brisbane"
+      ],
+      "Item text\u0004(UTC+10:00) Canberra": [
+        "(UTC+10:00)Canberra"
+      ],
+      "Item text\u0004(UTC+10:00) Guam": [
+        "(UTC+10:00)Guam"
+      ],
+      "Item text\u0004(UTC+10:00) Hobart": [
+        "(UTC+10:00)Hobart"
+      ],
+      "Item text\u0004(UTC+10:00) Melbourne": [
+        "(UTC+10:00)Melbourne"
+      ],
+      "Item text\u0004(UTC+10:00) Port Moresby": [
+        "(UTC+10:00)Port Moresby"
+      ],
+      "Item text\u0004(UTC+10:00) Sydney": [
+        "(UTC+10:00)Sydney"
+      ],
+      "Item text\u0004(UTC+10:00) Yakutsk": [
+        "(UTC+10:00) Iakoutsk"
+      ],
+      "Item text\u0004(UTC+11:00) Vladivostok": [
+        "(UTC+11:00) Vladivostok"
+      ],
+      "Item text\u0004(UTC+12:00) Auckland": [
+        "(UTC+12:00) Auckland"
+      ],
+      "Item text\u0004(UTC+12:00) Fiji": [
+        "(UTC+12:00) Fidji"
+      ],
+      "Item text\u0004UTC+12:00) International Date Line West": [
+        "UTC+12:00) Ligne de date internationale ouest"
+      ],
+      "Item text\u0004(UTC+12:00) Kamchatka": [
+        "(UTC+12:00) Kamtchatka"
+      ],
+      "Item text\u0004(UTC+12:00) Magadan": [
+        "(UTC+12:00) Magadan"
+      ],
+      "Item text\u0004(UTC+12:00) Marshall Is.": [
+        "(UTC+12:00) Marshall est."
+      ],
+      "Item text\u0004(UTC+12:00) New Caledonia": [
+        "(UTC+12:00) Nouvelle-Calédonie"
+      ],
+      "Item text\u0004(UTC+12:00) Solomon Is.": [
+        "(UTC+12:00) Salomon est."
+      ],
+      "Item text\u0004UTC+12:00) Wellington": [
+        "UTC+12:00) Wellington"
+      ],
+      "Item text\u0004(UTC+13:00) Nukualofa": [
+        "(UTC+13:00) Nukualofa"
+      ],
+      "Item text\u0004Jan": [
+        "janvier"
+      ],
+      "Item text\u0004Feb": [
+        "Fév"
+      ],
+      "Item text\u0004Mar": [
+        "mars"
+      ],
+      "Item text\u0004Apr": [
+        "Avr"
+      ],
+      "Item text\u0004May": [
+        "Peut"
+      ],
+      "Item text\u0004Jun": [
+        "juin"
+      ],
+      "Item text\u0004Jul": [
+        "Juillet"
+      ],
+      "Item text\u0004Aug": [
+        "Août"
+      ],
+      "Item text\u0004Sep": [
+        "septembre"
+      ],
+      "Item text\u0004Oct": [
+        "Octobre"
+      ],
+      "Item text\u0004Nov": [
+        "novembre"
+      ],
+      "Item text\u0004Dec": [
+        "Déc"
+      ],
+      "Item text\u0004Show Message": [
+        "Afficher le message"
+      ],
+      "Item text\u0004Redirect": [
+        "Réorienter"
+      ],
+      "Preset section label\u0004Digits": [
+        "Chiffres"
+      ],
+      "Preset section label\u0004Labels": [
+        "Étiquettes"
+      ],
+      "Preset section label\u0004Expired Message": [
+        "Message expiré"
+      ],
+      "Element name\u0004Mini Cart": [
+        "Mini chariot"
+      ],
+      "Control label\u0004Borders Hover": [
+        "Survol des frontières"
+      ],
+      "Control label\u0004Subtotal": [
+        "Total"
+      ],
+      "Control label\u0004Quantity": [
+        "Quantité"
+      ],
+      "Control label\u0004Overlap": [
+        "Chevaucher"
+      ],
+      "Control label\u0004Top Nudge": [
+        "Coup de pouce supérieur"
+      ],
+      "Control label\u0004Right Nudge": [
+        "Coup de pouce droit"
+      ],
+      "Control label\u0004Cart": [
+        "Panier"
+      ],
+      "Control label\u0004Dropdown Position": [
+        "Position déroulante"
+      ],
+      "Control label\u0004Sidebar Position": [
+        "Position de la barre latérale"
+      ],
+      "Control label\u0004Full Screen At": [
+        "Plein écran à"
+      ],
+      "Control label\u0004Full Screen Position": [
+        "Position plein écran"
+      ],
+      "Control label\u0004Contents": [
+        "Contenu"
+      ],
+      "Control label\u0004Separator Color": [
+        "Couleur du séparateur"
+      ],
+      "Control label\u0004Separator Height": [
+        "Hauteur du séparateur"
+      ],
+      "Control label\u0004Remove Icon": [
+        "Supprimer l'icône"
+      ],
+      "Control label\u0004Actions": [
+        "Actes"
+      ],
+      "Control label\u0004Continue Shopping": [
+        "Continuer vos achats"
+      ],
+      "Control label\u0004After Top Bar": [
+        "Après la barre supérieure"
+      ],
+      "Control label\u0004After Contents": [
+        "Après le contenu"
+      ],
+      "Control label\u0004After Subtotal": [
+        "Après le sous-total"
+      ],
+      "Control label\u0004After Button": [
+        "Après le bouton"
+      ],
+      "Control label\u0004Hide Count": [
+        "Masquer le nombre"
+      ],
+      "Control label\u0004Hide Count When Empty": [
+        "Masquer le décompte lorsqu'il est vide"
+      ],
+      "Control label\u0004Hide Subtotal": [
+        "Masquer le sous-total"
+      ],
+      "Control label\u0004Hide Subtotal When Empty": [
+        "Masquer le sous-total lorsqu'il est vide"
+      ],
+      "Control label\u0004Primary Button": [
+        "Bouton principal"
+      ],
+      "Control label\u0004Continue Shopping Link": [
+        "Continuer le lien d'achat"
+      ],
+      "Control label\u0004Open Cart On Add": [
+        "Ouvrir le panier lors de l'ajout"
+      ],
+      "Control label\u0004Hide Quantity Input": [
+        "Masquer la saisie de la quantité"
+      ],
+      "Control label\u0004After Title Bar": [
+        "Après la barre de titre"
+      ],
+      "Control label\u0004After Footer": [
+        "Après le pied de page"
+      ],
+      "Item text\u0004Sidebar": [
+        "Barre latérale"
+      ],
+      "Item text\u0004Checkout": [
+        "Vérifier"
+      ],
+      "Item text\u0004Homepage": [
+        "Page d'accueil"
+      ],
+      "Item text\u0004Shop Page": [
+        "Page de la boutique"
+      ],
+      "Preset section label\u0004Product Title": [
+        "Titre du produit"
+      ],
+      "Preset section label\u0004Quantity": [
+        "Quantité"
+      ],
+      "Preset section label\u0004Amount": [
+        "Montant"
+      ],
+      "Element name\u0004Advanced Accordion": [
+        "Accordéon avancé"
+      ],
+      "Control label\u0004Below Item": [
+        "Article ci-dessous"
+      ],
+      "Control label\u0004Accordion": [
+        "Accordéon"
+      ],
+      "Control label\u0004First Item Opened": [
+        "Premier article ouvert"
+      ],
+      "Item text\u0004McWay Falls": [
+        "Chutes McWay"
+      ],
+      "Item text\u0004McWay Falls is an 80-foot-tall waterfall on the coast of Big Sur in central California that flows year-round from McWay Creek in Julia Pfeiffer Burns State Park, about 37 miles south of Carmel, into the Pacific Ocean. During high tide, it is a tidefall, a waterfall that empties directly into the ocean": [
+        "McWay Falls est une cascade de 80 pieds de haut située sur la côte de Big Sur, dans le centre de la Californie, qui coule toute l'année depuis McWay Creek dans le parc d'État Julia Pfeiffer Burns, à environ 37 miles au sud de Carmel, dans l'océan Pacifique. A marée haute, c'est une chute d'eau, une cascade qui se jette directement dans l'océan."
+      ],
+      "Preset section label\u0004Item": [
+        "Article"
+      ],
+      "Element name\u0004Login Form": [
+        "Formulaire de connexion"
+      ],
+      "Control label\u0004Remember Me": [
+        "Souviens-toi de moi"
+      ],
+      "Control label\u0004Lost Password": [
+        "Mot de passe perdu"
+      ],
+      "Control label\u0004Custom Lost Password Page": [
+        "Page personnalisée de mot de passe perdu"
+      ],
+      "Control label\u0004Redirect After Login": [
+        "Redirection après la connexion"
+      ],
+      "Element name\u0004Frequently Asked Questions": [
+        "Foire aux questions"
+      ],
+      "Control label\u0004Active Icon": [
+        "Icône active"
+      ],
+      "Control label\u0004Active Background": [
+        "Fond actif"
+      ],
+      "Control label\u0004After Item": [
+        "Après l'article"
+      ],
+      "Control label\u0004Active Title": [
+        "Titre actif"
+      ],
+      "Control label\u0004Below Only": [
+        "Ci-dessous seulement"
+      ],
+      "Control label\u0004Settings": [
+        "Paramètres"
+      ],
+      "Control label\u0004Items": [
+        "Articles"
+      ],
+      "Control label\u0004Question": [
+        "Question"
+      ],
+      "Control label\u0004Answer": [
+        "Répondre"
+      ],
+      "Control label\u0004First tab opened": [
+        "Premier onglet ouvert"
+      ],
+      "Item text\u0004Click Here": [
+        "Cliquez ici"
+      ],
+      "Element name\u0004WooPresetInputs": [
+        "WooPresetInputs"
+      ],
+      "Control label\u0004Inputs": [
+        "Entrées"
+      ],
+      "Control label\u0004Placeholder": [
+        "Espace réservé"
+      ],
+      "Control label\u0004Focused": [
+        "Concentré"
+      ],
+      "Control label\u0004Select2": [
+        "Sélectionnez2"
+      ],
+      "Control label\u0004Selected Item": [
+        "Article sélectionné"
+      ],
+      "Element name\u0004Tab Link": [
+        "Lien de l'onglet"
+      ],
+      "Control label\u0004Design": [
+        "Conception"
+      ],
+      "Item text\u0004Your tab link  text": [
+        "Texte du lien de votre onglet"
+      ],
+      "Preset section label\u0004Layout (Basic Flex)": [
+        "Mise en page (Basic Flex)"
+      ],
+      "Element name\u0004Product Meta": [
+        "Méta produit"
+      ],
+      "Control label\u0004Divider Color": [
+        "Couleur du séparateur"
+      ],
+      "Control label\u0004Divider Style": [
+        "Style de séparateur"
+      ],
+      "Item text\u0004Stacked": [
+        "Empilé"
+      ],
+      "Item text\u0004Inline": [
+        "En ligne"
+      ],
+      "Item text\u0004Dotted": [
+        "Pointé"
+      ],
+      "Item text\u0004Dashed": [
+        "En pointillés"
+      ],
+      "Item text\u0004Double": [
+        "Double"
+      ],
+      "Preset section label\u0004Values": [
+        "Valeurs"
+      ],
+      "Element name\u0004Woo Widget": [
+        "Widget Woo"
+      ],
+      "Control label\u0004General": [
+        "Général"
+      ],
+      "Element name\u0004Term Loop Builder": [
+        "Générateur de boucles de termes"
+      ],
+      "Control label\u0004Load Terms By Query": [
+        "Charger les termes par requête"
+      ],
+      "Control label\u0004Limit": [
+        "Limite"
+      ],
+      "Control label\u0004Hide Empty": [
+        "Masquer vide"
+      ],
+      "Control label\u0004Term Query": [
+        "Requête de terme"
+      ],
+      "Element name\u0004FormDesignOptions": [
+        "Options de conception de formulaire"
+      ],
+      "Control label\u0004Form Design Options": [
+        "Options de conception de formulaire"
+      ],
+      "Control label\u0004Between Fields": [
+        "Entre les champs"
+      ],
+      "Control label\u0004Sub Label": [
+        "Sous-étiquette"
+      ],
+      "Control label\u0004Fields": [
+        "Champs"
+      ],
+      "Control label\u0004Required": [
+        "Requis"
+      ],
+      "Control label\u0004Nudge X": [
+        "Coup de pouce X"
+      ],
+      "Control label\u0004Nudge Y": [
+        "Coup de pouce Y"
+      ],
+      "Control label\u0004Hide Labels": [
+        "Masquer les étiquettes"
+      ],
+      "Control label\u0004Radio & Checkbox": [
+        "Radio et case à cocher"
+      ],
+      "Control label\u0004File Input": [
+        "Entrée de fichier"
+      ],
+      "Control label\u0004Drag & Drop": [
+        "Glisser-déposer"
+      ],
+      "Control label\u0004Files List": [
+        "Liste des fichiers"
+      ],
+      "Control label\u0004Delete Color": [
+        "Supprimer la couleur"
+      ],
+      "Control label\u0004Max Width": [
+        "Largeur maximale"
+      ],
+      "Control label\u0004No Overlap": [
+        "Aucun chevauchement"
+      ],
+      "Control label\u0004Between Inputs": [
+        "Entre les entrées"
+      ],
+      "Control label\u0004Responsive": [
+        "Sensible"
+      ],
+      "Control label\u0004Messages": [
+        "Messages"
+      ],
+      "Control label\u0004Submit Button": [
+        "Bouton Soumettre"
+      ],
+      "Control label\u0004Stepper": [
+        "Pas à pas"
+      ],
+      "Control label\u0004Step": [
+        "Étape"
+      ],
+      "Control label\u0004Bullet": [
+        "Balle"
+      ],
+      "Control label\u0004Bullet Background": [
+        "Fond de balle"
+      ],
+      "Control label\u0004Disable At": [
+        "Désactiver à"
+      ],
+      "Preset section label\u0004Sub Labels": [
+        "Sous-étiquettes"
+      ],
+      "Preset section label\u0004Styles": [
+        "Styles"
+      ],
+      "Preset section label\u0004Previous Button": [
+        "Bouton Précédent"
+      ],
+      "Preset section label\u0004Next Button": [
+        "Bouton Suivant"
+      ],
+      "Element name\u0004Widget": [
+        "Widget"
+      ],
+      "Control label\u0004Hide Title": [
+        "Masquer le titre"
+      ],
+      "Preset section label\u0004Headings": [
+        "Rubriques"
+      ],
+      "Element name\u0004Content Toggle": [
+        "Basculement de contenu"
+      ],
+      "Control label\u0004Fade Content": [
+        "Fondu le contenu"
+      ],
+      "Control label\u0004Switch": [
+        "Changer"
+      ],
+      "Control label\u0004Inactive": [
+        "Inactif"
+      ],
+      "Control label\u0004Vertical at": [
+        "Verticale à"
+      ],
+      "Control label\u0004Below Toggle": [
+        "Ci-dessous bascule"
+      ],
+      "Control label\u0004After Labels": [
+        "Après les étiquettes"
+      ],
+      "Control label\u0004Label Left": [
+        "Étiquette gauche"
+      ],
+      "Control label\u0004Label Right": [
+        "Étiquette à droite"
+      ],
+      "Control label\u0004Add Content": [
+        "Ajouter du contenu"
+      ],
+      "Element name\u0004Facebook Post": [
+        "Publication Facebook"
+      ],
+      "Control label\u0004Post URL": [
+        "URL de la publication"
+      ],
+      "Control label\u0004Show Full Post": [
+        "Afficher le message complet"
+      ],
+      "Element name\u0004Column": [
+        "Colonne"
+      ],
+      "Element name\u0004Image Accordion": [
+        "Accordéon à images"
+      ],
+      "Control label\u0004Orientation": [
+        "Orientation"
+      ],
+      "Control label\u0004Expand On Hover": [
+        "Développer au survol"
+      ],
+      "Control label\u0004Overlay Opacity": [
+        "Opacité de superposition"
+      ],
+      "Control label\u0004Hide Until Hover": [
+        "Masquer jusqu'au survol"
+      ],
+      "Control label\u0004Hover Effect": [
+        "Effet de survol"
+      ],
+      "Control label\u0004Below Icon": [
+        "Icône ci-dessous"
+      ],
+      "Control label\u0004Image options": [
+        "Options d'images"
+      ],
+      "Control label\u0004Lazy load": [
+        "Chargement paresseux"
+      ],
+      "Item text\u0004Massages and more.": [
+        "Massages et plus encore."
+      ],
+      "Item text\u0004Rent surfboards, kayas, and jet skis.": [
+        "Louez des planches de surf, des kayas et des jet skis."
+      ],
+      "Item text\u0004Walking, bike, and jeep tours.": [
+        "Visites à pied, à vélo et en jeep."
+      ],
+      "Preset section label\u0004Title Typography": [
+        "Typographie du titre"
+      ],
+      "Preset section label\u0004Text Typography": [
+        "Typographie de texte"
+      ],
+      "Element name\u0004Facebook Page Plugin": [
+        "Plugin de page Facebook"
+      ],
+      "Control label\u0004Page": [
+        "Page"
+      ],
+      "Control label\u0004Page URL": [
+        "URL de la page"
+      ],
+      "Control label\u0004Events": [
+        "Événements"
+      ],
+      "Control label\u0004Small Header": [
+        "Petit en-tête"
+      ],
+      "Control label\u0004Hide Cover Photo": [
+        "Masquer la photo de couverture"
+      ],
+      "Control label\u0004Profile Photos": [
+        "Photos de profil"
+      ],
+      "Control label\u0004CTA Button": [
+        "Bouton CTA"
+      ],
+      "Element name\u0004Code Block": [
+        "Bloc de code"
+      ],
+      "Control label\u0004PHP & HTML Code": [
+        "Code PHP et HTML"
+      ],
+      "Control label\u0004CSS Code": [
+        "Code CSS"
+      ],
+      "Control label\u0004JavaScript Code": [
+        "Code JavaScript"
+      ],
+      "Control label\u0004Execute JavaScript": [
+        "Exécuter JavaScript"
+      ],
+      "Control label\u0004Disable Builder Label": [
+        "Désactiver l'étiquette du générateur"
+      ],
+      "Control label\u0004Builder Label": [
+        "Étiquette de constructeur"
+      ],
+      "Item text\u0004Execute": [
+        "Exécuter"
+      ],
+      "Item text\u0004hidden": [
+        "caché"
+      ],
+      "Item text\u0004visible": [
+        "visible"
+      ],
+      "Element name\u0004Comments List": [
+        "Liste des commentaires"
+      ],
+      "Control label\u0004Comment": [
+        "Commentaire"
+      ],
+      "Control label\u0004Inset": [
+        "Encart"
+      ],
+      "Control label\u0004After Date": [
+        "Après la date"
+      ],
+      "Control label\u0004After Comment": [
+        "Après commentaire"
+      ],
+      "Preset section label\u0004Date": [
+        "Date"
+      ],
+      "Preset section label\u0004Comment": [
+        "Commentaire"
+      ],
+      "Element name\u0004Product": [
+        "Produit"
+      ],
+      "Control label\u0004Disable Upsells": [
+        "Désactiver les ventes incitatives"
+      ],
+      "Control label\u0004Disable Related": [
+        "Désactiver les liens associés"
+      ],
+      "Element name\u0004Missing Element": [
+        "Élément manquant"
+      ],
+      "Element name\u0004Post Meta": [
+        "Publier une méta"
+      ],
+      "Control label\u0004Alignment When Vertical": [
+        "Alignement à la verticale"
+      ],
+      "Control label\u0004Graphics": [
+        "Graphique"
+      ],
+      "Control label\u0004Author Avatar": [
+        "Auteur Avatar"
+      ],
+      "Control label\u0004After Graphics": [
+        "Après les graphiques"
+      ],
+      "Control label\u0004Meta Data": [
+        "Métadonnées"
+      ],
+      "Control label\u0004Date Format": [
+        "Format des dates"
+      ],
+      "Control label\u0004Custom Date Format": [
+        "Format de date personnalisé"
+      ],
+      "Control label\u0004No Comments": [
+        "Sans commentaires"
+      ],
+      "Control label\u0004One Comment": [
+        "Un commentaire"
+      ],
+      "Control label\u0004Comments": [
+        "Commentaires"
+      ],
+      "Control label\u0004Before Text": [
+        "Avant le texte"
+      ],
+      "Item text\u0004Between": [
+        "Entre"
+      ],
+      "Item text\u0004Around": [
+        "Autour"
+      ],
+      "Item text\u0004Start": [
+        "Commencer"
+      ],
+      "Item text\u0004End": [
+        "Fin"
+      ],
+      "Item text\u0004Comments": [
+        "Commentaires"
+      ],
+      "Item text\u0004Terms": [
+        "Termes"
+      ],
+      "Item text\u0004April 1st,2022 (F jS, Y)": [
+        "1er avril 2022 (F jS, Y)"
+      ],
+      "Item text\u00042022-04-01 (Y-m-d)": [
+        "2022-04-01 (A-m-d)"
+      ],
+      "Item text\u000404/01/2022 (m/d/Y)": [
+        "04/01/2022 (m/j/A)"
+      ],
+      "Item text\u000401/04/2022 (d/m/Y)": [
+        "01/04/2022 (j/m/A)"
+      ],
+      "Preset section label\u0004Icons": [
+        "Icônes"
+      ],
+      "Preset section label\u0004Before Text": [
+        "Avant le texte"
+      ],
+      "Element name\u0004Overlapped Images": [
+        "Images superposées"
+      ],
+      "Control label\u0004Allow Overflow": [
+        "Autoriser le débordement"
+      ],
+      "Control label\u0004Default Image Width": [
+        "Largeur de l'image par défaut"
+      ],
+      "Element name\u0004Image Comparison": [
+        "Comparaison d'images"
+      ],
+      "Control label\u0004Initial Position": [
+        "Position initiale"
+      ],
+      "Control label\u0004Start On Hover": [
+        "Démarrer en survol"
+      ],
+      "Control label\u0004Auto Animation": [
+        "Animation automatique"
+      ],
+      "Control label\u0004Before": [
+        "Avant"
+      ],
+      "Control label\u0004After": [
+        "Après"
+      ],
+      "Element name\u0004Cart Contents": [
+        "Contenu du panier"
+      ],
+      "Preset section label\u0004Cart Contents": [
+        "Contenu du panier"
+      ],
+      "Element name\u0004Facebook Video": [
+        "Vidéo Facebook"
+      ],
+      "Control label\u0004Video URL": [
+        "URL de la vidéo"
+      ],
+      "Control label\u0004Allow Fullscreen": [
+        "Autoriser le plein écran"
+      ],
+      "Element name\u0004Atom V1 Custom Button Design": [
+        "Conception de boutons personnalisés Atom V1"
+      ],
+      "Control label\u0004Styles": [
+        "Styles"
+      ],
+      "Control label\u0004New Section": [
+        "Nouvelle rubrique"
+      ],
+      "Element name\u0004Image V1": [
+        "Image V1"
+      ],
+      "Control label\u0004Custom Ratio": [
+        "Rapport personnalisé"
+      ],
+      "Control label\u0004Focus Point": [
+        "Point de mise au point"
+      ],
+      "Control label\u0004Mask": [
+        "Masque"
+      ],
+      "Control label\u0004Custom Shape": [
+        "Forme personnalisée"
+      ],
+      "Control label\u0004Custom Size": [
+        "Taille personnalisée"
+      ],
+      "Control label\u0004From Library": [
+        "De la bibliothèque"
+      ],
+      "Item text\u00048:5": [
+        "8:5"
+      ],
+      "Item text\u0004Tv": [
+        "TV"
+      ],
+      "Item text\u0004Waves": [
+        "Flots"
+      ],
+      "Item text\u0004Waves 2": [
+        "Vagues 2"
+      ],
+      "Item text\u0004Blob": [
+        "Goutte"
+      ],
+      "Item text\u0004Star 1": [
+        "Étoile 1"
+      ],
+      "Item text\u0004Star 2": [
+        "Étoile 2"
+      ],
+      "Item text\u0004Star 3": [
+        "Étoile 3"
+      ],
+      "Item text\u0004Star 4": [
+        "Étoile 4"
+      ],
+      "Item text\u0004Stripes": [
+        "Rayures"
+      ],
+      "Item text\u0004Pill": [
+        "Pilule"
+      ],
+      "Item text\u0004space": [
+        "espace"
+      ],
+      "Item text\u0004round": [
+        "rond"
+      ],
+      "Item text\u0004Overlap": [
+        "Chevaucher"
+      ],
+      "Item text\u0004Below": [
+        "Ci-dessous"
+      ],
+      "Item text\u0004From Library": [
+        "De la bibliothèque"
+      ],
+      "Item text\u0004URL": [
+        "URL"
+      ],
+      "Item text\u0004Full Size Image": [
+        "Image en taille réelle"
+      ],
+      "Element name\u0004Image Hover Card": [
+        "Carte de survol d'image"
+      ],
+      "Control label\u0004Image Effect": [
+        "Effet d'image"
+      ],
+      "Control label\u0004Border Effect": [
+        "Effet de bordure"
+      ],
+      "Item text\u0004use breakdance": [
+        "utiliser le breakdance"
+      ],
+      "Item text\u0004be happy": [
+        "Soyez heureux"
+      ],
+      "Item text\u0004Easily add beautiful": [
+        "Ajoutez facilement du beau"
+      ],
+      "Item text\u0004image hover effects": [
+        "effets de survol d'image"
+      ],
+      "Item text\u0004Pan Up": [
+        "Panoramique"
+      ],
+      "Item text\u0004Pan Down": [
+        "Panoramique vers le bas"
+      ],
+      "Item text\u0004Pan Left": [
+        "Panoramique à gauche"
+      ],
+      "Item text\u0004Pan Right": [
+        "Panoramique à droite"
+      ],
+      "Item text\u0004Rotate Left": [
+        "Faire pivoter à gauche"
+      ],
+      "Item text\u0004Rotate Right": [
+        "Faire pivoter à droite"
+      ],
+      "Item text\u0004Blur": [
+        "Se brouiller"
+      ],
+      "Item text\u0004Corners": [
+        "Coins"
+      ],
+      "Item text\u0004Corners 2": [
+        "Coins 2"
+      ],
+      "Item text\u0004CC 1": [
+        "CC 1"
+      ],
+      "Item text\u0004CC 2": [
+        "CC 2"
+      ],
+      "Item text\u0004CC 3": [
+        "CC 3"
+      ],
+      "Item text\u0004CCC 1": [
+        "CCC 1"
+      ],
+      "Item text\u0004CCC 2": [
+        "CCC 2"
+      ],
+      "Item text\u0004CCC 3": [
+        "CCC 3"
+      ],
+      "Item text\u0004reveal-up": [
+        "révélation"
+      ],
+      "Item text\u0004reveal-down": [
+        "révélation"
+      ],
+      "Item text\u0004reveal-left": [
+        "révéler-gauche"
+      ],
+      "Item text\u0004reveal-right": [
+        "révéler-droit"
+      ],
+      "Item text\u0004fade-up": [
+        "fondu"
+      ],
+      "Item text\u0004fade-down": [
+        "fondu"
+      ],
+      "Item text\u0004fade-left": [
+        "fondu à gauche"
+      ],
+      "Item text\u0004fade-right": [
+        "fondu à droite"
+      ],
+      "Item text\u0004rotate-up-right": [
+        "faire pivoter vers la droite"
+      ],
+      "Item text\u0004rotate-up-left": [
+        "faire pivoter vers la gauche"
+      ],
+      "Item text\u0004rotate-down-right": [
+        "faire pivoter vers le bas vers la droite"
+      ],
+      "Item text\u0004rotate-down-left": [
+        "faire pivoter vers le bas à gauche"
+      ],
+      "Item text\u0004100ms": [
+        "100 ms"
+      ],
+      "Item text\u0004200ms": [
+        "200 ms"
+      ],
+      "Item text\u0004300ms": [
+        "300 ms"
+      ],
+      "Item text\u0004400ms": [
+        "400 ms"
+      ],
+      "Item text\u0004500ms": [
+        "500 ms"
+      ],
+      "Item text\u0004600ms": [
+        "600 ms"
+      ],
+      "Item text\u0004700ms": [
+        "700 ms"
+      ],
+      "Item text\u0004800ms": [
+        "800 ms"
+      ],
+      "Item text\u0004900ms": [
+        "900 ms"
+      ],
+      "Item text\u00041s": [
+        "1 s"
+      ],
+      "Item text\u0004Top Center": [
+        "En haut au centre"
+      ],
+      "Item text\u0004Center Left": [
+        "Centre gauche"
+      ],
+      "Item text\u0004Center Center": [
+        "Centre Centre"
+      ],
+      "Item text\u0004Center Right": [
+        "Centre droit"
+      ],
+      "Item text\u0004Bottom Center": [
+        "En bas au centre"
+      ],
+      "Element name\u0004Fancy Testimonial": [
+        "Témoignage fantaisiste"
+      ],
+      "Control label\u0004Stack Vertically at": [
+        "Empiler verticalement à"
+      ],
+      "Control label\u0004Boxed": [
+        "En boîte"
+      ],
+      "Control label\u0004Quotes": [
+        "Citations"
+      ],
+      "Control label\u0004Below Testimonial": [
+        "Ci-dessous le témoignage"
+      ],
+      "Control label\u0004Below Stars": [
+        "Sous les étoiles"
+      ],
+      "Control label\u0004Below Name": [
+        "Ci-dessous le nom"
+      ],
+      "Control label\u0004Below Occupation": [
+        "En dessous de la profession"
+      ],
+      "Control label\u0004Testimonial": [
+        "Témoignage"
+      ],
+      "Control label\u0004Occupation": [
+        "Profession"
+      ],
+      "Item text\u0004First": [
+        "D'abord"
+      ],
+      "Item text\u0004Second": [
+        "Deuxième"
+      ],
+      "Item text\u0004Third": [
+        "Troisième"
+      ],
+      "Item text\u0004Fourth": [
+        "Quatrième"
+      ],
+      "Item text\u0004Fifth": [
+        "Cinquième"
+      ],
+      "Preset section label\u0004Testimonial": [
+        "Témoignage"
+      ],
+      "Preset section label\u0004Occupation": [
+        "Profession"
+      ],
+      "Element name\u0004Checkout Builder": [
+        "Générateur de caisse"
+      ],
+      "Control label\u0004Elements": [
+        "Éléments"
+      ],
+      "Item text\u0004Billing details": [
+        "Détails de facturation"
+      ],
+      "Item text\u0004Order Summary": [
+        "Récapitulatif de la commande"
+      ],
+      "Item text\u0004Free Shipping on orders over $100": [
+        "Livraison gratuite sur les commandes de plus de 100 $"
+      ],
+      "Item text\u0004Free returns within 30 days of purchase": [
+        "Retours gratuits dans les 30 jours suivant l'achat"
+      ],
+      "Item text\u00041-year Warranty included": [
+        "Garantie 1 an incluse"
+      ],
+      "Element name\u0004Form Builder": [
+        "Générateur de formulaires"
+      ],
+      "Control label\u0004Free mode warning": [
+        "Avertissement du mode libre"
+      ],
+      "Item text\u0004label": [
+        "étiquette"
+      ],
+      "Item label\u0004Name": [
+        "Nom"
+      ],
+      "Item label\u0004Email": [
+        "E-mail"
+      ],
+      "Item label\u0004Message": [
+        "Message"
+      ],
+      "Element name\u0004Advanced Tabs": [
+        "Onglets avancés"
+      ],
+      "Item text\u0004This is a basic text element.": [
+        "Il s'agit d'un élément de texte de base."
+      ],
+      "Element name\u0004Cart Empty Message": [
+        "Message de panier vide"
+      ],
+      "Element name\u0004GridbuilderWP Facet": [
+        "Facette GridbuilderWP"
+      ],
+      "Element name\u0004Account Page": [
+        "Page de compte"
+      ],
+      "Control label\u0004Vertical Tabs Position": [
+        "Position des onglets verticaux"
+      ],
+      "Control label\u0004Horizontal Tabs Position": [
+        "Position des onglets horizontaux"
+      ],
+      "Control label\u0004Sticky Tabs": [
+        "Onglets collants"
+      ],
+      "Control label\u0004Sticky Offset": [
+        "Décalage collant"
+      ],
+      "Control label\u0004Tab": [
+        "Languette"
+      ],
+      "Preset section label\u0004Titles": [
+        "Titres"
+      ],
+      "Preset section label\u0004Total Label": [
+        "Étiquette totale"
+      ],
+      "Preset section label\u0004Total Value": [
+        "Valeur totale"
+      ],
+      "Element name\u0004Product Info": [
+        "Informations sur le produit"
+      ],
+      "Control label\u0004Separators": [
+        "Séparateurs"
+      ],
+      "Control label\u0004Hide Separators": [
+        "Masquer les séparateurs"
+      ],
+      "Control label\u0004After Heading": [
+        "Après le cap"
+      ],
+      "Control label\u0004After Attribute": [
+        "Après l'attribut"
+      ],
+      "Control label\u0004Row": [
+        "Rangée"
+      ],
+      "Preset section label\u0004Attribute Title": [
+        "Titre de l'attribut"
+      ],
+      "Preset section label\u0004Attribute Value": [
+        "Valeur d'attribut"
+      ],
+      "Element name\u0004Checkout Payment": [
+        "Paiement à la caisse"
+      ],
+      "Preset section label\u0004Payment": [
+        "Paiement"
+      ],
+      "Element name\u0004Scrolling Image": [
+        "Image défilante"
+      ],
+      "Control label\u0004Hover Offset": [
+        "Décalage de survol"
+      ],
+      "Control label\u0004Full Width": [
+        "Pleine largeur"
+      ],
+      "Element name\u0004Checkout Login Form": [
+        "Formulaire de connexion à la caisse"
+      ],
+      "Element name\u0004Products List": [
+        "Liste des produits"
+      ],
+      "Control label\u0004Include": [
+        "Inclure"
+      ],
+      "Control label\u0004Show Second Image On Hover": [
+        "Afficher la deuxième image au survol"
+      ],
+      "Control label\u0004Review Count": [
+        "Nombre d'avis"
+      ],
+      "Control label\u0004Custom Areas": [
+        "Zones personnalisées"
+      ],
+      "Control label\u0004Areas": [
+        "Domaines"
+      ],
+      "Control label\u0004Between Products": [
+        "Entre les produits"
+      ],
+      "Control label\u0004Product Wrapper": [
+        "Emballage du produit"
+      ],
+      "Control label\u0004Align Content": [
+        "Aligner le contenu"
+      ],
+      "Control label\u0004Show Products": [
+        "Afficher les produits"
+      ],
+      "Control label\u0004Products": [
+        "Produits"
+      ],
+      "Control label\u0004Product Count": [
+        "Nombre de produits"
+      ],
+      "Control label\u0004Order By": [
+        "Commander par"
+      ],
+      "Item text\u0004Inside Link": [
+        "Lien intérieur"
+      ],
+      "Item text\u0004Outside Link": [
+        "Lien extérieur"
+      ],
+      "Item text\u0004All": [
+        "Tous"
+      ],
+      "Item text\u0004Featured": [
+        "En vedette"
+      ],
+      "Item text\u0004On sale": [
+        "En vente"
+      ],
+      "Item text\u0004Manually": [
+        "Manuellement"
+      ],
+      "Item text\u0004Query": [
+        "Requête"
+      ],
+      "Item text\u0004Price": [
+        "Prix"
+      ],
+      "Item text\u0004Random": [
+        "Aléatoire"
+      ],
+      "Item text\u0004Descending": [
+        "Descendant"
+      ],
+      "Item text\u0004Ascending": [
+        "Ascendant"
+      ],
+      "Preset section label\u0004Old Price Typography": [
+        "Typographie des anciens prix"
+      ],
+      "Preset section label\u0004Current Price Typography": [
+        "Typographie des prix actuels"
+      ],
+      "Preset section label\u0004Count Typography": [
+        "Typographie de comte"
+      ],
+      "Element name\u0004Button": [
+        "Bouton"
+      ],
+      "Element name\u0004Image With Zoom": [
+        "Image avec zoom"
+      ],
+      "Control label\u0004Zoom Scale": [
+        "Échelle de zoom"
+      ],
+      "Control label\u0004Cursor": [
+        "Curseur"
+      ],
+      "Item text\u0004Zoom-In": [
+        "Zoom avant"
+      ],
+      "Item text\u0004Move": [
+        "Se déplacer"
+      ],
+      "Item text\u0004Crosshair": [
+        "Réticule"
+      ],
+      "Element name\u0004Text Link": [
+        "Lien texte"
+      ],
+      "Element name\u0004LayoutPreset": [
+        "DispositionPréréglage"
+      ],
+      "Control label\u0004Display": [
+        "Afficher"
+      ],
+      "Control label\u0004Flex Direction": [
+        "Direction de flexion"
+      ],
+      "Control label\u0004Align Items": [
+        "Aligner les éléments"
+      ],
+      "Control label\u0004Justify Content": [
+        "Justifier le contenu"
+      ],
+      "Control label\u0004Flex Wrap": [
+        "Enveloppement flexible"
+      ],
+      "Control label\u0004Z-Index": [
+        "Indice Z"
+      ],
+      "Control label\u0004Overflow": [
+        "Débordement"
+      ],
+      "Control label\u0004Legacy": [
+        "Héritage"
+      ],
+      "Control label\u0004Float": [
+        "Flotter"
+      ],
+      "Control label\u0004Clear": [
+        "Clair"
+      ],
+      "Control label\u0004Visibility": [
+        "Visibilité"
+      ],
+      "Control label\u0004Top": [
+        "Haut"
+      ],
+      "Control label\u0004Left": [
+        "Gauche"
+      ],
+      "Control label\u0004Right": [
+        "Droite"
+      ],
+      "Control label\u0004Bottom": [
+        "Bas"
+      ],
+      "Control label\u0004Flex Child": [
+        "Flex Enfant"
+      ],
+      "Control label\u0004Align Self": [
+        "Aligner soi-même"
+      ],
+      "Control label\u0004Flex Grow": [
+        "Croissance flexible"
+      ],
+      "Control label\u0004Flex Shrink": [
+        "Rétrécissement flexible"
+      ],
+      "Control label\u0004Flex Basis": [
+        "Base flexible"
+      ],
+      "Control label\u0004Grid Child": [
+        "Enfant de la grille"
+      ],
+      "Control label\u0004Grid Column": [
+        "Colonne de grille"
+      ],
+      "Control label\u0004Grid Row": [
+        "Ligne de grille"
+      ],
+      "Control label\u0004Grid Area": [
+        "Zone de grille"
+      ],
+      "Control label\u0004Justify Self": [
+        "Se justifier"
+      ],
+      "Item text\u0004block": [
+        "bloc"
+      ],
+      "Item text\u0004inline-block": [
+        "bloc en ligne"
+      ],
+      "Item text\u0004inline": [
+        "en ligne"
+      ],
+      "Item text\u0004flex": [
+        "fléchir"
+      ],
+      "Item text\u0004inline-flex": [
+        "inline-flex"
+      ],
+      "Item text\u0004none": [
+        "aucun"
+      ],
+      "Item text\u0004column": [
+        "colonne"
+      ],
+      "Item text\u0004row": [
+        "rangée"
+      ],
+      "Item text\u0004column-reverse": [
+        "colonne inversée"
+      ],
+      "Item text\u0004row-reverse": [
+        "ligne inversée"
+      ],
+      "Item text\u0004flex-start": [
+        "démarrage flexible"
+      ],
+      "Item text\u0004flex-end": [
+        "extrémité flexible"
+      ],
+      "Item text\u0004stretch": [
+        "extensible"
+      ],
+      "Item text\u0004baseline": [
+        "ligne de base"
+      ],
+      "Item text\u0004space-between": [
+        "espace entre"
+      ],
+      "Item text\u0004space-around": [
+        "espace autour"
+      ],
+      "Item text\u0004space-evenly": [
+        "uniformément dans l'espace"
+      ],
+      "Item text\u0004nowrap": [
+        "maintenant"
+      ],
+      "Item text\u0004wrap": [
+        "envelopper"
+      ],
+      "Item text\u0004wrap-reverse": [
+        "wrap-reverse"
+      ],
+      "Item text\u0004both": [
+        "les deux"
+      ],
+      "Item text\u0004static": [
+        "statique"
+      ],
+      "Item text\u0004relative": [
+        "relatif"
+      ],
+      "Item text\u0004absolute": [
+        "absolu"
+      ],
+      "Item text\u0004sticky": [
+        "collant"
+      ],
+      "Item text\u0004start": [
+        "commencer"
+      ],
+      "Item text\u0004end": [
+        "fin"
+      ],
+      "Element name\u0004Comment Form": [
+        "Formulaire de commentaires"
+      ],
+      "Element name\u0004Blockquote": [
+        "Citation de bloc"
+      ],
+      "Control label\u0004Icon Position": [
+        "Position de l'icône"
+      ],
+      "Control label\u0004After Quote": [
+        "Après le devis"
+      ],
+      "Control label\u0004Before Author": [
+        "Avant l'auteur"
+      ],
+      "Control label\u0004Author": [
+        "Auteur"
+      ],
+      "Item text\u0004It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.": [
+        "Ce n’est pas l’espèce la plus forte qui survit, ni la plus intelligente, mais celle qui réagit le plus au changement."
+      ],
+      "Item text\u0004Above Text": [
+        "Au-dessus du texte"
+      ],
+      "Preset section label\u0004Author": [
+        "Auteur"
+      ],
+      "Element name\u0004Post Loop Builder": [
+        "Générateur de boucles post"
+      ],
+      "Element name\u0004Facebook Comments": [
+        "Commentaires Facebook"
+      ],
+      "Control label\u0004Sort By": [
+        "Trier par"
+      ],
+      "Control label\u0004Comment on": [
+        "Commentaire sur"
+      ],
+      "Item text\u0004Newest": [
+        "Le plus récent"
+      ],
+      "Item text\u0004Oldest": [
+        "Le plus ancien"
+      ],
+      "Element name\u0004Content Reveal": [
+        "Révélation du contenu"
+      ],
+      "Control label\u0004Transition": [
+        "Transition"
+      ],
+      "Control label\u0004Hide By": [
+        "Masquer par"
+      ],
+      "Control label\u0004Max Lines": [
+        "Lignes maximales"
+      ],
+      "Control label\u0004Scroll To Top When Closed": [
+        "Faire défiler vers le haut une fois fermé"
+      ],
+      "Control label\u0004Reveal Label": [
+        "Révéler l'étiquette"
+      ],
+      "Item text\u0004<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex ut dolor porttitor, ut ultricies leo porttitor. Etiam ac convallis nisl. Curabitur dapibus nec nunc nec iaculis. Quisque vitae ullamcorper risus. Ut rhoncus convallis nisi eget accumsan. Integer vitae lectus iaculis, volutpat diam eu, faucibus enim. Maecenas augue purus, hendrerit ac fermentum a, mollis ut nisl. Cras egestas lobortis dolor. Quisque nunc felis, bibendum quis risus ac, facilisis ultrices enim.</p><p>Maecenas mattis dolor est, in hendrerit libero ornare eget. Nam eget tortor et diam laoreet aliquam id ut dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean convallis molestie massa, id luctus ex scelerisque scelerisque. Integer bibendum ullamcorper mi. Sed congue, nibh et tincidunt vulputate, turpis risus maximus mauris, eget commodo nulla risus eu ante. Nulla at dolor aliquam quam accumsan venenatis. Aliquam hendrerit accumsan convallis. Ut consequat urna id lorem vestibulum blandit. Fusce dui metus, molestie vel mattis vitae, tempus tempor urna. Sed lacinia ligula nec enim tempus, at porta urna varius. Nam eget lobortis diam. Etiam ultricies libero et libero consectetur, at imperdiet orci tristique. Morbi pulvinar nunc ut molestie ornare. Vestibulum finibus pulvinar ligula id auctor.</p><p>Duis ullamcorper ornare metus at condimentum. Sed auctor, ipsum et sagittis dapibus, augue urna pretium metus, vitae tempor sem quam sit amet justo. Cras hendrerit condimentum odio, ac rhoncus magna mollis ac. Vestibulum rhoncus placerat risus vel lobortis. Nullam fringilla augue eu mauris ultrices, in imperdiet elit tincidunt. Maecenas tincidunt id mauris id rutrum. Duis imperdiet nisi est, in scelerisque diam sagittis et. Etiam rutrum nulla ut augue cursus finibus. Quisque posuere auctor sem, sed volutpat odio ullamcorper quis. Proin nec orci condimentum, ultrices turpis ac, fermentum metus. Ut tempor felis risus, efficitur ultricies augue mattis finibus. Nulla aliquet tempor velit. Proin eget ligula bibendum, finibus sem eu, congue ligula. Ut magna diam, feugiat ut leo et, gravida accumsan ante.</p><p>Nulla lacinia tempor accumsan. Maecenas volutpat quam eu massa accumsan ultrices. Praesent maximus lorem in augue pretium aliquet. Nam mauris massa, fermentum in tincidunt quis, gravida eget dolor. Vestibulum in tristique lorem. Vivamus non malesuada dolor. Morbi vulputate bibendum aliquet. Etiam sed varius ipsum, vitae tincidunt massa.</p>": [
+        "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mécène pulvinar ex ut dolor porttitor, ut ultricies leo porttitor. Etiam ac convallis nisl. Curabitur dapibus nec nunc nec iaculis. Quisque vitae ullamcorper risus. Ut rhoncus convallis nisi eget accumsan. Entier vitae lectus iaculis, volutpat diam eu, faucibus enim. Mécène augue purus, hendrerit ac fermentum a, mollis ut nisl. Cras egestas lobortis dolor. Quisque nunc felis, bibendum quis risus ac, facilisis ultrices enim.</p><p>Mécène mattis dolor est, in hendrerit libero ornare eget. Nom eget tortor et diam laoreet aliquam id ut dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Énéen convallis molestie massa, id luctus ex scelerisque scelerisque. Entier bibendum ullamcorper mi. Sed congue, nibh et tincidunt vulputate, turpis risus maximus mauris, eget commodo nulla risus eu ante. Nulla at dolor aliquam quam accumsan venenatis. Aliquam Hendrerit accumsan convallis. Cela signifie que l'urna et le vestibule du Lorem sont fades. Fusce dui metus, molestie vel mattis vitae, tempus tempor urna. Sed lacinia ligula nec enim tempus, à porta urna varius. Nom eget lobortis diam. Etiam ultricies libero et libero consectetur, à imperdiet orci tristique. Morbi pulvinar nunc ut molestie ornare. Vestibulum finibus pulvinar ligula id auctor.</p><p>Deux personnes ullamcorper ornare metus at condimentum. Sed auctor, ipsum et sagittis dapibus, augue urna pretium metus, vitae tempor sem quam sit amet justo. Cras hendrerit condimentum odio, ac rhoncus magna mollis ac. Vestibulum rhoncus placerat risus vel lobortis. Nullam fringilla augue eu mauris ultrices, in imperdiet elit tincidunt. Mécène tincidunt id mauris id rutrum. Duis imperdiet nisi est, in scelerisque diam sagittis et. Etiam rutrum nulla ut augue cursus finibus. Quisque posuere auctor sem, sed volutpat odio ullamcorper quis. Proin nec orci condimentum, ultrices turpis ac, fermentum metus. Ut tempor felis risus, efficacité ultricies augue mattis finibus. Nulla aliquet tempo velit. Proin eget ligula bibendum, finibus sem eu, congue ligula. Ut magna diam, feugiat ut leo et, gravida accumsan ante.</p><p>Nulla lacinia tempor accumsan. Mécène volutpat quam eu massa accumsan ultrices. Praesent maximus lorem en augue pretium aliquet. Nam mauris massa, fermentum in tincidunt quis, gravida eget dolor. Vestibule en lorem tristique. Vivamus non malesuada dolor. Morbi vulputé bibendum aliquet. Etiam sed varius ipsum, vitae tincidunt massa.</p>"
+      ],
+      "Item text\u0004Height": [
+        "Hauteur"
+      ],
+      "Item text\u0004Lines": [
+        "Lignes"
+      ],
+      "Element name\u0004HTML IMG": [
+        "HTML IMG"
+      ],
+      "Control label\u0004src": [
+        "src"
+      ],
+      "Control label\u0004srcset": [
+        "srcset"
+      ],
+      "Control label\u0004sizes": [
+        "tailles"
+      ],
+      "Control label\u0004alt": [
+        "alt"
+      ],
+      "Control label\u0004loading": [
+        "chargement"
+      ],
+      "Control label\u0004width": [
+        "largeur"
+      ],
+      "Control label\u0004height": [
+        "hauteur"
+      ],
+      "Item text\u0004eager": [
+        "désireux"
+      ],
+      "Item text\u0004lazy": [
+        "paresseux"
+      ],
+      "Element name\u0004ShortcodeWrapper": [
+        "ShortcodeWrapper"
+      ],
+      "Element name\u0004Simple Testimonial": [
+        "Témoignage simple"
+      ],
+      "Control label\u0004Shape & Outline": [
+        "Forme et contour"
+      ],
+      "Control label\u0004Offset Width": [
+        "Largeur de décalage"
+      ],
+      "Control label\u0004Offset Color": [
+        "Couleur de décalage"
+      ],
+      "Control label\u0004Black & White": [
+        "Noir et blanc"
+      ],
+      "Control label\u0004Horizontal Offset": [
+        "Décalage horizontal"
+      ],
+      "Control label\u0004Vertical Offset": [
+        "Décalage vertical"
+      ],
+      "Control label\u0004Hide Below": [
+        "Masquer ci-dessous"
+      ],
+      "Control label\u0004Below Image": [
+        "Image ci-dessous"
+      ],
+      "Control label\u0004Below Author": [
+        "Au-dessous de l'auteur"
+      ],
+      "Control label\u0004Below Author Info": [
+        "Ci-dessous les informations sur l'auteur"
+      ],
+      "Control label\u0004Author Info": [
+        "Informations sur l'auteur"
+      ],
+      "Item text\u0004Outlined Circle": [
+        "Cercle décrit"
+      ],
+      "Item text\u0004Masked": [
+        "Masqué"
+      ],
+      "Item text\u0004Rounded": [
+        "Arrondi"
+      ],
+      "Item text\u0004Blob 2": [
+        "Goutte 2"
+      ],
+      "Item text\u0004Blob 3": [
+        "Goutte 3"
+      ],
+      "Item text\u0004Blob 4": [
+        "Goutte 4"
+      ],
+      "Item text\u0004Blob 5": [
+        "Goutte 5"
+      ],
+      "Item text\u0004Blob 6": [
+        "Goutte 6"
+      ],
+      "Item text\u0004Blob 7": [
+        "Goutte 7"
+      ],
+      "Item text\u0004Blob 8": [
+        "Goutte 8"
+      ],
+      "Item text\u0004Quotes 1": [
+        "Citations 1"
+      ],
+      "Item text\u0004Quotes 2": [
+        "Citations 2"
+      ],
+      "Item text\u0004Quotes 3": [
+        "Citations 3"
+      ],
+      "Item text\u0004Quotes 4": [
+        "Citations 4"
+      ],
+      "Item text\u0004Quotes 5": [
+        "Citations 5"
+      ],
+      "Preset section label\u0004Author Info": [
+        "Informations sur l'auteur"
+      ],
+      "Element name\u0004Woo Breadcrumb": [
+        "Fil d'Ariane Woo"
+      ],
+      "Control label\u0004Delimiter": [
+        "Délimiteur"
+      ],
+      "Preset section label\u0004Delimiter Typography": [
+        "Typographie du délimiteur"
+      ],
+      "Preset section label\u0004Last Item": [
+        "Dernier article"
+      ],
+      "Element name\u0004Twitter Button": [
+        "Bouton Twitter"
+      ],
+      "Control label\u0004Follow User": [
+        "Suivre l'utilisateur"
+      ],
+      "Control label\u0004Mention User": [
+        "Mentionner l'utilisateur"
+      ],
+      "Control label\u0004Hashtag": [
+        "Hashtag"
+      ],
+      "Control label\u0004Show Count": [
+        "Afficher le nombre"
+      ],
+      "Control label\u0004Via Username": [
+        "Via le nom d'utilisateur"
+      ],
+      "Control label\u0004Show Screen Name": [
+        "Afficher le nom d'écran"
+      ],
+      "Control label\u0004Text to Tweet": [
+        "Texte pour tweeter"
+      ],
+      "Control label\u0004URL to Tweet": [
+        "URL pour tweeter"
+      ],
+      "Item text\u0004Share": [
+        "Partager"
+      ],
+      "Item text\u0004Follow": [
+        "Suivre"
+      ],
+      "Item text\u0004Mention": [
+        "Mentionner"
+      ],
+      "Item text\u0004Hashtag": [
+        "Hashtag"
+      ],
+      "Element name\u0004Basic Slider": [
+        "Curseur de base"
+      ],
+      "Control label\u0004Slide": [
+        "Glisser"
+      ],
+      "Control label\u0004Align Children": [
+        "Aligner les enfants"
+      ],
+      "Control label\u0004Vertical Align Children": [
+        "Aligner verticalement les enfants"
+      ],
+      "Control label\u0004Content Width": [
+        "Largeur du contenu"
+      ],
+      "Control label\u0004After Text": [
+        "Après le texte"
+      ],
+      "Control label\u0004Title HTML Tag": [
+        "Balise HTML de titre"
+      ],
+      "Item text\u0004<p>The quick, brown, classic rose, and bossanova fox jumped over the lazy dog.</p>": [
+        "<p>La rose classique, rapide et brune, et le renard bossanova ont sauté par-dessus le chien paresseux.</p>"
+      ],
+      "Item text\u0004<p>The quick, brown, bizarre, and thunderbird fox jumped over the lazy dog.</p>": [
+        "<p>Le renard rapide, brun, bizarre et oiseau-tonnerre a sauté par-dessus le chien paresseux.</p>"
+      ],
+      "Item text\u0004<p>The quick, brown, charlotte, and red fox jumped over the lazy dog.</p>": [
+        "<p>Les renards vif, brun, charlotte et roux ont sauté par-dessus le chien paresseux.</p>"
+      ],
+      "Element name\u0004Adjacent Posts": [
+        "Messages adjacents"
+      ],
+      "Control label\u0004Previous On Right": [
+        "Précédent à droite"
+      ],
+      "Control label\u0004Previous": [
+        "Précédent"
+      ],
+      "Control label\u0004Next": [
+        "Suivant"
+      ],
+      "Control label\u0004Between Posts": [
+        "Entre les messages"
+      ],
+      "Control label\u0004Disable Arrow": [
+        "Désactiver la flèche"
+      ],
+      "Control label\u0004Disable Post Title": [
+        "Désactiver le titre du message"
+      ],
+      "Control label\u0004Same taxonomy only": [
+        "Même taxonomie uniquement"
+      ],
+      "Control label\u0004Post Title Tag": [
+        "Balise de titre du message"
+      ],
+      "Preset section label\u0004Post Title": [
+        "Titre du message"
+      ],
+      "Element name\u0004Social Share Buttons": [
+        "Boutons de partage social"
+      ],
+      "Control label\u0004Floating Position": [
+        "Position flottante"
+      ],
+      "Control label\u0004Between Buttons": [
+        "Entre les boutons"
+      ],
+      "Control label\u0004Network": [
+        "Réseau"
+      ],
+      "Control label\u0004Custom Label": [
+        "Étiquette personnalisée"
+      ],
+      "Control label\u0004Share": [
+        "Partager"
+      ],
+      "Control label\u0004Custom Text": [
+        "Texte personnalisé"
+      ],
+      "Item text\u0004Icon & Text": [
+        "Icône et texte"
+      ],
+      "Item text\u0004Minimal": [
+        "Minimal"
+      ],
+      "Item text\u0004Box": [
+        "Boîte"
+      ],
+      "Item text\u0004Static": [
+        "Statique"
+      ],
+      "Item text\u0004Floating": [
+        "Flottant"
+      ],
+      "Item text\u0004Pinterest": [
+        "Pinterest"
+      ],
+      "Item text\u0004VK": [
+        "VK"
+      ],
+      "Item text\u0004Tumblr": [
+        "Tumblr"
+      ],
+      "Item text\u0004Reddit": [
+        "Reddit"
+      ],
+      "Item text\u0004Digg": [
+        "creuser"
+      ],
+      "Item text\u0004StumbleUpon": [
+        "Trébucher sur"
+      ],
+      "Item text\u0004Pocket": [
+        "Poche"
+      ],
+      "Item text\u0004WhatsApp": [
+        "WhatsApp"
+      ],
+      "Item text\u0004Xing": [
+        "Xing"
+      ],
+      "Item text\u0004Telegram": [
+        "Télégramme"
+      ],
+      "Item text\u0004Skype": [
+        "Skype"
+      ],
+      "Item text\u0004Print": [
+        "Imprimer"
+      ],
+      "Item text\u0004Email": [
+        "E-mail"
+      ],
+      "Item text\u0004Page Title": [
+        "Titre de la page"
+      ],
+      "Item text\u0004Custom Text": [
+        "Texte personnalisé"
+      ],
+      "Element name\u0004Menu Builder": [
+        "Générateur de menus"
+      ],
+      "Control label\u0004Graphic": [
+        "Graphique"
+      ],
+      "Control label\u0004Image Opacity": [
+        "Opacité de l'image"
+      ],
+      "Control label\u0004After Graphic": [
+        "Après le graphique"
+      ],
+      "Control label\u0004Before Description": [
+        "Avant Description"
+      ],
+      "Control label\u0004Space After Title": [
+        "Espace après le titre"
+      ],
+      "Control label\u0004Gap Between Columns": [
+        "Espace entre les colonnes"
+      ],
+      "Control label\u0004Additional Section": [
+        "Section supplémentaire"
+      ],
+      "Control label\u0004Stack Horizontally": [
+        "Empiler horizontalement"
+      ],
+      "Control label\u0004Level 3": [
+        "Niveau 3"
+      ],
+      "Control label\u0004Remove Column Titles": [
+        "Supprimer les titres de colonnes"
+      ],
+      "Control label\u0004Keep Menu Selected While Styling": [
+        "Gardez le menu sélectionné pendant le style"
+      ],
+      "Item text\u0004Home": [
+        "Maison"
+      ],
+      "Item text\u0004Products": [
+        "Produits"
+      ],
+      "Item text\u0004Flyer Basic": [
+        "Dépliant de base"
+      ],
+      "Item text\u0004Flyer Intermediate": [
+        "Dépliant Intermédiaire"
+      ],
+      "Item text\u0004Flyer Matrix Edition": [
+        "Flyer Édition Matrice"
+      ],
+      "Item text\u0004ExpressRocket": [
+        "ExpressRocket"
+      ],
+      "Item text\u0004Boomslang Level 1": [
+        "Boomslang Niveau 1"
+      ],
+      "Item text\u0004Liftmeister 21": [
+        "Maître de l'ascenseur 21"
+      ],
+      "Item text\u0004Heavymeister": [
+        "Maître Lourde"
+      ],
+      "Item text\u0004Triblade Vortex": [
+        "Vortex tripale"
+      ],
+      "Item text\u0004Rugged & Heavy Industry": [
+        "Industrie robuste et lourde"
+      ],
+      "Item text\u0004Identity 6000": [
+        "Identité 6000"
+      ],
+      "Item text\u0004Use Cases": [
+        "Cas d'utilisation"
+      ],
+      "Item text\u0004Small Business": [
+        "Petite entreprise"
+      ],
+      "Item text\u0004Medium Business": [
+        "Entreprise moyenne"
+      ],
+      "Item text\u0004Enterprise": [
+        "Entreprise"
+      ],
+      "Item text\u0004Organizations": [
+        "Organisations"
+      ],
+      "Item text\u0004Developers": [
+        "Développeurs"
+      ],
+      "Item text\u0004Getting Started Guide": [
+        "Guide de démarrage"
+      ],
+      "Item text\u0004API Reference": [
+        "Référence API"
+      ],
+      "Item text\u0004Sample Code": [
+        "Exemple de code"
+      ],
+      "Item text\u0004Plugin Developer Handbook": [
+        "Manuel du développeur de plugins"
+      ],
+      "Item text\u0004Forums": [
+        "Forums"
+      ],
+      "Item text\u0004Slack Channel": [
+        "Chaîne Slack"
+      ],
+      "Item text\u0004Facebook Group": [
+        "Groupe Facebook"
+      ],
+      "Item text\u0004About": [
+        "À propos"
+      ],
+      "Item text\u0004Custom Dropdown": [
+        "Liste déroulante personnalisée"
+      ],
+      "Item text\u0004Design your dropdowns with Breakdance.": [
+        "Concevez vos listes déroulantes avec Breakdance."
+      ],
+      "Item text\u0004Live": [
+        "En direct"
+      ],
+      "Item text\u0004Edit": [
+        "Modifier"
+      ],
+      "Preset section label\u0004Level 3": [
+        "Niveau 3"
+      ],
+      "Element name\u0004SimpleLayoutPreset": [
+        "SimpleLayoutPreset"
+      ],
+      "Control label\u0004Horizontal": [
+        "Horizontal"
+      ],
+      "Item text\u0004Space Between": [
+        "Espace entre"
+      ],
+      "Item text\u0004Space Around": [
+        "Espace autour"
+      ],
+      "Item text\u0004Space Evenly": [
+        "Espacer uniformément"
+      ],
+      "Item text\u0004Baseline": [
+        "Référence"
+      ],
+      "Element name\u0004Notification Bar": [
+        "Barre de notifications"
+      ],
+      "Control label\u0004Box": [
+        "Boîte"
+      ],
+      "Control label\u0004Link Text": [
+        "Texte du lien"
+      ],
+      "Control label\u0004Show Close Button": [
+        "Afficher le bouton de fermeture"
+      ],
+      "Item text\u0004Tip": [
+        "Conseil"
+      ],
+      "Item text\u0004Info": [
+        "Informations"
+      ],
+      "Item text\u0004Success": [
+        "Succès"
+      ],
+      "Item text\u0004Warning": [
+        "Avertissement"
+      ],
+      "Item text\u0004Alert": [
+        "Alerte"
+      ],
+      "Item text\u0004Border On Left": [
+        "Bordure à gauche"
+      ],
+      "Item text\u0004Wrapped With Border": [
+        "Enveloppé avec bordure"
+      ],
+      "Element name\u0004Global Block": [
+        "Bloc global"
+      ],
+      "Control label\u0004Block": [
+        "Bloc"
+      ],
+      "Element name\u0004Cart Page": [
+        "Page du panier"
+      ],
+      "Control label\u0004Totals Position": [
+        "Position des totaux"
+      ],
+      "Control label\u0004Sticky Totals": [
+        "Totaux collants"
+      ],
+      "Control label\u0004After Notification": [
+        "Après notification"
+      ],
+      "Control label\u0004After Cart": [
+        "Après le panier"
+      ],
+      "Control label\u0004Before Cross Sells": [
+        "Avant les ventes croisées"
+      ],
+      "Control label\u0004Between Columns": [
+        "Entre les colonnes"
+      ],
+      "Preset section label\u0004Contents": [
+        "Contenu"
+      ],
+      "Element name\u0004Template Content Area": [
+        "Zone de contenu du modèle"
+      ],
+      "Element name\u0004Basic List": [
+        "Liste de base"
+      ],
+      "Control label\u0004List": [
+        "Liste"
+      ],
+      "Control label\u0004Marker Type": [
+        "Type de marqueur"
+      ],
+      "Control label\u0004Emoji": [
+        "Émoji"
+      ],
+      "Control label\u0004Custom Hint": [
+        "Astuce personnalisée"
+      ],
+      "Control label\u0004Marker Color": [
+        "Couleur du marqueur"
+      ],
+      "Control label\u0004Marker Position": [
+        "Position du marqueur"
+      ],
+      "Item text\u0004This is a list element.": [
+        "Il s'agit d'un élément de liste."
+      ],
+      "Item text\u0004Spice it up with an emoji bullet point.": [
+        "Pimentez-le avec une puce emoji."
+      ],
+      "Item text\u0004Control spacing between the items.": [
+        "Contrôlez l’espacement entre les éléments."
+      ],
+      "Item text\u0004Or clear the styles and get a basic HTML list.": [
+        "Ou effacez les styles et obtenez une liste HTML de base."
+      ],
+      "Item text\u0004Disc": [
+        "Disque"
+      ],
+      "Item text\u0004Emoji": [
+        "Émoji"
+      ],
+      "Element name\u0004Icon Box": [
+        "Boîte à icônes"
+      ],
+      "Control label\u0004Rotate": [
+        "Tourner"
+      ],
+      "Item text\u0004Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in justo imperdiet, convallis velit ac, malesuada enim. Etiam vitae tempus enim. Cras hendrerit efficitur eros.": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in justo imperdiet, convallis velit ac, malesuada enim. Etiam vitae tempus enim. Cras hendrerit efficacité eros."
+      ],
+      "Preset section label\u0004Style": [
+        "Style"
+      ],
+      "Element name\u0004Forgot Password Form": [
+        "Formulaire de mot de passe oublié"
+      ],
+      "Control label\u0004Redirect After Submit": [
+        "Redirection après soumission"
+      ],
+      "Element name\u0004Upsell Products": [
+        "Produits de vente incitative"
+      ],
+      "Element name\u0004Advanced Slide": [
+        "Diapositive avancée"
+      ],
+      "Element name\u0004SliderOptionsPreset": [
+        "SliderOptionsPréréglage"
+      ],
+      "Control label\u0004Slider": [
+        "Curseur"
+      ],
+      "Control label\u0004Coverflow": [
+        "Flux de couverture"
+      ],
+      "Control label\u0004Depth": [
+        "Profondeur"
+      ],
+      "Control label\u0004Stretch": [
+        "Extensible"
+      ],
+      "Control label\u0004Infinite": [
+        "Infini"
+      ],
+      "Control label\u0004Center Slides": [
+        "Diapositives centrales"
+      ],
+      "Control label\u0004Autoplay Settings": [
+        "Paramètres de lecture automatique"
+      ],
+      "Control label\u0004Stop On Interaction": [
+        "Arrêter sur l'interaction"
+      ],
+      "Control label\u0004Pause On Hover": [
+        "Pause au survol"
+      ],
+      "Control label\u0004Swipe On Scroll": [
+        "Glisser sur le défilement"
+      ],
+      "Control label\u0004Auto Height": [
+        "Hauteur automatique"
+      ],
+      "Control label\u0004Between Slides": [
+        "Entre les diapositives"
+      ],
+      "Control label\u0004Slides Per View": [
+        "Diapositives par vue"
+      ],
+      "Control label\u0004Initial Slide": [
+        "Diapositive initiale"
+      ],
+      "Control label\u0004One Per View At": [
+        "Un par vue à"
+      ],
+      "Control label\u0004Slides Per Group": [
+        "Diapositives par groupe"
+      ],
+      "Control label\u0004Disable Keyboard Control": [
+        "Désactiver le contrôle du clavier"
+      ],
+      "Control label\u0004Play Animations On": [
+        "Lire des animations sur"
+      ],
+      "Control label\u0004Space To Slides": [
+        "Espace pour les diapositives"
+      ],
+      "Control label\u0004Space To Edge": [
+        "Espace jusqu'au bord"
+      ],
+      "Control label\u0004Bullets": [
+        "Balles"
+      ],
+      "Control label\u0004Margin": [
+        "Marge"
+      ],
+      "Item text\u0004Coverflow": [
+        "Flux de couverture"
+      ],
+      "Item text\u0004Enabled (frontend only)": [
+        "Activé (frontend uniquement)"
+      ],
+      "Item text\u0004Transition Start": [
+        "Début de la transition"
+      ],
+      "Item text\u0004Transition End": [
+        "Fin de la transition"
+      ],
+      "Item text\u0004Bullets": [
+        "Balles"
+      ],
+      "Item text\u0004Fraction": [
+        "Fraction"
+      ],
+      "Item text\u0004Progress Bar": [
+        "Barre de progression"
+      ],
+      "Preset section label\u0004Fraction": [
+        "Fraction"
+      ],
+      "Element name\u0004Stats Grid": [
+        "Grille de statistiques"
+      ],
+      "Control label\u0004Items Per Row": [
+        "Articles par ligne"
+      ],
+      "Control label\u0004After Number": [
+        "Après le numéro"
+      ],
+      "Item text\u0004Animals Saved": [
+        "Animaux sauvés"
+      ],
+      "Item text\u0004Restaurants Visited": [
+        "Restaurants visités"
+      ],
+      "Item text\u0004Countries": [
+        "Pays"
+      ],
+      "Item text\u0004Songs Performed": [
+        "Chansons interprétées"
+      ],
+      "Item text\u0004Hours Spent": [
+        "Heures passées"
+      ],
+      "Item text\u0004Hollidays Missed": [
+        "Jours fériés manqués"
+      ],
+      "Item text\u0004Buses Stoped": [
+        "Bus arrêtés"
+      ],
+      "Item text\u0004Lectures Attended": [
+        "Conférences suivies"
+      ],
+      "Preset section label\u0004Icon": [
+        "Icône"
+      ],
+      "Element name\u0004Logo List": [
+        "Liste des logos"
+      ],
+      "Control label\u0004Vertical Gap": [
+        "Espace vertical"
+      ],
+      "Control label\u0004Gradient Overlay": [
+        "Superposition de dégradé"
+      ],
+      "Control label\u0004Between Logos": [
+        "Entre les logos"
+      ],
+      "Control label\u0004Setting": [
+        "Paramètre"
+      ],
+      "Control label\u0004Logos": [
+        "Logos"
+      ],
+      "Item text\u0004Animated": [
+        "Animé"
+      ],
+      "Item text\u0004Side Scroll": [
+        "Défilement latéral"
+      ],
+      "Item text\u0004Show All": [
+        "Afficher tout"
+      ],
+      "Item text\u0004To Left": [
+        "À gauche"
+      ],
+      "Item text\u0004To Right": [
+        "À droite"
+      ],
+      "Item text\u0004Infinite": [
+        "Infini"
+      ],
+      "Item text\u0004Start on Hover": [
+        "Démarrer en survol"
+      ],
+      "Item text\u0004Stop on Hover": [
+        "Arrêtez-vous en survol"
+      ],
+      "Item text\u0004Both": [
+        "Les deux"
+      ],
+      "Element name\u0004Icon List": [
+        "Liste des icônes"
+      ],
+      "Control label\u0004Fill": [
+        "Remplir"
+      ],
+      "Control label\u0004Stack": [
+        "Empiler"
+      ],
+      "Control label\u0004Stack Vertical At": [
+        "Empiler verticalement à"
+      ],
+      "Item text\u0004Automatic dimming at night": [
+        "Gradation automatique la nuit"
+      ],
+      "Item text\u0004500 lumens of brightness": [
+        "500 lumens de luminosité"
+      ],
+      "Item text\u0004Extremely energy efficient": [
+        "Extrêmement économe en énergie"
+      ],
+      "Element name\u0004Search Form": [
+        "Formulaire de recherche"
+      ],
+      "Control label\u0004Classic Styles": [
+        "Styles classiques"
+      ],
+      "Control label\u0004Icon Button": [
+        "Bouton Icône"
+      ],
+      "Control label\u0004Full Screen Styles": [
+        "Styles plein écran"
+      ],
+      "Control label\u0004Open Button": [
+        "Bouton Ouvrir"
+      ],
+      "Control label\u0004Search Box": [
+        "Champ de recherche"
+      ],
+      "Control label\u0004Limit To Post Type": [
+        "Limiter au type de publication"
+      ],
+      "Item text\u0004Classic": [
+        "Classique"
+      ],
+      "Item text\u0004Full Screen": [
+        "Plein écran"
+      ],
+      "Element name\u0004Related Products": [
+        "Produits connexes"
+      ],
+      "Element name\u0004Google Map": [
+        "Carte Google"
+      ],
+      "Control label\u0004Address": [
+        "Adresse"
+      ],
+      "Control label\u0004Use Without API Key": [
+        "Utiliser sans clé API"
+      ],
+      "Element name\u0004Text": [
+        "Texte"
+      ],
+      "Element name\u0004Columns": [
+        "Colonnes"
+      ],
+      "Control label\u0004Add Column": [
+        "Ajouter une colonne"
+      ],
+      "Control label\u000450% Width": [
+        "50 % de largeur"
+      ],
+      "Control label\u0004Reverse Order": [
+        "Ordre inversé"
+      ],
+      "Control label\u0004Column Gap": [
+        "Écart de colonne"
+      ],
+      "Control label\u0004Column Padding": [
+        "Remplissage de colonne"
+      ],
+      "Item text\u0004Fit To Content": [
+        "Ajuster au contenu"
+      ],
+      "Item text\u0004Expand To Fill": [
+        "Développer pour remplir"
+      ],
+      "Element name\u0004Flexible Content": [
+        "Contenu flexible"
+      ],
+      "Control label\u0004Flexible Content Field": [
+        "Champ de contenu flexible"
+      ],
+      "Control label\u0004Blocks": [
+        "Blocs"
+      ],
+      "Element name\u0004Menu Custom Dropdown": [
+        "Menu déroulant personnalisé"
+      ],
+      "Element name\u0004Image": [
+        "Image"
+      ],
+      "Control label\u0004From": [
+        "Depuis"
+      ],
+      "Control label\u0004Media": [
+        "Médias"
+      ],
+      "Control label\u0004Set HTML Width & Height": [
+        "Définir la largeur et la hauteur HTML"
+      ],
+      "Item text\u0004Media Library": [
+        "Médiathèque"
+      ],
+      "Item text\u0004Decorative": [
+        "Décoratif"
+      ],
+      "Element name\u0004Checkout Order Review": [
+        "Examen de la commande de paiement"
+      ],
+      "Preset section label\u0004Your Order": [
+        "Votre commande"
+      ],
+      "Element name\u0004Content Toggle - Content": [
+        "Bascule de contenu - Contenu"
+      ],
+      "Control label\u0004Primary": [
+        "Primaire"
+      ],
+      "Element name\u0004Icon": [
+        "Icône"
+      ],
+      "Control label\u0004Outline Width": [
+        "Largeur du contour"
+      ],
+      "Element name\u0004AnalyticsWP Event": [
+        "Événement AnalyticsWP"
+      ],
+      "Control label\u0004Event": [
+        "Événement"
+      ],
+      "Control label\u0004Time Active On Page": [
+        "Temps d'activité sur la page"
+      ],
+      "Item text\u0004Scrolled Into View": [
+        "Défilé dans la vue"
+      ],
+      "Item text\u0004Time Active On Page": [
+        "Temps d'activité sur la page"
+      ],
+      "Element name\u0004Header Builder": [
+        "Générateur d'en-tête"
+      ],
+      "Control label\u0004Custom Width": [
+        "Largeur personnalisée"
+      ],
+      "Control label\u0004Page Top Margin": [
+        "Marge supérieure de la page"
+      ],
+      "Control label\u0004Page Bottom Margin": [
+        "Marge inférieure de la page"
+      ],
+      "Control label\u0004Scroll Behavior": [
+        "Comportement de défilement"
+      ],
+      "Control label\u0004Hide After": [
+        "Masquer après"
+      ],
+      "Control label\u0004Hide Until Scroll": [
+        "Masquer jusqu'au défilement"
+      ],
+      "Control label\u0004Scroll Distance": [
+        "Distance de défilement"
+      ],
+      "Control label\u0004Reveal Animation": [
+        "Révéler l'animation"
+      ],
+      "Control label\u0004Reveal On Scroll Up": [
+        "Révéler en faisant défiler vers le haut"
+      ],
+      "Control label\u0004Offset After Scroll": [
+        "Décalage après défilement"
+      ],
+      "Control label\u0004Keep Style": [
+        "Gardez le style"
+      ],
+      "Control label\u0004Disable Builder Preview Mode": [
+        "Désactiver le mode aperçu du générateur"
+      ],
+      "Element name\u0004Checkout Page": [
+        "Page de paiement"
+      ],
+      "Control label\u0004Single Column": [
+        "Colonne unique"
+      ],
+      "Control label\u0004Your Order": [
+        "Votre commande"
+      ],
+      "Control label\u0004Below Headings": [
+        "Sous les titres"
+      ],
+      "Control label\u0004Force Full Width Form Fields": [
+        "Forcer les champs de formulaire pleine largeur"
+      ],
+      "Preset section label\u0004Coupon": [
+        "Coupon"
+      ],
+      "Preset section label\u0004Billing Details": [
+        "Détails de facturation"
+      ],
+      "Preset section label\u0004Additional Info": [
+        "Informations supplémentaires"
+      ],
+      "Preset section label\u0004Table Heading": [
+        "En-tête du tableau"
+      ],
+      "Preset section label\u0004Prices": [
+        "Tarifs"
+      ],
+      "Preset section label\u0004Payment Info": [
+        "Informations de paiement"
+      ],
+      "Element name\u0004EffectsPreset": [
+        "EffetsPreset"
+      ],
+      "Control label\u0004Box Shadow": [
+        "Ombre de boîte"
+      ],
+      "Control label\u0004Mix Blend Mode": [
+        "Mode de mélange"
+      ],
+      "Control label\u0004Timing Function": [
+        "Fonction de synchronisation"
+      ],
+      "Control label\u0004Property": [
+        "Propriété"
+      ],
+      "Control label\u0004Custom Property": [
+        "Propriété personnalisée"
+      ],
+      "Control label\u0004Transform": [
+        "Transformer"
+      ],
+      "Control label\u0004Transforms": [
+        "Transformations"
+      ],
+      "Control label\u0004Skew X": [
+        "Inclinaison X"
+      ],
+      "Control label\u0004Skew Y": [
+        "Inclinaison Y"
+      ],
+      "Control label\u0004Translate X": [
+        "Traduire X"
+      ],
+      "Control label\u0004Translate Y": [
+        "Traduire Y"
+      ],
+      "Control label\u0004Translate Z": [
+        "Traduire Z"
+      ],
+      "Control label\u0004Angle": [
+        "Angle"
+      ],
+      "Control label\u0004Perspective": [
+        "Perspective"
+      ],
+      "Control label\u0004Scale X": [
+        "Échelle X"
+      ],
+      "Control label\u0004Scale Y": [
+        "Échelle Y"
+      ],
+      "Control label\u0004Scale Z": [
+        "Échelle Z"
+      ],
+      "Control label\u0004Rotate X": [
+        "Rotation X"
+      ],
+      "Control label\u0004Rotate Y": [
+        "Rotation Y"
+      ],
+      "Control label\u0004Rotate Z": [
+        "Rotation Z"
+      ],
+      "Control label\u0004Origin Position": [
+        "Position d'origine"
+      ],
+      "Control label\u0004Perspective Origin": [
+        "Origine de la perspective"
+      ],
+      "Control label\u0004Transform Style": [
+        "Transformer le style"
+      ],
+      "Control label\u0004Filter": [
+        "Filtre"
+      ],
+      "Control label\u0004Blur Amount": [
+        "Quantité de flou"
+      ],
+      "Item text\u0004ease-in-out": [
+        "facilité d'entrée et de sortie"
+      ],
+      "Item text\u0004ease-in": [
+        "facilité d'entrée"
+      ],
+      "Item text\u0004ease-out": [
+        "facilité"
+      ],
+      "Item text\u0004ease": [
+        "facilité"
+      ],
+      "Item text\u0004linear": [
+        "linéaire"
+      ],
+      "Item text\u0004all": [
+        "tous"
+      ],
+      "Item text\u0004perspective": [
+        "perspective"
+      ],
+      "Item text\u0004rotate": [
+        "tourner"
+      ],
+      "Item text\u0004rotate3d": [
+        "rotation3d"
+      ],
+      "Item text\u0004scale": [
+        "échelle"
+      ],
+      "Item text\u0004scale3d": [
+        "échelle3d"
+      ],
+      "Item text\u0004skew": [
+        "fausser"
+      ],
+      "Item text\u0004translate": [
+        "traduire"
+      ],
+      "Item text\u0004top left": [
+        "en haut à gauche"
+      ],
+      "Item text\u0004top right": [
+        "en haut à droite"
+      ],
+      "Item text\u0004top center": [
+        "en haut au centre"
+      ],
+      "Item text\u0004center left": [
+        "centre gauche"
+      ],
+      "Item text\u0004center right": [
+        "centre droit"
+      ],
+      "Item text\u0004bottom left": [
+        "en bas à gauche"
+      ],
+      "Item text\u0004bottom center": [
+        "en bas au centre"
+      ],
+      "Item text\u0004bottom right": [
+        "en bas à droite"
+      ],
+      "Item text\u0004Preserve 3D": [
+        "Préserver la 3D"
+      ],
+      "Item text\u0004blur": [
+        "se brouiller"
+      ],
+      "Item text\u0004brightness": [
+        "luminosité"
+      ],
+      "Item text\u0004contrast": [
+        "contraste"
+      ],
+      "Item text\u0004grayscale": [
+        "niveaux de gris"
+      ],
+      "Item text\u0004hue-rotate": [
+        "rotation des teintes"
+      ],
+      "Item text\u0004invert": [
+        "inverser"
+      ],
+      "Item text\u0004saturate": [
+        "saturer"
+      ],
+      "Item text\u0004sepia": [
+        "sépia"
+      ],
+      "Element name\u0004Rich Text": [
+        "Texte enrichi"
+      ],
+      "Control label\u0004H1": [
+        "H1"
+      ],
+      "Control label\u0004Margin Block Start": [
+        "Début du bloc de marge"
+      ],
+      "Control label\u0004Margin Block End": [
+        "Fin du bloc de marge"
+      ],
+      "Control label\u0004H2": [
+        "H2"
+      ],
+      "Control label\u0004H3": [
+        "H3"
+      ],
+      "Control label\u0004H4": [
+        "H4"
+      ],
+      "Control label\u0004Paragraph": [
+        "Paragraphe"
+      ],
+      "Control label\u0004Padding Inline Start": [
+        "Démarrage en ligne du rembourrage"
+      ],
+      "Control label\u0004List Item P": [
+        "Élément de liste P"
+      ],
+      "Preset section label\u0004Default": [
+        "Défaut"
+      ],
+      "Preset section label\u0004H1": [
+        "H1"
+      ],
+      "Preset section label\u0004H2": [
+        "H2"
+      ],
+      "Preset section label\u0004H3": [
+        "H3"
+      ],
+      "Preset section label\u0004H4": [
+        "H4"
+      ],
+      "Preset section label\u0004Paragraph": [
+        "Paragraphe"
+      ],
+      "Element name\u0004Checkout Billing Form": [
+        "Formulaire de facturation de paiement"
+      ],
+      "Element name\u0004Masker": [
+        "Masqueur"
+      ],
+      "Element name\u0004Breadcrumbs": [
+        "Fil d'Ariane"
+      ],
+      "Control label\u0004Breadcrumbs": [
+        "Fil d'Ariane"
+      ],
+      "Control label\u0004Integration": [
+        "Intégration"
+      ],
+      "Item text\u0004Yoast SEO": [
+        "Yoast SEO"
+      ],
+      "Item text\u0004Rank Math": [
+        "Classement mathématique"
+      ],
+      "Item text\u0004SEOPress": [
+        "SEOPresse"
+      ],
+      "Preset section label\u0004Separator": [
+        "Séparateur"
+      ],
+      "Element name\u0004Checkmark List": [
+        "Liste de coches"
+      ],
+      "Control label\u0004Positive Color": [
+        "Couleur positive"
+      ],
+      "Control label\u0004Negative Color": [
+        "Couleur négative"
+      ],
+      "Control label\u0004Positive Nudge": [
+        "Coup de pouce positif"
+      ],
+      "Control label\u0004Negative Nudge": [
+        "Coup de pouce négatif"
+      ],
+      "Control label\u0004Force Vertical Stacking": [
+        "Forcer l’empilement vertical"
+      ],
+      "Control label\u0004Positive Icon": [
+        "Icône positive"
+      ],
+      "Control label\u0004Negative Icon": [
+        "Icône négative"
+      ],
+      "Item text\u0004Lifetime unlimited license": [
+        "Licence illimitée à vie"
+      ],
+      "Item text\u0004Everything you need and more": [
+        "Tout ce dont vous avez besoin et plus"
+      ],
+      "Item text\u0004All the features you want": [
+        "Toutes les fonctionnalités que vous souhaitez"
+      ],
+      "Item text\u0004Gutenberg integration": [
+        "Intégration Gutenberg"
+      ],
+      "Item text\u0004Composite elements": [
+        "Éléments composites"
+      ],
+      "Item text\u0004Positive": [
+        "Positif"
+      ],
+      "Item text\u0004Negative": [
+        "Négatif"
+      ],
+      "Element name\u0004Dual Heading": [
+        "Double titre"
+      ],
+      "Control label\u0004Annotate": [
+        "Annoter"
+      ],
+      "Control label\u0004Stroke Width": [
+        "Largeur de trait"
+      ],
+      "Control label\u0004Multiline": [
+        "Multiligne"
+      ],
+      "Control label\u0004Iterations": [
+        "Itérations"
+      ],
+      "Control label\u0004RTL": [
+        "RTL"
+      ],
+      "Control label\u0004Brackets": [
+        "Supports"
+      ],
+      "Control label\u0004Secondary": [
+        "Secondaire"
+      ],
+      "Control label\u0004Words": [
+        "Mots"
+      ],
+      "Control label\u0004Secondary Style": [
+        "Style secondaire"
+      ],
+      "Item text\u0004This is": [
+        "C'est"
+      ],
+      "Item text\u0004amazing!": [
+        "incroyable!"
+      ],
+      "Item text\u0004underline": [
+        "souligner"
+      ],
+      "Item text\u0004box": [
+        "boîte"
+      ],
+      "Item text\u0004circle": [
+        "cercle"
+      ],
+      "Item text\u0004strike-through": [
+        "barré"
+      ],
+      "Item text\u0004crossed-off": [
+        "barré"
+      ],
+      "Item text\u0004bracket": [
+        "support"
+      ],
+      "Preset section label\u0004Both": [
+        "Les deux"
+      ],
+      "Element name\u0004Scroll Progress": [
+        "Progression du défilement"
+      ],
+      "Control label\u0004Circle": [
+        "Cercle"
+      ],
+      "Control label\u0004Percentage": [
+        "Pourcentage"
+      ],
+      "Control label\u0004Show Percentage": [
+        "Afficher le pourcentage"
+      ],
+      "Control label\u0004Track Progress Of": [
+        "Suivre les progrès de"
+      ],
+      "Control label\u0004Custom Selector": [
+        "Sélecteur personnalisé"
+      ],
+      "Item text\u0004Page": [
+        "Page"
+      ],
+      "Item text\u0004Custom Selector": [
+        "Sélecteur personnalisé"
+      ],
+      "Element name\u0004Hover Swapper": [
+        "Échangeur de survol"
+      ],
+      "Control label\u0004New Control": [
+        "Nouveau contrôle"
+      ],
+      "Element name\u0004WooPresetStock": [
+        "WooPresetStock"
+      ],
+      "Control label\u0004Out Of Stock": [
+        "En rupture de stock"
+      ],
+      "Control label\u0004Disable Icon": [
+        "Icône Désactiver"
+      ],
+      "Control label\u0004Backorder": [
+        "Commande en souffrance"
+      ],
+      "Element name\u0004Animated Heading": [
+        "Titre animé"
+      ],
+      "Control label\u0004Typing": [
+        "Dactylographie"
+      ],
+      "Control label\u0004Type Speed": [
+        "Type Vitesse"
+      ],
+      "Control label\u0004Start Delay": [
+        "Départ différé"
+      ],
+      "Control label\u0004Back Speed": [
+        "Vitesse de retour"
+      ],
+      "Control label\u0004Back Delay": [
+        "Délai de retour"
+      ],
+      "Control label\u0004Shuffle": [
+        "Mélanger"
+      ],
+      "Control label\u0004Disable Loop": [
+        "Désactiver la boucle"
+      ],
+      "Control label\u0004Hide Cursor": [
+        "Masquer le curseur"
+      ],
+      "Control label\u0004Rotating": [
+        "Tournant"
+      ],
+      "Control label\u0004Easing In": [
+        "Se détendre"
+      ],
+      "Control label\u0004Easing Out": [
+        "Se détendre"
+      ],
+      "Control label\u0004Transform origin": [
+        "Transformer l'origine"
+      ],
+      "Control label\u0004Changing Text": [
+        "Changer le texte"
+      ],
+      "Item text\u0004awesome": [
+        "génial"
+      ],
+      "Item text\u0004great": [
+        "super"
+      ],
+      "Item text\u0004cool": [
+        "cool"
+      ],
+      "Item text\u0004Typing": [
+        "Dactylographie"
+      ],
+      "Item text\u0004Rotating": [
+        "Tournant"
+      ],
+      "Item text\u0004easeOutSine": [
+        "facilitéOutSine"
+      ],
+      "Item text\u0004easeOutExpo": [
+        "easyOutExpo"
+      ],
+      "Item text\u0004easeOutBack": [
+        "facilitéOutBack"
+      ],
+      "Item text\u0004easeOutBounce": [
+        "facilitéOutBounce"
+      ],
+      "Item text\u0004easeInSine": [
+        "facilitéInSine"
+      ],
+      "Item text\u0004easeInExpo": [
+        "facilitéInExpo"
+      ],
+      "Item text\u0004easeInBack": [
+        "facilitéInBack"
+      ],
+      "Item text\u0004easeInBounce": [
+        "facilitéDansBounce"
+      ],
+      "Item text\u0004Slide down": [
+        "Glisser vers le bas"
+      ],
+      "Item text\u0004Slide right": [
+        "Glisser vers la droite"
+      ],
+      "Item text\u0004Slide left": [
+        "Glisser vers la gauche"
+      ],
+      "Item text\u0004Flip x": [
+        "Retourner x"
+      ],
+      "Item text\u0004Flip y": [
+        "Retourner y"
+      ],
+      "Item text\u0004Zoom in": [
+        "Zoomer"
+      ],
+      "Item text\u0004Zoom out": [
+        "Zoom arrière"
+      ],
+      "Preset section label\u0004Cursor Style": [
+        "Style du curseur"
+      ],
+      "Element name\u0004Twitter Embed Tweet": [
+        "Twitter Intégrer le tweet"
+      ],
+      "Control label\u0004Tweet": [
+        "Tweeter"
+      ],
+      "Control label\u0004Tweet URL": [
+        "URL du tweet"
+      ],
+      "Control label\u0004Hide Conversation": [
+        "Masquer la conversation"
+      ],
+      "Control label\u0004Hide Media": [
+        "Masquer les médias"
+      ],
+      "Element name\u0004Menu Custom Area": [
+        "Zone personnalisée du menu"
+      ],
+      "Control label\u0004Hide In": [
+        "Se cacher"
+      ],
+      "Control label\u0004Dropdown": [
+        "Dérouler"
+      ],
+      "Control label\u0004Inherit Link Styles": [
+        "Hériter des styles de lien"
+      ],
+      "Control label\u0004Icons Inherit Link Styles": [
+        "Les icônes héritent des styles de liens"
+      ],
+      "Control label\u0004Enable Dropdown": [
+        "Activer la liste déroulante"
+      ],
+      "Control label\u0004Menu Source": [
+        "Source du menu"
+      ],
+      "Item text\u0004Our Story": [
+        "Notre histoire"
+      ],
+      "Item text\u0004Mission & Vision": [
+        "Mission et vision"
+      ],
+      "Item text\u0004Team": [
+        "Équipe"
+      ],
+      "Item text\u0004Consulting": [
+        "Consultant"
+      ],
+      "Item text\u0004Development": [
+        "Développement"
+      ],
+      "Item text\u0004Design": [
+        "Conception"
+      ],
+      "Item text\u0004Job Openings": [
+        "Offres d'emploi"
+      ],
+      "Item text\u0004Internships": [
+        "Stages"
+      ],
+      "Item text\u0004Employee Benefits": [
+        "Avantages sociaux"
+      ],
+      "Item text\u0004Desktop Menu": [
+        "Menu du bureau"
+      ],
+      "Item text\u0004Mobile Menu": [
+        "Menu mobile"
+      ],
+      "Item text\u0004Standard Controls": [
+        "Contrôles standards"
+      ],
+      "Item text\u0004Global Block": [
+        "Bloc global"
+      ],
+      "Element name\u0004Fancy Divider": [
+        "Diviseur fantaisie"
+      ],
+      "Control label\u0004Pattern": [
+        "Modèle"
+      ],
+      "Control label\u0004Space Around": [
+        "Espace autour"
+      ],
+      "Item text\u0004Zigzag": [
+        "Zigzag"
+      ],
+      "Item text\u0004Pills": [
+        "Pilules"
+      ],
+      "Item text\u0004Stars": [
+        "Étoiles"
+      ],
+      "Item text\u0004Leafs": [
+        "Feuilles"
+      ],
+      "Item text\u0004Smiley": [
+        "Sourire"
+      ],
+      "Item text\u0004Arrows": [
+        "Flèches"
+      ],
+      "Item text\u0004Pluses": [
+        "Avantages"
+      ],
+      "Item text\u0004Triangles": [
+        "Triangles"
+      ],
+      "Item text\u0004Doodles": [
+        "Griffonnages"
+      ],
+      "Item text\u0004Dots": [
+        "Points"
+      ],
+      "Item text\u0004Rectangles": [
+        "Rectangulaires"
+      ],
+      "Item text\u0004Half Circle": [
+        "Demi-cercle"
+      ],
+      "Element name\u0004Shop Filters": [
+        "Filtres de magasin"
+      ],
+      "Control label\u0004Chips": [
+        "Puces"
+      ],
+      "Control label\u0004Hover Border": [
+        "Survolez la bordure"
+      ],
+      "Control label\u0004Hover Shadow": [
+        "Survoler l'ombre"
+      ],
+      "Control label\u0004Price Filter": [
+        "Filtrer les prix"
+      ],
+      "Control label\u0004Bar": [
+        "Bar"
+      ],
+      "Control label\u0004Selection": [
+        "Sélection"
+      ],
+      "Control label\u0004Handle": [
+        "Poignée"
+      ],
+      "Control label\u0004Rating Filter": [
+        "Filtre de notation"
+      ],
+      "Control label\u0004Between Stars": [
+        "Entre les étoiles"
+      ],
+      "Control label\u0004Attribute Filter": [
+        "Filtre d'attribut"
+      ],
+      "Control label\u0004After Titles": [
+        "Après les titres"
+      ],
+      "Control label\u0004Between Filters": [
+        "Entre les filtres"
+      ],
+      "Element name\u0004Table Of Contents": [
+        "Table des matières"
+      ],
+      "Control label\u0004Heading Offset": [
+        "Décalage de cap"
+      ],
+      "Control label\u0004Collapse": [
+        "Effondrement"
+      ],
+      "Control label\u0004Indent": [
+        "Retrait"
+      ],
+      "Control label\u0004Active Typography": [
+        "Typographie active"
+      ],
+      "Control label\u0004Weight": [
+        "Poids"
+      ],
+      "Control label\u0004Below Header": [
+        "Sous l'en-tête"
+      ],
+      "Control label\u0004Table": [
+        "Tableau"
+      ],
+      "Control label\u0004Included Headings": [
+        "Titres inclus"
+      ],
+      "Control label\u0004H5": [
+        "H5"
+      ],
+      "Control label\u0004H6": [
+        "H6"
+      ],
+      "Control label\u0004Ignore Selectors": [
+        "Ignorer les sélecteurs"
+      ],
+      "Control label\u0004Container Selector": [
+        "Sélecteur de conteneur"
+      ],
+      "Item text\u0004Label": [
+        "Étiquette"
+      ],
+      "Item text\u0004Riht": [
+        "Droit"
+      ],
+      "Item text\u0004Numbers": [
+        "Nombres"
+      ],
+      "Element name\u0004Instagram Post": [
+        "Publication Instagram"
+      ],
+      "Control label\u0004Hide Caption": [
+        "Masquer la légende"
+      ],
+      "Element name\u0004Grid": [
+        "Grille"
+      ],
+      "Control label\u0004Grid": [
+        "Grille"
+      ],
+      "Control label\u0004Item Vertical Alignment": [
+        "Alignement vertical de l'élément"
+      ],
+      "Control label\u0004Item Horizontal Alignment": [
+        "Alignement horizontal de l'élément"
+      ],
+      "Control label\u0004Use Original Item Dimensions": [
+        "Utiliser les dimensions de l'article d'origine"
+      ],
+      "Element name\u0004Badge": [
+        "Badge"
+      ],
+      "Item text\u0004My Badge": [
+        "Mon badge"
+      ],
+      "Control label\u0004Row Gap": [
+        "Écart de rangée"
+      ],
+      "Control label\u0004Text Align": [
+        "Aligner le texte"
+      ],
+      "Control label\u0004Justify Items": [
+        "Justifier les éléments"
+      ],
+      "Control label\u0004Grid Template": [
+        "Modèle de grille"
+      ],
+      "Control label\u0004Grid Auto Columns": [
+        "Colonnes automatiques de la grille"
+      ],
+      "Control label\u0004Grid Auto Rows": [
+        "Lignes automatiques de la grille"
+      ],
+      "Control label\u0004Grid Auto Flow": [
+        "Flux automatique de grille"
+      ],
+      "Item text\u0004Flex Start": [
+        "Démarrage flexible"
+      ],
+      "Item text\u0004Flex End": [
+        "Extrémité flexible"
+      ],
+      "Item text\u0004No Wrap": [
+        "Pas d'emballage"
+      ],
+      "Item text\u0004Wrap": [
+        "Envelopper"
+      ],
+      "Item text\u0004Wrap Reverse": [
+        "Enveloppement inversé"
+      ],
+      "Item text\u0004Column Reverse": [
+        "Colonne inversée"
+      ],
+      "Item text\u0004Row Reverse": [
+        "Rangée inversée"
+      ],
+      "Item text\u0004Column Dense": [
+        "Colonne dense"
+      ],
+      "Item text\u0004Row Dense": [
+        "Rangée dense"
+      ],
+      "Control label\u0004Clip": [
+        "Agrafe"
+      ],
+      "Control label\u0004Layers": [
+        "Calques"
+      ],
+      "Control label\u0004Form Name": [
+        "Form Name"
+      ],
+      "Control label\u0004Actions After Submission": [
+        "Actions After Submission"
+      ],
+      "Placeholder\u0004No action selected": [
+        "No action selected"
+      ],
+      "Control label\u0004Add Field": [
+        "Add Field"
+      ],
+      "Control label\u0004Error Message": [
+        "Error Message"
+      ],
+      "Control label\u0004Hide Form On Success": [
+        "Hide Form On Success"
+      ],
+      "Control label\u0004Form HTML ID": [
+        "Form HTML ID"
+      ],
+      "Control label\u0004Submit HTML ID": [
+        "Submit HTML ID"
+      ],
+      "Control label\u0004Add Honeypot Field": [
+        "Add Honeypot Field"
+      ],
+      "Control label\u0004Enable CSRF Protection": [
+        "Enable CSRF Protection"
+      ],
+      "Control label\u0004Enable reCAPTCHA": [
+        "Enable reCAPTCHA"
+      ],
+      "Control label\u0004Store Submission": [
+        "Store Submission"
+      ],
+      "Control label\u0004Submission Title": [
+        "Submission Title"
+      ],
+      "Control label\u0004Store uploaded files": [
+        "Store uploaded files"
+      ],
+      "Control label\u0004Add uploaded files to WordPress media library": [
+        "Add uploaded files to WordPress media library"
+      ],
+      "Control label\u0004Run Action Conditionally": [
+        "Run Action Conditionally"
+      ],
+      "Control label\u0004Emails": [
+        "Emails"
+      ],
+      "Control label\u0004Subject": [
+        "Subject"
+      ],
+      "Control label\u0004To Email": [
+        "To Email"
+      ],
+      "Control label\u0004From Email": [
+        "From Email"
+      ],
+      "Control label\u0004From Name": [
+        "From Name"
+      ],
+      "Control label\u0004Reply To": [
+        "Reply To"
+      ],
+      "Control label\u0004Attach uploaded files": [
+        "Attach uploaded files"
+      ],
+      "Control label\u0004BCC": [
+        "BCC"
+      ],
+      "Control label\u0004Disable Prefix": [
+        "Disable Prefix"
+      ],
+      "Element name\u0004Archive Title": [
+        "Archive Title"
+      ],
+      "Element name\u0004Post Title": [
+        "Post Title"
+      ]
+    }
+  }
+}

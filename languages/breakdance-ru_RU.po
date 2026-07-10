@@ -1,0 +1,5589 @@
+# Breakdance admin translations expanded from breakdance/languages/breakdance.pot.
+msgid ""
+msgstr ""
+"Project-Id-Version: Breakdance Languages ux-0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/breakdance\n"
+"POT-Creation-Date: 2025-12-20T16:49:55+00:00\n"
+"PO-Revision-Date: 2026-07-09 21:24:-0300\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Domain: breakdance\n"
+
+#. Plugin Name of the plugin
+#: plugin.php plugin/admin/menu/menu.php:21
+msgid "Breakdance"
+msgstr "Брейкданс"
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "%%pluginURI%%"
+msgstr "%%pluginURI%%"
+
+#. Description of the plugin
+#: plugin.php
+msgid "%%description%%"
+msgstr "%%описание%%"
+
+#. Author of the plugin
+#: plugin.php
+msgid "%%author%%"
+msgstr "%%автор%%"
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "%%authorURI%%"
+msgstr "%%authorURI%%"
+
+#. translators: %1$s: plugin name, %2$s: minimum required PHP version, %3$s:
+#. current PHP version
+#: plugin.php:71
+#, php-format
+msgid ""
+"%1$s requires PHP of version >= %2$s and is unable to run with the version "
+"installed on this server (%3$s). Please switch to a modern web host."
+msgstr ""
+"%1$s требует PHP версии >= %2$s и не может работать с версией, установленной"
+" на этом сервере (%3$s). Пожалуйста, переключитесь на современный веб-"
+"хостинг."
+
+#. translators: %1$s: plugin name, %2$s: domain URL, %3$s: domain name
+#: plugin.php:84
+#, php-format
+msgid ""
+"This %1$s pre-release version is expired. Please get the latest version at "
+"<a href=\"https://%2$s/\">%3$s</a>."
+msgstr ""
+"Срок действия предварительной версии %1$s истек. Загрузите последнюю версию "
+"по адресу <a href=\"https://%2$s/\">%3$s</a>."
+
+#: plugin/acf-breakdance-content/acf-block.cpt.php:17
+#: plugin/acf-breakdance-content/acf-block.cpt.php:18
+msgid "ACF Block"
+msgstr "Блок АКФ"
+
+#: plugin/acf-breakdance-content/acf-breakdance-content-field.php:27
+msgid "Breakdance Content"
+msgstr "Брейкданс Контент"
+
+#: plugin/admin/admin_bar_menu.php:56
+#, php-format
+msgctxt "Post title"
+msgid "Open '%s'"
+msgstr "Открыть '%s'"
+
+#. translators: %s: Template title
+#: plugin/admin/admin_bar_menu.php:88
+#, php-format
+msgid "Open '%s' Template"
+msgstr "Открыть шаблон «%s»"
+
+#. translators: %s: Header title
+#: plugin/admin/admin_bar_menu.php:105
+#, php-format
+msgid "Open '%s' Header"
+msgstr "Открыть заголовок «%s»"
+
+#. translators: %s: Footer title
+#: plugin/admin/admin_bar_menu.php:122
+#, php-format
+msgid "Open '%s' Footer"
+msgstr "Открыть нижний колонтитул \"%s\""
+
+#: plugin/admin/admin_bar_menu.php:145 plugin/admin/admin_bar_menu.php:167
+#: plugin/admin/settings-page/tabs/global-styles.php:36
+msgid "Edit Global Styles"
+msgstr "Редактировать глобальные стили"
+
+#: plugin/admin/menu/home.php:101
+msgid "Oxygen Beta"
+msgstr "Кислород Бета"
+
+#: plugin/admin/menu/home.php:103
+msgid "Thank you for beta testing the new Oxygen."
+msgstr "Спасибо за бета-тестирование нового Oxygen."
+
+#: plugin/admin/menu/home.php:106
+msgid "-The Oxygen Team"
+msgstr "-Кислородная команда"
+
+#: plugin/admin/menu/menu.php:22 plugin/admin/menu/menu.php:73
+msgid "Home"
+msgstr "Дом"
+
+#: plugin/admin/menu/menu.php:24 plugin/admin/menu/menu.php:75
+#: plugin/themeless/template.cpt.php:16
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: plugin/admin/menu/menu.php:26 plugin/admin/menu/menu.php:77
+#: plugin/themeless/header-or-footer.cpt.php:15
+msgid "Headers"
+msgstr "Заголовки"
+
+#: plugin/admin/menu/menu.php:28 plugin/admin/menu/menu.php:79
+#: plugin/themeless/header-or-footer.cpt.php:38
+msgid "Footers"
+msgstr "Нижние колонтитулы"
+
+#: plugin/admin/menu/menu.php:30 plugin/util/bdox.php:42
+msgid "Global Blocks"
+msgstr "Глобальные блоки"
+
+#: plugin/admin/menu/menu.php:31 plugin/themeless/popups.cpt.php:16
+msgid "Popups"
+msgstr "Всплывающие окна"
+
+#: plugin/admin/menu/menu.php:32 plugin/admin/menu/menu.php:51
+msgid "Form Submissions"
+msgstr "Отправка форм"
+
+#: plugin/admin/menu/menu.php:35 plugin/admin/menu/menu.php:85
+#: plugin/design-library/builder.php:25
+#: plugin/design-library/settings-tabs.php:21
+#: plugin/design-library/settings-tabs.php:102
+msgid "Design Library"
+msgstr "Библиотека дизайна"
+
+#: plugin/admin/menu/menu.php:40 plugin/admin/menu/menu.php:90
+#: plugin/admin/partner-discount/partner-discount-sdk.php:102
+msgid "Partner Discounts"
+msgstr "Партнерские скидки"
+
+#: plugin/admin/menu/menu.php:45 plugin/setup-wizard/onboarding-notice.php:269
+msgid "Quickstart"
+msgstr "Быстрый старт"
+
+#: plugin/admin/menu/menu.php:50
+msgid "Breakdance Form Submissions"
+msgstr "Заявки на участие в брейк-дансе"
+
+#: plugin/admin/menu/menu.php:50
+msgid "Submissions"
+msgstr "Материалы"
+
+#: plugin/admin/menu/menu.php:64 plugin/admin/menu/menu.php:65
+msgid "Oxygen"
+msgstr "Кислород"
+
+#: plugin/admin/partner-discount/partner-discount-sdk.php:103
+msgid ""
+"Exclusive discounts on premium WordPress tools and plugins for our users."
+msgstr ""
+"Эксклюзивные скидки на премиум-инструменты и плагины WordPress для наших "
+"пользователей."
+
+#: plugin/admin/partner-discount/partner-discount-sdk.php:126
+msgid "Code:"
+msgstr "Код:"
+
+#: plugin/admin/partner-discount/partner-discount-sdk.php:130
+msgid "Claim"
+msgstr "Требовать"
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:59
+#: plugin/admin/partner-discount/partner-discount-ui.php:114
+msgid ""
+"This privacy-compliant WordPress analytics plugin gives detailed insights "
+"into user behavior beyond what traditional tools can provide, and has a "
+"dedicated integration for WooCommerce."
+msgstr ""
+"Этот аналитический плагин WordPress, соответствующий требованиям "
+"конфиденциальности, дает детальное представление о поведении пользователей, "
+"выходящее за рамки того, что могут предоставить традиционные инструменты, и "
+"имеет специальную интеграцию с WooCommerce."
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:67
+#: plugin/admin/partner-discount/partner-discount-ui.php:138
+msgid ""
+"Save code from inside Breakdance to WPCodebox in one click. Use cloud "
+"snippets to share across your sites and explore the Code Snippet Repository "
+"full of tested snippets."
+msgstr ""
+"Сохраните код изнутри брейкданса в WPCodebox в один клик. Используйте "
+"облачные фрагменты, чтобы делиться ими на своих сайтах, и исследуйте "
+"репозиторий фрагментов кода, полный протестированных фрагментов."
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:75
+#: plugin/admin/partner-discount/partner-discount-ui.php:130
+msgid ""
+"The #1 data import and export solution for WordPress and WooCommerce - by "
+"Soflyy, the creators of Oxygen."
+msgstr ""
+"Решение №1 для импорта и экспорта данных для WordPress и WooCommerce от "
+"Soflyy, создателей Oxygen."
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:83
+msgid ""
+"Created by the same team behind WP All Import, Oxygen is the go-to WordPress"
+" website builder for highly advanced users & developers who love to code."
+msgstr ""
+"Oxygen, созданный той же командой, что и WP All Import, — это популярный "
+"конструктор веб-сайтов WordPress для продвинутых пользователей и "
+"разработчиков, которые любят программировать."
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:122
+msgid ""
+"Created by the same team behind WP All Import, Breakdance is a modern visual"
+" site builder for WordPress that combines professional power with drag & "
+"drop ease of use."
+msgstr ""
+"Breakdance, созданный той же командой, что и WP All Import, — это "
+"современный визуальный конструктор сайтов для WordPress, который сочетает в "
+"себе профессиональную мощь с простотой использования перетаскивания."
+
+#. translators: %s: Plugin name
+#: plugin/admin/quick_action_links.php:48
+#, php-format
+msgid "Edit in %s"
+msgstr "Редактировать в %s"
+
+#: plugin/admin/settings-page/settings-page.php:12
+#: plugin/admin/settings-page/settings-page.php:16
+msgid "Settings"
+msgstr "Настройки"
+
+#: plugin/admin/settings-page/settings-page.php:32
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: plugin/admin/settings-page/tabs/advanced.php:13
+#: plugin/admin/settings-page/tabs/advanced.php:96
+#: plugin/animations/entrance/control.php:53
+#: plugin/animations/scrolling/control.php:324
+#: plugin/dynamic-data/field-types/Field.php:56
+#: plugin/dynamic-data/field-types/StringField.php:56
+#: plugin/elements/universal-controls/advanced.php:136
+#: plugin/global-styles/typography/base.php:113
+msgid "Advanced"
+msgstr "Передовой"
+
+#: plugin/admin/settings-page/tabs/advanced.php:104
+msgid "Allow SVG Uploads In The WP Media Library"
+msgstr "Разрешить загрузку SVG в медиатеке WP"
+
+#: plugin/admin/settings-page/tabs/advanced.php:109
+#: plugin/admin/settings-page/tabs/advanced.php:149
+#: plugin/admin/settings-page/tabs/advanced.php:184
+#: plugin/admin/settings-page/tabs/advanced.php:206
+msgid "Enable"
+msgstr "Давать возможность"
+
+#. translators: 1: Opening <a> tag for security docs, 2: Closing </a> tag, 3:
+#. Opening <a> tag for Safe SVG plugin, 4: Closing </a> tag
+#: plugin/admin/settings-page/tabs/advanced.php:115
+#, php-format
+msgid ""
+"Allowing SVG uploads can be dangerous, and you should understand the "
+"%1$spotential security implications%2$s. If in doubt, use a plugin like "
+"%3$sSafe SVG%4$s instead of this option."
+msgstr ""
+"Разрешение загрузки SVG может быть опасным, и вы должны понимать "
+"%1$потенциальные последствия для безопасности%2$s. Если вы сомневаетесь, "
+"используйте вместо этого плагин, например %3$sSafe SVG%4$s."
+
+#. translators: 1: Filter name in <code> tags, 2: Plugin name
+#: plugin/admin/settings-page/tabs/advanced.php:143
+#, php-format
+msgid "Apply %1$s filter to %2$s content"
+msgstr "Применить фильтр %1$s к содержимому %2$s"
+
+#. translators: 1: Plugin name (used multiple times), 2: Filter name in <code>
+#. tags, 3: Function call in <code> tags, 4: Opening <a> tag for security
+#. docs, 5: Closing </a> tag
+#: plugin/admin/settings-page/tabs/advanced.php:155
+#, php-format
+msgid ""
+"By default, %1$s does not apply %2$s filter to %1$s-designed content. You "
+"can enable this option to make %1$s run %3$s on singular content created "
+"with %1$s, but you should understand the %4$spotential security "
+"implications%5$s."
+msgstr ""
+"По умолчанию %1$s не применяет фильтр %2$s к содержимому, созданному %1$s. "
+"Вы можете включить эту опцию, чтобы %1$s запускал %3$s для отдельного "
+"контента, созданного с помощью %1$s, но вы должны понимать %4$потенциальные "
+"последствия для безопасности%5$s."
+
+#: plugin/admin/settings-page/tabs/advanced.php:161
+msgid "Allow unfiltered HTML in all dynamic data output"
+msgstr "Разрешить нефильтрованный HTML во всех выходных динамических данных"
+
+#: plugin/admin/settings-page/tabs/advanced.php:166
+msgid "Allow"
+msgstr "Позволять"
+
+#. translators: 1: Plugin name, 2: Function name in <code> tags, 3: Capability
+#. name in <code> tags, 4: Opening <a> tag for security docs, 5: Closing </a>
+#. tag
+#: plugin/admin/settings-page/tabs/advanced.php:172
+#, php-format
+msgid ""
+"By default, %1$s applies %2$s to fields on posts with an author that lacks "
+"the %3$s capability. You can disable this if you understand the "
+"%4$spotential security implications%5$s."
+msgstr ""
+"По умолчанию %1$s применяет %2$s к полям в сообщениях, у автора которых нет "
+"возможности %3$s. Вы можете отключить это, если понимаете %4$потенциальные "
+"последствия для безопасности%5$s."
+
+#: plugin/admin/settings-page/tabs/advanced.php:178
+msgid "Enable rendering performance debugger"
+msgstr "Включить отладчик производительности рендеринга"
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag
+#: plugin/admin/settings-page/tabs/advanced.php:190
+#, php-format
+msgid ""
+"Use %1$sServer Timing API%2$s to audit rendering performance. This option is"
+" intended for debugging only. It is recommended to enable it while "
+"troubleshooting and disable it afterward to avoid unnecessary overhead."
+msgstr ""
+"Используйте %1$s Server Timing API %2$s для аудита производительности "
+"рендеринга. Эта опция предназначена только для отладки. Рекомендуется "
+"включать его во время устранения неполадок и отключать позже, чтобы избежать"
+" ненужных затрат."
+
+#: plugin/admin/settings-page/tabs/advanced.php:196
+msgid "Revisions"
+msgstr "Редакции"
+
+#. translators: 1: Setting name in <code> tags, 2: Plugin name
+#: plugin/admin/settings-page/tabs/advanced.php:201
+#: plugin/admin/settings-page/tabs/advanced.php:229
+msgid "Limit Revisions"
+msgstr "Ограничить изменения"
+
+#. translators: 1: Plugin name, 2: Setting name in <code> tags
+#: plugin/admin/settings-page/tabs/advanced.php:212
+#, php-format
+msgid ""
+"For each page, on save, if the quantity of stored revisions of %1$s content "
+"is higher than the %2$s setting, the oldest revisions will be removed your "
+"database."
+msgstr ""
+"Для каждой страницы при сохранении, если количество сохраненных ревизий "
+"содержимого %1$s превышает настройку %2$s, самые старые ревизии будут "
+"удалены из вашей базы данных."
+
+#. translators: 1: Plugin name, 2: Setting name in <code> tags
+#: plugin/admin/settings-page/tabs/advanced.php:212
+#: plugin/admin/settings-page/tabs/advanced.php:218
+msgid "Max Revisions"
+msgstr "Максимальное количество редакций"
+
+#. translators: 1: Setting name in <code> tags, 2: Plugin name
+#: plugin/admin/settings-page/tabs/advanced.php:229
+#, php-format
+msgid ""
+"If %1$s is enabled, this is the max number of revisions of %2$s content that"
+" will be kept for each page."
+msgstr ""
+"Если %1$s включен, это максимальное количество редакций содержимого %2$s, "
+"которое будет сохранено для каждой страницы."
+
+#: plugin/admin/settings-page/tabs/advanced.php:237
+#: plugin/admin/settings-page/tabs/license.php:175
+#: plugin/admin/settings-page/tabs/post-types.php:96
+#: plugin/admin/settings-page/tabs/privacy.php:115
+#: plugin/api-keys/settings-page.php:133
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:202
+#: plugin/design-library/settings-tabs.php:251
+#: plugin/extensions/settings-page.php:113
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:121
+#: plugin/maintenance-mode/maintenance-mode-page.php:173
+#: plugin/permissions/settings-tab.php:125
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:90
+#: plugin/woocommerce/settings/settings-tab.php:133
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: plugin/admin/settings-page/tabs/global-styles.php:20
+#: plugin/admin/settings-page/tabs/global-styles.php:30
+msgid "Global Styles"
+msgstr "Глобальные стили"
+
+#: plugin/admin/settings-page/tabs/global-styles.php:39
+msgid "Launch Breakdance"
+msgstr "Запустить брейк-данс"
+
+#: plugin/admin/settings-page/tabs/global-styles.php:40
+msgid "Edit Global Settings & Selectors while browsing through your website."
+msgstr ""
+"Редактируйте глобальные настройки и селекторы во время просмотра вашего веб-"
+"сайта."
+
+#: plugin/admin/settings-page/tabs/license.php:24
+#: plugin/admin/settings-page/tabs/license.php:86
+msgid "License"
+msgstr "Лицензия"
+
+#: plugin/admin/settings-page/tabs/license.php:56
+msgid "License was activated"
+msgstr "Лицензия активирована"
+
+#: plugin/admin/settings-page/tabs/license.php:61
+msgid "Failed to activate license"
+msgstr "Не удалось активировать лицензию"
+
+#: plugin/admin/settings-page/tabs/license.php:68
+msgid "License was deactivated"
+msgstr "Лицензия была деактивирована"
+
+#: plugin/admin/settings-page/tabs/license.php:73
+msgid "Failed to deactivate license"
+msgstr "Не удалось деактивировать лицензию"
+
+#: plugin/admin/settings-page/tabs/license.php:94
+#: plugin/setup-wizard/setup-wizard-page.php:220
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: plugin/admin/settings-page/tabs/license.php:101
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#: plugin/admin/settings-page/tabs/license.php:105
+msgid "Deactivate License"
+msgstr "Деактивировать лицензию"
+
+#: plugin/admin/settings-page/tabs/license.php:110
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery-image.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery.php:38
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image-url.php:38
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-price-range.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-regular-price.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale.php:35
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sku.php:38
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:40
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-title.php:37
+#: plugin/themeless/rules/woocommerce/product-attributes.php:15
+#: plugin/themeless/rules/woocommerce/product-cart.php:11
+#: plugin/themeless/rules/woocommerce/product-categories.php:14
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:11
+#: plugin/themeless/rules/woocommerce/product-shipping.php:14
+#: plugin/themeless/rules/woocommerce/product-tags.php:14
+#: plugin/themeless/rules/woocommerce/product-virtual.php:11
+msgid "Product"
+msgstr "Продукт"
+
+#: plugin/admin/settings-page/tabs/license.php:113
+msgid "License Key Validity"
+msgstr "Срок действия лицензионного ключа"
+
+#: plugin/admin/settings-page/tabs/license.php:116
+msgid "Activation Status"
+msgstr "Статус активации"
+
+#: plugin/admin/settings-page/tabs/license.php:119
+msgid "Expires On"
+msgstr "Срок действия истекает"
+
+#: plugin/admin/settings-page/tabs/license.php:122
+msgid "Has License Been Paid For"
+msgstr "Оплачена ли лицензия"
+
+#. translators: 1: Opening <a> tag for breakdance.com, 2: Closing </a> tag, 3:
+#. Opening <a> tag for customer portal, 4: Closing </a> tag
+#: plugin/admin/settings-page/tabs/license.php:135
+#, php-format
+msgid ""
+"Visit %1$sbreakdance.com%2$s to purchase a license key. Already purchased? "
+"Find your license key in the %3$scustomer portal%4$s."
+msgstr ""
+"Посетите %1$sbreakdance.com%2$s, чтобы приобрести лицензионный ключ. Уже "
+"купили? Найдите свой лицензионный ключ на клиентском портале %3$%4$s."
+
+#. translators: 1: Opening <a> tag for oxygenbuilder.com, 2: Closing </a> tag,
+#. 3: Opening <a> tag for customer portal, 4: Closing </a> tag
+#: plugin/admin/settings-page/tabs/license.php:144
+#, php-format
+msgid ""
+"Visit %1$soxygenbuilder.com%2$s to purchase a license key. Already "
+"purchased? Find your license key in the %3$scustomer portal%4$s."
+msgstr ""
+"Посетите %1$soxygenbuilder.com%2$s, чтобы приобрести лицензионный ключ. Уже "
+"купили? Найдите свой лицензионный ключ на клиентском портале %3$%4$s."
+
+#: plugin/admin/settings-page/tabs/license.php:156
+msgid "Beta Versions"
+msgstr "Бета-версии"
+
+#: plugin/admin/settings-page/tabs/license.php:164
+msgid "Receive beta version updates"
+msgstr "Получать обновления бета-версии"
+
+#: plugin/admin/settings-page/tabs/license.php:168
+msgid ""
+"Checking this checkbox will opt you in to receive beta version updates. You "
+"can opt out at any time."
+msgstr ""
+"Установка этого флажка позволит вам получать обновления бета-версии. Вы "
+"можете отказаться в любое время."
+
+#: plugin/admin/settings-page/tabs/post-types.php:13
+#: plugin/admin/settings-page/tabs/post-types.php:45
+#: plugin/admin/settings-page/tabs/post-types.php:54
+#: plugin/themeless/rules/archive/post-type.php:50
+msgid "Post Types"
+msgstr "Типы сообщений"
+
+#: plugin/admin/settings-page/tabs/post-types.php:59
+msgid "All Public & Allowed Post Types"
+msgstr "Все общедоступные и разрешенные типы сообщений"
+
+#. translators: %s: Plugin name
+#: plugin/admin/settings-page/tabs/post-types.php:88
+#, php-format
+msgid "Editing with %s will only be enabled for the above post types."
+msgstr ""
+"Редактирование с помощью %s будет доступно только для вышеуказанных типов "
+"сообщений."
+
+#: plugin/admin/settings-page/tabs/privacy.php:12
+#: plugin/admin/settings-page/tabs/privacy.php:50
+msgid "Privacy"
+msgstr "Конфиденциальность"
+
+#: plugin/admin/settings-page/tabs/privacy.php:59
+msgid "Disable Page & Session Cookies"
+msgstr "Отключить файлы cookie страницы и сеанса"
+
+#: plugin/admin/settings-page/tabs/privacy.php:64
+msgid "Disable"
+msgstr "Запрещать"
+
+#. translators: 1: Plugin name, 2: Condition name in <code> tags, 3: Another
+#. condition name in <code> tags
+#: plugin/admin/settings-page/tabs/privacy.php:70
+#, php-format
+msgid ""
+"%1$s provides conditions to show or hide certain content based on page view "
+"and session count. Enabling this option will prevent %1$s from setting the "
+"tracking cookies necessary for this functionality. The %2$s and %3$s "
+"conditions will not work."
+msgstr ""
+"%1$s предоставляет условия для отображения или скрытия определенного "
+"контента в зависимости от просмотра страницы и количества сеансов. Включение"
+" этой опции не позволит %1$s устанавливать файлы cookie отслеживания, "
+"необходимые для этой функции. Условия %2$s и %3$s не будут работать."
+
+#. translators: 1: Plugin name, 2: Condition name in <code> tags, 3: Another
+#. condition name in <code> tags
+#: plugin/admin/settings-page/tabs/privacy.php:70
+#: plugin/themeless/rules/conditions/sessions.php:27
+msgid "Page View Count"
+msgstr "Количество просмотров страниц"
+
+#. translators: 1: Plugin name, 2: Condition name in <code> tags, 3: Another
+#. condition name in <code> tags
+#: plugin/admin/settings-page/tabs/privacy.php:70
+#: plugin/themeless/rules/conditions/sessions.php:57
+msgid "Session Count"
+msgstr "Количество сеансов"
+
+#. translators: %s: Plugin name
+#: plugin/admin/settings-page/tabs/privacy.php:79
+#, php-format
+msgid "Improve %s"
+msgstr "Улучшить %s"
+
+#. translators: %s: Plugin name
+#: plugin/admin/settings-page/tabs/privacy.php:87
+#, php-format
+msgid "Yes, I want to help improve %s"
+msgstr "Да, я хочу помочь улучшить %s"
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag, 3: Plugin name
+#: plugin/admin/settings-page/tabs/privacy.php:94
+#, php-format
+msgid ""
+"By allowing us to %1$scollect usage data%2$s, you help us make %3$s better "
+"for everyone."
+msgstr ""
+"Разрешая нам %1$s собирать данные об использовании%2$s, вы помогаете нам "
+"сделать %3$s лучше для всех."
+
+#: plugin/ajax/api.php:29
+msgid "You must specify the minimum permissions to access your AJAX action."
+msgstr ""
+"Вы должны указать минимальные разрешения для доступа к вашему действию AJAX."
+
+#. translators: %s: Required permission level
+#: plugin/ajax/api.php:47
+#, php-format
+msgid "You need to be logged in and have minimum permission level of \"%s\""
+msgstr ""
+"Вам необходимо войти в систему и иметь минимальный уровень разрешений «%s»."
+
+#. translators: 1: Action/route name, 2: Required permission level
+#: plugin/ajax/api.php:57
+#, php-format
+msgid ""
+"Not enough permissions to perform the action \"%1$s\", minimum permission "
+"level is \"%2$s\"."
+msgstr ""
+"Недостаточно разрешений для выполнения действия «%1$s», минимальный уровень "
+"разрешений — «%2$s»."
+
+#: plugin/ajax/api.php:68
+msgid "Failed security check"
+msgstr "Неудачная проверка безопасности"
+
+#: plugin/ajax/api.php:71
+msgid "Expired"
+msgstr "Истекший"
+
+#: plugin/ajax/api.php:88 plugin/ajax/api.php:107
+msgid "Bad request"
+msgstr "Неверный запрос"
+
+#: plugin/ajax/api.php:89
+msgid "All of the required POST parameters are missing"
+msgstr "Все необходимые параметры POST отсутствуют."
+
+#. translators: %s: Comma-separated list of missing parameter names
+#: plugin/ajax/api.php:110
+#, php-format
+msgid "Required POST parameters are missing or invalid: \"%s\""
+msgstr "Обязательные параметры POST отсутствуют или недействительны: «%s»"
+
+#. translators: 1: Return value type, 2: Route name
+#: plugin/ajax/api.php:134
+#, php-format
+msgid ""
+"AJAX callbacks should return an associative array ([\"key\" => \"value\") or"
+" a blank array ([]). Got %1$s for route \"%2$s\""
+msgstr ""
+"Обратные вызовы AJAX должны возвращать ассоциативный массив ([\"ключ\" => "
+"\"значение\") или пустой массив ([]). Получил %1$s для маршрута \"%2$s\""
+
+#: plugin/ajax/api.php:145
+msgid ""
+"Unexpected output during AJAX request. AJAX Callbacks should return an "
+"associative array."
+msgstr ""
+"Неожиданный вывод во время запроса AJAX. Обратные вызовы AJAX должны "
+"возвращать ассоциативный массив."
+
+#. translators: %s: Plugin name
+#: plugin/ajax/api.php:241
+#, php-format
+msgid "Your %s session token has been refreshed"
+msgstr "Ваш токен сеанса %s обновлен."
+
+#: plugin/ajax/endpoints/manage-onboarding-pages.php:96
+msgid "Invalid post ID"
+msgstr "Неверный идентификатор сообщения"
+
+#: plugin/ajax/endpoints/manage-onboarding-pages.php:105
+msgid "Post not found"
+msgstr "Сообщение не найдено"
+
+#: plugin/animations/control.php:22
+msgid "Animations"
+msgstr "Анимации"
+
+#: plugin/animations/entrance/control.php:20
+msgid "Entrance Animation"
+msgstr "Входная анимация"
+
+#: plugin/animations/entrance/control.php:22
+msgid "Animation Type"
+msgstr "Тип анимации"
+
+#: plugin/animations/entrance/control.php:27
+#: plugin/interactions/actions/start-animation.php:93
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: plugin/animations/entrance/control.php:39
+#: plugin/interactions/actions/start-animation.php:99
+msgid "Delay"
+msgstr "Задерживать"
+
+#: plugin/animations/entrance/control.php:55
+msgid "Distance"
+msgstr "Расстояние"
+
+#: plugin/animations/entrance/control.php:71
+#: plugin/animations/sticky/control.php:29
+msgid "Offset"
+msgstr "Компенсировать"
+
+#: plugin/animations/entrance/control.php:82
+msgid "Animate only once"
+msgstr "Анимировать только один раз"
+
+#: plugin/animations/entrance/control.php:85
+#: plugin/animations/scrolling/control.php:326
+msgid "Ease"
+msgstr "Простота"
+
+#: plugin/animations/entrance/control.php:113
+#: plugin/animations/scrolling/control.php:367
+#: plugin/animations/sticky/control.php:52
+msgid "Disable At"
+msgstr "Отключить в"
+
+#: plugin/animations/scrolling/control.php:18
+msgid "Scrolling Animation"
+msgstr "Прокрутка анимации"
+
+#: plugin/animations/scrolling/control.php:20
+#: plugin/woocommerce/settings/settings-tab.php:55
+msgid "Enabled"
+msgstr "Включено"
+
+#: plugin/animations/scrolling/control.php:25
+msgid "Horizontal Position"
+msgstr "Горизонтальное положение"
+
+#: plugin/animations/scrolling/control.php:27
+#: plugin/animations/scrolling/control.php:69
+#: plugin/animations/scrolling/control.php:111
+#: plugin/animations/scrolling/control.php:153
+#: plugin/animations/scrolling/control.php:195
+#: plugin/animations/scrolling/control.php:234
+#: plugin/animations/scrolling/control.php:272
+#: plugin/animations/scrolling/control.php:299
+#: plugin/elements/preset-sections/grid.php:140
+#: plugin/elements/preset-sections/grid.php:141
+#: plugin/elements/preset-sections/grid.php:244
+#: plugin/elements/preset-sections/grid.php:245
+msgid "Start"
+msgstr "Начинать"
+
+#: plugin/animations/scrolling/control.php:35
+#: plugin/animations/scrolling/control.php:77
+#: plugin/animations/scrolling/control.php:119
+#: plugin/animations/scrolling/control.php:161
+#: plugin/animations/scrolling/control.php:202
+#: plugin/animations/scrolling/control.php:241
+#: plugin/animations/scrolling/control.php:275
+#: plugin/animations/scrolling/control.php:302
+#: plugin/elements/preset-sections/layout_basic_flex.php:82
+msgid "Middle"
+msgstr "Середина"
+
+#: plugin/animations/scrolling/control.php:43
+#: plugin/animations/scrolling/control.php:85
+#: plugin/animations/scrolling/control.php:127
+#: plugin/animations/scrolling/control.php:169
+#: plugin/animations/scrolling/control.php:209
+#: plugin/animations/scrolling/control.php:248
+#: plugin/animations/scrolling/control.php:278
+#: plugin/animations/scrolling/control.php:305
+#: plugin/elements/preset-sections/grid.php:152
+#: plugin/elements/preset-sections/grid.php:153
+#: plugin/elements/preset-sections/grid.php:256
+#: plugin/elements/preset-sections/grid.php:257
+msgid "End"
+msgstr "Конец"
+
+#: plugin/animations/scrolling/control.php:51
+#: plugin/animations/scrolling/control.php:93
+#: plugin/animations/scrolling/control.php:135
+#: plugin/animations/scrolling/control.php:177
+#: plugin/animations/scrolling/control.php:216
+#: plugin/animations/scrolling/control.php:255
+#: plugin/animations/scrolling/control.php:281
+#: plugin/animations/scrolling/control.php:308
+msgid "Trigger"
+msgstr "Курок"
+
+#: plugin/animations/scrolling/control.php:58
+#: plugin/animations/scrolling/control.php:100
+#: plugin/animations/scrolling/control.php:142
+#: plugin/animations/scrolling/control.php:184
+#: plugin/animations/scrolling/control.php:223
+#: plugin/animations/scrolling/control.php:262
+#: plugin/animations/scrolling/control.php:288
+#: plugin/animations/scrolling/control.php:315
+#: plugin/animations/sticky/control.php:26
+#: plugin/elements/preset-sections/layout_basic_flex.php:83
+#: plugin/elements/preset-sections/shape/shape.php:66
+msgid "Bottom"
+msgstr "Нижний"
+
+#: plugin/animations/scrolling/control.php:58
+#: plugin/animations/scrolling/control.php:100
+#: plugin/animations/scrolling/control.php:142
+#: plugin/animations/scrolling/control.php:184
+#: plugin/animations/scrolling/control.php:223
+#: plugin/animations/scrolling/control.php:262
+#: plugin/animations/scrolling/control.php:288
+#: plugin/animations/scrolling/control.php:315
+#: plugin/animations/sticky/control.php:24
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:17
+#: plugin/elements/preset-sections/layout_basic_flex.php:81
+#: plugin/elements/preset-sections/shape/shape.php:65
+#: plugin/elements/preset-sections/typography.php:176
+msgid "Top"
+msgstr "Вершина"
+
+#: plugin/animations/scrolling/control.php:67
+msgid "Vertical Position"
+msgstr "Вертикальное положение"
+
+#: plugin/animations/scrolling/control.php:109
+msgid "Opacity"
+msgstr "Непрозрачность"
+
+#: plugin/animations/scrolling/control.php:151
+#: plugin/interactions/actions/blur.php:17
+msgid "Blur"
+msgstr "Размытие"
+
+#: plugin/animations/scrolling/control.php:193
+msgid "Rotation"
+msgstr "Вращение"
+
+#: plugin/animations/scrolling/control.php:232
+msgid "Scale"
+msgstr "Шкала"
+
+#: plugin/animations/scrolling/control.php:270
+#: plugin/elements/preset-sections/shape/shape.php:49
+#: plugin/elements/preset-sections/tabs.php:118
+#: plugin/elements/preset-sections/tabs.php:343
+#: plugin/elements/preset-sections/typography.php:273
+#: plugin/global-styles/typography/base.php:136
+#: plugin/global-styles/typography/base.php:168
+msgid "Color"
+msgstr "Цвет"
+
+#: plugin/animations/scrolling/control.php:297
+#: plugin/global-styles/other/base.php:37
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: plugin/animations/scrolling/control.php:340
+msgid "Scrub"
+msgstr "Скраб"
+
+#: plugin/animations/scrolling/control.php:346
+msgid "Transform Origin"
+msgstr "Преобразование источника"
+
+#: plugin/animations/scrolling/control.php:353
+#: plugin/animations/sticky/control.php:37
+msgid "Relative To"
+msgstr "относительно"
+
+#: plugin/animations/scrolling/control.php:357
+#: plugin/animations/sticky/control.php:42
+msgid "Viewport"
+msgstr "Область просмотра"
+
+#: plugin/animations/scrolling/control.php:358
+#: plugin/maintenance-mode/maintenance-mode-page.php:48
+msgid "Page"
+msgstr "Страница"
+
+#: plugin/animations/scrolling/control.php:359
+#: plugin/animations/sticky/control.php:43
+#: plugin/dynamic-data/field-types/PostField.php:35
+#: plugin/dynamic-data/field-types/PostField.php:72
+#: plugin/dynamic-data/fields/post/post-date.php:54
+#: plugin/dynamic-data/fields/post/post-time.php:63
+#: plugin/dynamic-data/fields/utility/date.php:44
+#: plugin/dynamic-data/fields/utility/date.php:46
+#: plugin/elements/preset-sections/grid.php:47
+#: plugin/elements/preset-sections/grid.php:185
+#: plugin/elements/preset-sections/shape/shape.php:104
+#: plugin/elements/preset-sections/typography.php:89
+#: plugin/elements/preset-sections/typography.php:163
+msgid "Custom"
+msgstr "Обычай"
+
+#: plugin/animations/scrolling/control.php:362
+#: plugin/animations/sticky/control.php:47
+msgid "Custom Selector"
+msgstr "Пользовательский селектор"
+
+#: plugin/animations/scrolling/control.php:371
+msgid "Debug"
+msgstr "Отлаживать"
+
+#: plugin/animations/sticky/control.php:18
+msgid "Sticky"
+msgstr "Липкий"
+
+#: plugin/animations/sticky/control.php:20
+#: plugin/elements/preset-sections/shape/shape.php:62
+#: plugin/elements/preset-sections/tabs.php:48
+#: plugin/elements/preset-sections/tabs.php:56
+#: plugin/elements/preset-sections/typography.php:150
+msgid "Position"
+msgstr "Позиция"
+
+#: plugin/animations/sticky/control.php:25
+#: plugin/elements/preset-sections/grid.php:146
+#: plugin/elements/preset-sections/grid.php:147
+#: plugin/elements/preset-sections/grid.php:250
+#: plugin/elements/preset-sections/grid.php:251
+#: plugin/elements/preset-sections/layout_basic_flex.php:43
+#: plugin/elements/preset-sections/layout_basic_flex.php:64
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:19
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:40
+#: plugin/elements/preset-sections/tabs.php:58
+#: plugin/elements/preset-sections/typography.php:300
+msgid "Center"
+msgstr "Центр"
+
+#: plugin/animations/sticky/control.php:41
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:16
+msgid "Parent"
+msgstr "Родитель"
+
+#: plugin/api-keys/settings-page.php:9 plugin/api-keys/settings-page.php:105
+msgid "API Keys"
+msgstr "API-ключи"
+
+#. translators: %s: Integration name (e.g., "Mailchimp", "Stripe")
+#: plugin/api-keys/settings-page.php:152
+#, php-format
+msgid "Invalid %s API Key"
+msgstr "Неверный ключ API %s"
+
+#: plugin/bloat-eliminator/bloat-eliminator-tab.php:14
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:1
+#: plugin/setup-wizard/setup-wizard-page.php:208
+msgid "Performance"
+msgstr "Производительность"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:8
+msgid "Gutenberg Blocks CSS"
+msgstr "Гутенберг блокирует CSS"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:14
+msgid "Remove Gutenberg Blocks CSS"
+msgstr "Удалить блоки Гутенберга CSS"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:18
+msgid ""
+"The Gutenberg Block Editor loads 11kb of CSS even if you don't use it. "
+"Remove it if you're not using the Gutenberg Block Editor."
+msgstr ""
+"Редактор блоков Гутенберга загружает 11 КБ CSS, даже если вы им не "
+"пользуетесь. Удалите его, если вы не используете редактор блоков Гутенберга."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:24
+msgid "XML-RPC Pingbacks"
+msgstr "XML-RPC пингбэки"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:30
+msgid "Remove & Disable Pingbacks"
+msgstr "Удалить и отключить пингбэки"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:34
+msgid ""
+"Say goodbye to pingback spam. This option removes the XML-RPC pingback "
+"information from the <head>, and disables the WP Pingback system."
+msgstr ""
+"Попрощайтесь со спамом в виде пингбэков. Эта опция удаляет информацию "
+"pingback XML-RPC из <head> и отключает систему WP Pingback."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:40
+msgid "WP Emoji"
+msgstr "WP Эмодзи"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:46
+msgid "Disable built-in WordPress JavaScript for rendering emojis."
+msgstr "Отключите встроенный JavaScript WordPress для рендеринга смайлов."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:50
+msgid ""
+"WordPress loads a 10kb JavaScript to handle emojis on every page of your "
+"website, even if you don't use emojis. Modern browsers support emojis out-"
+"of-the-box, with no need for JavaScript."
+msgstr ""
+"WordPress загружает JavaScript размером 10 КБ для обработки смайлов на "
+"каждой странице вашего веб-сайта, даже если вы не используете смайлы. "
+"Современные браузеры поддерживают эмодзи «из коробки», без необходимости "
+"использования JavaScript."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:56
+msgid "Dashicons"
+msgstr "Дашиконы"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:62
+msgid "Disable admin icons for logged out users"
+msgstr ""
+"Отключить значки администратора для вышедших из системы пользователей."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:66
+msgid ""
+"WordPress loads its admin panel icons for all users, even though they are "
+"typically only needed for logged in users that have access to the admin "
+"panel."
+msgstr ""
+"WordPress загружает значки панели администратора для всех пользователей, "
+"хотя обычно они нужны только вошедшим в систему пользователям, имеющим "
+"доступ к панели администратора."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:72
+msgid "OEmbed"
+msgstr "OEmbed"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:78
+msgid "Disable OEmbed"
+msgstr "Отключить OEmbed"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:82
+msgid ""
+"Disables the automatic embedding of some content such as YouTube videos, "
+"Tweets, etc. when pasting the URL into your blog posts."
+msgstr ""
+"Отключает автоматическое встраивание некоторого контента, например видео "
+"YouTube, твитов и т. д., при вставке URL-адреса в сообщения блога."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:88
+msgid "RSD Links"
+msgstr "Ссылки на РСД"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:94
+msgid "Disable Really Simple Discovery feature"
+msgstr "Отключить функцию Really Simple Discovery"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:99
+msgid ""
+"Really Simple Discovery is a spec from 2003 related to desktop blog-"
+"publishing applications. It is also often used by XML-RPC clients to find "
+"out information about your WordPress blog."
+msgstr ""
+"Really Simple Discovery — это спецификация 2003 года, относящаяся к "
+"настольным приложениям для публикации блогов. Он также часто используется "
+"клиентами XML-RPC для получения информации о вашем блоге WordPress."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:105
+msgid "WLW Link"
+msgstr "Ссылка на WLW"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:111
+msgid "Disable Windows Live Writer Link"
+msgstr "Отключить ссылку Windows Live Writer"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:114
+msgid ""
+"Windows Live Writer was a desktop blog-publishing application. It was EOL in"
+" 2012, and completely discontinued in 2017."
+msgstr ""
+"Windows Live Writer представлял собой настольное приложение для публикации "
+"блогов. Это было EOL в 2012 году и полностью прекращено в 2017 году."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:119
+msgid "REST API"
+msgstr "ОТДЫХ API"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:125
+msgid "Disable WP REST metadata"
+msgstr "Отключить метаданные WP REST"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:129
+msgid ""
+"This option removes WP REST metadata from your <head>. It does not disable "
+"the REST API."
+msgstr ""
+"Эта опция удаляет метаданные WP REST из вашего <head>. Он не отключает REST "
+"API."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:135
+msgid "WP Generator"
+msgstr "WP Генератор"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:141
+msgid "Disable WordPress Generator Meta Tag"
+msgstr "Отключить метатег генератора WordPress"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:145
+msgid ""
+"Stop WordPress from adding the <meta name=\"generator\" content=\"WordPress "
+"x.x.x\"> tag to your head."
+msgstr ""
+"Не позволяйте WordPress добавлять тег <meta name=\"generator\" "
+"content=\"WordPress x.x.x\"> в вашу голову."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:151
+msgid "Remove Shortlink"
+msgstr "Удалить короткую ссылку"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:157
+msgid "Disable Shortlink Tag"
+msgstr "Отключить тег короткой ссылки"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:161
+msgid ""
+"WordPress includes a <link rel=shortlink ...> into the head if a shortlink "
+"is defined for the current page."
+msgstr ""
+"WordPress включает в заголовок <link rel=shortlink ...>, если для текущей "
+"страницы определена короткая ссылка."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:167
+msgid "Relational Links"
+msgstr "Реляционные ссылки"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:173
+msgid "Disable Relational Links For Single Posts"
+msgstr "Отключить реляционные ссылки для отдельных сообщений"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:177
+msgid ""
+"For single posts, WordPress places relational links in the head for the "
+"posts adjacent to the current post."
+msgstr ""
+"Для отдельных сообщений WordPress размещает реляционные ссылки в заголовке "
+"для сообщений, соседних с текущим сообщением."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:183
+msgid "RSS Feed"
+msgstr "RSS-канал"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:189
+msgid "Disable RSS Links"
+msgstr "Отключить RSS-ссылки"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:193
+msgid ""
+"This option removes the RSS feed information from the <head>. It does not "
+"disable the RSS feeds."
+msgstr ""
+"Эта опция удаляет информацию о RSS-канале из <head>. Он не отключает RSS-"
+"каналы."
+
+#. translators: 1: Block type (e.g., "Global Block"), 2: Block label/name
+#: plugin/blocks/ajax_save_block.php:98
+#, php-format
+msgid "Failed to save %1$s \"%2$s\""
+msgstr "Не удалось сохранить %1$s \"%2$s\""
+
+#. translators: %s: Template ID
+#: plugin/blocks/ajax_save_block.php:129
+#: plugin/themeless/manage-templates-spa/api.php:220
+#, php-format
+msgid "Couldn't get template with ID \"%s\""
+msgstr "Не удалось получить шаблон с идентификатором \"%s\""
+
+#: plugin/conditions/add-condition-controls.php:21
+msgid "Conditions"
+msgstr "Условия"
+
+#: plugin/conditions/add-condition-controls.php:24
+msgid "Only Show Element If"
+msgstr "Показывать элемент только если"
+
+#: plugin/conditions/add-condition-controls.php:32
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:30
+msgid "In-Builder Preview"
+msgstr "Предварительный просмотр в конструкторе"
+
+#: plugin/conditions/add-condition-controls.php:35
+msgid "Always Show"
+msgstr "Всегда показывать"
+
+#: plugin/conditions/add-condition-controls.php:36
+msgid "Always Hide"
+msgstr "Всегда скрывать"
+
+#: plugin/config/builtin-breakpoints.php:14
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+#: plugin/config/builtin-breakpoints.php:15
+msgid "Tablet Landscape"
+msgstr "Планшет Пейзаж"
+
+#: plugin/config/builtin-breakpoints.php:16
+msgid "Tablet Portrait"
+msgstr "Портрет на планшете"
+
+#: plugin/config/builtin-breakpoints.php:17
+msgid "Phone Landscape"
+msgstr "Телефонный пейзаж"
+
+#: plugin/config/builtin-breakpoints.php:18
+msgid "Phone Portrait"
+msgstr "Телефонный портрет"
+
+#: plugin/design-library/builder.php:27
+msgid "Disable For This Element"
+msgstr "Отключить для этого элемента"
+
+#: plugin/design-library/post-type.php:8
+msgctxt "Post type general name"
+msgid "Parts"
+msgstr "Части"
+
+#: plugin/design-library/post-type.php:9
+msgctxt "Post type singular name"
+msgid "Part"
+msgstr "Часть"
+
+#: plugin/design-library/post-type.php:10
+msgctxt "Admin Menu text"
+msgid "Parts"
+msgstr "Части"
+
+#: plugin/design-library/post-type.php:11
+msgctxt "Add New on Toolbar"
+msgid "Part"
+msgstr "Часть"
+
+#: plugin/design-library/post-type.php:12
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: plugin/design-library/post-type.php:13
+msgid "Add New Part"
+msgstr "Добавить новую деталь"
+
+#: plugin/design-library/post-type.php:14
+msgid "New Part"
+msgstr "Новая часть"
+
+#: plugin/design-library/post-type.php:15
+msgid "Edit Part"
+msgstr "Редактировать часть"
+
+#: plugin/design-library/post-type.php:16
+msgid "View Part"
+msgstr "Посмотреть часть"
+
+#: plugin/design-library/post-type.php:17
+msgid "All Part"
+msgstr "Вся часть"
+
+#: plugin/design-library/post-type.php:18
+msgid "Search Part"
+msgstr "Поиск части"
+
+#: plugin/design-library/post-type.php:19
+msgid "Parent Part:"
+msgstr "Родительская часть:"
+
+#: plugin/design-library/post-type.php:20
+msgid "No parts found."
+msgstr "Детали не найдены."
+
+#: plugin/design-library/post-type.php:21
+msgid "No parts found in Trash."
+msgstr "В Корзине деталей не найдено."
+
+#: plugin/design-library/post-type.php:22
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Part Cover Image"
+msgstr "Изображение обложки детали"
+
+#: plugin/design-library/post-type.php:23
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr "Установить обложку"
+
+#: plugin/design-library/post-type.php:24
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in "
+"4.3"
+msgid "Remove cover image"
+msgstr "Удалить обложку"
+
+#: plugin/design-library/post-type.php:25
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in "
+"4.3"
+msgid "Use as cover image"
+msgstr "Использовать в качестве обложки"
+
+#: plugin/design-library/post-type.php:26
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Part archives"
+msgstr "Архивы деталей"
+
+#: plugin/design-library/post-type.php:27
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into part"
+msgstr "Вставить в часть"
+
+#: plugin/design-library/post-type.php:28
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this part"
+msgstr "Загружено в эту часть"
+
+#: plugin/design-library/post-type.php:29
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter parts list"
+msgstr "Список запчастей фильтра"
+
+#: plugin/design-library/post-type.php:30
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in "
+"4.4"
+msgid "Parts list navigation"
+msgstr "Навигация по списку деталей"
+
+#: plugin/design-library/post-type.php:31
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Parts list"
+msgstr "Список запчастей"
+
+#: plugin/design-library/settings-tabs.php:110
+msgid "Design Set"
+msgstr "Дизайнерский набор"
+
+#: plugin/design-library/settings-tabs.php:117
+msgid "Turn This Website Into a Design Set"
+msgstr "Превратите этот веб-сайт в набор дизайна"
+
+#: plugin/design-library/settings-tabs.php:123
+msgid "Enable Copy From Frontend"
+msgstr "Включить копирование из внешнего интерфейса"
+
+#: plugin/design-library/settings-tabs.php:129
+msgid "This Design Set Relies On Global Settings"
+msgstr "Этот набор проектов основан на глобальных настройках."
+
+#: plugin/design-library/settings-tabs.php:135
+msgid "This Design Set Relies On Design Presets"
+msgstr "Этот набор дизайнов основан на пресетах дизайна."
+
+#: plugin/design-library/settings-tabs.php:142
+msgid "Full Site Import Enabled"
+msgstr "Полный импорт сайта включен"
+
+#: plugin/design-library/settings-tabs.php:148
+msgid "Thumbnail URL"
+msgstr "URL-адрес миниатюры"
+
+#: plugin/design-library/settings-tabs.php:180
+msgid "Shareable URL:"
+msgstr "Общий URL-адрес:"
+
+#: plugin/design-library/settings-tabs.php:187
+msgid "Password Protection"
+msgstr "Защита паролем"
+
+#: plugin/design-library/settings-tabs.php:190
+msgid "Enter a password"
+msgstr "Введите пароль"
+
+#. translators: %s: Password parameter in HTML bold tags
+#: plugin/design-library/settings-tabs.php:195
+#, php-format
+msgid ""
+"Protect your Design Set with a password. (Optional) If the %s param is not "
+"provided, users will be prompted to enter this password."
+msgstr ""
+"Защитите свой набор дизайнов паролем. (Необязательно) Если параметр %s не "
+"указан, пользователям будет предложено ввести этот пароль."
+
+#: plugin/design-library/settings-tabs.php:202
+msgid "Custom Design Sets"
+msgstr "Наборы индивидуального дизайна"
+
+#. translators: %1$s: Plugin name (used twice in the sentence)
+#: plugin/design-library/settings-tabs.php:213
+#, php-format
+msgid ""
+"Add custom Design Sets to your %1$s installation. By default, %1$s provides "
+"a list of official Design Sets, but you can use this field to add any custom"
+" design sets you want."
+msgstr ""
+"Добавьте пользовательские наборы дизайна в вашу установку %1$s. По умолчанию"
+" %1$s предоставляет список официальных наборов дизайнов, но вы можете "
+"использовать это поле для добавления любых пользовательских наборов "
+"дизайнов."
+
+#: plugin/design-library/settings-tabs.php:216
+msgid "Insert one URL per line."
+msgstr "Вставляйте по одному URL в каждой строке."
+
+#. translators: %s: Unexpected output content
+#: plugin/dynamic-data/breakdance-dynamic-shortcode.php:30
+#: plugin/dynamic-data/breakdance-dynamic-shortcode.php:143
+#, php-format
+msgid "Unexpected Dynamic Data Output: %s"
+msgstr "Неожиданный вывод динамических данных: %s"
+
+#: plugin/dynamic-data/dynamic-data.php:29
+#: plugin/dynamic-data/fields/post/post-comments-number.php:21
+#: plugin/dynamic-data/fields/post/post-content.php:21
+#: plugin/dynamic-data/fields/post/post-custom-field-image.php:21
+#: plugin/dynamic-data/fields/post/post-custom-field-oembed.php:21
+#: plugin/dynamic-data/fields/post/post-custom-field.php:21
+#: plugin/dynamic-data/fields/post/post-date.php:20
+#: plugin/dynamic-data/fields/post/post-excerpt.php:20
+#: plugin/dynamic-data/fields/post/post-featured-image-url.php:22
+#: plugin/dynamic-data/fields/post/post-featured-image.php:20
+#: plugin/dynamic-data/fields/post/post-image-attachment.php:20
+#: plugin/dynamic-data/fields/post/post-image-attachments.php:20
+#: plugin/dynamic-data/fields/post/post-permalink.php:20
+#: plugin/dynamic-data/fields/post/post-terms.php:20
+#: plugin/dynamic-data/fields/post/post-time.php:20
+#: plugin/dynamic-data/fields/post/post-title.php:20
+msgid "Post"
+msgstr "Почта"
+
+#: plugin/dynamic-data/dynamic-data.php:30
+#: plugin/dynamic-data/fields/query/utm-tags.php:51
+#: plugin/dynamic-data/fields/term/term-count.php:22
+#: plugin/dynamic-data/fields/term/term-custom-field.php:23
+#: plugin/dynamic-data/fields/term/term-description.php:22
+#: plugin/dynamic-data/fields/term/term-id.php:22
+#: plugin/dynamic-data/fields/term/term-name.php:22
+#: plugin/dynamic-data/fields/term/term-permalink.php:22
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-category-count.php:22
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-category-image.php:23
+msgid "Term"
+msgstr "Срок"
+
+#: plugin/dynamic-data/dynamic-data.php:31
+#: plugin/dynamic-data/field-types/AcfField.php:38
+msgid "ACF"
+msgstr "АКФ"
+
+#: plugin/dynamic-data/dynamic-data.php:32
+#: plugin/dynamic-data/field-types/MetaboxField.php:38
+#: plugin/dynamic-data/fields/metabox/metabox-gallery-field.php:27
+#: plugin/dynamic-data/fields/metabox/metabox-oembed-field.php:28
+#: plugin/dynamic-data/fields/metabox/metabox-post-field.php:27
+msgid "Metabox"
+msgstr "Метабокс"
+
+#: plugin/dynamic-data/dynamic-data.php:33
+#: plugin/dynamic-data/field-types/ToolsetField.php:34
+#: plugin/dynamic-data/fields/toolset/toolset-image-field.php:26
+#: plugin/dynamic-data/fields/toolset/toolset-post-field.php:27
+#: plugin/dynamic-data/fields/toolset/toolset-url-image-field.php:26
+#: plugin/dynamic-data/fields/toolset/toolset-video-field.php:27
+msgid "Toolset"
+msgstr "Набор инструментов"
+
+#: plugin/dynamic-data/dynamic-data.php:34
+#: plugin/dynamic-data/fields/featured-image/featured-alt.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-caption.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-image.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-oembed.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-title.php:21
+#: plugin/dynamic-data/fields/post/post-featured-image.php:12
+#: plugin/themeless/rules/conditions/singular.php:778
+msgid "Featured Image"
+msgstr "Рекомендуемое изображение"
+
+#: plugin/dynamic-data/dynamic-data.php:35
+#: plugin/dynamic-data/fields/archive/archive-description.php:21
+#: plugin/dynamic-data/fields/archive/archive-title.php:21
+#: plugin/themeless/rules/archive/all.php:13
+#: plugin/themeless/rules/archive/author.php:19
+#: plugin/themeless/rules/archive/author.php:39
+#: plugin/themeless/rules/archive/date.php:12
+#: plugin/themeless/rules/archive/post-type.php:18
+#: plugin/themeless/rules/archive/post-type.php:45
+#: plugin/themeless/rules/archive/post.php:13
+#: plugin/themeless/rules/archive/product-archives.php:22
+#: plugin/themeless/rules/archive/taxonomy.php:20
+msgid "Archive"
+msgstr "Архив"
+
+#: plugin/dynamic-data/dynamic-data.php:36
+#: plugin/dynamic-data/fields/futurelayer/site-logo.php:17
+#: plugin/dynamic-data/fields/site/admin_email.php:21
+#: plugin/dynamic-data/fields/site/home-url.php:21
+#: plugin/dynamic-data/fields/site/site-logo-url.php:21
+#: plugin/dynamic-data/fields/site/site-logo.php:20
+#: plugin/dynamic-data/fields/site/site-logout-url.php:34
+#: plugin/dynamic-data/fields/site/site-rss.php:21
+#: plugin/dynamic-data/fields/site/site-tagline.php:21
+#: plugin/dynamic-data/fields/site/site-title.php:21
+#: plugin/dynamic-data/fields/site/site-url.php:21
+msgid "Site Info"
+msgstr "Информация о сайте"
+
+#: plugin/dynamic-data/dynamic-data.php:37
+#: plugin/dynamic-data/fields/author/author-avatar-url.php:20
+#: plugin/dynamic-data/fields/author/author-avatar.php:20
+#: plugin/dynamic-data/fields/author/author-bio.php:21
+#: plugin/dynamic-data/fields/author/author-custom-field-image.php:21
+#: plugin/dynamic-data/fields/author/author-custom-field-oembed.php:21
+#: plugin/dynamic-data/fields/author/author-custom-field.php:20
+#: plugin/dynamic-data/fields/author/author-email.php:20
+#: plugin/dynamic-data/fields/author/author-name.php:20
+#: plugin/dynamic-data/fields/author/author-website.php:21
+#: plugin/themeless/rules/archive/author.php:38
+#: plugin/themeless/rules/conditions/singular.php:690
+msgid "Author"
+msgstr "Автор"
+
+#: plugin/dynamic-data/dynamic-data.php:38
+#: plugin/dynamic-data/fields/user/current-user-avatar-url.php:21
+#: plugin/dynamic-data/fields/user/current-user-avatar.php:21
+#: plugin/dynamic-data/fields/user/current-user-bio.php:21
+#: plugin/dynamic-data/fields/user/current-user-custom-field-image.php:21
+#: plugin/dynamic-data/fields/user/current-user-custom-field-oembed.php:21
+#: plugin/dynamic-data/fields/user/current-user-custom-field.php:20
+#: plugin/dynamic-data/fields/user/current-user-email.php:20
+#: plugin/dynamic-data/fields/user/current-user-name.php:20
+#: plugin/dynamic-data/fields/user/current-user-website.php:20
+msgid "Current User"
+msgstr "Текущий пользователь"
+
+#: plugin/dynamic-data/dynamic-data.php:39
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery-image.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image-url.php:21
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-price-range.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-regular-price.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale.php:21
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sku.php:21
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:21
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-title.php:20
+#: plugin/global-styles/woocommerce/base.php:13
+#: plugin/woocommerce/settings/settings-tab.php:20
+#: plugin/woocommerce/settings/settings-tab.php:42
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: plugin/dynamic-data/dynamic-data.php:40
+#: plugin/dynamic-data/fields/query/search-query.php:21
+#: plugin/dynamic-data/fields/query/url-parameter.php:20
+#: plugin/dynamic-data/fields/query/utm-tags.php:19
+msgid "URL & Query"
+msgstr "URL и запрос"
+
+#: plugin/dynamic-data/dynamic-data.php:41
+#: plugin/dynamic-data/fields/utility/date.php:21
+#: plugin/dynamic-data/fields/utility/php-function.php:21
+#: plugin/dynamic-data/fields/utility/shortcode.php:21
+msgid "Utility"
+msgstr "Утилита"
+
+#: plugin/dynamic-data/field-types/ImageField.php:17
+msgid "Fallback Image"
+msgstr "Резервное изображение"
+
+#: plugin/dynamic-data/field-types/OembedField.php:20
+msgid "Fallback/Default Video"
+msgstr "Резервное видео/видео по умолчанию"
+
+#: plugin/dynamic-data/field-types/PostField.php:16
+msgid "Post Field"
+msgstr "Поле публикации"
+
+#: plugin/dynamic-data/field-types/PostField.php:19
+#: plugin/dynamic-data/fields/post/post-title.php:12
+msgid "Post Title"
+msgstr "Название сообщения"
+
+#: plugin/dynamic-data/field-types/PostField.php:20
+#: plugin/dynamic-data/fields/post/post-content.php:13
+msgid "Post Content"
+msgstr "Опубликовать контент"
+
+#: plugin/dynamic-data/field-types/PostField.php:21
+#: plugin/dynamic-data/fields/post/post-excerpt.php:12
+msgid "Post Excerpt"
+msgstr "Отрывок из публикации"
+
+#: plugin/dynamic-data/field-types/PostField.php:22
+#: plugin/dynamic-data/fields/post/post-terms.php:12
+msgid "Post Terms"
+msgstr "Условия публикации"
+
+#: plugin/dynamic-data/field-types/PostField.php:23
+#: plugin/dynamic-data/fields/post/post-date.php:12
+#: plugin/themeless/rules/conditions/dates.php:149
+msgid "Post Date"
+msgstr "Дата публикации"
+
+#: plugin/dynamic-data/field-types/PostField.php:24
+#: plugin/dynamic-data/fields/post/post-time.php:12
+msgid "Post Time"
+msgstr "Время публикации"
+
+#: plugin/dynamic-data/field-types/PostField.php:25
+#: plugin/dynamic-data/fields/post/post-comments-number.php:13
+#: plugin/themeless/rules/conditions/singular.php:592
+msgid "Comments Number"
+msgstr "Количество комментариев"
+
+#: plugin/dynamic-data/field-types/PostField.php:26
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:29
+#: plugin/dynamic-data/fields/author/author-custom-field.php:12
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field.php:13
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:29
+#: plugin/dynamic-data/fields/post/post-custom-field.php:13
+#: plugin/dynamic-data/fields/user/current-user-custom-field.php:12
+msgid "Custom Field"
+msgstr "Пользовательское поле"
+
+#: plugin/dynamic-data/field-types/PostField.php:29
+#: plugin/dynamic-data/field-types/PostField.php:65
+#: plugin/dynamic-data/fields/post/post-date.php:48
+#: plugin/dynamic-data/fields/post/post-time.php:56
+#: plugin/dynamic-data/fields/utility/date.php:38
+msgid "Format"
+msgstr "Формат"
+
+#: plugin/dynamic-data/field-types/PostField.php:33
+#: plugin/dynamic-data/field-types/PostField.php:69
+#: plugin/dynamic-data/fields/post/post-date.php:52
+#: plugin/dynamic-data/fields/post/post-time.php:60
+#: plugin/dynamic-data/fields/utility/date.php:42
+#: plugin/elements/preset-sections/form.php:16
+#: plugin/permissions/user-profile.php:61
+msgid "Default"
+msgstr "По умолчанию"
+
+#: plugin/dynamic-data/field-types/PostField.php:35
+#: plugin/dynamic-data/field-types/PostField.php:73
+#: plugin/dynamic-data/fields/post/post-date.php:54
+#: plugin/dynamic-data/fields/post/post-time.php:64
+#: plugin/dynamic-data/fields/utility/date.php:44
+#: plugin/dynamic-data/fields/utility/date.php:46
+msgid "Human"
+msgstr "Человек"
+
+#: plugin/dynamic-data/field-types/PostField.php:43
+#: plugin/dynamic-data/field-types/PostField.php:82
+#: plugin/dynamic-data/fields/post/post-date.php:57
+#: plugin/dynamic-data/fields/post/post-time.php:68
+#: plugin/dynamic-data/fields/utility/date.php:48
+msgid "Custom Format"
+msgstr "Пользовательский формат"
+
+#: plugin/dynamic-data/field-types/PostField.php:52
+#: plugin/dynamic-data/field-types/PostField.php:101
+#: plugin/dynamic-data/fields/post/post-date.php:66
+#: plugin/dynamic-data/fields/post/post-time.php:47
+#: plugin/dynamic-data/fields/site/site-rss.php:38
+#: plugin/elements/preset-sections/filter.php:13
+msgid "Type"
+msgstr "Тип"
+
+#: plugin/dynamic-data/field-types/PostField.php:56
+#: plugin/dynamic-data/field-types/PostField.php:105
+#: plugin/dynamic-data/fields/post/post-date.php:70
+#: plugin/dynamic-data/fields/post/post-time.php:51
+msgid "Post Published"
+msgstr "Сообщение опубликовано"
+
+#: plugin/dynamic-data/field-types/PostField.php:57
+#: plugin/dynamic-data/field-types/PostField.php:106
+#: plugin/dynamic-data/fields/post/post-date.php:71
+#: plugin/dynamic-data/fields/post/post-time.php:52
+msgid "Post Modified"
+msgstr "Сообщение изменено"
+
+#: plugin/dynamic-data/field-types/PostField.php:91
+#: plugin/dynamic-data/fields/post/post-terms.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:51
+#: plugin/themeless/rules/archive/product-archives.php:65
+#: plugin/themeless/rules/archive/taxonomy.php:43
+#: plugin/wpwidgets/stock/stock.php:137
+msgid "Taxonomy"
+msgstr "Таксономия"
+
+#: plugin/dynamic-data/field-types/PostField.php:114
+#: plugin/dynamic-data/fields/post/post-terms.php:42
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:59
+msgid "Link"
+msgstr "Связь"
+
+#: plugin/dynamic-data/field-types/PostField.php:123
+#: plugin/dynamic-data/fields/acf/acf-checkbox-field.php:16
+#: plugin/dynamic-data/fields/acf/acf-taxonomy-field.php:13
+#: plugin/dynamic-data/fields/metabox/metabox-checkbox-field.php:16
+#: plugin/dynamic-data/fields/post/post-terms.php:46
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:63
+#: plugin/elements/preset-sections/tabs.php:83
+#: plugin/elements/preset-sections/tabs.php:115
+msgid "Separator"
+msgstr "Сепаратор"
+
+#: plugin/dynamic-data/field-types/PostField.php:131
+#: plugin/dynamic-data/field-types/PostField.php:203
+#: plugin/dynamic-data/fields/post/post-comments-number.php:38
+#: plugin/dynamic-data/fields/post/post-comments-number.php:59
+msgid "No comments"
+msgstr "Без комментариев"
+
+#: plugin/dynamic-data/field-types/PostField.php:140
+#: plugin/dynamic-data/field-types/PostField.php:204
+#: plugin/dynamic-data/fields/post/post-comments-number.php:42
+#: plugin/dynamic-data/fields/post/post-comments-number.php:60
+msgid "One comment"
+msgstr "Один комментарий"
+
+#: plugin/dynamic-data/field-types/PostField.php:149
+#: plugin/dynamic-data/fields/post/post-comments-number.php:46
+msgid "Multiple comments"
+msgstr "Несколько комментариев"
+
+#: plugin/dynamic-data/field-types/PostField.php:158
+#: plugin/dynamic-data/fields/author/author-custom-field-image.php:38
+#: plugin/dynamic-data/fields/author/author-custom-field-oembed.php:38
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-image.php:38
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-oembed.php:38
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field.php:38
+#: plugin/dynamic-data/fields/post/post-custom-field-image.php:38
+#: plugin/dynamic-data/fields/post/post-custom-field-oembed.php:38
+#: plugin/dynamic-data/fields/post/post-custom-field.php:38
+#: plugin/dynamic-data/fields/term/term-custom-field.php:40
+#: plugin/dynamic-data/fields/user/current-user-custom-field-image.php:37
+#: plugin/dynamic-data/fields/user/current-user-custom-field-oembed.php:37
+#: plugin/dynamic-data/fields/user/current-user-custom-field.php:37
+#: plugin/interactions/triggers/key-down.php:37
+#: plugin/interactions/triggers/key-up.php:37
+msgid "Key"
+msgstr "Ключ"
+
+#: plugin/dynamic-data/field-types/PostField.php:205
+#: plugin/dynamic-data/fields/post/post-comments-number.php:61
+msgid "% comment"
+msgstr "% комментариев"
+
+#: plugin/dynamic-data/field-types/RepeaterField.php:29
+msgid "Repeaters"
+msgstr "Ретрансляторы"
+
+#: plugin/dynamic-data/field-types/StringField.php:15
+msgid "Fallback"
+msgstr "Отступать"
+
+#: plugin/dynamic-data/field-types/StringField.php:30
+msgid "Prepend"
+msgstr "Подготовить"
+
+#: plugin/dynamic-data/field-types/StringField.php:34
+msgid "Append"
+msgstr "Добавить"
+
+#: plugin/dynamic-data/field-types/StringField.php:38
+msgid "Limit Characters"
+msgstr "Ограничить количество символов"
+
+#: plugin/dynamic-data/fields/acf/acf-gallery-image-field.php:38
+#: plugin/dynamic-data/fields/metabox/metabox-image-field.php:58
+#: plugin/dynamic-data/fields/metabox/metabox-image-url-field.php:56
+#: plugin/dynamic-data/fields/post/post-image-attachment.php:38
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery-image.php:49
+msgid "Image Index"
+msgstr "Индекс изображения"
+
+#: plugin/dynamic-data/fields/acf/acf-googlemaps-field.php:13
+msgid "Output as"
+msgstr "Вывод как"
+
+#: plugin/dynamic-data/fields/acf/acf-googlemaps-field.php:15
+msgid "Address"
+msgstr "Адрес"
+
+#: plugin/dynamic-data/fields/acf/acf-googlemaps-field.php:16
+msgid "Latitude / Longitude"
+msgstr "Широта/долгота"
+
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:23
+#: plugin/dynamic-data/fields/author/author-name.php:37
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:23
+#: plugin/dynamic-data/fields/user/current-user-name.php:37
+msgid "Field"
+msgstr "Поле"
+
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:27
+#: plugin/dynamic-data/fields/author/author-name.php:41
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:27
+#: plugin/dynamic-data/fields/user/current-user-name.php:41
+msgid "Display Name"
+msgstr "Отображаемое имя"
+
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:28
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:28
+msgid "Bio"
+msgstr "Био"
+
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:32
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:32
+msgid "Custom Field Key"
+msgstr "Пользовательский ключ поля"
+
+#: plugin/dynamic-data/fields/archive/archive-description.php:13
+msgid "Archive Description"
+msgstr "Описание архива"
+
+#: plugin/dynamic-data/fields/archive/archive-title.php:13
+msgid "Archive Title"
+msgstr "Название архива"
+
+#: plugin/dynamic-data/fields/archive/archive-title.php:39
+msgid "Disable Prefix"
+msgstr "Отключить префикс"
+
+#: plugin/dynamic-data/fields/author/author-avatar-url.php:12
+msgid "Author Avatar (URL)"
+msgstr "Аватар автора (URL)"
+
+#: plugin/dynamic-data/fields/author/author-avatar.php:12
+msgid "Author Avatar"
+msgstr "Автор Аватар"
+
+#: plugin/dynamic-data/fields/author/author-bio.php:13
+msgid "Author Bio"
+msgstr "Биография автора"
+
+#: plugin/dynamic-data/fields/author/author-custom-field-image.php:13
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-image.php:13
+#: plugin/dynamic-data/fields/post/post-custom-field-image.php:13
+#: plugin/dynamic-data/fields/user/current-user-custom-field-image.php:13
+msgid "Custom Field (Image URL)"
+msgstr "Пользовательское поле (URL-адрес изображения)"
+
+#: plugin/dynamic-data/fields/author/author-custom-field-oembed.php:13
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-oembed.php:13
+#: plugin/dynamic-data/fields/post/post-custom-field-oembed.php:13
+#: plugin/dynamic-data/fields/user/current-user-custom-field-oembed.php:13
+msgid "Custom Field (Oembed URL)"
+msgstr "Пользовательское поле (URL-адрес для встраивания)"
+
+#: plugin/dynamic-data/fields/author/author-email.php:12
+msgid "Author Email"
+msgstr "Электронная почта автора"
+
+#: plugin/dynamic-data/fields/author/author-name.php:12
+msgid "Author Name"
+msgstr "Имя автора"
+
+#: plugin/dynamic-data/fields/author/author-name.php:42
+#: plugin/dynamic-data/fields/user/current-user-name.php:42
+msgid "First Name"
+msgstr "Имя"
+
+#: plugin/dynamic-data/fields/author/author-name.php:43
+#: plugin/dynamic-data/fields/user/current-user-name.php:43
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: plugin/dynamic-data/fields/author/author-website.php:13
+msgid "Author Website"
+msgstr "Сайт автора"
+
+#: plugin/dynamic-data/fields/featured-image/featured-alt.php:13
+msgid "Featured Alt"
+msgstr "Рекомендуемый альтернативный вариант"
+
+#: plugin/dynamic-data/fields/featured-image/featured-caption.php:13
+msgid "Featured Caption"
+msgstr "Рекомендуемая подпись"
+
+#: plugin/dynamic-data/fields/featured-image/featured-title.php:13
+msgid "Featured Title"
+msgstr "Рекомендуемое название"
+
+#: plugin/dynamic-data/fields/futurelayer/site-logo.php:12
+msgid "Site Logo (Brand)"
+msgstr "Логотип сайта (торговая марка)"
+
+#: plugin/dynamic-data/fields/metabox/metabox-file-field.php:16
+#: plugin/dynamic-data/fields/metabox/metabox-image-file-field.php:11
+#: plugin/dynamic-data/fields/metabox/metabox-video-file-field.php:11
+msgid "File Index"
+msgstr "Индекс файла"
+
+#: plugin/dynamic-data/fields/post/post-featured-image-url.php:14
+msgid "Featured Image (URL)"
+msgstr "Рекомендованное изображение (URL)"
+
+#: plugin/dynamic-data/fields/post/post-image-attachment.php:12
+msgid "Post Image Attachment"
+msgstr "Прикрепленное изображение к сообщению"
+
+#: plugin/dynamic-data/fields/post/post-image-attachments.php:12
+msgid "Post Image Attachments"
+msgstr "Прикрепить изображения к публикации"
+
+#: plugin/dynamic-data/fields/post/post-permalink.php:12
+msgid "Post Permalink"
+msgstr "Опубликовать постоянную ссылку"
+
+#: plugin/dynamic-data/fields/query/search-query.php:13
+msgid "Search Query"
+msgstr "Поисковый запрос"
+
+#: plugin/dynamic-data/fields/query/url-parameter.php:12
+msgid "URL Parameter"
+msgstr "URL-параметр"
+
+#: plugin/dynamic-data/fields/query/url-parameter.php:39
+msgid "Parameter Name"
+msgstr "Имя параметра"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:11
+msgid "Common UTM Tags"
+msgstr "Общие теги UTM"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:44
+msgid "UTM Tag"
+msgstr "UTM-тег"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:48
+msgid "Source"
+msgstr "Источник"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:49
+msgid "Medium"
+msgstr "Середина"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:50
+msgid "Campaign"
+msgstr "Кампания"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:52
+msgid "Content"
+msgstr "Содержание"
+
+#: plugin/dynamic-data/fields/site/admin_email.php:13
+msgid "Admin Email"
+msgstr "Электронная почта администратора"
+
+#: plugin/dynamic-data/fields/site/home-url.php:13
+msgid "Home URL"
+msgstr "Домашний URL"
+
+#: plugin/dynamic-data/fields/site/site-logo-url.php:13
+msgid "Site Logo (URL)"
+msgstr "Логотип сайта (URL)"
+
+#: plugin/dynamic-data/fields/site/site-logo.php:12
+msgid "Site Logo"
+msgstr "Логотип сайта"
+
+#: plugin/dynamic-data/fields/site/site-logout-url.php:13
+msgid "Logout URL"
+msgstr "URL выхода из системы"
+
+#: plugin/dynamic-data/fields/site/site-logout-url.php:22
+msgid "Redirect URL"
+msgstr "URL-адрес перенаправления"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:13
+#: plugin/dynamic-data/fields/site/site-rss.php:44
+msgid "RSS URL"
+msgstr "URL-адрес RSS-канала"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:42
+msgid "Atom URL"
+msgstr "URL-адрес атома"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:43
+msgid "RDF URL"
+msgstr "URL-адрес RDF-файла"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:45
+msgid "RSS2 URL"
+msgstr "URL-адрес RSS2"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:46
+msgid "Pingback URL"
+msgstr "URL-адрес обратной связи"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:47
+msgid "Comments Atom URL"
+msgstr "URL-адрес атома комментариев"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:48
+msgid "Comments RSS2 URL"
+msgstr "URL комментариев RSS2"
+
+#: plugin/dynamic-data/fields/site/site-tagline.php:13
+msgid "Site Tagline"
+msgstr "Слоган сайта"
+
+#: plugin/dynamic-data/fields/site/site-title.php:13
+msgid "Site Title"
+msgstr "Название сайта"
+
+#: plugin/dynamic-data/fields/site/site-url.php:13
+msgid "Site URL"
+msgstr "URL-адрес сайта"
+
+#: plugin/dynamic-data/fields/term/term-count.php:14
+msgid "Term Count"
+msgstr "Количество сроков"
+
+#: plugin/dynamic-data/fields/term/term-custom-field.php:15
+msgid "Term Custom Field"
+msgstr "Пользовательское поле термина"
+
+#: plugin/dynamic-data/fields/term/term-description.php:14
+msgid "Term Description"
+msgstr "Термин Описание"
+
+#: plugin/dynamic-data/fields/term/term-id.php:14
+msgid "Term ID"
+msgstr "Идентификатор термина"
+
+#: plugin/dynamic-data/fields/term/term-name.php:14
+msgid "Term Name"
+msgstr "Название термина"
+
+#: plugin/dynamic-data/fields/term/term-permalink.php:14
+msgid "Term Permalink"
+msgstr "Срок Постоянная ссылка"
+
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:11
+msgid "Target"
+msgstr "Цель"
+
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:14
+msgid "Blank"
+msgstr "Пустой"
+
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:15
+msgid "Self"
+msgstr "Себя"
+
+#: plugin/dynamic-data/fields/user/current-user-avatar-url.php:13
+msgid "User Avatar (URL)"
+msgstr "Аватар пользователя (URL)"
+
+#: plugin/dynamic-data/fields/user/current-user-avatar.php:13
+msgid "User Avatar"
+msgstr "Аватар пользователя"
+
+#: plugin/dynamic-data/fields/user/current-user-bio.php:13
+msgid "User Bio"
+msgstr "Биография пользователя"
+
+#: plugin/dynamic-data/fields/user/current-user-email.php:12
+msgid "User Email"
+msgstr "Электронная почта пользователя"
+
+#: plugin/dynamic-data/fields/user/current-user-name.php:12
+msgid "User Name"
+msgstr "Имя пользователя"
+
+#: plugin/dynamic-data/fields/user/current-user-website.php:12
+msgid "User Website"
+msgstr "Веб-сайт пользователя"
+
+#: plugin/dynamic-data/fields/utility/date.php:13
+msgid "Current Date"
+msgstr "Текущая дата"
+
+#: plugin/dynamic-data/fields/utility/php-function.php:13
+msgid "PHP"
+msgstr "PHP"
+
+#: plugin/dynamic-data/fields/utility/php-function.php:40
+#: plugin/global-styles/advanced/base.php:30
+msgid "Code"
+msgstr "Код"
+
+#: plugin/dynamic-data/fields/utility/php-function.php:71
+msgid "An error occurred:"
+msgstr "Произошла ошибка:"
+
+#. translators: %s: Exception message
+#: plugin/dynamic-data/fields/utility/php-function.php:74
+#, php-format
+msgid "Caught exception: %s"
+msgstr "Обнаружено исключение: %s"
+
+#. translators: %s: Line number
+#: plugin/dynamic-data/fields/utility/php-function.php:76
+#, php-format
+msgid "Line: %s"
+msgstr "Строка: %s"
+
+#: plugin/dynamic-data/fields/utility/shortcode.php:13
+#: plugin/dynamic-data/fields/utility/shortcode.php:38
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-category-count.php:14
+msgid "Product Category Count"
+msgstr "Количество категорий продуктов"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-category-image.php:15
+msgid "Product Category Image"
+msgstr "Изображение категории продукта"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:12
+msgid "Product Description"
+msgstr "Описание продукта"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:47
+msgid "Description Type"
+msgstr "Описание Тип"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:51
+msgid "Short Description"
+msgstr "Краткое описание"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:52
+msgid "Long Description"
+msgstr "Подробное описание"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery-image.php:12
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery.php:12
+msgid "Product Gallery"
+msgstr "Галерея продуктов"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery.php:48
+msgid "Exclude Product Image"
+msgstr "Исключить изображение продукта"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image-url.php:13
+msgid "Product Image (URL)"
+msgstr "Изображение продукта (URL-адрес)"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image.php:12
+msgid "Product Image"
+msgstr "Изображение продукта"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-price-range.php:12
+msgid "Product Price Range"
+msgstr "Диапазон цен на продукцию"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:12
+msgid "Product Rating"
+msgstr "Рейтинг продукта"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:47
+msgid "Rating Type"
+msgstr "Тип рейтинга"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:51
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:52
+msgid "Rating Count"
+msgstr "Рейтинг"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:53
+msgid "Review Count"
+msgstr "Количество отзывов"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-regular-price.php:12
+msgid "Product Regular Price"
+msgstr "Обычная цена продукта"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-regular-price.php:47
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:47
+msgid "Disable Formatting"
+msgstr "Отключить форматирование"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:12
+msgid "Product Sale Price"
+msgstr "Цена продажи продукта"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:50
+msgid "Fallback to Regular Price"
+msgstr "Возврат к обычной цене"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale.php:13
+msgid "Product Sale"
+msgstr "Продажа продукта"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale.php:45
+msgid "Sale Text"
+msgstr "Текст продажи"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sku.php:13
+msgid "Product SKU"
+msgstr "Артикул продукта"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:12
+msgid "Product Stock"
+msgstr "Товар на складе"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:47
+msgid "In Stock Text"
+msgstr "Текст на складе"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:51
+msgid "Out Of Stock Text"
+msgstr "Текст «Нет на складе»"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:55
+msgid "On Backorder Text"
+msgstr "Текст отложенного заказа"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:65
+msgid "In stock"
+msgstr "В наличии"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:66
+msgid "Out of stock"
+msgstr "Распродано"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:67
+msgid "On backorder"
+msgstr "В предзаказе"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:13
+msgid "Product Terms"
+msgstr "Условия продукта"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-title.php:12
+msgid "Product Title"
+msgstr "Название продукта"
+
+#: plugin/dynamic-data/pipe.php:14
+msgid "Process Value (ALPHA)"
+msgstr "Ценность процесса (АЛЬФА)"
+
+#: plugin/elements/preset-sections/borders.php:13
+#: plugin/elements/preset-sections/combined-design.php:17
+#: plugin/elements/preset-sections/tabs.php:315
+msgid "Borders"
+msgstr "Границы"
+
+#: plugin/elements/preset-sections/borders.php:15
+#: plugin/elements/preset-sections/borders_without_shadows.php:15
+#: plugin/elements/preset-sections/tabs.php:90
+#: plugin/elements/preset-sections/tabs.php:211
+msgid "Radius"
+msgstr "Радиус"
+
+#: plugin/elements/preset-sections/borders.php:16
+#: plugin/elements/preset-sections/borders_without_shadows.php:16
+msgid "Styling"
+msgstr "Стиль"
+
+#: plugin/elements/preset-sections/borders.php:17
+#: plugin/elements/preset-sections/tabs.php:97
+msgid "Shadow"
+msgstr "Тень"
+
+#: plugin/elements/preset-sections/borders_without_shadows.php:13
+msgid "Borders Without Shadows"
+msgstr "Границы без теней"
+
+#: plugin/elements/preset-sections/combined-design.php:12
+msgid "Design"
+msgstr "Дизайн"
+
+#: plugin/elements/preset-sections/combined-design.php:14
+#: plugin/elements/preset-sections/tabs.php:138
+#: plugin/elements/preset-sections/tabs.php:325
+#: plugin/elements/preset-sections/typography.php:265
+#: plugin/elements/preset-sections/typography.php:316
+#: plugin/global-styles/other/base.php:32
+#: plugin/global-styles/typography/base.php:33
+#: plugin/global-styles/typography/base.php:75
+msgid "Typography"
+msgstr "Типография"
+
+#: plugin/elements/preset-sections/combined-design.php:15
+#: plugin/elements/preset-sections/lightbox.php:24
+#: plugin/elements/preset-sections/lightbox.php:92
+#: plugin/elements/preset-sections/tabs.php:159
+#: plugin/elements/preset-sections/tabs.php:307
+#: plugin/global-styles/colors/base.php:51
+msgid "Background"
+msgstr "Фон"
+
+#: plugin/elements/preset-sections/combined-design.php:16
+#: plugin/global-styles/other/base.php:62
+msgid "Spacing"
+msgstr "Расстояние"
+
+#: plugin/elements/preset-sections/custom_css.php:17
+#: plugin/elements/preset-sections/custom_css.php:36
+msgid "Custom CSS"
+msgstr "Пользовательский CSS"
+
+#: plugin/elements/preset-sections/filter.php:11
+#: plugin/elements/preset-sections/filter.php:74
+#: plugin/woocommerce/widgets/woo_filters.php:129
+msgid "Filter"
+msgstr "Фильтр"
+
+#: plugin/elements/preset-sections/filter.php:12
+msgid "Filter Items"
+msgstr "Фильтровать элементы"
+
+#: plugin/elements/preset-sections/filter.php:29
+msgid "Blur Amount"
+msgstr "Сумма размытия"
+
+#: plugin/elements/preset-sections/filter.php:38
+msgid "Amount"
+msgstr "Количество"
+
+#: plugin/elements/preset-sections/filter.php:58
+msgid "Rotate"
+msgstr "Поворот"
+
+#: plugin/elements/preset-sections/filter.php:74
+#: plugin/woocommerce/widgets/woo_filters.php:129
+msgid "Add Filter"
+msgstr "Добавить фильтр"
+
+#: plugin/elements/preset-sections/form.php:11
+msgid "Form"
+msgstr "Форма"
+
+#: plugin/elements/preset-sections/form.php:12
+#: plugin/setup-wizard/setup-wizard-page.php:168
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:17
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:46
+msgid "Theme"
+msgstr "Тема"
+
+#: plugin/elements/preset-sections/form.php:17
+msgid "Material Design"
+msgstr "Материальный дизайн"
+
+#: plugin/elements/preset-sections/form.php:18
+msgid "Material Design Outlined"
+msgstr "Материальный дизайн изложен"
+
+#: plugin/elements/preset-sections/form.php:21
+msgid "Primary Color"
+msgstr "Основной цвет"
+
+#: plugin/elements/preset-sections/form.php:24
+msgid "Secondary Color"
+msgstr "Вторичный цвет"
+
+#: plugin/elements/preset-sections/form.php:27
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: plugin/elements/preset-sections/form.php:30
+msgid "Border Color"
+msgstr "Цвет границы"
+
+#: plugin/elements/preset-sections/grid.php:13
+msgid "Grid"
+msgstr "Сетка"
+
+#: plugin/elements/preset-sections/grid.php:16
+msgid "Enable Grid"
+msgstr "Включить сетку"
+
+#: plugin/elements/preset-sections/grid.php:22
+#: plugin/elements/preset-sections/grid.php:61
+msgid "True"
+msgstr "Истинный"
+
+#: plugin/elements/preset-sections/grid.php:23
+#: plugin/elements/preset-sections/grid.php:43
+#: plugin/elements/preset-sections/grid.php:62
+#: plugin/elements/preset-sections/grid.php:181
+#: plugin/elements/preset-sections/layout_basic_flex.php:22
+#: plugin/elements/preset-sections/layout_basic_flex.php:42
+#: plugin/elements/preset-sections/layout_basic_flex.php:63
+#: plugin/elements/preset-sections/layout_basic_flex.php:81
+msgid "Label"
+msgstr "Этикетка"
+
+#: plugin/elements/preset-sections/grid.php:32
+#: plugin/elements/preset-sections/grid.php:76
+msgid "Columns"
+msgstr "Столбцы"
+
+#: plugin/elements/preset-sections/grid.php:36
+#: plugin/elements/preset-sections/grid.php:174
+#: plugin/themeless/template.cpt.php:17
+msgid "Template"
+msgstr "Шаблон"
+
+#: plugin/elements/preset-sections/grid.php:42
+#: plugin/elements/preset-sections/grid.php:180
+#: plugin/elements/preset-sections/typography.php:88
+msgid "Auto"
+msgstr "Авто"
+
+#: plugin/elements/preset-sections/grid.php:55
+msgid "Auto-Fit"
+msgstr "Автоподбор"
+
+#: plugin/elements/preset-sections/grid.php:89
+msgid "Min-Width"
+msgstr "Минимальная ширина"
+
+#: plugin/elements/preset-sections/grid.php:101
+msgid "Max-Width"
+msgstr "Макс. ширина"
+
+#: plugin/elements/preset-sections/grid.php:113
+msgid "Column Template"
+msgstr "Шаблон столбца"
+
+#: plugin/elements/preset-sections/grid.php:126
+#: plugin/elements/preset-sections/grid.php:230
+msgid "Gap"
+msgstr "Зазор"
+
+#: plugin/elements/preset-sections/grid.php:134
+msgid "Horizontal Alignment"
+msgstr "Горизонтальное выравнивание"
+
+#: plugin/elements/preset-sections/grid.php:158
+#: plugin/elements/preset-sections/grid.php:159
+#: plugin/elements/preset-sections/grid.php:262
+#: plugin/elements/preset-sections/grid.php:263
+msgid "Stretch"
+msgstr "Потягиваться"
+
+#: plugin/elements/preset-sections/grid.php:170
+#: plugin/elements/preset-sections/grid.php:193
+msgid "Rows"
+msgstr "Строки"
+
+#: plugin/elements/preset-sections/grid.php:206
+msgid "Min-Height"
+msgstr "Минимальная высота"
+
+#: plugin/elements/preset-sections/grid.php:218
+msgid "Max-Height"
+msgstr "Макс. высота"
+
+#: plugin/elements/preset-sections/grid.php:238
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:23
+msgid "Vertical Alignment"
+msgstr "Вертикальное выравнивание"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:12
+msgid "Layout (Basic Flex)"
+msgstr "Макет (базовый гибкий)"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:16
+msgid "Stack"
+msgstr "Куча"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:22
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:18
+#: plugin/elements/preset-sections/tabs.php:14
+#: plugin/elements/preset-sections/tabs.php:225
+msgid "Vertical"
+msgstr "Вертикальный"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:23
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:19
+#: plugin/elements/preset-sections/tabs.php:232
+msgid "Horizontal"
+msgstr "Горизонтальный"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:31
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:14
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:22
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:35
+#: plugin/elements/preset-sections/typography.php:294
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:42
+#: plugin/elements/preset-sections/layout_basic_flex.php:63
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:18
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:39
+#: plugin/elements/preset-sections/tabs.php:50
+#: plugin/elements/preset-sections/tabs.php:58
+#: plugin/elements/preset-sections/typography.php:190
+#: plugin/elements/preset-sections/typography.php:299
+msgid "Left"
+msgstr "Левый"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:44
+#: plugin/elements/preset-sections/layout_basic_flex.php:65
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:20
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:41
+#: plugin/elements/preset-sections/tabs.php:50
+#: plugin/elements/preset-sections/tabs.php:58
+#: plugin/elements/preset-sections/typography.php:301
+msgid "Right"
+msgstr "Верно"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:52
+msgid "H Alignment"
+msgstr "H-выравнивание"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:66
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:26
+msgid "Space Around"
+msgstr "Пространство вокруг"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:67
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:27
+#: plugin/elements/preset-sections/tabs.php:64
+msgid "Space Between"
+msgstr "Пространство между"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:75
+msgid "V Alignment"
+msgstr "V-выравнивание"
+
+#: plugin/elements/preset-sections/lightbox.php:12
+#: plugin/elements/preset-sections/lightbox.php:91
+msgid "Lightbox"
+msgstr "Лайтбокс"
+
+#: plugin/elements/preset-sections/lightbox.php:14
+msgid "Info Notice"
+msgstr "Информационное уведомление"
+
+#: plugin/elements/preset-sections/lightbox.php:20
+msgid "View the page on the frontend to preview the lightbox."
+msgstr ""
+"Просмотрите страницу во внешнем интерфейсе, чтобы просмотреть лайтбокс."
+
+#: plugin/elements/preset-sections/lightbox.php:31
+#: plugin/elements/preset-sections/lightbox.php:99
+msgid "Controls"
+msgstr "Элементы управления"
+
+#: plugin/elements/preset-sections/lightbox.php:42
+msgid "Thumbnails"
+msgstr "Миниатюры"
+
+#: plugin/elements/preset-sections/lightbox.php:45
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: plugin/elements/preset-sections/lightbox.php:49
+msgid "Thumbnail Active"
+msgstr "Миниатюра активна"
+
+#: plugin/elements/preset-sections/lightbox.php:55
+msgid "Animated Thumbnails"
+msgstr "Анимированные миниатюры"
+
+#: plugin/elements/preset-sections/lightbox.php:60
+msgid "Autoplay"
+msgstr "Автозапуск"
+
+#: plugin/elements/preset-sections/lightbox.php:65
+msgid "Speed"
+msgstr "Скорость"
+
+#: plugin/elements/preset-sections/lightbox.php:70
+msgid "Show Download Button"
+msgstr "Показать кнопку загрузки"
+
+#: plugin/elements/preset-sections/lightbox.php:75
+msgid "Disable Autoplay on First Video"
+msgstr "Отключить автовоспроизведение первого видео"
+
+#: plugin/elements/preset-sections/shape/shape.php:20
+#: plugin/elements/preset-sections/shape/shape.php:21
+msgid "Shape Dividers"
+msgstr "Разделители формы"
+
+#: plugin/elements/preset-sections/shape/shape.php:24
+msgid "Shape"
+msgstr "Форма"
+
+#: plugin/elements/preset-sections/shape/shape.php:36
+msgid "Custom Shape"
+msgstr "Пользовательская форма"
+
+#: plugin/elements/preset-sections/shape/shape.php:54
+msgid "Flip Horizontally"
+msgstr "Перевернуть по горизонтали"
+
+#: plugin/elements/preset-sections/shape/shape.php:57
+msgid "Yes"
+msgstr "Да"
+
+#: plugin/elements/preset-sections/shape/shape.php:71
+#: plugin/elements/preset-sections/size.php:12
+#: plugin/elements/preset-sections/tabs.php:125
+#: plugin/elements/preset-sections/tabs.php:204
+#: plugin/elements/preset-sections/typography.php:116
+msgid "Width"
+msgstr "Ширина"
+
+#: plugin/elements/preset-sections/shape/shape.php:76
+#: plugin/elements/preset-sections/size.php:15
+#: plugin/elements/preset-sections/typography.php:102
+msgid "Height"
+msgstr "Высота"
+
+#: plugin/elements/preset-sections/shape/shape.php:81
+msgid "Display in front of content"
+msgstr "Отображение перед контентом"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:13
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:13
+msgid "Layout"
+msgstr "Макет"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:27
+msgid "top"
+msgstr "вершина"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:28
+msgid "center"
+msgstr "центр"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:29
+msgid "bottom"
+msgstr "нижний"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:14
+msgid "Stack Content"
+msgstr "Содержимое стека"
+
+#: plugin/elements/preset-sections/size.php:11
+#: plugin/elements/preset-sections/tabs.php:246
+#: plugin/elements/preset-sections/typography.php:82
+msgid "Size"
+msgstr "Размер"
+
+#: plugin/elements/preset-sections/size.php:13
+msgid "Min Width"
+msgstr "Минимальная ширина"
+
+#: plugin/elements/preset-sections/size.php:14
+msgid "Max Width"
+msgstr "Макс. ширина"
+
+#: plugin/elements/preset-sections/size.php:16
+msgid "Min Height"
+msgstr "Минимальная высота"
+
+#: plugin/elements/preset-sections/size.php:17
+msgid "Max Height"
+msgstr "Макс. высота"
+
+#: plugin/elements/preset-sections/spacing.php:13
+msgid "Spacing (All)"
+msgstr "Интервал (Все)"
+
+#: plugin/elements/preset-sections/spacing.php:14
+#: plugin/elements/preset-sections/spacing.php:23
+#: plugin/elements/preset-sections/spacing.php:84
+msgid "Margin"
+msgstr "Допуск"
+
+#: plugin/elements/preset-sections/spacing.php:15
+#: plugin/elements/preset-sections/spacing.php:24
+#: plugin/elements/preset-sections/spacing.php:56
+#: plugin/elements/preset-sections/tabs.php:222
+#: plugin/elements/preset-sections/tabs.php:320
+msgid "Padding"
+msgstr "Заполнение"
+
+#: plugin/elements/preset-sections/spacing.php:22
+msgid "Spacing (All - not responsive)"
+msgstr "Интервал (все — не реагирует)"
+
+#: plugin/elements/preset-sections/spacing.php:31
+msgid "Spacing (All Top & Bottom)"
+msgstr "Расстояние (все сверху и снизу)"
+
+#: plugin/elements/preset-sections/spacing.php:32
+#: plugin/elements/preset-sections/spacing.php:93
+msgid "Margin Top"
+msgstr "Верхняя граница"
+
+#: plugin/elements/preset-sections/spacing.php:33
+#: plugin/elements/preset-sections/spacing.php:94
+msgid "Margin Bottom"
+msgstr "Нижняя граница поля"
+
+#: plugin/elements/preset-sections/spacing.php:34
+#: plugin/elements/preset-sections/spacing.php:64
+msgid "Padding Top"
+msgstr "Подкладочный топ"
+
+#: plugin/elements/preset-sections/spacing.php:35
+#: plugin/elements/preset-sections/spacing.php:65
+msgid "Padding Bottom"
+msgstr "Заполнение снизу"
+
+#: plugin/elements/preset-sections/spacing.php:42
+msgid "Spacing (All Left & Right)"
+msgstr "Интервал (все слева и справа)"
+
+#: plugin/elements/preset-sections/spacing.php:43
+#: plugin/elements/preset-sections/spacing.php:102
+msgid "Margin Left"
+msgstr "Поле слева"
+
+#: plugin/elements/preset-sections/spacing.php:44
+#: plugin/elements/preset-sections/spacing.php:103
+msgid "Margin Right"
+msgstr "Поле справа"
+
+#: plugin/elements/preset-sections/spacing.php:45
+#: plugin/elements/preset-sections/spacing.php:73
+msgid "Padding Left"
+msgstr "Отступ слева"
+
+#: plugin/elements/preset-sections/spacing.php:46
+#: plugin/elements/preset-sections/spacing.php:74
+msgid "Padding Right"
+msgstr "Заполнение справа"
+
+#: plugin/elements/preset-sections/spacing.php:55
+msgid "Padding (All)"
+msgstr "Наполнение (Все)"
+
+#: plugin/elements/preset-sections/spacing.php:63
+msgid "Padding (Top & Bottom)"
+msgstr "Отступы (сверху и снизу)"
+
+#: plugin/elements/preset-sections/spacing.php:72
+msgid "Padding (Left & Right)"
+msgstr "Отступы (слева и справа)"
+
+#: plugin/elements/preset-sections/spacing.php:83
+msgid "Margin (All)"
+msgstr "Маржа (Все)"
+
+#: plugin/elements/preset-sections/spacing.php:92
+msgid "Margin (Top & Bottom)"
+msgstr "Маржа (сверху и снизу)"
+
+#: plugin/elements/preset-sections/spacing.php:101
+msgid "Margin (Left & Right)"
+msgstr "Поле (слева и справа)"
+
+#: plugin/elements/preset-sections/tabs.php:11
+#: plugin/elements/preset-sections/tabs.php:42
+msgid "Tabs"
+msgstr "Вкладки"
+
+#: plugin/elements/preset-sections/tabs.php:23
+msgid "Tabs Width"
+msgstr "Ширина вкладок"
+
+#: plugin/elements/preset-sections/tabs.php:32
+msgid "Horizontal At"
+msgstr "Горизонтальный"
+
+#: plugin/elements/preset-sections/tabs.php:40
+#: plugin/global-styles/typography/base.php:155
+msgid "Style"
+msgstr "Стиль"
+
+#: plugin/elements/preset-sections/tabs.php:42
+msgid "Pills"
+msgstr "Таблетки"
+
+#: plugin/elements/preset-sections/tabs.php:42
+#: plugin/elements/preset-sections/tabs.php:80
+msgid "Bar"
+msgstr "Бар"
+
+#: plugin/elements/preset-sections/tabs.php:58
+msgid "Full Width"
+msgstr "Полная ширина"
+
+#: plugin/elements/preset-sections/tabs.php:72
+msgid "Space After"
+msgstr "Пространство после"
+
+#: plugin/elements/preset-sections/tabs.php:108
+msgid "Pill Radius"
+msgstr "Таблетка Радиус"
+
+#: plugin/elements/preset-sections/tabs.php:136
+#: plugin/global-styles/colors/base.php:27 plugin/wpwidgets/stock/stock.php:20
+#: plugin/wpwidgets/stock/stock.php:31
+msgid "Text"
+msgstr "Текст"
+
+#: plugin/elements/preset-sections/tabs.php:141
+#: plugin/elements/preset-sections/tabs.php:169
+#: plugin/elements/preset-sections/tabs.php:190
+msgid "Hover"
+msgstr "Наведите указатель мыши"
+
+#: plugin/elements/preset-sections/tabs.php:148
+#: plugin/elements/preset-sections/tabs.php:176
+#: plugin/elements/preset-sections/tabs.php:197
+#: plugin/licensing/class.license-key-manager.php:207
+msgid "Active"
+msgstr "Активный"
+
+#: plugin/elements/preset-sections/tabs.php:162
+msgid "Inactive"
+msgstr "Неактивный"
+
+#: plugin/elements/preset-sections/tabs.php:187
+msgid "Underline"
+msgstr "Подчеркнуть"
+
+#: plugin/elements/preset-sections/tabs.php:243
+msgid "Icon"
+msgstr "Икона"
+
+#: plugin/elements/preset-sections/tabs.php:253
+msgid "Nudge"
+msgstr "Подтолкнуть"
+
+#: plugin/elements/preset-sections/tabs.php:256
+#: plugin/global-styles/other/base.php:46
+msgid "Nudge X"
+msgstr "Подтолкнуть X"
+
+#: plugin/elements/preset-sections/tabs.php:263
+#: plugin/global-styles/other/base.php:54
+msgid "Nudge Y"
+msgstr "Подтолкнуть Y"
+
+#: plugin/elements/preset-sections/tabs.php:274
+msgid "After Icon"
+msgstr "После значка"
+
+#: plugin/elements/preset-sections/tabs.php:285
+msgid "Responsive"
+msgstr "Отзывчивый"
+
+#: plugin/elements/preset-sections/tabs.php:288
+msgid "Show as Dropdown"
+msgstr "Показать как раскрывающийся список"
+
+#: plugin/elements/preset-sections/tabs.php:296
+msgid "Visible At"
+msgstr "Видно в"
+
+#: plugin/elements/preset-sections/tabs.php:304
+msgid "Dropdown Styles"
+msgstr "Стили раскрывающегося списка"
+
+#: plugin/elements/preset-sections/tabs.php:335
+msgid "Show Affordance"
+msgstr "Показать доступность"
+
+#: plugin/elements/preset-sections/tabs.php:356
+msgid "Transition Effect"
+msgstr "Эффект перехода"
+
+#: plugin/elements/preset-sections/typography.php:19
+msgid "Stroke Width"
+msgstr "Ширина штриха"
+
+#: plugin/elements/preset-sections/typography.php:28
+msgid "Stroke Color"
+msgstr "Цвет обводки"
+
+#: plugin/elements/preset-sections/typography.php:37
+msgid "Fill"
+msgstr "Наполнять"
+
+#: plugin/elements/preset-sections/typography.php:41
+msgid "Transparent"
+msgstr "Прозрачный"
+
+#: plugin/elements/preset-sections/typography.php:42
+#: plugin/elements/preset-sections/typography.php:51
+#: plugin/global-styles/colors/base.php:67
+msgid "Gradient"
+msgstr "Градиент"
+
+#: plugin/elements/preset-sections/typography.php:43
+#: plugin/elements/preset-sections/typography.php:67
+msgid "Image"
+msgstr "Изображение"
+
+#: plugin/elements/preset-sections/typography.php:86
+msgid "Cover"
+msgstr "Крышка"
+
+#: plugin/elements/preset-sections/typography.php:87
+msgid "Contain"
+msgstr "Содержать"
+
+#: plugin/elements/preset-sections/typography.php:130
+msgid "Repeat"
+msgstr "Повторить"
+
+#: plugin/elements/preset-sections/typography.php:134
+msgid "no-repeat"
+msgstr "не повторяющийся"
+
+#: plugin/elements/preset-sections/typography.php:135
+msgid "repeat"
+msgstr "повторить"
+
+#: plugin/elements/preset-sections/typography.php:136
+msgid "repeat-x"
+msgstr "повторить-х"
+
+#: plugin/elements/preset-sections/typography.php:137
+msgid "repeat-y"
+msgstr "повторение"
+
+#: plugin/elements/preset-sections/typography.php:154
+msgid "Left Top"
+msgstr "Левый верх"
+
+#: plugin/elements/preset-sections/typography.php:155
+msgid "Left Center"
+msgstr "Левый центр"
+
+#: plugin/elements/preset-sections/typography.php:156
+msgid "Left Bottom"
+msgstr "Левый низ"
+
+#: plugin/elements/preset-sections/typography.php:157
+msgid "Right Top"
+msgstr "Правый верх"
+
+#: plugin/elements/preset-sections/typography.php:158
+msgid "Right Center"
+msgstr "Правый центр"
+
+#: plugin/elements/preset-sections/typography.php:159
+msgid "Right Bottom"
+msgstr "Правый низ"
+
+#: plugin/elements/preset-sections/typography.php:160
+msgid "Center Top"
+msgstr "Центр Верх"
+
+#: plugin/elements/preset-sections/typography.php:161
+msgid "Center Center"
+msgstr "Центр Центр"
+
+#: plugin/elements/preset-sections/typography.php:162
+msgid "Center Bottom"
+msgstr "Центр внизу"
+
+#: plugin/elements/preset-sections/typography.php:204
+msgid "Text Shadow"
+msgstr "Текстовая тень"
+
+#: plugin/elements/preset-sections/typography.php:224
+msgid "Effects"
+msgstr "Эффекты"
+
+#: plugin/elements/preset-sections/typography.php:302
+msgid "Justify"
+msgstr "Оправдывать"
+
+#: plugin/elements/universal-controls/advanced.php:17
+msgid "Classes"
+msgstr "Классы"
+
+#: plugin/elements/universal-controls/advanced.php:61
+msgid "Draft"
+msgstr "Черновик"
+
+#: plugin/elements/universal-controls/advanced.php:90
+msgid "Wrapper"
+msgstr "обертка"
+
+#: plugin/elements/universal-controls/advanced.php:100
+msgid "Wrapper Hover"
+msgstr "Обертка при наведении"
+
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:22
+msgid "Hide On Breakpoint"
+msgstr "Скрыть точку останова"
+
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:25
+msgid "Hide"
+msgstr "Скрывать"
+
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:34
+msgid "Greyed Out"
+msgstr "Серый цвет"
+
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:35
+msgid "Hidden"
+msgstr "Скрытый"
+
+#: plugin/elements/universal-controls/html.php:17
+#: plugin/themeless/rules/woocommerce/product-attributes.php:14
+#: plugin/themeless/rules/woocommerce/product-attributes.php:32
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: plugin/elements/universal-controls/html.php:19
+#: plugin/woocommerce/widgets/woo_general.php:70
+msgid "Name"
+msgstr "Имя"
+
+#: plugin/elements/universal-controls/html.php:26
+msgid "Value"
+msgstr "Ценить"
+
+#: plugin/elements/universal-controls/html.php:42
+#: plugin/woocommerce/widgets/woo_filters.php:82
+msgid "Attribute"
+msgstr "Атрибут"
+
+#: plugin/elements/universal-controls/html.php:43
+msgid "Add attribute"
+msgstr "Добавить атрибут"
+
+#: plugin/elements/universal-controls/html.php:74
+msgid "Tag"
+msgstr "Ярлык"
+
+#: plugin/elements/universal-controls/html.php:89
+msgid "ID"
+msgstr "ИДЕНТИФИКАТОР"
+
+#: plugin/elements/universal-controls/html.php:93
+msgid "my-awesome-element"
+msgstr "мой-потрясающий-элемент"
+
+#: plugin/extensions/settings-page.php:17
+#: plugin/extensions/settings-page.php:54
+msgid "Extensions"
+msgstr "Расширения"
+
+#. translators: %s: Extension name
+#: plugin/extensions/settings-page.php:70
+#, php-format
+msgid "%s - License Key"
+msgstr "%s — лицензионный ключ"
+
+#. translators: %s: status text wrapped in styled HTML
+#: plugin/extensions/settings-page.php:82
+#: plugin/extensions/settings-page.php:87
+#: plugin/extensions/settings-page.php:92
+#: plugin/extensions/settings-page.php:97
+#, php-format
+msgid "Your license key is %s."
+msgstr "Ваш лицензионный ключ — %s."
+
+#: plugin/extensions/settings-page.php:83
+msgid "active"
+msgstr "активный"
+
+#: plugin/extensions/settings-page.php:88
+msgid "invalid"
+msgstr "неверный"
+
+#: plugin/extensions/settings-page.php:93
+msgid "inactive"
+msgstr "неактивный"
+
+#: plugin/extensions/settings-page.php:98
+msgid "expired"
+msgstr "истекший"
+
+#: plugin/forms/actions/api-action.php:75
+msgid ""
+"Error requesting data. The service may be down, your settings may be wrong, "
+"or there's a problem with your server"
+msgstr ""
+"Ошибка запроса данных. Возможно, служба не работает, ваши настройки неверны "
+"или возникла проблема с вашим сервером."
+
+#: plugin/forms/actions/api-action.php:100
+msgid "Error accessing resource"
+msgstr "Ошибка доступа к ресурсу"
+
+#: plugin/forms/actions/api-action.php:130
+msgid "Invalid response"
+msgstr "Неверный ответ"
+
+#: plugin/forms/actions/mailchimp.php:235
+msgid "The API key must contain a data center"
+msgstr "Ключ API должен содержать дата-центр"
+
+#: plugin/forms/actions/mailchimp.php:551
+msgid "Error requesting data from MailChimp servers."
+msgstr "Ошибка запроса данных с серверов MailChimp."
+
+#: plugin/forms/actions/mailchimp.php:562
+msgid "Error getting data from MailChimp"
+msgstr "Ошибка получения данных от MailChimp"
+
+#: plugin/forms/custom/custom.php:24
+msgid "An unexpected error occurred."
+msgstr "Произошла непредвиденная ошибка."
+
+#: plugin/forms/custom/custom.php:50
+msgid "Invalid CSRF token"
+msgstr "Неверный токен CSRF"
+
+#: plugin/forms/custom/custom.php:63
+msgid "[reCAPTCHA] Error retrieving token."
+msgstr "[reCAPTCHA] Ошибка при получении токена."
+
+#: plugin/forms/custom/custom.php:71
+msgid "[reCAPTCHA] Invalid challenge. Please reload and try again."
+msgstr ""
+"[reCAPTCHA] Неверный запрос. Пожалуйста, перезагрузите компьютер и "
+"попробуйте еще раз."
+
+#. translators: %s: Field label
+#: plugin/forms/custom/custom.php:477 plugin/forms/custom/custom.php:495
+#, php-format
+msgid "%s is required."
+msgstr "Требуется %s."
+
+#: plugin/forms/custom/custom.php:483
+msgid "Please enter a valid email address."
+msgstr "Пожалуйста, введите действительный адрес электронной почты."
+
+#. translators: 1: Field label, 2: Maximum number of files
+#: plugin/forms/custom/custom.php:506
+#, php-format
+msgid "%1$s may not have more than %2$s file(s)."
+msgstr "%1$s может содержать не более %2$s файлов."
+
+#. translators: 1: Field label, 2: Maximum file size in megabytes
+#: plugin/forms/custom/custom.php:526
+#, php-format
+msgid "%1$s must be less than %2$s megabytes."
+msgstr "Размер %1$s должен быть меньше %2$s мегабайт."
+
+#. translators: 1: Field label, 2: Allowed file types (comma-separated list)
+#: plugin/forms/custom/custom.php:532
+#, php-format
+msgid "%1$s must be a file of type: %2$s"
+msgstr "%1$s должен быть файлом типа: %2$s."
+
+#. translators: %s: Field ID
+#: plugin/forms/custom/custom.php:543
+#, php-format
+msgid "Unexpected file with id: %s"
+msgstr "Неожиданный файл с идентификатором: %s."
+
+#: plugin/global-styles/advanced/base.php:14
+msgid "CSS"
+msgstr "CSS"
+
+#: plugin/global-styles/advanced/base.php:15
+msgid "CSS Code"
+msgstr "CSS-код"
+
+#: plugin/global-styles/advanced/base.php:18
+msgid "Stylesheet"
+msgstr "Таблица стилей"
+
+#: plugin/global-styles/advanced/base.php:19
+msgid "Add Stylesheet"
+msgstr "Добавить таблицу стилей"
+
+#: plugin/global-styles/advanced/base.php:22
+msgid "Scripts"
+msgstr "Скрипты"
+
+#: plugin/global-styles/advanced/base.php:23
+msgid "JavaScript Code"
+msgstr "JavaScript-код"
+
+#: plugin/global-styles/advanced/base.php:26
+msgid "Javascript"
+msgstr "Javascript"
+
+#: plugin/global-styles/advanced/base.php:27
+msgid "Add Javascript"
+msgstr "Добавить Javascript"
+
+#: plugin/global-styles/buttons/base.php:18
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: plugin/global-styles/buttons/base.php:20
+msgid "Primary"
+msgstr "Начальный"
+
+#: plugin/global-styles/buttons/base.php:21
+msgid "Secondary"
+msgstr "вторичный"
+
+#: plugin/global-styles/buttons/base.php:35
+#: plugin/global-styles/typography/base.php:20
+msgid "Presets"
+msgstr "Пресеты"
+
+#: plugin/global-styles/buttons/base.php:39
+msgid "Button Presets"
+msgstr "Предварительные настройки кнопок"
+
+#: plugin/global-styles/buttons/base.php:43
+#: plugin/global-styles/typography/base.php:28
+msgid "Preset Name"
+msgstr "Имя предустановки"
+
+#: plugin/global-styles/buttons/base.php:46
+msgid "Styles"
+msgstr "Стили"
+
+#: plugin/global-styles/buttons/base.php:52
+#: plugin/global-styles/typography/base.php:49
+msgid "Preset"
+msgstr "Предустановка"
+
+#: plugin/global-styles/buttons/base.php:53
+#: plugin/global-styles/typography/base.php:50
+msgid "Add Preset"
+msgstr "Добавить пресет"
+
+#. translators: preset number
+#: plugin/global-styles/buttons/base.php:57
+#, php-format
+msgid "Preset %s"
+msgstr "Предустановленный %s"
+
+#: plugin/global-styles/buttons/base.php:60
+#: plugin/global-styles/typography/base.php:58
+msgid "Are you sure you want to delete this preset?"
+msgstr "Вы уверены, что хотите удалить эту предустановку?"
+
+#: plugin/global-styles/colors/base.php:15
+#: plugin/global-styles/colors/base.php:61
+msgid "Colors"
+msgstr "Цвета"
+
+#: plugin/global-styles/colors/base.php:18
+msgid "Brand"
+msgstr "Бренд"
+
+#: plugin/global-styles/colors/base.php:35
+#: plugin/global-styles/typography/base.php:117
+msgid "Headings"
+msgstr "Заголовки"
+
+#: plugin/global-styles/colors/base.php:43
+#: plugin/global-styles/typography/base.php:134
+msgid "Links"
+msgstr "Ссылки"
+
+#: plugin/global-styles/colors/base.php:59
+msgid "Palette"
+msgstr "Палитра"
+
+#: plugin/global-styles/colors/base.php:62
+msgid "Gradients"
+msgstr "Градиенты"
+
+#: plugin/global-styles/containers/base.php:15
+msgid "Containers"
+msgstr "Контейнеры"
+
+#: plugin/global-styles/containers/base.php:16
+msgid "Sections"
+msgstr "Разделы"
+
+#: plugin/global-styles/containers/base.php:17
+msgid "Container Width"
+msgstr "Ширина контейнера"
+
+#: plugin/global-styles/containers/base.php:18
+msgid "Vertical Padding"
+msgstr "Вертикальное отступы"
+
+#: plugin/global-styles/containers/base.php:19
+msgid "Horizontal Padding"
+msgstr "Горизонтальное отступы"
+
+#: plugin/global-styles/containers/base.php:21
+msgid "Column Gap"
+msgstr "Столбец разрыв"
+
+#: plugin/global-styles/forms/base.php:12
+msgid "Forms"
+msgstr "Формы"
+
+#: plugin/global-styles/other/base.php:18
+msgid "Transition Duration"
+msgstr "Продолжительность перехода"
+
+#: plugin/global-styles/other/base.php:29
+msgid "Skip Link"
+msgstr "Пропустить ссылку"
+
+#: plugin/global-styles/other/base.php:79
+#: plugin/themeless/rules/conditions/custom-php.php:19
+#: plugin/themeless/rules/conditions/dynamic-data.php:21
+#: plugin/themeless/rules/conditions/misc.php:23
+#: plugin/themeless/rules/conditions/misc.php:74
+#: plugin/themeless/rules/conditions/misc.php:123
+#: plugin/themeless/rules/conditions/misc.php:155
+#: plugin/themeless/rules/other/misc.php:33
+#: plugin/themeless/rules/other/misc.php:74
+#: plugin/themeless/rules/other/misc.php:108
+msgid "Other"
+msgstr "Другой"
+
+#: plugin/global-styles/typography/base.php:24
+msgid "Typography Presets"
+msgstr "Пресеты типографики"
+
+#: plugin/global-styles/typography/base.php:78
+msgid "Heading Font"
+msgstr "Шрифт заголовка"
+
+#: plugin/global-styles/typography/base.php:86
+msgid "Body Font"
+msgstr "Основной шрифт"
+
+#: plugin/global-styles/typography/base.php:95
+msgid "Base Size"
+msgstr "Базовый размер"
+
+#: plugin/global-styles/typography/base.php:104
+msgid "Ratio"
+msgstr "Соотношение"
+
+#: plugin/global-styles/typography/base.php:114
+msgid "Body"
+msgstr "Тело"
+
+#: plugin/global-styles/typography/base.php:119
+msgid "All Headings"
+msgstr "Все рубрики"
+
+#: plugin/global-styles/typography/base.php:120
+msgid "H1"
+msgstr "H1"
+
+#: plugin/global-styles/typography/base.php:121
+msgid "H2"
+msgstr "Н2"
+
+#: plugin/global-styles/typography/base.php:122
+msgid "H3"
+msgstr "Н3"
+
+#: plugin/global-styles/typography/base.php:123
+msgid "H4"
+msgstr "Н4"
+
+#: plugin/global-styles/typography/base.php:124
+msgid "H5"
+msgstr "Н5"
+
+#: plugin/global-styles/typography/base.php:125
+msgid "H6"
+msgstr "Н6"
+
+#: plugin/global-styles/typography/base.php:137
+msgid "Font Weight"
+msgstr "Вес шрифта"
+
+#: plugin/global-styles/typography/base.php:152
+msgid "Decoration"
+msgstr "Украшение"
+
+#: plugin/global-styles/typography/base.php:171
+msgid "Line"
+msgstr "Линия"
+
+#: plugin/global-styles/typography/base.php:180
+msgid "Thickness"
+msgstr "Толщина"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:17
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:58
+msgid "Custom Code"
+msgstr "Пользовательский код"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:74
+msgid "Header Code"
+msgstr "Код заголовка"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:82
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:105
+msgid "Send to CodeBox"
+msgstr "Отправить в CodeBox"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:83
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:106
+msgid "Open CodeBox"
+msgstr "Открыть кодовый ящик"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:85
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:108
+msgid "Clear Code"
+msgstr "Очистить код"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:90
+msgid "This code will be inserted inside the <head> tag."
+msgstr "Этот код будет вставлен внутри тега <head>."
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:96
+msgid "Footer Code"
+msgstr "Код нижнего колонтитула"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:113
+msgid "This code will be inserted near the closing </body> tag."
+msgstr "Этот код будет вставлен рядом с закрывающим тегом </body>."
+
+#: plugin/interactions/actions/add-class.php:17
+msgid "Add Class"
+msgstr "Добавить класс"
+
+#: plugin/interactions/actions/add-class.php:37
+#: plugin/interactions/actions/remove-class.php:37
+#: plugin/interactions/actions/toggle-class.php:37
+msgid "CSS Class"
+msgstr "CSS-класс"
+
+#: plugin/interactions/actions/control-popup.php:17
+msgid "Control Popup"
+msgstr "Всплывающее окно управления"
+
+#: plugin/interactions/actions/control-popup.php:37
+#: plugin/themeless/popups.cpt.php:17
+msgid "Popup"
+msgstr "Неожиданно возникнуть"
+
+#: plugin/interactions/actions/control-popup.php:41
+msgid "Popup Action"
+msgstr "Всплывающее действие"
+
+#: plugin/interactions/actions/control-popup.php:45
+msgid "Open"
+msgstr "Открыть"
+
+#: plugin/interactions/actions/control-popup.php:46
+msgid "Close"
+msgstr "Закрывать"
+
+#: plugin/interactions/actions/control-popup.php:47
+msgid "Toggle"
+msgstr "Переключать"
+
+#: plugin/interactions/actions/control-slider.php:17
+msgid "Control Slider"
+msgstr "Ползунок управления"
+
+#: plugin/interactions/actions/control-slider.php:37
+msgid "Action"
+msgstr "Действие"
+
+#: plugin/interactions/actions/control-slider.php:41
+msgid "Next Slide"
+msgstr "Следующий слайд"
+
+#: plugin/interactions/actions/control-slider.php:42
+msgid "Previous Slide"
+msgstr "Предыдущий слайд"
+
+#: plugin/interactions/actions/control-slider.php:43
+msgid "Go to Slide"
+msgstr "Перейти к слайду"
+
+#: plugin/interactions/actions/focus.php:17
+msgid "Focus"
+msgstr "Фокус"
+
+#: plugin/interactions/actions/hide-element.php:16
+msgid "Hide Element"
+msgstr "Скрыть элемент"
+
+#: plugin/interactions/actions/javascript-function.php:17
+msgid "JavaScript Function"
+msgstr "Функция JavaScript"
+
+#: plugin/interactions/actions/javascript-function.php:37
+msgid "JS Function Name"
+msgstr "Имя функции JS"
+
+#: plugin/interactions/actions/remove-attribute.php:17
+msgid "Remove Attribute"
+msgstr "Удалить атрибут"
+
+#: plugin/interactions/actions/remove-attribute.php:37
+#: plugin/interactions/actions/set-attribute.php:37
+#: plugin/interactions/actions/toggle-attribute.php:37
+msgid "Attribute Name"
+msgstr "Имя атрибута"
+
+#: plugin/interactions/actions/remove-class.php:17
+msgid "Remove Class"
+msgstr "Удалить класс"
+
+#: plugin/interactions/actions/scroll-to.php:17
+msgid "Scroll To"
+msgstr "Прокрутить до"
+
+#: plugin/interactions/actions/scroll-to.php:37
+msgid "Scroll Offset"
+msgstr "Смещение прокрутки"
+
+#: plugin/interactions/actions/scroll-to.php:40
+msgid "Scroll Delay"
+msgstr "Задержка прокрутки"
+
+#: plugin/interactions/actions/set-attribute.php:17
+msgid "Set Attribute"
+msgstr "Установить атрибут"
+
+#: plugin/interactions/actions/set-attribute.php:41
+#: plugin/interactions/actions/toggle-attribute.php:41
+msgid "Attribute Value"
+msgstr "Значение атрибута"
+
+#: plugin/interactions/actions/set-variable.php:17
+msgid "Set Variable"
+msgstr "Установить переменную"
+
+#: plugin/interactions/actions/set-variable.php:37
+msgid "Variable Name"
+msgstr "Имя переменной"
+
+#: plugin/interactions/actions/set-variable.php:41
+msgid "Variable Value"
+msgstr "Значение переменной"
+
+#: plugin/interactions/actions/show-element.php:16
+msgid "Show Element"
+msgstr "Показать элемент"
+
+#: plugin/interactions/actions/start-animation.php:17
+msgid "Start Animation"
+msgstr "Запустить анимацию"
+
+#: plugin/interactions/actions/start-animation.php:37
+msgid "Animation"
+msgstr "Анимация"
+
+#: plugin/interactions/actions/toggle-attribute.php:17
+msgid "Toggle Attribute"
+msgstr "Переключить атрибут"
+
+#: plugin/interactions/actions/toggle-class.php:17
+msgid "Toggle Class"
+msgstr "Переключить класс"
+
+#: plugin/interactions/actions/toggle-element.php:16
+msgid "Toggle Element"
+msgstr "Переключить элемент"
+
+#: plugin/interactions/control.php:22 plugin/interactions/control.php:24
+msgid "Interactions"
+msgstr "Взаимодействия"
+
+#: plugin/interactions/triggers/click.php:16
+msgid "Click"
+msgstr "Нажмите"
+
+#: plugin/interactions/triggers/dropdown-menu-opens.php:16
+msgid "Dropdown Menu Opens"
+msgstr "Откроется раскрывающееся меню"
+
+#: plugin/interactions/triggers/form-submit.php:16
+msgid "Form Submit"
+msgstr "Отправить форму"
+
+#: plugin/interactions/triggers/key-down.php:17
+msgid "Key Down"
+msgstr "Ключ вниз"
+
+#: plugin/interactions/triggers/key-down.php:41
+#: plugin/interactions/triggers/key-up.php:41
+msgid "CTRL"
+msgstr "CTRL"
+
+#: plugin/interactions/triggers/key-down.php:45
+#: plugin/interactions/triggers/key-up.php:45
+msgid "Shift"
+msgstr "Сдвиг"
+
+#: plugin/interactions/triggers/key-up.php:17
+msgid "Key Up"
+msgstr "Ключ вверх"
+
+#: plugin/interactions/triggers/mobile-menu-opens.php:16
+msgid "Mobile Menu Opens"
+msgstr "Открывается мобильное меню"
+
+#: plugin/interactions/triggers/mouse-enter.php:16
+msgid "Mouse Enter"
+msgstr "Мышь Ввод"
+
+#: plugin/interactions/triggers/mouse-leave-window.php:16
+msgid "Mouse Leave Window"
+msgstr "Мышь выйти из окна"
+
+#: plugin/interactions/triggers/mouse-leave.php:16
+msgid "Mouse Leave"
+msgstr "Мышь Уйти"
+
+#: plugin/interactions/triggers/mouse-move-in-viewport.php:16
+msgid "Mouse Move In Viewport"
+msgstr "Перемещение мыши в окне просмотра"
+
+#: plugin/interactions/triggers/page-loaded.php:16
+msgid "Page Loaded"
+msgstr "Страница загружена"
+
+#: plugin/interactions/triggers/page-scrolled.php:16
+msgid "Page Scrolled"
+msgstr "Страница прокручена"
+
+#: plugin/interactions/triggers/scroll-into-view.php:16
+msgid "Scroll Into View"
+msgstr "Прокрутить до просмотра"
+
+#: plugin/interactions/triggers/slider-change.php:16
+msgid "Slider Change"
+msgstr "Изменение слайдера"
+
+#: plugin/interactions/triggers/tab-change.php:16
+msgid "Tab Change"
+msgstr "Изменение вкладки"
+
+#: plugin/interactions/triggers/visibility-change.php:16
+msgid "Visibility Change"
+msgstr "Изменение видимости"
+
+#: plugin/licensing/class.license-key-manager.php:193
+#: plugin/licensing/class.license-key-manager.php:194
+#: plugin/licensing/class.license-key-manager.php:195
+#: plugin/licensing/class.license-key-manager.php:196
+#: plugin/licensing/class.license-key-manager.php:231
+msgid "Unknown"
+msgstr "Неизвестный"
+
+#: plugin/licensing/class.license-key-manager.php:205
+#: plugin/licensing/class.license-key-manager.php:206
+msgid "Not activated"
+msgstr "Не активировано"
+
+#: plugin/licensing/class.license-key-manager.php:208
+msgid "Invalid key"
+msgstr "Неверный ключ"
+
+#: plugin/licensing/class.license-key-manager.php:209
+msgid "License key revoked"
+msgstr "Лицензионный ключ отозван"
+
+#: plugin/licensing/class.license-key-manager.php:210
+msgid "License has expired"
+msgstr "Срок действия лицензии истек"
+
+#: plugin/licensing/class.license-key-manager.php:211
+#: plugin/licensing/class.license-key-manager.php:212
+msgid "License is not valid for this product"
+msgstr "Лицензия недействительна для этого продукта"
+
+#. translators: %s: plugin name
+#: plugin/licensing/class.license-key-manager.php:219
+#, php-format
+msgid "%s Pro"
+msgstr "%s профессионал"
+
+#. translators: %s: plugin name
+#: plugin/licensing/class.license-key-manager.php:221
+#, php-format
+msgid "%s Free"
+msgstr "%s бесплатно"
+
+#: plugin/licensing/class.license-key-manager.php:222
+msgid "Valid"
+msgstr "Действительный"
+
+#: plugin/licensing/class.license-key-manager.php:222
+msgid "Invalid"
+msgstr "Неверный"
+
+#: plugin/licensing/class.license-key-manager.php:226
+msgid "n/a"
+msgstr "н/д"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:8
+#: plugin/woocommerce/settings/settings-tab.php:58
+msgid "Disabled"
+msgstr "Неполноценный"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:9
+msgid "(200) Coming Soon"
+msgstr "(200) Скоро в продаже"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:10
+msgid "(503) Maintenance"
+msgstr "(503) Техническое обслуживание"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:14
+msgid "Logged in"
+msgstr "Вошёл в систему"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:15
+msgid "Logged in with role"
+msgstr "Вошёл с ролью"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:28
+#: plugin/themeless/theme-simulator/maintenance-mode.php:32
+msgid "Maintenance"
+msgstr "Обслуживание"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:33
+msgid "Mode"
+msgstr "Режим"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:51
+msgid "Select a page&hellip;"
+msgstr "Выберите страницу&hellip;"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:63
+msgid "This will be displayed to the user when maintenance mode is enabled."
+msgstr ""
+"Это будет отображаться пользователю при включении режима обслуживания."
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:71
+msgid "Access Control"
+msgstr "Контроль доступа"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:72
+msgid ""
+"Users can bypass maintenance mode using any of the options listed below."
+msgstr ""
+"Пользователи могут обойти режим обслуживания, используя любой из вариантов, "
+"перечисленных ниже."
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:77
+msgid "Authentication Status"
+msgstr "Статус аутентификации"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:95
+msgid "User Roles"
+msgstr "Роли пользователей"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:119
+msgid "URL param"
+msgstr "URL-параметр"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:129
+msgid "Enable URL Param"
+msgstr "Включить параметр URL-адреса"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:136
+msgid "key"
+msgstr "ключ"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:143
+msgid "value"
+msgstr "ценить"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:153
+msgid "Copy"
+msgstr "Копировать"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:159
+msgid ""
+"Users with any of the URL parameters defined above set will have access to "
+"the site."
+msgstr ""
+"Пользователи с любым из параметров URL, определенных выше, будут иметь "
+"доступ к сайту."
+
+#: plugin/maintenance-mode/maintenance-mode-tab.php:16
+msgid "Maintenance Mode"
+msgstr "Режим обслуживания"
+
+#: plugin/maintenance-mode/maintenance-mode.php:229
+msgid "Maintenance Mode ON"
+msgstr "Режим обслуживания ВКЛ."
+
+#: plugin/permissions/permissions.php:38
+msgid "Full Interface"
+msgstr "Полный интерфейс"
+
+#: plugin/permissions/permissions.php:43
+msgid "Edit Content Interface Only"
+msgstr "Только интерфейс редактирования контента"
+
+#: plugin/permissions/permissions.php:48
+msgid "No Access"
+msgstr "Нет доступа"
+
+#: plugin/permissions/settings-tab.php:16
+#: plugin/permissions/settings-tab.php:87
+msgid "User Access"
+msgstr "Доступ пользователя"
+
+#: plugin/permissions/settings-tab.php:92
+msgid ""
+"Set builder access and user interface mode by user role. Set on a per-user "
+"basis from the Edit User screen."
+msgstr ""
+"Установите доступ для разработчиков и режим пользовательского интерфейса по "
+"роли пользователя. Устанавливается индивидуально для каждого пользователя на"
+" экране «Редактировать пользователя»."
+
+#. translators: %s: Link to security documentation
+#: plugin/permissions/settings-tab.php:97
+#, php-format
+msgid ""
+"Do not grant <strong>Edit Content Interface Only</strong> access to "
+"untrusted users. This access simplifies the user interface, but does not <a "
+"href=\"%s\" target=\"_blank\">restrict privileges</a>."
+msgstr ""
+"Не предоставляйте доступ <strong>Только к интерфейсу редактирования "
+"контента</strong> ненадежным пользователям. Этот доступ упрощает "
+"пользовательский интерфейс, но не <a href=\"%s\" "
+"target=\"_blank\">ограничивает привилегии</a>."
+
+#: plugin/permissions/settings-tab.php:116
+msgid "Impersonate a user with <strong>Edit Content</strong> access."
+msgstr ""
+"Выдать себя за пользователя с доступом <strong>Редактировать "
+"контент</strong>."
+
+#: plugin/permissions/settings-tab.php:118
+msgid ""
+"The next time you open the Builder, you will experience it with the Edit "
+"Content access."
+msgstr ""
+"В следующий раз, когда вы откроете Builder, вы увидите его с доступом к "
+"редактированию контента."
+
+#: plugin/permissions/user-profile.php:58
+msgid "Builder Access"
+msgstr "Доступ строителя"
+
+#: plugin/permissions/user-profile.php:71
+msgid ""
+"It's not possible to restrict access for administrators, please give the "
+"user another role."
+msgstr ""
+"Ограничить доступ администраторов невозможно, дайте пользователю другую "
+"роль."
+
+#: plugin/setup-wizard/onboarding-notice.php:231
+msgid "Welcome to Breakdance!"
+msgstr "Добро пожаловать в Брейкданс!"
+
+#: plugin/setup-wizard/onboarding-notice.php:233
+msgid "Let's get you up to speed."
+msgstr "Давайте введем вас в курс дела."
+
+#: plugin/setup-wizard/onboarding-notice.php:248
+msgid "Dismiss"
+msgstr "Увольнять"
+
+#: plugin/setup-wizard/onboarding-notice.php:270
+msgid "BETA"
+msgstr "БЕТА"
+
+#: plugin/setup-wizard/onboarding-notice.php:274
+msgid "Our quickstart guide will help you get started with Breakdance."
+msgstr "Наше краткое руководство поможет вам начать заниматься брейк-дансом."
+
+#: plugin/setup-wizard/onboarding-notice.php:280
+msgid "Get Started"
+msgstr "Начать"
+
+#: plugin/setup-wizard/onboarding-notice.php:298
+msgid "Learn Breakdance"
+msgstr "Изучите брейк-данс"
+
+#: plugin/setup-wizard/onboarding-notice.php:300
+msgid "Our tutorials are designed to be convenient and straightforward."
+msgstr "Наши обучающие программы созданы для удобства и простоты."
+
+#: plugin/setup-wizard/onboarding-notice.php:306
+msgid "See Tutorials"
+msgstr "См. руководства"
+
+#: plugin/setup-wizard/onboarding-notice.php:323
+msgid "Join Facebook group"
+msgstr "Присоединяйтесь к группе Facebook"
+
+#: plugin/setup-wizard/onboarding-notice.php:325
+msgid "Our Facebook group has over 5000 happy and helpful members."
+msgstr ""
+"В нашей группе Facebook более 5000 счастливых и отзывчивых участников."
+
+#: plugin/setup-wizard/onboarding-notice.php:331
+msgid "Join Group"
+msgstr "Присоединиться к группе"
+
+#: plugin/setup-wizard/onboarding-notice.php:348
+msgid "Subscribe to YouTube"
+msgstr "Подписаться на YouTube"
+
+#: plugin/setup-wizard/onboarding-notice.php:350
+msgid "We are constantly releasing new tutorials on our YouTube channel."
+msgstr "Мы постоянно публикуем новые уроки на нашем YouTube-канале."
+
+#: plugin/setup-wizard/onboarding-notice.php:356
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: plugin/setup-wizard/onboarding-notice.php:382
+msgid "We post frequent updates on X"
+msgstr "Мы часто публикуем обновления на X"
+
+#: plugin/setup-wizard/setup-wizard-page.php:10
+msgid "Setup Wizard"
+msgstr "Мастер установки"
+
+#: plugin/setup-wizard/setup-wizard-page.php:160
+msgid "Breakdance Setup Wizard"
+msgstr "Мастер настройки брейк-данса"
+
+#: plugin/setup-wizard/setup-wizard-page.php:190
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:63
+msgid "Disable Theme"
+msgstr "Отключить тему"
+
+#: plugin/setup-wizard/setup-wizard-page.php:190
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:63
+msgid "recommended"
+msgstr "рекомендуется"
+
+#: plugin/setup-wizard/setup-wizard-page.php:191
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:64
+msgid ""
+"Design every part of your site with Breakdance. Disabling your theme gives "
+"you the best performance and maximum flexibility."
+msgstr ""
+"Создайте каждую часть вашего сайта с помощью брейкданса. Отключение темы "
+"обеспечивает наилучшую производительность и максимальную гибкость."
+
+#: plugin/setup-wizard/setup-wizard-page.php:196
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:70
+msgid "Keep Theme"
+msgstr "Сохранить тему"
+
+#: plugin/setup-wizard/setup-wizard-page.php:197
+msgid ""
+"The design of your existing site won't be affected. Your theme's styles may "
+"affect the design of Breakdance elements."
+msgstr ""
+"Дизайн вашего существующего сайта не пострадает. Стили вашей темы могут "
+"влиять на дизайн элементов брейк-данса."
+
+#: plugin/setup-wizard/setup-wizard-page.php:203
+msgid "You can change this at any time from Breakdance → Settings → Theme"
+msgstr ""
+"Вы можете изменить это в любой момент в разделе «Брейк-данс» → «Настройки» →"
+" «Тема»."
+
+#: plugin/setup-wizard/setup-wizard-page.php:211
+msgid ""
+"Clean Common Bloat - dashicons for logged out users, disable Gutenberg CSS, "
+"and disable WP Emoji JS."
+msgstr ""
+"Очистите Common Bloat — значки Dashicons для вышедших из системы "
+"пользователей, отключите Gutenberg CSS и отключите WP Emoji JS."
+
+#: plugin/setup-wizard/setup-wizard-page.php:212
+msgid "No"
+msgstr "Нет"
+
+#: plugin/setup-wizard/setup-wizard-page.php:215
+msgid ""
+"You can change this at any time from Breakdance → Settings → Performance."
+msgstr ""
+"Вы можете изменить это в любой момент в разделе «Брейк-данс» → «Настройки» →"
+" «Производительность»."
+
+#: plugin/setup-wizard/setup-wizard-page.php:223
+msgid "License Key (optional)"
+msgstr "Лицензионный ключ (необязательно)"
+
+#. translators: %s: Link to customer portal
+#: plugin/setup-wizard/setup-wizard-page.php:227
+#, php-format
+msgid ""
+"If you purchased Breakdance, enter your license key here. You can find your "
+"license key at %s."
+msgstr ""
+"Если вы приобрели Breakdance, введите здесь свой лицензионный ключ. Вы "
+"можете найти свой лицензионный ключ по адресу %s."
+
+#. translators: %s: Error message
+#: plugin/setup-wizard/setup-wizard-page.php:235
+#, php-format
+msgid "Failed to activate the key: %s"
+msgstr "Не удалось активировать ключ: %s"
+
+#: plugin/setup-wizard/setup-wizard-page.php:245
+msgid "AnalyticsWP Plugin Integration"
+msgstr "Интеграция плагинов AnalyticsWP"
+
+#: plugin/setup-wizard/setup-wizard-page.php:251
+msgid "Install AnalyticsWP Plugin"
+msgstr "Установите плагин AnalyticsWP"
+
+#: plugin/setup-wizard/setup-wizard-page.php:252
+msgid ""
+"View the complete customer journey for visitors that submit Breakdance "
+"forms, or use the AnalyticsWP Event element to track user activity on a "
+"page."
+msgstr ""
+"Просмотрите полный путь клиента для посетителей, отправляющих формы брейк-"
+"данса, или используйте элемент AnalyticsWP Event для отслеживания активности"
+" пользователей на странице."
+
+#. translators: 1: Opening <a> tag for documentation, 2: Closing </a> tag, 3:
+#. Opening <a> tag for plugin homepage, 4: Closing </a> tag
+#: plugin/setup-wizard/setup-wizard-page.php:256
+#, php-format
+msgid ""
+"Read the %1$sBreakdance AnalyticsWP integration documentation%2$s or visit "
+"the %3$sAnalyticsWP Plugin Homepage%4$s for more information."
+msgstr ""
+"Прочтите документацию по интеграции %1$s Breakdance AnalyticsWP %2$s или "
+"посетите домашнюю страницу плагина %3$s AnalyticsWP %4$s для получения "
+"дополнительной информации."
+
+#: plugin/setup-wizard/setup-wizard-page.php:262
+msgid "Don't Install"
+msgstr "Не устанавливать"
+
+#: plugin/setup-wizard/setup-wizard-page.php:263
+msgid "AnalyticsWP will not be automatically installed."
+msgstr "AnalyticsWP не будет установлен автоматически."
+
+#: plugin/setup-wizard/setup-wizard-page.php:271
+msgid "Improve Breakdance"
+msgstr "Улучшить брейк-данс"
+
+#: plugin/setup-wizard/setup-wizard-page.php:276
+msgid "Yes, I want to help improve Breakdance"
+msgstr "Да, я хочу помочь улучшить брейкданс"
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag
+#: plugin/setup-wizard/setup-wizard-page.php:280
+#, php-format
+msgid ""
+"By allowing us to %1$scollect usage data%2$s, you help us make Breakdance "
+"better for everyone."
+msgstr ""
+"Разрешая нам %1$s собирать данные об использовании%2$s, вы помогаете нам "
+"сделать брейк-данс лучше для всех."
+
+#: plugin/setup-wizard/setup-wizard-page.php:285
+msgid "You can change this at any time from Breakdance → Settings → Privacy"
+msgstr ""
+"Вы можете изменить это в любой момент в разделе «Брейк-данс» → «Настройки» →"
+" «Конфиденциальность»."
+
+#: plugin/setup-wizard/setup-wizard-page.php:306
+msgid "Finish Setup"
+msgstr "Завершить настройку"
+
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:101
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас недостаточно прав для доступа к этой странице."
+
+#. translators: %s is the plugin name (Breakdance or Oxygen)
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:111
+#, php-format
+msgid "%s database has been updated successfully!"
+msgstr "База данных %s успешно обновлена!"
+
+#. translators: %s is the plugin name (Breakdance or Oxygen)
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:122
+#, php-format
+msgid "%s Database Update Required"
+msgstr "Требуется обновление базы данных %s"
+
+#. translators: %s is the plugin name (Breakdance or Oxygen)
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:125
+#, php-format
+msgid ""
+"%s has been updated! The next step is to run the database updater to ensure "
+"that all data is migrated correctly."
+msgstr ""
+"%s был обновлен! Следующим шагом является запуск средства обновления базы "
+"данных, чтобы убедиться, что все данные перенесены правильно."
+
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:127
+msgid "Update database now"
+msgstr "Обновить базу данных сейчас"
+
+#: plugin/setup/replace-url.php:29
+msgid "The URLs must be different."
+msgstr "URL-адреса должны быть разными."
+
+#: plugin/setup/replace-url.php:33
+msgid "The `From` URL is invalid."
+msgstr "URL-адрес «От» недействителен."
+
+#: plugin/setup/replace-url.php:37
+msgid "The `To` URL is invalid."
+msgstr "URL-адрес «Кому» недействителен."
+
+#: plugin/setup/replace-url.php:72
+msgid "Failed to replace URLs in post data"
+msgstr "Не удалось заменить URL-адреса в данных публикации."
+
+#: plugin/setup/replace-url.php:117
+msgid "We detected you've changed the site URL."
+msgstr "Мы обнаружили, что вы изменили URL-адрес сайта."
+
+#: plugin/setup/replace-url.php:118
+msgid "Old URL:"
+msgstr "Старый URL:"
+
+#: plugin/setup/replace-url.php:119
+msgid "New URL:"
+msgstr "Новый URL-адрес:"
+
+#: plugin/setup/replace-url.php:121
+msgid "Would you like to run the Replace URL Tool now?"
+msgstr "Хотите запустить инструмент замены URL-адреса сейчас?"
+
+#: plugin/setup/replace-url.php:124
+msgid "Yes, Take Me There"
+msgstr "Да, отвези меня туда"
+
+#: plugin/setup/settings-page.php:13 plugin/setup/settings-page.php:103
+msgid "Tools"
+msgstr "Инструменты"
+
+#: plugin/setup/settings-page.php:39 plugin/setup/settings-page.php:46
+msgid "Failed to upload a file"
+msgstr "Не удалось загрузить файл"
+
+#: plugin/setup/settings-page.php:54
+msgid "Invalid export data"
+msgstr "Неверные данные экспорта"
+
+#: plugin/setup/settings-page.php:60
+msgid "Error importing settings"
+msgstr "Ошибка импорта настроек."
+
+#: plugin/setup/settings-page.php:64
+msgid "Settings imported"
+msgstr "Настройки импортированы."
+
+#. translators: %s is the number of database rows affected by the URL
+#. replacement
+#: plugin/setup/settings-page.php:84
+#, php-format
+msgid "%s rows affected."
+msgstr "Затронуто %s строк."
+
+#. translators: %s is the error message
+#: plugin/setup/settings-page.php:96
+#, php-format
+msgid "Error regenerating font files: %s"
+msgstr "Ошибка при восстановлении файлов шрифтов: %s"
+
+#: plugin/setup/settings-page.php:112
+msgid "Soft Reset Succeeded"
+msgstr "Мягкий сброс выполнен успешно"
+
+#: plugin/setup/settings-page.php:120
+msgid "Meta Migration Successful"
+msgstr "Мета-миграция прошла успешно"
+
+#: plugin/setup/settings-page.php:128
+msgid "Undo Meta Migration Successful"
+msgstr "Отменить мета-миграцию успешно"
+
+#: plugin/setup/settings-page.php:134
+msgid "Total Reset Succeeded"
+msgstr "Полный сброс успешен"
+
+#. translators: %s is the filesystem error message
+#: plugin/setup/settings-page.php:146
+#, php-format
+msgid "Failed to create directories. %s"
+msgstr "Не удалось создать каталоги. %s"
+
+#: plugin/setup/settings-page.php:148
+msgid "All directories have been successfully created."
+msgstr "Все каталоги успешно созданы."
+
+#: plugin/setup/settings-page.php:185 plugin/setup/settings-page.php:191
+msgid "Migrate Meta"
+msgstr "Перенести мета"
+
+#: plugin/setup/settings-page.php:195
+msgid "Migrate your post meta key names to the new format."
+msgstr "Перенесите имена метаключей сообщений в новый формат."
+
+#: plugin/setup/settings-page.php:201
+msgid "Undo Migrate Meta & Downgrade to 1.7.2"
+msgstr "Отменить миграцию мета и перейти на версию 1.7.2"
+
+#: plugin/setup/settings-page.php:207
+msgid "Undo Migrate Meta"
+msgstr "Отменить перенос метаданных"
+
+#: plugin/setup/settings-page.php:211
+msgid ""
+"Restore your post meta key names the way they were before the migration."
+msgstr ""
+"Восстановите имена метаключей сообщений такими, какими они были до миграции."
+
+#: plugin/setup/settings-page.php:212
+msgid "You <b>must</b> downgrade to Breakdance <b>1.7.2</b> afterwards."
+msgstr ""
+"После этого вы <b>должны</b> перейти на версию Breakdance <b>1.7.2</b>."
+
+#: plugin/setup/settings-page.php:221
+msgid "Regenerate CSS Cache"
+msgstr "Восстановить CSS-кеш"
+
+#: plugin/setup/settings-page.php:231 plugin/setup/settings-page.php:237
+msgid "Soft Reset"
+msgstr "Мягкий сброс"
+
+#: plugin/setup/settings-page.php:243
+msgid "Reset Icon Sets to factory defaults."
+msgstr "Значок сброса Возврат к заводским настройкам."
+
+#: plugin/setup/settings-page.php:245
+msgid "Reset Icon Sets and fallback default templates to factory defaults."
+msgstr ""
+"Сброс наборов значков и возврат шаблонов по умолчанию к заводским "
+"настройкам."
+
+#: plugin/setup/settings-page.php:254 plugin/setup/settings-page.php:260
+msgid "Total Reset"
+msgstr "Полный сброс"
+
+#. translators: %1$s and %2$s are the plugin name (Breakdance or Oxygen)
+#: plugin/setup/settings-page.php:266
+#, php-format
+msgid ""
+"Reset your entire %1$s installation to factory defaults. Content you created"
+" in %2$s must still be deleted manually."
+msgstr ""
+"Сбросьте всю установку %1$s к заводским настройкам по умолчанию. Содержимое,"
+" созданное вами в %2$s, по-прежнему необходимо удалять вручную."
+
+#: plugin/setup/settings-page.php:272 plugin/setup/settings-page.php:277
+msgid "Create Directories"
+msgstr "Создать каталоги"
+
+#. translators: %s is the plugin name (Breakdance or Oxygen)
+#: plugin/setup/settings-page.php:282
+#, php-format
+msgid ""
+"Create the directories on your server that are required for %s to function "
+"properly."
+msgstr ""
+"Создайте на своем сервере каталоги, необходимые для правильной работы %s."
+
+#: plugin/setup/settings-page.php:286
+msgid "Existing problems:"
+msgstr "Существующие проблемы:"
+
+#: plugin/setup/settings-page.php:309 plugin/setup/settings-page.php:316
+msgid "Replace URL"
+msgstr "Заменить URL"
+
+#: plugin/setup/settings-page.php:318
+msgid ""
+"It is strongly recommended that you backup your database before running this"
+" tool."
+msgstr ""
+"Настоятельно рекомендуется сделать резервную копию базы данных перед "
+"запуском этого инструмента."
+
+#: plugin/setup/settings-page.php:323
+msgid "Export Settings"
+msgstr "Экспорт настроек"
+
+#: plugin/setup/settings-page.php:328
+msgid "Download Export File"
+msgstr "Загрузить экспортный файл"
+
+#: plugin/setup/settings-page.php:331
+msgid "Export your Settings, Preferences, and Icon Sets to a JSON file."
+msgstr "Экспортируйте свои настройки, настройки и наборы значков в файл JSON."
+
+#: plugin/setup/settings-page.php:337
+msgid "Import Settings"
+msgstr "Импортировать настройки"
+
+#: plugin/setup/settings-page.php:343
+msgid "Upload Export JSON File"
+msgstr "Загрузить экспортный файл JSON"
+
+#: plugin/setup/settings-page.php:359
+msgid "Overwrite all your settings? This can't be undone without a backup."
+msgstr ""
+"Перезаписать все настройки? Это невозможно отменить без резервной копии."
+
+#: plugin/singularity/endpoints/pages.php:117
+msgid "Failed to delete all."
+msgstr "Не удалось удалить все."
+
+#. translators: %s: page ID
+#: plugin/singularity/endpoints/pages.php:150
+#, php-format
+msgid "Failed to delete %s."
+msgstr "Не удалось удалить %s."
+
+#. translators: %s: page ID
+#: plugin/singularity/endpoints/pages.php:153
+#, php-format
+msgid "Deleted %s successfully."
+msgstr "%s успешно удален."
+
+#: plugin/singularity/endpoints/pages.php:191
+msgid "Failed to create page."
+msgstr "Не удалось создать страницу."
+
+#. translators: %s: page ID
+#: plugin/singularity/endpoints/set-as-homepage.php:31
+#, php-format
+msgid "Page %s set as homepage successfully."
+msgstr "Страница %s успешно установлена ​​в качестве домашней."
+
+#: plugin/singularity/endpoints/wp-menu.php:41
+msgid "Failed to create or retrieve the default menu."
+msgstr "Не удалось создать или получить меню по умолчанию."
+
+#: plugin/singularity/endpoints/wp-menu.php:60
+msgid "Synced pages to default menu successfully."
+msgstr "Страницы успешно синхронизированы с меню по умолчанию."
+
+#: plugin/singularity/endpoints/wp-menu.php:86
+msgid "Invalid menu ID provided."
+msgstr "Указан неверный идентификатор меню."
+
+#. translators: %s is the template label/name
+#: plugin/subscription/conditions.php:48
+#, php-format
+msgid "A pro condition was used in this <b>%s</b>."
+msgstr "В этом <b>%s</b> использовалось условие pro."
+
+#: plugin/subscription/conditions.php:50
+msgid "A pro condition was used."
+msgstr "Использовалось условие pro."
+
+#. translators: %1$s: element name, %2$s: plugin name
+#: plugin/subscription/filters.php:121
+#: plugin/subscription/free-mode-utils.php:47
+#, php-format
+msgid "The <b>%1$s</b> element is only available in %2$s Pro."
+msgstr "Элемент <b>%1$s</b> доступен только в %2$s Pro."
+
+#: plugin/subscription/forms.php:107
+msgid "Options"
+msgstr "Параметры"
+
+#: plugin/subscription/forms.php:108
+msgid "Field Types"
+msgstr "Типы полей"
+
+#: plugin/subscription/forms.php:109
+msgid "Actions"
+msgstr "Действия"
+
+#: plugin/subscription/forms.php:110
+msgid "Advanced Field Conditionals"
+msgstr "Расширенные условные поля"
+
+#. translators: %s is a comma-separated list of pro features used (e.g.,
+#. "Options, Field Types, Actions")
+#: plugin/subscription/forms.php:114
+#, php-format
+msgid "Pro only features were used in a form (%s)."
+msgstr "В форме (%s) использовались только функции Pro."
+
+#. translators: %s is the element name
+#: plugin/subscription/free-mode-utils.php:58
+#, php-format
+msgid "A Pro-only visibility condition was used on a <b>%s</b> element."
+msgstr ""
+"Для элемента <b>%s</b> использовалось условие видимости только для версии "
+"Pro."
+
+#: plugin/subscription/frontend-upgrade-notices/notice.php:70
+#, php-format
+msgid ""
+"This page uses pro-only features. Please upgrade to <a href=\"%1$s\" "
+"target=\"_blank\">%2$s Pro</a>, or enter your <a href=\"%3$s\">license "
+"key</a>."
+msgstr ""
+"На этой странице используются функции только для профессионалов. Обновите "
+"версию до <a href=\"%1$s\" target=\"_blank\">%2$s Pro</a> или введите свой "
+"<a href=\"%3$s\">лицензионный ключ</a>."
+
+#: plugin/subscription/frontend-upgrade-notices/notice.php:87
+msgid "See details"
+msgstr "Посмотреть подробности"
+
+#: plugin/subscription/frontend-upgrade-notices/notice.php:93
+msgid ""
+"This notice only appears for site administrators. For normal visitors, this "
+"notice won't appear, and pro-only features won't work."
+msgstr ""
+"Это уведомление отображается только для администраторов сайта. Для обычных "
+"посетителей это уведомление не появится, и функции, доступные только для "
+"профессионалов, не будут работать."
+
+#. translators: %s: plugin name
+#: plugin/subscription/wp-admin-warnings.php:13
+#, php-format
+msgid "Please upgrade to %s Pro to export form submissions."
+msgstr ""
+"Пожалуйста, обновите версию до %s Pro, чтобы экспортировать отправленные "
+"формы."
+
+#. translators: %s is the plugin name
+#: plugin/subscription/wp-admin-warnings.php:26
+#, php-format
+msgid ""
+"When the design library comes out of beta, it will only be available in %s "
+"Pro."
+msgstr ""
+"Когда библиотека дизайна выйдет из бета-версии, она будет доступна только в "
+"%s Pro."
+
+#. translators: %s is the plugin name
+#: plugin/subscription/wp-admin-warnings.php:32
+#, php-format
+msgid "Please upgrade to %s Pro to configure permissions."
+msgstr "Пожалуйста, обновите систему до %s Pro, чтобы настроить разрешения."
+
+#. translators: %s is the plugin name
+#: plugin/subscription/wp-admin-warnings.php:38
+#, php-format
+msgid "Please upgrade to %s Pro to import and export settings."
+msgstr ""
+"Пожалуйста, обновите версию до %s Pro, чтобы импортировать и экспортировать "
+"настройки."
+
+#: plugin/subscription/wp-admin-warnings.php:93
+msgid "Get Pro"
+msgstr "Стань профессионалом"
+
+#: plugin/themeless/accessibility.php:41
+msgid "Skip to main content"
+msgstr "Перейти к основному содержанию"
+
+#: plugin/themeless/canvas_templates.php:25
+msgid "[Breakdance] No Header / Footer"
+msgstr "[Брейкданс] Нет верхнего и нижнего колонтитула"
+
+#: plugin/themeless/god-controller.php:258
+msgid "Template Hierarchy Error"
+msgstr "Ошибка иерархии шаблонов"
+
+#. translators: %d is the template ID
+#: plugin/themeless/god-controller.php:261
+#, php-format
+msgid "There is no template with ID %d."
+msgstr "Шаблона с идентификатором %d нет."
+
+#: plugin/themeless/god-controller.php:272
+msgid "This is impossible, since that template has been moved to trash"
+msgstr "Это невозможно, так как этот шаблон был перемещен в корзину."
+
+#: plugin/themeless/god-controller.php:273
+msgid "This is impossible, since that template doesn't exist"
+msgstr "Это невозможно, поскольку такого шаблона не существует."
+
+#. translators: 1: Template title, 2: Template ID, 3: Missing template ID
+#: plugin/themeless/god-controller.php:277
+#, php-format
+msgid ""
+"But template <em>%1$s (ID %2$d)</em> tries to inherit its design from "
+"template %3$d."
+msgstr ""
+"Но шаблон <em>%1$s (идентификатор %2$d)</em> пытается унаследовать свой "
+"дизайн от шаблона %3$d."
+
+#. translators: 1: Template title, 2: Template ID
+#: plugin/themeless/god-controller.php:288
+#, php-format
+msgid ""
+"To fix, edit template <em>%1$s (ID %2$d)</em>, and clear the <i>Inherit "
+"Design From</i> field or choose a template that exists."
+msgstr ""
+"Чтобы исправить это, отредактируйте шаблон <em>%1$s (ID %2$d)</em> и "
+"очистите поле <i>Наследовать дизайн от</i> или выберите существующий шаблон."
+
+#: plugin/themeless/god-controller.php:293
+msgid "Manage Templates"
+msgstr "Управление шаблонами"
+
+#: plugin/themeless/header-or-footer.cpt.php:16
+msgid "Header"
+msgstr "Заголовок"
+
+#: plugin/themeless/header-or-footer.cpt.php:39
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+#: plugin/themeless/manage-templates-spa/api.php:61
+msgid "Can't get data for an unsupported post type"
+msgstr "Невозможно получить данные для неподдерживаемого типа сообщения."
+
+#. translators: %s: template ID
+#: plugin/themeless/manage-templates-spa/api.php:209
+#, php-format
+msgid "Couldn't update template with ID \"%s\""
+msgstr "Не удалось обновить шаблон с идентификатором «%s»."
+
+#. translators: %s: template ID
+#: plugin/themeless/manage-templates-spa/api.php:263
+#, php-format
+msgid "Couldn't delete template with ID \"%s\""
+msgstr "Не удалось удалить шаблон с идентификатором \"%s\"."
+
+#. translators: %s: template ID
+#: plugin/themeless/manage-templates-spa/api.php:266
+#, php-format
+msgid "Couldn't trash template with ID \"%s\""
+msgstr "Не удалось удалить шаблон с идентификатором \"%s\"."
+
+#. translators: %s: template ID
+#: plugin/themeless/manage-templates-spa/api.php:296
+#, php-format
+msgid "Couldn't restore template with ID \"%s\""
+msgstr "Не удалось восстановить шаблон с идентификатором «%s»."
+
+#: plugin/themeless/manage-templates-spa/api.php:389
+msgid "Failed to empty trash"
+msgstr "Не удалось очистить корзину"
+
+#: plugin/themeless/previewable/last_previewed.php:25
+msgid "No ID or previewed item provided"
+msgstr "Не указан идентификатор или элемент для предварительного просмотра."
+
+#: plugin/themeless/rules/archive/all.php:16
+msgid "All Archives"
+msgstr "Все архивы"
+
+#: plugin/themeless/rules/archive/author.php:22
+msgid "Author Archive"
+msgstr "Архив автора"
+
+#: plugin/themeless/rules/archive/author.php:44
+#: plugin/themeless/rules/conditions/singular.php:696
+msgid "Authors"
+msgstr "Авторы"
+
+#: plugin/themeless/rules/archive/date.php:15
+msgid "Date Archive"
+msgstr "Архив дат"
+
+#: plugin/themeless/rules/archive/post-type.php:21
+msgid "Post Type Archive"
+msgstr "Архив типов сообщений"
+
+#: plugin/themeless/rules/archive/post-type.php:44
+#: plugin/themeless/rules/conditions/singular.php:853
+#: plugin/themeless/rules/conditions/singular.php:859
+msgid "Post Type"
+msgstr "Тип сообщения"
+
+#: plugin/themeless/rules/archive/post.php:16
+msgid "Post Archives"
+msgstr "Почтовые архивы"
+
+#: plugin/themeless/rules/archive/product-archives.php:25
+msgid "All Product Archives"
+msgstr "Все архивы продуктов"
+
+#: plugin/themeless/rules/archive/product-archives.php:45
+msgid "Specific Product Archive"
+msgstr "Архив конкретных продуктов"
+
+#: plugin/themeless/rules/archive/product-archives.php:64
+#: plugin/themeless/rules/archive/taxonomy.php:42
+msgid "Is Taxonomy"
+msgstr "Таксономия"
+
+#: plugin/themeless/rules/archive/product-archives.php:110
+msgid "Product term"
+msgstr "Срок действия продукта"
+
+#: plugin/themeless/rules/archive/taxonomy.php:23
+msgid "Taxonomy Archive"
+msgstr "Архив таксономии"
+
+#. translators: %s is the taxonomy name
+#: plugin/themeless/rules/archive/taxonomy.php:126
+#, php-format
+msgid "All %s"
+msgstr "Все %s"
+
+#: plugin/themeless/rules/conditions/custom-php.php:18
+msgid "Custom PHP"
+msgstr "Пользовательский PHP"
+
+#: plugin/themeless/rules/conditions/dates.php:17
+msgid "Day Of Week (WordPress)"
+msgstr "День недели (WordPress)"
+
+#: plugin/themeless/rules/conditions/dates.php:18
+#: plugin/themeless/rules/conditions/dates.php:64
+#: plugin/themeless/rules/conditions/dates.php:98
+#: plugin/themeless/rules/conditions/dates.php:150
+#: plugin/themeless/rules/conditions/dates.php:202
+#: plugin/themeless/rules/conditions/dates.php:254
+msgid "Date & Time"
+msgstr "Дата и время"
+
+#: plugin/themeless/rules/conditions/dates.php:23
+msgid "Day"
+msgstr "День"
+
+#: plugin/themeless/rules/conditions/dates.php:25
+msgid "Monday"
+msgstr "Понедельник"
+
+#: plugin/themeless/rules/conditions/dates.php:26
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: plugin/themeless/rules/conditions/dates.php:27
+msgid "Wednesday"
+msgstr "Среда"
+
+#: plugin/themeless/rules/conditions/dates.php:28
+msgid "Thursday"
+msgstr "Четверг"
+
+#: plugin/themeless/rules/conditions/dates.php:29
+msgid "Friday"
+msgstr "Пятница"
+
+#: plugin/themeless/rules/conditions/dates.php:30
+msgid "Saturday"
+msgstr "Суббота"
+
+#: plugin/themeless/rules/conditions/dates.php:31
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: plugin/themeless/rules/conditions/dates.php:63
+msgid "Current Time (WordPress)"
+msgstr "Текущее время (WordPress)"
+
+#: plugin/themeless/rules/conditions/dates.php:97
+msgid "Current Date (WordPress)"
+msgstr "Текущая дата (WordPress)"
+
+#: plugin/themeless/rules/conditions/dates.php:201
+msgid "Post Modified Date"
+msgstr "Дата изменения публикации"
+
+#: plugin/themeless/rules/conditions/dates.php:253
+msgid "Current Month (WordPress)"
+msgstr "Текущий месяц (WordPress)"
+
+#: plugin/themeless/rules/conditions/dates.php:259
+msgid "Month"
+msgstr "Месяц"
+
+#: plugin/themeless/rules/conditions/dynamic-data.php:20
+msgid "Dynamic Data"
+msgstr "Динамические данные"
+
+#: plugin/themeless/rules/conditions/misc.php:22
+#: plugin/themeless/rules/conditions/misc.php:30
+msgid "Browser"
+msgstr "Браузер"
+
+#: plugin/themeless/rules/conditions/misc.php:32
+msgid "Google Chrome"
+msgstr "Гугл Хром"
+
+#: plugin/themeless/rules/conditions/misc.php:33
+msgid "Mozilla Firefox"
+msgstr "Мозилла Фаерфокс"
+
+#: plugin/themeless/rules/conditions/misc.php:34
+msgid "Safari"
+msgstr "Сафари"
+
+#: plugin/themeless/rules/conditions/misc.php:35
+msgid "Microsoft Edge"
+msgstr "Microsoft Край"
+
+#: plugin/themeless/rules/conditions/misc.php:36
+msgid "Internet Explorer"
+msgstr "Интернет Эксплорер"
+
+#: plugin/themeless/rules/conditions/misc.php:37
+msgid "Samsung Browser"
+msgstr "Браузер Самсунг"
+
+#: plugin/themeless/rules/conditions/misc.php:38
+msgid "Opera"
+msgstr "Опера"
+
+#: plugin/themeless/rules/conditions/misc.php:73
+msgid "Operating System"
+msgstr "Операционная система"
+
+#: plugin/themeless/rules/conditions/misc.php:79
+msgid "Operating System / Device"
+msgstr "Операционная система/устройство"
+
+#: plugin/themeless/rules/conditions/misc.php:81
+msgid "Windows"
+msgstr "Окна"
+
+#: plugin/themeless/rules/conditions/misc.php:82
+msgid "Mac OS"
+msgstr "Mac ОС"
+
+#: plugin/themeless/rules/conditions/misc.php:83
+msgid "Linux"
+msgstr "Линукс"
+
+#: plugin/themeless/rules/conditions/misc.php:84
+msgid "iOS (iPhone)"
+msgstr "iOS (Айфон)"
+
+#: plugin/themeless/rules/conditions/misc.php:85
+msgid "Android"
+msgstr "Андроид"
+
+#: plugin/themeless/rules/conditions/misc.php:86
+msgid "Chrome OS"
+msgstr "Хром ОС"
+
+#: plugin/themeless/rules/conditions/misc.php:122
+#: plugin/themeless/rules/conditions/misc.php:128
+msgid "Breakpoint"
+msgstr "Точка останова"
+
+#: plugin/themeless/rules/conditions/misc.php:154
+msgid "Content Created With"
+msgstr "Контент, созданный с помощью"
+
+#: plugin/themeless/rules/conditions/misc.php:163
+msgid "Builder"
+msgstr "Строитель"
+
+#: plugin/themeless/rules/conditions/referrer.php:17
+msgid "Referrer URL"
+msgstr "URL-адрес реферера"
+
+#: plugin/themeless/rules/conditions/referrer.php:18
+#: plugin/themeless/rules/conditions/referrer.php:50
+msgid "Referrer"
+msgstr "реферер"
+
+#: plugin/themeless/rules/conditions/referrer.php:49
+#: plugin/themeless/rules/conditions/referrer.php:55
+msgid "Referrer Type"
+msgstr "Тип реферера"
+
+#: plugin/themeless/rules/conditions/referrer.php:57
+msgid "Search Engine"
+msgstr "Поисковая система"
+
+#: plugin/themeless/rules/conditions/referrer.php:58
+msgid "Internal"
+msgstr "Внутренний"
+
+#: plugin/themeless/rules/conditions/referrer.php:59
+msgid "External"
+msgstr "Внешний"
+
+#: plugin/themeless/rules/conditions/sessions.php:28
+#: plugin/themeless/rules/conditions/sessions.php:58
+msgid "Sessions"
+msgstr "Сессии"
+
+#: plugin/themeless/rules/conditions/singular.php:51
+#: plugin/themeless/rules/conditions/singular.php:157
+#: plugin/themeless/rules/conditions/singular.php:227
+#: plugin/themeless/rules/conditions/singular.php:466
+#: plugin/themeless/rules/conditions/singular.php:527
+#: plugin/themeless/rules/conditions/singular.php:593
+#: plugin/themeless/rules/conditions/singular.php:691
+#: plugin/themeless/rules/conditions/singular.php:779
+#: plugin/themeless/rules/conditions/singular.php:854
+msgid "Singular"
+msgstr "Единственное число"
+
+#. translators: %s is the post type name
+#: plugin/themeless/rules/conditions/singular.php:156
+#, php-format
+msgid "%s Parent"
+msgstr "%s Родитель"
+
+#: plugin/themeless/rules/conditions/singular.php:226
+msgid "Has Taxonomy"
+msgstr "Имеет таксономию"
+
+#: plugin/themeless/rules/conditions/singular.php:465
+msgid "Post ID"
+msgstr "Идентификатор сообщения"
+
+#: plugin/themeless/rules/conditions/singular.php:526
+msgid "Post Status"
+msgstr "Статус сообщения"
+
+#: plugin/themeless/rules/conditions/singular.php:532
+msgid "Statuses"
+msgstr "Статусы"
+
+#: plugin/themeless/rules/conditions/singular.php:785
+#: plugin/themeless/rules/conditions/user.php:26
+#: plugin/themeless/rules/woocommerce/product-cart.php:17
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:17
+#: plugin/themeless/rules/woocommerce/product-sale.php:17
+#: plugin/themeless/rules/woocommerce/product-tax.php:16
+#: plugin/themeless/rules/woocommerce/product-virtual.php:17
+#: plugin/themeless/rules/woocommerce/stock-status.php:18
+msgid "Status"
+msgstr "Статус"
+
+#: plugin/themeless/rules/conditions/singular.php:787
+msgid "set"
+msgstr "набор"
+
+#: plugin/themeless/rules/conditions/singular.php:788
+msgid "not set"
+msgstr "не установлено"
+
+#: plugin/themeless/rules/conditions/user.php:19
+msgid "User Logged In Status"
+msgstr "Статус входа пользователя в систему"
+
+#: plugin/themeless/rules/conditions/user.php:20
+#: plugin/themeless/rules/conditions/user.php:54
+#: plugin/themeless/rules/conditions/user.php:92
+msgid "User"
+msgstr "Пользователь"
+
+#: plugin/themeless/rules/conditions/user.php:28
+msgid "logged in"
+msgstr "вошел в систему"
+
+#: plugin/themeless/rules/conditions/user.php:29
+msgid "logged out"
+msgstr "вышел из системы"
+
+#: plugin/themeless/rules/conditions/user.php:53
+msgid "User Role"
+msgstr "Роль пользователя"
+
+#: plugin/themeless/rules/conditions/user.php:91
+msgid "User Registration Date"
+msgstr "Дата регистрации пользователя"
+
+#: plugin/themeless/rules/conditions/user.php:141
+msgid "Roles"
+msgstr "Роли"
+
+#: plugin/themeless/rules/everywhere/everywhere.php:14
+#: plugin/themeless/rules/everywhere/everywhere.php:17
+msgid "Everywhere"
+msgstr "Повсюду"
+
+#: plugin/themeless/rules/other/misc.php:36
+msgid "404 - Not Found Error"
+msgstr "404 — Ошибка не найдена"
+
+#: plugin/themeless/rules/other/misc.php:50
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: plugin/themeless/rules/other/misc.php:61
+#: plugin/themeless/rules/other/misc.php:73
+#: plugin/themeless/rules/other/misc.php:95
+msgid "Search"
+msgstr "Поиск"
+
+#: plugin/themeless/rules/other/misc.php:62
+msgid "search results"
+msgstr "результаты поиска"
+
+#: plugin/themeless/rules/other/misc.php:96
+msgid "search archive"
+msgstr "поиск в архиве"
+
+#: plugin/themeless/rules/other/misc.php:107
+msgid "WP_Query Found Posts Count"
+msgstr "WP_Query Количество найденных сообщений"
+
+#: plugin/themeless/rules/single/post-types.php:12
+msgid "Single"
+msgstr "Одинокий"
+
+#: plugin/themeless/rules/single/post-types.php:15
+msgid "All Singles"
+msgstr "Все одиночные игры"
+
+#: plugin/themeless/rules/single/post-types.php:61
+msgid "Front Page"
+msgstr "Первая страница"
+
+#: plugin/themeless/rules/woocommerce/cart-quantity.php:10
+msgid "Cart Quantity"
+msgstr "Количество корзины"
+
+#: plugin/themeless/rules/woocommerce/cart-quantity.php:11
+#: plugin/themeless/rules/woocommerce/cart-value.php:12
+#: plugin/themeless/rules/woocommerce/cart-weight.php:12
+#: plugin/themeless/rules/woocommerce/product-cart.php:10
+msgid "Cart"
+msgstr "Корзина"
+
+#. translators: %s is the currency symbol
+#: plugin/themeless/rules/woocommerce/cart-value.php:11
+#, php-format
+msgid "Cart Value (%s)"
+msgstr "Стоимость корзины (%s)"
+
+#. translators: %s is the weight unit
+#: plugin/themeless/rules/woocommerce/cart-weight.php:11
+#, php-format
+msgid "Cart Weight (%s)"
+msgstr "Вес тележки (%s)"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:10
+msgid "Order Count"
+msgstr "Количество заказов"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:11
+#: plugin/themeless/rules/woocommerce/customer-orders.php:54
+#: plugin/themeless/rules/woocommerce/customer-orders.php:96
+msgid "Customer"
+msgstr "Клиент"
+
+#. translators: %s is the currency symbol
+#: plugin/themeless/rules/woocommerce/customer-orders.php:53
+#, php-format
+msgid "Total Spend (%s)"
+msgstr "Общие расходы (%s)"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:95
+msgid "Purchased Product"
+msgstr "Купленный продукт"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:102
+msgid "Current Product"
+msgstr "Текущий продукт"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:108
+msgid "Products"
+msgstr "Продукты"
+
+#: plugin/themeless/rules/woocommerce/product-cart.php:19
+msgid "in cart"
+msgstr "в корзине"
+
+#: plugin/themeless/rules/woocommerce/product-cart.php:20
+msgid "not in cart"
+msgstr "нет в корзине"
+
+#: plugin/themeless/rules/woocommerce/product-categories.php:13
+#: plugin/wpwidgets/stock/stock.php:64 plugin/wpwidgets/stock/stock.php:142
+msgid "Categories"
+msgstr "Категории"
+
+#: plugin/themeless/rules/woocommerce/product-categories.php:25
+#: plugin/woocommerce/widgets/woo_general.php:54
+msgid "Product Categories"
+msgstr "Категории продуктов"
+
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:10
+msgid "Downloadable"
+msgstr "Загружаемый"
+
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:19
+msgid "downloadable"
+msgstr "загружаемый"
+
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:20
+msgid "not downloadable"
+msgstr "невозможно загрузить"
+
+#. translators: %s is the dimension unit
+#: plugin/themeless/rules/woocommerce/product-measurements.php:11
+#, php-format
+msgid "Width (%s)"
+msgstr "Ширина (%s)"
+
+#: plugin/themeless/rules/woocommerce/product-measurements.php:12
+#: plugin/themeless/rules/woocommerce/product-measurements.php:74
+#: plugin/themeless/rules/woocommerce/product-measurements.php:136
+#: plugin/themeless/rules/woocommerce/product-measurements.php:198
+msgid "Measurements"
+msgstr "Измерения"
+
+#. translators: %s is the dimension unit
+#: plugin/themeless/rules/woocommerce/product-measurements.php:73
+#, php-format
+msgid "Height (%s)"
+msgstr "Высота (%s)"
+
+#. translators: %s is the dimension unit
+#: plugin/themeless/rules/woocommerce/product-measurements.php:135
+#, php-format
+msgid "Length (%s)"
+msgstr "Длина (%s)"
+
+#. translators: %s is the weight unit
+#: plugin/themeless/rules/woocommerce/product-measurements.php:197
+#, php-format
+msgid "Weight (%s)"
+msgstr "Вес (%s)"
+
+#. translators: %s is the currency symbol
+#: plugin/themeless/rules/woocommerce/product-price.php:11
+#, php-format
+msgid "Price (%s)"
+msgstr "Цена (%s)"
+
+#: plugin/themeless/rules/woocommerce/product-price.php:12
+#: plugin/themeless/rules/woocommerce/product-sale.php:11
+#: plugin/themeless/rules/woocommerce/product-tax.php:12
+#: plugin/themeless/rules/woocommerce/product-tax.php:68
+msgid "Price"
+msgstr "Цена"
+
+#: plugin/themeless/rules/woocommerce/product-sale.php:10
+msgid "On Sale"
+msgstr "В продаже"
+
+#: plugin/themeless/rules/woocommerce/product-sale.php:19
+msgid "on sale"
+msgstr "в продаже"
+
+#: plugin/themeless/rules/woocommerce/product-sale.php:20
+msgid "not on sale"
+msgstr "нет в продаже"
+
+#: plugin/themeless/rules/woocommerce/product-shipping.php:13
+msgid "Shipping Class"
+msgstr "Класс доставки"
+
+#: plugin/themeless/rules/woocommerce/product-shipping.php:25
+msgid "Shipping Classes"
+msgstr "Классы доставки"
+
+#: plugin/themeless/rules/woocommerce/product-tags.php:13
+#: plugin/themeless/rules/woocommerce/product-tags.php:26
+#: plugin/wpwidgets/stock/stock.php:143
+msgid "Tags"
+msgstr "Теги"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:11
+msgid "Tax Status"
+msgstr "Налоговый статус"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:18
+msgid "Taxable"
+msgstr "облагаемый налогом"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:19
+msgid "Shipping only"
+msgstr "Только доставка"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:20
+msgid "None"
+msgstr "Никто"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:67
+msgid "Tax Class"
+msgstr "Налоговый класс"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:78
+msgid "Class"
+msgstr "Сорт"
+
+#: plugin/themeless/rules/woocommerce/product-virtual.php:10
+msgid "Virtual"
+msgstr "Виртуальный"
+
+#: plugin/themeless/rules/woocommerce/product-virtual.php:19
+msgid "virtual"
+msgstr "виртуальный"
+
+#: plugin/themeless/rules/woocommerce/product-virtual.php:20
+msgid "not virtual"
+msgstr "не виртуальный"
+
+#: plugin/themeless/rules/woocommerce/stock-quantity.php:10
+msgid "Stock quantity"
+msgstr "Количество на складе"
+
+#: plugin/themeless/rules/woocommerce/stock-quantity.php:11
+#: plugin/themeless/rules/woocommerce/stock-status.php:12
+msgid "Inventory"
+msgstr "Инвентарь"
+
+#: plugin/themeless/rules/woocommerce/stock-status.php:11
+msgid "Stock status"
+msgstr "Статус на складе"
+
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:57
+msgid "WordPress Theme System"
+msgstr "Система тем WordPress"
+
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:71
+msgid ""
+"Your theme's header, footer, and templates will be used unless they are "
+"explicitly overridden in Breakdance. Your theme's styles may affect the "
+"design of Breakdance elements."
+msgstr ""
+"Заголовок, нижний колонтитул и шаблоны вашей темы будут использоваться, если"
+" они не будут явно переопределены в Breakdance. Стили вашей темы могут "
+"влиять на дизайн элементов брейк-данса."
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:76
+#, php-format
+msgid ""
+"Need help choosing a theme? Use %1$sBreakdance Zero Theme%2$s, a completely "
+"blank theme designed for Breakdance with support for child themes, "
+"overriding plugin templates, and functions.php."
+msgstr ""
+"Нужна помощь в выборе темы? Используйте %1$sBreakdance Zero Theme %2$s, "
+"совершенно пустую тему, предназначенную для брейкданса с поддержкой дочерних"
+" тем, переопределяющими шаблоны плагинов и файл function.php."
+
+#: plugin/themeless/theme-disabler/theme-disabler.php:21
+msgid ""
+"You're using Oxygen, so the WordPress theme system is entirely disabled. "
+"<strong>The active theme will never be loaded and has no impact on your "
+"site's performance or appearance.</strong>"
+msgstr ""
+"Вы используете Oxygen, поэтому система тем WordPress полностью отключена. "
+"<strong>Активная тема никогда не будет загружена и не повлияет на "
+"производительность и внешний вид вашего сайта.</strong>"
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag
+#: plugin/themeless/theme-disabler/theme-disabler.php:24
+#, php-format
+msgid ""
+"You disabled the WordPress theme system entirely at %1$sBreakdance &raquo; "
+"Settings &raquo; Theme%2$s. The active theme will never be loaded and has no"
+" impact on your site's performance or appearance."
+msgstr ""
+"Вы полностью отключили систему тем WordPress на %1$sBreakdance &raquo; "
+"Настройки &raquo; Тема%2$s. Активная тема никогда не будет загружена и не "
+"повлияет на производительность или внешний вид вашего сайта."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:67
+msgid "Please resave your permalinks."
+msgstr "Пожалуйста, сохраните постоянные ссылки."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:68
+msgid "The builder encountered a 404 error while loading the document."
+msgstr "Разработчик обнаружил ошибку 404 при загрузке документа."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:69
+msgid "Instructions to Fix:"
+msgstr "Инструкции по исправлению:"
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:72
+msgid "Go to Settings → Permalinks"
+msgstr "Зайдите в Настройки → Постоянные ссылки."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:76
+msgid "Click <em>Save Changes</em> at the bottom."
+msgstr "Нажмите <em>Сохранить изменения</em> внизу."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:78
+msgid "Return to this screen and refresh."
+msgstr "Вернитесь на этот экран и обновите."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:80
+msgid "Auto Fix Permalinks"
+msgstr "Автоисправление постоянных ссылок"
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:104
+msgid "Fixed! Refreshing..."
+msgstr "Зафиксированный! Освежающий..."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:108
+msgid "There was a problem, please try again."
+msgstr "Возникла проблема, попробуйте еще раз."
+
+#: plugin/themeless/theme-simulator/maintenance-mode.php:32
+msgid "Coming Soon"
+msgstr "Вскоре"
+
+#: plugin/themeless/theme-simulator/maintenance-mode.php:45
+msgid "Down for maintenance."
+msgstr "Спущен на техническое обслуживание."
+
+#: plugin/util/bdox.php:43
+msgid "Global Block"
+msgstr "Глобальный блок"
+
+#: plugin/util/bdox.php:71
+msgid "Components"
+msgstr "Компоненты"
+
+#: plugin/util/bdox.php:72
+msgid "Component"
+msgstr "Компонент"
+
+#: plugin/variables/controls.php:18 plugin/variables/controls.php:20
+msgid "Override Variables"
+msgstr "Переопределить переменные"
+
+#: plugin/woocommerce/settings/settings-tab.php:50
+msgid "Breakdance WooCommerce Styles"
+msgstr "Стили брейк-данса WooCommerce"
+
+#: plugin/woocommerce/settings/settings-tab.php:67
+msgid "Breakdance's WooCommerce elements will not work correctly."
+msgstr "Элементы WooCommerce в Breakdance не будут работать корректно."
+
+#: plugin/woocommerce/settings/settings-tab.php:71
+msgid ""
+"WooCommerce styles will come from the WooCommerce plugin's default "
+"stylesheet, or your theme if you are using one that supports WooCommerce. "
+"The styles can be created manually as well."
+msgstr ""
+"Стили WooCommerce будут взяты из таблицы стилей по умолчанию плагина "
+"WooCommerce или вашей темы, если вы используете тему, поддерживающую "
+"WooCommerce. Стили также можно создавать вручную."
+
+#: plugin/woocommerce/settings/settings-tab.php:87
+msgid "The theme system is disabled. Breakdance will style WooCommerce."
+msgstr "Система тем отключена. Брейк-данс станет стилем WooCommerce."
+
+#. translators: %1$s: theme name
+#: plugin/woocommerce/settings/settings-tab.php:93
+#, php-format
+msgid ""
+"You are using the \"%1$s\" theme with a child theme, Breakdance will style "
+"WooCommerce."
+msgstr ""
+"Вы используете тему «%1$s» с дочерней темой. Брейкданс будет стилизовать "
+"WooCommerce."
+
+#. translators: %1$s: theme name
+#: plugin/woocommerce/settings/settings-tab.php:96
+#, php-format
+msgid "You are using the \"%1$s\" theme, Breakdance will style WooCommerce."
+msgstr "Вы используете тему «%1$s», брейкданс будет стилизовать WooCommerce."
+
+#. translators: %1$s is the theme name
+#: plugin/woocommerce/settings/settings-tab.php:104
+#, php-format
+msgid ""
+"You are using the \"%1$s\" theme with a child theme which is recognized by "
+"Breakdance. Breakdance has disabled its WooCommerce-specific CSS. However, "
+"if the theme has made changes to WooCommerce's default HTML structure, some "
+"of the Breakdance WooCommerce elements' styles and options may not work "
+"correctly."
+msgstr ""
+"Вы используете тему «%1$s» с дочерней темой, которая распознается "
+"брейкдансом. Breakdance отключил CSS, специфичный для WooCommerce. Однако "
+"если тема внесла изменения в HTML-структуру WooCommerce по умолчанию, "
+"некоторые стили и параметры элементов Breakdance WooCommerce могут работать "
+"некорректно."
+
+#. translators: %1$s is the theme name
+#: plugin/woocommerce/settings/settings-tab.php:107
+#, php-format
+msgid ""
+"You are using the \"%1$s\" theme which is recognized by Breakdance. "
+"Breakdance has disabled its WooCommerce-specific CSS. However, if the theme "
+"has made changes to WooCommerce's default HTML structure, some of the "
+"Breakdance WooCommerce elements' styles and options may not work correctly."
+msgstr ""
+"Вы используете тему «%1$s», которая распознается брейкдансом. Breakdance "
+"отключил CSS, специфичный для WooCommerce. Однако если тема внесла изменения"
+" в HTML-структуру WooCommerce по умолчанию, некоторые стили и параметры "
+"элементов Breakdance WooCommerce могут работать некорректно."
+
+#. translators: %s is the theme name
+#: plugin/woocommerce/settings/settings-tab.php:113
+#, php-format
+msgid ""
+"The current theme \"%s\" isn't recognized. If your theme has WooCommerce "
+"styles, they can interfere with the Breakdance WooCommerce styles and some "
+"of the Breakdance WooCommerce elements' styles and options may not work "
+"correctly."
+msgstr ""
+"Текущая тема «%s» не распознана. Если в вашей теме есть стили WooCommerce, "
+"они могут мешать стилям брейкданса WooCommerce, а некоторые стили и "
+"параметры элементов брейкданса WooCommerce могут работать некорректно."
+
+#: plugin/woocommerce/settings/settings-tab.php:118
+msgid "Theme WooCommerce Styles"
+msgstr "Стили тем WooCommerce"
+
+#. translators: %1$s is the element label, %2$s is the WooCommerce page label
+#: plugin/woocommerce/utils.php:14
+#, php-format
+msgid ""
+"The <b>\"%1$s\"</b> element can only be added to the <b>WooCommerce %2$s "
+"Page</b>."
+msgstr ""
+"Элемент <b>\"%1$s\"</b> можно добавить только на <b>страницу WooCommerce "
+"%2$s </b>."
+
+#. translators: %s is the WooCommerce page label
+#: plugin/woocommerce/utils.php:16
+#, php-format
+msgid ""
+"Set the <b>WooCommerce %s Page</b> in the WP admin at <b>WooCommerce &gt; "
+"Settings &gt; Advanced &gt; Page Setup</b>."
+msgstr ""
+"Настройте <b>Страницу WooCommerce %s </b> в администраторе WP в "
+"<b>WooCommerce &gt; Настройки &gt; Дополнительно &gt; Настройка "
+"страницы</b>."
+
+#. translators: %s is the WooCommerce page label
+#: plugin/woocommerce/utils.php:20
+#, php-format
+msgid "No page has been set as the <b>WooCommerce %s Page</b>."
+msgstr ""
+"Ни одна страница не была установлена ​​в качестве <b>страницы WooCommerce %s"
+" </b>."
+
+#. translators: %1$s is the WooCommerce page label, %2$s is the page title,
+#. %3$d is the page ID
+#: plugin/woocommerce/utils.php:36
+#, php-format
+msgid ""
+"The <b>WooCommerce %1$s Page</b> is currently set to <b>%2$s (ID: %3$d)</b>."
+msgstr ""
+"Для <b>страницы WooCommerce %1$s </b> в настоящее время установлено значение"
+" <b>%2$s (идентификатор: %3$d)</b>."
+
+#: plugin/woocommerce/widgets/woo_filters.php:22
+msgid "Active Filters"
+msgstr "Активные фильтры"
+
+#: plugin/woocommerce/widgets/woo_filters.php:28
+#: plugin/woocommerce/widgets/woo_filters.php:44
+#: plugin/woocommerce/widgets/woo_filters.php:61
+#: plugin/woocommerce/widgets/woo_filters.php:77
+#: plugin/woocommerce/widgets/woo_general.php:25
+#: plugin/woocommerce/widgets/woo_general.php:46
+#: plugin/woocommerce/widgets/woo_general.php:60
+#: plugin/woocommerce/widgets/woo_general.php:160
+#: plugin/wpwidgets/stock/stock.php:26 plugin/wpwidgets/stock/stock.php:46
+#: plugin/wpwidgets/stock/stock.php:70 plugin/wpwidgets/stock/stock.php:99
+#: plugin/wpwidgets/stock/stock.php:113 plugin/wpwidgets/stock/stock.php:132
+#: plugin/wpwidgets/stock/stock.php:169 plugin/wpwidgets/stock/stock.php:209
+#: plugin/wpwidgets/stock/stock.php:234
+msgid "Title"
+msgstr "Заголовок"
+
+#: plugin/woocommerce/widgets/woo_filters.php:38
+msgid "Price Filter"
+msgstr "Ценовой фильтр"
+
+#: plugin/woocommerce/widgets/woo_filters.php:55
+msgid "Rating Filter"
+msgstr "Рейтинг Фильтр"
+
+#: plugin/woocommerce/widgets/woo_filters.php:71
+msgid "Filter By Attribute"
+msgstr "Фильтровать по атрибуту"
+
+#: plugin/woocommerce/widgets/woo_filters.php:90
+msgid "Display Type"
+msgstr "Тип дисплея"
+
+#: plugin/woocommerce/widgets/woo_filters.php:92
+msgid "list"
+msgstr "список"
+
+#: plugin/woocommerce/widgets/woo_filters.php:93
+msgid "dropdown"
+msgstr "падать"
+
+#: plugin/woocommerce/widgets/woo_filters.php:98
+msgid "Query Type"
+msgstr "Тип запроса"
+
+#: plugin/woocommerce/widgets/woo_filters.php:100
+msgid "and"
+msgstr "и"
+
+#: plugin/woocommerce/widgets/woo_filters.php:101
+msgid "or"
+msgstr "или"
+
+#: plugin/woocommerce/widgets/woo_filters.php:114
+msgid "Shop Filters"
+msgstr "Фильтры магазинов"
+
+#: plugin/woocommerce/widgets/woo_filters.php:116
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: plugin/woocommerce/widgets/woo_filters.php:121
+#: plugin/woocommerce/widgets/woo_general.php:229
+#: plugin/wpwidgets/stock/stock.php:265
+msgid "Widget"
+msgstr "Виджет"
+
+#: plugin/woocommerce/widgets/woo_general.php:19
+msgid "Products By Rating List"
+msgstr "Продукты по рейтингу"
+
+#: plugin/woocommerce/widgets/woo_general.php:30
+msgid "Number of products"
+msgstr "Количество продуктов"
+
+#: plugin/woocommerce/widgets/woo_general.php:40
+msgid "Product Search"
+msgstr "Поиск продукта"
+
+#: plugin/woocommerce/widgets/woo_general.php:65
+msgid "Order by"
+msgstr "Заказать по"
+
+#: plugin/woocommerce/widgets/woo_general.php:69
+msgid "Category order"
+msgstr "Порядок категорий"
+
+#: plugin/woocommerce/widgets/woo_general.php:76
+msgid "Show as dropdown"
+msgstr "Показать в раскрывающемся списке"
+
+#: plugin/woocommerce/widgets/woo_general.php:83
+msgid "Show product counts"
+msgstr "Показать количество продуктов"
+
+#: plugin/woocommerce/widgets/woo_general.php:90
+#: plugin/wpwidgets/stock/stock.php:80
+msgid "Show hierarchy"
+msgstr "Показать иерархию"
+
+#: plugin/woocommerce/widgets/woo_general.php:97
+msgid "Only show children"
+msgstr "Показывать только детям"
+
+#: plugin/woocommerce/widgets/woo_general.php:104
+msgid "Hide empty categories"
+msgstr "Скрыть пустые категории"
+
+#: plugin/woocommerce/widgets/woo_general.php:111
+msgid "Maximum depth"
+msgstr "Максимальная глубина"
+
+#: plugin/woocommerce/widgets/woo_general.php:154
+msgid "Recent Reviews"
+msgstr "Недавние обзоры"
+
+#: plugin/woocommerce/widgets/woo_general.php:165
+msgid "Number"
+msgstr "Число"
+
+#: plugin/woocommerce/widgets/woo_general.php:224
+msgid "Woo Widget"
+msgstr "Ву Виджет"
+
+#: plugin/wp-query-control/util.php:16
+msgid "Pagination with Custom Queries in Archives isn't supported"
+msgstr ""
+"Пагинация с помощью пользовательских запросов в архивах не поддерживается."
+
+#: plugin/wpwidgets/stock/stock.php:40
+msgid "Archives"
+msgstr "Архивы"
+
+#: plugin/wpwidgets/stock/stock.php:51 plugin/wpwidgets/stock/stock.php:75
+msgid "Display as dropdown"
+msgstr "Отобразить в раскрывающемся списке"
+
+#: plugin/wpwidgets/stock/stock.php:56 plugin/wpwidgets/stock/stock.php:85
+msgid "Show post count"
+msgstr "Показать количество сообщений"
+
+#: plugin/wpwidgets/stock/stock.php:93
+msgid "Calendar"
+msgstr "Календарь"
+
+#: plugin/wpwidgets/stock/stock.php:107
+msgid "Recent Comments"
+msgstr "Недавние комментарии"
+
+#: plugin/wpwidgets/stock/stock.php:118
+msgid "Number of comments to show"
+msgstr "Количество комментариев для отображения"
+
+#: plugin/wpwidgets/stock/stock.php:126
+msgid "Tag Cloud"
+msgstr "Облако тегов"
+
+#: plugin/wpwidgets/stock/stock.php:144
+msgid "Link Categories"
+msgstr "Категории ссылок"
+
+#: plugin/wpwidgets/stock/stock.php:150
+msgid "Show tag count"
+msgstr "Показать количество тегов"
+
+#: plugin/wpwidgets/stock/stock.php:158
+msgid "RSS"
+msgstr "RSS"
+
+#: plugin/wpwidgets/stock/stock.php:164
+msgid "URL"
+msgstr "URL-адрес"
+
+#: plugin/wpwidgets/stock/stock.php:174
+msgid "Items"
+msgstr "Предметы"
+
+#: plugin/wpwidgets/stock/stock.php:185
+msgid "Display item content"
+msgstr "Отобразить содержимое элемента"
+
+#: plugin/wpwidgets/stock/stock.php:190
+msgid "Display item author"
+msgstr "Показать автора элемента"
+
+#: plugin/wpwidgets/stock/stock.php:195
+msgid "Display item date"
+msgstr "Отображение даты элемента"
+
+#: plugin/wpwidgets/stock/stock.php:203
+msgid "Recent Posts"
+msgstr "Последние сообщения"
+
+#: plugin/wpwidgets/stock/stock.php:214
+msgid "Number of posts to show"
+msgstr "Количество сообщений для отображения"
+
+#: plugin/wpwidgets/stock/stock.php:219
+msgid "Show date"
+msgstr "Показать дату"
+
+#: plugin/wpwidgets/stock/stock.php:228
+msgid "Pages"
+msgstr "Страницы"
+
+#: plugin/wpwidgets/stock/stock.php:239
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: plugin/wpwidgets/stock/stock.php:244
+msgid "Exclude"
+msgstr "Исключать"
+
+#: plugin/wpwidgets/stock/stock.php:246
+msgid "Page Title"
+msgstr "Название страницы"
+
+#: plugin/wpwidgets/stock/stock.php:247
+msgid "Page Order"
+msgstr "Порядок страниц"
+
+#: plugin/wpwidgets/stock/stock.php:248
+msgid "Page ID"
+msgstr "Идентификатор страницы"
+
+#: plugin/wpwidgets/stock/stock.php:260
+msgid "WP Widget"
+msgstr "WP-виджет"

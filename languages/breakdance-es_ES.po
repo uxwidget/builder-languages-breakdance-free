@@ -1,0 +1,5594 @@
+# Breakdance admin translations expanded from breakdance/languages/breakdance.pot.
+msgid ""
+msgstr ""
+"Project-Id-Version: Breakdance Languages ux-0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/breakdance\n"
+"POT-Creation-Date: 2025-12-20T16:49:55+00:00\n"
+"PO-Revision-Date: 2026-06-26 00:00+0000\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: breakdance\n"
+
+#. Plugin Name of the plugin
+#: plugin.php plugin/admin/menu/menu.php:21
+msgid "Breakdance"
+msgstr "Breakdance"
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "%%pluginURI%%"
+msgstr "%%pluginURI%%"
+
+#. Description of the plugin
+#: plugin.php
+msgid "%%description%%"
+msgstr "%%description%%"
+
+#. Author of the plugin
+#: plugin.php
+msgid "%%author%%"
+msgstr "%%author%%"
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "%%authorURI%%"
+msgstr "%%authorURI%%"
+
+#. translators: %1$s: plugin name, %2$s: minimum required PHP version, %3$s:
+#. current PHP version
+#: plugin.php:71
+#, php-format
+msgid ""
+"%1$s requires PHP of version >= %2$s and is unable to run with the version "
+"installed on this server (%3$s). Please switch to a modern web host."
+msgstr ""
+"%1$s requiere PHP de versión >= %2$s y no puede ejecutarse con la versión "
+"instalada en este servidor (%3$s). Cambie a un servidor web moderno."
+
+#. translators: %1$s: plugin name, %2$s: domain URL, %3$s: domain name
+#: plugin.php:84
+#, php-format
+msgid ""
+"This %1$s pre-release version is expired. Please get the latest version at "
+"<a href=\"https://%2$s/\">%3$s</a>."
+msgstr ""
+"Esta versión preliminar %1$s ha caducado. Obtenga la última versión en<a "
+"href=\"https://%2$s/\">%3$s</a>."
+
+#: plugin/acf-breakdance-content/acf-block.cpt.php:17
+#: plugin/acf-breakdance-content/acf-block.cpt.php:18
+msgid "ACF Block"
+msgstr "Bloque ACF"
+
+#: plugin/acf-breakdance-content/acf-breakdance-content-field.php:27
+msgid "Breakdance Content"
+msgstr "Contenido de Breakdance"
+
+#: plugin/admin/admin_bar_menu.php:56
+#, php-format
+msgctxt "Post title"
+msgid "Open '%s'"
+msgstr "Abrir '%s'"
+
+#. translators: %s: Template title
+#: plugin/admin/admin_bar_menu.php:88
+#, php-format
+msgid "Open '%s' Template"
+msgstr "Abrir plantilla '%s'"
+
+#. translators: %s: Header title
+#: plugin/admin/admin_bar_menu.php:105
+#, php-format
+msgid "Open '%s' Header"
+msgstr "Abrir cabecera '%s'"
+
+#. translators: %s: Footer title
+#: plugin/admin/admin_bar_menu.php:122
+#, php-format
+msgid "Open '%s' Footer"
+msgstr "Abrir pie de página '%s'"
+
+#: plugin/admin/admin_bar_menu.php:145 plugin/admin/admin_bar_menu.php:167
+#: plugin/admin/settings-page/tabs/global-styles.php:36
+msgid "Edit Global Styles"
+msgstr "Editar estilos globales"
+
+#: plugin/admin/menu/home.php:101
+msgid "Oxygen Beta"
+msgstr "Beta de oxígeno"
+
+#: plugin/admin/menu/home.php:103
+msgid "Thank you for beta testing the new Oxygen."
+msgstr "Gracias por realizar la prueba beta del nuevo Oxygen."
+
+#: plugin/admin/menu/home.php:106
+msgid "-The Oxygen Team"
+msgstr "-El equipo de oxígeno"
+
+#: plugin/admin/menu/menu.php:22 plugin/admin/menu/menu.php:73
+msgid "Home"
+msgstr "Inicio"
+
+#: plugin/admin/menu/menu.php:24 plugin/admin/menu/menu.php:75
+#: plugin/themeless/template.cpt.php:16
+msgid "Templates"
+msgstr "Plantillas"
+
+#: plugin/admin/menu/menu.php:26 plugin/admin/menu/menu.php:77
+#: plugin/themeless/header-or-footer.cpt.php:15
+msgid "Headers"
+msgstr "Cabeceras"
+
+#: plugin/admin/menu/menu.php:28 plugin/admin/menu/menu.php:79
+#: plugin/themeless/header-or-footer.cpt.php:38
+msgid "Footers"
+msgstr "Pies de página"
+
+#: plugin/admin/menu/menu.php:30 plugin/util/bdox.php:42
+msgid "Global Blocks"
+msgstr "Bloques globales"
+
+#: plugin/admin/menu/menu.php:31 plugin/themeless/popups.cpt.php:16
+msgid "Popups"
+msgstr "Pop-ups"
+
+#: plugin/admin/menu/menu.php:32 plugin/admin/menu/menu.php:51
+msgid "Form Submissions"
+msgstr "Envíos de formulario"
+
+#: plugin/admin/menu/menu.php:35 plugin/admin/menu/menu.php:85
+#: plugin/design-library/builder.php:25
+#: plugin/design-library/settings-tabs.php:21
+#: plugin/design-library/settings-tabs.php:102
+msgid "Design Library"
+msgstr "Biblioteca de diseño"
+
+#: plugin/admin/menu/menu.php:40 plugin/admin/menu/menu.php:90
+#: plugin/admin/partner-discount/partner-discount-sdk.php:102
+msgid "Partner Discounts"
+msgstr "Descuentos de socios"
+
+#: plugin/admin/menu/menu.php:45 plugin/setup-wizard/onboarding-notice.php:269
+msgid "Quickstart"
+msgstr "Inicio rápido"
+
+#: plugin/admin/menu/menu.php:50
+msgid "Breakdance Form Submissions"
+msgstr "Envíos de formulario de Breakdance"
+
+#: plugin/admin/menu/menu.php:50
+msgid "Submissions"
+msgstr "Envíos"
+
+#: plugin/admin/menu/menu.php:64 plugin/admin/menu/menu.php:65
+msgid "Oxygen"
+msgstr "Oxígeno"
+
+#: plugin/admin/partner-discount/partner-discount-sdk.php:103
+msgid ""
+"Exclusive discounts on premium WordPress tools and plugins for our users."
+msgstr ""
+"Descuentos exclusivos en herramientas y plugins premium de WordPress para "
+"nuestros usuarios."
+
+#: plugin/admin/partner-discount/partner-discount-sdk.php:126
+msgid "Code:"
+msgstr "Código:"
+
+#: plugin/admin/partner-discount/partner-discount-sdk.php:130
+msgid "Claim"
+msgstr "Canjear"
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:59
+#: plugin/admin/partner-discount/partner-discount-ui.php:114
+msgid ""
+"This privacy-compliant WordPress analytics plugin gives detailed insights "
+"into user behavior beyond what traditional tools can provide, and has a "
+"dedicated integration for WooCommerce."
+msgstr ""
+"Este complemento de análisis de WordPress que cumple con la privacidad "
+"brinda información detallada sobre el comportamiento del usuario más allá de"
+" lo que pueden proporcionar las herramientas tradicionales y tiene una "
+"integración dedicada para WooCommerce."
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:67
+#: plugin/admin/partner-discount/partner-discount-ui.php:138
+msgid ""
+"Save code from inside Breakdance to WPCodebox in one click. Use cloud "
+"snippets to share across your sites and explore the Code Snippet Repository "
+"full of tested snippets."
+msgstr ""
+"Guarde el código desde Breakdance en WPCodebox con un solo clic. Utilice "
+"fragmentos de la nube para compartirlos en sus sitios y explore el "
+"repositorio de fragmentos de código lleno de fragmentos probados."
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:75
+#: plugin/admin/partner-discount/partner-discount-ui.php:130
+msgid ""
+"The #1 data import and export solution for WordPress and WooCommerce - by "
+"Soflyy, the creators of Oxygen."
+msgstr ""
+"La solución número uno de importación y exportación de datos para WordPress "
+"y WooCommerce, de Soflyy, los creadores de Oxygen."
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:83
+msgid ""
+"Created by the same team behind WP All Import, Oxygen is the go-to WordPress"
+" website builder for highly advanced users & developers who love to code."
+msgstr ""
+"Creado por el mismo equipo detrás de WP All Import, Oxygen es el creador de "
+"sitios web de WordPress ideal para usuarios y desarrolladores altamente "
+"avanzados que aman codificar."
+
+#: plugin/admin/partner-discount/partner-discount-ui.php:122
+msgid ""
+"Created by the same team behind WP All Import, Breakdance is a modern visual"
+" site builder for WordPress that combines professional power with drag & "
+"drop ease of use."
+msgstr ""
+"Creado por el mismo equipo detrás de WP All Import, Breakdance es un creador"
+" de sitios visual moderno para WordPress que combina potencia profesional "
+"con facilidad de uso de arrastrar y soltar."
+
+#. translators: %s: Plugin name
+#: plugin/admin/quick_action_links.php:48
+#, php-format
+msgid "Edit in %s"
+msgstr "Editar en %s"
+
+#: plugin/admin/settings-page/settings-page.php:12
+#: plugin/admin/settings-page/settings-page.php:16
+msgid "Settings"
+msgstr "Ajustes"
+
+#: plugin/admin/settings-page/settings-page.php:32
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: plugin/admin/settings-page/tabs/advanced.php:13
+#: plugin/admin/settings-page/tabs/advanced.php:96
+#: plugin/animations/entrance/control.php:53
+#: plugin/animations/scrolling/control.php:324
+#: plugin/dynamic-data/field-types/Field.php:56
+#: plugin/dynamic-data/field-types/StringField.php:56
+#: plugin/elements/universal-controls/advanced.php:136
+#: plugin/global-styles/typography/base.php:113
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: plugin/admin/settings-page/tabs/advanced.php:104
+msgid "Allow SVG Uploads In The WP Media Library"
+msgstr "Permitir subidas SVG en la biblioteca de medios de WP"
+
+#: plugin/admin/settings-page/tabs/advanced.php:109
+#: plugin/admin/settings-page/tabs/advanced.php:149
+#: plugin/admin/settings-page/tabs/advanced.php:184
+#: plugin/admin/settings-page/tabs/advanced.php:206
+msgid "Enable"
+msgstr "Activar"
+
+#. translators: 1: Opening <a> tag for security docs, 2: Closing </a> tag, 3:
+#. Opening <a> tag for Safe SVG plugin, 4: Closing </a> tag
+#: plugin/admin/settings-page/tabs/advanced.php:115
+#, php-format
+msgid ""
+"Allowing SVG uploads can be dangerous, and you should understand the "
+"%1$spotential security implications%2$s. If in doubt, use a plugin like "
+"%3$sSafe SVG%4$s instead of this option."
+msgstr ""
+"Permitir cargas SVG puede ser peligroso y debe comprender las %1$s posibles "
+"implicaciones de seguridad %2$s. En caso de duda, utilice un complemento "
+"como %3$s Safe SVG %4$s en lugar de esta opción."
+
+#. translators: 1: Filter name in <code> tags, 2: Plugin name
+#: plugin/admin/settings-page/tabs/advanced.php:143
+#, php-format
+msgid "Apply %1$s filter to %2$s content"
+msgstr "Aplicar el filtro %1$s al contenido %2$s"
+
+#. translators: 1: Plugin name (used multiple times), 2: Filter name in <code>
+#. tags, 3: Function call in <code> tags, 4: Opening <a> tag for security
+#. docs, 5: Closing </a> tag
+#: plugin/admin/settings-page/tabs/advanced.php:155
+#, php-format
+msgid ""
+"By default, %1$s does not apply %2$s filter to %1$s-designed content. You "
+"can enable this option to make %1$s run %3$s on singular content created "
+"with %1$s, but you should understand the %4$spotential security "
+"implications%5$s."
+msgstr ""
+"De forma predeterminada, %1$s no aplica el filtro %2$s al contenido diseñado"
+" por %1$s. Puede habilitar esta opción para hacer que %1$s ejecute %3$s en "
+"contenido singular creado con %1$s, pero debe comprender las posibles "
+"implicaciones de seguridad de %4$s %5$s."
+
+#: plugin/admin/settings-page/tabs/advanced.php:161
+msgid "Allow unfiltered HTML in all dynamic data output"
+msgstr "Permitir HTML sin filtrar en toda la salida de datos dinámicos"
+
+#: plugin/admin/settings-page/tabs/advanced.php:166
+msgid "Allow"
+msgstr "Permitir"
+
+#. translators: 1: Plugin name, 2: Function name in <code> tags, 3: Capability
+#. name in <code> tags, 4: Opening <a> tag for security docs, 5: Closing </a>
+#. tag
+#: plugin/admin/settings-page/tabs/advanced.php:172
+#, php-format
+msgid ""
+"By default, %1$s applies %2$s to fields on posts with an author that lacks "
+"the %3$s capability. You can disable this if you understand the "
+"%4$spotential security implications%5$s."
+msgstr ""
+"De forma predeterminada, %1$s aplica %2$s a campos en publicaciones con un "
+"autor que carece de la capacidad %3$s. Puede desactivar esto si comprende "
+"las %4$s posibles implicaciones de seguridad %5$s."
+
+#: plugin/admin/settings-page/tabs/advanced.php:178
+msgid "Enable rendering performance debugger"
+msgstr "Habilitar el depurador de rendimiento de renderizado"
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag
+#: plugin/admin/settings-page/tabs/advanced.php:190
+#, php-format
+msgid ""
+"Use %1$sServer Timing API%2$s to audit rendering performance. This option is"
+" intended for debugging only. It is recommended to enable it while "
+"troubleshooting and disable it afterward to avoid unnecessary overhead."
+msgstr ""
+"Utilice %1$s API de sincronización del servidor %2$s para auditar el "
+"rendimiento de la representación. Esta opción está destinada únicamente a la"
+" depuración. Se recomienda habilitarlo durante la resolución de problemas y "
+"deshabilitarlo después para evitar sobrecargas innecesarias."
+
+#: plugin/admin/settings-page/tabs/advanced.php:196
+msgid "Revisions"
+msgstr "Revisiones"
+
+#. translators: 1: Setting name in <code> tags, 2: Plugin name
+#: plugin/admin/settings-page/tabs/advanced.php:201
+#: plugin/admin/settings-page/tabs/advanced.php:229
+msgid "Limit Revisions"
+msgstr "Revisiones de límites"
+
+#. translators: 1: Plugin name, 2: Setting name in <code> tags
+#: plugin/admin/settings-page/tabs/advanced.php:212
+#, php-format
+msgid ""
+"For each page, on save, if the quantity of stored revisions of %1$s content "
+"is higher than the %2$s setting, the oldest revisions will be removed your "
+"database."
+msgstr ""
+"Para cada página, al guardar, si la cantidad de revisiones almacenadas del "
+"contenido %1$s es mayor que la configuración %2$s, las revisiones más "
+"antiguas se eliminarán de su base de datos."
+
+#. translators: 1: Plugin name, 2: Setting name in <code> tags
+#: plugin/admin/settings-page/tabs/advanced.php:212
+#: plugin/admin/settings-page/tabs/advanced.php:218
+msgid "Max Revisions"
+msgstr "Revisiones máximas"
+
+#. translators: 1: Setting name in <code> tags, 2: Plugin name
+#: plugin/admin/settings-page/tabs/advanced.php:229
+#, php-format
+msgid ""
+"If %1$s is enabled, this is the max number of revisions of %2$s content that"
+" will be kept for each page."
+msgstr ""
+"Si %1$s está habilitado, este es el número máximo de revisiones del "
+"contenido %2$s que se mantendrá para cada página."
+
+#: plugin/admin/settings-page/tabs/advanced.php:237
+#: plugin/admin/settings-page/tabs/license.php:175
+#: plugin/admin/settings-page/tabs/post-types.php:96
+#: plugin/admin/settings-page/tabs/privacy.php:115
+#: plugin/api-keys/settings-page.php:133
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:202
+#: plugin/design-library/settings-tabs.php:251
+#: plugin/extensions/settings-page.php:113
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:121
+#: plugin/maintenance-mode/maintenance-mode-page.php:173
+#: plugin/permissions/settings-tab.php:125
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:90
+#: plugin/woocommerce/settings/settings-tab.php:133
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: plugin/admin/settings-page/tabs/global-styles.php:20
+#: plugin/admin/settings-page/tabs/global-styles.php:30
+msgid "Global Styles"
+msgstr "Estilos globales"
+
+#: plugin/admin/settings-page/tabs/global-styles.php:39
+msgid "Launch Breakdance"
+msgstr "Lanzamiento de breakdance"
+
+#: plugin/admin/settings-page/tabs/global-styles.php:40
+msgid "Edit Global Settings & Selectors while browsing through your website."
+msgstr ""
+"Edite configuraciones y selectores globales mientras navega por su sitio "
+"web."
+
+#: plugin/admin/settings-page/tabs/license.php:24
+#: plugin/admin/settings-page/tabs/license.php:86
+msgid "License"
+msgstr "Licencia"
+
+#: plugin/admin/settings-page/tabs/license.php:56
+msgid "License was activated"
+msgstr "La licencia fue activada"
+
+#: plugin/admin/settings-page/tabs/license.php:61
+msgid "Failed to activate license"
+msgstr "No se pudo activar la licencia"
+
+#: plugin/admin/settings-page/tabs/license.php:68
+msgid "License was deactivated"
+msgstr "La licencia fue desactivada"
+
+#: plugin/admin/settings-page/tabs/license.php:73
+msgid "Failed to deactivate license"
+msgstr "No se pudo desactivar la licencia"
+
+#: plugin/admin/settings-page/tabs/license.php:94
+#: plugin/setup-wizard/setup-wizard-page.php:220
+msgid "License Key"
+msgstr "Clave de licencia"
+
+#: plugin/admin/settings-page/tabs/license.php:101
+msgid "Activate License"
+msgstr "Activar licencia"
+
+#: plugin/admin/settings-page/tabs/license.php:105
+msgid "Deactivate License"
+msgstr "Desactivar licencia"
+
+#: plugin/admin/settings-page/tabs/license.php:110
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery-image.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery.php:38
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image-url.php:38
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-price-range.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-regular-price.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale.php:35
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sku.php:38
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:40
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-title.php:37
+#: plugin/themeless/rules/woocommerce/product-attributes.php:15
+#: plugin/themeless/rules/woocommerce/product-cart.php:11
+#: plugin/themeless/rules/woocommerce/product-categories.php:14
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:11
+#: plugin/themeless/rules/woocommerce/product-shipping.php:14
+#: plugin/themeless/rules/woocommerce/product-tags.php:14
+#: plugin/themeless/rules/woocommerce/product-virtual.php:11
+msgid "Product"
+msgstr "Producto"
+
+#: plugin/admin/settings-page/tabs/license.php:113
+msgid "License Key Validity"
+msgstr "Validez de la clave de licencia"
+
+#: plugin/admin/settings-page/tabs/license.php:116
+msgid "Activation Status"
+msgstr "Estado de activación"
+
+#: plugin/admin/settings-page/tabs/license.php:119
+msgid "Expires On"
+msgstr "Vence el"
+
+#: plugin/admin/settings-page/tabs/license.php:122
+msgid "Has License Been Paid For"
+msgstr "¿Se ha pagado la licencia?"
+
+#. translators: 1: Opening <a> tag for breakdance.com, 2: Closing </a> tag, 3:
+#. Opening <a> tag for customer portal, 4: Closing </a> tag
+#: plugin/admin/settings-page/tabs/license.php:135
+#, php-format
+msgid ""
+"Visit %1$sbreakdance.com%2$s to purchase a license key. Already purchased? "
+"Find your license key in the %3$scustomer portal%4$s."
+msgstr ""
+"Visite %1$s breakdance.com %2$s para comprar una clave de licencia. ¿Ya "
+"compraste? Encuentre su clave de licencia en el portal del cliente %3$s "
+"%4$s."
+
+#. translators: 1: Opening <a> tag for oxygenbuilder.com, 2: Closing </a> tag,
+#. 3: Opening <a> tag for customer portal, 4: Closing </a> tag
+#: plugin/admin/settings-page/tabs/license.php:144
+#, php-format
+msgid ""
+"Visit %1$soxygenbuilder.com%2$s to purchase a license key. Already "
+"purchased? Find your license key in the %3$scustomer portal%4$s."
+msgstr ""
+"Visite %1$s oxygenbuilder.com %2$s para comprar una clave de licencia. ¿Ya "
+"compraste? Encuentre su clave de licencia en el portal del cliente %3$s "
+"%4$s."
+
+#: plugin/admin/settings-page/tabs/license.php:156
+msgid "Beta Versions"
+msgstr "Versiones Beta"
+
+#: plugin/admin/settings-page/tabs/license.php:164
+msgid "Receive beta version updates"
+msgstr "Reciba actualizaciones de la versión beta"
+
+#: plugin/admin/settings-page/tabs/license.php:168
+msgid ""
+"Checking this checkbox will opt you in to receive beta version updates. You "
+"can opt out at any time."
+msgstr ""
+"Al marcar esta casilla, podrá recibir actualizaciones de la versión beta. "
+"Puede optar por no participar en cualquier momento."
+
+#: plugin/admin/settings-page/tabs/post-types.php:13
+#: plugin/admin/settings-page/tabs/post-types.php:45
+#: plugin/admin/settings-page/tabs/post-types.php:54
+#: plugin/themeless/rules/archive/post-type.php:50
+msgid "Post Types"
+msgstr "Tipos de contenido"
+
+#: plugin/admin/settings-page/tabs/post-types.php:59
+msgid "All Public & Allowed Post Types"
+msgstr "Todos los tipos de publicaciones públicas y permitidas"
+
+#. translators: %s: Plugin name
+#: plugin/admin/settings-page/tabs/post-types.php:88
+#, php-format
+msgid "Editing with %s will only be enabled for the above post types."
+msgstr ""
+"La edición con %s solo estará habilitada para los tipos de publicaciones "
+"anteriores."
+
+#: plugin/admin/settings-page/tabs/privacy.php:12
+#: plugin/admin/settings-page/tabs/privacy.php:50
+msgid "Privacy"
+msgstr "Privacidad"
+
+#: plugin/admin/settings-page/tabs/privacy.php:59
+msgid "Disable Page & Session Cookies"
+msgstr "Deshabilitar cookies de página y sesión"
+
+#: plugin/admin/settings-page/tabs/privacy.php:64
+msgid "Disable"
+msgstr "Desactivar"
+
+#. translators: 1: Plugin name, 2: Condition name in <code> tags, 3: Another
+#. condition name in <code> tags
+#: plugin/admin/settings-page/tabs/privacy.php:70
+#, php-format
+msgid ""
+"%1$s provides conditions to show or hide certain content based on page view "
+"and session count. Enabling this option will prevent %1$s from setting the "
+"tracking cookies necessary for this functionality. The %2$s and %3$s "
+"conditions will not work."
+msgstr ""
+"%1$s proporciona condiciones para mostrar u ocultar cierto contenido según "
+"la vista de página y el recuento de sesiones. Habilitar esta opción evitará "
+"que %1$s configure las cookies de seguimiento necesarias para esta "
+"funcionalidad. Las condiciones %2$s y %3$s no funcionarán."
+
+#. translators: 1: Plugin name, 2: Condition name in <code> tags, 3: Another
+#. condition name in <code> tags
+#: plugin/admin/settings-page/tabs/privacy.php:70
+#: plugin/themeless/rules/conditions/sessions.php:27
+msgid "Page View Count"
+msgstr "Recuento de vistas de página"
+
+#. translators: 1: Plugin name, 2: Condition name in <code> tags, 3: Another
+#. condition name in <code> tags
+#: plugin/admin/settings-page/tabs/privacy.php:70
+#: plugin/themeless/rules/conditions/sessions.php:57
+msgid "Session Count"
+msgstr "Recuento de sesiones"
+
+#. translators: %s: Plugin name
+#: plugin/admin/settings-page/tabs/privacy.php:79
+#, php-format
+msgid "Improve %s"
+msgstr "Mejorar %s"
+
+#. translators: %s: Plugin name
+#: plugin/admin/settings-page/tabs/privacy.php:87
+#, php-format
+msgid "Yes, I want to help improve %s"
+msgstr "Sí, quiero ayudar a mejorar %s"
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag, 3: Plugin name
+#: plugin/admin/settings-page/tabs/privacy.php:94
+#, php-format
+msgid ""
+"By allowing us to %1$scollect usage data%2$s, you help us make %3$s better "
+"for everyone."
+msgstr ""
+"Al permitirnos %1$s recopilar datos de uso %2$s, nos ayudas a hacer que %3$s"
+" sea mejor para todos."
+
+#: plugin/ajax/api.php:29
+msgid "You must specify the minimum permissions to access your AJAX action."
+msgstr "Debes especificar los permisos mínimos para acceder a tu acción AJAX."
+
+#. translators: %s: Required permission level
+#: plugin/ajax/api.php:47
+#, php-format
+msgid "You need to be logged in and have minimum permission level of \"%s\""
+msgstr "Debe iniciar sesión y tener un nivel de permiso mínimo de \"%s\""
+
+#. translators: 1: Action/route name, 2: Required permission level
+#: plugin/ajax/api.php:57
+#, php-format
+msgid ""
+"Not enough permissions to perform the action \"%1$s\", minimum permission "
+"level is \"%2$s\"."
+msgstr ""
+"No hay suficientes permisos para realizar la acción \"%1$s\", el nivel "
+"mínimo de permiso es \"%2$s\"."
+
+#: plugin/ajax/api.php:68
+msgid "Failed security check"
+msgstr "Control de seguridad fallido"
+
+#: plugin/ajax/api.php:71
+msgid "Expired"
+msgstr "Venció"
+
+#: plugin/ajax/api.php:88 plugin/ajax/api.php:107
+msgid "Bad request"
+msgstr "Solicitud incorrecta"
+
+#: plugin/ajax/api.php:89
+msgid "All of the required POST parameters are missing"
+msgstr "Faltan todos los parámetros POST requeridos"
+
+#. translators: %s: Comma-separated list of missing parameter names
+#: plugin/ajax/api.php:110
+#, php-format
+msgid "Required POST parameters are missing or invalid: \"%s\""
+msgstr "Faltan los parámetros POST requeridos o no son válidos: \"%s\""
+
+#. translators: 1: Return value type, 2: Route name
+#: plugin/ajax/api.php:134
+#, php-format
+msgid ""
+"AJAX callbacks should return an associative array ([\"key\" => \"value\") or"
+" a blank array ([]). Got %1$s for route \"%2$s\""
+msgstr ""
+"Las devoluciones de llamada AJAX deben devolver una matriz asociativa "
+"([\"clave\" => \"valor\") o una matriz en blanco ([]). Obtuve %1$s para la "
+"ruta \"%2$s\""
+
+#: plugin/ajax/api.php:145
+msgid ""
+"Unexpected output during AJAX request. AJAX Callbacks should return an "
+"associative array."
+msgstr ""
+"Salida inesperada durante la solicitud AJAX. Las devoluciones de llamada "
+"AJAX deberían devolver una matriz asociativa."
+
+#. translators: %s: Plugin name
+#: plugin/ajax/api.php:241
+#, php-format
+msgid "Your %s session token has been refreshed"
+msgstr "Su token de sesión %s se ha actualizado"
+
+#: plugin/ajax/endpoints/manage-onboarding-pages.php:96
+msgid "Invalid post ID"
+msgstr "ID de publicación no válida"
+
+#: plugin/ajax/endpoints/manage-onboarding-pages.php:105
+msgid "Post not found"
+msgstr "Publicación no encontrada"
+
+#: plugin/animations/control.php:22
+msgid "Animations"
+msgstr "animaciones"
+
+#: plugin/animations/entrance/control.php:20
+msgid "Entrance Animation"
+msgstr "Animación de entrada"
+
+#: plugin/animations/entrance/control.php:22
+msgid "Animation Type"
+msgstr "Tipo de animación"
+
+#: plugin/animations/entrance/control.php:27
+#: plugin/interactions/actions/start-animation.php:93
+msgid "Duration"
+msgstr "Duración"
+
+#: plugin/animations/entrance/control.php:39
+#: plugin/interactions/actions/start-animation.php:99
+msgid "Delay"
+msgstr "Demora"
+
+#: plugin/animations/entrance/control.php:55
+msgid "Distance"
+msgstr "Distancia"
+
+#: plugin/animations/entrance/control.php:71
+#: plugin/animations/sticky/control.php:29
+msgid "Offset"
+msgstr "Compensar"
+
+#: plugin/animations/entrance/control.php:82
+msgid "Animate only once"
+msgstr "Animar solo una vez"
+
+#: plugin/animations/entrance/control.php:85
+#: plugin/animations/scrolling/control.php:326
+msgid "Ease"
+msgstr "Facilidad"
+
+#: plugin/animations/entrance/control.php:113
+#: plugin/animations/scrolling/control.php:367
+#: plugin/animations/sticky/control.php:52
+msgid "Disable At"
+msgstr "Desactivar en"
+
+#: plugin/animations/scrolling/control.php:18
+msgid "Scrolling Animation"
+msgstr "Animación de desplazamiento"
+
+#: plugin/animations/scrolling/control.php:20
+#: plugin/woocommerce/settings/settings-tab.php:55
+msgid "Enabled"
+msgstr "Activado"
+
+#: plugin/animations/scrolling/control.php:25
+msgid "Horizontal Position"
+msgstr "Posición Horizontal"
+
+#: plugin/animations/scrolling/control.php:27
+#: plugin/animations/scrolling/control.php:69
+#: plugin/animations/scrolling/control.php:111
+#: plugin/animations/scrolling/control.php:153
+#: plugin/animations/scrolling/control.php:195
+#: plugin/animations/scrolling/control.php:234
+#: plugin/animations/scrolling/control.php:272
+#: plugin/animations/scrolling/control.php:299
+#: plugin/elements/preset-sections/grid.php:140
+#: plugin/elements/preset-sections/grid.php:141
+#: plugin/elements/preset-sections/grid.php:244
+#: plugin/elements/preset-sections/grid.php:245
+msgid "Start"
+msgstr "Comenzar"
+
+#: plugin/animations/scrolling/control.php:35
+#: plugin/animations/scrolling/control.php:77
+#: plugin/animations/scrolling/control.php:119
+#: plugin/animations/scrolling/control.php:161
+#: plugin/animations/scrolling/control.php:202
+#: plugin/animations/scrolling/control.php:241
+#: plugin/animations/scrolling/control.php:275
+#: plugin/animations/scrolling/control.php:302
+#: plugin/elements/preset-sections/layout_basic_flex.php:82
+msgid "Middle"
+msgstr "Medio"
+
+#: plugin/animations/scrolling/control.php:43
+#: plugin/animations/scrolling/control.php:85
+#: plugin/animations/scrolling/control.php:127
+#: plugin/animations/scrolling/control.php:169
+#: plugin/animations/scrolling/control.php:209
+#: plugin/animations/scrolling/control.php:248
+#: plugin/animations/scrolling/control.php:278
+#: plugin/animations/scrolling/control.php:305
+#: plugin/elements/preset-sections/grid.php:152
+#: plugin/elements/preset-sections/grid.php:153
+#: plugin/elements/preset-sections/grid.php:256
+#: plugin/elements/preset-sections/grid.php:257
+msgid "End"
+msgstr "Fin"
+
+#: plugin/animations/scrolling/control.php:51
+#: plugin/animations/scrolling/control.php:93
+#: plugin/animations/scrolling/control.php:135
+#: plugin/animations/scrolling/control.php:177
+#: plugin/animations/scrolling/control.php:216
+#: plugin/animations/scrolling/control.php:255
+#: plugin/animations/scrolling/control.php:281
+#: plugin/animations/scrolling/control.php:308
+msgid "Trigger"
+msgstr "Desencadenar"
+
+#: plugin/animations/scrolling/control.php:58
+#: plugin/animations/scrolling/control.php:100
+#: plugin/animations/scrolling/control.php:142
+#: plugin/animations/scrolling/control.php:184
+#: plugin/animations/scrolling/control.php:223
+#: plugin/animations/scrolling/control.php:262
+#: plugin/animations/scrolling/control.php:288
+#: plugin/animations/scrolling/control.php:315
+#: plugin/animations/sticky/control.php:26
+#: plugin/elements/preset-sections/layout_basic_flex.php:83
+#: plugin/elements/preset-sections/shape/shape.php:66
+msgid "Bottom"
+msgstr "Abajo"
+
+#: plugin/animations/scrolling/control.php:58
+#: plugin/animations/scrolling/control.php:100
+#: plugin/animations/scrolling/control.php:142
+#: plugin/animations/scrolling/control.php:184
+#: plugin/animations/scrolling/control.php:223
+#: plugin/animations/scrolling/control.php:262
+#: plugin/animations/scrolling/control.php:288
+#: plugin/animations/scrolling/control.php:315
+#: plugin/animations/sticky/control.php:24
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:17
+#: plugin/elements/preset-sections/layout_basic_flex.php:81
+#: plugin/elements/preset-sections/shape/shape.php:65
+#: plugin/elements/preset-sections/typography.php:176
+msgid "Top"
+msgstr "Arriba"
+
+#: plugin/animations/scrolling/control.php:67
+msgid "Vertical Position"
+msgstr "Posición vertical"
+
+#: plugin/animations/scrolling/control.php:109
+msgid "Opacity"
+msgstr "Opacidad"
+
+#: plugin/animations/scrolling/control.php:151
+#: plugin/interactions/actions/blur.php:17
+msgid "Blur"
+msgstr "Difuminar"
+
+#: plugin/animations/scrolling/control.php:193
+msgid "Rotation"
+msgstr "Rotación"
+
+#: plugin/animations/scrolling/control.php:232
+msgid "Scale"
+msgstr "Escala"
+
+#: plugin/animations/scrolling/control.php:270
+#: plugin/elements/preset-sections/shape/shape.php:49
+#: plugin/elements/preset-sections/tabs.php:118
+#: plugin/elements/preset-sections/tabs.php:343
+#: plugin/elements/preset-sections/typography.php:273
+#: plugin/global-styles/typography/base.php:136
+#: plugin/global-styles/typography/base.php:168
+msgid "Color"
+msgstr "Color"
+
+#: plugin/animations/scrolling/control.php:297
+#: plugin/global-styles/other/base.php:37
+msgid "Background Color"
+msgstr "Color de fondo"
+
+#: plugin/animations/scrolling/control.php:340
+msgid "Scrub"
+msgstr "Fregar"
+
+#: plugin/animations/scrolling/control.php:346
+msgid "Transform Origin"
+msgstr "Transformar origen"
+
+#: plugin/animations/scrolling/control.php:353
+#: plugin/animations/sticky/control.php:37
+msgid "Relative To"
+msgstr "Relativo a"
+
+#: plugin/animations/scrolling/control.php:357
+#: plugin/animations/sticky/control.php:42
+msgid "Viewport"
+msgstr "Ventana gráfica"
+
+#: plugin/animations/scrolling/control.php:358
+#: plugin/maintenance-mode/maintenance-mode-page.php:48
+msgid "Page"
+msgstr "Página"
+
+#: plugin/animations/scrolling/control.php:359
+#: plugin/animations/sticky/control.php:43
+#: plugin/dynamic-data/field-types/PostField.php:35
+#: plugin/dynamic-data/field-types/PostField.php:72
+#: plugin/dynamic-data/fields/post/post-date.php:54
+#: plugin/dynamic-data/fields/post/post-time.php:63
+#: plugin/dynamic-data/fields/utility/date.php:44
+#: plugin/dynamic-data/fields/utility/date.php:46
+#: plugin/elements/preset-sections/grid.php:47
+#: plugin/elements/preset-sections/grid.php:185
+#: plugin/elements/preset-sections/shape/shape.php:104
+#: plugin/elements/preset-sections/typography.php:89
+#: plugin/elements/preset-sections/typography.php:163
+msgid "Custom"
+msgstr "Costumbre"
+
+#: plugin/animations/scrolling/control.php:362
+#: plugin/animations/sticky/control.php:47
+msgid "Custom Selector"
+msgstr "Selector personalizado"
+
+#: plugin/animations/scrolling/control.php:371
+msgid "Debug"
+msgstr "Depurar"
+
+#: plugin/animations/sticky/control.php:18
+msgid "Sticky"
+msgstr "Pegajoso"
+
+#: plugin/animations/sticky/control.php:20
+#: plugin/elements/preset-sections/shape/shape.php:62
+#: plugin/elements/preset-sections/tabs.php:48
+#: plugin/elements/preset-sections/tabs.php:56
+#: plugin/elements/preset-sections/typography.php:150
+msgid "Position"
+msgstr "Posición"
+
+#: plugin/animations/sticky/control.php:25
+#: plugin/elements/preset-sections/grid.php:146
+#: plugin/elements/preset-sections/grid.php:147
+#: plugin/elements/preset-sections/grid.php:250
+#: plugin/elements/preset-sections/grid.php:251
+#: plugin/elements/preset-sections/layout_basic_flex.php:43
+#: plugin/elements/preset-sections/layout_basic_flex.php:64
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:19
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:40
+#: plugin/elements/preset-sections/tabs.php:58
+#: plugin/elements/preset-sections/typography.php:300
+msgid "Center"
+msgstr "Centro"
+
+#: plugin/animations/sticky/control.php:41
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:16
+msgid "Parent"
+msgstr "Padre"
+
+#: plugin/api-keys/settings-page.php:9 plugin/api-keys/settings-page.php:105
+msgid "API Keys"
+msgstr "Claves API"
+
+#. translators: %s: Integration name (e.g., "Mailchimp", "Stripe")
+#: plugin/api-keys/settings-page.php:152
+#, php-format
+msgid "Invalid %s API Key"
+msgstr "Clave API de %s no válida"
+
+#: plugin/bloat-eliminator/bloat-eliminator-tab.php:14
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:1
+#: plugin/setup-wizard/setup-wizard-page.php:208
+msgid "Performance"
+msgstr "Rendimiento"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:8
+msgid "Gutenberg Blocks CSS"
+msgstr "Gutenberg bloquea CSS"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:14
+msgid "Remove Gutenberg Blocks CSS"
+msgstr "Eliminar bloques de Gutenberg CSS"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:18
+msgid ""
+"The Gutenberg Block Editor loads 11kb of CSS even if you don't use it. "
+"Remove it if you're not using the Gutenberg Block Editor."
+msgstr ""
+"El editor de bloques de Gutenberg carga 11 kb de CSS incluso si no lo usas. "
+"Elimínelo si no está utilizando el Editor de bloques de Gutenberg."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:24
+msgid "XML-RPC Pingbacks"
+msgstr "Pingbacks XML-RPC"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:30
+msgid "Remove & Disable Pingbacks"
+msgstr "Eliminar y deshabilitar pingbacks"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:34
+msgid ""
+"Say goodbye to pingback spam. This option removes the XML-RPC pingback "
+"information from the <head>, and disables the WP Pingback system."
+msgstr ""
+"Dile adiós al spam de pingback. Esta opción elimina la información de "
+"pingback XML-RPC del<head>y deshabilita el sistema WP Pingback."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:40
+msgid "WP Emoji"
+msgstr "Emoji de WP"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:46
+msgid "Disable built-in WordPress JavaScript for rendering emojis."
+msgstr ""
+"Deshabilite el JavaScript integrado de WordPress para representar emojis."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:50
+msgid ""
+"WordPress loads a 10kb JavaScript to handle emojis on every page of your "
+"website, even if you don't use emojis. Modern browsers support emojis out-"
+"of-the-box, with no need for JavaScript."
+msgstr ""
+"WordPress carga un JavaScript de 10 kb para manejar emojis en cada página de"
+" su sitio web, incluso si no usa emojis. Los navegadores modernos admiten "
+"emojis desde el primer momento, sin necesidad de JavaScript."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:56
+msgid "Dashicons"
+msgstr "Dashicones"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:62
+msgid "Disable admin icons for logged out users"
+msgstr "Deshabilitar los íconos de administrador para usuarios desconectados"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:66
+msgid ""
+"WordPress loads its admin panel icons for all users, even though they are "
+"typically only needed for logged in users that have access to the admin "
+"panel."
+msgstr ""
+"WordPress carga los íconos de su panel de administración para todos los "
+"usuarios, aunque generalmente solo son necesarios para los usuarios que han "
+"iniciado sesión y tienen acceso al panel de administración."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:72
+msgid "OEmbed"
+msgstr "OEmbed"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:78
+msgid "Disable OEmbed"
+msgstr "Deshabilitar OEmbed"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:82
+msgid ""
+"Disables the automatic embedding of some content such as YouTube videos, "
+"Tweets, etc. when pasting the URL into your blog posts."
+msgstr ""
+"Desactiva la incrustación automática de algunos contenidos, como vídeos de "
+"YouTube, tweets, etc., al pegar la URL en las publicaciones de tu blog."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:88
+msgid "RSD Links"
+msgstr "Enlaces RSD"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:94
+msgid "Disable Really Simple Discovery feature"
+msgstr "Deshabilitar la función Really Simple Discovery"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:99
+msgid ""
+"Really Simple Discovery is a spec from 2003 related to desktop blog-"
+"publishing applications. It is also often used by XML-RPC clients to find "
+"out information about your WordPress blog."
+msgstr ""
+"Really Simple Discovery es una especificación de 2003 relacionada con "
+"aplicaciones de publicación de blogs de escritorio. Los clientes XML-RPC "
+"también lo utilizan a menudo para encontrar información sobre su blog de "
+"WordPress."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:105
+msgid "WLW Link"
+msgstr "Enlace WLW"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:111
+msgid "Disable Windows Live Writer Link"
+msgstr "Deshabilitar el enlace de Windows Live Writer"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:114
+msgid ""
+"Windows Live Writer was a desktop blog-publishing application. It was EOL in"
+" 2012, and completely discontinued in 2017."
+msgstr ""
+"Windows Live Writer era una aplicación de publicación de blogs de "
+"escritorio. Fue EOL en 2012 y se suspendió por completo en 2017."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:119
+msgid "REST API"
+msgstr "REST API"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:125
+msgid "Disable WP REST metadata"
+msgstr "Deshabilitar los metadatos de WP REST"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:129
+msgid ""
+"This option removes WP REST metadata from your <head>. It does not disable "
+"the REST API."
+msgstr ""
+"Esta opción elimina los metadatos de WP REST de su<head>. No deshabilita la "
+"API REST."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:135
+msgid "WP Generator"
+msgstr "Generador de WordPress"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:141
+msgid "Disable WordPress Generator Meta Tag"
+msgstr "Deshabilitar la metaetiqueta del generador de WordPress"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:145
+msgid ""
+"Stop WordPress from adding the <meta name=\"generator\" content=\"WordPress "
+"x.x.x\"> tag to your head."
+msgstr ""
+"Evite que WordPress agregue la etiqueta<meta name=\"generator\" "
+"content=\"WordPress x.x.x\">a su cabeza."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:151
+msgid "Remove Shortlink"
+msgstr "Eliminar enlace corto"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:157
+msgid "Disable Shortlink Tag"
+msgstr "Deshabilitar etiqueta de enlace corto"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:161
+msgid ""
+"WordPress includes a <link rel=shortlink ...> into the head if a shortlink "
+"is defined for the current page."
+msgstr ""
+"WordPress incluye un<link rel=shortlink ...>en el encabezado si se define un"
+" enlace corto para la página actual."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:167
+msgid "Relational Links"
+msgstr "Enlaces relacionales"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:173
+msgid "Disable Relational Links For Single Posts"
+msgstr "Deshabilitar enlaces relacionales para publicaciones individuales"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:177
+msgid ""
+"For single posts, WordPress places relational links in the head for the "
+"posts adjacent to the current post."
+msgstr ""
+"Para publicaciones individuales, WordPress coloca enlaces relacionales en el"
+" encabezado de las publicaciones adyacentes a la publicación actual."
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:183
+msgid "RSS Feed"
+msgstr "Fuente RSS"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:189
+msgid "Disable RSS Links"
+msgstr "Deshabilitar enlaces RSS"
+
+#: plugin/bloat-eliminator/bloat-eliminator-template.php:193
+msgid ""
+"This option removes the RSS feed information from the <head>. It does not "
+"disable the RSS feeds."
+msgstr ""
+"Esta opción elimina la información de la fuente RSS del<head>. No desactiva "
+"las fuentes RSS."
+
+#. translators: 1: Block type (e.g., "Global Block"), 2: Block label/name
+#: plugin/blocks/ajax_save_block.php:98
+#, php-format
+msgid "Failed to save %1$s \"%2$s\""
+msgstr "No se pudo guardar %1$s\"%2$s\""
+
+#. translators: %s: Template ID
+#: plugin/blocks/ajax_save_block.php:129
+#: plugin/themeless/manage-templates-spa/api.php:220
+#, php-format
+msgid "Couldn't get template with ID \"%s\""
+msgstr "No se pudo obtener la plantilla con ID \"%s\""
+
+#: plugin/conditions/add-condition-controls.php:21
+msgid "Conditions"
+msgstr "Condiciones"
+
+#: plugin/conditions/add-condition-controls.php:24
+msgid "Only Show Element If"
+msgstr "Mostrar elemento solo si"
+
+#: plugin/conditions/add-condition-controls.php:32
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:30
+msgid "In-Builder Preview"
+msgstr "Vista previa en el constructor"
+
+#: plugin/conditions/add-condition-controls.php:35
+msgid "Always Show"
+msgstr "Mostrar siempre"
+
+#: plugin/conditions/add-condition-controls.php:36
+msgid "Always Hide"
+msgstr "Ocultar siempre"
+
+#: plugin/config/builtin-breakpoints.php:14
+msgid "Desktop"
+msgstr "De oficina"
+
+#: plugin/config/builtin-breakpoints.php:15
+msgid "Tablet Landscape"
+msgstr "Paisaje de tableta"
+
+#: plugin/config/builtin-breakpoints.php:16
+msgid "Tablet Portrait"
+msgstr "Retrato de tableta"
+
+#: plugin/config/builtin-breakpoints.php:17
+msgid "Phone Landscape"
+msgstr "Paisaje telefónico"
+
+#: plugin/config/builtin-breakpoints.php:18
+msgid "Phone Portrait"
+msgstr "Retrato de teléfono"
+
+#: plugin/design-library/builder.php:27
+msgid "Disable For This Element"
+msgstr "Deshabilitar para este elemento"
+
+#: plugin/design-library/post-type.php:8
+msgctxt "Post type general name"
+msgid "Parts"
+msgstr "Regiones"
+
+#: plugin/design-library/post-type.php:9
+msgctxt "Post type singular name"
+msgid "Part"
+msgstr "Parte"
+
+#: plugin/design-library/post-type.php:10
+msgctxt "Admin Menu text"
+msgid "Parts"
+msgstr "Regiones"
+
+#: plugin/design-library/post-type.php:11
+msgctxt "Add New on Toolbar"
+msgid "Part"
+msgstr "Parte"
+
+#: plugin/design-library/post-type.php:12
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+#: plugin/design-library/post-type.php:13
+msgid "Add New Part"
+msgstr "Agregar nueva pieza"
+
+#: plugin/design-library/post-type.php:14
+msgid "New Part"
+msgstr "Nueva parte"
+
+#: plugin/design-library/post-type.php:15
+msgid "Edit Part"
+msgstr "Editar parte"
+
+#: plugin/design-library/post-type.php:16
+msgid "View Part"
+msgstr "Ver parte"
+
+#: plugin/design-library/post-type.php:17
+msgid "All Part"
+msgstr "Toda la parte"
+
+#: plugin/design-library/post-type.php:18
+msgid "Search Part"
+msgstr "Buscar parte"
+
+#: plugin/design-library/post-type.php:19
+msgid "Parent Part:"
+msgstr "Parte principal:"
+
+#: plugin/design-library/post-type.php:20
+msgid "No parts found."
+msgstr "No se encontraron piezas."
+
+#: plugin/design-library/post-type.php:21
+msgid "No parts found in Trash."
+msgstr "No se encontraron piezas en la Papelera."
+
+#: plugin/design-library/post-type.php:22
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Part Cover Image"
+msgstr "Imagen de portada de la pieza"
+
+#: plugin/design-library/post-type.php:23
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr "Establecer imagen de portada"
+
+#: plugin/design-library/post-type.php:24
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in "
+"4.3"
+msgid "Remove cover image"
+msgstr "Quitar imagen de portada"
+
+#: plugin/design-library/post-type.php:25
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in "
+"4.3"
+msgid "Use as cover image"
+msgstr "Usar como imagen de portada"
+
+#: plugin/design-library/post-type.php:26
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Part archives"
+msgstr "Archivos de piezas"
+
+#: plugin/design-library/post-type.php:27
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into part"
+msgstr "Insertar en parte"
+
+#: plugin/design-library/post-type.php:28
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this part"
+msgstr "Subido a esta parte"
+
+#: plugin/design-library/post-type.php:29
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter parts list"
+msgstr "Lista de piezas del filtro"
+
+#: plugin/design-library/post-type.php:30
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in "
+"4.4"
+msgid "Parts list navigation"
+msgstr "Navegación por la lista de piezas"
+
+#: plugin/design-library/post-type.php:31
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Parts list"
+msgstr "Lista de piezas"
+
+#: plugin/design-library/settings-tabs.php:110
+msgid "Design Set"
+msgstr "Conjunto de diseño"
+
+#: plugin/design-library/settings-tabs.php:117
+msgid "Turn This Website Into a Design Set"
+msgstr "Convierta este sitio web en un conjunto de diseño"
+
+#: plugin/design-library/settings-tabs.php:123
+msgid "Enable Copy From Frontend"
+msgstr "Habilitar copia desde la interfaz"
+
+#: plugin/design-library/settings-tabs.php:129
+msgid "This Design Set Relies On Global Settings"
+msgstr "Este conjunto de diseño se basa en la configuración global"
+
+#: plugin/design-library/settings-tabs.php:135
+msgid "This Design Set Relies On Design Presets"
+msgstr "Este conjunto de diseño se basa en ajustes preestablecidos de diseño"
+
+#: plugin/design-library/settings-tabs.php:142
+msgid "Full Site Import Enabled"
+msgstr "Importación completa del sitio habilitada"
+
+#: plugin/design-library/settings-tabs.php:148
+msgid "Thumbnail URL"
+msgstr "URL en miniatura"
+
+#: plugin/design-library/settings-tabs.php:180
+msgid "Shareable URL:"
+msgstr "URL compartible:"
+
+#: plugin/design-library/settings-tabs.php:187
+msgid "Password Protection"
+msgstr "Protección con contraseña"
+
+#: plugin/design-library/settings-tabs.php:190
+msgid "Enter a password"
+msgstr "Introduce una contraseña"
+
+#. translators: %s: Password parameter in HTML bold tags
+#: plugin/design-library/settings-tabs.php:195
+#, php-format
+msgid ""
+"Protect your Design Set with a password. (Optional) If the %s param is not "
+"provided, users will be prompted to enter this password."
+msgstr ""
+"Proteja su conjunto de diseño con una contraseña. (Opcional) Si no se "
+"proporciona el parámetro %s, se solicitará a los usuarios que ingresen esta "
+"contraseña."
+
+#: plugin/design-library/settings-tabs.php:202
+msgid "Custom Design Sets"
+msgstr "Conjuntos de diseño personalizados"
+
+#. translators: %1$s: Plugin name (used twice in the sentence)
+#: plugin/design-library/settings-tabs.php:213
+#, php-format
+msgid ""
+"Add custom Design Sets to your %1$s installation. By default, %1$s provides "
+"a list of official Design Sets, but you can use this field to add any custom"
+" design sets you want."
+msgstr ""
+"Agregue conjuntos de diseños personalizados a su instalación %1$s. De forma "
+"predeterminada, %1$s proporciona una lista de conjuntos de diseño oficiales,"
+" pero puede usar este campo para agregar cualquier conjunto de diseño "
+"personalizado que desee."
+
+#: plugin/design-library/settings-tabs.php:216
+msgid "Insert one URL per line."
+msgstr "Inserte una URL por línea."
+
+#. translators: %s: Unexpected output content
+#: plugin/dynamic-data/breakdance-dynamic-shortcode.php:30
+#: plugin/dynamic-data/breakdance-dynamic-shortcode.php:143
+#, php-format
+msgid "Unexpected Dynamic Data Output: %s"
+msgstr "Salida de datos dinámica inesperada: %s"
+
+#: plugin/dynamic-data/dynamic-data.php:29
+#: plugin/dynamic-data/fields/post/post-comments-number.php:21
+#: plugin/dynamic-data/fields/post/post-content.php:21
+#: plugin/dynamic-data/fields/post/post-custom-field-image.php:21
+#: plugin/dynamic-data/fields/post/post-custom-field-oembed.php:21
+#: plugin/dynamic-data/fields/post/post-custom-field.php:21
+#: plugin/dynamic-data/fields/post/post-date.php:20
+#: plugin/dynamic-data/fields/post/post-excerpt.php:20
+#: plugin/dynamic-data/fields/post/post-featured-image-url.php:22
+#: plugin/dynamic-data/fields/post/post-featured-image.php:20
+#: plugin/dynamic-data/fields/post/post-image-attachment.php:20
+#: plugin/dynamic-data/fields/post/post-image-attachments.php:20
+#: plugin/dynamic-data/fields/post/post-permalink.php:20
+#: plugin/dynamic-data/fields/post/post-terms.php:20
+#: plugin/dynamic-data/fields/post/post-time.php:20
+#: plugin/dynamic-data/fields/post/post-title.php:20
+msgid "Post"
+msgstr "Correo"
+
+#: plugin/dynamic-data/dynamic-data.php:30
+#: plugin/dynamic-data/fields/query/utm-tags.php:51
+#: plugin/dynamic-data/fields/term/term-count.php:22
+#: plugin/dynamic-data/fields/term/term-custom-field.php:23
+#: plugin/dynamic-data/fields/term/term-description.php:22
+#: plugin/dynamic-data/fields/term/term-id.php:22
+#: plugin/dynamic-data/fields/term/term-name.php:22
+#: plugin/dynamic-data/fields/term/term-permalink.php:22
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-category-count.php:22
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-category-image.php:23
+msgid "Term"
+msgstr "Término"
+
+#: plugin/dynamic-data/dynamic-data.php:31
+#: plugin/dynamic-data/field-types/AcfField.php:38
+msgid "ACF"
+msgstr "ACF"
+
+#: plugin/dynamic-data/dynamic-data.php:32
+#: plugin/dynamic-data/field-types/MetaboxField.php:38
+#: plugin/dynamic-data/fields/metabox/metabox-gallery-field.php:27
+#: plugin/dynamic-data/fields/metabox/metabox-oembed-field.php:28
+#: plugin/dynamic-data/fields/metabox/metabox-post-field.php:27
+msgid "Metabox"
+msgstr "metabox"
+
+#: plugin/dynamic-data/dynamic-data.php:33
+#: plugin/dynamic-data/field-types/ToolsetField.php:34
+#: plugin/dynamic-data/fields/toolset/toolset-image-field.php:26
+#: plugin/dynamic-data/fields/toolset/toolset-post-field.php:27
+#: plugin/dynamic-data/fields/toolset/toolset-url-image-field.php:26
+#: plugin/dynamic-data/fields/toolset/toolset-video-field.php:27
+msgid "Toolset"
+msgstr "Conjunto de herramientas"
+
+#: plugin/dynamic-data/dynamic-data.php:34
+#: plugin/dynamic-data/fields/featured-image/featured-alt.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-caption.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-image.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-oembed.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field.php:21
+#: plugin/dynamic-data/fields/featured-image/featured-title.php:21
+#: plugin/dynamic-data/fields/post/post-featured-image.php:12
+#: plugin/themeless/rules/conditions/singular.php:778
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+#: plugin/dynamic-data/dynamic-data.php:35
+#: plugin/dynamic-data/fields/archive/archive-description.php:21
+#: plugin/dynamic-data/fields/archive/archive-title.php:21
+#: plugin/themeless/rules/archive/all.php:13
+#: plugin/themeless/rules/archive/author.php:19
+#: plugin/themeless/rules/archive/author.php:39
+#: plugin/themeless/rules/archive/date.php:12
+#: plugin/themeless/rules/archive/post-type.php:18
+#: plugin/themeless/rules/archive/post-type.php:45
+#: plugin/themeless/rules/archive/post.php:13
+#: plugin/themeless/rules/archive/product-archives.php:22
+#: plugin/themeless/rules/archive/taxonomy.php:20
+msgid "Archive"
+msgstr "Archivo"
+
+#: plugin/dynamic-data/dynamic-data.php:36
+#: plugin/dynamic-data/fields/futurelayer/site-logo.php:17
+#: plugin/dynamic-data/fields/site/admin_email.php:21
+#: plugin/dynamic-data/fields/site/home-url.php:21
+#: plugin/dynamic-data/fields/site/site-logo-url.php:21
+#: plugin/dynamic-data/fields/site/site-logo.php:20
+#: plugin/dynamic-data/fields/site/site-logout-url.php:34
+#: plugin/dynamic-data/fields/site/site-rss.php:21
+#: plugin/dynamic-data/fields/site/site-tagline.php:21
+#: plugin/dynamic-data/fields/site/site-title.php:21
+#: plugin/dynamic-data/fields/site/site-url.php:21
+msgid "Site Info"
+msgstr "Información del sitio"
+
+#: plugin/dynamic-data/dynamic-data.php:37
+#: plugin/dynamic-data/fields/author/author-avatar-url.php:20
+#: plugin/dynamic-data/fields/author/author-avatar.php:20
+#: plugin/dynamic-data/fields/author/author-bio.php:21
+#: plugin/dynamic-data/fields/author/author-custom-field-image.php:21
+#: plugin/dynamic-data/fields/author/author-custom-field-oembed.php:21
+#: plugin/dynamic-data/fields/author/author-custom-field.php:20
+#: plugin/dynamic-data/fields/author/author-email.php:20
+#: plugin/dynamic-data/fields/author/author-name.php:20
+#: plugin/dynamic-data/fields/author/author-website.php:21
+#: plugin/themeless/rules/archive/author.php:38
+#: plugin/themeless/rules/conditions/singular.php:690
+msgid "Author"
+msgstr "Autor"
+
+#: plugin/dynamic-data/dynamic-data.php:38
+#: plugin/dynamic-data/fields/user/current-user-avatar-url.php:21
+#: plugin/dynamic-data/fields/user/current-user-avatar.php:21
+#: plugin/dynamic-data/fields/user/current-user-bio.php:21
+#: plugin/dynamic-data/fields/user/current-user-custom-field-image.php:21
+#: plugin/dynamic-data/fields/user/current-user-custom-field-oembed.php:21
+#: plugin/dynamic-data/fields/user/current-user-custom-field.php:20
+#: plugin/dynamic-data/fields/user/current-user-email.php:20
+#: plugin/dynamic-data/fields/user/current-user-name.php:20
+#: plugin/dynamic-data/fields/user/current-user-website.php:20
+msgid "Current User"
+msgstr "Usuario actual"
+
+#: plugin/dynamic-data/dynamic-data.php:39
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery-image.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image-url.php:21
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-price-range.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-regular-price.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale.php:21
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sku.php:21
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:20
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:21
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-title.php:20
+#: plugin/global-styles/woocommerce/base.php:13
+#: plugin/woocommerce/settings/settings-tab.php:20
+#: plugin/woocommerce/settings/settings-tab.php:42
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: plugin/dynamic-data/dynamic-data.php:40
+#: plugin/dynamic-data/fields/query/search-query.php:21
+#: plugin/dynamic-data/fields/query/url-parameter.php:20
+#: plugin/dynamic-data/fields/query/utm-tags.php:19
+msgid "URL & Query"
+msgstr "URL y consulta"
+
+#: plugin/dynamic-data/dynamic-data.php:41
+#: plugin/dynamic-data/fields/utility/date.php:21
+#: plugin/dynamic-data/fields/utility/php-function.php:21
+#: plugin/dynamic-data/fields/utility/shortcode.php:21
+msgid "Utility"
+msgstr "Utilidad"
+
+#: plugin/dynamic-data/field-types/ImageField.php:17
+msgid "Fallback Image"
+msgstr "Imagen alternativa"
+
+#: plugin/dynamic-data/field-types/OembedField.php:20
+msgid "Fallback/Default Video"
+msgstr "Vídeo alternativo/predeterminado"
+
+#: plugin/dynamic-data/field-types/PostField.php:16
+msgid "Post Field"
+msgstr "Campo de publicación"
+
+#: plugin/dynamic-data/field-types/PostField.php:19
+#: plugin/dynamic-data/fields/post/post-title.php:12
+msgid "Post Title"
+msgstr "Título de la publicación"
+
+#: plugin/dynamic-data/field-types/PostField.php:20
+#: plugin/dynamic-data/fields/post/post-content.php:13
+msgid "Post Content"
+msgstr "Publicar contenido"
+
+#: plugin/dynamic-data/field-types/PostField.php:21
+#: plugin/dynamic-data/fields/post/post-excerpt.php:12
+msgid "Post Excerpt"
+msgstr "Extracto de la publicación"
+
+#: plugin/dynamic-data/field-types/PostField.php:22
+#: plugin/dynamic-data/fields/post/post-terms.php:12
+msgid "Post Terms"
+msgstr "Términos de publicación"
+
+#: plugin/dynamic-data/field-types/PostField.php:23
+#: plugin/dynamic-data/fields/post/post-date.php:12
+#: plugin/themeless/rules/conditions/dates.php:149
+msgid "Post Date"
+msgstr "Fecha de publicación"
+
+#: plugin/dynamic-data/field-types/PostField.php:24
+#: plugin/dynamic-data/fields/post/post-time.php:12
+msgid "Post Time"
+msgstr "Hora de publicación"
+
+#: plugin/dynamic-data/field-types/PostField.php:25
+#: plugin/dynamic-data/fields/post/post-comments-number.php:13
+#: plugin/themeless/rules/conditions/singular.php:592
+msgid "Comments Number"
+msgstr "Número de comentarios"
+
+#: plugin/dynamic-data/field-types/PostField.php:26
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:29
+#: plugin/dynamic-data/fields/author/author-custom-field.php:12
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field.php:13
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:29
+#: plugin/dynamic-data/fields/post/post-custom-field.php:13
+#: plugin/dynamic-data/fields/user/current-user-custom-field.php:12
+msgid "Custom Field"
+msgstr "Campo personalizado"
+
+#: plugin/dynamic-data/field-types/PostField.php:29
+#: plugin/dynamic-data/field-types/PostField.php:65
+#: plugin/dynamic-data/fields/post/post-date.php:48
+#: plugin/dynamic-data/fields/post/post-time.php:56
+#: plugin/dynamic-data/fields/utility/date.php:38
+msgid "Format"
+msgstr "Formato"
+
+#: plugin/dynamic-data/field-types/PostField.php:33
+#: plugin/dynamic-data/field-types/PostField.php:69
+#: plugin/dynamic-data/fields/post/post-date.php:52
+#: plugin/dynamic-data/fields/post/post-time.php:60
+#: plugin/dynamic-data/fields/utility/date.php:42
+#: plugin/elements/preset-sections/form.php:16
+#: plugin/permissions/user-profile.php:61
+msgid "Default"
+msgstr "Por defecto"
+
+#: plugin/dynamic-data/field-types/PostField.php:35
+#: plugin/dynamic-data/field-types/PostField.php:73
+#: plugin/dynamic-data/fields/post/post-date.php:54
+#: plugin/dynamic-data/fields/post/post-time.php:64
+#: plugin/dynamic-data/fields/utility/date.php:44
+#: plugin/dynamic-data/fields/utility/date.php:46
+msgid "Human"
+msgstr "Humano"
+
+#: plugin/dynamic-data/field-types/PostField.php:43
+#: plugin/dynamic-data/field-types/PostField.php:82
+#: plugin/dynamic-data/fields/post/post-date.php:57
+#: plugin/dynamic-data/fields/post/post-time.php:68
+#: plugin/dynamic-data/fields/utility/date.php:48
+msgid "Custom Format"
+msgstr "Formato personalizado"
+
+#: plugin/dynamic-data/field-types/PostField.php:52
+#: plugin/dynamic-data/field-types/PostField.php:101
+#: plugin/dynamic-data/fields/post/post-date.php:66
+#: plugin/dynamic-data/fields/post/post-time.php:47
+#: plugin/dynamic-data/fields/site/site-rss.php:38
+#: plugin/elements/preset-sections/filter.php:13
+msgid "Type"
+msgstr "Tipo"
+
+#: plugin/dynamic-data/field-types/PostField.php:56
+#: plugin/dynamic-data/field-types/PostField.php:105
+#: plugin/dynamic-data/fields/post/post-date.php:70
+#: plugin/dynamic-data/fields/post/post-time.php:51
+msgid "Post Published"
+msgstr "Publicación publicada"
+
+#: plugin/dynamic-data/field-types/PostField.php:57
+#: plugin/dynamic-data/field-types/PostField.php:106
+#: plugin/dynamic-data/fields/post/post-date.php:71
+#: plugin/dynamic-data/fields/post/post-time.php:52
+msgid "Post Modified"
+msgstr "Publicación modificada"
+
+#: plugin/dynamic-data/field-types/PostField.php:91
+#: plugin/dynamic-data/fields/post/post-terms.php:37
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:51
+#: plugin/themeless/rules/archive/product-archives.php:65
+#: plugin/themeless/rules/archive/taxonomy.php:43
+#: plugin/wpwidgets/stock/stock.php:137
+msgid "Taxonomy"
+msgstr "Taxonomía"
+
+#: plugin/dynamic-data/field-types/PostField.php:114
+#: plugin/dynamic-data/fields/post/post-terms.php:42
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:59
+msgid "Link"
+msgstr "Enlace"
+
+#: plugin/dynamic-data/field-types/PostField.php:123
+#: plugin/dynamic-data/fields/acf/acf-checkbox-field.php:16
+#: plugin/dynamic-data/fields/acf/acf-taxonomy-field.php:13
+#: plugin/dynamic-data/fields/metabox/metabox-checkbox-field.php:16
+#: plugin/dynamic-data/fields/post/post-terms.php:46
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:63
+#: plugin/elements/preset-sections/tabs.php:83
+#: plugin/elements/preset-sections/tabs.php:115
+msgid "Separator"
+msgstr "Separador"
+
+#: plugin/dynamic-data/field-types/PostField.php:131
+#: plugin/dynamic-data/field-types/PostField.php:203
+#: plugin/dynamic-data/fields/post/post-comments-number.php:38
+#: plugin/dynamic-data/fields/post/post-comments-number.php:59
+msgid "No comments"
+msgstr "Sin comentarios"
+
+#: plugin/dynamic-data/field-types/PostField.php:140
+#: plugin/dynamic-data/field-types/PostField.php:204
+#: plugin/dynamic-data/fields/post/post-comments-number.php:42
+#: plugin/dynamic-data/fields/post/post-comments-number.php:60
+msgid "One comment"
+msgstr "un comentario"
+
+#: plugin/dynamic-data/field-types/PostField.php:149
+#: plugin/dynamic-data/fields/post/post-comments-number.php:46
+msgid "Multiple comments"
+msgstr "Múltiples comentarios"
+
+#: plugin/dynamic-data/field-types/PostField.php:158
+#: plugin/dynamic-data/fields/author/author-custom-field-image.php:38
+#: plugin/dynamic-data/fields/author/author-custom-field-oembed.php:38
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-image.php:38
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-oembed.php:38
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field.php:38
+#: plugin/dynamic-data/fields/post/post-custom-field-image.php:38
+#: plugin/dynamic-data/fields/post/post-custom-field-oembed.php:38
+#: plugin/dynamic-data/fields/post/post-custom-field.php:38
+#: plugin/dynamic-data/fields/term/term-custom-field.php:40
+#: plugin/dynamic-data/fields/user/current-user-custom-field-image.php:37
+#: plugin/dynamic-data/fields/user/current-user-custom-field-oembed.php:37
+#: plugin/dynamic-data/fields/user/current-user-custom-field.php:37
+#: plugin/interactions/triggers/key-down.php:37
+#: plugin/interactions/triggers/key-up.php:37
+msgid "Key"
+msgstr "Llave"
+
+#: plugin/dynamic-data/field-types/PostField.php:205
+#: plugin/dynamic-data/fields/post/post-comments-number.php:61
+msgid "% comment"
+msgstr "% comentario"
+
+#: plugin/dynamic-data/field-types/RepeaterField.php:29
+msgid "Repeaters"
+msgstr "Repetidores"
+
+#: plugin/dynamic-data/field-types/StringField.php:15
+msgid "Fallback"
+msgstr "Retroceder"
+
+#: plugin/dynamic-data/field-types/StringField.php:30
+msgid "Prepend"
+msgstr "anteponer"
+
+#: plugin/dynamic-data/field-types/StringField.php:34
+msgid "Append"
+msgstr "Añadir"
+
+#: plugin/dynamic-data/field-types/StringField.php:38
+msgid "Limit Characters"
+msgstr "Limitar caracteres"
+
+#: plugin/dynamic-data/fields/acf/acf-gallery-image-field.php:38
+#: plugin/dynamic-data/fields/metabox/metabox-image-field.php:58
+#: plugin/dynamic-data/fields/metabox/metabox-image-url-field.php:56
+#: plugin/dynamic-data/fields/post/post-image-attachment.php:38
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery-image.php:49
+msgid "Image Index"
+msgstr "Índice de imágenes"
+
+#: plugin/dynamic-data/fields/acf/acf-googlemaps-field.php:13
+msgid "Output as"
+msgstr "Salida como"
+
+#: plugin/dynamic-data/fields/acf/acf-googlemaps-field.php:15
+msgid "Address"
+msgstr "DIRECCIÓN"
+
+#: plugin/dynamic-data/fields/acf/acf-googlemaps-field.php:16
+msgid "Latitude / Longitude"
+msgstr "Latitud / Longitud"
+
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:23
+#: plugin/dynamic-data/fields/author/author-name.php:37
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:23
+#: plugin/dynamic-data/fields/user/current-user-name.php:37
+msgid "Field"
+msgstr "Campo"
+
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:27
+#: plugin/dynamic-data/fields/author/author-name.php:41
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:27
+#: plugin/dynamic-data/fields/user/current-user-name.php:41
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:28
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:28
+msgid "Bio"
+msgstr "Biografía"
+
+#: plugin/dynamic-data/fields/acf/acf-user-field.php:32
+#: plugin/dynamic-data/fields/metabox/metabox-user-field.php:32
+msgid "Custom Field Key"
+msgstr "Clave de campo personalizado"
+
+#: plugin/dynamic-data/fields/archive/archive-description.php:13
+msgid "Archive Description"
+msgstr "Descripción del archivo"
+
+#: plugin/dynamic-data/fields/archive/archive-title.php:13
+msgid "Archive Title"
+msgstr "Título del archivo"
+
+#: plugin/dynamic-data/fields/archive/archive-title.php:39
+msgid "Disable Prefix"
+msgstr "Deshabilitar prefijo"
+
+#: plugin/dynamic-data/fields/author/author-avatar-url.php:12
+msgid "Author Avatar (URL)"
+msgstr "Avatar del autor (URL)"
+
+#: plugin/dynamic-data/fields/author/author-avatar.php:12
+msgid "Author Avatar"
+msgstr "Autor Avatar"
+
+#: plugin/dynamic-data/fields/author/author-bio.php:13
+msgid "Author Bio"
+msgstr "Biografía del autor"
+
+#: plugin/dynamic-data/fields/author/author-custom-field-image.php:13
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-image.php:13
+#: plugin/dynamic-data/fields/post/post-custom-field-image.php:13
+#: plugin/dynamic-data/fields/user/current-user-custom-field-image.php:13
+msgid "Custom Field (Image URL)"
+msgstr "Campo personalizado (URL de imagen)"
+
+#: plugin/dynamic-data/fields/author/author-custom-field-oembed.php:13
+#: plugin/dynamic-data/fields/featured-image/featured-custom-field-oembed.php:13
+#: plugin/dynamic-data/fields/post/post-custom-field-oembed.php:13
+#: plugin/dynamic-data/fields/user/current-user-custom-field-oembed.php:13
+msgid "Custom Field (Oembed URL)"
+msgstr "Campo personalizado (URL incorporada)"
+
+#: plugin/dynamic-data/fields/author/author-email.php:12
+msgid "Author Email"
+msgstr "Correo electrónico del autor"
+
+#: plugin/dynamic-data/fields/author/author-name.php:12
+msgid "Author Name"
+msgstr "Nombre del autor"
+
+#: plugin/dynamic-data/fields/author/author-name.php:42
+#: plugin/dynamic-data/fields/user/current-user-name.php:42
+msgid "First Name"
+msgstr "Nombre de pila"
+
+#: plugin/dynamic-data/fields/author/author-name.php:43
+#: plugin/dynamic-data/fields/user/current-user-name.php:43
+msgid "Last Name"
+msgstr "Apellido"
+
+#: plugin/dynamic-data/fields/author/author-website.php:13
+msgid "Author Website"
+msgstr "Sitio web del autor"
+
+#: plugin/dynamic-data/fields/featured-image/featured-alt.php:13
+msgid "Featured Alt"
+msgstr "Alt destacado"
+
+#: plugin/dynamic-data/fields/featured-image/featured-caption.php:13
+msgid "Featured Caption"
+msgstr "Título destacado"
+
+#: plugin/dynamic-data/fields/featured-image/featured-title.php:13
+msgid "Featured Title"
+msgstr "Título destacado"
+
+#: plugin/dynamic-data/fields/futurelayer/site-logo.php:12
+msgid "Site Logo (Brand)"
+msgstr "Logotipo del sitio (marca)"
+
+#: plugin/dynamic-data/fields/metabox/metabox-file-field.php:16
+#: plugin/dynamic-data/fields/metabox/metabox-image-file-field.php:11
+#: plugin/dynamic-data/fields/metabox/metabox-video-file-field.php:11
+msgid "File Index"
+msgstr "Índice de archivos"
+
+#: plugin/dynamic-data/fields/post/post-featured-image-url.php:14
+msgid "Featured Image (URL)"
+msgstr "Imagen destacada (URL)"
+
+#: plugin/dynamic-data/fields/post/post-image-attachment.php:12
+msgid "Post Image Attachment"
+msgstr "Publicar imagen adjunta"
+
+#: plugin/dynamic-data/fields/post/post-image-attachments.php:12
+msgid "Post Image Attachments"
+msgstr "Publicar archivos adjuntos de imágenes"
+
+#: plugin/dynamic-data/fields/post/post-permalink.php:12
+msgid "Post Permalink"
+msgstr "Publicar enlace permanente"
+
+#: plugin/dynamic-data/fields/query/search-query.php:13
+msgid "Search Query"
+msgstr "Consulta de búsqueda"
+
+#: plugin/dynamic-data/fields/query/url-parameter.php:12
+msgid "URL Parameter"
+msgstr "Parámetro de URL"
+
+#: plugin/dynamic-data/fields/query/url-parameter.php:39
+msgid "Parameter Name"
+msgstr "Nombre del parámetro"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:11
+msgid "Common UTM Tags"
+msgstr "Etiquetas UTM comunes"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:44
+msgid "UTM Tag"
+msgstr "Etiqueta UTM"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:48
+msgid "Source"
+msgstr "Fuente"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:49
+msgid "Medium"
+msgstr "Medio"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:50
+msgid "Campaign"
+msgstr "Campaña"
+
+#: plugin/dynamic-data/fields/query/utm-tags.php:52
+msgid "Content"
+msgstr "Contenido"
+
+#: plugin/dynamic-data/fields/site/admin_email.php:13
+msgid "Admin Email"
+msgstr "Correo electrónico del administrador"
+
+#: plugin/dynamic-data/fields/site/home-url.php:13
+msgid "Home URL"
+msgstr "URL de inicio"
+
+#: plugin/dynamic-data/fields/site/site-logo-url.php:13
+msgid "Site Logo (URL)"
+msgstr "Logotipo del sitio (URL)"
+
+#: plugin/dynamic-data/fields/site/site-logo.php:12
+msgid "Site Logo"
+msgstr "Logotipo del sitio"
+
+#: plugin/dynamic-data/fields/site/site-logout-url.php:13
+msgid "Logout URL"
+msgstr "URL de cierre de sesión"
+
+#: plugin/dynamic-data/fields/site/site-logout-url.php:22
+msgid "Redirect URL"
+msgstr "URL de redireccionamiento"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:13
+#: plugin/dynamic-data/fields/site/site-rss.php:44
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:42
+msgid "Atom URL"
+msgstr "URL del átomo"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:43
+msgid "RDF URL"
+msgstr "RDF URL"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:45
+msgid "RSS2 URL"
+msgstr "RSS2 URL"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:46
+msgid "Pingback URL"
+msgstr "URL de retorno"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:47
+msgid "Comments Atom URL"
+msgstr "Comentarios URL del átomo"
+
+#: plugin/dynamic-data/fields/site/site-rss.php:48
+msgid "Comments RSS2 URL"
+msgstr "Comentarios URL RSS2"
+
+#: plugin/dynamic-data/fields/site/site-tagline.php:13
+msgid "Site Tagline"
+msgstr "Lema del sitio"
+
+#: plugin/dynamic-data/fields/site/site-title.php:13
+msgid "Site Title"
+msgstr "Título del sitio"
+
+#: plugin/dynamic-data/fields/site/site-url.php:13
+msgid "Site URL"
+msgstr "URL del sitio"
+
+#: plugin/dynamic-data/fields/term/term-count.php:14
+msgid "Term Count"
+msgstr "Recuento de términos"
+
+#: plugin/dynamic-data/fields/term/term-custom-field.php:15
+msgid "Term Custom Field"
+msgstr "Término campo personalizado"
+
+#: plugin/dynamic-data/fields/term/term-description.php:14
+msgid "Term Description"
+msgstr "Descripción del término"
+
+#: plugin/dynamic-data/fields/term/term-id.php:14
+msgid "Term ID"
+msgstr "ID de término"
+
+#: plugin/dynamic-data/fields/term/term-name.php:14
+msgid "Term Name"
+msgstr "Nombre del término"
+
+#: plugin/dynamic-data/fields/term/term-permalink.php:14
+msgid "Term Permalink"
+msgstr "Término Enlace permanente"
+
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:11
+msgid "Target"
+msgstr "Objetivo"
+
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:14
+msgid "Blank"
+msgstr "Blanco"
+
+#: plugin/dynamic-data/fields/toolset/toolset-link-field.php:15
+msgid "Self"
+msgstr "Ser"
+
+#: plugin/dynamic-data/fields/user/current-user-avatar-url.php:13
+msgid "User Avatar (URL)"
+msgstr "Avatar de usuario (URL)"
+
+#: plugin/dynamic-data/fields/user/current-user-avatar.php:13
+msgid "User Avatar"
+msgstr "Avatar de usuario"
+
+#: plugin/dynamic-data/fields/user/current-user-bio.php:13
+msgid "User Bio"
+msgstr "Biografía del usuario"
+
+#: plugin/dynamic-data/fields/user/current-user-email.php:12
+msgid "User Email"
+msgstr "Correo electrónico del usuario"
+
+#: plugin/dynamic-data/fields/user/current-user-name.php:12
+msgid "User Name"
+msgstr "Nombre de usuario"
+
+#: plugin/dynamic-data/fields/user/current-user-website.php:12
+msgid "User Website"
+msgstr "Sitio web del usuario"
+
+#: plugin/dynamic-data/fields/utility/date.php:13
+msgid "Current Date"
+msgstr "Fecha actual"
+
+#: plugin/dynamic-data/fields/utility/php-function.php:13
+msgid "PHP"
+msgstr "PHP"
+
+#: plugin/dynamic-data/fields/utility/php-function.php:40
+#: plugin/global-styles/advanced/base.php:30
+msgid "Code"
+msgstr "Código"
+
+#: plugin/dynamic-data/fields/utility/php-function.php:71
+msgid "An error occurred:"
+msgstr "Se produjo un error:"
+
+#. translators: %s: Exception message
+#: plugin/dynamic-data/fields/utility/php-function.php:74
+#, php-format
+msgid "Caught exception: %s"
+msgstr "Excepción detectada: %s"
+
+#. translators: %s: Line number
+#: plugin/dynamic-data/fields/utility/php-function.php:76
+#, php-format
+msgid "Line: %s"
+msgstr "Línea: %s"
+
+#: plugin/dynamic-data/fields/utility/shortcode.php:13
+#: plugin/dynamic-data/fields/utility/shortcode.php:38
+msgid "Shortcode"
+msgstr "Código corto"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-category-count.php:14
+msgid "Product Category Count"
+msgstr "Recuento de categorías de productos"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-category-image.php:15
+msgid "Product Category Image"
+msgstr "Imagen de categoría de producto"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:12
+msgid "Product Description"
+msgstr "Descripción del Producto"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:47
+msgid "Description Type"
+msgstr "Descripción Tipo"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:51
+msgid "Short Description"
+msgstr "Breve descripción"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-description.php:52
+msgid "Long Description"
+msgstr "Descripción larga"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery-image.php:12
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery.php:12
+msgid "Product Gallery"
+msgstr "Galería de productos"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-gallery.php:48
+msgid "Exclude Product Image"
+msgstr "Excluir imagen del producto"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image-url.php:13
+msgid "Product Image (URL)"
+msgstr "Imagen del producto (URL)"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-image.php:12
+msgid "Product Image"
+msgstr "Imagen del producto"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-price-range.php:12
+msgid "Product Price Range"
+msgstr "Rango de precios del producto"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:12
+msgid "Product Rating"
+msgstr "Calificación del producto"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:47
+msgid "Rating Type"
+msgstr "Tipo de calificación"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:51
+msgid "Rating"
+msgstr "Clasificación"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:52
+msgid "Rating Count"
+msgstr "Recuento de calificaciones"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-rating.php:53
+msgid "Review Count"
+msgstr "Recuento de reseñas"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-regular-price.php:12
+msgid "Product Regular Price"
+msgstr "Producto Precio Regular"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-regular-price.php:47
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:47
+msgid "Disable Formatting"
+msgstr "Deshabilitar el formato"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:12
+msgid "Product Sale Price"
+msgstr "Precio de venta del producto"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale-price.php:50
+msgid "Fallback to Regular Price"
+msgstr "Regreso al precio regular"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale.php:13
+msgid "Product Sale"
+msgstr "Venta de productos"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sale.php:45
+msgid "Sale Text"
+msgstr "Texto de venta"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-sku.php:13
+msgid "Product SKU"
+msgstr "SKU del producto"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:12
+msgid "Product Stock"
+msgstr "Existencias de productos"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:47
+msgid "In Stock Text"
+msgstr "Texto en stock"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:51
+msgid "Out Of Stock Text"
+msgstr "Texto agotado"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:55
+msgid "On Backorder Text"
+msgstr "En texto de pedido pendiente"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:65
+msgid "In stock"
+msgstr "En stock"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:66
+msgid "Out of stock"
+msgstr "Agotado"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-stock.php:67
+msgid "On backorder"
+msgstr "En espera"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-terms.php:13
+msgid "Product Terms"
+msgstr "Términos del producto"
+
+#: plugin/dynamic-data/fields/woocommerce/woocommerce-product-title.php:12
+msgid "Product Title"
+msgstr "Título del producto"
+
+#: plugin/dynamic-data/pipe.php:14
+msgid "Process Value (ALPHA)"
+msgstr "Valor de proceso (ALFA)"
+
+#: plugin/elements/preset-sections/borders.php:13
+#: plugin/elements/preset-sections/combined-design.php:17
+#: plugin/elements/preset-sections/tabs.php:315
+msgid "Borders"
+msgstr "Fronteras"
+
+#: plugin/elements/preset-sections/borders.php:15
+#: plugin/elements/preset-sections/borders_without_shadows.php:15
+#: plugin/elements/preset-sections/tabs.php:90
+#: plugin/elements/preset-sections/tabs.php:211
+msgid "Radius"
+msgstr "Radio"
+
+#: plugin/elements/preset-sections/borders.php:16
+#: plugin/elements/preset-sections/borders_without_shadows.php:16
+msgid "Styling"
+msgstr "Estilo"
+
+#: plugin/elements/preset-sections/borders.php:17
+#: plugin/elements/preset-sections/tabs.php:97
+msgid "Shadow"
+msgstr "Sombra"
+
+#: plugin/elements/preset-sections/borders_without_shadows.php:13
+msgid "Borders Without Shadows"
+msgstr "Fronteras sin sombras"
+
+#: plugin/elements/preset-sections/combined-design.php:12
+msgid "Design"
+msgstr "Diseño"
+
+#: plugin/elements/preset-sections/combined-design.php:14
+#: plugin/elements/preset-sections/tabs.php:138
+#: plugin/elements/preset-sections/tabs.php:325
+#: plugin/elements/preset-sections/typography.php:265
+#: plugin/elements/preset-sections/typography.php:316
+#: plugin/global-styles/other/base.php:32
+#: plugin/global-styles/typography/base.php:33
+#: plugin/global-styles/typography/base.php:75
+msgid "Typography"
+msgstr "Tipografía"
+
+#: plugin/elements/preset-sections/combined-design.php:15
+#: plugin/elements/preset-sections/lightbox.php:24
+#: plugin/elements/preset-sections/lightbox.php:92
+#: plugin/elements/preset-sections/tabs.php:159
+#: plugin/elements/preset-sections/tabs.php:307
+#: plugin/global-styles/colors/base.php:51
+msgid "Background"
+msgstr "Fondo"
+
+#: plugin/elements/preset-sections/combined-design.php:16
+#: plugin/global-styles/other/base.php:62
+msgid "Spacing"
+msgstr "Espaciado"
+
+#: plugin/elements/preset-sections/custom_css.php:17
+#: plugin/elements/preset-sections/custom_css.php:36
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+#: plugin/elements/preset-sections/filter.php:11
+#: plugin/elements/preset-sections/filter.php:74
+#: plugin/woocommerce/widgets/woo_filters.php:129
+msgid "Filter"
+msgstr "Filtrar"
+
+#: plugin/elements/preset-sections/filter.php:12
+msgid "Filter Items"
+msgstr "Filtrar artículos"
+
+#: plugin/elements/preset-sections/filter.php:29
+msgid "Blur Amount"
+msgstr "Cantidad de desenfoque"
+
+#: plugin/elements/preset-sections/filter.php:38
+msgid "Amount"
+msgstr "Cantidad"
+
+#: plugin/elements/preset-sections/filter.php:58
+msgid "Rotate"
+msgstr "Girar"
+
+#: plugin/elements/preset-sections/filter.php:74
+#: plugin/woocommerce/widgets/woo_filters.php:129
+msgid "Add Filter"
+msgstr "Agregar filtro"
+
+#: plugin/elements/preset-sections/form.php:11
+msgid "Form"
+msgstr "Forma"
+
+#: plugin/elements/preset-sections/form.php:12
+#: plugin/setup-wizard/setup-wizard-page.php:168
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:17
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:46
+msgid "Theme"
+msgstr "Tema"
+
+#: plugin/elements/preset-sections/form.php:17
+msgid "Material Design"
+msgstr "Diseño de materiales"
+
+#: plugin/elements/preset-sections/form.php:18
+msgid "Material Design Outlined"
+msgstr "Diseño de materiales descrito"
+
+#: plugin/elements/preset-sections/form.php:21
+msgid "Primary Color"
+msgstr "Color primario"
+
+#: plugin/elements/preset-sections/form.php:24
+msgid "Secondary Color"
+msgstr "Color secundario"
+
+#: plugin/elements/preset-sections/form.php:27
+msgid "Text Color"
+msgstr "Color del texto"
+
+#: plugin/elements/preset-sections/form.php:30
+msgid "Border Color"
+msgstr "Color del borde"
+
+#: plugin/elements/preset-sections/grid.php:13
+msgid "Grid"
+msgstr "Red"
+
+#: plugin/elements/preset-sections/grid.php:16
+msgid "Enable Grid"
+msgstr "Habilitar cuadrícula"
+
+#: plugin/elements/preset-sections/grid.php:22
+#: plugin/elements/preset-sections/grid.php:61
+msgid "True"
+msgstr "Verdadero"
+
+#: plugin/elements/preset-sections/grid.php:23
+#: plugin/elements/preset-sections/grid.php:43
+#: plugin/elements/preset-sections/grid.php:62
+#: plugin/elements/preset-sections/grid.php:181
+#: plugin/elements/preset-sections/layout_basic_flex.php:22
+#: plugin/elements/preset-sections/layout_basic_flex.php:42
+#: plugin/elements/preset-sections/layout_basic_flex.php:63
+#: plugin/elements/preset-sections/layout_basic_flex.php:81
+msgid "Label"
+msgstr "Etiqueta"
+
+#: plugin/elements/preset-sections/grid.php:32
+#: plugin/elements/preset-sections/grid.php:76
+msgid "Columns"
+msgstr "columnas"
+
+#: plugin/elements/preset-sections/grid.php:36
+#: plugin/elements/preset-sections/grid.php:174
+#: plugin/themeless/template.cpt.php:17
+msgid "Template"
+msgstr "Plantilla"
+
+#: plugin/elements/preset-sections/grid.php:42
+#: plugin/elements/preset-sections/grid.php:180
+#: plugin/elements/preset-sections/typography.php:88
+msgid "Auto"
+msgstr "Auto"
+
+#: plugin/elements/preset-sections/grid.php:55
+msgid "Auto-Fit"
+msgstr "Ajuste automático"
+
+#: plugin/elements/preset-sections/grid.php:89
+msgid "Min-Width"
+msgstr "Ancho mínimo"
+
+#: plugin/elements/preset-sections/grid.php:101
+msgid "Max-Width"
+msgstr "Ancho máximo"
+
+#: plugin/elements/preset-sections/grid.php:113
+msgid "Column Template"
+msgstr "Plantilla de columna"
+
+#: plugin/elements/preset-sections/grid.php:126
+#: plugin/elements/preset-sections/grid.php:230
+msgid "Gap"
+msgstr "Brecha"
+
+#: plugin/elements/preset-sections/grid.php:134
+msgid "Horizontal Alignment"
+msgstr "Alineación Horizontal"
+
+#: plugin/elements/preset-sections/grid.php:158
+#: plugin/elements/preset-sections/grid.php:159
+#: plugin/elements/preset-sections/grid.php:262
+#: plugin/elements/preset-sections/grid.php:263
+msgid "Stretch"
+msgstr "Estirar"
+
+#: plugin/elements/preset-sections/grid.php:170
+#: plugin/elements/preset-sections/grid.php:193
+msgid "Rows"
+msgstr "Filas"
+
+#: plugin/elements/preset-sections/grid.php:206
+msgid "Min-Height"
+msgstr "Altura mínima"
+
+#: plugin/elements/preset-sections/grid.php:218
+msgid "Max-Height"
+msgstr "Altura máxima"
+
+#: plugin/elements/preset-sections/grid.php:238
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:23
+msgid "Vertical Alignment"
+msgstr "Alineación vertical"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:12
+msgid "Layout (Basic Flex)"
+msgstr "Diseño (Flexión básica)"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:16
+msgid "Stack"
+msgstr "Pila"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:22
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:18
+#: plugin/elements/preset-sections/tabs.php:14
+#: plugin/elements/preset-sections/tabs.php:225
+msgid "Vertical"
+msgstr "Vertical"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:23
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:19
+#: plugin/elements/preset-sections/tabs.php:232
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:31
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:14
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:22
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:35
+#: plugin/elements/preset-sections/typography.php:294
+msgid "Alignment"
+msgstr "Alineación"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:42
+#: plugin/elements/preset-sections/layout_basic_flex.php:63
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:18
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:39
+#: plugin/elements/preset-sections/tabs.php:50
+#: plugin/elements/preset-sections/tabs.php:58
+#: plugin/elements/preset-sections/typography.php:190
+#: plugin/elements/preset-sections/typography.php:299
+msgid "Left"
+msgstr "Izquierda"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:44
+#: plugin/elements/preset-sections/layout_basic_flex.php:65
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:20
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:41
+#: plugin/elements/preset-sections/tabs.php:50
+#: plugin/elements/preset-sections/tabs.php:58
+#: plugin/elements/preset-sections/typography.php:301
+msgid "Right"
+msgstr "Bien"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:52
+msgid "H Alignment"
+msgstr "Alineación H"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:66
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:26
+msgid "Space Around"
+msgstr "Espacio alrededor"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:67
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:27
+#: plugin/elements/preset-sections/tabs.php:64
+msgid "Space Between"
+msgstr "Espacio entre"
+
+#: plugin/elements/preset-sections/layout_basic_flex.php:75
+msgid "V Alignment"
+msgstr "Alineación V"
+
+#: plugin/elements/preset-sections/lightbox.php:12
+#: plugin/elements/preset-sections/lightbox.php:91
+msgid "Lightbox"
+msgstr "Caja de luz"
+
+#: plugin/elements/preset-sections/lightbox.php:14
+msgid "Info Notice"
+msgstr "Aviso informativo"
+
+#: plugin/elements/preset-sections/lightbox.php:20
+msgid "View the page on the frontend to preview the lightbox."
+msgstr ""
+"Vea la página en la interfaz para obtener una vista previa de la caja de "
+"luz."
+
+#: plugin/elements/preset-sections/lightbox.php:31
+#: plugin/elements/preset-sections/lightbox.php:99
+msgid "Controls"
+msgstr "Controles"
+
+#: plugin/elements/preset-sections/lightbox.php:42
+msgid "Thumbnails"
+msgstr "Miniaturas"
+
+#: plugin/elements/preset-sections/lightbox.php:45
+msgid "Thumbnail"
+msgstr "Uña del pulgar"
+
+#: plugin/elements/preset-sections/lightbox.php:49
+msgid "Thumbnail Active"
+msgstr "Miniatura activa"
+
+#: plugin/elements/preset-sections/lightbox.php:55
+msgid "Animated Thumbnails"
+msgstr "Miniaturas animadas"
+
+#: plugin/elements/preset-sections/lightbox.php:60
+msgid "Autoplay"
+msgstr "Reproducción automática"
+
+#: plugin/elements/preset-sections/lightbox.php:65
+msgid "Speed"
+msgstr "Velocidad"
+
+#: plugin/elements/preset-sections/lightbox.php:70
+msgid "Show Download Button"
+msgstr "Mostrar botón de descarga"
+
+#: plugin/elements/preset-sections/lightbox.php:75
+msgid "Disable Autoplay on First Video"
+msgstr "Deshabilitar la reproducción automática en el primer video"
+
+#: plugin/elements/preset-sections/shape/shape.php:20
+#: plugin/elements/preset-sections/shape/shape.php:21
+msgid "Shape Dividers"
+msgstr "Divisores de formas"
+
+#: plugin/elements/preset-sections/shape/shape.php:24
+msgid "Shape"
+msgstr "Forma"
+
+#: plugin/elements/preset-sections/shape/shape.php:36
+msgid "Custom Shape"
+msgstr "Forma personalizada"
+
+#: plugin/elements/preset-sections/shape/shape.php:54
+msgid "Flip Horizontally"
+msgstr "Voltear horizontalmente"
+
+#: plugin/elements/preset-sections/shape/shape.php:57
+msgid "Yes"
+msgstr "Sí"
+
+#: plugin/elements/preset-sections/shape/shape.php:71
+#: plugin/elements/preset-sections/size.php:12
+#: plugin/elements/preset-sections/tabs.php:125
+#: plugin/elements/preset-sections/tabs.php:204
+#: plugin/elements/preset-sections/typography.php:116
+msgid "Width"
+msgstr "Ancho"
+
+#: plugin/elements/preset-sections/shape/shape.php:76
+#: plugin/elements/preset-sections/size.php:15
+#: plugin/elements/preset-sections/typography.php:102
+msgid "Height"
+msgstr "Altura"
+
+#: plugin/elements/preset-sections/shape/shape.php:81
+msgid "Display in front of content"
+msgstr "Mostrar delante del contenido"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:13
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:13
+msgid "Layout"
+msgstr "Disposición"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:27
+msgid "top"
+msgstr "arriba"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:28
+msgid "center"
+msgstr "centro"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_column_layout.php:29
+msgid "bottom"
+msgstr "abajo"
+
+#: plugin/elements/preset-sections/shitty/dumbfuck_section_layout.php:14
+msgid "Stack Content"
+msgstr "Contenido de la pila"
+
+#: plugin/elements/preset-sections/size.php:11
+#: plugin/elements/preset-sections/tabs.php:246
+#: plugin/elements/preset-sections/typography.php:82
+msgid "Size"
+msgstr "Tamaño"
+
+#: plugin/elements/preset-sections/size.php:13
+msgid "Min Width"
+msgstr "Ancho mínimo"
+
+#: plugin/elements/preset-sections/size.php:14
+msgid "Max Width"
+msgstr "Ancho máximo"
+
+#: plugin/elements/preset-sections/size.php:16
+msgid "Min Height"
+msgstr "Altura mínima"
+
+#: plugin/elements/preset-sections/size.php:17
+msgid "Max Height"
+msgstr "Altura máxima"
+
+#: plugin/elements/preset-sections/spacing.php:13
+msgid "Spacing (All)"
+msgstr "Espaciado (Todos)"
+
+#: plugin/elements/preset-sections/spacing.php:14
+#: plugin/elements/preset-sections/spacing.php:23
+#: plugin/elements/preset-sections/spacing.php:84
+msgid "Margin"
+msgstr "Margen"
+
+#: plugin/elements/preset-sections/spacing.php:15
+#: plugin/elements/preset-sections/spacing.php:24
+#: plugin/elements/preset-sections/spacing.php:56
+#: plugin/elements/preset-sections/tabs.php:222
+#: plugin/elements/preset-sections/tabs.php:320
+msgid "Padding"
+msgstr "Relleno"
+
+#: plugin/elements/preset-sections/spacing.php:22
+msgid "Spacing (All - not responsive)"
+msgstr "Espaciado (Todos - no responde)"
+
+#: plugin/elements/preset-sections/spacing.php:31
+msgid "Spacing (All Top & Bottom)"
+msgstr "Espaciado (todo arriba y abajo)"
+
+#: plugin/elements/preset-sections/spacing.php:32
+#: plugin/elements/preset-sections/spacing.php:93
+msgid "Margin Top"
+msgstr "Margen superior"
+
+#: plugin/elements/preset-sections/spacing.php:33
+#: plugin/elements/preset-sections/spacing.php:94
+msgid "Margin Bottom"
+msgstr "Margen inferior"
+
+#: plugin/elements/preset-sections/spacing.php:34
+#: plugin/elements/preset-sections/spacing.php:64
+msgid "Padding Top"
+msgstr "Parte superior acolchada."
+
+#: plugin/elements/preset-sections/spacing.php:35
+#: plugin/elements/preset-sections/spacing.php:65
+msgid "Padding Bottom"
+msgstr "Parte inferior acolchada."
+
+#: plugin/elements/preset-sections/spacing.php:42
+msgid "Spacing (All Left & Right)"
+msgstr "Espaciado (todos a la izquierda y a la derecha)"
+
+#: plugin/elements/preset-sections/spacing.php:43
+#: plugin/elements/preset-sections/spacing.php:102
+msgid "Margin Left"
+msgstr "Margen izquierdo"
+
+#: plugin/elements/preset-sections/spacing.php:44
+#: plugin/elements/preset-sections/spacing.php:103
+msgid "Margin Right"
+msgstr "Margen derecho"
+
+#: plugin/elements/preset-sections/spacing.php:45
+#: plugin/elements/preset-sections/spacing.php:73
+msgid "Padding Left"
+msgstr "Relleno izquierdo"
+
+#: plugin/elements/preset-sections/spacing.php:46
+#: plugin/elements/preset-sections/spacing.php:74
+msgid "Padding Right"
+msgstr "Relleno derecho"
+
+#: plugin/elements/preset-sections/spacing.php:55
+msgid "Padding (All)"
+msgstr "Relleno (Todos)"
+
+#: plugin/elements/preset-sections/spacing.php:63
+msgid "Padding (Top & Bottom)"
+msgstr "Acolchado (superior e inferior)"
+
+#: plugin/elements/preset-sections/spacing.php:72
+msgid "Padding (Left & Right)"
+msgstr "Relleno (izquierda y derecha)"
+
+#: plugin/elements/preset-sections/spacing.php:83
+msgid "Margin (All)"
+msgstr "Margen (Todos)"
+
+#: plugin/elements/preset-sections/spacing.php:92
+msgid "Margin (Top & Bottom)"
+msgstr "Margen (superior e inferior)"
+
+#: plugin/elements/preset-sections/spacing.php:101
+msgid "Margin (Left & Right)"
+msgstr "Margen (izquierda y derecha)"
+
+#: plugin/elements/preset-sections/tabs.php:11
+#: plugin/elements/preset-sections/tabs.php:42
+msgid "Tabs"
+msgstr "Cortina a la italiana"
+
+#: plugin/elements/preset-sections/tabs.php:23
+msgid "Tabs Width"
+msgstr "Ancho de pestañas"
+
+#: plugin/elements/preset-sections/tabs.php:32
+msgid "Horizontal At"
+msgstr "horizontal en"
+
+#: plugin/elements/preset-sections/tabs.php:40
+#: plugin/global-styles/typography/base.php:155
+msgid "Style"
+msgstr "Estilo"
+
+#: plugin/elements/preset-sections/tabs.php:42
+msgid "Pills"
+msgstr "Pastillas"
+
+#: plugin/elements/preset-sections/tabs.php:42
+#: plugin/elements/preset-sections/tabs.php:80
+msgid "Bar"
+msgstr "Bar"
+
+#: plugin/elements/preset-sections/tabs.php:58
+msgid "Full Width"
+msgstr "Ancho completo"
+
+#: plugin/elements/preset-sections/tabs.php:72
+msgid "Space After"
+msgstr "Espacio después"
+
+#: plugin/elements/preset-sections/tabs.php:108
+msgid "Pill Radius"
+msgstr "Radio de la píldora"
+
+#: plugin/elements/preset-sections/tabs.php:136
+#: plugin/global-styles/colors/base.php:27 plugin/wpwidgets/stock/stock.php:20
+#: plugin/wpwidgets/stock/stock.php:31
+msgid "Text"
+msgstr "Texto"
+
+#: plugin/elements/preset-sections/tabs.php:141
+#: plugin/elements/preset-sections/tabs.php:169
+#: plugin/elements/preset-sections/tabs.php:190
+msgid "Hover"
+msgstr "Flotar"
+
+#: plugin/elements/preset-sections/tabs.php:148
+#: plugin/elements/preset-sections/tabs.php:176
+#: plugin/elements/preset-sections/tabs.php:197
+#: plugin/licensing/class.license-key-manager.php:207
+msgid "Active"
+msgstr "Activo"
+
+#: plugin/elements/preset-sections/tabs.php:162
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: plugin/elements/preset-sections/tabs.php:187
+msgid "Underline"
+msgstr "Subrayar"
+
+#: plugin/elements/preset-sections/tabs.php:243
+msgid "Icon"
+msgstr "Icono"
+
+#: plugin/elements/preset-sections/tabs.php:253
+msgid "Nudge"
+msgstr "Empujar"
+
+#: plugin/elements/preset-sections/tabs.php:256
+#: plugin/global-styles/other/base.php:46
+msgid "Nudge X"
+msgstr "Empujar X"
+
+#: plugin/elements/preset-sections/tabs.php:263
+#: plugin/global-styles/other/base.php:54
+msgid "Nudge Y"
+msgstr "Empujar Y"
+
+#: plugin/elements/preset-sections/tabs.php:274
+msgid "After Icon"
+msgstr "Después del icono"
+
+#: plugin/elements/preset-sections/tabs.php:285
+msgid "Responsive"
+msgstr "Sensible"
+
+#: plugin/elements/preset-sections/tabs.php:288
+msgid "Show as Dropdown"
+msgstr "Mostrar como menú desplegable"
+
+#: plugin/elements/preset-sections/tabs.php:296
+msgid "Visible At"
+msgstr "Visible en"
+
+#: plugin/elements/preset-sections/tabs.php:304
+msgid "Dropdown Styles"
+msgstr "Estilos desplegables"
+
+#: plugin/elements/preset-sections/tabs.php:335
+msgid "Show Affordance"
+msgstr "Mostrar asequibilidad"
+
+#: plugin/elements/preset-sections/tabs.php:356
+msgid "Transition Effect"
+msgstr "Efecto de transición"
+
+#: plugin/elements/preset-sections/typography.php:19
+msgid "Stroke Width"
+msgstr "Ancho de trazo"
+
+#: plugin/elements/preset-sections/typography.php:28
+msgid "Stroke Color"
+msgstr "Color de trazo"
+
+#: plugin/elements/preset-sections/typography.php:37
+msgid "Fill"
+msgstr "Llenar"
+
+#: plugin/elements/preset-sections/typography.php:41
+msgid "Transparent"
+msgstr "Transparente"
+
+#: plugin/elements/preset-sections/typography.php:42
+#: plugin/elements/preset-sections/typography.php:51
+#: plugin/global-styles/colors/base.php:67
+msgid "Gradient"
+msgstr "Gradiente"
+
+#: plugin/elements/preset-sections/typography.php:43
+#: plugin/elements/preset-sections/typography.php:67
+msgid "Image"
+msgstr "Imagen"
+
+#: plugin/elements/preset-sections/typography.php:86
+msgid "Cover"
+msgstr "Cubrir"
+
+#: plugin/elements/preset-sections/typography.php:87
+msgid "Contain"
+msgstr "Contener"
+
+#: plugin/elements/preset-sections/typography.php:130
+msgid "Repeat"
+msgstr "Repetir"
+
+#: plugin/elements/preset-sections/typography.php:134
+msgid "no-repeat"
+msgstr "no repetir"
+
+#: plugin/elements/preset-sections/typography.php:135
+msgid "repeat"
+msgstr "repetir"
+
+#: plugin/elements/preset-sections/typography.php:136
+msgid "repeat-x"
+msgstr "repetir-x"
+
+#: plugin/elements/preset-sections/typography.php:137
+msgid "repeat-y"
+msgstr "repetir-y"
+
+#: plugin/elements/preset-sections/typography.php:154
+msgid "Left Top"
+msgstr "Arriba izquierda"
+
+#: plugin/elements/preset-sections/typography.php:155
+msgid "Left Center"
+msgstr "Centro izquierdo"
+
+#: plugin/elements/preset-sections/typography.php:156
+msgid "Left Bottom"
+msgstr "Abajo izquierdo"
+
+#: plugin/elements/preset-sections/typography.php:157
+msgid "Right Top"
+msgstr "Arriba derecha"
+
+#: plugin/elements/preset-sections/typography.php:158
+msgid "Right Center"
+msgstr "Centro derecho"
+
+#: plugin/elements/preset-sections/typography.php:159
+msgid "Right Bottom"
+msgstr "Abajo derecho"
+
+#: plugin/elements/preset-sections/typography.php:160
+msgid "Center Top"
+msgstr "Centro superior"
+
+#: plugin/elements/preset-sections/typography.php:161
+msgid "Center Center"
+msgstr "Centro Centro"
+
+#: plugin/elements/preset-sections/typography.php:162
+msgid "Center Bottom"
+msgstr "Centro inferior"
+
+#: plugin/elements/preset-sections/typography.php:204
+msgid "Text Shadow"
+msgstr "Sombra de texto"
+
+#: plugin/elements/preset-sections/typography.php:224
+msgid "Effects"
+msgstr "Efectos"
+
+#: plugin/elements/preset-sections/typography.php:302
+msgid "Justify"
+msgstr "Justificar"
+
+#: plugin/elements/universal-controls/advanced.php:17
+msgid "Classes"
+msgstr "Clases"
+
+#: plugin/elements/universal-controls/advanced.php:61
+msgid "Draft"
+msgstr "Borrador"
+
+#: plugin/elements/universal-controls/advanced.php:90
+msgid "Wrapper"
+msgstr "Envoltura"
+
+#: plugin/elements/universal-controls/advanced.php:100
+msgid "Wrapper Hover"
+msgstr "Envoltura flotante"
+
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:22
+msgid "Hide On Breakpoint"
+msgstr "Ocultar en punto de interrupción"
+
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:25
+msgid "Hide"
+msgstr "Esconder"
+
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:34
+msgid "Greyed Out"
+msgstr "En gris"
+
+#: plugin/elements/universal-controls/hide-by-breakpoint.php:35
+msgid "Hidden"
+msgstr "Oculto"
+
+#: plugin/elements/universal-controls/html.php:17
+#: plugin/themeless/rules/woocommerce/product-attributes.php:14
+#: plugin/themeless/rules/woocommerce/product-attributes.php:32
+msgid "Attributes"
+msgstr "Atributos"
+
+#: plugin/elements/universal-controls/html.php:19
+#: plugin/woocommerce/widgets/woo_general.php:70
+msgid "Name"
+msgstr "Nombre"
+
+#: plugin/elements/universal-controls/html.php:26
+msgid "Value"
+msgstr "Valor"
+
+#: plugin/elements/universal-controls/html.php:42
+#: plugin/woocommerce/widgets/woo_filters.php:82
+msgid "Attribute"
+msgstr "Atributo"
+
+#: plugin/elements/universal-controls/html.php:43
+msgid "Add attribute"
+msgstr "Agregar atributo"
+
+#: plugin/elements/universal-controls/html.php:74
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: plugin/elements/universal-controls/html.php:89
+msgid "ID"
+msgstr "ID"
+
+#: plugin/elements/universal-controls/html.php:93
+msgid "my-awesome-element"
+msgstr "mi-elemento-increíble"
+
+#: plugin/extensions/settings-page.php:17
+#: plugin/extensions/settings-page.php:54
+msgid "Extensions"
+msgstr "Extensiones"
+
+#. translators: %s: Extension name
+#: plugin/extensions/settings-page.php:70
+#, php-format
+msgid "%s - License Key"
+msgstr "%s - Clave de licencia"
+
+#. translators: %s: status text wrapped in styled HTML
+#: plugin/extensions/settings-page.php:82
+#: plugin/extensions/settings-page.php:87
+#: plugin/extensions/settings-page.php:92
+#: plugin/extensions/settings-page.php:97
+#, php-format
+msgid "Your license key is %s."
+msgstr "Su clave de licencia es %s."
+
+#: plugin/extensions/settings-page.php:83
+msgid "active"
+msgstr "activo"
+
+#: plugin/extensions/settings-page.php:88
+msgid "invalid"
+msgstr "inválido"
+
+#: plugin/extensions/settings-page.php:93
+msgid "inactive"
+msgstr "inactivo"
+
+#: plugin/extensions/settings-page.php:98
+msgid "expired"
+msgstr "venció"
+
+#: plugin/forms/actions/api-action.php:75
+msgid ""
+"Error requesting data. The service may be down, your settings may be wrong, "
+"or there's a problem with your server"
+msgstr ""
+"Error al solicitar datos. Es posible que el servicio esté inactivo, que su "
+"configuración sea incorrecta o que haya un problema con su servidor"
+
+#: plugin/forms/actions/api-action.php:100
+msgid "Error accessing resource"
+msgstr "Error al acceder al recurso"
+
+#: plugin/forms/actions/api-action.php:130
+msgid "Invalid response"
+msgstr "Respuesta no válida"
+
+#: plugin/forms/actions/mailchimp.php:235
+msgid "The API key must contain a data center"
+msgstr "La clave API debe contener un centro de datos."
+
+#: plugin/forms/actions/mailchimp.php:551
+msgid "Error requesting data from MailChimp servers."
+msgstr "Error al solicitar datos de los servidores de MailChimp."
+
+#: plugin/forms/actions/mailchimp.php:562
+msgid "Error getting data from MailChimp"
+msgstr "Error al obtener datos de MailChimp"
+
+#: plugin/forms/custom/custom.php:24
+msgid "An unexpected error occurred."
+msgstr "Se produjo un error inesperado."
+
+#: plugin/forms/custom/custom.php:50
+msgid "Invalid CSRF token"
+msgstr "Token CSRF no válido"
+
+#: plugin/forms/custom/custom.php:63
+msgid "[reCAPTCHA] Error retrieving token."
+msgstr "[reCAPTCHA] Error al recuperar el token."
+
+#: plugin/forms/custom/custom.php:71
+msgid "[reCAPTCHA] Invalid challenge. Please reload and try again."
+msgstr "[reCAPTCHA] Desafío no válido. Vuelva a cargar e inténtelo de nuevo."
+
+#. translators: %s: Field label
+#: plugin/forms/custom/custom.php:477 plugin/forms/custom/custom.php:495
+#, php-format
+msgid "%s is required."
+msgstr "Se requiere %s."
+
+#: plugin/forms/custom/custom.php:483
+msgid "Please enter a valid email address."
+msgstr "Por favor, introduce una dirección de correo electrónico válida."
+
+#. translators: 1: Field label, 2: Maximum number of files
+#: plugin/forms/custom/custom.php:506
+#, php-format
+msgid "%1$s may not have more than %2$s file(s)."
+msgstr "%1$s no puede tener más de %2$s archivo(s)."
+
+#. translators: 1: Field label, 2: Maximum file size in megabytes
+#: plugin/forms/custom/custom.php:526
+#, php-format
+msgid "%1$s must be less than %2$s megabytes."
+msgstr "%1$s debe tener menos de %2$s megabytes."
+
+#. translators: 1: Field label, 2: Allowed file types (comma-separated list)
+#: plugin/forms/custom/custom.php:532
+#, php-format
+msgid "%1$s must be a file of type: %2$s"
+msgstr "%1$s debe ser un archivo de tipo: %2$s"
+
+#. translators: %s: Field ID
+#: plugin/forms/custom/custom.php:543
+#, php-format
+msgid "Unexpected file with id: %s"
+msgstr "Archivo inesperado con id: %s"
+
+#: plugin/global-styles/advanced/base.php:14
+msgid "CSS"
+msgstr "CSS"
+
+#: plugin/global-styles/advanced/base.php:15
+msgid "CSS Code"
+msgstr "Código CSS"
+
+#: plugin/global-styles/advanced/base.php:18
+msgid "Stylesheet"
+msgstr "Hoja de estilo"
+
+#: plugin/global-styles/advanced/base.php:19
+msgid "Add Stylesheet"
+msgstr "Añadir hoja de estilos"
+
+#: plugin/global-styles/advanced/base.php:22
+msgid "Scripts"
+msgstr "Scripts"
+
+#: plugin/global-styles/advanced/base.php:23
+msgid "JavaScript Code"
+msgstr "Código JavaScript"
+
+#: plugin/global-styles/advanced/base.php:26
+msgid "Javascript"
+msgstr "JavaScript"
+
+#: plugin/global-styles/advanced/base.php:27
+msgid "Add Javascript"
+msgstr "Añadir JavaScript"
+
+#: plugin/global-styles/buttons/base.php:18
+msgid "Buttons"
+msgstr "Botones"
+
+#: plugin/global-styles/buttons/base.php:20
+msgid "Primary"
+msgstr "Primario"
+
+#: plugin/global-styles/buttons/base.php:21
+msgid "Secondary"
+msgstr "Secundario"
+
+#: plugin/global-styles/buttons/base.php:35
+#: plugin/global-styles/typography/base.php:20
+msgid "Presets"
+msgstr "Preajustes"
+
+#: plugin/global-styles/buttons/base.php:39
+msgid "Button Presets"
+msgstr "Preajustes de botones"
+
+#: plugin/global-styles/buttons/base.php:43
+#: plugin/global-styles/typography/base.php:28
+msgid "Preset Name"
+msgstr "Nombre del preajuste"
+
+#: plugin/global-styles/buttons/base.php:46
+msgid "Styles"
+msgstr "Estilos"
+
+#: plugin/global-styles/buttons/base.php:52
+#: plugin/global-styles/typography/base.php:49
+msgid "Preset"
+msgstr "Programar"
+
+#: plugin/global-styles/buttons/base.php:53
+#: plugin/global-styles/typography/base.php:50
+msgid "Add Preset"
+msgstr "Añadir preajuste"
+
+#. translators: preset number
+#: plugin/global-styles/buttons/base.php:57
+#, php-format
+msgid "Preset %s"
+msgstr "Preestablecido %s"
+
+#: plugin/global-styles/buttons/base.php:60
+#: plugin/global-styles/typography/base.php:58
+msgid "Are you sure you want to delete this preset?"
+msgstr "¿Seguro que quieres eliminar este preajuste?"
+
+#: plugin/global-styles/colors/base.php:15
+#: plugin/global-styles/colors/base.php:61
+msgid "Colors"
+msgstr "Colores"
+
+#: plugin/global-styles/colors/base.php:18
+msgid "Brand"
+msgstr "Marca"
+
+#: plugin/global-styles/colors/base.php:35
+#: plugin/global-styles/typography/base.php:117
+msgid "Headings"
+msgstr "Encabezamientos"
+
+#: plugin/global-styles/colors/base.php:43
+#: plugin/global-styles/typography/base.php:134
+msgid "Links"
+msgstr "Campo de golf"
+
+#: plugin/global-styles/colors/base.php:59
+msgid "Palette"
+msgstr "Paleta"
+
+#: plugin/global-styles/colors/base.php:62
+msgid "Gradients"
+msgstr "Degradados"
+
+#: plugin/global-styles/containers/base.php:15
+msgid "Containers"
+msgstr "Contenedores"
+
+#: plugin/global-styles/containers/base.php:16
+msgid "Sections"
+msgstr "Secciones"
+
+#: plugin/global-styles/containers/base.php:17
+msgid "Container Width"
+msgstr "Ancho del contenedor"
+
+#: plugin/global-styles/containers/base.php:18
+msgid "Vertical Padding"
+msgstr "Acolchado vertical"
+
+#: plugin/global-styles/containers/base.php:19
+msgid "Horizontal Padding"
+msgstr "Acolchado horizontal"
+
+#: plugin/global-styles/containers/base.php:21
+msgid "Column Gap"
+msgstr "Espacio de columna"
+
+#: plugin/global-styles/forms/base.php:12
+msgid "Forms"
+msgstr "Formularios"
+
+#: plugin/global-styles/other/base.php:18
+msgid "Transition Duration"
+msgstr "Duración de la transición"
+
+#: plugin/global-styles/other/base.php:29
+msgid "Skip Link"
+msgstr "Saltar enlace"
+
+#: plugin/global-styles/other/base.php:79
+#: plugin/themeless/rules/conditions/custom-php.php:19
+#: plugin/themeless/rules/conditions/dynamic-data.php:21
+#: plugin/themeless/rules/conditions/misc.php:23
+#: plugin/themeless/rules/conditions/misc.php:74
+#: plugin/themeless/rules/conditions/misc.php:123
+#: plugin/themeless/rules/conditions/misc.php:155
+#: plugin/themeless/rules/other/misc.php:33
+#: plugin/themeless/rules/other/misc.php:74
+#: plugin/themeless/rules/other/misc.php:108
+msgid "Other"
+msgstr "Otro"
+
+#: plugin/global-styles/typography/base.php:24
+msgid "Typography Presets"
+msgstr "Ajustes preestablecidos de tipografía"
+
+#: plugin/global-styles/typography/base.php:78
+msgid "Heading Font"
+msgstr "Fuente del encabezado"
+
+#: plugin/global-styles/typography/base.php:86
+msgid "Body Font"
+msgstr "Fuente del cuerpo"
+
+#: plugin/global-styles/typography/base.php:95
+msgid "Base Size"
+msgstr "Tamaño básico"
+
+#: plugin/global-styles/typography/base.php:104
+msgid "Ratio"
+msgstr "Relación"
+
+#: plugin/global-styles/typography/base.php:114
+msgid "Body"
+msgstr "Cuerpo"
+
+#: plugin/global-styles/typography/base.php:119
+msgid "All Headings"
+msgstr "Todos los títulos"
+
+#: plugin/global-styles/typography/base.php:120
+msgid "H1"
+msgstr "H1"
+
+#: plugin/global-styles/typography/base.php:121
+msgid "H2"
+msgstr "H2"
+
+#: plugin/global-styles/typography/base.php:122
+msgid "H3"
+msgstr "H3"
+
+#: plugin/global-styles/typography/base.php:123
+msgid "H4"
+msgstr "H4"
+
+#: plugin/global-styles/typography/base.php:124
+msgid "H5"
+msgstr "H5"
+
+#: plugin/global-styles/typography/base.php:125
+msgid "H6"
+msgstr "H6"
+
+#: plugin/global-styles/typography/base.php:137
+msgid "Font Weight"
+msgstr "Peso de fuente"
+
+#: plugin/global-styles/typography/base.php:152
+msgid "Decoration"
+msgstr "Decoración"
+
+#: plugin/global-styles/typography/base.php:171
+msgid "Line"
+msgstr "Línea"
+
+#: plugin/global-styles/typography/base.php:180
+msgid "Thickness"
+msgstr "Espesor"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:17
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:58
+msgid "Custom Code"
+msgstr "Código personalizado"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:74
+msgid "Header Code"
+msgstr "Código de encabezado"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:82
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:105
+msgid "Send to CodeBox"
+msgstr "Enviar a CodeBox"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:83
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:106
+msgid "Open CodeBox"
+msgstr "Abrir cuadro de código"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:85
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:108
+msgid "Clear Code"
+msgstr "Borrar código"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:90
+msgid "This code will be inserted inside the <head> tag."
+msgstr "Este código se insertará dentro de la etiqueta<head>."
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:96
+msgid "Footer Code"
+msgstr "Código de pie de página"
+
+#: plugin/header-footer-tracking-code/tracking-code-settings-tab.php:113
+msgid "This code will be inserted near the closing </body> tag."
+msgstr "Este código se insertará cerca de la etiqueta de cierre</body>."
+
+#: plugin/interactions/actions/add-class.php:17
+msgid "Add Class"
+msgstr "Agregar clase"
+
+#: plugin/interactions/actions/add-class.php:37
+#: plugin/interactions/actions/remove-class.php:37
+#: plugin/interactions/actions/toggle-class.php:37
+msgid "CSS Class"
+msgstr "Clase CSS"
+
+#: plugin/interactions/actions/control-popup.php:17
+msgid "Control Popup"
+msgstr "Ventana emergente de control"
+
+#: plugin/interactions/actions/control-popup.php:37
+#: plugin/themeless/popups.cpt.php:17
+msgid "Popup"
+msgstr "ventana emergente"
+
+#: plugin/interactions/actions/control-popup.php:41
+msgid "Popup Action"
+msgstr "Acción emergente"
+
+#: plugin/interactions/actions/control-popup.php:45
+msgid "Open"
+msgstr "Abierto"
+
+#: plugin/interactions/actions/control-popup.php:46
+msgid "Close"
+msgstr "Cerca"
+
+#: plugin/interactions/actions/control-popup.php:47
+msgid "Toggle"
+msgstr "Palanca"
+
+#: plugin/interactions/actions/control-slider.php:17
+msgid "Control Slider"
+msgstr "Control deslizante"
+
+#: plugin/interactions/actions/control-slider.php:37
+msgid "Action"
+msgstr "Acción"
+
+#: plugin/interactions/actions/control-slider.php:41
+msgid "Next Slide"
+msgstr "Siguiente diapositiva"
+
+#: plugin/interactions/actions/control-slider.php:42
+msgid "Previous Slide"
+msgstr "Diapositiva anterior"
+
+#: plugin/interactions/actions/control-slider.php:43
+msgid "Go to Slide"
+msgstr "Ir a la diapositiva"
+
+#: plugin/interactions/actions/focus.php:17
+msgid "Focus"
+msgstr "Enfocar"
+
+#: plugin/interactions/actions/hide-element.php:16
+msgid "Hide Element"
+msgstr "Ocultar elemento"
+
+#: plugin/interactions/actions/javascript-function.php:17
+msgid "JavaScript Function"
+msgstr "Función JavaScript"
+
+#: plugin/interactions/actions/javascript-function.php:37
+msgid "JS Function Name"
+msgstr "Nombre de la función JS"
+
+#: plugin/interactions/actions/remove-attribute.php:17
+msgid "Remove Attribute"
+msgstr "Eliminar atributo"
+
+#: plugin/interactions/actions/remove-attribute.php:37
+#: plugin/interactions/actions/set-attribute.php:37
+#: plugin/interactions/actions/toggle-attribute.php:37
+msgid "Attribute Name"
+msgstr "Nombre del atributo"
+
+#: plugin/interactions/actions/remove-class.php:17
+msgid "Remove Class"
+msgstr "Eliminar clase"
+
+#: plugin/interactions/actions/scroll-to.php:17
+msgid "Scroll To"
+msgstr "Desplazarse hacia"
+
+#: plugin/interactions/actions/scroll-to.php:37
+msgid "Scroll Offset"
+msgstr "Desplazamiento de desplazamiento"
+
+#: plugin/interactions/actions/scroll-to.php:40
+msgid "Scroll Delay"
+msgstr "Retraso de desplazamiento"
+
+#: plugin/interactions/actions/set-attribute.php:17
+msgid "Set Attribute"
+msgstr "Establecer atributo"
+
+#: plugin/interactions/actions/set-attribute.php:41
+#: plugin/interactions/actions/toggle-attribute.php:41
+msgid "Attribute Value"
+msgstr "Valor del atributo"
+
+#: plugin/interactions/actions/set-variable.php:17
+msgid "Set Variable"
+msgstr "Establecer variable"
+
+#: plugin/interactions/actions/set-variable.php:37
+msgid "Variable Name"
+msgstr "Nombre de la variable"
+
+#: plugin/interactions/actions/set-variable.php:41
+msgid "Variable Value"
+msgstr "Valor variable"
+
+#: plugin/interactions/actions/show-element.php:16
+msgid "Show Element"
+msgstr "Mostrar elemento"
+
+#: plugin/interactions/actions/start-animation.php:17
+msgid "Start Animation"
+msgstr "Iniciar animación"
+
+#: plugin/interactions/actions/start-animation.php:37
+msgid "Animation"
+msgstr "Animación"
+
+#: plugin/interactions/actions/toggle-attribute.php:17
+msgid "Toggle Attribute"
+msgstr "Alternar atributo"
+
+#: plugin/interactions/actions/toggle-class.php:17
+msgid "Toggle Class"
+msgstr "Alternar clase"
+
+#: plugin/interactions/actions/toggle-element.php:16
+msgid "Toggle Element"
+msgstr "Elemento de alternancia"
+
+#: plugin/interactions/control.php:22 plugin/interactions/control.php:24
+msgid "Interactions"
+msgstr "Interacciones"
+
+#: plugin/interactions/triggers/click.php:16
+msgid "Click"
+msgstr "Hacer clic"
+
+#: plugin/interactions/triggers/dropdown-menu-opens.php:16
+msgid "Dropdown Menu Opens"
+msgstr "Se abre el menú desplegable"
+
+#: plugin/interactions/triggers/form-submit.php:16
+msgid "Form Submit"
+msgstr "Enviar formulario"
+
+#: plugin/interactions/triggers/key-down.php:17
+msgid "Key Down"
+msgstr "Tecla abajo"
+
+#: plugin/interactions/triggers/key-down.php:41
+#: plugin/interactions/triggers/key-up.php:41
+msgid "CTRL"
+msgstr "CTRL"
+
+#: plugin/interactions/triggers/key-down.php:45
+#: plugin/interactions/triggers/key-up.php:45
+msgid "Shift"
+msgstr "Cambio"
+
+#: plugin/interactions/triggers/key-up.php:17
+msgid "Key Up"
+msgstr "Emocionar"
+
+#: plugin/interactions/triggers/mobile-menu-opens.php:16
+msgid "Mobile Menu Opens"
+msgstr "Se abre el menú móvil"
+
+#: plugin/interactions/triggers/mouse-enter.php:16
+msgid "Mouse Enter"
+msgstr "Ratón Intro"
+
+#: plugin/interactions/triggers/mouse-leave-window.php:16
+msgid "Mouse Leave Window"
+msgstr "Ratón para salir de la ventana"
+
+#: plugin/interactions/triggers/mouse-leave.php:16
+msgid "Mouse Leave"
+msgstr "Salir del ratón"
+
+#: plugin/interactions/triggers/mouse-move-in-viewport.php:16
+msgid "Mouse Move In Viewport"
+msgstr "Mover el mouse en la ventana gráfica"
+
+#: plugin/interactions/triggers/page-loaded.php:16
+msgid "Page Loaded"
+msgstr "Página cargada"
+
+#: plugin/interactions/triggers/page-scrolled.php:16
+msgid "Page Scrolled"
+msgstr "Página desplazada"
+
+#: plugin/interactions/triggers/scroll-into-view.php:16
+msgid "Scroll Into View"
+msgstr "Desplácese hacia la vista"
+
+#: plugin/interactions/triggers/slider-change.php:16
+msgid "Slider Change"
+msgstr "Cambio de control deslizante"
+
+#: plugin/interactions/triggers/tab-change.php:16
+msgid "Tab Change"
+msgstr "Cambio de pestaña"
+
+#: plugin/interactions/triggers/visibility-change.php:16
+msgid "Visibility Change"
+msgstr "Cambio de visibilidad"
+
+#: plugin/licensing/class.license-key-manager.php:193
+#: plugin/licensing/class.license-key-manager.php:194
+#: plugin/licensing/class.license-key-manager.php:195
+#: plugin/licensing/class.license-key-manager.php:196
+#: plugin/licensing/class.license-key-manager.php:231
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: plugin/licensing/class.license-key-manager.php:205
+#: plugin/licensing/class.license-key-manager.php:206
+msgid "Not activated"
+msgstr "No activado"
+
+#: plugin/licensing/class.license-key-manager.php:208
+msgid "Invalid key"
+msgstr "Clave no válida"
+
+#: plugin/licensing/class.license-key-manager.php:209
+msgid "License key revoked"
+msgstr "Clave de licencia revocada"
+
+#: plugin/licensing/class.license-key-manager.php:210
+msgid "License has expired"
+msgstr "La licencia ha caducado"
+
+#: plugin/licensing/class.license-key-manager.php:211
+#: plugin/licensing/class.license-key-manager.php:212
+msgid "License is not valid for this product"
+msgstr "La licencia no es válida para este producto."
+
+#. translators: %s: plugin name
+#: plugin/licensing/class.license-key-manager.php:219
+#, php-format
+msgid "%s Pro"
+msgstr "%s Pro"
+
+#. translators: %s: plugin name
+#: plugin/licensing/class.license-key-manager.php:221
+#, php-format
+msgid "%s Free"
+msgstr "%s Gratis"
+
+#: plugin/licensing/class.license-key-manager.php:222
+msgid "Valid"
+msgstr "Válido"
+
+#: plugin/licensing/class.license-key-manager.php:222
+msgid "Invalid"
+msgstr "Inválido"
+
+#: plugin/licensing/class.license-key-manager.php:226
+msgid "n/a"
+msgstr "n/a"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:8
+#: plugin/woocommerce/settings/settings-tab.php:58
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:9
+msgid "(200) Coming Soon"
+msgstr "(200) Próximamente"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:10
+msgid "(503) Maintenance"
+msgstr "(503) Mantenimiento"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:14
+msgid "Logged in"
+msgstr "Iniciado sesión"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:15
+msgid "Logged in with role"
+msgstr "Iniciado sesión con rol"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:28
+#: plugin/themeless/theme-simulator/maintenance-mode.php:32
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:33
+msgid "Mode"
+msgstr "Modo"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:51
+msgid "Select a page&hellip;"
+msgstr "Seleccione una página&hellip;"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:63
+msgid "This will be displayed to the user when maintenance mode is enabled."
+msgstr ""
+"Esto se mostrará al usuario cuando el modo de mantenimiento esté habilitado."
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:71
+msgid "Access Control"
+msgstr "Control de acceso"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:72
+msgid ""
+"Users can bypass maintenance mode using any of the options listed below."
+msgstr ""
+"Los usuarios pueden omitir el modo de mantenimiento utilizando cualquiera de"
+" las opciones que se enumeran a continuación."
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:77
+msgid "Authentication Status"
+msgstr "Estado de autenticación"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:95
+msgid "User Roles"
+msgstr "Roles de usuario"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:119
+msgid "URL param"
+msgstr "parámetro de URL"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:129
+msgid "Enable URL Param"
+msgstr "Habilitar parámetro de URL"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:136
+msgid "key"
+msgstr "llave"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:143
+msgid "value"
+msgstr "valor"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:153
+msgid "Copy"
+msgstr "Copiar"
+
+#: plugin/maintenance-mode/maintenance-mode-page.php:159
+msgid ""
+"Users with any of the URL parameters defined above set will have access to "
+"the site."
+msgstr ""
+"Los usuarios con cualquiera de los parámetros de URL definidos anteriormente"
+" tendrán acceso al sitio."
+
+#: plugin/maintenance-mode/maintenance-mode-tab.php:16
+msgid "Maintenance Mode"
+msgstr "Modo de mantenimiento"
+
+#: plugin/maintenance-mode/maintenance-mode.php:229
+msgid "Maintenance Mode ON"
+msgstr "Modo de mantenimiento activado"
+
+#: plugin/permissions/permissions.php:38
+msgid "Full Interface"
+msgstr "Interfaz completa"
+
+#: plugin/permissions/permissions.php:43
+msgid "Edit Content Interface Only"
+msgstr "Editar solo la interfaz de contenido"
+
+#: plugin/permissions/permissions.php:48
+msgid "No Access"
+msgstr "Sin acceso"
+
+#: plugin/permissions/settings-tab.php:16
+#: plugin/permissions/settings-tab.php:87
+msgid "User Access"
+msgstr "Acceso de usuario"
+
+#: plugin/permissions/settings-tab.php:92
+msgid ""
+"Set builder access and user interface mode by user role. Set on a per-user "
+"basis from the Edit User screen."
+msgstr ""
+"Establezca el acceso del constructor y el modo de interfaz de usuario por "
+"rol de usuario. Establezca por usuario desde la pantalla Editar usuario."
+
+#. translators: %s: Link to security documentation
+#: plugin/permissions/settings-tab.php:97
+#, php-format
+msgid ""
+"Do not grant <strong>Edit Content Interface Only</strong> access to "
+"untrusted users. This access simplifies the user interface, but does not <a "
+"href=\"%s\" target=\"_blank\">restrict privileges</a>."
+msgstr ""
+"No otorgue acceso a<strong>Editar interfaz de contenido únicamente "
+"a</strong>a usuarios que no sean de confianza. Este acceso simplifica la "
+"interfaz de usuario, pero no<a href=\"%s\" target=\"_blank\">restringe los "
+"privilegios</a>."
+
+#: plugin/permissions/settings-tab.php:116
+msgid "Impersonate a user with <strong>Edit Content</strong> access."
+msgstr "Suplantar a un usuario con acceso<strong>Editar contenido</strong>."
+
+#: plugin/permissions/settings-tab.php:118
+msgid ""
+"The next time you open the Builder, you will experience it with the Edit "
+"Content access."
+msgstr ""
+"La próxima vez que abra el Constructor, lo experimentará con el acceso "
+"Editar contenido."
+
+#: plugin/permissions/user-profile.php:58
+msgid "Builder Access"
+msgstr "Acceso del constructor"
+
+#: plugin/permissions/user-profile.php:71
+msgid ""
+"It's not possible to restrict access for administrators, please give the "
+"user another role."
+msgstr ""
+"No es posible restringir el acceso a los administradores; asigne otro rol al"
+" usuario."
+
+#: plugin/setup-wizard/onboarding-notice.php:231
+msgid "Welcome to Breakdance!"
+msgstr "¡Bienvenidos a Breakdance!"
+
+#: plugin/setup-wizard/onboarding-notice.php:233
+msgid "Let's get you up to speed."
+msgstr "Vamos a ponerte al día."
+
+#: plugin/setup-wizard/onboarding-notice.php:248
+msgid "Dismiss"
+msgstr "Despedir"
+
+#: plugin/setup-wizard/onboarding-notice.php:270
+msgid "BETA"
+msgstr "BETA"
+
+#: plugin/setup-wizard/onboarding-notice.php:274
+msgid "Our quickstart guide will help you get started with Breakdance."
+msgstr "Nuestra guía de inicio rápido te ayudará a comenzar con Breakdance."
+
+#: plugin/setup-wizard/onboarding-notice.php:280
+msgid "Get Started"
+msgstr "Empezar"
+
+#: plugin/setup-wizard/onboarding-notice.php:298
+msgid "Learn Breakdance"
+msgstr "aprender breakdance"
+
+#: plugin/setup-wizard/onboarding-notice.php:300
+msgid "Our tutorials are designed to be convenient and straightforward."
+msgstr ""
+"Nuestros tutoriales están diseñados para ser convenientes y sencillos."
+
+#: plugin/setup-wizard/onboarding-notice.php:306
+msgid "See Tutorials"
+msgstr "Ver tutoriales"
+
+#: plugin/setup-wizard/onboarding-notice.php:323
+msgid "Join Facebook group"
+msgstr "Únete al grupo de Facebook"
+
+#: plugin/setup-wizard/onboarding-notice.php:325
+msgid "Our Facebook group has over 5000 happy and helpful members."
+msgstr ""
+"Nuestro grupo de Facebook tiene más de 5000 miembros felices y serviciales."
+
+#: plugin/setup-wizard/onboarding-notice.php:331
+msgid "Join Group"
+msgstr "Unirse al grupo"
+
+#: plugin/setup-wizard/onboarding-notice.php:348
+msgid "Subscribe to YouTube"
+msgstr "Suscríbete a youtube"
+
+#: plugin/setup-wizard/onboarding-notice.php:350
+msgid "We are constantly releasing new tutorials on our YouTube channel."
+msgstr ""
+"Constantemente publicamos nuevos tutoriales en nuestro canal de YouTube."
+
+#: plugin/setup-wizard/onboarding-notice.php:356
+msgid "Subscribe"
+msgstr "Suscribir"
+
+#: plugin/setup-wizard/onboarding-notice.php:382
+msgid "We post frequent updates on X"
+msgstr "Publicamos actualizaciones frecuentes en X"
+
+#: plugin/setup-wizard/setup-wizard-page.php:10
+msgid "Setup Wizard"
+msgstr "Asistente de configuración"
+
+#: plugin/setup-wizard/setup-wizard-page.php:160
+msgid "Breakdance Setup Wizard"
+msgstr "Asistente de configuración de breakdance"
+
+#: plugin/setup-wizard/setup-wizard-page.php:190
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:63
+msgid "Disable Theme"
+msgstr "Desactivar tema"
+
+#: plugin/setup-wizard/setup-wizard-page.php:190
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:63
+msgid "recommended"
+msgstr "recomendado"
+
+#: plugin/setup-wizard/setup-wizard-page.php:191
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:64
+msgid ""
+"Design every part of your site with Breakdance. Disabling your theme gives "
+"you the best performance and maximum flexibility."
+msgstr ""
+"Diseña cada parte de tu sitio con Breakdance. Deshabilitar su tema le brinda"
+" el mejor rendimiento y la máxima flexibilidad."
+
+#: plugin/setup-wizard/setup-wizard-page.php:196
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:70
+msgid "Keep Theme"
+msgstr "Mantener tema"
+
+#: plugin/setup-wizard/setup-wizard-page.php:197
+msgid ""
+"The design of your existing site won't be affected. Your theme's styles may "
+"affect the design of Breakdance elements."
+msgstr ""
+"El diseño de su sitio existente no se verá afectado. Los estilos de tu tema "
+"pueden afectar el diseño de los elementos de Breakdance."
+
+#: plugin/setup-wizard/setup-wizard-page.php:203
+msgid "You can change this at any time from Breakdance → Settings → Theme"
+msgstr ""
+"Puedes cambiar esto en cualquier momento desde Breakdance → Configuración → "
+"Tema"
+
+#: plugin/setup-wizard/setup-wizard-page.php:211
+msgid ""
+"Clean Common Bloat - dashicons for logged out users, disable Gutenberg CSS, "
+"and disable WP Emoji JS."
+msgstr ""
+"Limpiar Common Bloat: dashicons para usuarios desconectados, deshabilitar "
+"Gutenberg CSS y deshabilitar WP Emoji JS."
+
+#: plugin/setup-wizard/setup-wizard-page.php:212
+msgid "No"
+msgstr "No"
+
+#: plugin/setup-wizard/setup-wizard-page.php:215
+msgid ""
+"You can change this at any time from Breakdance → Settings → Performance."
+msgstr ""
+"Puedes cambiar esto en cualquier momento desde Breakdance → Configuración → "
+"Performance."
+
+#: plugin/setup-wizard/setup-wizard-page.php:223
+msgid "License Key (optional)"
+msgstr "Clave de licencia (opcional)"
+
+#. translators: %s: Link to customer portal
+#: plugin/setup-wizard/setup-wizard-page.php:227
+#, php-format
+msgid ""
+"If you purchased Breakdance, enter your license key here. You can find your "
+"license key at %s."
+msgstr ""
+"Si compraste Breakdance, ingresa tu clave de licencia aquí. Puede encontrar "
+"su clave de licencia en %s."
+
+#. translators: %s: Error message
+#: plugin/setup-wizard/setup-wizard-page.php:235
+#, php-format
+msgid "Failed to activate the key: %s"
+msgstr "No se pudo activar la clave: %s"
+
+#: plugin/setup-wizard/setup-wizard-page.php:245
+msgid "AnalyticsWP Plugin Integration"
+msgstr "Integración del complemento AnalyticsWP"
+
+#: plugin/setup-wizard/setup-wizard-page.php:251
+msgid "Install AnalyticsWP Plugin"
+msgstr "Instalar el complemento AnalyticsWP"
+
+#: plugin/setup-wizard/setup-wizard-page.php:252
+msgid ""
+"View the complete customer journey for visitors that submit Breakdance "
+"forms, or use the AnalyticsWP Event element to track user activity on a "
+"page."
+msgstr ""
+"Vea el recorrido completo del cliente para los visitantes que envían "
+"formularios de Breakdance o utilice el elemento de evento AnalyticsWP para "
+"realizar un seguimiento de la actividad del usuario en una página."
+
+#. translators: 1: Opening <a> tag for documentation, 2: Closing </a> tag, 3:
+#. Opening <a> tag for plugin homepage, 4: Closing </a> tag
+#: plugin/setup-wizard/setup-wizard-page.php:256
+#, php-format
+msgid ""
+"Read the %1$sBreakdance AnalyticsWP integration documentation%2$s or visit "
+"the %3$sAnalyticsWP Plugin Homepage%4$s for more information."
+msgstr ""
+"Lea la documentación de integración de %1$s Breakdance AnalyticsWP %2$s o "
+"visite la página de inicio del complemento %3$s AnalyticsWP %4$s para "
+"obtener más información."
+
+#: plugin/setup-wizard/setup-wizard-page.php:262
+msgid "Don't Install"
+msgstr "No instalar"
+
+#: plugin/setup-wizard/setup-wizard-page.php:263
+msgid "AnalyticsWP will not be automatically installed."
+msgstr "AnalyticsWP no se instalará automáticamente."
+
+#: plugin/setup-wizard/setup-wizard-page.php:271
+msgid "Improve Breakdance"
+msgstr "Mejorar el breakdance"
+
+#: plugin/setup-wizard/setup-wizard-page.php:276
+msgid "Yes, I want to help improve Breakdance"
+msgstr "Sí, quiero ayudar a mejorar el Breakdance"
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag
+#: plugin/setup-wizard/setup-wizard-page.php:280
+#, php-format
+msgid ""
+"By allowing us to %1$scollect usage data%2$s, you help us make Breakdance "
+"better for everyone."
+msgstr ""
+"Al permitirnos %1$srecopilar datos de uso %2$s, nos ayudas a mejorar el "
+"Breakdance para todos."
+
+#: plugin/setup-wizard/setup-wizard-page.php:285
+msgid "You can change this at any time from Breakdance → Settings → Privacy"
+msgstr ""
+"Puedes cambiar esto en cualquier momento desde Breakdance → Configuración → "
+"Privacidad"
+
+#: plugin/setup-wizard/setup-wizard-page.php:306
+msgid "Finish Setup"
+msgstr "Finalizar la configuración"
+
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:101
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes permisos suficientes para acceder a esta página."
+
+#. translators: %s is the plugin name (Breakdance or Oxygen)
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:111
+#, php-format
+msgid "%s database has been updated successfully!"
+msgstr "¡La base de datos de %s se ha actualizado correctamente!"
+
+#. translators: %s is the plugin name (Breakdance or Oxygen)
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:122
+#, php-format
+msgid "%s Database Update Required"
+msgstr "Actualización de base de datos de %s necesaria"
+
+#. translators: %s is the plugin name (Breakdance or Oxygen)
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:125
+#, php-format
+msgid ""
+"%s has been updated! The next step is to run the database updater to ensure "
+"that all data is migrated correctly."
+msgstr ""
+"¡%s ha sido actualizado! El siguiente paso es ejecutar el actualizador de la"
+" base de datos para garantizar que todos los datos se migren correctamente."
+
+#: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:127
+msgid "Update database now"
+msgstr "Actualizar base de datos ahora"
+
+#: plugin/setup/replace-url.php:29
+msgid "The URLs must be different."
+msgstr "Las URL deben ser diferentes."
+
+#: plugin/setup/replace-url.php:33
+msgid "The `From` URL is invalid."
+msgstr "La URL `Desde` no es válida."
+
+#: plugin/setup/replace-url.php:37
+msgid "The `To` URL is invalid."
+msgstr "La URL `Hasta` no es válida."
+
+#: plugin/setup/replace-url.php:72
+msgid "Failed to replace URLs in post data"
+msgstr "No se pudieron reemplazar las URL en los datos de la entrada"
+
+#: plugin/setup/replace-url.php:117
+msgid "We detected you've changed the site URL."
+msgstr "Detectamos que has cambiado la URL del sitio."
+
+#: plugin/setup/replace-url.php:118
+msgid "Old URL:"
+msgstr "URL antigua:"
+
+#: plugin/setup/replace-url.php:119
+msgid "New URL:"
+msgstr "Nueva URL:"
+
+#: plugin/setup/replace-url.php:121
+msgid "Would you like to run the Replace URL Tool now?"
+msgstr "¿Le gustaría ejecutar la herramienta Reemplazar URL ahora?"
+
+#: plugin/setup/replace-url.php:124
+msgid "Yes, Take Me There"
+msgstr "Sí, llévame allí"
+
+#: plugin/setup/settings-page.php:13 plugin/setup/settings-page.php:103
+msgid "Tools"
+msgstr "Herramientas"
+
+#: plugin/setup/settings-page.php:39 plugin/setup/settings-page.php:46
+msgid "Failed to upload a file"
+msgstr "No se pudo subir el archivo"
+
+#: plugin/setup/settings-page.php:54
+msgid "Invalid export data"
+msgstr "Datos de exportación no válidos"
+
+#: plugin/setup/settings-page.php:60
+msgid "Error importing settings"
+msgstr "Error al importar ajustes"
+
+#: plugin/setup/settings-page.php:64
+msgid "Settings imported"
+msgstr "Ajustes importados"
+
+#. translators: %s is the number of database rows affected by the URL
+#. replacement
+#: plugin/setup/settings-page.php:84
+#, php-format
+msgid "%s rows affected."
+msgstr "%s filas afectadas."
+
+#. translators: %s is the error message
+#: plugin/setup/settings-page.php:96
+#, php-format
+msgid "Error regenerating font files: %s"
+msgstr "Error al regenerar archivos de fuentes: %s"
+
+#: plugin/setup/settings-page.php:112
+msgid "Soft Reset Succeeded"
+msgstr "Restablecimiento parcial completado"
+
+#: plugin/setup/settings-page.php:120
+msgid "Meta Migration Successful"
+msgstr "Migración de metadatos completada"
+
+#: plugin/setup/settings-page.php:128
+msgid "Undo Meta Migration Successful"
+msgstr "Deshacer migración de metadatos completado"
+
+#: plugin/setup/settings-page.php:134
+msgid "Total Reset Succeeded"
+msgstr "Restablecimiento total completado"
+
+#. translators: %s is the filesystem error message
+#: plugin/setup/settings-page.php:146
+#, php-format
+msgid "Failed to create directories. %s"
+msgstr "No se pudieron crear directorios. %s"
+
+#: plugin/setup/settings-page.php:148
+msgid "All directories have been successfully created."
+msgstr "Todos los directorios se han creado correctamente."
+
+#: plugin/setup/settings-page.php:185 plugin/setup/settings-page.php:191
+msgid "Migrate Meta"
+msgstr "Migrar Meta"
+
+#: plugin/setup/settings-page.php:195
+msgid "Migrate your post meta key names to the new format."
+msgstr ""
+"Migre los nombres de las metaclaves de sus publicaciones al nuevo formato."
+
+#: plugin/setup/settings-page.php:201
+msgid "Undo Migrate Meta & Downgrade to 1.7.2"
+msgstr "Deshacer Migrar Meta y Bajar a 1.7.2"
+
+#: plugin/setup/settings-page.php:207
+msgid "Undo Migrate Meta"
+msgstr "Deshacer migración meta"
+
+#: plugin/setup/settings-page.php:211
+msgid ""
+"Restore your post meta key names the way they were before the migration."
+msgstr ""
+"Restaure los nombres de las metaclaves de sus publicaciones tal como estaban"
+" antes de la migración."
+
+#: plugin/setup/settings-page.php:212
+msgid "You <b>must</b> downgrade to Breakdance <b>1.7.2</b> afterwards."
+msgstr "Tú<b>debes</b>bajar a Breakdance<b>1.7.2</b>después."
+
+#: plugin/setup/settings-page.php:221
+msgid "Regenerate CSS Cache"
+msgstr "Regenerar caché CSS"
+
+#: plugin/setup/settings-page.php:231 plugin/setup/settings-page.php:237
+msgid "Soft Reset"
+msgstr "Reinicio suave"
+
+#: plugin/setup/settings-page.php:243
+msgid "Reset Icon Sets to factory defaults."
+msgstr ""
+"Restablecer los conjuntos de iconos a los valores predeterminados de "
+"fábrica."
+
+#: plugin/setup/settings-page.php:245
+msgid "Reset Icon Sets and fallback default templates to factory defaults."
+msgstr ""
+"Restablezca los conjuntos de iconos y las plantillas predeterminadas "
+"alternativas a los valores predeterminados de fábrica."
+
+#: plugin/setup/settings-page.php:254 plugin/setup/settings-page.php:260
+msgid "Total Reset"
+msgstr "Restablecimiento total"
+
+#. translators: %1$s and %2$s are the plugin name (Breakdance or Oxygen)
+#: plugin/setup/settings-page.php:266
+#, php-format
+msgid ""
+"Reset your entire %1$s installation to factory defaults. Content you created"
+" in %2$s must still be deleted manually."
+msgstr ""
+"Restablezca toda su instalación %1$s a los valores predeterminados de "
+"fábrica. El contenido que creó en %2$s aún debe eliminarse manualmente."
+
+#: plugin/setup/settings-page.php:272 plugin/setup/settings-page.php:277
+msgid "Create Directories"
+msgstr "Crear directorios"
+
+#. translators: %s is the plugin name (Breakdance or Oxygen)
+#: plugin/setup/settings-page.php:282
+#, php-format
+msgid ""
+"Create the directories on your server that are required for %s to function "
+"properly."
+msgstr ""
+"Cree los directorios en su servidor necesarios para que %s funcione "
+"correctamente."
+
+#: plugin/setup/settings-page.php:286
+msgid "Existing problems:"
+msgstr "Problemas existentes:"
+
+#: plugin/setup/settings-page.php:309 plugin/setup/settings-page.php:316
+msgid "Replace URL"
+msgstr "Reemplazar URL"
+
+#: plugin/setup/settings-page.php:318
+msgid ""
+"It is strongly recommended that you backup your database before running this"
+" tool."
+msgstr ""
+"Se recomienda encarecidamente que haga una copia de seguridad de su base de "
+"datos antes de ejecutar esta herramienta."
+
+#: plugin/setup/settings-page.php:323
+msgid "Export Settings"
+msgstr "Configuración de exportación"
+
+#: plugin/setup/settings-page.php:328
+msgid "Download Export File"
+msgstr "Descargar archivo de exportación"
+
+#: plugin/setup/settings-page.php:331
+msgid "Export your Settings, Preferences, and Icon Sets to a JSON file."
+msgstr ""
+"Exporte sus configuraciones, preferencias y conjuntos de iconos a un archivo"
+" JSON."
+
+#: plugin/setup/settings-page.php:337
+msgid "Import Settings"
+msgstr "Importar configuración"
+
+#: plugin/setup/settings-page.php:343
+msgid "Upload Export JSON File"
+msgstr "Cargar exportar archivo JSON"
+
+#: plugin/setup/settings-page.php:359
+msgid "Overwrite all your settings? This can't be undone without a backup."
+msgstr ""
+"¿Sobrescribir todas sus configuraciones? Esto no se puede deshacer sin una "
+"copia de seguridad."
+
+#: plugin/singularity/endpoints/pages.php:117
+msgid "Failed to delete all."
+msgstr "No se pudo eliminar todo."
+
+#. translators: %s: page ID
+#: plugin/singularity/endpoints/pages.php:150
+#, php-format
+msgid "Failed to delete %s."
+msgstr "No se pudo eliminar %s."
+
+#. translators: %s: page ID
+#: plugin/singularity/endpoints/pages.php:153
+#, php-format
+msgid "Deleted %s successfully."
+msgstr "Se eliminó %s con éxito."
+
+#: plugin/singularity/endpoints/pages.php:191
+msgid "Failed to create page."
+msgstr "No se pudo crear la página."
+
+#. translators: %s: page ID
+#: plugin/singularity/endpoints/set-as-homepage.php:31
+#, php-format
+msgid "Page %s set as homepage successfully."
+msgstr "La página %s se estableció correctamente como página de inicio."
+
+#: plugin/singularity/endpoints/wp-menu.php:41
+msgid "Failed to create or retrieve the default menu."
+msgstr "No se pudo crear o recuperar el menú predeterminado."
+
+#: plugin/singularity/endpoints/wp-menu.php:60
+msgid "Synced pages to default menu successfully."
+msgstr "Páginas sincronizadas con el menú predeterminado correctamente."
+
+#: plugin/singularity/endpoints/wp-menu.php:86
+msgid "Invalid menu ID provided."
+msgstr "ID de menú proporcionado no válido."
+
+#. translators: %s is the template label/name
+#: plugin/subscription/conditions.php:48
+#, php-format
+msgid "A pro condition was used in this <b>%s</b>."
+msgstr "Se utilizó una condición profesional en este<b>%s</b>."
+
+#: plugin/subscription/conditions.php:50
+msgid "A pro condition was used."
+msgstr "Se utilizó una condición profesional."
+
+#. translators: %1$s: element name, %2$s: plugin name
+#: plugin/subscription/filters.php:121
+#: plugin/subscription/free-mode-utils.php:47
+#, php-format
+msgid "The <b>%1$s</b> element is only available in %2$s Pro."
+msgstr "El elemento<b>%1$s</b>solo está disponible en %2$s Pro."
+
+#: plugin/subscription/forms.php:107
+msgid "Options"
+msgstr "Opciones"
+
+#: plugin/subscription/forms.php:108
+msgid "Field Types"
+msgstr "Tipos de campo"
+
+#: plugin/subscription/forms.php:109
+msgid "Actions"
+msgstr "Comportamiento"
+
+#: plugin/subscription/forms.php:110
+msgid "Advanced Field Conditionals"
+msgstr "Condicionales de campo avanzados"
+
+#. translators: %s is a comma-separated list of pro features used (e.g.,
+#. "Options, Field Types, Actions")
+#: plugin/subscription/forms.php:114
+#, php-format
+msgid "Pro only features were used in a form (%s)."
+msgstr "Se utilizaron funciones exclusivas de Pro en un formulario (%s)."
+
+#. translators: %s is the element name
+#: plugin/subscription/free-mode-utils.php:58
+#, php-format
+msgid "A Pro-only visibility condition was used on a <b>%s</b> element."
+msgstr ""
+"Se utilizó una condición de visibilidad exclusiva para Pro en un "
+"elemento<b>%s</b>."
+
+#: plugin/subscription/frontend-upgrade-notices/notice.php:70
+#, php-format
+msgid ""
+"This page uses pro-only features. Please upgrade to <a href=\"%1$s\" "
+"target=\"_blank\">%2$s Pro</a>, or enter your <a href=\"%3$s\">license "
+"key</a>."
+msgstr ""
+"Esta página utiliza funciones exclusivas para profesionales. Actualice a<a "
+"href=\"%1$s\" target=\"_blank\">%2$s Pro</a>o ingrese su clave de licencia<a"
+" href=\"%3$s\"></a>."
+
+#: plugin/subscription/frontend-upgrade-notices/notice.php:87
+msgid "See details"
+msgstr "Ver detalles"
+
+#: plugin/subscription/frontend-upgrade-notices/notice.php:93
+msgid ""
+"This notice only appears for site administrators. For normal visitors, this "
+"notice won't appear, and pro-only features won't work."
+msgstr ""
+"Este aviso solo aparece para los administradores del sitio. Para los "
+"visitantes normales, este aviso no aparecerá y las funciones exclusivas para"
+" profesionales no funcionarán."
+
+#. translators: %s: plugin name
+#: plugin/subscription/wp-admin-warnings.php:13
+#, php-format
+msgid "Please upgrade to %s Pro to export form submissions."
+msgstr "Actualice a %s Pro para exportar envíos de formularios."
+
+#. translators: %s is the plugin name
+#: plugin/subscription/wp-admin-warnings.php:26
+#, php-format
+msgid ""
+"When the design library comes out of beta, it will only be available in %s "
+"Pro."
+msgstr ""
+"Cuando la biblioteca de diseño salga de la versión beta, solo estará "
+"disponible en %s Pro."
+
+#. translators: %s is the plugin name
+#: plugin/subscription/wp-admin-warnings.php:32
+#, php-format
+msgid "Please upgrade to %s Pro to configure permissions."
+msgstr "Actualice a %s Pro para configurar los permisos."
+
+#. translators: %s is the plugin name
+#: plugin/subscription/wp-admin-warnings.php:38
+#, php-format
+msgid "Please upgrade to %s Pro to import and export settings."
+msgstr "Actualice a %s Pro para importar y exportar configuraciones."
+
+#: plugin/subscription/wp-admin-warnings.php:93
+msgid "Get Pro"
+msgstr "Conviértete en profesional"
+
+#: plugin/themeless/accessibility.php:41
+msgid "Skip to main content"
+msgstr "Saltar al contenido principal"
+
+#: plugin/themeless/canvas_templates.php:25
+msgid "[Breakdance] No Header / Footer"
+msgstr "[Breakdance] Sin encabezado ni pie de página"
+
+#: plugin/themeless/god-controller.php:258
+msgid "Template Hierarchy Error"
+msgstr "Error de jerarquía de plantilla"
+
+#. translators: %d is the template ID
+#: plugin/themeless/god-controller.php:261
+#, php-format
+msgid "There is no template with ID %d."
+msgstr "No existe ninguna plantilla con ID %d."
+
+#: plugin/themeless/god-controller.php:272
+msgid "This is impossible, since that template has been moved to trash"
+msgstr "Esto es imposible, ya que esa plantilla se ha movido a la papelera."
+
+#: plugin/themeless/god-controller.php:273
+msgid "This is impossible, since that template doesn't exist"
+msgstr "Esto es imposible, ya que esa plantilla no existe."
+
+#. translators: 1: Template title, 2: Template ID, 3: Missing template ID
+#: plugin/themeless/god-controller.php:277
+#, php-format
+msgid ""
+"But template <em>%1$s (ID %2$d)</em> tries to inherit its design from "
+"template %3$d."
+msgstr ""
+"Pero la plantilla<em>%1$s (ID %2$d)</em>intenta heredar su diseño de la "
+"plantilla %3$d."
+
+#. translators: 1: Template title, 2: Template ID
+#: plugin/themeless/god-controller.php:288
+#, php-format
+msgid ""
+"To fix, edit template <em>%1$s (ID %2$d)</em>, and clear the <i>Inherit "
+"Design From</i> field or choose a template that exists."
+msgstr ""
+"Para solucionarlo, edite la plantilla<em>%1$s (ID %2$d)</em>y borre el "
+"campo<i>Heredar diseño de</i>o elija una plantilla que exista."
+
+#: plugin/themeless/god-controller.php:293
+msgid "Manage Templates"
+msgstr "Administrar plantillas"
+
+#: plugin/themeless/header-or-footer.cpt.php:16
+msgid "Header"
+msgstr "Encabezamiento"
+
+#: plugin/themeless/header-or-footer.cpt.php:39
+msgid "Footer"
+msgstr "Pie de página"
+
+#: plugin/themeless/manage-templates-spa/api.php:61
+msgid "Can't get data for an unsupported post type"
+msgstr "No puedo obtener datos para un tipo de publicación no admitida"
+
+#. translators: %s: template ID
+#: plugin/themeless/manage-templates-spa/api.php:209
+#, php-format
+msgid "Couldn't update template with ID \"%s\""
+msgstr "No se pudo actualizar la plantilla con ID \"%s\""
+
+#. translators: %s: template ID
+#: plugin/themeless/manage-templates-spa/api.php:263
+#, php-format
+msgid "Couldn't delete template with ID \"%s\""
+msgstr "No se pudo eliminar la plantilla con ID \"%s\""
+
+#. translators: %s: template ID
+#: plugin/themeless/manage-templates-spa/api.php:266
+#, php-format
+msgid "Couldn't trash template with ID \"%s\""
+msgstr "No se pudo eliminar la plantilla con ID \"%s\""
+
+#. translators: %s: template ID
+#: plugin/themeless/manage-templates-spa/api.php:296
+#, php-format
+msgid "Couldn't restore template with ID \"%s\""
+msgstr "No se pudo restaurar la plantilla con ID \"%s\""
+
+#: plugin/themeless/manage-templates-spa/api.php:389
+msgid "Failed to empty trash"
+msgstr "No se pudo vaciar la papelera"
+
+#: plugin/themeless/previewable/last_previewed.php:25
+msgid "No ID or previewed item provided"
+msgstr "No se proporcionó ninguna identificación ni elemento de vista previa"
+
+#: plugin/themeless/rules/archive/all.php:16
+msgid "All Archives"
+msgstr "Todos los archivos"
+
+#: plugin/themeless/rules/archive/author.php:22
+msgid "Author Archive"
+msgstr "Archivo de autores"
+
+#: plugin/themeless/rules/archive/author.php:44
+#: plugin/themeless/rules/conditions/singular.php:696
+msgid "Authors"
+msgstr "Autores"
+
+#: plugin/themeless/rules/archive/date.php:15
+msgid "Date Archive"
+msgstr "Archivo de fecha"
+
+#: plugin/themeless/rules/archive/post-type.php:21
+msgid "Post Type Archive"
+msgstr "Archivo de tipo de publicación"
+
+#: plugin/themeless/rules/archive/post-type.php:44
+#: plugin/themeless/rules/conditions/singular.php:853
+#: plugin/themeless/rules/conditions/singular.php:859
+msgid "Post Type"
+msgstr "Tipo de publicación"
+
+#: plugin/themeless/rules/archive/post.php:16
+msgid "Post Archives"
+msgstr "Archivos de publicaciones"
+
+#: plugin/themeless/rules/archive/product-archives.php:25
+msgid "All Product Archives"
+msgstr "Todos los archivos de productos"
+
+#: plugin/themeless/rules/archive/product-archives.php:45
+msgid "Specific Product Archive"
+msgstr "Archivo de productos específicos"
+
+#: plugin/themeless/rules/archive/product-archives.php:64
+#: plugin/themeless/rules/archive/taxonomy.php:42
+msgid "Is Taxonomy"
+msgstr "¿Es la taxonomía?"
+
+#: plugin/themeless/rules/archive/product-archives.php:110
+msgid "Product term"
+msgstr "Término del producto"
+
+#: plugin/themeless/rules/archive/taxonomy.php:23
+msgid "Taxonomy Archive"
+msgstr "Archivo de taxonomía"
+
+#. translators: %s is the taxonomy name
+#: plugin/themeless/rules/archive/taxonomy.php:126
+#, php-format
+msgid "All %s"
+msgstr "Todo %s"
+
+#: plugin/themeless/rules/conditions/custom-php.php:18
+msgid "Custom PHP"
+msgstr "PHP personalizado"
+
+#: plugin/themeless/rules/conditions/dates.php:17
+msgid "Day Of Week (WordPress)"
+msgstr "Día de la semana (WordPress)"
+
+#: plugin/themeless/rules/conditions/dates.php:18
+#: plugin/themeless/rules/conditions/dates.php:64
+#: plugin/themeless/rules/conditions/dates.php:98
+#: plugin/themeless/rules/conditions/dates.php:150
+#: plugin/themeless/rules/conditions/dates.php:202
+#: plugin/themeless/rules/conditions/dates.php:254
+msgid "Date & Time"
+msgstr "Fecha y hora"
+
+#: plugin/themeless/rules/conditions/dates.php:23
+msgid "Day"
+msgstr "Día"
+
+#: plugin/themeless/rules/conditions/dates.php:25
+msgid "Monday"
+msgstr "Lunes"
+
+#: plugin/themeless/rules/conditions/dates.php:26
+msgid "Tuesday"
+msgstr "Martes"
+
+#: plugin/themeless/rules/conditions/dates.php:27
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: plugin/themeless/rules/conditions/dates.php:28
+msgid "Thursday"
+msgstr "Jueves"
+
+#: plugin/themeless/rules/conditions/dates.php:29
+msgid "Friday"
+msgstr "Viernes"
+
+#: plugin/themeless/rules/conditions/dates.php:30
+msgid "Saturday"
+msgstr "Sábado"
+
+#: plugin/themeless/rules/conditions/dates.php:31
+msgid "Sunday"
+msgstr "Domingo"
+
+#: plugin/themeless/rules/conditions/dates.php:63
+msgid "Current Time (WordPress)"
+msgstr "Hora actual (WordPress)"
+
+#: plugin/themeless/rules/conditions/dates.php:97
+msgid "Current Date (WordPress)"
+msgstr "Fecha actual (WordPress)"
+
+#: plugin/themeless/rules/conditions/dates.php:201
+msgid "Post Modified Date"
+msgstr "Fecha de modificación de la publicación"
+
+#: plugin/themeless/rules/conditions/dates.php:253
+msgid "Current Month (WordPress)"
+msgstr "Mes actual (WordPress)"
+
+#: plugin/themeless/rules/conditions/dates.php:259
+msgid "Month"
+msgstr "Mes"
+
+#: plugin/themeless/rules/conditions/dynamic-data.php:20
+msgid "Dynamic Data"
+msgstr "Datos dinámicos"
+
+#: plugin/themeless/rules/conditions/misc.php:22
+#: plugin/themeless/rules/conditions/misc.php:30
+msgid "Browser"
+msgstr "Navegador"
+
+#: plugin/themeless/rules/conditions/misc.php:32
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: plugin/themeless/rules/conditions/misc.php:33
+msgid "Mozilla Firefox"
+msgstr "Mozilla Firefox"
+
+#: plugin/themeless/rules/conditions/misc.php:34
+msgid "Safari"
+msgstr "Safari"
+
+#: plugin/themeless/rules/conditions/misc.php:35
+msgid "Microsoft Edge"
+msgstr "Borde de Microsoft"
+
+#: plugin/themeless/rules/conditions/misc.php:36
+msgid "Internet Explorer"
+msgstr "Explorador de Internet"
+
+#: plugin/themeless/rules/conditions/misc.php:37
+msgid "Samsung Browser"
+msgstr "Navegador Samsung"
+
+#: plugin/themeless/rules/conditions/misc.php:38
+msgid "Opera"
+msgstr "Ópera"
+
+#: plugin/themeless/rules/conditions/misc.php:73
+msgid "Operating System"
+msgstr "Sistema operativo"
+
+#: plugin/themeless/rules/conditions/misc.php:79
+msgid "Operating System / Device"
+msgstr "Sistema operativo/dispositivo"
+
+#: plugin/themeless/rules/conditions/misc.php:81
+msgid "Windows"
+msgstr "ventanas"
+
+#: plugin/themeless/rules/conditions/misc.php:82
+msgid "Mac OS"
+msgstr "sistema operativo mac"
+
+#: plugin/themeless/rules/conditions/misc.php:83
+msgid "Linux"
+msgstr "linux"
+
+#: plugin/themeless/rules/conditions/misc.php:84
+msgid "iOS (iPhone)"
+msgstr "iOS (iPhone)"
+
+#: plugin/themeless/rules/conditions/misc.php:85
+msgid "Android"
+msgstr "Androide"
+
+#: plugin/themeless/rules/conditions/misc.php:86
+msgid "Chrome OS"
+msgstr "Sistema operativo Chrome"
+
+#: plugin/themeless/rules/conditions/misc.php:122
+#: plugin/themeless/rules/conditions/misc.php:128
+msgid "Breakpoint"
+msgstr "Punto de interrupción"
+
+#: plugin/themeless/rules/conditions/misc.php:154
+msgid "Content Created With"
+msgstr "Contenido creado con"
+
+#: plugin/themeless/rules/conditions/misc.php:163
+msgid "Builder"
+msgstr "Constructor"
+
+#: plugin/themeless/rules/conditions/referrer.php:17
+msgid "Referrer URL"
+msgstr "URL de referencia"
+
+#: plugin/themeless/rules/conditions/referrer.php:18
+#: plugin/themeless/rules/conditions/referrer.php:50
+msgid "Referrer"
+msgstr "referente"
+
+#: plugin/themeless/rules/conditions/referrer.php:49
+#: plugin/themeless/rules/conditions/referrer.php:55
+msgid "Referrer Type"
+msgstr "Tipo de referente"
+
+#: plugin/themeless/rules/conditions/referrer.php:57
+msgid "Search Engine"
+msgstr "Motor de búsqueda"
+
+#: plugin/themeless/rules/conditions/referrer.php:58
+msgid "Internal"
+msgstr "Interno"
+
+#: plugin/themeless/rules/conditions/referrer.php:59
+msgid "External"
+msgstr "Externo"
+
+#: plugin/themeless/rules/conditions/sessions.php:28
+#: plugin/themeless/rules/conditions/sessions.php:58
+msgid "Sessions"
+msgstr "Sesiones"
+
+#: plugin/themeless/rules/conditions/singular.php:51
+#: plugin/themeless/rules/conditions/singular.php:157
+#: plugin/themeless/rules/conditions/singular.php:227
+#: plugin/themeless/rules/conditions/singular.php:466
+#: plugin/themeless/rules/conditions/singular.php:527
+#: plugin/themeless/rules/conditions/singular.php:593
+#: plugin/themeless/rules/conditions/singular.php:691
+#: plugin/themeless/rules/conditions/singular.php:779
+#: plugin/themeless/rules/conditions/singular.php:854
+msgid "Singular"
+msgstr "Singular"
+
+#. translators: %s is the post type name
+#: plugin/themeless/rules/conditions/singular.php:156
+#, php-format
+msgid "%s Parent"
+msgstr "%s Padre"
+
+#: plugin/themeless/rules/conditions/singular.php:226
+msgid "Has Taxonomy"
+msgstr "Tiene taxonomía"
+
+#: plugin/themeless/rules/conditions/singular.php:465
+msgid "Post ID"
+msgstr "ID de publicación"
+
+#: plugin/themeless/rules/conditions/singular.php:526
+msgid "Post Status"
+msgstr "Estado de la publicación"
+
+#: plugin/themeless/rules/conditions/singular.php:532
+msgid "Statuses"
+msgstr "Estados"
+
+#: plugin/themeless/rules/conditions/singular.php:785
+#: plugin/themeless/rules/conditions/user.php:26
+#: plugin/themeless/rules/woocommerce/product-cart.php:17
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:17
+#: plugin/themeless/rules/woocommerce/product-sale.php:17
+#: plugin/themeless/rules/woocommerce/product-tax.php:16
+#: plugin/themeless/rules/woocommerce/product-virtual.php:17
+#: plugin/themeless/rules/woocommerce/stock-status.php:18
+msgid "Status"
+msgstr "Estado"
+
+#: plugin/themeless/rules/conditions/singular.php:787
+msgid "set"
+msgstr "colocar"
+
+#: plugin/themeless/rules/conditions/singular.php:788
+msgid "not set"
+msgstr "no establecido"
+
+#: plugin/themeless/rules/conditions/user.php:19
+msgid "User Logged In Status"
+msgstr "Estado de inicio de sesión del usuario"
+
+#: plugin/themeless/rules/conditions/user.php:20
+#: plugin/themeless/rules/conditions/user.php:54
+#: plugin/themeless/rules/conditions/user.php:92
+msgid "User"
+msgstr "Usuario"
+
+#: plugin/themeless/rules/conditions/user.php:28
+msgid "logged in"
+msgstr "iniciado sesión"
+
+#: plugin/themeless/rules/conditions/user.php:29
+msgid "logged out"
+msgstr "desconectado"
+
+#: plugin/themeless/rules/conditions/user.php:53
+msgid "User Role"
+msgstr "Rol de usuario"
+
+#: plugin/themeless/rules/conditions/user.php:91
+msgid "User Registration Date"
+msgstr "Fecha de registro de usuario"
+
+#: plugin/themeless/rules/conditions/user.php:141
+msgid "Roles"
+msgstr "Roles"
+
+#: plugin/themeless/rules/everywhere/everywhere.php:14
+#: plugin/themeless/rules/everywhere/everywhere.php:17
+msgid "Everywhere"
+msgstr "En todos lados"
+
+#: plugin/themeless/rules/other/misc.php:36
+msgid "404 - Not Found Error"
+msgstr "404 - Error no encontrado"
+
+#: plugin/themeless/rules/other/misc.php:50
+msgid "Search Results"
+msgstr "Resultados de la búsqueda"
+
+#: plugin/themeless/rules/other/misc.php:61
+#: plugin/themeless/rules/other/misc.php:73
+#: plugin/themeless/rules/other/misc.php:95
+msgid "Search"
+msgstr "Buscar"
+
+#: plugin/themeless/rules/other/misc.php:62
+msgid "search results"
+msgstr "resultados de búsqueda"
+
+#: plugin/themeless/rules/other/misc.php:96
+msgid "search archive"
+msgstr "buscar archivo"
+
+#: plugin/themeless/rules/other/misc.php:107
+msgid "WP_Query Found Posts Count"
+msgstr "WP_Query Recuento de publicaciones encontradas"
+
+#: plugin/themeless/rules/single/post-types.php:12
+msgid "Single"
+msgstr "Soltero"
+
+#: plugin/themeless/rules/single/post-types.php:15
+msgid "All Singles"
+msgstr "Todos los solteros"
+
+#: plugin/themeless/rules/single/post-types.php:61
+msgid "Front Page"
+msgstr "Página delantera"
+
+#: plugin/themeless/rules/woocommerce/cart-quantity.php:10
+msgid "Cart Quantity"
+msgstr "Cantidad del carrito"
+
+#: plugin/themeless/rules/woocommerce/cart-quantity.php:11
+#: plugin/themeless/rules/woocommerce/cart-value.php:12
+#: plugin/themeless/rules/woocommerce/cart-weight.php:12
+#: plugin/themeless/rules/woocommerce/product-cart.php:10
+msgid "Cart"
+msgstr "Carro"
+
+#. translators: %s is the currency symbol
+#: plugin/themeless/rules/woocommerce/cart-value.php:11
+#, php-format
+msgid "Cart Value (%s)"
+msgstr "Valor del carrito (%s)"
+
+#. translators: %s is the weight unit
+#: plugin/themeless/rules/woocommerce/cart-weight.php:11
+#, php-format
+msgid "Cart Weight (%s)"
+msgstr "Peso del carrito (%s)"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:10
+msgid "Order Count"
+msgstr "Recuento de pedidos"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:11
+#: plugin/themeless/rules/woocommerce/customer-orders.php:54
+#: plugin/themeless/rules/woocommerce/customer-orders.php:96
+msgid "Customer"
+msgstr "Cliente"
+
+#. translators: %s is the currency symbol
+#: plugin/themeless/rules/woocommerce/customer-orders.php:53
+#, php-format
+msgid "Total Spend (%s)"
+msgstr "Gasto total (%s)"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:95
+msgid "Purchased Product"
+msgstr "Producto comprado"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:102
+msgid "Current Product"
+msgstr "Producto actual"
+
+#: plugin/themeless/rules/woocommerce/customer-orders.php:108
+msgid "Products"
+msgstr "Productos"
+
+#: plugin/themeless/rules/woocommerce/product-cart.php:19
+msgid "in cart"
+msgstr "en carro"
+
+#: plugin/themeless/rules/woocommerce/product-cart.php:20
+msgid "not in cart"
+msgstr "no en el carrito"
+
+#: plugin/themeless/rules/woocommerce/product-categories.php:13
+#: plugin/wpwidgets/stock/stock.php:64 plugin/wpwidgets/stock/stock.php:142
+msgid "Categories"
+msgstr "Categorías"
+
+#: plugin/themeless/rules/woocommerce/product-categories.php:25
+#: plugin/woocommerce/widgets/woo_general.php:54
+msgid "Product Categories"
+msgstr "Categorías de productos"
+
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:10
+msgid "Downloadable"
+msgstr "Descargable"
+
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:19
+msgid "downloadable"
+msgstr "descargable"
+
+#: plugin/themeless/rules/woocommerce/product-downloadable.php:20
+msgid "not downloadable"
+msgstr "no descargable"
+
+#. translators: %s is the dimension unit
+#: plugin/themeless/rules/woocommerce/product-measurements.php:11
+#, php-format
+msgid "Width (%s)"
+msgstr "Ancho (%s)"
+
+#: plugin/themeless/rules/woocommerce/product-measurements.php:12
+#: plugin/themeless/rules/woocommerce/product-measurements.php:74
+#: plugin/themeless/rules/woocommerce/product-measurements.php:136
+#: plugin/themeless/rules/woocommerce/product-measurements.php:198
+msgid "Measurements"
+msgstr "Medidas"
+
+#. translators: %s is the dimension unit
+#: plugin/themeless/rules/woocommerce/product-measurements.php:73
+#, php-format
+msgid "Height (%s)"
+msgstr "Altura (%s)"
+
+#. translators: %s is the dimension unit
+#: plugin/themeless/rules/woocommerce/product-measurements.php:135
+#, php-format
+msgid "Length (%s)"
+msgstr "Longitud (%s)"
+
+#. translators: %s is the weight unit
+#: plugin/themeless/rules/woocommerce/product-measurements.php:197
+#, php-format
+msgid "Weight (%s)"
+msgstr "Peso (%s)"
+
+#. translators: %s is the currency symbol
+#: plugin/themeless/rules/woocommerce/product-price.php:11
+#, php-format
+msgid "Price (%s)"
+msgstr "Precio (%s)"
+
+#: plugin/themeless/rules/woocommerce/product-price.php:12
+#: plugin/themeless/rules/woocommerce/product-sale.php:11
+#: plugin/themeless/rules/woocommerce/product-tax.php:12
+#: plugin/themeless/rules/woocommerce/product-tax.php:68
+msgid "Price"
+msgstr "Precio"
+
+#: plugin/themeless/rules/woocommerce/product-sale.php:10
+msgid "On Sale"
+msgstr "En venta"
+
+#: plugin/themeless/rules/woocommerce/product-sale.php:19
+msgid "on sale"
+msgstr "en venta"
+
+#: plugin/themeless/rules/woocommerce/product-sale.php:20
+msgid "not on sale"
+msgstr "no en venta"
+
+#: plugin/themeless/rules/woocommerce/product-shipping.php:13
+msgid "Shipping Class"
+msgstr "Clase de envío"
+
+#: plugin/themeless/rules/woocommerce/product-shipping.php:25
+msgid "Shipping Classes"
+msgstr "Clases de envío"
+
+#: plugin/themeless/rules/woocommerce/product-tags.php:13
+#: plugin/themeless/rules/woocommerce/product-tags.php:26
+#: plugin/wpwidgets/stock/stock.php:143
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:11
+msgid "Tax Status"
+msgstr "Estado fiscal"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:18
+msgid "Taxable"
+msgstr "Imponible"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:19
+msgid "Shipping only"
+msgstr "Sólo envío"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:20
+msgid "None"
+msgstr "Ninguno"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:67
+msgid "Tax Class"
+msgstr "Clase de impuesto"
+
+#: plugin/themeless/rules/woocommerce/product-tax.php:78
+msgid "Class"
+msgstr "Clase"
+
+#: plugin/themeless/rules/woocommerce/product-virtual.php:10
+msgid "Virtual"
+msgstr "Virtual"
+
+#: plugin/themeless/rules/woocommerce/product-virtual.php:19
+msgid "virtual"
+msgstr "virtual"
+
+#: plugin/themeless/rules/woocommerce/product-virtual.php:20
+msgid "not virtual"
+msgstr "no virtual"
+
+#: plugin/themeless/rules/woocommerce/stock-quantity.php:10
+msgid "Stock quantity"
+msgstr "Cantidad de existencias"
+
+#: plugin/themeless/rules/woocommerce/stock-quantity.php:11
+#: plugin/themeless/rules/woocommerce/stock-status.php:12
+msgid "Inventory"
+msgstr "Inventario"
+
+#: plugin/themeless/rules/woocommerce/stock-status.php:11
+msgid "Stock status"
+msgstr "Estado del stock"
+
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:57
+msgid "WordPress Theme System"
+msgstr "Sistema de temas de WordPress"
+
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:71
+msgid ""
+"Your theme's header, footer, and templates will be used unless they are "
+"explicitly overridden in Breakdance. Your theme's styles may affect the "
+"design of Breakdance elements."
+msgstr ""
+"Se utilizarán el encabezado, el pie de página y las plantillas de tu tema a "
+"menos que se anulen explícitamente en Breakdance. Los estilos de tu tema "
+"pueden afectar el diseño de los elementos de Breakdance."
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag
+#: plugin/themeless/theme-disabler/theme-disabler-settings-tab.php:76
+#, php-format
+msgid ""
+"Need help choosing a theme? Use %1$sBreakdance Zero Theme%2$s, a completely "
+"blank theme designed for Breakdance with support for child themes, "
+"overriding plugin templates, and functions.php."
+msgstr ""
+"¿Necesitas ayuda para elegir un tema? Utilice %1$sBreakdance Zero Theme "
+"%2$s, un tema completamente en blanco diseñado para Breakdance con soporte "
+"para temas secundarios, anulando plantillas de complementos y funciones.php."
+
+#: plugin/themeless/theme-disabler/theme-disabler.php:21
+msgid ""
+"You're using Oxygen, so the WordPress theme system is entirely disabled. "
+"<strong>The active theme will never be loaded and has no impact on your "
+"site's performance or appearance.</strong>"
+msgstr ""
+"Estás usando Oxygen, por lo que el sistema de temas de WordPress está "
+"completamente deshabilitado.<strong>El tema activo nunca se cargará y no "
+"tiene ningún impacto en el rendimiento o la apariencia de su sitio.</strong>"
+
+#. translators: 1: Opening <a> tag, 2: Closing </a> tag
+#: plugin/themeless/theme-disabler/theme-disabler.php:24
+#, php-format
+msgid ""
+"You disabled the WordPress theme system entirely at %1$sBreakdance &raquo; "
+"Settings &raquo; Theme%2$s. The active theme will never be loaded and has no"
+" impact on your site's performance or appearance."
+msgstr ""
+"Desactivaste el sistema de temas de WordPress por completo en "
+"%1$sBreakdance&raquo;Configuración&raquo;Tema %2$s. El tema activo nunca se "
+"cargará y no tiene ningún impacto en el rendimiento o la apariencia de su "
+"sitio."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:67
+msgid "Please resave your permalinks."
+msgstr "Vuelva a guardar sus enlaces permanentes."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:68
+msgid "The builder encountered a 404 error while loading the document."
+msgstr "El constructor encontró un error 404 al cargar el documento."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:69
+msgid "Instructions to Fix:"
+msgstr "Instrucciones para arreglar:"
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:72
+msgid "Go to Settings → Permalinks"
+msgstr "Vaya a Configuración → Enlaces permanentes"
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:76
+msgid "Click <em>Save Changes</em> at the bottom."
+msgstr "Haga clic en<em>Guardar cambios</em>en la parte inferior."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:78
+msgid "Return to this screen and refresh."
+msgstr "Regrese a esta pantalla y actualice."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:80
+msgid "Auto Fix Permalinks"
+msgstr "Enlaces permanentes de reparación automática"
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:104
+msgid "Fixed! Refreshing..."
+msgstr "¡Fijado! Refrescante..."
+
+#: plugin/themeless/theme-simulator/broken-permalinks-warning.php:108
+msgid "There was a problem, please try again."
+msgstr "Hubo un problema, por favor inténtalo de nuevo."
+
+#: plugin/themeless/theme-simulator/maintenance-mode.php:32
+msgid "Coming Soon"
+msgstr "Muy pronto"
+
+#: plugin/themeless/theme-simulator/maintenance-mode.php:45
+msgid "Down for maintenance."
+msgstr "Baja por mantenimiento."
+
+#: plugin/util/bdox.php:43
+msgid "Global Block"
+msgstr "Bloque global"
+
+#: plugin/util/bdox.php:71
+msgid "Components"
+msgstr "Componentes"
+
+#: plugin/util/bdox.php:72
+msgid "Component"
+msgstr "Componente"
+
+#: plugin/variables/controls.php:18 plugin/variables/controls.php:20
+msgid "Override Variables"
+msgstr "Anular variables"
+
+#: plugin/woocommerce/settings/settings-tab.php:50
+msgid "Breakdance WooCommerce Styles"
+msgstr "Estilos de WooCommerce de breakdance"
+
+#: plugin/woocommerce/settings/settings-tab.php:67
+msgid "Breakdance's WooCommerce elements will not work correctly."
+msgstr "Los elementos WooCommerce de Breakdance no funcionarán correctamente."
+
+#: plugin/woocommerce/settings/settings-tab.php:71
+msgid ""
+"WooCommerce styles will come from the WooCommerce plugin's default "
+"stylesheet, or your theme if you are using one that supports WooCommerce. "
+"The styles can be created manually as well."
+msgstr ""
+"Los estilos de WooCommerce provendrán de la hoja de estilos predeterminada "
+"del complemento WooCommerce o de su tema si está utilizando uno que admita "
+"WooCommerce. Los estilos también se pueden crear manualmente."
+
+#: plugin/woocommerce/settings/settings-tab.php:87
+msgid "The theme system is disabled. Breakdance will style WooCommerce."
+msgstr ""
+"El sistema de temas está deshabilitado. Breakdance le dará estilo a "
+"WooCommerce."
+
+#. translators: %1$s: theme name
+#: plugin/woocommerce/settings/settings-tab.php:93
+#, php-format
+msgid ""
+"You are using the \"%1$s\" theme with a child theme, Breakdance will style "
+"WooCommerce."
+msgstr ""
+"Estás utilizando el tema \"%1$s\" con un tema secundario, Breakdance "
+"diseñará WooCommerce."
+
+#. translators: %1$s: theme name
+#: plugin/woocommerce/settings/settings-tab.php:96
+#, php-format
+msgid "You are using the \"%1$s\" theme, Breakdance will style WooCommerce."
+msgstr "Estás utilizando el tema \"%1$s\", Breakdance diseñará WooCommerce."
+
+#. translators: %1$s is the theme name
+#: plugin/woocommerce/settings/settings-tab.php:104
+#, php-format
+msgid ""
+"You are using the \"%1$s\" theme with a child theme which is recognized by "
+"Breakdance. Breakdance has disabled its WooCommerce-specific CSS. However, "
+"if the theme has made changes to WooCommerce's default HTML structure, some "
+"of the Breakdance WooCommerce elements' styles and options may not work "
+"correctly."
+msgstr ""
+"Estás utilizando el tema \"%1$s\" con un tema secundario reconocido por "
+"Breakdance. Breakdance ha desactivado su CSS específico de WooCommerce. Sin "
+"embargo, si el tema ha realizado cambios en la estructura HTML "
+"predeterminada de WooCommerce, es posible que algunos de los estilos y "
+"opciones de los elementos de Breakdance WooCommerce no funcionen "
+"correctamente."
+
+#. translators: %1$s is the theme name
+#: plugin/woocommerce/settings/settings-tab.php:107
+#, php-format
+msgid ""
+"You are using the \"%1$s\" theme which is recognized by Breakdance. "
+"Breakdance has disabled its WooCommerce-specific CSS. However, if the theme "
+"has made changes to WooCommerce's default HTML structure, some of the "
+"Breakdance WooCommerce elements' styles and options may not work correctly."
+msgstr ""
+"Estás utilizando el tema \"%1$s\" reconocido por Breakdance. Breakdance ha "
+"desactivado su CSS específico de WooCommerce. Sin embargo, si el tema ha "
+"realizado cambios en la estructura HTML predeterminada de WooCommerce, es "
+"posible que algunos de los estilos y opciones de los elementos de Breakdance"
+" WooCommerce no funcionen correctamente."
+
+#. translators: %s is the theme name
+#: plugin/woocommerce/settings/settings-tab.php:113
+#, php-format
+msgid ""
+"The current theme \"%s\" isn't recognized. If your theme has WooCommerce "
+"styles, they can interfere with the Breakdance WooCommerce styles and some "
+"of the Breakdance WooCommerce elements' styles and options may not work "
+"correctly."
+msgstr ""
+"No se reconoce el tema actual \"%s\". Si su tema tiene estilos de "
+"WooCommerce, pueden interferir con los estilos de Breakdance WooCommerce y "
+"es posible que algunos de los estilos y opciones de los elementos de "
+"Breakdance WooCommerce no funcionen correctamente."
+
+#: plugin/woocommerce/settings/settings-tab.php:118
+msgid "Theme WooCommerce Styles"
+msgstr "Estilos de tema WooCommerce"
+
+#. translators: %1$s is the element label, %2$s is the WooCommerce page label
+#: plugin/woocommerce/utils.php:14
+#, php-format
+msgid ""
+"The <b>\"%1$s\"</b> element can only be added to the <b>WooCommerce %2$s "
+"Page</b>."
+msgstr ""
+"El elemento<b>\"%1$s\"</b>solo se puede agregar a la página<b>WooCommerce "
+"%2$s </b>."
+
+#. translators: %s is the WooCommerce page label
+#: plugin/woocommerce/utils.php:16
+#, php-format
+msgid ""
+"Set the <b>WooCommerce %s Page</b> in the WP admin at <b>WooCommerce &gt; "
+"Settings &gt; Advanced &gt; Page Setup</b>."
+msgstr ""
+"Configure la página<b>WooCommerce %s </b>en el administrador de WP "
+"en<b>Configuración de WooCommerce&gt;&gt;Avanzada&gt;Configuración de "
+"página</b>."
+
+#. translators: %s is the WooCommerce page label
+#: plugin/woocommerce/utils.php:20
+#, php-format
+msgid "No page has been set as the <b>WooCommerce %s Page</b>."
+msgstr "No se ha configurado ninguna página como<b>WooCommerce %s Página</b>."
+
+#. translators: %1$s is the WooCommerce page label, %2$s is the page title,
+#. %3$d is the page ID
+#: plugin/woocommerce/utils.php:36
+#, php-format
+msgid ""
+"The <b>WooCommerce %1$s Page</b> is currently set to <b>%2$s (ID: %3$d)</b>."
+msgstr ""
+"La página<b>WooCommerce %1$s </b>está actualmente configurada en<b>%2$s (ID:"
+" %3$d)</b>."
+
+#: plugin/woocommerce/widgets/woo_filters.php:22
+msgid "Active Filters"
+msgstr "Filtros activos"
+
+#: plugin/woocommerce/widgets/woo_filters.php:28
+#: plugin/woocommerce/widgets/woo_filters.php:44
+#: plugin/woocommerce/widgets/woo_filters.php:61
+#: plugin/woocommerce/widgets/woo_filters.php:77
+#: plugin/woocommerce/widgets/woo_general.php:25
+#: plugin/woocommerce/widgets/woo_general.php:46
+#: plugin/woocommerce/widgets/woo_general.php:60
+#: plugin/woocommerce/widgets/woo_general.php:160
+#: plugin/wpwidgets/stock/stock.php:26 plugin/wpwidgets/stock/stock.php:46
+#: plugin/wpwidgets/stock/stock.php:70 plugin/wpwidgets/stock/stock.php:99
+#: plugin/wpwidgets/stock/stock.php:113 plugin/wpwidgets/stock/stock.php:132
+#: plugin/wpwidgets/stock/stock.php:169 plugin/wpwidgets/stock/stock.php:209
+#: plugin/wpwidgets/stock/stock.php:234
+msgid "Title"
+msgstr "Título"
+
+#: plugin/woocommerce/widgets/woo_filters.php:38
+msgid "Price Filter"
+msgstr "Filtro de precios"
+
+#: plugin/woocommerce/widgets/woo_filters.php:55
+msgid "Rating Filter"
+msgstr "Filtro de calificación"
+
+#: plugin/woocommerce/widgets/woo_filters.php:71
+msgid "Filter By Attribute"
+msgstr "Filtrar por atributo"
+
+#: plugin/woocommerce/widgets/woo_filters.php:90
+msgid "Display Type"
+msgstr "Tipo de pantalla"
+
+#: plugin/woocommerce/widgets/woo_filters.php:92
+msgid "list"
+msgstr "lista"
+
+#: plugin/woocommerce/widgets/woo_filters.php:93
+msgid "dropdown"
+msgstr "menú desplegable"
+
+#: plugin/woocommerce/widgets/woo_filters.php:98
+msgid "Query Type"
+msgstr "Tipo de consulta"
+
+#: plugin/woocommerce/widgets/woo_filters.php:100
+msgid "and"
+msgstr "y"
+
+#: plugin/woocommerce/widgets/woo_filters.php:101
+msgid "or"
+msgstr "o"
+
+#: plugin/woocommerce/widgets/woo_filters.php:114
+msgid "Shop Filters"
+msgstr "Comprar filtros"
+
+#: plugin/woocommerce/widgets/woo_filters.php:116
+msgid "Widgets"
+msgstr "widgets"
+
+#: plugin/woocommerce/widgets/woo_filters.php:121
+#: plugin/woocommerce/widgets/woo_general.php:229
+#: plugin/wpwidgets/stock/stock.php:265
+msgid "Widget"
+msgstr "widget"
+
+#: plugin/woocommerce/widgets/woo_general.php:19
+msgid "Products By Rating List"
+msgstr "Lista de productos por clasificación"
+
+#: plugin/woocommerce/widgets/woo_general.php:30
+msgid "Number of products"
+msgstr "Número de productos"
+
+#: plugin/woocommerce/widgets/woo_general.php:40
+msgid "Product Search"
+msgstr "Búsqueda de productos"
+
+#: plugin/woocommerce/widgets/woo_general.php:65
+msgid "Order by"
+msgstr "Ordenar por"
+
+#: plugin/woocommerce/widgets/woo_general.php:69
+msgid "Category order"
+msgstr "Orden de categoría"
+
+#: plugin/woocommerce/widgets/woo_general.php:76
+msgid "Show as dropdown"
+msgstr "Mostrar como menú desplegable"
+
+#: plugin/woocommerce/widgets/woo_general.php:83
+msgid "Show product counts"
+msgstr "Mostrar recuentos de productos"
+
+#: plugin/woocommerce/widgets/woo_general.php:90
+#: plugin/wpwidgets/stock/stock.php:80
+msgid "Show hierarchy"
+msgstr "Mostrar jerarquía"
+
+#: plugin/woocommerce/widgets/woo_general.php:97
+msgid "Only show children"
+msgstr "Mostrar solo niños"
+
+#: plugin/woocommerce/widgets/woo_general.php:104
+msgid "Hide empty categories"
+msgstr "Ocultar categorías vacías"
+
+#: plugin/woocommerce/widgets/woo_general.php:111
+msgid "Maximum depth"
+msgstr "Profundidad máxima"
+
+#: plugin/woocommerce/widgets/woo_general.php:154
+msgid "Recent Reviews"
+msgstr "Reseñas recientes"
+
+#: plugin/woocommerce/widgets/woo_general.php:165
+msgid "Number"
+msgstr "Número"
+
+#: plugin/woocommerce/widgets/woo_general.php:224
+msgid "Woo Widget"
+msgstr "Widget de cortejo"
+
+#: plugin/wp-query-control/util.php:16
+msgid "Pagination with Custom Queries in Archives isn't supported"
+msgstr "No se admite la paginación con consultas personalizadas en archivos"
+
+#: plugin/wpwidgets/stock/stock.php:40
+msgid "Archives"
+msgstr "Archivo"
+
+#: plugin/wpwidgets/stock/stock.php:51 plugin/wpwidgets/stock/stock.php:75
+msgid "Display as dropdown"
+msgstr "Mostrar como menú desplegable"
+
+#: plugin/wpwidgets/stock/stock.php:56 plugin/wpwidgets/stock/stock.php:85
+msgid "Show post count"
+msgstr "Mostrar recuento de publicaciones"
+
+#: plugin/wpwidgets/stock/stock.php:93
+msgid "Calendar"
+msgstr "Calendario"
+
+#: plugin/wpwidgets/stock/stock.php:107
+msgid "Recent Comments"
+msgstr "Comentarios recientes"
+
+#: plugin/wpwidgets/stock/stock.php:118
+msgid "Number of comments to show"
+msgstr "Número de comentarios a mostrar"
+
+#: plugin/wpwidgets/stock/stock.php:126
+msgid "Tag Cloud"
+msgstr "Nube de etiquetas"
+
+#: plugin/wpwidgets/stock/stock.php:144
+msgid "Link Categories"
+msgstr "Categorías de enlaces"
+
+#: plugin/wpwidgets/stock/stock.php:150
+msgid "Show tag count"
+msgstr "Mostrar recuento de etiquetas"
+
+#: plugin/wpwidgets/stock/stock.php:158
+msgid "RSS"
+msgstr "RSS"
+
+#: plugin/wpwidgets/stock/stock.php:164
+msgid "URL"
+msgstr "URL"
+
+#: plugin/wpwidgets/stock/stock.php:174
+msgid "Items"
+msgstr "Elementos"
+
+#: plugin/wpwidgets/stock/stock.php:185
+msgid "Display item content"
+msgstr "Mostrar contenido del artículo"
+
+#: plugin/wpwidgets/stock/stock.php:190
+msgid "Display item author"
+msgstr "Mostrar autor del elemento"
+
+#: plugin/wpwidgets/stock/stock.php:195
+msgid "Display item date"
+msgstr "Mostrar fecha del artículo"
+
+#: plugin/wpwidgets/stock/stock.php:203
+msgid "Recent Posts"
+msgstr "Publicaciones recientes"
+
+#: plugin/wpwidgets/stock/stock.php:214
+msgid "Number of posts to show"
+msgstr "Número de publicaciones para mostrar"
+
+#: plugin/wpwidgets/stock/stock.php:219
+msgid "Show date"
+msgstr "Mostrar fecha"
+
+#: plugin/wpwidgets/stock/stock.php:228
+msgid "Pages"
+msgstr "paginas"
+
+#: plugin/wpwidgets/stock/stock.php:239
+msgid "Sort by"
+msgstr "Ordenar por"
+
+#: plugin/wpwidgets/stock/stock.php:244
+msgid "Exclude"
+msgstr "Excluir"
+
+#: plugin/wpwidgets/stock/stock.php:246
+msgid "Page Title"
+msgstr "Título de la página"
+
+#: plugin/wpwidgets/stock/stock.php:247
+msgid "Page Order"
+msgstr "Orden de páginas"
+
+#: plugin/wpwidgets/stock/stock.php:248
+msgid "Page ID"
+msgstr "ID de página"
+
+#: plugin/wpwidgets/stock/stock.php:260
+msgid "WP Widget"
+msgstr "Widget de WordPress"

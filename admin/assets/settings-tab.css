@@ -1,0 +1,211 @@
+#breakdance-languages-locale-progress {
+    margin-top: 12px;
+    max-width: 520px;
+}
+
+.breakdance-languages-locale-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 520px;
+}
+
+.breakdance-languages-locale-row select {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+}
+
+#breakdance-languages-locale-progress[hidden],
+#breakdance-languages-wp-language-pack-progress[hidden] {
+    display: none !important;
+}
+
+#breakdance-languages-wp-language-pack-progress {
+    margin-top: 12px;
+    max-width: 420px;
+}
+
+.bdl-gemini-loader {
+    position: relative;
+    height: 4px;
+    border-radius: 999px;
+    overflow: hidden;
+    background: #e8eaed;
+}
+
+.bdl-gemini-loader__bar {
+    position: absolute;
+    top: 0;
+    inset-inline-start: 0;
+    height: 100%;
+    width: 45%;
+    border-radius: 999px;
+    background: linear-gradient(
+        90deg,
+        #4285f4 0%,
+        #9b72cb 25%,
+        #d96570 50%,
+        #f4a442 75%,
+        #4285f4 100%
+    );
+    background-size: 200% 100%;
+    animation:
+        bdl-gemini-slide 1.15s ease-in-out infinite,
+        bdl-gemini-shimmer 2.4s linear infinite;
+}
+
+.bdl-gemini-loader__bar--determinate {
+    width: 0%;
+    animation: none;
+    transition: width 0.35s ease;
+}
+
+.bdl-gemini-loader__label {
+    margin: 8px 0 0;
+    color: #5f6368;
+    font-size: 13px;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    text-align: start;
+}
+
+.bdl-gemini-loader__percent {
+    flex: 0 0 auto;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    color: #1a73e8;
+}
+
+#breakdance-languages-save-status.is-success {
+    color: #1e7e34;
+}
+
+#breakdance-languages-save-status.is-error {
+    color: #b32d2e;
+}
+
+#breakdance-languages-force-reload {
+    display: none;
+    flex: 0 0 auto;
+    white-space: nowrap;
+}
+
+#breakdance-languages-force-reload.is-visible {
+    display: inline-block;
+    animation: bdl-reload-in 0.35s ease-out;
+}
+
+@keyframes bdl-gemini-slide {
+    0% {
+        transform: translateX(-110%);
+    }
+
+    100% {
+        transform: translateX(320%);
+    }
+}
+
+@keyframes bdl-gemini-shimmer {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 200% 50%;
+    }
+}
+
+@keyframes bdl-reload-in {
+    from {
+        opacity: 0;
+        transform: translateY(4px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+html[dir="rtl"] .bdl-gemini-loader__bar,
+.bdl-rtl-locale .bdl-gemini-loader__bar {
+    animation-name: bdl-gemini-slide-rtl, bdl-gemini-shimmer;
+}
+
+@keyframes bdl-gemini-slide-rtl {
+    0% {
+        transform: translateX(110%);
+    }
+
+    100% {
+        transform: translateX(-320%);
+    }
+}
+
+.breakdance-languages-settings,
+.breakdance-languages-settings .form-table th {
+    text-align: start;
+}
+
+#breakdance_languages_builder_locale.is-saving {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.breakdance-languages-settings .form-table {
+    max-width: 680px;
+}
+
+#breakdance-languages-profile-notice {
+    margin-top: 24px;
+    max-width: 680px;
+}
+
+.breakdance-languages-profile-card {
+    margin-top: 24px;
+    max-width: 680px;
+    padding: 1px 12px;
+    border: 1px solid #c3c4c7;
+    border-inline-start-width: 4px;
+    border-inline-start-color: #72aee6;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.breakdance-languages-profile-card.is-warning {
+    border-inline-start-color: #dba617;
+}
+
+.breakdance-languages-profile-card p {
+    margin: 12px 0;
+    text-align: start;
+}
+
+.breakdance-languages-profile-card p.description {
+    margin-top: 0;
+    color: #646970;
+}
+
+.breakdance-languages-license-card.is-dev .breakdance-languages-license-status-label,
+.breakdance-languages-license-card.is-sandbox .breakdance-languages-license-environment-label {
+    color: #996800;
+}
+
+.breakdance-languages-wp-language-pack {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #dcdcde;
+}
+
+.breakdance-languages-wp-language-pack-actions {
+    margin: 8px 0 0;
+}
+
+.breakdance-languages-license-actions__sep {
+    margin: 0 6px;
+    color: #646970;
+}

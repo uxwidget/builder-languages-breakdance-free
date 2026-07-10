@@ -1,0 +1,3874 @@
+{
+  "translation-revision-date": "2026-07-08 22:11:-0300",
+  "generator": "Breakdance Languages",
+  "domain": "breakdance",
+  "locale_data": {
+    "breakdance": {
+      "": {
+        "domain": "breakdance",
+        "lang": "ja-JP",
+        "plural-forms": "nplurals=1; plural=0;"
+      },
+      ".my-cool-class": [
+        ".my-cool-class"
+      ],
+      ".your.css > #selector-69::after": [
+        ".your.css > #selector-69::after"
+      ],
+      "\"%s\" is not a valid class name.": [
+        "「%s」は有効なクラス名ではありません。"
+      ],
+      "\"%s\" is not a valid CSS selector.": [
+        "「%s」は有効な CSS セレクターではありません。"
+      ],
+      "(AND) %s for '{path}'": [
+        "（AND）'{path}' の %s"
+      ],
+      "(Draft)": [
+        "（下書き）"
+      ],
+      "(empty)": [
+        "（空の）"
+      ],
+      "(Empty)": [
+        "（空の）"
+      ],
+      "(no name)": [
+        "(名前なし)"
+      ],
+      "(no title)": [
+        "(タイトルなし)"
+      ],
+      "(the returned value is trimmed for spaces and newlines)": [
+        "(戻り値のスペースと改行は切り取られます)"
+      ],
+      "%s - Error Code %s": [
+        "%s - エラーコード %s"
+      ],
+      "%s #%s": [
+        "%s #%s"
+      ],
+      "%s are also available.": [
+        "%s も使用できます。"
+      ],
+      "%s couldn't be found": [
+        "%s が見つかりませんでした"
+      ],
+      "%s Editor": [
+        "%s 編集者"
+      ],
+      "%s Element": [
+        "%s 要素"
+      ],
+      "%s failed": [
+        "%s は失敗しました"
+      ],
+      "%s Field in": [
+        "%s フィールド"
+      ],
+      "%s generated an email you can send to your web host for help:": [
+        "%s が電子メールを生成しました。Web ホストに送信して助けを求めることができます:"
+      ],
+      "%s is already present on the element.": [
+        "%s は要素上にすでに存在します。"
+      ],
+      "%s is already present.": [
+        "%s はすでに存在します。"
+      ],
+      "%s is not a valid CSS class name.": [
+        "%s は有効な CSS クラス名ではありません。"
+      ],
+      "%s is not a valid CSS selector.": [
+        "%s は有効な CSS セレクターではありません。"
+      ],
+      "%s not present. Set it in the %s.": [
+        "%s が存在しません。 %sに設定してください。"
+      ],
+      "%s on page": [
+        "ページ上の %s"
+      ],
+      "%s Options": [
+        "%s オプション"
+      ],
+      "%s selectors imported. %s existing selectors were kept.": [
+        "%s セレクターがインポートされました。 %s の既存のセレクターが保持されました。"
+      ],
+      "%s selectors imported. All existing selectors were replaced.": [
+        "%s セレクターがインポートされました。既存のセレクターはすべて置き換えられました。"
+      ],
+      "%s Settings, and also import all Pages, Posts, and Templates from the design set.": [
+        "%s 設定、およびデザイン セットからすべてのページ、投稿、およびテンプレートもインポートします。"
+      ],
+      "%s variables imported. %s existing variables were kept.": [
+        "%s 変数がインポートされました。 %s の既存の変数は保持されました。"
+      ],
+      "%s was not saved": [
+        "%s は保存されませんでした"
+      ],
+      "%s was not saved, or it was saved but the value is invalid": [
+        "%s は保存されていないか、保存されましたが値が無効です"
+      ],
+      "%s. Set it in the %s.": [
+        "%s。 %sに設定してください。"
+      ],
+      "%spx and above": [
+        "%spx以上"
+      ],
+      "%spx and below": [
+        "%spx以下"
+      ],
+      "⚠️ (deleted)": [
+        "⚠️ (削除されました)"
+      ],
+      "⚠️ Could not generate content, please try again.": [
+        "⚠️ コンテンツを生成できませんでした。もう一度お試しください。"
+      ],
+      "👋 Do you want to start with a template?": [
+        "👋 テンプレートから始めてみませんか?"
+      ],
+      "404 Not Found": [
+        "404 見つかりません"
+      ],
+      "A %s with the title \"%s\" already exists. Please select another title.": [
+        "タイトル「 %s 」の %s はすでに存在します。別のタイトルを選択してください。"
+      ],
+      "A 403 error is almost caused by your host, firewall, or CDN blocking the request": [
+        "403 エラーは、ホスト、ファイアウォール、または CDN がリクエストをブロックしていることが原因で発生することがほとんどです"
+      ],
+      "A 500 error is usually a server issue and must be resolved by your web hosting provider or server administrator. It can also be caused by a broken plugin.": [
+        "500 エラーは通常サーバーの問題であり、Web ホスティング プロバイダーまたはサーバー管理者が解決する必要があります。壊れたプラグインが原因である可能性もあります。"
+      ],
+      "A preset is currently selected for this element.": [
+        "この要素には現在プリセットが選択されています。"
+      ],
+      "A weight is required": [
+        "重みが必要です"
+      ],
+      "Accepted File Types": [
+        "受け入れられるファイルの種類"
+      ],
+      "Accepts:": [
+        "受け入れます:"
+      ],
+      "ACF": [
+        "ACF"
+      ],
+      "ACF Flexible Content": [
+        "ACF フレキシブル コンテンツ"
+      ],
+      "ACF Relationship": [
+        "ACFとの関係"
+      ],
+      "Action": [
+        "アクション"
+      ],
+      "Action will only run for the specified path.": [
+        "アクションは指定されたパスに対してのみ実行されます。"
+      ],
+      "Action will only run if element being moved is of that type, OR if the element was moved onto an element with that type.": [
+        "アクションは、移動される要素がそのタイプである場合、または要素がそのタイプの要素上に移動された場合にのみ実行されます。"
+      ],
+      "Action will only run if the deleted element was inside a Section element.": [
+        "アクションは、削除された要素が Section 要素内にあった場合にのみ実行されます。"
+      ],
+      "Action will run for any control below 'background'.": [
+        "アクションは、「背景」の下にあるコントロールに対して実行されます。"
+      ],
+      "Actions": [
+        "アクション"
+      ],
+      "Active": [
+        "アクティブ"
+      ],
+      "Add": [
+        "追加"
+      ],
+      "Add a font family to %s's font family dropdowns, and optionally upload associated .woff/.woff2 files.": [
+        "%s のフォント ファミリ ドロップダウンにフォント ファミリを追加し、必要に応じて、関連する .woff/.woff2 ファイルをアップロードします。"
+      ],
+      "Add a link": [
+        "リンクを追加する"
+      ],
+      "Add Action": [
+        "アクションの追加"
+      ],
+      "Add an element to your page and it will show up here.": [
+        "ページに要素を追加すると、ここに表示されます。"
+      ],
+      "Add an element to your page or click an existing element to edit it.": [
+        "ページに要素を追加するか、既存の要素をクリックして編集します。"
+      ],
+      "Add Breakpoint": [
+        "ブレークポイントの追加"
+      ],
+      "Add Class": [
+        "クラスの追加"
+      ],
+      "Add Collection": [
+        "コレクションの追加"
+      ],
+      "Add Condition": [
+        "条件の追加"
+      ],
+      "Add Control": [
+        "コントロールの追加"
+      ],
+      "Add Control Section": [
+        "コントロールセクションの追加"
+      ],
+      "Add CSS URL": [
+        "CSS URLを追加"
+      ],
+      "Add Custom Template": [
+        "カスタムテンプレートの追加"
+      ],
+      "Add dependency": [
+        "依存関係を追加する"
+      ],
+      "Add Element": [
+        "要素の追加"
+      ],
+      "Add External CSS": [
+        "外部CSSを追加する"
+      ],
+      "Add Font": [
+        "フォントの追加"
+      ],
+      "Add Footer": [
+        "フッターの追加"
+      ],
+      "Add Header": [
+        "ヘッダーの追加"
+      ],
+      "Add Interaction": [
+        "インタラクションの追加"
+      ],
+      "Add Item": [
+        "アイテムの追加"
+      ],
+      "Add Macro": [
+        "マクロの追加"
+      ],
+      "Add Media": [
+        "メディアの追加"
+      ],
+      "Add new": [
+        "新規追加"
+      ],
+      "Add new (AND) %s": [
+        "新しい (AND) %s を追加"
+      ],
+      "Add New Breakpoint": [
+        "新しいブレークポイントを追加"
+      ],
+      "Add new collection": [
+        "新しいコレクションを追加する"
+      ],
+      "Add new default element": [
+        "新しいデフォルト要素を追加する"
+      ],
+      "Add new Dynamic Property Path": [
+        "新しい動的プロパティ パスを追加"
+      ],
+      "Add New Font": [
+        "新しいフォントを追加"
+      ],
+      "Add new HTML attribute": [
+        "新しい HTML 属性を追加する"
+      ],
+      "Add new OR condition": [
+        "新しい OR 条件を追加する"
+      ],
+      "Add new spacing bar": [
+        "新しいスペースバーを追加"
+      ],
+      "Add panel rules": [
+        "パネルルールを追加する"
+      ],
+      "Add Popup": [
+        "ポップアップを追加"
+      ],
+      "Add Preset": [
+        "プリセットの追加"
+      ],
+      "Add script": [
+        "スクリプトの追加"
+      ],
+      "Add Section": [
+        "セクションの追加"
+      ],
+      "Add Shadow": [
+        "影を追加する"
+      ],
+      "Add some content to your site that matches the template settings.": [
+        "テンプレート設定に一致するコンテンツをサイトに追加します。"
+      ],
+      "Add Template": [
+        "テンプレートの追加"
+      ],
+      "Add Typography Preset": [
+        "タイポグラフィーのプリセットを追加する"
+      ],
+      "Add Variable": [
+        "変数の追加"
+      ],
+      "Add your first breakpoint by clicking the button below.": [
+        "下のボタンをクリックして、最初のブレークポイントを追加します。"
+      ],
+      "advanced": [
+        "高度な"
+      ],
+      "Advanced": [
+        "高度な"
+      ],
+      "Advanced Template Settings": [
+        "テンプレートの詳細設定"
+      ],
+      "Affected property path": [
+        "影響を受けるプロパティパス"
+      ],
+      "After Date": [
+        "日付以降"
+      ],
+      "AI Assistant": [
+        "AIアシスタント"
+      ],
+      "AI Site Creation Experience": [
+        "AIサイト制作体験"
+      ],
+      "AJAX Error": [
+        "AJAXエラー"
+      ],
+      "Ajax Handler Error": [
+        "Ajaxハンドラーエラー"
+      ],
+      "All": [
+        "全て"
+      ],
+      "All Borders": [
+        "すべての国境"
+      ],
+      "All device widths": [
+        "すべてのデバイスの幅"
+      ],
+      "All file types are allowed by default.": [
+        "デフォルトでは、すべてのファイル タイプが許可されます。"
+      ],
+      "All Icons": [
+        "すべてのアイコン"
+      ],
+      "All providers are allowed by default.": [
+        "デフォルトではすべてのプロバイダーが許可されます。"
+      ],
+      "Allow only certain file types": [
+        "特定のファイルタイプのみを許可する"
+      ],
+      "Allowed post type": [
+        "許可される投稿タイプ"
+      ],
+      "Allowed types": [
+        "許可されるタイプ"
+      ],
+      "Alternatively, you can use your keyboard shortcuts:": [
+        "または、キーボード ショートカットを使用することもできます。"
+      ],
+      "Always hide element from the Add Panel": [
+        "追加パネルから要素を常に非表示にする"
+      ],
+      "Amount": [
+        "額"
+      ],
+      "And": [
+        "そして"
+      ],
+      "AND": [
+        "そして"
+      ],
+      "Animations": [
+        "アニメーション"
+      ],
+      "API Key": [
+        "APIキー"
+      ],
+      "Applies to": [
+        "に適用されます"
+      ],
+      "Apply": [
+        "適用する"
+      ],
+      "Apply %s to...": [
+        "%s を適用..."
+      ],
+      "Apply all (=)": [
+        "すべて適用 (=)"
+      ],
+      "Apply All (=)": [
+        "すべて適用 (=)"
+      ],
+      "Apply Conditions": [
+        "条件を適用する"
+      ],
+      "Apply opposite": [
+        "逆に適用する"
+      ],
+      "Apply Query": [
+        "クエリの適用"
+      ],
+      "Are you sure you want to delete %s?": [
+        "%s を削除してもよろしいですか?"
+      ],
+      "Are you sure you want to delete the collection \"%s\"?": [
+        "コレクション「%s」を削除してもよろしいですか?"
+      ],
+      "Are you sure you want to delete the icon %s?": [
+        "アイコン %s を削除してもよろしいですか?"
+      ],
+      "Are you sure you want to delete this?": [
+        "これを削除してもよろしいですか?"
+      ],
+      "Are you sure you want to edit?": [
+        "本当に編集してもよろしいですか?"
+      ],
+      "are you sure?": [
+        "本気ですか？"
+      ],
+      "Array": [
+        "配列"
+      ],
+      "Ascending": [
+        "上昇"
+      ],
+      "Attribute": [
+        "属性"
+      ],
+      "Attribute Name": [
+        "属性名"
+      ],
+      "Attribute Value": [
+        "属性値"
+      ],
+      "Attributes": [
+        "属性"
+      ],
+      "Attributes are added to the container of the element": [
+        "要素のコンテナに属性が追加されます"
+      ],
+      "Auto-scroll to active element": [
+        "アクティブな要素まで自動スクロール"
+      ],
+      "Autofocus": [
+        "オートフォーカス"
+      ],
+      "Available In": [
+        "利用可能時期"
+      ],
+      "Available variables:": [
+        "利用可能な変数:"
+      ],
+      "Available within the action's code:": [
+        "アクションのコード内で使用できます。"
+      ],
+      "Back": [
+        "戻る"
+      ],
+      "Back to WordPress admin": [
+        "WordPress 管理者に戻る"
+      ],
+      "Background Color": [
+        "背景色"
+      ],
+      "Badge Background": [
+        "バッジの背景"
+      ],
+      "Badge Label": [
+        "バッジラベル"
+      ],
+      "Badge Text": [
+        "バッジのテキスト"
+      ],
+      "Based on the control's path.": [
+        "コントロールのパスに基づきます。"
+      ],
+      "Based on the deleted element's parent type.": [
+        "削除された要素の親タイプに基づきます。"
+      ],
+      "Based on the element's and moved-on element's type.": [
+        "要素および移動された要素のタイプに基づきます。"
+      ],
+      "Baseline": [
+        "ベースライン"
+      ],
+      "Be funny": [
+        "面白くしてください"
+      ],
+      "Be verbose": [
+        "冗長になる"
+      ],
+      "Be very concise": [
+        "非常に簡潔に"
+      ],
+      "Before Date": [
+        "日付より前"
+      ],
+      "before use.": [
+        "使用前に。"
+      ],
+      "Best Regards,": [
+        "よろしくお願いします、"
+      ],
+      "beware that the Twig code running in the action will be with the child's data, including tags": [
+        "アクション内で実行される Twig コードには、タグを含む子のデータが含まれることに注意してください。"
+      ],
+      "Big Button Bar": [
+        "ビッグボタンバー"
+      ],
+      "Blur": [
+        "ぼかし"
+      ],
+      "Body": [
+        "体"
+      ],
+      "Body:": [
+        "体："
+      ],
+      "Border Bottom": [
+        "境界線の下端"
+      ],
+      "Border Color": [
+        "枠線の色"
+      ],
+      "Border Left": [
+        "左の境界線"
+      ],
+      "Border Right": [
+        "右の境界線"
+      ],
+      "Border Top": [
+        "ボーダートップ"
+      ],
+      "Bottom": [
+        "底"
+      ],
+      "Breakdance > Templates > Edit Template": [
+        "ブレイクダンス > テンプレート > テンプレートの編集"
+      ],
+      "Breakdance Barebones": [
+        "ブレイクダンス ベアボーンズ"
+      ],
+      "Breakdance uses OpenAI's GPT-3.5 to rewrite your content. Please install the Breakdance AI plugin to use this feature.": [
+        "Breakdance は OpenAI の GPT-3.5 を使用してコンテンツを書き換えます。この機能を使用するには、Breakdance AI プラグインをインストールしてください。"
+      ],
+      "Breakpoint name, ie. iPhone X or tablet": [
+        "ブレークポイント名、すなわち。 iPhone Xまたはタブレット"
+      ],
+      "Breakpoint options": [
+        "ブレークポイントのオプション"
+      ],
+      "Breakpoints": [
+        "ブレークポイント"
+      ],
+      "browse": [
+        "ブラウズ"
+      ],
+      "browse...": [
+        "ブラウズ..."
+      ],
+      "Builder Condition (empty)": [
+        "ビルダー条件 (空)"
+      ],
+      "Builder Condition (present)": [
+        "ビルダーコンディション（現在）"
+      ],
+      "Builder Only": [
+        "ビルダーのみ"
+      ],
+      "Building your website...": [
+        "ウェブサイトを構築中..."
+      ],
+      "Business Name": [
+        "商号"
+      ],
+      "Button Name": [
+        "ボタン名"
+      ],
+      "Button Text": [
+        "ボタンのテキスト"
+      ],
+      "Buttons & Forms": [
+        "ボタンとフォーム"
+      ],
+      "Bypass Pointer Events": [
+        "ポインターイベントをバイパスする"
+      ],
+      "Call to action section on services page": [
+        "サービスページの行動喚起セクション"
+      ],
+      "Can run Twig and JS code.": [
+        "Twig と JS コードを実行できます。"
+      ],
+      "Can run Twig and PHP code.": [
+        "Twig と PHP コードを実行できます。"
+      ],
+      "Cancel": [
+        "キャンセル"
+      ],
+      "Category": [
+        "カテゴリ"
+      ],
+      "Center": [
+        "中心"
+      ],
+      "Center horizontally": [
+        "水平方向に中央揃え"
+      ],
+      "Change Icon": [
+        "アイコンの変更"
+      ],
+      "Changing the slug of an existing element will make it obsolete in all pages, everywhere. Continue anyway?": [
+        "既存の要素のスラッグを変更すると、すべてのページのどこでもその要素が廃止されます。とにかく続けますか？"
+      ],
+      "Check browser console for debug information.": [
+        "ブラウザコンソールでデバッグ情報を確認してください。"
+      ],
+      "Children of Target": [
+        "ターゲットの子供たち"
+      ],
+      "choose": [
+        "選ぶ"
+      ],
+      "Choose": [
+        "選ぶ"
+      ],
+      "Choose a %s": [
+        "%s を選択してください"
+      ],
+      "Choose a Breakpoint": [
+        "ブレークポイントを選択してください"
+      ],
+      "Choose a column structure": [
+        "列構造を選択してください"
+      ],
+      "Choose a Component": [
+        "コンポーネントを選択してください"
+      ],
+      "choose a document to edit": [
+        "編集するドキュメントを選択してください"
+      ],
+      "Choose Breakpoints": [
+        "ブレークポイントの選択"
+      ],
+      "Choose condition...": [
+        "条件を選択してください..."
+      ],
+      "Choose Design Preset": [
+        "デザインプリセットを選択"
+      ],
+      "Choose media": [
+        "メディアの選択"
+      ],
+      "Choose one of the options below.": [
+        "以下のオプションのいずれかを選択してください。"
+      ],
+      "Choose operand...": [
+        "オペランドを選択してください..."
+      ],
+      "Choose post type": [
+        "投稿タイプを選択してください"
+      ],
+      "Choose the category that best describes your website.": [
+        "あなたの Web サイトを最もよく表すカテゴリを選択してください。"
+      ],
+      "Choose the goals that best describe your website.": [
+        "あなたの Web サイトを最もよく表す目標を選択してください。"
+      ],
+      "Choose the writing style that best describes your website.": [
+        "Web サイトを最もよく表す文体を選択してください。"
+      ],
+      "Choose what to import:": [
+        "インポートするものを選択します:"
+      ],
+      "Class %s": [
+        "クラス %s"
+      ],
+      "Class Condition Twig Template": [
+        "クラス条件の小枝テンプレート"
+      ],
+      "Class Name": [
+        "クラス名"
+      ],
+      "Classes": [
+        "クラス"
+      ],
+      "Classes & selectors are only available in %s Pro. They won't work on the frontend.": [
+        "クラスとセレクターは %s Pro でのみ使用できます。フロントエンドでは機能しません。"
+      ],
+      "Classes are added to the container of the element": [
+        "クラスは要素のコンテナに追加されます"
+      ],
+      "clear": [
+        "クリア"
+      ],
+      "Clear": [
+        "クリア"
+      ],
+      "Clear All": [
+        "すべてクリア"
+      ],
+      "Clear Badge": [
+        "クリアバッジ"
+      ],
+      "Clear Search": [
+        "検索をクリア"
+      ],
+      "Clear Styles": [
+        "クリアスタイル"
+      ],
+      "Clear Variable": [
+        "変数のクリア"
+      ],
+      "Click here to edit content": [
+        "コンテンツを編集するにはここをクリックしてください"
+      ],
+      "Click here to set up your API key": [
+        "API キーを設定するにはここをクリックしてください"
+      ],
+      "Click IMPORT to set the default properties to the properties of the currently active element. Active element must be a %s.": [
+        "「インポート」をクリックして、デフォルトのプロパティを現在アクティブな要素のプロパティに設定します。アクティブな要素は %s である必要があります。"
+      ],
+      "Click on an element in the editor to rewrite it with AI.": [
+        "エディターで要素をクリックすると、AI で要素が書き換えられます。"
+      ],
+      "Click the Error Details tab above and read the error message. If one is not available, consult your server's error log.": [
+        "上の [エラーの詳細] タブをクリックして、エラー メッセージを読みます。利用できない場合は、サーバーのエラー ログを調べてください。"
+      ],
+      "Click to set min and max widths.": [
+        "クリックして最小幅と最大幅を設定します。"
+      ],
+      "Close": [
+        "近い"
+      ],
+      "Close %s": [
+        "%sを閉じる"
+      ],
+      "Close Element Studio Panel": [
+        "Element Studio パネルを閉じる"
+      ],
+      "Close modal": [
+        "モーダルを閉じる"
+      ],
+      "Close Preview": [
+        "プレビューを閉じる"
+      ],
+      "CloseIcon": [
+        "閉じるアイコン"
+      ],
+      "Closest Parent": [
+        "最も近い親"
+      ],
+      "Code Help": [
+        "コードヘルプ"
+      ],
+      "Code input options": [
+        "コード入力オプション"
+      ],
+      "Code was not saved.": [
+        "コードは保存されませんでした。"
+      ],
+      "Collapse": [
+        "崩壊"
+      ],
+      "Collection": [
+        "コレクション"
+      ],
+      "Color": [
+        "色"
+      ],
+      "Color Picker": [
+        "カラーピッカー"
+      ],
+      "Color Type": [
+        "色の種類"
+      ],
+      "Colors": [
+        "色"
+      ],
+      "Comments count": [
+        "コメント数"
+      ],
+      "Components must have a single root tag.": [
+        "コンポーネントには単一のルート タグが必要です。"
+      ],
+      "Conditions": [
+        "条件"
+      ],
+      "Confirm": [
+        "確認する"
+      ],
+      "Confirm Overwrite & Import": [
+        "上書きとインポートの確認"
+      ],
+      "Constrain Preview Size": [
+        "プレビュー サイズを制限する"
+      ],
+      "Consult our %stroubleshooting guide for the \"403\" error code%s which contains information your host can use to whitelist all requests coming from %s.": [
+        "「403」エラー コード %s については、%トラブルシューティング ガイドを参照してください。このガイドには、%s からのすべてのリクエストをホワイトリストに登録するためにホストが使用できる情報が含まれています。"
+      ],
+      "Consult our %stroubleshooting guide for the \"500\" error code%s": [
+        "「500」エラー コード %s については、%トラブルシューティング ガイドを参照してください。"
+      ],
+      "Contact": [
+        "接触"
+      ],
+      "Contact your hosting provider with the prewritten email below.": [
+        "以下の事前に作成された電子メールを使用して、ホスティング プロバイダーにお問い合わせください。"
+      ],
+      "Container": [
+        "容器"
+      ],
+      "contains": [
+        "含まれています"
+      ],
+      "Content": [
+        "コンテンツ"
+      ],
+      "Continue": [
+        "続く"
+      ],
+      "Continue writing": [
+        "書き続ける"
+      ],
+      "Continue writing the text": [
+        "本文を書き続ける"
+      ],
+      "Control Label": [
+        "コントロールラベル"
+      ],
+      "Control Slider": [
+        "コントロールスライダー"
+      ],
+      "Copied!": [
+        "コピーしました！"
+      ],
+      "copy": [
+        "コピー"
+      ],
+      "Copy": [
+        "コピー"
+      ],
+      "Copy All Elements": [
+        "すべての要素をコピー"
+      ],
+      "Copy as text": [
+        "テキストとしてコピーする"
+      ],
+      "Copy CSS": [
+        "CSSをコピーする"
+      ],
+      "Copy SVG": [
+        "SVGをコピー"
+      ],
+      "Copy the active element": [
+        "アクティブな要素をコピーする"
+      ],
+      "Copy to clipboard": [
+        "クリップボードにコピー"
+      ],
+      "Copy URL": [
+        "URLをコピー"
+      ],
+      "Corners": [
+        "コーナー"
+      ],
+      "Correct grammar": [
+        "正しい文法"
+      ],
+      "Correct the grammar of the text": [
+        "文章の文法を修正する"
+      ],
+      "Could not load media data.": [
+        "メディアデータを読み込めませんでした。"
+      ],
+      "Couldn't import site, something went wrong": [
+        "サイトをインポートできませんでした。問題が発生しました"
+      ],
+      "Couldn't load blocks data": [
+        "ブロックデータをロードできませんでした"
+      ],
+      "Couldn't load Global Blocks data": [
+        "グローバル ブロック データをロードできませんでした"
+      ],
+      "Couldn't load templates data": [
+        "テンプレートデータを読み込めませんでした"
+      ],
+      "Couldn't recreate the cache for post \"%s\". Please re-save that post manually.": [
+        "ポスト \"%s\" のキャッシュを再作成できませんでした。その投稿を手動で再保存してください。"
+      ],
+      "Create": [
+        "作成する"
+      ],
+      "Create %s": [
+        "%s を作成します"
+      ],
+      "Create %s preset": [
+        "%s プリセットを作成"
+      ],
+      "Create a new, original piece of text that complements and enhances the existing material.": [
+        "既存の資料を補完し、強化する新しいオリジナルのテキストを作成します。"
+      ],
+      "Create and manage variables in the": [
+        "で変数を作成および管理します。"
+      ],
+      "Create Design Preset": [
+        "デザインプリセットの作成"
+      ],
+      "Create new %s": [
+        "新しい %s を作成する"
+      ],
+      "Create Post": [
+        "投稿の作成"
+      ],
+      "Create preset from design": [
+        "デザインからプリセットを作成"
+      ],
+      "Create Selector": [
+        "セレクターの作成"
+      ],
+      "Created: Newest first": [
+        "作成日: 新しい順"
+      ],
+      "Created: Oldest first": [
+        "作成日: 古い順"
+      ],
+      "CSS": [
+        "CSS"
+      ],
+      "CSS Selector": [
+        "CSSセレクター"
+      ],
+      "CSS URL": [
+        "CSS URL"
+      ],
+      "Current": [
+        "現在"
+      ],
+      "Current Default Properties": [
+        "現在のデフォルトのプロパティ"
+      ],
+      "Custom": [
+        "カスタム"
+      ],
+      "Custom Elements": [
+        "カスタム要素"
+      ],
+      "Custom font name, ie. Helvetica": [
+        "カスタムフォント名。ヘルベチカ"
+      ],
+      "Custom Fonts": [
+        "カスタムフォント"
+      ],
+      "Custom width (px)": [
+        "カスタム幅 (ピクセル)"
+      ],
+      "Custom: %s": [
+        "税関"
+      ],
+      "Custom...": [
+        "カスタム..."
+      ],
+      "cut": [
+        "カット"
+      ],
+      "Cycle to the next breakpoint": [
+        "次のブレークポイントに循環します"
+      ],
+      "Dark Mode": [
+        "ダークモード"
+      ],
+      "Dashboard": [
+        "ダッシュボード"
+      ],
+      "Date": [
+        "日付"
+      ],
+      "Date picker options": [
+        "日付ピッカーのオプション"
+      ],
+      "De-activate the active element or close modal": [
+        "アクティブな要素を非アクティブ化するか、モーダルを閉じます"
+      ],
+      "Decides if the dependencies are added to the builder": [
+        "依存関係をビルダーに追加するかどうかを決定します"
+      ],
+      "Decides if the dependencies are added to the frontend": [
+        "依存関係をフロントエンドに追加するかどうかを決定します"
+      ],
+      "Decoration": [
+        "装飾"
+      ],
+      "Default": [
+        "デフォルト"
+      ],
+      "Default Children": [
+        "デフォルトの子"
+      ],
+      "Default CSS": [
+        "デフォルトのCSS"
+      ],
+      "Default Element": [
+        "デフォルトの要素"
+      ],
+      "Default Elements": [
+        "デフォルトの要素"
+      ],
+      "Default Preview Width": [
+        "デフォルトのプレビュー幅"
+      ],
+      "Default Properties": [
+        "デフォルトのプロパティ"
+      ],
+      "Default Tag": [
+        "デフォルトのタグ"
+      ],
+      "Default Title": [
+        "デフォルトのタイトル"
+      ],
+      "Default Type": [
+        "デフォルトのタイプ"
+      ],
+      "Default Unit Type": [
+        "デフォルトのユニットタイプ"
+      ],
+      "Defaults to \"Add Item\".": [
+        "デフォルトは「項目を追加」です。"
+      ],
+      "Delete": [
+        "消去"
+      ],
+      "Delete active element": [
+        "アクティブな要素を削除する"
+      ],
+      "Delete nested selector permanently?": [
+        "ネストされたセレクターを完全に削除しますか?"
+      ],
+      "Delete permanently": [
+        "完全に削除"
+      ],
+      "Delete selector permanently?": [
+        "セレクターを完全に削除しますか?"
+      ],
+      "Delete?": [
+        "消去？"
+      ],
+      "Deleted": [
+        "削除されました"
+      ],
+      "Dependencies": [
+        "依存関係"
+      ],
+      "Dependency": [
+        "依存"
+      ],
+      "Descending": [
+        "降順"
+      ],
+      "Describe This Section": [
+        "このセクションの説明"
+      ],
+      "Describe Your Business": [
+        "あなたのビジネスについて説明してください"
+      ],
+      "Describe your website in a sentence or two": [
+        "ウェブサイトを 1 ～ 2 文で説明してください"
+      ],
+      "Description": [
+        "説明"
+      ],
+      "Design": [
+        "デザイン"
+      ],
+      "Design Library": [
+        "デザインライブラリ"
+      ],
+      "Design Presets": [
+        "デザインプリセット"
+      ],
+      "Design Presets are only available in %s Pro. They won't work on the frontend.": [
+        "デザイン プリセットは %s Pro でのみ使用できます。フロントエンドでは機能しません。"
+      ],
+      "Design Set": [
+        "デザインセット"
+      ],
+      "Design Set:": [
+        "デザインセット:"
+      ],
+      "Design Template": [
+        "デザインテンプレート"
+      ],
+      "Detach": [
+        "切り離す"
+      ],
+      "Detach Styles": [
+        "スタイルの切り離し"
+      ],
+      "Details & Troubleshooting": [
+        "詳細とトラブルシューティング"
+      ],
+      "Dimensions": [
+        "寸法"
+      ],
+      "Direction": [
+        "方向"
+      ],
+      "Disable AI": [
+        "AIを無効にする"
+      ],
+      "Disable At": [
+        "無効にする"
+      ],
+      "Disable Autoplay": [
+        "自動再生を無効にする"
+      ],
+      "Disable Code Editor Line Wrapping": [
+        "コードエディターの行折り返しを無効にする"
+      ],
+      "Disable Custom Unit Dropdown": [
+        "カスタム単位ドロップダウンを無効にする"
+      ],
+      "Disable In FutureLayer": [
+        "FutureLayer で無効にする"
+      ],
+      "Disable Message For Empty SSR Elements": [
+        "空の SSR 要素のメッセージを無効にする"
+      ],
+      "Disable Type Safety:": [
+        "タイプ セーフティを無効にする:"
+      ],
+      "Disable Wrapper HTML Tag (frontend-only)": [
+        "ラッパー HTML タグを無効にする (フロントエンドのみ)"
+      ],
+      "Disallow if others are present": [
+        "他の人がいる場合は許可しない"
+      ],
+      "Discard": [
+        "破棄"
+      ],
+      "Discard my changes": [
+        "変更を破棄する"
+      ],
+      "Div": [
+        "ディビジョン"
+      ],
+      "Do not show this popup if any other popup has already shown": [
+        "他のポップアップがすでに表示されている場合は、このポップアップを表示しないでください"
+      ],
+      "documentation": [
+        "ドキュメント"
+      ],
+      "Documentation": [
+        "ドキュメント"
+      ],
+      "does not contain": [
+        "含まれていない"
+      ],
+      "Don't add srcset attribute to the Image object": [
+        "Image オブジェクトに srcset 属性を追加しないでください"
+      ],
+      "Download": [
+        "ダウンロード"
+      ],
+      "drag .woff or .woff2 files or": [
+        ".woff または .woff2 ファイルをドラッグするか、"
+      ],
+      "Drag %s.json here": [
+        "%s.jsonをここにドラッグします"
+      ],
+      "Drag element": [
+        "ドラッグ要素"
+      ],
+      "Drag SVGs or an IcoMoon symbol-defs.svg file here or click to choose a file": [
+        "SVG または IcoMoon シンボル-defs.svg ファイルをここにドラッグするか、クリックしてファイルを選択します"
+      ],
+      "Drag to reorder": [
+        "ドラッグして並べ替えます"
+      ],
+      "Dropdown items": [
+        "ドロップダウン項目"
+      ],
+      "Dropdown options": [
+        "ドロップダウンオプション"
+      ],
+      "dump search results": [
+        "検索結果をダンプする"
+      ],
+      "Duplicate": [
+        "重複"
+      ],
+      "Duplicate the active element": [
+        "アクティブな要素を複製します"
+      ],
+      "Duplicating template \"%s\" failed": [
+        "テンプレート「%s」の複製に失敗しました"
+      ],
+      "Dynamic Behavior Works": [
+        "動的な動作が機能する"
+      ],
+      "Dynamic Behavior Works:": [
+        "動的動作の仕組み:"
+      ],
+      "Dynamic Property": [
+        "動的プロパティ"
+      ],
+      "Dynamic Property Path": [
+        "動的プロパティパス"
+      ],
+      "Dynamic Property Paths (deprecated)": [
+        "動的プロパティ パス (非推奨)"
+      ],
+      "Dynamic Property Type": [
+        "動的プロパティのタイプ"
+      ],
+      "Edit": [
+        "編集"
+      ],
+      "Edit anyway": [
+        "とにかく編集してください"
+      ],
+      "Edit Anyway": [
+        "とにかく編集する"
+      ],
+      "Edit Component": [
+        "コンポーネントの編集"
+      ],
+      "Edit Conditions": [
+        "条件の編集"
+      ],
+      "Edit in %s": [
+        "%s で編集"
+      ],
+      "Edit in Builder": [
+        "ビルダーで編集する"
+      ],
+      "Edit Link": [
+        "リンクの編集"
+      ],
+      "Edit Query": [
+        "クエリの編集"
+      ],
+      "Edit Settings": [
+        "設定の編集"
+      ],
+      "Edit Template": [
+        "テンプレートの編集"
+      ],
+      "Edit the template anyway - this is not an error.": [
+        "このままテンプレートを編集しても問題ありません。これはエラーではありません。"
+      ],
+      "editing hover style": [
+        "ホバースタイルの編集"
+      ],
+      "Editing Preset": [
+        "プリセットの編集"
+      ],
+      "Editing Selector": [
+        "セレクターの編集"
+      ],
+      "Element": [
+        "要素"
+      ],
+      "Element activated": [
+        "要素がアクティブ化されました"
+      ],
+      "Element depends on global scripts to work": [
+        "要素はグローバル スクリプトに依存して機能します"
+      ],
+      "Element Properties": [
+        "要素のプロパティ"
+      ],
+      "Element Studio": [
+        "エレメントスタジオ"
+      ],
+      "Element Studio is for developers and is provided as-is.": [
+        "Element Studio は開発者向けであり、現状のまま提供されます。"
+      ],
+      "Element that will be automatically added inside this current element": [
+        "この現在の要素内に自動的に追加される要素"
+      ],
+      "Element to be a descendant of": [
+        "子孫となる要素"
+      ],
+      "Element to be a direct child of": [
+        "直接の子となる要素"
+      ],
+      "Element Type": [
+        "要素の種類"
+      ],
+      "Element's class:": [
+        "要素のクラス:"
+      ],
+      "Elements": [
+        "要素"
+      ],
+      "Email": [
+        "電子メール"
+      ],
+      "Embedding...": [
+        "埋め込み中..."
+      ],
+      "Empty Trash": [
+        "ゴミ箱を空にする"
+      ],
+      "Enable dynamic property": [
+        "動的プロパティを有効にする"
+      ],
+      "Enable gallery mode": [
+        "ギャラリーモードを有効にする"
+      ],
+      "Enable Grid Mode": [
+        "グリッドモードを有効にする"
+      ],
+      "Enable Hover": [
+        "ホバーを有効にする"
+      ],
+      "Enable Media Queries": [
+        "メディアクエリを有効にする"
+      ],
+      "Enable Never": [
+        "決して有効にしない"
+      ],
+      "Enable Paste": [
+        "貼り付けを有効にする"
+      ],
+      "Enable spacing bars": [
+        "スペースバーを有効にする"
+      ],
+      "Enable variables": [
+        "変数を有効にする"
+      ],
+      "Enable Variables": [
+        "変数を有効にする"
+      ],
+      "Enter a name": [
+        "名前を入力してください"
+      ],
+      "Enter name": [
+        "名前を入力してください"
+      ],
+      "Enter Password": [
+        "パスワードを入力してください"
+      ],
+      "Environment & details": [
+        "環境と詳細"
+      ],
+      "equals": [
+        "等しい"
+      ],
+      "Error Code: %s": [
+        "エラーコード: %s"
+      ],
+      "Error Details": [
+        "エラーの詳細"
+      ],
+      "Error importing %s for \"%s\"": [
+        "「 %s 」の %s のインポート中にエラーが発生しました"
+      ],
+      "Error importing %s.": [
+        "%s のインポート中にエラーが発生しました。"
+      ],
+      "Error importing Design Presets for \"%s\"": [
+        "「%s」のデザイン プリセットのインポート中にエラーが発生しました"
+      ],
+      "Error importing Selectors - the file is empty.": [
+        "セレクターのインポート中にエラーが発生しました - ファイルが空です。"
+      ],
+      "Error importing Selectors - the file is invalid.": [
+        "セレクターのインポート中にエラーが発生しました - ファイルが無効です。"
+      ],
+      "Error importing Variables - the file is invalid or empty.": [
+        "変数のインポート中にエラーが発生しました - ファイルが無効か空です。"
+      ],
+      "Error importing Variables - the file is invalid.": [
+        "変数のインポート中にエラーが発生しました - ファイルが無効です。"
+      ],
+      "Error saving new space bar, please fill out all fields": [
+        "新しいスペースバーを保存中にエラーが発生しました。すべてのフィールドに入力してください"
+      ],
+      "Error trashing existing Templates, Headers, Footers, %s, and Popups.": [
+        "既存のテンプレート、ヘッダー、フッター、 %s、ポップアップの削除中にエラーが発生しました。"
+      ],
+      "error: failed to load elements": [
+        "エラー: 要素のロードに失敗しました"
+      ],
+      "Error: no registered saving locations. Using the %s plugin will automatically register a saving location.": [
+        "エラー: 保存場所が登録されていません。 %s プラグインを使用すると、保存場所が自動的に登録されます。"
+      ],
+      "Everywhere": [
+        "どこでも"
+      ],
+      "Example:\nShorten the following text": [
+        "例:\n次のテキストを短くしてください"
+      ],
+      "Examples:": [
+        "例:"
+      ],
+      "Execute code": [
+        "コードを実行する"
+      ],
+      "Existing Classes": [
+        "既存のクラス"
+      ],
+      "Exit": [
+        "出口"
+      ],
+      "Exit to Frontend": [
+        "フロントエンドへの終了"
+      ],
+      "Exit to WordPress": [
+        "WordPress に戻る"
+      ],
+      "Expand": [
+        "拡大する"
+      ],
+      "Experimental Element?": [
+        "実験的な要素？"
+      ],
+      "Experimental: Show Previous Breakpoint Value As Placeholder": [
+        "実験的: 前のブレークポイント値をプレースホルダーとして表示"
+      ],
+      "Export": [
+        "輸出"
+      ],
+      "Export %s": [
+        "%s をエクスポート"
+      ],
+      "External conditions can't be edited": [
+        "外部条件は編集できません"
+      ],
+      "Failed to delete element": [
+        "要素の削除に失敗しました"
+      ],
+      "Failed to export icon set.": [
+        "アイコンセットのエクスポートに失敗しました。"
+      ],
+      "Failed to get a response from OpenAI API, please try again.": [
+        "OpenAI API からの応答を取得できませんでした。もう一度お試しください。"
+      ],
+      "Failed to get Unsplash keywords from OpenAI API.": [
+        "OpenAI API から Unsplash キーワードを取得できませんでした。"
+      ],
+      "Failed to import all %s.": [
+        "すべての %s をインポートできませんでした。"
+      ],
+      "Failed to load necessary post types for the Wp Query control": [
+        "Wp Query コントロールに必要な投稿タイプをロードできませんでした"
+      ],
+      "Failed to save element, check console": [
+        "要素の保存に失敗しました。コンソールを確認してください"
+      ],
+      "Fallback": [
+        "後退する"
+      ],
+      "Fetch context path": [
+        "コンテキストパスを取得する"
+      ],
+      "Fetch data action route name": [
+        "データ取得アクションのルート名"
+      ],
+      "Fetch images from Unsplash to use in your content, they are automatically added to Image elements in the selected section.": [
+        "Unsplash から画像を取得してコンテンツで使用すると、選択したセクションの画像要素に自動的に追加されます。"
+      ],
+      "Field": [
+        "分野"
+      ],
+      "Field's Value": [
+        "フィールドの値"
+      ],
+      "File accepted": [
+        "ファイルが受け入れられました"
+      ],
+      "File:": [
+        "ファイル："
+      ],
+      "Fill Empty Images Only": [
+        "空の画像のみを塗りつぶす"
+      ],
+      "Filter by type": [
+        "タイプでフィルタリングする"
+      ],
+      "Filtering": [
+        "フィルタリング"
+      ],
+      "Finished recreating all posts cache": [
+        "すべての投稿キャッシュの再作成が完了しました"
+      ],
+      "Focus Point Options": [
+        "フォーカスポイントのオプション"
+      ],
+      "Focus the properties search box and toggle the option to search advanced settings (element properties panel only).": [
+        "プロパティ検索ボックスにフォーカスし、詳細設定を検索するオプションを切り替えます (要素プロパティ パネルのみ)。"
+      ],
+      "Focus the properties search box.": [
+        "プロパティの検索ボックスにフォーカスします。"
+      ],
+      "Font Family": [
+        "フォントファミリー"
+      ],
+      "Font Size": [
+        "フォントサイズ"
+      ],
+      "Font Weight": [
+        "フォントの太さ"
+      ],
+      "Footer": [
+        "フッター"
+      ],
+      "Footers": [
+        "フッター"
+      ],
+      "Forever": [
+        "永遠に"
+      ],
+      "Format Code (%s)": [
+        "フォーマットコード (%s)"
+      ],
+      "from %s to %s": [
+        "%s から %s まで"
+      ],
+      "Frontend Condition (empty)": [
+        "フロントエンドの状態 (空)"
+      ],
+      "Frontend Condition (present)": [
+        "フロントエンドの状態 (現在)"
+      ],
+      "Full": [
+        "満杯"
+      ],
+      "Gallery Media Path": [
+        "ギャラリーメディアパス"
+      ],
+      "Generate example": [
+        "生成例"
+      ],
+      "Generating your sitemap...": [
+        "サイトマップを生成しています..."
+      ],
+      "Get %s Pro to get access to all popup triggers.": [
+        "すべてのポップアップ トリガーにアクセスするには、 %s Pro を入手してください。"
+      ],
+      "Get %s Pro to get access to all the conditions.": [
+        "すべての条件にアクセスするには、 %s Pro を入手してください。"
+      ],
+      "Get Pro": [
+        "プロになる"
+      ],
+      "Get the Tag from a Control's path": [
+        "コントロールのパスからタグを取得する"
+      ],
+      "Getting Posts IDs to import": [
+        "インポートする投稿 ID の取得"
+      ],
+      "Getting template IDs to import": [
+        "インポートするテンプレート ID の取得"
+      ],
+      "Global Settings": [
+        "グローバル設定"
+      ],
+      "Globals": [
+        "グローバル"
+      ],
+      "Go back": [
+        "戻る"
+      ],
+      "Go home": [
+        "家に帰れ"
+      ],
+      "Go To Slide": [
+        "スライドに移動"
+      ],
+      "Go to the parent of the active element": [
+        "アクティブな要素の親に移動します"
+      ],
+      "Gradient Only": [
+        "グラデーションのみ"
+      ],
+      "Hang tight...": [
+        "しっかりしてください..."
+      ],
+      "Hardcode a value:": [
+        "値をハードコードします。"
+      ],
+      "Has Dynamic Stuff": [
+        "ダイナミックなものがある"
+      ],
+      "Header": [
+        "ヘッダ"
+      ],
+      "Headers": [
+        "ヘッダー"
+      ],
+      "Headings": [
+        "見出し"
+      ],
+      "Height": [
+        "身長"
+      ],
+      "Here's what happened:": [
+        "何が起こったかは次のとおりです。"
+      ],
+      "Hi Hosting Provider Support,": [
+        "ホスティングプロバイダーサポートさん、こんにちは。"
+      ],
+      "Hide Control From Specific Elements": [
+        "特定の要素からコントロールを非表示にする"
+      ],
+      "Hide Feedback": [
+        "フィードバックを隠す"
+      ],
+      "history": [
+        "歴史"
+      ],
+      "History": [
+        "歴史"
+      ],
+      "History & Revisions": [
+        "歴史と改訂"
+      ],
+      "Homepage hero section": [
+        "ホームページのヒーローセクション"
+      ],
+      "How can we improve this experience?": [
+        "このエクスペリエンスを改善するにはどうすればよいでしょうか?"
+      ],
+      "How would you like to get started?": [
+        "どのように始めたいですか?"
+      ],
+      "HTML": [
+        "HTML"
+      ],
+      "HTML Attribute": [
+        "HTML 属性"
+      ],
+      "HTML Attributes": [
+        "HTML 属性"
+      ],
+      "HTML Tag options": [
+        "HTMLタグのオプション"
+      ],
+      "I'll save them": [
+        "私が彼らを救います"
+      ],
+      "Icon": [
+        "アイコン"
+      ],
+      "Icon Library": [
+        "アイコンライブラリ"
+      ],
+      "Icon Options": [
+        "アイコンのオプション"
+      ],
+      "ID": [
+        "ID"
+      ],
+      "ID %s": [
+        "ID %s"
+      ],
+      "ie. ACME Studios": [
+        "つまり。 ACMEスタジオ"
+      ],
+      "If": [
+        "もし"
+      ],
+      "If any code is present and the result returns a %s value the dependencies will be added.": [
+        "コードが存在し、結果が %s 値を返す場合、依存関係が追加されます。"
+      ],
+      "If it returns %s no dependencies are added.": [
+        "%s が返された場合、依存関係は追加されません。"
+      ],
+      "If this isn't something you can fix, please send me the full text of the error from the relevant error log file.": [
+        "これを修正できない場合は、関連するエラー ログ ファイルからエラーの全文を送信してください。"
+      ],
+      "Ignore current post": [
+        "現在の投稿を無視する"
+      ],
+      "Ignore sticky posts": [
+        "粘着的な投稿を無視する"
+      ],
+      "Image": [
+        "画像"
+      ],
+      "Image Path": [
+        "画像パス"
+      ],
+      "Import": [
+        "輸入"
+      ],
+      "Import all children of the currently active element": [
+        "現在アクティブな要素のすべての子をインポートします"
+      ],
+      "Import Children": [
+        "子のインポート"
+      ],
+      "Import Design Presets": [
+        "デザインプリセットのインポート"
+      ],
+      "Import Images From Unsplash": [
+        "Unsplash から画像をインポート"
+      ],
+      "Import Page": [
+        "インポートページ"
+      ],
+      "Import Settings": [
+        "インポート設定"
+      ],
+      "Imported %s from \"%s\"": [
+        "%s を「%s」からインポートしました"
+      ],
+      "Imported Design Presets from \"%s\"": [
+        "「%s」からデザインプリセットをインポートしました"
+      ],
+      "Importing %s.": [
+        "%s をインポートしています。"
+      ],
+      "Importing a full site will replace your site's": [
+        "サイト全体をインポートすると、サイトの"
+      ],
+      "Importing all post and pages": [
+        "すべての投稿とページをインポートする"
+      ],
+      "Importing Design Presets": [
+        "デザインプリセットのインポート"
+      ],
+      "Importing from this design set will replace some of your current settings.": [
+        "このデザイン セットからインポートすると、現在の設定の一部が置き換えられます。"
+      ],
+      "Importing Global Settings": [
+        "グローバル設定のインポート"
+      ],
+      "Importing homepage id": [
+        "ホームページIDをインポートしています"
+      ],
+      "Importing Oxy Selectors": [
+        "オキシセレクターのインポート"
+      ],
+      "Importing template with ID \"%s\"": [
+        "ID「%s」のテンプレートをインポートしています"
+      ],
+      "Importing the \"%s\" site": [
+        "「%s」サイトをインポートしています"
+      ],
+      "Importing the data": [
+        "データのインポート"
+      ],
+      "Importing Variables": [
+        "変数のインポート"
+      ],
+      "in": [
+        "で"
+      ],
+      "Include": [
+        "含む"
+      ],
+      "Include by": [
+        "含める"
+      ],
+      "Include Custom Breakpoints in Breakpoint Dropdowns": [
+        "ブレークポイント ドロップダウンにカスタム ブレークポイントを含める"
+      ],
+      "Include Settings": [
+        "設定を含める"
+      ],
+      "Initial State": [
+        "初期状態"
+      ],
+      "Inline Editable": [
+        "インライン編集可能"
+      ],
+      "Inline Editable Block Path": [
+        "インライン編集可能なブロック パス"
+      ],
+      "Inline Scripts (%s)": [
+        "インラインスクリプト (%s)"
+      ],
+      "Inline Styles (%s)": [
+        "インライン スタイル (%s)"
+      ],
+      "Input": [
+        "入力"
+      ],
+      "Insert": [
+        "入れる"
+      ],
+      "Insert Dynamic Data": [
+        "動的データの挿入"
+      ],
+      "Install now": [
+        "今すぐインストール"
+      ],
+      "Install Now": [
+        "今すぐインストール"
+      ],
+      "Interaction": [
+        "交流"
+      ],
+      "Interactions": [
+        "インタラクション"
+      ],
+      "Internal Element Project Management Tool": [
+        "内部要素プロジェクト管理ツール"
+      ],
+      "Internal Server Error": [
+        "内部サーバーエラー"
+      ],
+      "Invalid class name": [
+        "無効なクラス名です"
+      ],
+      "Invalid password. Please try again.": [
+        "パスワードが無効です。もう一度試してください。"
+      ],
+      "Invalid post": [
+        "無効な投稿"
+      ],
+      "invalid selector name": [
+        "無効なセレクター名"
+      ],
+      "is after": [
+        "後です"
+      ],
+      "is before": [
+        "前です"
+      ],
+      "is greater than": [
+        "より大きい"
+      ],
+      "is less than": [
+        "未満です"
+      ],
+      "is none of": [
+        "どれでもない"
+      ],
+      "is not set": [
+        "設定されていません"
+      ],
+      "is one of": [
+        "の 1 つです"
+      ],
+      "Is Pro Only": [
+        "プロのみです"
+      ],
+      "is set": [
+        "設定されています"
+      ],
+      "It can also be caused by misconfigured security plugins (if you're using Wordfence, put it into learning mode)": [
+        "セキュリティ プラグインの設定が間違っていることが原因で発生することもあります (Wordfence を使用している場合は、学習モードにします)。"
+      ],
+      "Italic": [
+        "イタリック"
+      ],
+      "Item": [
+        "アイテム"
+      ],
+      "JavaScript": [
+        "JavaScript"
+      ],
+      "Keywords": [
+        "キーワード"
+      ],
+      "Label": [
+        "ラベル"
+      ],
+      "Landscape": [
+        "風景"
+      ],
+      "Last edited: Newest first": [
+        "最終編集日: 新しい順"
+      ],
+      "Last edited: Oldest first": [
+        "最終編集日: 古い順"
+      ],
+      "Last modified date": [
+        "最終更新日"
+      ],
+      "Layout": [
+        "レイアウト"
+      ],
+      "Leave Feedback": [
+        "フィードバックを残す"
+      ],
+      "left": [
+        "左"
+      ],
+      "Left": [
+        "左"
+      ],
+      "Let's get started": [
+        "始めましょう"
+      ],
+      "Letter Spacing": [
+        "文字間隔"
+      ],
+      "Library": [
+        "図書館"
+      ],
+      "Lightbox": [
+        "ライトボックス"
+      ],
+      "Limit how often this popup shows": [
+        "このポップアップの表示頻度を制限する"
+      ],
+      "Line": [
+        "ライン"
+      ],
+      "Line Height": [
+        "線の高さ"
+      ],
+      "Line Height (deprecated)": [
+        "行の高さ (非推奨)"
+      ],
+      "Linear": [
+        "リニア"
+      ],
+      "Link": [
+        "リンク"
+      ],
+      "Live Preview": [
+        "ライブプレビュー"
+      ],
+      "Live preview changes": [
+        "ライブプレビューの変更点"
+      ],
+      "Loading...": [
+        "読み込み中..."
+      ],
+      "Local": [
+        "地元"
+      ],
+      "Location": [
+        "位置"
+      ],
+      "Location is required": [
+        "場所は必須です"
+      ],
+      "Lock": [
+        "ロック"
+      ],
+      "Lock all": [
+        "すべてロックする"
+      ],
+      "Login": [
+        "ログイン"
+      ],
+      "Looking for inspiration?": [
+        "インスピレーションをお探しですか?"
+      ],
+      "Looks Good": [
+        "見た目も良い"
+      ],
+      "Looks Good:": [
+        "見た目も良い："
+      ],
+      "Macro": [
+        "マクロ"
+      ],
+      "Macros": [
+        "マクロ"
+      ],
+      "Make all control values in this section available in all breakpoints": [
+        "このセクションのすべてのコントロール値をすべてのブレークポイントで使用できるようにします"
+      ],
+      "Make dynamic data Pro only": [
+        "動的データの作成 Pro のみ"
+      ],
+      "Make into a macro": [
+        "マクロ化する"
+      ],
+      "Make into a Preset": [
+        "プリセットにする"
+      ],
+      "Make modal full screen": [
+        "モーダルを全画面表示にする"
+      ],
+      "Make the element SSR when any child control value changes": [
+        "子コントロールの値が変更されたときに要素を SSR にする"
+      ],
+      "Make the element SSR when this control's value changes": [
+        "このコントロールの値が変更されたときに要素を SSR にします"
+      ],
+      "Make the text more formal": [
+        "文章をよりフォーマルなものにする"
+      ],
+      "Make the text more interesting": [
+        "テキストをより面白くする"
+      ],
+      "Make this control's value available in all breakpoints": [
+        "このコントロールの値をすべてのブレークポイントで使用できるようにします"
+      ],
+      "Manage Presets": [
+        "プリセットの管理"
+      ],
+      "Managing custom fonts is only available in %s Pro": [
+        "カスタム フォントの管理は %s Pro でのみ使用できます"
+      ],
+      "Margin": [
+        "マージン"
+      ],
+      "Match": [
+        "マッチ"
+      ],
+      "Max (Integer)": [
+        "最大 (整数)"
+      ],
+      "Maximum width (px)": [
+        "最大幅 (px)"
+      ],
+      "Media Size Options": [
+        "メディアサイズのオプション"
+      ],
+      "Mention apples, oranges, and bananas": [
+        "リンゴ、オレンジ、バナナについて言及してください"
+      ],
+      "Menu": [
+        "メニュー"
+      ],
+      "Menu order": [
+        "メニューの注文"
+      ],
+      "Merge with the existing %s.": [
+        "既存の %s とマージします。"
+      ],
+      "Message": [
+        "メッセージ"
+      ],
+      "Meta Box": [
+        "メタボックス"
+      ],
+      "Meta Query": [
+        "メタクエリ"
+      ],
+      "Min (Integer)": [
+        "最小値 (整数)"
+      ],
+      "Minimum width (px)": [
+        "最小幅(px)"
+      ],
+      "Misc options": [
+        "その他のオプション"
+      ],
+      "Misc Options": [
+        "その他のオプション"
+      ],
+      "Missing badge label": [
+        "バッジのラベルがありません"
+      ],
+      "Modified": [
+        "修正済み"
+      ],
+      "More formal": [
+        "よりフォーマルな"
+      ],
+      "More interesting": [
+        "もっと面白い"
+      ],
+      "Multiline": [
+        "複数行"
+      ],
+      "Multiline Bar": [
+        "マルチラインバー"
+      ],
+      "Multiple": [
+        "複数"
+      ],
+      "Name": [
+        "名前"
+      ],
+      "Name is already in use": [
+        "名前はすでに使用されています"
+      ],
+      "Name must be 1 character or more": [
+        "名前は1文字以上である必要があります"
+      ],
+      "Nested Selectors": [
+        "ネストされたセレクター"
+      ],
+      "Nesting rules": [
+        "ネストルール"
+      ],
+      "Never": [
+        "一度もない"
+      ],
+      "New Control": [
+        "新しいコントロール"
+      ],
+      "New Section": [
+        "新しいセクション"
+      ],
+      "Next": [
+        "次"
+      ],
+      "Next Slide": [
+        "次のスライド"
+      ],
+      "Next Steps": [
+        "次のステップ"
+      ],
+      "No %s found :(": [
+        "%s が見つかりません:("
+      ],
+      "No ACF fields found": [
+        "ACFフィールドが見つかりません"
+      ],
+      "No Active Element": [
+        "アクティブな要素がありません"
+      ],
+      "No available extra elements.": [
+        "利用可能な追加要素はありません。"
+      ],
+      "No Available Label": [
+        "使用可能なラベルがありません"
+      ],
+      "No code help available for %s control type": [
+        "%s コントロール タイプに使用できるコード ヘルプはありません"
+      ],
+      "No conditions yet.": [
+        "まだ条件はありません。"
+      ],
+      "No data available": [
+        "利用可能なデータがありません"
+      ],
+      "No data. Select a path first": [
+        "データがありません。最初にパスを選択してください"
+      ],
+      "No Elements": [
+        "要素がありません"
+      ],
+      "No elements were returned from OpenAI API.": [
+        "OpenAI API から要素が返されませんでした。"
+      ],
+      "No fields were found matching the criteria.": [
+        "条件に一致するフィールドは見つかりませんでした。"
+      ],
+      "No icons found.": [
+        "アイコンが見つかりませんでした。"
+      ],
+      "No image chosen": [
+        "画像が選択されていません"
+      ],
+      "No images found in this section": [
+        "このセクションには画像がありません"
+      ],
+      "No images found. Please try again with different keywords.": [
+        "画像が見つかりませんでした。別のキーワードでもう一度お試しください。"
+      ],
+      "No images to complete. Please add an image to the section first.": [
+        "完了する画像がありません。まずセクションに画像を追加してください。"
+      ],
+      "No items found": [
+        "項目が見つかりませんでした"
+      ],
+      "No match found": [
+        "一致するものが見つかりませんでした"
+      ],
+      "No matching variables found.": [
+        "一致する変数が見つかりません。"
+      ],
+      "No Meta Box fields found": [
+        "メタボックスフィールドが見つかりません"
+      ],
+      "No presets available": [
+        "利用可能なプリセットはありません"
+      ],
+      "No relationship fields found": [
+        "関係フィールドが見つかりません"
+      ],
+      "No repeaters present": [
+        "リピーターは存在しない"
+      ],
+      "No response was returned from OpenAI API.": [
+        "OpenAI APIから応答が返されませんでした。"
+      ],
+      "no results": [
+        "結果はありません"
+      ],
+      "No results apply to this template": [
+        "このテンプレートに適用される結果はありません"
+      ],
+      "No revisions found": [
+        "リビジョンが見つかりませんでした"
+      ],
+      "No support is provided. Please read the": [
+        "サポートは提供されません。を読んでください。"
+      ],
+      "No variables": [
+        "変数なし"
+      ],
+      "No Variables to import.": [
+        "インポートする変数がありません。"
+      ],
+      "No, thanks": [
+        "結構です"
+      ],
+      "None": [
+        "なし"
+      ],
+      "Normal": [
+        "普通"
+      ],
+      "Not available for external images": [
+        "外部画像には使用できません"
+      ],
+      "Not available when grid mode is enabled.": [
+        "グリッドモードが有効な場合は使用できません。"
+      ],
+      "not equals": [
+        "等しくない"
+      ],
+      "Not happy with the generated sitemap?": [
+        "生成されたサイトマップに満足できませんか?"
+      ],
+      "Note: This breaks JavaScript functionality that relies on the tag being present (Ex: %%SELECTOR%%)": [
+        "注: これにより、存在するタグに依存する JavaScript 機能が壊れます (例: %%SELECTOR%%)"
+      ],
+      "Nothing to import for %s.": [
+        "%s にインポートするものはありません。"
+      ],
+      "Nothing to preview": [
+        "プレビューするものがありません"
+      ],
+      "Offset": [
+        "オフセット"
+      ],
+      "Oh no! Your server returned a %s error. 😢": [
+        "なんてこった！サーバーが %s エラーを返しました。 😢"
+      ],
+      "on": [
+        "の上"
+      ],
+      "One-Click Write": [
+        "ワンクリック書き込み"
+      ],
+      "Only  \".woff\" and \".woff2\" files are supported": [
+        "「.woff」および「.woff2」ファイルのみがサポートされています"
+      ],
+      "Only change to create complex elements": [
+        "複雑な要素を作成する場合のみ変更します"
+      ],
+      "Only Children Of This Element": [
+        "この要素の子のみ"
+      ],
+      "Open": [
+        "開ける"
+      ],
+      "Open %s Editor": [
+        "%s エディタを開く"
+      ],
+      "Open add elements panel": [
+        "要素の追加パネルを開く"
+      ],
+      "Open Design Library": [
+        "デザインライブラリを開く"
+      ],
+      "Open design sets modal": [
+        "オープンデザインセットモーダル"
+      ],
+      "Open in %s": [
+        "%s で開きます"
+      ],
+      "Open in new tab": [
+        "新しいタブで開く"
+      ],
+      "Open options": [
+        "オープンオプション"
+      ],
+      "Open selectors panel": [
+        "セレクターパネルを開く"
+      ],
+      "Open structure panel": [
+        "オープン構造パネル"
+      ],
+      "Open the active element's Advanced → Classes autocomplete and focus it.": [
+        "アクティブな要素の「詳細」→「クラス」オートコンプリートを開き、フォーカスします。"
+      ],
+      "Open the active element's Advanced → Custom CSS and focus it.": [
+        "アクティブな要素の [詳細設定] → [カスタム CSS] を開き、フォーカスします。"
+      ],
+      "Open the rich text editor modal. Only when the Rich Text element is selected": [
+        "リッチ テキスト エディターのモーダルを開きます。リッチテキスト要素が選択されている場合のみ"
+      ],
+      "Open Twig Code Helper": [
+        "Twig コード ヘルパーを開く"
+      ],
+      "Open variables panel": [
+        "変数パネルを開く"
+      ],
+      "Open Website Dialog": [
+        "「Web サイトを開く」ダイアログ"
+      ],
+      "Operand": [
+        "オペランド"
+      ],
+      "Options": [
+        "オプション"
+      ],
+      "Options Are Good": [
+        "オプションは良いです"
+      ],
+      "Options Good:": [
+        "良いオプション:"
+      ],
+      "Options Work": [
+        "オプション作業"
+      ],
+      "Options Work:": [
+        "オプションの動作:"
+      ],
+      "OR": [
+        "または"
+      ],
+      "or view it live": [
+        "またはライブで視聴する"
+      ],
+      "Order": [
+        "注文"
+      ],
+      "Order By": [
+        "注文方法"
+      ],
+      "Orientation": [
+        "向き"
+      ],
+      "Override Variables": [
+        "変数を上書きする"
+      ],
+      "Padding": [
+        "パディング"
+      ],
+      "Panel Positions": [
+        "パネルの位置"
+      ],
+      "Parent with ID: %s": [
+        "ID の親: %s"
+      ],
+      "Past day": [
+        "過去の日"
+      ],
+      "Past Month": [
+        "先月"
+      ],
+      "Past Three month": [
+        "過去 3 か月"
+      ],
+      "Past week": [
+        "過去 1 週間"
+      ],
+      "Past Year": [
+        "過去1年"
+      ],
+      "paste": [
+        "ペースト"
+      ],
+      "Paste": [
+        "ペースト"
+      ],
+      "Paste As Child": [
+        "子として貼り付け"
+      ],
+      "Paste copied element": [
+        "コピーした要素を貼り付ける"
+      ],
+      "Paste Design": [
+        "デザインを貼り付け"
+      ],
+      "Paste Elements": [
+        "要素を貼り付け"
+      ],
+      "Paste or type an URL": [
+        "URLを貼り付けるか入力します"
+      ],
+      "Paste or type URL": [
+        "URLを貼り付けるか入力します"
+      ],
+      "Paste settings": [
+        "設定の貼り付け"
+      ],
+      "Paste Settings": [
+        "設定の貼り付け"
+      ],
+      "Paste SVG": [
+        "SVGを貼り付ける"
+      ],
+      "Path": [
+        "パス"
+      ],
+      "Per Page Load": [
+        "ページ読み込みごと"
+      ],
+      "Per Session": [
+        "セッションごと"
+      ],
+      "Phone Number": [
+        "電話番号"
+      ],
+      "Placeholder": [
+        "プレースホルダー"
+      ],
+      "Plain Text": [
+        "プレーンテキスト"
+      ],
+      "Please create your own template.": [
+        "独自のテンプレートを作成してください。"
+      ],
+      "Please deactivate it and try again.": [
+        "無効にしてもう一度お試しください。"
+      ],
+      "Please don't close this tab until the import is finished.": [
+        "インポートが完了するまで、このタブを閉じないでください。"
+      ],
+      "Please enter a keyword to fetch images.": [
+        "画像を取得するにはキーワードを入力してください。"
+      ],
+      "Please enter a valid URL": [
+        "有効な URL を入力してください"
+      ],
+      "Please enter a value": [
+        "値を入力してください"
+      ],
+      "Please enter an API key": [
+        "APIキーを入力してください"
+      ],
+      "Please enter the %s's name.": [
+        "%s の名前を入力してください。"
+      ],
+      "Please extract the contents of the zip file and upload the individual SVG files.": [
+        "zip ファイルの内容を解凍し、個々の SVG ファイルをアップロードしてください。"
+      ],
+      "Please read the documentation before creating custom templates.": [
+        "カスタム テンプレートを作成する前にドキュメントをお読みください。"
+      ],
+      "Please read the documentation before making customizations to template settings.": [
+        "テンプレート設定をカスタマイズする前に、ドキュメントをお読みください。"
+      ],
+      "Please save your changes before closing this %s, or discard your changes.": [
+        "この %s を閉じる前に変更を保存するか、変更を破棄してください。"
+      ],
+      "Please upgrade to pro to use this field.": [
+        "このフィールドを使用するには、pro にアップグレードしてください。"
+      ],
+      "Plugin Settings": [
+        "プラグイン設定"
+      ],
+      "Popout Position": [
+        "ポップアウト位置"
+      ],
+      "Populate dropdown dynamically": [
+        "ドロップダウンに動的に入力する"
+      ],
+      "Populate from a Repeater's Input": [
+        "リピーターの入力から入力する"
+      ],
+      "Populate from server data": [
+        "サーバーデータからデータを取り込む"
+      ],
+      "Populate variables based on a Repeater Input": [
+        "リピーター入力に基づいて変数を設定する"
+      ],
+      "Populate with HTML Tag Options": [
+        "HTML タグのオプションを設定する"
+      ],
+      "Populating from server data. To use items instead, clear those fields below.": [
+        "サーバーデータからのデータの取り込み。代わりにアイテムを使用するには、以下のフィールドをクリアします。"
+      ],
+      "Popup": [
+        "ポップアップ"
+      ],
+      "Popup Opens When": [
+        "ポップアップが開くタイミング"
+      ],
+      "Popups": [
+        "ポップアップ"
+      ],
+      "Portrait": [
+        "肖像画"
+      ],
+      "Post Archive": [
+        "ポストアーカイブ"
+      ],
+      "Post Chooser Options": [
+        "ポストセレクターのオプション"
+      ],
+      "Post Title": [
+        "投稿タイトル"
+      ],
+      "Post Type": [
+        "投稿タイプ"
+      ],
+      "Post Types": [
+        "投稿タイプ"
+      ],
+      "Posts and Pages": [
+        "投稿とページ"
+      ],
+      "Posts per page": [
+        "ページごとの投稿数"
+      ],
+      "Posts with post type \"%s\" can't be edited with %s directly. Please use a %s Template instead.": [
+        "投稿タイプ「%s」の投稿は、 %s で直接編集できません。代わりに %s テンプレートを使用してください。"
+      ],
+      "Prefer TinyMCE For Rich Text": [
+        "リッチ テキストには TinyMCE を優先する"
+      ],
+      "Preferences": [
+        "設定"
+      ],
+      "Premade templates to kickstart your design.": [
+        "デザインを開始するための既製のテンプレート。"
+      ],
+      "Preset": [
+        "プリセット"
+      ],
+      "Preset Name": [
+        "プリセット名"
+      ],
+      "Presets": [
+        "プリセット"
+      ],
+      "Preview": [
+        "プレビュー"
+      ],
+      "Preview %s:": [
+        "%s をプレビュー:"
+      ],
+      "Preview Size": [
+        "プレビューサイズ"
+      ],
+      "Previewing": [
+        "プレビュー中"
+      ],
+      "Previewing:": [
+        "プレビュー:"
+      ],
+      "Previous Slide": [
+        "前のスライド"
+      ],
+      "Primary": [
+        "主要な"
+      ],
+      "Priority": [
+        "優先度"
+      ],
+      "Prompt": [
+        "プロンプト"
+      ],
+      "Property Key": [
+        "プロパティキー"
+      ],
+      "Property Paths": [
+        "プロパティパス"
+      ],
+      "Property paths to SSR the element when value changes": [
+        "値が変更されたときの SSR 要素へのプロパティ パス"
+      ],
+      "Property paths to whitelist in flat props": [
+        "フラット プロパティのホワイトリストへのプロパティ パス"
+      ],
+      "Property Settings": [
+        "プロパティ設定"
+      ],
+      "Providers": [
+        "プロバイダー"
+      ],
+      "Qualifiers (optional)": [
+        "修飾子 (オプション)"
+      ],
+      "Query Builder": [
+        "クエリビルダー"
+      ],
+      "Radial": [
+        "ラジアル"
+      ],
+      "Random": [
+        "ランダム"
+      ],
+      "Range Options": [
+        "範囲オプション"
+      ],
+      "Recommended": [
+        "推奨"
+      ],
+      "Redo": [
+        "やり直し"
+      ],
+      "Redo changes": [
+        "変更をやり直す"
+      ],
+      "Refetch data if a control's value changes (specify path)": [
+        "コントロールの値が変更された場合にデータを再フェッチします (パスを指定)"
+      ],
+      "Refresh": [
+        "リフレッシュ"
+      ],
+      "Refresh element": [
+        "リフレッシュ要素"
+      ],
+      "Regenerate CSS Cache": [
+        "CSS キャッシュを再生成する"
+      ],
+      "Regenerating caches. Leaving the page will stop the process.": [
+        "キャッシュを再生成しています。ページを離れるとプロセスが停止します。"
+      ],
+      "Registered Children options: add extra elements": [
+        "登録済みの子のオプション: 追加の要素を追加する"
+      ],
+      "Related": [
+        "関連している"
+      ],
+      "Relative Property Paths To Whitetlist In Flatprops": [
+        "Flatprops のホワイトリストへの相対プロパティ パス"
+      ],
+      "Reload dependencies files": [
+        "依存関係ファイルをリロードする"
+      ],
+      "Reload Key": [
+        "リロードキー"
+      ],
+      "Remember to use": [
+        "忘れずに使用してください"
+      ],
+      "Remove": [
+        "取り除く"
+      ],
+      "Rename": [
+        "名前を変更する"
+      ],
+      "Reorder": [
+        "再注文"
+      ],
+      "Repeater Options": [
+        "リピーターオプション"
+      ],
+      "Rephrase": [
+        "言い換える"
+      ],
+      "Rephrase the text provided by the user.": [
+        "ユーザーが提供したテキストを言い換えます。"
+      ],
+      "Replace": [
+        "交換する"
+      ],
+      "Request Details": [
+        "リクエストの詳細"
+      ],
+      "Request Time:": [
+        "リクエスト時間:"
+      ],
+      "Request Time: %s": [
+        "リクエスト時間: %s"
+      ],
+      "Request Type:": [
+        "リクエストタイプ:"
+      ],
+      "Request Type: %s": [
+        "リクエストタイプ: %s"
+      ],
+      "Request URI: %s": [
+        "リクエスト URI: %s"
+      ],
+      "Request URL:": [
+        "リクエストURL:"
+      ],
+      "Required plugins": [
+        "必要なプラグイン"
+      ],
+      "Reset Content": [
+        "内容をリセットする"
+      ],
+      "Reset Design": [
+        "デザインをリセットする"
+      ],
+      "Reset Settings": [
+        "設定をリセットする"
+      ],
+      "Reset to defaults": [
+        "デフォルトにリセットする"
+      ],
+      "Response Code:": [
+        "応答コード:"
+      ],
+      "Restore": [
+        "復元する"
+      ],
+      "Restore %s from revision": [
+        "リビジョンから %s を復元"
+      ],
+      "Revisions": [
+        "改訂"
+      ],
+      "Rewrite": [
+        "リライト"
+      ],
+      "Rewrite %s": [
+        "%s を書き換えます"
+      ],
+      "Rewrite With AI": [
+        "AI で書き換える"
+      ],
+      "Rewrite your content with the power of AI.": [
+        "AI の力でコンテンツを書き換えます。"
+      ],
+      "right": [
+        "右"
+      ],
+      "Right": [
+        "右"
+      ],
+      "Root Node": [
+        "ルートノード"
+      ],
+      "Row Index": [
+        "行インデックス"
+      ],
+      "Run for all children": [
+        "すべての子供たちのために走ります"
+      ],
+      "Run Only Once": [
+        "1 回だけ実行"
+      ],
+      "Runs after adding this element to the canvas for the first time": [
+        "この要素を初めてキャンバスに追加した後に実行されます"
+      ],
+      "Runs after one of this element's property changes (a value in a control)": [
+        "この要素のプロパティのいずれか (コントロール内の値) が変更された後に実行されます。"
+      ],
+      "Runs after the element is activated (selected)": [
+        "要素がアクティブ化 (選択) された後に実行されます。"
+      ],
+      "Runs after this element is moved in the canvas.": [
+        "この要素がキャンバス内で移動された後に実行されます。"
+      ],
+      "Runs after this element renders in the canvas": [
+        "この要素がキャンバスにレンダリングされた後に実行されます"
+      ],
+      "Runs AFTER this element was deleted": [
+        "この要素が削除された後に実行されます"
+      ],
+      "Runs BEFORE this element is deleted": [
+        "この要素が削除される前に実行されます"
+      ],
+      "Same author only": [
+        "同じ作者のみ"
+      ],
+      "Save": [
+        "保存"
+      ],
+      "Save &amp; Bypass Psalm...": [
+        "保存して詩篇をバイパス..."
+      ],
+      "Save A Copy In:": [
+        "コピーを保存する場所:"
+      ],
+      "Save and continue": [
+        "保存して続行"
+      ],
+      "Save any changes to create a new revision": [
+        "変更を保存して新しいリビジョンを作成します"
+      ],
+      "Save as %s": [
+        "%s として保存"
+      ],
+      "Save as Preset": [
+        "プリセットとして保存"
+      ],
+      "Save Breakpoints": [
+        "ブレークポイントの保存"
+      ],
+      "Save element": [
+        "要素の保存"
+      ],
+      "Save Fonts": [
+        "フォントの保存"
+      ],
+      "Save Icons": [
+        "アイコンを保存"
+      ],
+      "Save icons to existing set, or create a new icon set...": [
+        "アイコンを既存のセットに保存するか、新しいアイコン セットを作成します..."
+      ],
+      "Saving selectors to WordPress": [
+        "セレクターを WordPress に保存する"
+      ],
+      "Scale content to fit the screen (zoom)": [
+        "画面に合わせてコンテンツを拡大縮小する (ズーム)"
+      ],
+      "Screenshot couldn't be created, probably because it links to protected third party images. Please add an image manually": [
+        "おそらく保護されたサードパーティの画像にリンクしているため、スクリーンショットを作成できませんでした。画像を手動で追加してください"
+      ],
+      "Script": [
+        "スクリプト"
+      ],
+      "Scripts (%s)": [
+        "スクリプト (%s)"
+      ],
+      "Search": [
+        "検索"
+      ],
+      "Search %d elements": [
+        "%d 個の要素を検索"
+      ],
+      "Search %ss": [
+        "%ssを検索"
+      ],
+      "Search blocks": [
+        "検索ブロック"
+      ],
+      "Search by title": [
+        "タイトルから探す"
+      ],
+      "Search elements": [
+        "検索要素"
+      ],
+      "Search for %s": [
+        "%s を検索"
+      ],
+      "Search in \"%s\"": [
+        "「%s」で検索"
+      ],
+      "Search More": [
+        "もっと探す"
+      ],
+      "Search Results": [
+        "検索結果"
+      ],
+      "Search selectors": [
+        "検索セレクター"
+      ],
+      "Search variables": [
+        "検索変数"
+      ],
+      "Search...": [
+        "検索..."
+      ],
+      "Secondary": [
+        "二次"
+      ],
+      "Section Layout": [
+        "セクションのレイアウト"
+      ],
+      "Section showing testimonials": [
+        "お客様の声を示すセクション"
+      ],
+      "See content editable code": [
+        "コンテンツ編集可能なコードを参照"
+      ],
+      "See Details": [
+        "詳細を見る"
+      ],
+      "See examples": [
+        "例を見る"
+      ],
+      "Select a field to preview": [
+        "プレビューするフィールドを選択してください"
+      ],
+      "Select a field...": [
+        "フィールドを選択してください..."
+      ],
+      "Select a popup...": [
+        "ポップアップを選択..."
+      ],
+      "Select a saving location": [
+        "保存場所を選択してください"
+      ],
+      "Select a type...": [
+        "タイプを選択してください..."
+      ],
+      "Select an element first": [
+        "最初に要素を選択してください"
+      ],
+      "Select or create a class": [
+        "クラスを選択または作成する"
+      ],
+      "Select parent": [
+        "親を選択"
+      ],
+      "Select up to four": [
+        "最大 4 つまで選択してください"
+      ],
+      "Select up to three": [
+        "最大 3 つまで選択してください"
+      ],
+      "Select up to two": [
+        "最大 2 つ選択してください"
+      ],
+      "Selected template with ID: %s no longer exists.": [
+        "ID: %s の選択したテンプレートはもう存在しません。"
+      ],
+      "Selectors": [
+        "セレクター"
+      ],
+      "Send Feedback": [
+        "フィードバックを送信する"
+      ],
+      "Send To CodeBox": [
+        "コードボックスに送信"
+      ],
+      "Set Default Properties": [
+        "デフォルトのプロパティを設定する"
+      ],
+      "Set default properties for %s to:": [
+        "%s のデフォルトのプロパティを次のように設定します。"
+      ],
+      "Set Up API Key": [
+        "APIキーの設定"
+      ],
+      "Set up your OpenAI API key": [
+        "OpenAI API キーをセットアップする"
+      ],
+      "Settings": [
+        "設定"
+      ],
+      "Shadow Type": [
+        "シャドウタイプ"
+      ],
+      "Share props with SSR children": [
+        "SSR の子供たちと小道具を共有する"
+      ],
+      "Shop Page & All Product Archives": [
+        "ショップページと全製品アーカイブ"
+      ],
+      "Shortcode": [
+        "ショートコード"
+      ],
+      "Shortcut": [
+        "ショートカット"
+      ],
+      "Shorten it": [
+        "短くしてください"
+      ],
+      "Shorten the text": [
+        "テキストを短くする"
+      ],
+      "Show elements ID in the Structure Panel": [
+        "構造パネルに要素 ID を表示する"
+      ],
+      "Show Experimental Elements": [
+        "実験的な要素を表示する"
+      ],
+      "Show items in the dropdown only if a condition is met": [
+        "条件が満たされた場合にのみドロップダウンに項目を表示します"
+      ],
+      "Show items in the variable only if a condition is met": [
+        "条件が満たされた場合にのみ変数内の項目を表示します"
+      ],
+      "Show keyboard shortcuts help modal": [
+        "キーボード ショートカットのヘルプ モーダルを表示する"
+      ],
+      "Show Property Keys": [
+        "プロパティキーを表示"
+      ],
+      "Show Thumbnails": [
+        "サムネイルを表示する"
+      ],
+      "Shows an image as background of this input": [
+        "この入力の背景として画像を表示します"
+      ],
+      "Shuffle": [
+        "シャッフル"
+      ],
+      "Side By Side": [
+        "サイドバイサイド"
+      ],
+      "Single Post": [
+        "単一の投稿"
+      ],
+      "Single Product": [
+        "単品"
+      ],
+      "Slide #": [
+        "スライド番号"
+      ],
+      "Slider": [
+        "スライダー"
+      ],
+      "Slug": [
+        "ナメクジ"
+      ],
+      "SMS": [
+        "SMS"
+      ],
+      "Solid": [
+        "固体"
+      ],
+      "Solid and Gradient": [
+        "ソリッドとグラデーション"
+      ],
+      "Solid Only": [
+        "ソリッドのみ"
+      ],
+      "Some fields are locked and will not be updated by AI. <b class='cursor-pointer'>Click to view.</b>": [
+        "一部のフィールドはロックされており、AI によって更新されません。 <b class='cursor-pointer'>クリックして表示します。</b>"
+      ],
+      "Some requests failed. Try again": [
+        "一部のリクエストは失敗しました。もう一度やり直してください"
+      ],
+      "Soon, the Design Library will only be available in the pro version. For now, enjoy your free preview!": [
+        "まもなく、デザイン ライブラリはプロ バージョンでのみ利用可能になります。今は無料のプレビューをお楽しみください。"
+      ],
+      "Sort By": [
+        "並べ替え"
+      ],
+      "Source": [
+        "ソース"
+      ],
+      "Space Around": [
+        "周囲のスペース"
+      ],
+      "Space Between": [
+        "間のスペース"
+      ],
+      "Spacing bar": [
+        "スペースバー"
+      ],
+      "Spacing Bars": [
+        "スペースバー"
+      ],
+      "Specific Product Archive": [
+        "特定の製品アーカイブ"
+      ],
+      "Spread": [
+        "広める"
+      ],
+      "Squarish": [
+        "四角い"
+      ],
+      "Stack Trace": [
+        "スタックトレース"
+      ],
+      "Stacked": [
+        "積み重ねられた"
+      ],
+      "Stacked (First Visible)": [
+        "積み重ねられた (最初に表示される)"
+      ],
+      "Start over": [
+        "やり直す"
+      ],
+      "States": [
+        "州"
+      ],
+      "Step (fixed to 2 decimals)": [
+        "ステップ（小数点第2位固定）"
+      ],
+      "Stop Editing": [
+        "編集を停止する"
+      ],
+      "Stretch": [
+        "ストレッチ"
+      ],
+      "Structure": [
+        "構造"
+      ],
+      "Style": [
+        "スタイル"
+      ],
+      "Styles (%s)": [
+        "スタイル (%s)"
+      ],
+      "Subject": [
+        "主題"
+      ],
+      "Submit": [
+        "提出する"
+      ],
+      "Success loading the data": [
+        "データのロードに成功しました"
+      ],
+      "Successfully imported %s.": [
+        "%s を正常にインポートしました。"
+      ],
+      "Successfully trashed existing Templates, Headers, Footers, %s, and Popups.": [
+        "既存のテンプレート、ヘッダー、フッター、 %s、およびポップアップが正常に破棄されました。"
+      ],
+      "Suggested Icons": [
+        "推奨されるアイコン"
+      ],
+      "Suggestions": [
+        "提案"
+      ],
+      "Support Multiple": [
+        "複数のサポート"
+      ],
+      "SVG code for icon": [
+        "アイコンのSVGコード"
+      ],
+      "Switch between 'scale to fit' and 'actual size' content": [
+        "「サイズに合わせて拡大縮小」コンテンツと「実際のサイズ」コンテンツを切り替える"
+      ],
+      "Switch mode": [
+        "スイッチモード"
+      ],
+      "Tag": [
+        "タグ"
+      ],
+      "Tag of the root element": [
+        "ルート要素のタグ"
+      ],
+      "Tag Options": [
+        "タグオプション"
+      ],
+      "Tags: %s and %s are available.": [
+        "タグ: %s と %s が使用可能です。"
+      ],
+      "Tailor your template to your needs.": [
+        "ニーズに合わせてテンプレートを調整します。"
+      ],
+      "Take screenshot": [
+        "スクリーンショットを撮る"
+      ],
+      "Target": [
+        "ターゲット"
+      ],
+      "Tel": [
+        "電話番号"
+      ],
+      "Tell us about your business": [
+        "あなたのビジネスについて教えてください"
+      ],
+      "Tell us to...": [
+        "教えてください..."
+      ],
+      "Temperature": [
+        "温度"
+      ],
+      "Template": [
+        "テンプレート"
+      ],
+      "Templates": [
+        "テンプレート"
+      ],
+      "Templates page": [
+        "テンプレートページ"
+      ],
+      "Templates save you hours of work. Each template is crafted by a pro and is fully customizable.": [
+        "テンプレートを使用すると、作業時間を節約できます。各テンプレートはプロによって作成され、完全にカスタマイズ可能です。"
+      ],
+      "Terms in taxonomy": [
+        "分類学の用語"
+      ],
+      "Text": [
+        "文章"
+      ],
+      "Text Format": [
+        "テキスト形式"
+      ],
+      "Text Wrap": [
+        "テキストの折り返し"
+      ],
+      "The %s element does not support AI writing.": [
+        "%s 要素は AI 書き込みをサポートしていません。"
+      ],
+      "The Breakdance AI Plugin is not installed. Please install it to use the AI assistant.": [
+        "ブレイクダンス AI プラグインがインストールされていません。 AIアシスタントを利用するにはインストールしてください。"
+      ],
+      "The dependency is a hardcoded value:": [
+        "依存関係はハードコードされた値です。"
+      ],
+      "The field 'name' is required to create an automatic screenshot": [
+        "自動スクリーンショットを作成するにはフィールド「名前」が必要です"
+      ],
+      "The file you selected does not contain any presets.": [
+        "選択したファイルにはプリセットが含まれていません。"
+      ],
+      "The file you selected is not a valid Presets file.": [
+        "選択したファイルは有効なプリセット ファイルではありません。"
+      ],
+      "The last full site import you performed was for %s": [
+        "最後に実行したサイト全体のインポートは %s のものでした"
+      ],
+      "The minimum priority is 1": [
+        "最小優先度は 1 です"
+      ],
+      "The new %s couldn't be saved": [
+        "新しい %s を保存できませんでした"
+      ],
+      "The option %s is not available anymore, please select a new one.": [
+        "オプション %s はもう使用できません。新しいオプションを選択してください。"
+      ],
+      "The plugin %s caused a %s error.": [
+        "プラグイン %s により %s エラーが発生しました。"
+      ],
+      "The requested post can't be edited with %s.": [
+        "要求された投稿は %s では編集できません。"
+      ],
+      "The requested post doesn't exist. It may have been deleted, or maybe you used an outdated URL.": [
+        "要求された投稿は存在しません。削除されたか、古い URL を使用した可能性があります。"
+      ],
+      "The selected field expects \"%s\", but \"%s\" only returns \"%s\". To use this field anyway, choose \"All\" from the \"Type\" dropdown and then toggle \"Disable Type Safety\" on.": [
+        "選択したフィールドには「%s」が必要ですが、「%s」は「%s」のみを返します。このフィールドを使用するには、「タイプ」ドロップダウンから「すべて」を選択し、「タイプ セーフティを無効にする」をオンに切り替えます。"
+      ],
+      "The selected preset does not exist or has been deleted. Please select another preset.": [
+        "選択したプリセットは存在しないか、削除されています。別のプリセットを選択してください。"
+      ],
+      "The selector %s is locked.": [
+        "セレクター %s はロックされています。"
+      ],
+      "The task failed due a problem on the server side.": [
+        "サーバー側の問題によりタスクが失敗しました。"
+      ],
+      "The template can run Twig code. Properties like design.something.whatever are available. If the template returns a blank string, the class will not be added. If the template returns anything, the class will be added.": [
+        "テンプレートは Twig コードを実行できます。 design.something.whatever のようなプロパティが利用可能です。テンプレートが空の文字列を返した場合、クラスは追加されません。テンプレートが何かを返すと、クラスが追加されます。"
+      ],
+      "the_best_class": [
+        "最高のクラス"
+      ],
+      "There are no elements added to the page": [
+        "ページに追加された要素はありません"
+      ],
+      "There was an error embedding the video": [
+        "動画の埋め込み中にエラーが発生しました"
+      ],
+      "There was an error loading the data": [
+        "データの読み込み中にエラーが発生しました"
+      ],
+      "Thickness": [
+        "厚さ"
+      ],
+      "This action cannot be undone.": [
+        "この操作は元に戻すことができません。"
+      ],
+      "This design relies on Design Presets. It won't look the same unless you import them.": [
+        "このデザインはデザイン プリセットに依存しています。インポートしない限り、見た目は変わりません。"
+      ],
+      "This Design Set is password protected by the author. Please enter the password below to view it.": [
+        "このデザイン セットは作成者によってパスワードで保護されています。閲覧するには以下にパスワードを入力してください。"
+      ],
+      "This design set relies on %s. It won't look the same unless you import them.": [
+        "このデザイン セットは %s に依存しています。インポートしない限り、見た目は変わりません。"
+      ],
+      "This Element": [
+        "この要素"
+      ],
+      "This element can't be added for unknown reasons": [
+        "この要素は不明な理由により追加できません"
+      ],
+      "This element contains a Global Block that can be edited inline. Requires a Global Block Chooser control to be present.": [
+        "この要素には、インラインで編集できるグローバル ブロックが含まれています。 Global Block Choicer コントロールが存在する必要があります。"
+      ],
+      "This element is empty, please add some content first.": [
+        "この要素は空です。最初にコンテンツを追加してください。"
+      ],
+      "This element will not be allowed on a page if one of the following elements is already present on the page": [
+        "次の要素のいずれかがすでにページ上に存在する場合、この要素はページ上で許可されません。"
+      ],
+      "This element will only be allowed as a direct child of the selected elements": [
+        "この要素は、選択した要素の直接の子としてのみ許可されます"
+      ],
+      "This element will only be allowed inside the selected elements": [
+        "この要素は選択された要素内でのみ許可されます"
+      ],
+      "This font style already exists with this weight, and format": [
+        "このフォント スタイルは、この太さと形式ですでに存在します。"
+      ],
+      "This font weight already exists with this style, and format": [
+        "このフォントの太さはこのスタイルと形式ですでに存在します"
+      ],
+      "this is currently used at https://breakdance.com/features/elements": [
+        "これは現在 https://breakdance.com/features/elements で使用されています"
+      ],
+      "This post can't be edited directly.": [
+        "この投稿は直接編集できません。"
+      ],
+      "This post is rendered with a \"%s\" template.": [
+        "この投稿は「%s」テンプレートを使用して表示されます。"
+      ],
+      "This post is rendered with a builder's internal \"%s\" template.": [
+        "この投稿は、ビルダーの内部「%s」テンプレートを使用してレンダリングされます。"
+      ],
+      "This post is rendered with a builder's internal template.": [
+        "この投稿はビルダーの内部テンプレートを使用してレンダリングされます。"
+      ],
+      "This post is rendered with a template.": [
+        "この投稿はテンプレートを使用して表示されます。"
+      ],
+      "This selector already exists.": [
+        "このセレクターはすでに存在します。"
+      ],
+      "This selector is no longer available. Remove it from the element?": [
+        "このセレクターは使用できなくなりました。エレメントから外しますか？"
+      ],
+      "This variable has been deleted, but it is still used here.": [
+        "この変数は削除されましたが、ここではまだ使用されています。"
+      ],
+      "This video could not be embedded.": [
+        "このビデオは埋め込むことができませんでした。"
+      ],
+      "This will disable the 'Settings -> Html -> Tag' control": [
+        "これにより、「設定 -> HTML -> タグ」コントロールが無効になります。"
+      ],
+      "This won't be visible on the website but helps us understand your needs.": [
+        "これはウェブサイトには表示されませんが、お客様のニーズを理解するのに役立ちます。"
+      ],
+      "Title": [
+        "タイトル"
+      ],
+      "Title field can't be empty": [
+        "タイトルフィールドを空にすることはできません"
+      ],
+      "Title is required": [
+        "タイトルは必須です"
+      ],
+      "Title Template": [
+        "タイトルテンプレート"
+      ],
+      "To describe a repeater, use &quot;[]&quot;. e.g: &quot;content.list.my_repeater[].url&quot;": [
+        "リピーターを説明するには、「[]」を使用します。例: \"content.list.my_repeater[].url\""
+      ],
+      "To edit, select %s element with this preset applied.": [
+        "編集するには、このプリセットが適用された %s 要素を選択してください。"
+      ],
+      "To paste using the Edit menu, please allow access to your clipboard.": [
+        "[編集] メニューを使用して貼り付けるには、クリップボードへのアクセスを許可してください。"
+      ],
+      "To paste using the Edit menu, your website needs to be served with HTTPS.": [
+        "[編集] メニューを使用して貼り付けるには、Web サイトが HTTPS で提供される必要があります。"
+      ],
+      "To use %s, log in to WordPress admin.": [
+        "%s を使用するには、WordPress 管理者にログインしてください。"
+      ],
+      "To use %s, you need to login to WordPress.": [
+        "%s を使用するには、WordPress にログインする必要があります。"
+      ],
+      "Toggle": [
+        "トグル"
+      ],
+      "Toggle the modified option in the properties search box.": [
+        "プロパティ検索ボックスで変更されたオプションを切り替えます。"
+      ],
+      "Toggle the preview mode.": [
+        "プレビュー モードを切り替えます。"
+      ],
+      "Top": [
+        "トップ"
+      ],
+      "Total posts": [
+        "総投稿数"
+      ],
+      "Total posts must be equal to or greater than Posts Per Page": [
+        "投稿の合計はページごとの投稿数以上である必要があります"
+      ],
+      "Transform": [
+        "変身"
+      ],
+      "Trash": [
+        "ごみ"
+      ],
+      "Trash (%d)": [
+        "ゴミ箱 (%d)"
+      ],
+      "Trashing existing Templates, Headers, Footers, %s, and Popups.": [
+        "既存のテンプレート、ヘッダー、フッター、 %s、ポップアップを破棄します。"
+      ],
+      "Trigger": [
+        "トリガー"
+      ],
+      "Trigger action button options": [
+        "トリガーアクションボタンのオプション"
+      ],
+      "Triggers": [
+        "トリガー"
+      ],
+      "Try adjusting your search to find what you are looking for.": [
+        "探しているものを見つけるために検索を調整してみてください。"
+      ],
+      "Try Breakdance Pro": [
+        "ブレイクダンス プロを試してみる"
+      ],
+      "Try Oxygen Pro": [
+        "酸素プロを試してみる"
+      ],
+      "Tutorials": [
+        "チュートリアル"
+      ],
+      "Type": [
+        "タイプ"
+      ],
+      "Type:": [
+        "タイプ："
+      ],
+      "Types": [
+        "種類"
+      ],
+      "Typography": [
+        "タイポグラフィ"
+      ],
+      "UI Icon": [
+        "UIアイコン"
+      ],
+      "UI Order (number)": [
+        "UI の順序 (番号)"
+      ],
+      "UI Settings": [
+        "UI設定"
+      ],
+      "Unable to format %s code. Please check for syntax errors like missing brackets, quotes, or semicolons, then try formatting again.": [
+        "%s コードをフォーマットできません。括弧、引用符、セミコロンの欠落などの構文エラーがないか確認してから、フォーマットを再試行してください。"
+      ],
+      "Unable to retrieve a video from this URL": [
+        "この URL からビデオを取得できません"
+      ],
+      "Uncategorized": [
+        "未分類"
+      ],
+      "Underline Offset": [
+        "下線のオフセット"
+      ],
+      "Undo": [
+        "元に戻す"
+      ],
+      "Undo changes": [
+        "変更を元に戻す"
+      ],
+      "Unexpected error occurred.": [
+        "予期しないエラーが発生しました。"
+      ],
+      "Unit Options": [
+        "ユニットオプション"
+      ],
+      "Unknown": [
+        "未知"
+      ],
+      "Unknown breakpoint": [
+        "不明なブレークポイント"
+      ],
+      "Unknown Document": [
+        "不明な文書"
+      ],
+      "Unknown notification type %s": [
+        "不明な通知タイプ %s"
+      ],
+      "Unlink it or select a new variable.": [
+        "リンクを解除するか、新しい変数を選択します。"
+      ],
+      "Unlink variable": [
+        "変数のリンクを解除する"
+      ],
+      "Unlock": [
+        "ロックを解除する"
+      ],
+      "Unlock all": [
+        "すべてのロックを解除する"
+      ],
+      "Unrecoverable Errors": [
+        "回復不可能なエラー"
+      ],
+      "Unsplash": [
+        "アンスプラッシュ"
+      ],
+      "Unsupported template": [
+        "サポートされていないテンプレート"
+      ],
+      "Unsupported templates": [
+        "サポートされていないテンプレート"
+      ],
+      "Update for template \"%s\" failed": [
+        "テンプレート「%s」の更新に失敗しました"
+      ],
+      "Update slug": [
+        "更新スラッグ"
+      ],
+      "Update your template settings in the WP admin at": [
+        "WP 管理画面でテンプレート設定を更新します。"
+      ],
+      "Updated prompt info for element #%s": [
+        "要素 #%s のプロンプト情報を更新しました"
+      ],
+      "Updating the Class Name will make the previous class obsolete. You'll need to update your CSS": [
+        "クラス名を更新すると、以前のクラスは廃止されます。 CSS を更新する必要があります"
+      ],
+      "Upload": [
+        "アップロード"
+      ],
+      "Upload a Video or paste a URL": [
+        "ビデオをアップロードするか、URL を貼り付けてください"
+      ],
+      "Upload a Video or paste a URL from %s": [
+        "ビデオをアップロードするか、 %s から URL を貼り付けてください"
+      ],
+      "Upload some icons.": [
+        "いくつかのアイコンをアップロードします。"
+      ],
+      "Upload symbol-defs.svg from an IcoMoon export, or an individual SVG file.": [
+        "IcoMoon エクスポートまたは個別の SVG ファイルから、symbol-defs.svg をアップロードします。"
+      ],
+      "URL": [
+        "URL"
+      ],
+      "URL to CSS file containing Font Face definitions": [
+        "Font Face 定義を含む CSS ファイルへの URL"
+      ],
+      "URL to script": [
+        "スクリプトへの URL"
+      ],
+      "URL to style": [
+        "スタイルへの URL"
+      ],
+      "Use Fonts In External CSS": [
+        "外部CSSでフォントを使用する"
+      ],
+      "Use hosted fonts from providers like Adobe Fonts.": [
+        "Adobe Fonts などのプロバイダーが提供するホストされたフォントを使用します。"
+      ],
+      "use the below HTML code on breakdance.com to display a list of elements.": [
+        "要素のリストを表示するには、breakdance.com で以下の HTML コードを使用します。"
+      ],
+      "Use the lock icon to prevent AI from changing this image during bulk rewrites.": [
+        "一括書き換え中に AI がこのイメージを変更しないようにするには、ロック アイコンを使用します。"
+      ],
+      "Use this if clicking on the element doesn't active it, but instead clicks something inside of it": [
+        "要素をクリックしてもアクティブにならず、要素内の何かをクリックする場合にこれを使用します。"
+      ],
+      "Use this if the element should only be visible in the builder": [
+        "要素をビルダー内でのみ表示する必要がある場合は、これを使用します。"
+      ],
+      "Use this if you need to access the properties data from this element in a child SSR element.": [
+        "子 SSR 要素のこの要素からプロパティ データにアクセスする必要がある場合は、これを使用します。"
+      ],
+      "Use this if you want to disable the AI for this element": [
+        "この要素の AI を無効にする場合はこれを使用します"
+      ],
+      "Used as a fallback when the title template is blank.": [
+        "タイトル テンプレートが空白の場合のフォールバックとして使用されます。"
+      ],
+      "Validation Error:": [
+        "検証エラー:"
+      ],
+      "Value": [
+        "価値"
+      ],
+      "Value comes from:": [
+        "値は次のものから得られます。"
+      ],
+      "Value is overwritten by:": [
+        "値は次によって上書きされます。"
+      ],
+      "Values": [
+        "価値観"
+      ],
+      "Variables": [
+        "変数"
+      ],
+      "Variables panel.": [
+        "変数パネル。"
+      ],
+      "Variations": [
+        "バリエーション"
+      ],
+      "Vertically Center": [
+        "垂直中央"
+      ],
+      "Video": [
+        "ビデオ"
+      ],
+      "Video Options": [
+        "ビデオオプション"
+      ],
+      "Videos from %s are not allowed for this field. Allowed embed platforms are %s": [
+        "%s からのビデオはこのフィールドでは許可されません。許可されている埋め込みプラットフォームは %s です"
+      ],
+      "Videos from this platform, are not allowed for this field. Allowed embed platforms are %s": [
+        "このプラットフォームからのビデオは、このフィールドでは許可されていません。許可されている埋め込みプラットフォームは %s です"
+      ],
+      "View Design Set": [
+        "デザインセットを見る"
+      ],
+      "Viewing Page": [
+        "閲覧ページ"
+      ],
+      "Visit site": [
+        "サイトにアクセス"
+      ],
+      "Visual": [
+        "ビジュアル"
+      ],
+      "Warning: Deleted Variable": [
+        "警告: 変数が削除されました"
+      ],
+      "We couldn't find any icons matching \"%s\".": [
+        "「%s」に一致するアイコンが見つかりませんでした。"
+      ],
+      "We just need a few details. These answers help us generate a starting point that feels right for you.": [
+        "いくつかの詳細が必要です。これらの回答は、お客様にとって適切と思われる出発点を生成するのに役立ちます。"
+      ],
+      "We're creating a sitemap.": [
+        "サイトマップを作成中です。"
+      ],
+      "We're setting up your design library.": [
+        "デザイン ライブラリをセットアップしています。"
+      ],
+      "We're setting up your website based on your choices.": [
+        "あなたの選択に基づいてウェブサイトを設定しています。"
+      ],
+      "We've set up your website based on your choices. You can now start customizing it to make it truly yours.": [
+        "お客様の選択に基づいてウェブサイトをセットアップしました。カスタマイズを開始して、本当に自分のものにすることができます。"
+      ],
+      "Weight": [
+        "重さ"
+      ],
+      "Welcome to %s": [
+        "%s へようこそ"
+      ],
+      "Welcome to Breakdance AI": [
+        "ブレイクダンス AI へようこそ"
+      ],
+      "What are your website goals?": [
+        "あなたのウェブサイトの目標は何ですか?"
+      ],
+      "What category does your website fall under?": [
+        "あなたのウェブサイトはどのカテゴリに分類されますか?"
+      ],
+      "What is your website about?": [
+        "あなたのウェブサイトは何についてのものですか?"
+      ],
+      "What is your website called?": [
+        "あなたのウェブサイトは何と呼ばれていますか?"
+      ],
+      "What is your website's writing style?": [
+        "あなたのウェブサイトの書き方は何ですか?"
+      ],
+      "WhatsApp": [
+        "ワッツアップ"
+      ],
+      "When field": [
+        "いつフィールド"
+      ],
+      "When left empty the dependencies will always be added.": [
+        "空のままにすると、依存関係は常に追加されます。"
+      ],
+      "When saving in %s, the CSS and other dependencies required by the saved item are cached. Use this tool to regenerate the caches for all %s-created content.": [
+        "%s に保存すると、保存されたアイテムに必要な CSS およびその他の依存関係がキャッシュされます。このツールを使用して、 %s で作成されたすべてのコンテンツのキャッシュを再生成します。"
+      ],
+      "When using the Breakdance or Oxygen plugin, my server failed to fulfill the following request as expected. Instead, it returned an error code.": [
+        "Breakdance または Oxygen プラグインを使用している場合、サーバーは次のリクエストを期待どおりに実行できませんでした。代わりに、エラー コードが返されました。"
+      ],
+      "Why did the server return a %s error?": [
+        "サーバーが %s エラーを返したのはなぜですか?"
+      ],
+      "Width": [
+        "幅"
+      ],
+      "will be replaced with the correct path in the element.": [
+        "要素内の正しいパスに置き換えられます。"
+      ],
+      "Will only show an image's available sizes. Use [] when inside a repeater.": [
+        "画像の利用可能なサイズのみが表示されます。リピータ内の場合は [] を使用します。"
+      ],
+      "Word Spacing": [
+        "単語の間隔"
+      ],
+      "Would you like to save or discard these changes?": [
+        "これらの変更を保存しますか? それとも破棄しますか?"
+      ],
+      "WP Media Options": [
+        "WPメディアオプション"
+      ],
+      "Wrap In": [
+        "ラップイン"
+      ],
+      "Write CSS with AI.": [
+        "AI で CSS を記述します。"
+      ],
+      "Write it like snoop dogg": [
+        "スヌープ・ドッグのように書いてください"
+      ],
+      "X": [
+        "×"
+      ],
+      "Y": [
+        "Y"
+      ],
+      "You already did full site import for this site.": [
+        "このサイトの完全なサイト インポートはすでに完了しています。"
+      ],
+      "You are not logged in": [
+        "ログインしていません"
+      ],
+      "You can now view and manage your sitemap.": [
+        "サイトマップを表示および管理できるようになりました。"
+      ],
+      "You can use Twig to access the element properties. eg.": [
+        "Twig を使用して要素のプロパティにアクセスできます。例えば。"
+      ],
+      "You can't edit this item because it is in the Trash. Please restore it and try again.": [
+        "このアイテムはゴミ箱にあるため編集できません。復元して再度お試しください。"
+      ],
+      "You don't have any presets yet.": [
+        "まだプリセットがありません。"
+      ],
+      "You don't have enough permissions to edit \"%s\" post type.": [
+        "「%s」投稿タイプを編集するための十分な権限がありません。"
+      ],
+      "You have no deleted %s.": [
+        "削除された %s はありません。"
+      ],
+      "You have no published %s.": [
+        "公開された %s はありません。"
+      ],
+      "You have unsaved changes": [
+        "未保存の変更があります"
+      ],
+      "You have unsaved changes to your AI Settings.": [
+        "AI 設定への変更が保存されていません。"
+      ],
+      "You have unsaved changes to your Global Settings.": [
+        "グローバル設定への変更が保存されていません。"
+      ],
+      "You have unsaved changes to your Presets.": [
+        "プリセットへの変更が保存されていません。"
+      ],
+      "You have unsaved changes to your Selectors.": [
+        "セレクターへの変更が保存されていません。"
+      ],
+      "You have unsaved changes to your Variables.": [
+        "変数への変更が保存されていません。"
+      ],
+      "You must save your changes first": [
+        "まず変更を保存する必要があります"
+      ],
+      "You need to set up your OpenAI API key before you can use the AI assistant.": [
+        "AI アシスタントを使用する前に、OpenAI API キーを設定する必要があります。"
+      ],
+      "You're about to delete \"%s\" permanently from the site. Are you sure?": [
+        "「%s」をサイトから完全に削除しようとしています。本気ですか？"
+      ],
+      "You've already imported settings from this Design Library.": [
+        "このデザイン ライブラリから設定はすでにインポートされています。"
+      ],
+      "You've already imported the Design Presets from this site.": [
+        "すでにこのサイトからデザイン プリセットをインポートしています。"
+      ],
+      "You've been logged out of WordPress. Log back in to continue using %s.": [
+        "WordPress からログアウトされました。 %s の使用を続けるには、再度ログインしてください。"
+      ],
+      "Your existing %s will be moved to the trash. You can restore them from the trash after the import.": [
+        "既存の %s はゴミ箱に移動されます。インポート後にゴミ箱から復元できます。"
+      ],
+      "Your existing Design Presets will be overwritten with the Presets from this library website.": [
+        "既存のデザイン プリセットは、このライブラリ Web サイトのプリセットで上書きされます。"
+      ],
+      "Your Name": [
+        "あなたの名前"
+      ],
+      "Your server returned a %s error.": [
+        "サーバーが %s エラーを返しました。"
+      ],
+      "Your session has expired": [
+        "セッションの有効期限が切れました"
+      ],
+      "Your session has expired. Refresh your session to continue using %s.": [
+        "セッションの有効期限が切れました。 %s の使用を続けるにはセッションを更新してください。"
+      ],
+      "Your sitemap is ready!": [
+        "サイトマップの準備が完了しました。"
+      ],
+      "Your template settings don't match any content. You can:": [
+        "テンプレート設定がどのコンテンツとも一致しません。あなたはできる："
+      ],
+      "Your website is ready!": [
+        "ウェブサイトの準備ができました。"
+      ],
+      "%s: CSS class name(s)\u0004%s is assigned to this element but is no longer present on the site. Remove it by <span>clicking here</span> or editing the class list.": [
+        "%s はこの要素に割り当てられていますが、サイトにはもう存在しません。 <span>ここをクリック</span>するか、クラス リストを編集して削除してください。",
+        "%s はこの要素に割り当てられていますが、サイトにはもう存在しません。 <span>ここをクリック</span>するか、クラス リストを編集して、それらを削除します。"
+      ],
+      "Color\u0004Add %s": [
+        "%sを追加"
+      ],
+      "Controls Tree\u0004Clear %s": [
+        "%sをクリア"
+      ],
+      "Controls Tree\u0004Copy %s": [
+        "%sをコピー"
+      ],
+      "Controls Tree\u0004Paste %s": [
+        "%s を貼り付け"
+      ],
+      "Design Library\u0004Import %s": [
+        "%sをインポート"
+      ],
+      "Document\u0004Edit %s": [
+        "%sを編集"
+      ],
+      "Document\u0004Editing %s": [
+        "%sを編集中"
+      ],
+      "element nesting\u0004Must be added inside a \"%s\" element": [
+        "「%s」要素内に追加する必要があります",
+        "「%s」要素内に追加する必要があります"
+      ],
+      "Element Presets\u0004Search results for \"%s\"": [
+        "「%s」の検索結果"
+      ],
+      "Element Properties\u0004Search results for \"%s\"": [
+        "「%s」の検索結果"
+      ],
+      "Element Studio\u0004New %s": [
+        "ニュース"
+      ],
+      "Element Studio Item Type\u0004Open %s": [
+        "%s を開きます"
+      ],
+      "Global Block\u0004Add %s": [
+        "%sを追加"
+      ],
+      "Global Block\u0004Copy of \"%s\"": [
+        "「%s」のコピー"
+      ],
+      "Global Block\u0004Edit %s": [
+        "%sを編集"
+      ],
+      "Global Block\u0004Editing \"%s\"": [
+        "「%s」を編集中"
+      ],
+      "Global Block\u0004New %s": [
+        "ニュース"
+      ],
+      "Global Blocks\u0004Deleted %s": [
+        "%s を削除しました"
+      ],
+      "Global Settings\u0004Search results for \"%s\"": [
+        "「%s」の検索結果"
+      ],
+      "Oxygen Control\u0004Paste %s": [
+        "%s を貼り付け"
+      ],
+      "Plugin name\u0004The template does not contain a Template Content Area element. Therefore, the posts it applies to are not editable in %s.": [
+        "テンプレートには、テンプレート コンテンツ領域要素が含まれていません。したがって、これが適用される投稿は %s では編集できません。"
+      ],
+      "Search\u0004No %s found.": [
+        "%s が見つかりません。"
+      ],
+      "Selectors\u0004Search results for \"%s\"": [
+        "「%s」の検索結果"
+      ],
+      "Settings\u0004Import %s": [
+        "%sをインポート"
+      ],
+      "Template\u0004Add %s": [
+        "%sを追加"
+      ],
+      "Template\u0004Copy of \"%s\"": [
+        "「%s」のコピー"
+      ],
+      "Template\u0004Edit in %s": [
+        "%s で編集"
+      ],
+      "Template\u0004Editing \"%s\"": [
+        "「%s」を編集中"
+      ],
+      "Template\u0004New %s": [
+        "ニュース"
+      ],
+      "Templates\u0004Deleted %s": [
+        "%s を削除しました"
+      ],
+      "Templates\u0004No %s found.": [
+        "%s が見つかりません。"
+      ]
+    }
+  }
+}
