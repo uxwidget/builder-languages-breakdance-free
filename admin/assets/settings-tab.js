@@ -345,6 +345,8 @@
         var $panel = $('#breakdance-languages-wp-language-pack');
         var $button = $('#breakdance-languages-install-language-pack');
         var $manual = $('#breakdance-languages-wp-language-pack-manual');
+        var $packReload = $('#breakdance-languages-wp-language-pack-reload');
+        var $packReloadHint = $('#breakdance-languages-wp-language-pack-reload-hint');
 
         if (!$panel.length) {
             return;
@@ -356,6 +358,37 @@
         var pack = packContext || settings.languagePack || {};
         var label = pack.label || ((strings.locale_labels && strings.locale_labels[pack.locale]) || pack.locale || selectedLocale);
         var needsNotice = !!pack.needs_notice;
+        var justInstalled = !!pack.just_installed;
+
+        if (justInstalled) {
+            $panel.prop('hidden', false);
+            $('#breakdance-languages-wp-language-pack-message').text(
+                (strings.wp_language_pack_installed || '').replace('%s', label)
+            );
+
+            if ($button.length) {
+                $button.prop('hidden', true).prop('disabled', true);
+            }
+
+            if ($manual.length) {
+                $manual.prop('hidden', true);
+            }
+
+            if ($packReload.length) {
+                $packReload
+                    .text(strings.wp_language_pack_reload || strings.refresh || '')
+                    .prop('hidden', false);
+            }
+
+            if ($packReloadHint.length) {
+                $packReloadHint
+                    .text(strings.wp_language_pack_reload_hint || '')
+                    .prop('hidden', !(strings.wp_language_pack_reload_hint || ''));
+            }
+
+            settings.languagePack = pack;
+            return;
+        }
 
         $('#breakdance-languages-wp-language-pack-message').text(
             needsNotice
@@ -374,6 +407,14 @@
             $manual
                 .text(strings.wp_language_pack_manual_hint || '')
                 .prop('hidden', !needsNotice || !!pack.can_install);
+        }
+
+        if ($packReload.length) {
+            $packReload.prop('hidden', true);
+        }
+
+        if ($packReloadHint.length) {
+            $packReloadHint.prop('hidden', true).text('');
         }
 
         $panel.prop('hidden', !needsNotice);
@@ -587,19 +628,48 @@
 
                     var strings = getStringsForLocale(locale);
                     var message = strings.wp_language_pack_installed || '';
+                    var pack = response && response.data && response.data.languagePack
+                        ? response.data.languagePack
+                        : null;
 
                     if (response && response.data) {
                         applySettingsNonce(response.data);
-
-                        if (response.data.languagePack) {
-                            updateLanguagePackNotice(locale, response.data.languagePack);
-                        }
-
-                        if (response.data.message) {
-                            message = response.data.message;
-                        }
                     }
 
+                    if (!response || !response.success) {
+                        var errorMessage = response && response.data && response.data.message
+                            ? response.data.message
+                            : (strings.wp_language_pack_install_error || strings.error);
+
+                        if (pack) {
+                            updateLanguagePackNotice(locale, pack);
+                        } else {
+                            updateLanguagePackNotice(locale);
+                        }
+
+                        setStatus(errorMessage, 'error');
+                        return;
+                    }
+
+                    if (pack) {
+                        pack.just_installed = true;
+                        updateLanguagePackNotice(locale, pack);
+                        message = (strings.wp_language_pack_installed || message).replace(
+                            '%s',
+                            pack.label || locale
+                        );
+                    }
+
+                    if (response.data && response.data.message) {
+                        message = response.data.message;
+                    }
+
+                    if (strings.wp_language_pack_reload_hint) {
+                        message = message + ' ' + strings.wp_language_pack_reload_hint;
+                    }
+
+                    updateReloadButton(locale);
+                    showReloadButton();
                     setStatus(message, 'success');
                 }, 350);
             })
@@ -621,6 +691,12 @@
 
                 setStatus(message, 'error');
             });
+    });
+
+    $('#breakdance-languages-wp-language-pack-reload').on('click', function (event) {
+        event.preventDefault();
+        broadcastLocaleChange({ forceReload: true, languagePackInstalled: true });
+        forceReloadPage();
     });
 
     if ($select.length) {

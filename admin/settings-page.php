@@ -239,6 +239,14 @@ function breakdance_languages_render_settings_page(): void
                     >
                         <?php echo esc_html($ui_strings['wp_language_pack_install_button']); ?>
                     </button>
+                    <button
+                        type="button"
+                        class="button button-primary"
+                        id="breakdance-languages-wp-language-pack-reload"
+                        hidden
+                    >
+                        <?php echo esc_html($ui_strings['wp_language_pack_reload'] ?? $ui_strings['refresh']); ?>
+                    </button>
                     <span
                         id="breakdance-languages-wp-language-pack-manual"
                         class="description"
@@ -246,6 +254,13 @@ function breakdance_languages_render_settings_page(): void
                     >
                         <?php echo esc_html($ui_strings['wp_language_pack_manual_hint']); ?>
                     </span>
+                </p>
+                <p
+                    id="breakdance-languages-wp-language-pack-reload-hint"
+                    class="description"
+                    hidden
+                >
+                    <?php echo esc_html($ui_strings['wp_language_pack_reload_hint'] ?? ''); ?>
                 </p>
                 <div id="breakdance-languages-wp-language-pack-progress" hidden>
                     <div class="bdl-gemini-loader" aria-hidden="true">

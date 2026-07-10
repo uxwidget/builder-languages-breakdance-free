@@ -1,5 +1,11 @@
 # Builder Languages for Breakdance — Changelog
 
+## ux-0.1.1
+
+- Após instalar o **pacote de idioma do WordPress** (não o idioma do Breakdance), a tela mostra o botão **Atualizar página** para recarregar o admin e aplicar as traduções.
+- O botão **Atualizar** ao lado do seletor do builder também fica visível nesse momento.
+- Manifesto `.update.blb` regenerado para `ux-0.1.1`.
+
 ## ux-0.1.0
 
 Release inicial comercializável (nome de exibição: **Builder Languages for Breakdance**).

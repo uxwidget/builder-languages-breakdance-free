@@ -193,7 +193,10 @@ function breakdance_languages_ajax_install_language_pack(): void
     wp_send_json_success(array_merge(
         [
             'message' => sprintf($ui_strings['wp_language_pack_installed'], $ui_strings['locale_labels'][$locale] ?? $locale),
-            'languagePack' => breakdance_languages_get_language_pack_context($locale),
+            'languagePack' => array_merge(
+                breakdance_languages_get_language_pack_context($locale),
+                ['just_installed' => true]
+            ),
         ],
         breakdance_languages_settings_ajax_nonce_payload()
     ));

@@ -203,6 +203,14 @@ html[dir="rtl"] .bdl-gemini-loader__bar,
 
 .breakdance-languages-wp-language-pack-actions {
     margin: 8px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+#breakdance-languages-wp-language-pack-reload-hint {
+    margin: 8px 0 0;
 }
 
 .breakdance-languages-license-actions__sep {

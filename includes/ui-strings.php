@@ -64,6 +64,8 @@ function breakdance_languages_settings_ui_catalog(): array
             'wp_language_pack_installed_short' => 'Installation complete.',
             'wp_language_pack_install_error' => 'Could not install the WordPress language pack. Check your connection or install it manually under Dashboard → Updates → Translations.',
             'wp_language_pack_manual_hint' => 'Ask an administrator to install the language under Dashboard → Updates → Translations, or Users → Profile → Language.',
+            'wp_language_pack_reload' => 'Refresh page',
+            'wp_language_pack_reload_hint' => 'Click “Refresh page” to apply the WordPress admin language.',
         ],
         'en_GB' => [
             'loading' => 'Applying language...',
@@ -156,6 +158,8 @@ function breakdance_languages_settings_ui_catalog(): array
             'wp_language_pack_installed_short' => 'Instalação concluída.',
             'wp_language_pack_install_error' => 'Não foi possível instalar o pacote de idioma do WordPress. Verifique a conexão ou instale manualmente em Painel → Atualizações → Traduções.',
             'wp_language_pack_manual_hint' => 'Peça a um administrador para instalar o idioma em Painel → Atualizações → Traduções, ou em Usuários → Perfil → Idioma.',
+            'wp_language_pack_reload' => 'Atualizar página',
+            'wp_language_pack_reload_hint' => 'Clique em “Atualizar página” para aplicar o idioma do admin WordPress.',
         ],
         'pt_PT' => [
             'loading' => 'A aplicar idioma...',
@@ -195,6 +199,8 @@ function breakdance_languages_settings_ui_catalog(): array
             'wp_language_pack_installing' => 'A instalar idioma do WordPress...',
             'wp_language_pack_install_error' => 'Não foi possível instalar o pacote de idioma do WordPress. Verifique a ligação ou instale manualmente em Painel → Atualizações → Traduções.',
             'wp_language_pack_manual_hint' => 'Peça a um administrador para instalar o idioma em Painel → Atualizações → Traduções, ou em Utilizadores → Perfil → Idioma.',
+            'wp_language_pack_reload' => 'Atualizar página',
+            'wp_language_pack_reload_hint' => 'Clique em “Atualizar página” para aplicar o idioma do admin WordPress.',
         ],
         'fr_FR' => [
             'loading' => 'Application de la langue...',
@@ -361,6 +367,8 @@ function breakdance_languages_settings_ui_catalog(): array
             'wp_language_pack_installed_short' => 'Installazione completata.',
             'wp_language_pack_install_error' => 'Impossibile installare il pacchetto lingua WordPress. Controlla la connessione o installalo manualmente da Bacheca → Aggiornamenti → Traduzioni.',
             'wp_language_pack_manual_hint' => 'Chiedi a un amministratore di installare la lingua da Bacheca → Aggiornamenti → Traduzioni, o da Utenti → Profilo → Lingua.',
+            'wp_language_pack_reload' => 'Aggiorna pagina',
+            'wp_language_pack_reload_hint' => 'Fai clic su “Aggiorna pagina” per applicare la lingua dell’admin WordPress.',
         ],
         'ar' => [
             'loading' => 'جارٍ تطبيق اللغة...',
