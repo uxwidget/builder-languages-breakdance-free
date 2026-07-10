@@ -1,5 +1,10 @@
 # Builder Languages for Breakdance — Changelog
 
+## ux-0.1.3
+
+- Tela **Breakdance → Languages** passa a exibir os textos do próprio plugin no idioma escolhido (inclui Hindi e demais locales que caíam em inglês).
+- Catálogo movido para `config/settings-ui-strings.json` (18 locales).
+
 ## ux-0.1.2
 
 - Traduz categorias do painel Adicionar elementos (`Basic`, `Blocks`, `Site`, `Advanced`, `Dynamic`, `Forms`, `Other`) em **todos** os idiomas de produto.
