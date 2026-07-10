@@ -272,8 +272,8 @@ msgid ""
 "%1$spotential security implications%2$s. If in doubt, use a plugin like "
 "%3$sSafe SVG%4$s instead of this option."
 msgstr ""
-"SVG 업로드를 허용하는 것은 위험할 수 있으므로 %1$잠재적인 보안 영향%2$s을 이해해야 합니다. 의심스러운 경우 이 옵션 대신 "
-"%3$sSafe SVG%4$s와 같은 플러그인을 사용하세요."
+"SVG 업로드를 허용하는 것은 위험할 수 있으므로 %1$s잠재적인 보안 영향%2$s을 이해해야 합니다. 의심스러운 경우 이 옵션 대신 "
+"%3$s Safe SVG %4$s와 같은 플러그인을 사용하세요."
 
 #. translators: 1: Filter name in <code> tags, 2: Plugin name
 #: plugin/admin/settings-page/tabs/advanced.php:143
@@ -293,7 +293,7 @@ msgid ""
 "implications%5$s."
 msgstr ""
 "기본적으로 %1$s는 %1$s가 디자인한 콘텐츠에 %2$s 필터를 적용하지 않습니다. 이 옵션을 활성화하면 %1$s가 %1$s로 생성된 "
-"단일 콘텐츠에서 %3$s를 실행하도록 할 수 있지만 %4$잠재적인 보안 영향%5$s을 이해해야 합니다."
+"단일 콘텐츠에서 %3$s를 실행하도록 할 수 있지만 %4$s잠재적인 보안 영향%5$s을 이해해야 합니다."
 
 #: plugin/admin/settings-page/tabs/advanced.php:161
 msgid "Allow unfiltered HTML in all dynamic data output"
@@ -313,8 +313,8 @@ msgid ""
 "the %3$s capability. You can disable this if you understand the "
 "%4$spotential security implications%5$s."
 msgstr ""
-"기본적으로 %1$s는 작성자가 %3$s 기능이 부족한 게시물의 필드에 %2$s를 적용합니다. %4$잠재적인 보안 영향%5$s을 이해했다면"
-" 이 기능을 비활성화할 수 있습니다."
+"기본적으로 %1$s는 작성자가 %3$s 기능이 부족한 게시물의 필드에 %2$s를 적용합니다. %4$s잠재적인 보안 영향%5$s을 "
+"이해했다면 이 기능을 비활성화할 수 있습니다."
 
 #: plugin/admin/settings-page/tabs/advanced.php:178
 msgid "Enable rendering performance debugger"
@@ -581,7 +581,7 @@ msgstr "예, %s 개선에 도움을 주고 싶습니다."
 msgid ""
 "By allowing us to %1$scollect usage data%2$s, you help us make %3$s better "
 "for everyone."
-msgstr "%1$사용 데이터 수집%2$s을 허용하면 모든 사람을 위해 %3$s를 더 나은 곳으로 만드는 데 도움이 됩니다."
+msgstr "%1$s사용 데이터 수집%2$s을 허용하면 모든 사람을 위해 %3$s를 더 나은 곳으로 만드는 데 도움이 됩니다."
 
 #: plugin/ajax/api.php:29
 msgid "You must specify the minimum permissions to access your AJAX action."
@@ -630,8 +630,8 @@ msgid ""
 "AJAX callbacks should return an associative array ([\"key\" => \"value\") or"
 " a blank array ([]). Got %1$s for route \"%2$s\""
 msgstr ""
-"AJAX 콜백은 연관 배열([\"key\" => \"value\") 또는 빈 배열([])을 반환해야 합니다. \" %2$s\" 경로에 "
-"대해 %1$s을(를) 받았습니다."
+"AJAX 콜백은 연관 배열([\"key\" => \"value\") 또는 빈 배열([])을 반환해야 합니다. \"%2$s\" 경로에 대해"
+" %1$s을(를) 받았습니다."
 
 #: plugin/ajax/api.php:145
 msgid ""
@@ -1115,7 +1115,7 @@ msgstr "이 옵션은 <head>에서 RSS 피드 정보를 제거합니다. RSS 피
 #: plugin/blocks/ajax_save_block.php:98
 #, php-format
 msgid "Failed to save %1$s \"%2$s\""
-msgstr "%1$s \"%2$s\"을(를) 저장하지 못했습니다."
+msgstr "%1$s\"%2$s\"을(를) 저장하지 못했습니다."
 
 #. translators: %s: Template ID
 #: plugin/blocks/ajax_save_block.php:129
@@ -3982,7 +3982,7 @@ msgstr "예, Breakdance 개선을 돕고 싶습니다."
 msgid ""
 "By allowing us to %1$scollect usage data%2$s, you help us make Breakdance "
 "better for everyone."
-msgstr "%1$사용 데이터 수집%2$s을 허용하시면 모든 사람을 위해 더 나은 Breakdance를 만드는 데 도움이 됩니다."
+msgstr "%1$s사용 데이터 수집%2$s을 허용하시면 모든 사람을 위해 더 나은 Breakdance를 만드는 데 도움이 됩니다."
 
 #: plugin/setup-wizard/setup-wizard-page.php:285
 msgid "You can change this at any time from Breakdance → Settings → Privacy"
@@ -4111,7 +4111,7 @@ msgstr "전체 재설정이 성공했습니다."
 #: plugin/setup/settings-page.php:146
 #, php-format
 msgid "Failed to create directories. %s"
-msgstr "디렉터리를 생성하지 못했습니다. %에스"
+msgstr "디렉터리를 생성하지 못했습니다. %s"
 
 #: plugin/setup/settings-page.php:148
 msgid "All directories have been successfully created."

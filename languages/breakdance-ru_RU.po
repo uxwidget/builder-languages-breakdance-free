@@ -282,8 +282,8 @@ msgid ""
 "%3$sSafe SVG%4$s instead of this option."
 msgstr ""
 "Разрешение загрузки SVG может быть опасным, и вы должны понимать "
-"%1$потенциальные последствия для безопасности%2$s. Если вы сомневаетесь, "
-"используйте вместо этого плагин, например %3$sSafe SVG%4$s."
+"%1$sпотенциальные последствия для безопасности%2$s. Если вы сомневаетесь, "
+"используйте вместо этого плагин, например %3$s Safe SVG %4$s."
 
 #. translators: 1: Filter name in <code> tags, 2: Plugin name
 #: plugin/admin/settings-page/tabs/advanced.php:143
@@ -304,8 +304,8 @@ msgid ""
 msgstr ""
 "По умолчанию %1$s не применяет фильтр %2$s к содержимому, созданному %1$s. "
 "Вы можете включить эту опцию, чтобы %1$s запускал %3$s для отдельного "
-"контента, созданного с помощью %1$s, но вы должны понимать %4$потенциальные "
-"последствия для безопасности%5$s."
+"контента, созданного с помощью %1$s, но вы должны понимать %4$sпотенциальные"
+" последствия для безопасности%5$s."
 
 #: plugin/admin/settings-page/tabs/advanced.php:161
 msgid "Allow unfiltered HTML in all dynamic data output"
@@ -326,7 +326,7 @@ msgid ""
 "%4$spotential security implications%5$s."
 msgstr ""
 "По умолчанию %1$s применяет %2$s к полям в сообщениях, у автора которых нет "
-"возможности %3$s. Вы можете отключить это, если понимаете %4$потенциальные "
+"возможности %3$s. Вы можете отключить это, если понимаете %4$sпотенциальные "
 "последствия для безопасности%5$s."
 
 #: plugin/admin/settings-page/tabs/advanced.php:178
@@ -498,7 +498,7 @@ msgid ""
 "Visit %1$sbreakdance.com%2$s to purchase a license key. Already purchased? "
 "Find your license key in the %3$scustomer portal%4$s."
 msgstr ""
-"Посетите %1$sbreakdance.com%2$s, чтобы приобрести лицензионный ключ. Уже "
+"Посетите %1$s breakdance.com %2$s, чтобы приобрести лицензионный ключ. Уже "
 "купили? Найдите свой лицензионный ключ на клиентском портале %3$%4$s."
 
 #. translators: 1: Opening <a> tag for oxygenbuilder.com, 2: Closing </a> tag,
@@ -509,8 +509,8 @@ msgid ""
 "Visit %1$soxygenbuilder.com%2$s to purchase a license key. Already "
 "purchased? Find your license key in the %3$scustomer portal%4$s."
 msgstr ""
-"Посетите %1$soxygenbuilder.com%2$s, чтобы приобрести лицензионный ключ. Уже "
-"купили? Найдите свой лицензионный ключ на клиентском портале %3$%4$s."
+"Посетите %1$s oxygenbuilder.com %2$s, чтобы приобрести лицензионный ключ. "
+"Уже купили? Найдите свой лицензионный ключ на клиентском портале %3$%4$s."
 
 #: plugin/admin/settings-page/tabs/license.php:156
 msgid "Beta Versions"
@@ -1164,7 +1164,7 @@ msgstr ""
 #: plugin/blocks/ajax_save_block.php:98
 #, php-format
 msgid "Failed to save %1$s \"%2$s\""
-msgstr "Не удалось сохранить %1$s \"%2$s\""
+msgstr "Не удалось сохранить %1$s\"%2$s\""
 
 #. translators: %s: Template ID
 #: plugin/blocks/ajax_save_block.php:129

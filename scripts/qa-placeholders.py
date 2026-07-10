@@ -20,9 +20,25 @@ SUPPORTED_LOCALES = locale_config.locale_codes()
 RELEASE_GATE_LOCALES = locale_config.release_gate_locales()
 
 PLACEHOLDER = r"(?<!%)%(?!%)(?:\d+\$)?[sd]"
-BAD_AFTER = re.compile(PLACEHOLDER + r"(?=[^\s<,.;:!?)\]\}/'\"])")
-BAD_BEFORE = re.compile(r"(?<=[^\s(<>\[{/='\"])" + PLACEHOLDER)
+
+# Typographic quotes + CJK/fullwidth punctuation + compounds are valid flush against placeholders.
+OK_AFTER = (
+    r"\s<,.;:!?…)\]\}/'\"“”„‚«»『』「」‹›。"
+    r"、！？：；）】》〉，．％\-–—"
+)
+OK_BEFORE = (
+    r"\s(<>\[{/='\"“”„‚«»『』「」‹›（【《〈¡¿°"
+    r"、，．\-–—"
+)
+
+BAD_AFTER = re.compile(PLACEHOLDER + rf"(?=[^{OK_AFTER}])")
+BAD_BEFORE = re.compile(rf"(?<=[^{OK_BEFORE}])" + PLACEHOLDER)
 UNIT_AFTER = re.compile(PLACEHOLDER + r"(?=(?:px|em|rem|vh|vw|%)\b)", re.IGNORECASE)
+
+# Hangul / Hiragana / Katakana / CJK Unified / Devanagari — normal to sit next to %s
+CJK_CHAR = re.compile(
+    r"[\u0900-\u097F\u1100-\u11FF\u3040-\u30FF\u3400-\u4DBF\u4E00-\u9FFF\uAC00-\uD7AF]"
+)
 
 
 def source_uses_compact_placeholder(source: str, placeholder: str) -> bool:
@@ -32,6 +48,17 @@ def source_uses_compact_placeholder(source: str, placeholder: str) -> bool:
         re.search(escaped + r"(?=[A-Za-z])", source)
         or re.search(r"(?<=[A-Za-z])" + escaped, source)
     )
+
+
+def adjacent_is_cjk(value: str, index: int, side: str) -> bool:
+    """CJK scripts correctly omit spaces around placeholders."""
+    if side == "after":
+        if index >= len(value):
+            return False
+        return bool(CJK_CHAR.match(value[index]))
+    if index <= 0:
+        return False
+    return bool(CJK_CHAR.match(value[index - 1]))
 
 
 def scan_po(path: Path) -> list[tuple[int, str, str]]:
@@ -57,12 +84,14 @@ def scan_po(path: Path) -> list[tuple[int, str, str]]:
                 for match in BAD_AFTER.finditer(value)
                 if not UNIT_AFTER.match(value, match.start())
                 and not source_uses_compact_placeholder(entry.msgid, match.group(0))
+                and not adjacent_is_cjk(value, match.end(), "after")
             ]
             suspicious_before = [
                 match
                 for match in BAD_BEFORE.finditer(value)
                 if value[match.start() - 1 : match.start()] != "#"
                 and not source_uses_compact_placeholder(entry.msgid, match.group(0))
+                and not adjacent_is_cjk(value, match.start(), "before")
             ]
 
             if suspicious_after or suspicious_before:

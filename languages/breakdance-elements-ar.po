@@ -3474,7 +3474,7 @@ msgstr "مخرج الطاقة 4"
 #: elements/Popup/element.php:234 elements/Popup/element.php:274
 msgctxt "Item text"
 msgid "Power4 InOut"
-msgstr "Power4 في ​​الخارج"
+msgstr "Power4 في الخارج"
 
 #: elements/Popup/element.php:234 elements/Popup/element.php:274
 msgctxt "Item text"

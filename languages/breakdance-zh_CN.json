@@ -130,7 +130,7 @@
         "404 未找到"
       ],
       "A %s with the title \"%s\" already exists. Please select another title.": [
-        "标题为“ %s ”的 %s 已存在。请选择其他标题。"
+        "标题为“%s”的 %s 已存在。请选择其他标题。"
       ],
       "A 403 error is almost caused by your host, firewall, or CDN blocking the request": [
         "403错误几乎是由您的主机、防火墙或CDN阻止请求引起的"
@@ -1369,7 +1369,7 @@
         "错误详细信息"
       ],
       "Error importing %s for \"%s\"": [
-        "为“ %s ”导入 %s 时出错"
+        "为“%s”导入 %s 时出错"
       ],
       "Error importing %s.": [
         "导入 %s 时出错。"
@@ -1720,7 +1720,7 @@
         "导入设置"
       ],
       "Imported %s from \"%s\"": [
-        "已从“ %s ”导入 %s"
+        "已从“%s”导入 %s"
       ],
       "Imported Design Presets from \"%s\"": [
         "从“%s”导入设计预设"

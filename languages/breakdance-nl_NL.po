@@ -280,9 +280,9 @@ msgid ""
 "%1$spotential security implications%2$s. If in doubt, use a plugin like "
 "%3$sSafe SVG%4$s instead of this option."
 msgstr ""
-"Het toestaan ​​van SVG-uploads kan gevaarlijk zijn en u moet de "
-"%1$potentiële beveiligingsimplicaties%2$s begrijpen. Gebruik bij twijfel een"
-" plug-in zoals %3$sSafe SVG%4$s in plaats van deze optie."
+"Het toestaan ​​van SVG-uploads kan gevaarlijk zijn en u moet de %1$s "
+"potentiële beveiligingsimplicaties %2$s begrijpen. Gebruik bij twijfel een "
+"plug-in zoals %3$s Safe SVG %4$s in plaats van deze optie."
 
 #. translators: 1: Filter name in <code> tags, 2: Plugin name
 #: plugin/admin/settings-page/tabs/advanced.php:143
@@ -303,8 +303,8 @@ msgid ""
 msgstr ""
 "Standaard past %1$s het filter %2$s niet toe op door %1$s ontworpen inhoud. "
 "Je kunt deze optie inschakelen om %1$s %3$s te laten uitvoeren op unieke "
-"inhoud die is gemaakt met %1$s, maar je moet wel de %4$potentiële "
-"beveiligingsimplicaties%5$s begrijpen."
+"inhoud die is gemaakt met %1$s, maar je moet wel de %4$s potentiële "
+"beveiligingsimplicaties %5$s begrijpen."
 
 #: plugin/admin/settings-page/tabs/advanced.php:161
 msgid "Allow unfiltered HTML in all dynamic data output"
@@ -325,8 +325,8 @@ msgid ""
 "%4$spotential security implications%5$s."
 msgstr ""
 "Standaard past %1$s %2$s toe op velden in berichten met een auteur die de "
-"%3$s-mogelijkheid niet heeft. U kunt dit uitschakelen als u de %4$potentiële"
-" gevolgen voor de veiligheid%5$s begrijpt."
+"%3$s-mogelijkheid niet heeft. U kunt dit uitschakelen als u de %4$s "
+"potentiële gevolgen voor de veiligheid %5$s begrijpt."
 
 #: plugin/admin/settings-page/tabs/advanced.php:178
 msgid "Enable rendering performance debugger"
@@ -1160,7 +1160,7 @@ msgstr ""
 #: plugin/blocks/ajax_save_block.php:98
 #, php-format
 msgid "Failed to save %1$s \"%2$s\""
-msgstr "Kan %1$s \"%2$s\" niet opslaan"
+msgstr "Kan %1$s\"%2$s\" niet opslaan"
 
 #. translators: %s: Template ID
 #: plugin/blocks/ajax_save_block.php:129
@@ -5340,7 +5340,7 @@ msgstr ""
 #: plugin/woocommerce/utils.php:20
 #, php-format
 msgid "No page has been set as the <b>WooCommerce %s Page</b>."
-msgstr "Er is geen pagina ingesteld als <b>WooCommerce %s -pagina</b>."
+msgstr "Er is geen pagina ingesteld als <b>WooCommerce %s-pagina</b>."
 
 #. translators: %1$s is the WooCommerce page label, %2$s is the page title,
 #. %3$d is the page ID
@@ -5349,7 +5349,7 @@ msgstr "Er is geen pagina ingesteld als <b>WooCommerce %s -pagina</b>."
 msgid ""
 "The <b>WooCommerce %1$s Page</b> is currently set to <b>%2$s (ID: %3$d)</b>."
 msgstr ""
-"De <b>WooCommerce %1$s -pagina</b> is momenteel ingesteld op <b>%2$s (ID: "
+"De <b>WooCommerce %1$s-pagina</b> is momenteel ingesteld op <b>%2$s (ID: "
 "%3$d)</b>."
 
 #: plugin/woocommerce/widgets/woo_filters.php:22

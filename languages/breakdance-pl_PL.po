@@ -280,8 +280,8 @@ msgid ""
 "%3$sSafe SVG%4$s instead of this option."
 msgstr ""
 "Zezwolenie na przesyłanie plików SVG może być niebezpieczne i powinieneś "
-"zrozumieć %1$potencjalne skutki dla bezpieczeństwa%2$s. W razie wątpliwości "
-"użyj wtyczki takiej jak %3$sSafe SVG%4$s zamiast tej opcji."
+"zrozumieć %1$s potencjalne skutki dla bezpieczeństwa %2$s. W razie "
+"wątpliwości użyj wtyczki takiej jak %3$s Safe SVG %4$s zamiast tej opcji."
 
 #. translators: 1: Filter name in <code> tags, 2: Plugin name
 #: plugin/admin/settings-page/tabs/advanced.php:143
@@ -326,8 +326,8 @@ msgid ""
 "%4$spotential security implications%5$s."
 msgstr ""
 "Domyślnie %1$s stosuje %2$s do pól w postach, których autor nie ma "
-"możliwości %3$s. Możesz to wyłączyć, jeśli rozumiesz %4$potencjalne skutki "
-"dla bezpieczeństwa%5$s."
+"możliwości %3$s. Możesz to wyłączyć, jeśli rozumiesz %4$s potencjalne skutki"
+" dla bezpieczeństwa %5$s."
 
 #: plugin/admin/settings-page/tabs/advanced.php:178
 msgid "Enable rendering performance debugger"
@@ -497,8 +497,8 @@ msgid ""
 "Visit %1$sbreakdance.com%2$s to purchase a license key. Already purchased? "
 "Find your license key in the %3$scustomer portal%4$s."
 msgstr ""
-"Odwiedź %1$sbreakdance.com%2$s, aby kupić klucz licencyjny. Już kupiłeś? "
-"Znajdź swój klucz licencyjny w portalu %3$customer%4$s."
+"Odwiedź %1$s breakdance.com %2$s, aby kupić klucz licencyjny. Już kupiłeś? "
+"Znajdź swój klucz licencyjny w portalu %3$s customer %4$s."
 
 #. translators: 1: Opening <a> tag for oxygenbuilder.com, 2: Closing </a> tag,
 #. 3: Opening <a> tag for customer portal, 4: Closing </a> tag
@@ -508,8 +508,8 @@ msgid ""
 "Visit %1$soxygenbuilder.com%2$s to purchase a license key. Already "
 "purchased? Find your license key in the %3$scustomer portal%4$s."
 msgstr ""
-"Odwiedź %1$soxygenbuilder.com%2$s, aby kupić klucz licencyjny. Już kupiłeś? "
-"Znajdź swój klucz licencyjny w portalu %3$customer%4$s."
+"Odwiedź %1$s oxygenbuilder.com %2$s, aby kupić klucz licencyjny. Już "
+"kupiłeś? Znajdź swój klucz licencyjny w portalu %3$s customer %4$s."
 
 #: plugin/admin/settings-page/tabs/license.php:156
 msgid "Beta Versions"

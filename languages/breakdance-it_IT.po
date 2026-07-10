@@ -281,8 +281,8 @@ msgid ""
 "%3$sSafe SVG%4$s instead of this option."
 msgstr ""
 "Consentire il caricamento di SVG può essere pericoloso e dovresti "
-"comprendere le %1$spotenziali implicazioni sulla sicurezza%2$s. In caso di "
-"dubbi, utilizza un plugin come %3$sSafe SVG%4$s invece di questa opzione."
+"comprendere le %1$s potenziali implicazioni sulla sicurezza %2$s. In caso di"
+" dubbi, utilizza un plugin come %3$s Safe SVG %4$s invece di questa opzione."
 
 #. translators: 1: Filter name in <code> tags, 2: Plugin name
 #: plugin/admin/settings-page/tabs/advanced.php:143
@@ -304,7 +304,7 @@ msgstr ""
 "Per impostazione predefinita, %1$s non applica il filtro %2$s al contenuto "
 "progettato da %1$s. Puoi abilitare questa opzione per fare in modo che %1$s "
 "esegua %3$s su singoli contenuti creati con %1$s, ma dovresti comprendere le"
-" %4$spotenziali implicazioni sulla sicurezza%5$s."
+" %4$s potenziali implicazioni sulla sicurezza %5$s."
 
 #: plugin/admin/settings-page/tabs/advanced.php:161
 msgid "Allow unfiltered HTML in all dynamic data output"
@@ -326,7 +326,7 @@ msgid ""
 msgstr ""
 "Per impostazione predefinita, %1$s applica %2$s ai campi sui post con un "
 "autore che non dispone della funzionalità %3$s. Puoi disabilitarlo se "
-"comprendi le %4$spotenziali implicazioni sulla sicurezza%5$s."
+"comprendi le %4$s potenziali implicazioni sulla sicurezza %5$s."
 
 #: plugin/admin/settings-page/tabs/advanced.php:178
 msgid "Enable rendering performance debugger"
@@ -340,7 +340,7 @@ msgid ""
 " intended for debugging only. It is recommended to enable it while "
 "troubleshooting and disable it afterward to avoid unnecessary overhead."
 msgstr ""
-"Utilizza %1$sServer Timing API%2$s per controllare le prestazioni di "
+"Utilizza %1$s Server Timing API %2$s per controllare le prestazioni di "
 "rendering. Questa opzione è destinata solo al debug. Si consiglia di "
 "attivarlo durante la risoluzione dei problemi e di disattivarlo "
 "successivamente per evitare inutili spese generali."
@@ -497,8 +497,8 @@ msgid ""
 "Visit %1$sbreakdance.com%2$s to purchase a license key. Already purchased? "
 "Find your license key in the %3$scustomer portal%4$s."
 msgstr ""
-"Visita %1$sbreakdance.com%2$s per acquistare una chiave di licenza. Già "
-"acquistato? Trova la chiave di licenza nel %3$sportale clienti%4$s."
+"Visita %1$s breakdance.com %2$s per acquistare una chiave di licenza. Già "
+"acquistato? Trova la chiave di licenza nel %3$s portale clienti %4$s."
 
 #. translators: 1: Opening <a> tag for oxygenbuilder.com, 2: Closing </a> tag,
 #. 3: Opening <a> tag for customer portal, 4: Closing </a> tag
@@ -508,8 +508,8 @@ msgid ""
 "Visit %1$soxygenbuilder.com%2$s to purchase a license key. Already "
 "purchased? Find your license key in the %3$scustomer portal%4$s."
 msgstr ""
-"Visita %1$soxygenbuilder.com%2$s per acquistare una chiave di licenza. Già "
-"acquistato? Trova la chiave di licenza nel %3$sportale clienti%4$s."
+"Visita %1$s oxygenbuilder.com %2$s per acquistare una chiave di licenza. Già"
+" acquistato? Trova la chiave di licenza nel %3$s portale clienti %4$s."
 
 #: plugin/admin/settings-page/tabs/license.php:156
 msgid "Beta Versions"
@@ -607,8 +607,8 @@ msgid ""
 "By allowing us to %1$scollect usage data%2$s, you help us make %3$s better "
 "for everyone."
 msgstr ""
-"Permettendoci di %1$raccogliere dati sull'utilizzo%2$s, ci aiuti a rendere "
-"%3$s migliore per tutti."
+"Permettendoci di %1$s raccogliere dati sull'utilizzo %2$s, ci aiuti a "
+"rendere %3$s migliore per tutti."
 
 #: plugin/ajax/api.php:29
 msgid "You must specify the minimum permissions to access your AJAX action."
@@ -1163,7 +1163,7 @@ msgstr ""
 #: plugin/blocks/ajax_save_block.php:98
 #, php-format
 msgid "Failed to save %1$s \"%2$s\""
-msgstr "Impossibile salvare %1$s \"%2$s\""
+msgstr "Impossibile salvare %1$s\"%2$s\""
 
 #. translators: %s: Template ID
 #: plugin/blocks/ajax_save_block.php:129
@@ -4035,8 +4035,8 @@ msgid ""
 "Read the %1$sBreakdance AnalyticsWP integration documentation%2$s or visit "
 "the %3$sAnalyticsWP Plugin Homepage%4$s for more information."
 msgstr ""
-"Leggi la documentazione sull'integrazione di %1$sBreakdance AnalyticsWP%2$s "
-"o visita la home page del plug-in %3$sAnalyticsWP%4$s per ulteriori "
+"Leggi la documentazione sull'integrazione di %1$s Breakdance AnalyticsWP "
+"%2$s o visita la home page del plug-in %3$s AnalyticsWP %4$s per ulteriori "
 "informazioni."
 
 #: plugin/setup-wizard/setup-wizard-page.php:262
@@ -4062,8 +4062,8 @@ msgid ""
 "By allowing us to %1$scollect usage data%2$s, you help us make Breakdance "
 "better for everyone."
 msgstr ""
-"Permettendoci di %1$raccogliere dati di utilizzo%2$s, ci aiuti a rendere la "
-"Breakdance migliore per tutti."
+"Permettendoci di %1$sraccogliere dati di utilizzo %2$s, ci aiuti a rendere "
+"la Breakdance migliore per tutti."
 
 #: plugin/setup-wizard/setup-wizard-page.php:285
 msgid "You can change this at any time from Breakdance → Settings → Privacy"
@@ -5144,7 +5144,7 @@ msgid ""
 "overriding plugin templates, and functions.php."
 msgstr ""
 "Hai bisogno di aiuto per scegliere un tema? Utilizza %1$sBreakdance Zero "
-"Theme%2$s, un tema completamente vuoto progettato per Breakdance con "
+"Theme %2$s, un tema completamente vuoto progettato per Breakdance con "
 "supporto per temi secondari, sovrascrittura dei modelli di plug-in e "
 "funzioni.php."
 
@@ -5167,7 +5167,7 @@ msgid ""
 " impact on your site's performance or appearance."
 msgstr ""
 "Hai disabilitato completamente il sistema dei temi WordPress su "
-"%1$sBreakdance &raquo; Impostazioni &raquo; Tema%2$s. Il tema attivo non "
+"%1$sBreakdance &raquo; Impostazioni &raquo; Tema %2$s. Il tema attivo non "
 "verrà mai caricato e non ha alcun impatto sulle prestazioni o sull'aspetto "
 "del tuo sito."
 

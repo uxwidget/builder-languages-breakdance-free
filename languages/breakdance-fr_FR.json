@@ -130,7 +130,7 @@
         "404 introuvable"
       ],
       "A %s with the title \"%s\" already exists. Please select another title.": [
-        "Un %s portant le titre « %s » existe déjà. Veuillez sélectionner un autre titre."
+        "Un %s portant le titre «%s» existe déjà. Veuillez sélectionner un autre titre."
       ],
       "A 403 error is almost caused by your host, firewall, or CDN blocking the request": [
         "Une erreur 403 est presque causée par le blocage de la requête par votre hôte, votre pare-feu ou votre CDN."
@@ -1753,7 +1753,7 @@
         "Importation du modèle avec l'ID \"%s\""
       ],
       "Importing the \"%s\" site": [
-        "Importation du site « %s »"
+        "Importation du site «%s»"
       ],
       "Importing the data": [
         "Importer les données"
@@ -3828,7 +3828,7 @@
         "Nouveau %s"
       ],
       "Global Blocks\u0004Deleted %s": [
-        "%ssupprimé"
+        "%s supprimé"
       ],
       "Global Settings\u0004Search results for \"%s\"": [
         "Résultats de recherche pour \"%s\""
@@ -3864,7 +3864,7 @@
         "Nouveau %s"
       ],
       "Templates\u0004Deleted %s": [
-        "%ssupprimé"
+        "%s supprimé"
       ],
       "Templates\u0004No %s found.": [
         "Aucun %s trouvé."

@@ -46,7 +46,7 @@ msgid ""
 "%1$s requires PHP of version >= %2$s and is unable to run with the version "
 "installed on this server (%3$s). Please switch to a modern web host."
 msgstr ""
-"يتطلب%1$s إصدار PHP >= %2$s وهو غير قادر على التشغيل مع الإصدار المثبت على "
+"يتطلب %1$s إصدار PHP >= %2$s وهو غير قادر على التشغيل مع الإصدار المثبت على "
 "هذا الخادم (%3$s). يرجى التبديل إلى مضيف ويب حديث."
 
 #. translators: %1$s: plugin name, %2$s: domain URL, %3$s: domain name
@@ -277,9 +277,9 @@ msgid ""
 "%1$spotential security implications%2$s. If in doubt, use a plugin like "
 "%3$sSafe SVG%4$s instead of this option."
 msgstr ""
-"قد يكون السماح بتحميلات SVG أمرًا خطيرًا، ويجب عليك فهم %1$sالتبعات الأمنية "
-"المحتملة%2$s. إذا كنت في شك، فاستخدم مكونًا إضافيًا مثل %3$s Safe SVG %4$s "
-"بدلاً من هذا الخيار."
+"قد يكون السماح بتحميلات SVG أمرًا خطيرًا، ويجب عليك فهم %1$s التبعات الأمنية"
+" المحتملة %2$s. إذا كنت في شك، فاستخدم مكونًا إضافيًا مثل %3$s Safe SVG %4$s"
+" بدلاً من هذا الخيار."
 
 #. translators: 1: Filter name in <code> tags, 2: Plugin name
 #: plugin/admin/settings-page/tabs/advanced.php:143
@@ -299,8 +299,8 @@ msgid ""
 "implications%5$s."
 msgstr ""
 "افتراضيًا، لا يطبق %1$s مرشح %2$s على المحتوى المصمم %1$s. يمكنك تمكين هذا "
-"الخيار لجعل %1$s يعمل %3$s على محتوى فردي تم إنشاؤه باستخدام %1$s، ولكن يجب "
-"أن تفهم الآثار الأمنية المحتملة %4$s %5$s."
+"الخيار لجعل %1$s يعمل %3$s على محتوى فردي تم إنشاؤه باستخدام %1$s ، ولكن يجب"
+" أن تفهم الآثار الأمنية المحتملة %4$s %5$s."
 
 #: plugin/admin/settings-page/tabs/advanced.php:161
 msgid "Allow unfiltered HTML in all dynamic data output"
@@ -320,7 +320,7 @@ msgid ""
 "the %3$s capability. You can disable this if you understand the "
 "%4$spotential security implications%5$s."
 msgstr ""
-"افتراضيًا، يطبق %1$s  %2$s على الحقول الموجودة في المنشورات ذات المؤلف الذي "
+"افتراضيًا، يطبق %1$s %2$s على الحقول الموجودة في المنشورات ذات المؤلف الذي "
 "يفتقر إلى إمكانية %3$s. يمكنك تعطيل هذا إذا فهمت الآثار الأمنية المحتملة "
 "%4$s %5$s."
 
@@ -559,7 +559,7 @@ msgid ""
 "tracking cookies necessary for this functionality. The %2$s and %3$s "
 "conditions will not work."
 msgstr ""
-"يوفر%1$s شروطًا لإظهار محتوى معين أو إخفائه بناءً على عرض الصفحة وعدد "
+"يوفر %1$s شروطًا لإظهار محتوى معين أو إخفائه بناءً على عرض الصفحة وعدد "
 "الجلسات. سيؤدي تمكين هذا الخيار إلى منع %1$s من تعيين ملفات تعريف الارتباط "
 "للتتبع اللازمة لهذه الوظيفة. لن تعمل شروط %2$s و %3$s."
 
@@ -596,8 +596,8 @@ msgid ""
 "By allowing us to %1$scollect usage data%2$s, you help us make %3$s better "
 "for everyone."
 msgstr ""
-"من خلال السماح لنا بجمع %1$sبيانات الاستخدام%2$s، فإنك تساعدنا في جعل %3$s "
-"أفضل للجميع."
+"من خلال السماح لنا بجمع %1$s بيانات الاستخدام %2$s ، فإنك تساعدنا في جعل "
+"%3$s أفضل للجميع."
 
 #: plugin/ajax/api.php:29
 msgid "You must specify the minimum permissions to access your AJAX action."
@@ -3130,13 +3130,13 @@ msgstr "يرجى إدخال عنوان بريد إلكتروني صالح."
 #: plugin/forms/custom/custom.php:506
 #, php-format
 msgid "%1$s may not have more than %2$s file(s)."
-msgstr "لا يجوز أن يحتوي%1$s على أكثر من %2$s ملف (ملفات)."
+msgstr "لا يجوز أن يحتوي %1$s على أكثر من %2$s ملف (ملفات)."
 
 #. translators: 1: Field label, 2: Maximum file size in megabytes
 #: plugin/forms/custom/custom.php:526
 #, php-format
 msgid "%1$s must be less than %2$s megabytes."
-msgstr "يجب أن يكون حجم%1$s أقل من %2$s ميغابايت."
+msgstr "يجب أن يكون حجم %1$s أقل من %2$s ميغابايت."
 
 #. translators: 1: Field label, 2: Allowed file types (comma-separated list)
 #: plugin/forms/custom/custom.php:532
@@ -4034,8 +4034,8 @@ msgid ""
 "By allowing us to %1$scollect usage data%2$s, you help us make Breakdance "
 "better for everyone."
 msgstr ""
-"من خلال السماح لنا بجمع بيانات الاستخدام%1$s، فإنك تساعدنا في جعل Breakdance"
-" أفضل للجميع."
+"من خلال السماح لنا بجمع بيانات الاستخدام %1$s ، فإنك تساعدنا في جعل "
+"Breakdance أفضل للجميع."
 
 #: plugin/setup-wizard/setup-wizard-page.php:285
 msgid "You can change this at any time from Breakdance → Settings → Privacy"
@@ -4055,7 +4055,7 @@ msgstr "ليست لديك الصلاحيات الكافية للوصول إلى 
 #: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:111
 #, php-format
 msgid "%s database has been updated successfully!"
-msgstr "تم تحديث قاعدة بيانات%s بنجاح!"
+msgstr "تم تحديث قاعدة بيانات %s بنجاح!"
 
 #. translators: %s is the plugin name (Breakdance or Oxygen)
 #: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:122
@@ -4070,7 +4070,7 @@ msgid ""
 "%s has been updated! The next step is to run the database updater to ensure "
 "that all data is migrated correctly."
 msgstr ""
-"تم تحديث%s! والخطوة التالية هي تشغيل أداة تحديث قاعدة البيانات للتأكد من "
+"تم تحديث %s! والخطوة التالية هي تشغيل أداة تحديث قاعدة البيانات للتأكد من "
 "ترحيل جميع البيانات بشكل صحيح."
 
 #: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:127
@@ -5098,8 +5098,8 @@ msgid ""
 "blank theme designed for Breakdance with support for child themes, "
 "overriding plugin templates, and functions.php."
 msgstr ""
-"هل تحتاج إلى مساعدة في اختيار الموضوع؟ استخدم %1$sBreakdance Zero Theme "
-"%2$s، وهي سمة فارغة تمامًا مصممة لـ Breakdance مع دعم السمات الفرعية وتجاوز "
+"هل تحتاج إلى مساعدة في اختيار الموضوع؟ استخدم %1$sBreakdance Zero Theme %2$s"
+" ، وهي سمة فارغة تمامًا مصممة لـ Breakdance مع دعم السمات الفرعية وتجاوز "
 "قوالب المكونات الإضافية وfunctions.php."
 
 #: plugin/themeless/theme-disabler/theme-disabler.php:21
@@ -5121,7 +5121,7 @@ msgid ""
 " impact on your site's performance or appearance."
 msgstr ""
 "لقد قمت بتعطيل نظام سمات WordPress بالكامل في "
-"%1$sBreakdance&raquo;الإعدادات&raquo;السمة%2$s. لن يتم تحميل المظهر النشط "
+"%1$sBreakdance&raquo;الإعدادات&raquo;السمة %2$s. لن يتم تحميل المظهر النشط "
 "مطلقًا وليس له أي تأثير على أداء موقعك أو مظهره."
 
 #: plugin/themeless/theme-simulator/broken-permalinks-warning.php:67

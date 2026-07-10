@@ -58,7 +58,7 @@
         "%s Editor"
       ],
       "%s Element": [
-        "%s -Element"
+        "%s-Element"
       ],
       "%s failed": [
         "%s fehlgeschlagen"
@@ -97,7 +97,7 @@
         "%s Selektoren importiert. Alle vorhandenen Selektoren wurden ersetzt."
       ],
       "%s Settings, and also import all Pages, Posts, and Templates from the design set.": [
-        "%s -Einstellungen und importieren Sie außerdem alle Seiten, Beiträge und Vorlagen aus dem Designsatz."
+        "%s-Einstellungen und importieren Sie außerdem alle Seiten, Beiträge und Vorlagen aus dem Designsatz."
       ],
       "%s variables imported. %s existing variables were kept.": [
         "%s Variablen importiert. %s vorhandene Variablen wurden beibehalten."
@@ -814,7 +814,7 @@
         "Lesen Sie unsere Anleitung zur Fehlerbehebung bei %s für den Fehlercode „403“%s, der Informationen enthält, die Ihr Host verwenden kann, um alle Anfragen von %s auf die Whitelist zu setzen."
       ],
       "Consult our %stroubleshooting guide for the \"500\" error code%s": [
-        "Informationen zum Fehlercode „500“ %sfinden Sie in unserer Anleitung zur Fehlerbehebung %s."
+        "Informationen zum Fehlercode „500“%sfinden Sie in unserer Anleitung zur Fehlerbehebung %s."
       ],
       "Contact": [
         "Kontakt"
@@ -1678,7 +1678,7 @@
         "Wenn"
       ],
       "If any code is present and the result returns a %s value the dependencies will be added.": [
-        "Wenn Code vorhanden ist und das Ergebnis einen %s -Wert zurückgibt, werden die Abhängigkeiten hinzugefügt."
+        "Wenn Code vorhanden ist und das Ergebnis einen %s-Wert zurückgibt, werden die Abhängigkeiten hinzugefügt."
       ],
       "If it returns %s no dependencies are added.": [
         "Wenn %s zurückgegeben wird, werden keine Abhängigkeiten hinzugefügt."
@@ -2236,7 +2236,7 @@
         "Versatz"
       ],
       "Oh no! Your server returned a %s error. 😢": [
-        "Oh nein! Ihr Server hat einen %s -Fehler zurückgegeben. 😢"
+        "Oh nein! Ihr Server hat einen %s-Fehler zurückgegeben. 😢"
       ],
       "on": [
         "An"
@@ -2257,7 +2257,7 @@
         "Öffnen"
       ],
       "Open %s Editor": [
-        "Öffnen Sie den %s -Editor"
+        "Öffnen Sie den %s-Editor"
       ],
       "Open add elements panel": [
         "Öffnen Sie den Bereich „Elemente hinzufügen“."
@@ -2509,7 +2509,7 @@
         "Beiträge pro Seite"
       ],
       "Posts with post type \"%s\" can't be edited with %s directly. Please use a %s Template instead.": [
-        "Beiträge mit dem Beitragstyp „%s“ können nicht direkt mit %s bearbeitet werden. Bitte verwenden Sie stattdessen eine %s -Vorlage."
+        "Beiträge mit dem Beitragstyp „%s“ können nicht direkt mit %s bearbeitet werden. Bitte verwenden Sie stattdessen eine %s-Vorlage."
       ],
       "Prefer TinyMCE For Rich Text": [
         "Bevorzugen Sie TinyMCE für Rich Text"
@@ -2809,7 +2809,7 @@
         "Suchen"
       ],
       "Search %d elements": [
-        "Durchsuchen Sie %d -Elemente"
+        "Durchsuchen Sie %d-Elemente"
       ],
       "Search %ss": [
         "Suche %ss"
@@ -3190,7 +3190,7 @@
         "Die Option %s ist nicht mehr verfügbar, bitte wählen Sie eine neue aus."
       ],
       "The plugin %s caused a %s error.": [
-        "Das Plugin %s hat einen %s -Fehler verursacht."
+        "Das Plugin %s hat einen %s-Fehler verursacht."
       ],
       "The requested post can't be edited with %s.": [
         "Der angeforderte Beitrag kann nicht mit %s bearbeitet werden."
@@ -3646,7 +3646,7 @@
         "Bei Verwendung des Breakdance- oder Oxygen-Plugins konnte mein Server die folgende Anfrage nicht wie erwartet erfüllen. Stattdessen wurde ein Fehlercode zurückgegeben."
       ],
       "Why did the server return a %s error?": [
-        "Warum hat der Server einen %s -Fehler zurückgegeben?"
+        "Warum hat der Server einen %s-Fehler zurückgegeben?"
       ],
       "Width": [
         "Breite"
@@ -3754,7 +3754,7 @@
         "Ihr Name"
       ],
       "Your server returned a %s error.": [
-        "Ihr Server hat einen %s -Fehler zurückgegeben."
+        "Ihr Server hat einen %s-Fehler zurückgegeben."
       ],
       "Your session has expired": [
         "Ihre Sitzung ist abgelaufen"

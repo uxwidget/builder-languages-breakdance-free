@@ -201,7 +201,7 @@ msgstr "404 未找到"
 
 #: builder/src/subapps/manage-templates/EditGlobalBlockModal.vue:162
 msgid "A %s with the title \"%s\" already exists. Please select another title."
-msgstr "标题为“ %s ”的 %s 已存在。请选择其他标题。"
+msgstr "标题为“%s”的 %s 已存在。请选择其他标题。"
 
 #: builder/src/components/Notifications/Types/Util/ErrorNextSteps.vue:44
 msgid ""
@@ -2045,7 +2045,7 @@ msgstr "错误详细信息"
 #. translators: 1: import type label, 2: provider name
 #: builder/src/components/Add/library/DesignLibraryDependencyWarning.vue:374
 msgid "Error importing %s for \"%s\""
-msgstr "为“ %s ”导入 %s 时出错"
+msgstr "为“%s”导入 %s 时出错"
 
 #: builder/src/subapps/design-library/DesignLibraryImportingDialog.vue:70
 msgid "Error importing %s."
@@ -2581,7 +2581,7 @@ msgstr "导入设置"
 #. translators: 1: import type label, 2: provider name
 #: builder/src/components/Add/library/DesignLibraryDependencyWarning.vue:396
 msgid "Imported %s from \"%s\""
-msgstr "已从“ %s ”导入 %s"
+msgstr "已从“%s”导入 %s"
 
 #. translators: %s: Provider name or URL
 #: builder/src/components/Add/library/DesignLibraryDesignPresets.vue:162

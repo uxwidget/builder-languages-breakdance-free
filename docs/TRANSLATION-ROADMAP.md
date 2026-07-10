@@ -16,6 +16,7 @@ Relacionado: [DEV-SETUP.md](./DEV-SETUP.md) · [COMPATIBILITY.md](./COMPATIBILIT
 | Catálogos Breakdance (3 camadas) | Preenchidos para todos os locales suportados |
 | Painel `breakdance-languages-*.po` | Presente nos locales principais (incl. novos da onda 10/07) |
 | Gate release | `pt_BR`, `pt_PT`, `it_IT` = **0** placeholders |
+| Placeholders (todos os locales) | **0** após limpeza MT (2026-07-10) |
 | Form Builder | Camada PHP + JS + PO (pt_BR e runtime) |
 | Hindi / Hebraico | Priority JSON + RTL |
 | `es_LA` | Cópia inteligente de `es_ES` |

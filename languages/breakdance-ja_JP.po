@@ -273,8 +273,8 @@ msgid ""
 "%1$spotential security implications%2$s. If in doubt, use a plugin like "
 "%3$sSafe SVG%4$s instead of this option."
 msgstr ""
-"SVG アップロードを許可すると危険な場合があるため、%1$潜在的なセキュリティへの影響%2$s "
-"を理解する必要があります。疑わしい場合は、このオプションの代わりに %3$sSafe SVG%4$s などのプラグインを使用してください。"
+"SVG アップロードを許可すると危険な場合があるため、%1$s潜在的なセキュリティへの影響%2$s "
+"を理解する必要があります。疑わしい場合は、このオプションの代わりに %3$s Safe SVG %4$s などのプラグインを使用してください。"
 
 #. translators: 1: Filter name in <code> tags, 2: Plugin name
 #: plugin/admin/settings-page/tabs/advanced.php:143
@@ -294,7 +294,7 @@ msgid ""
 "implications%5$s."
 msgstr ""
 "デフォルトでは、%1$s は %1$s で設計されたコンテンツに %2$s フィルタを適用しません。このオプションを有効にすると、%1$s "
-"で作成された単一のコンテンツに対して %1$s が %3$s を実行できるようになりますが、%4$潜在的なセキュリティへの影響%5$s "
+"で作成された単一のコンテンツに対して %1$s が %3$s を実行できるようになりますが、%4$s潜在的なセキュリティへの影響%5$s "
 "を理解する必要があります。"
 
 #: plugin/admin/settings-page/tabs/advanced.php:161
@@ -315,8 +315,8 @@ msgid ""
 "the %3$s capability. You can disable this if you understand the "
 "%4$spotential security implications%5$s."
 msgstr ""
-"デフォルトでは、%1$s は %3$s 機能を持たない投稿者の投稿のフィールドに %2$s を適用します。 %4$潜在的なセキュリティへの影響%5$s "
-"を理解している場合は、これを無効にすることができます。"
+"デフォルトでは、%1$s は %3$s 機能を持たない投稿者の投稿のフィールドに %2$s を適用します。 %4$s潜在的なセキュリティへの影響%5$s"
+" を理解している場合は、これを無効にすることができます。"
 
 #: plugin/admin/settings-page/tabs/advanced.php:178
 msgid "Enable rendering performance debugger"
@@ -631,8 +631,8 @@ msgid ""
 "AJAX callbacks should return an associative array ([\"key\" => \"value\") or"
 " a blank array ([]). Got %1$s for route \"%2$s\""
 msgstr ""
-"AJAX コールバックは、連想配列 ([\"key\" => \"value\") または空の配列 ([]) を返す必要があります。ルート \" "
-"%2$s\" の %1$s を取得しました"
+"AJAX コールバックは、連想配列 ([\"key\" => \"value\") または空の配列 ([]) を返す必要があります。ルート "
+"\"%2$s\" の %1$s を取得しました"
 
 #: plugin/ajax/api.php:145
 msgid ""
@@ -1117,7 +1117,7 @@ msgstr "このオプションは、<head> から RSS フィード情報を削除
 #: plugin/blocks/ajax_save_block.php:98
 #, php-format
 msgid "Failed to save %1$s \"%2$s\""
-msgstr "%1$s \"%2$s\" を保存できませんでした"
+msgstr "%1$s\"%2$s\" を保存できませんでした"
 
 #. translators: %s: Template ID
 #: plugin/blocks/ajax_save_block.php:129

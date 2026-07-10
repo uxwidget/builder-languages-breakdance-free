@@ -4,6 +4,13 @@
 
 Release inicial comercializável (nome de exibição: **Builder Languages for Breakdance**).
 
+### Qualidade de placeholders (pós-MT)
+
+- QA de placeholders: **0** em todos os locales suportados (não só o gate).
+- Novo `scripts/fix-mt-placeholder-residuals.py` (cola árabe, `%s` corrompido, aspas, `%N$` sem tipo).
+- `qa-placeholders.py` reconhece aspas tipográficas, CJK/Devanagari e compostos com hífen (menos falso positivo).
+- JSON do Builder regenerado a partir dos PO corrigidos.
+
 ### Produto e marca
 
 - Nome exibido e pasta: `builder-languages-breakdance` (evita conflito de marca com “Breakdance Languages”).

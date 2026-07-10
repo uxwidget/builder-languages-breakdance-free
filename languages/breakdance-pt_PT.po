@@ -280,9 +280,9 @@ msgid ""
 "%1$spotential security implications%2$s. If in doubt, use a plugin like "
 "%3$sSafe SVG%4$s instead of this option."
 msgstr ""
-"Permitir uploads SVG pode ser perigoso, e você deve compreender as "
-"%1$spossíveis implicações de segurança%2$s. Em caso de dúvida, use um plugin"
-" como %3$sSafe SVG%4$s em vez desta opção."
+"Permitir uploads SVG pode ser perigoso, e você deve compreender as %1$s "
+"possíveis implicações de segurança %2$s. Em caso de dúvida, use um plugin "
+"como %3$s Safe SVG %4$s em vez desta opção."
 
 #. translators: 1: Filter name in <code> tags, 2: Plugin name
 #: plugin/admin/settings-page/tabs/advanced.php:143
@@ -303,8 +303,8 @@ msgid ""
 msgstr ""
 "Por padrão, %1$s não aplica o filtro %2$s ao conteúdo criado com %1$s. Você "
 "pode ativar esta opção para fazer %1$s executar %3$s em conteúdo singular "
-"criado com %1$s, mas deve entender as %4$spossíveis implicações de "
-"segurança%5$s."
+"criado com %1$s, mas deve entender as %4$s possíveis implicações de "
+"segurança %5$s."
 
 #: plugin/admin/settings-page/tabs/advanced.php:161
 msgid "Allow unfiltered HTML in all dynamic data output"

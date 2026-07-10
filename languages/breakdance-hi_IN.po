@@ -300,10 +300,10 @@ msgid ""
 "with %1$s, but you should understand the %4$spotential security "
 "implications%5$s."
 msgstr ""
-"डिफ़ॉल्ट रूप से, %1$s, %1$s -डिज़ाइन की गई सामग्री पर %2$s फ़िल्टर लागू नहीं"
-" करता है। आप %1$s के साथ बनाई गई एकल सामग्री पर %1$s को %3$s चलाने के लिए इस"
-" विकल्प को सक्षम कर सकते हैं, लेकिन आपको %4$sसंभावित सुरक्षा निहितार्थ%5$s "
-"को समझना चाहिए।"
+"डिफ़ॉल्ट रूप से, %1$s, %1$s-डिज़ाइन की गई सामग्री पर %2$s फ़िल्टर लागू नहीं "
+"करता है। आप %1$s के साथ बनाई गई एकल सामग्री पर %1$s को %3$s चलाने के लिए इस "
+"विकल्प को सक्षम कर सकते हैं, लेकिन आपको %4$sसंभावित सुरक्षा निहितार्थ%5$s को"
+" समझना चाहिए।"
 
 #: plugin/admin/settings-page/tabs/advanced.php:161
 msgid "Allow unfiltered HTML in all dynamic data output"
@@ -658,7 +658,7 @@ msgid ""
 " a blank array ([]). Got %1$s for route \"%2$s\""
 msgstr ""
 "AJAX कॉलबैक को एक सहयोगी सरणी ([\"कुंजी\" => \"मान\") या एक रिक्त सरणी ([]) "
-"लौटानी चाहिए। मार्ग \" %2$s\" के लिए %1$s मिला"
+"लौटानी चाहिए। मार्ग \"%2$s\" के लिए %1$s मिला"
 
 #: plugin/ajax/api.php:145
 msgid ""
@@ -1158,7 +1158,7 @@ msgstr ""
 #: plugin/blocks/ajax_save_block.php:98
 #, php-format
 msgid "Failed to save %1$s \"%2$s\""
-msgstr "%1$s \"%2$s\" सहेजने में विफल"
+msgstr "%1$s\"%2$s\" सहेजने में विफल"
 
 #. translators: %s: Template ID
 #: plugin/blocks/ajax_save_block.php:129

@@ -1256,14 +1256,14 @@ msgid ""
 "contains information your host can use to whitelist all requests coming from"
 " %s."
 msgstr ""
-"Raadpleeg onze %probleemoplossingsgids voor de \"403\"-foutcode%s, die "
+"Raadpleeg onze %probleemoplossingsgids voor de \"403\"-foutcode %s, die "
 "informatie bevat die uw host kan gebruiken om alle verzoeken afkomstig van "
 "%s op de witte lijst te zetten."
 
 #. translators: 1: Troubleshooting guide start tag, 2: Closing tag
 #: builder/src/components/Notifications/Types/Util/ErrorNextSteps.vue:98
 msgid "Consult our %stroubleshooting guide for the \"500\" error code%s"
-msgstr "Raadpleeg onze %probleemoplossingsgids voor de \"500\" foutcode%s"
+msgstr "Raadpleeg onze %probleemoplossingsgids voor de \"500\" foutcode %s"
 
 #: builder/src/components/Reusable/CustomInputs/LinkInput/LinkInputSettings.vue:423
 msgid "Contact"
@@ -2139,7 +2139,7 @@ msgid ""
 "Error: no registered saving locations. Using the %s plugin will "
 "automatically register a saving location."
 msgstr ""
-"Fout: geen geregistreerde opslaglocaties. Als u de %s -plug-in gebruikt, "
+"Fout: geen geregistreerde opslaglocaties. Als u de %s-plug-in gebruikt, "
 "wordt automatisch een opslaglocatie geregistreerd."
 
 #: builder/src/oxygen/interactions/InteractionsInput.vue:176
@@ -2574,7 +2574,7 @@ msgid ""
 "If any code is present and the result returns a %s value the dependencies "
 "will be added."
 msgstr ""
-"Als er code aanwezig is en het resultaat een %s -waarde retourneert, worden "
+"Als er code aanwezig is en het resultaat een %s-waarde retourneert, worden "
 "de afhankelijkheden toegevoegd."
 
 #. translators: %s: Code value 'false'
@@ -3407,7 +3407,7 @@ msgstr "Offset"
 #. translators: %s: HTTP error code
 #: builder/src/components/Notifications/Types/FriendlyMultiError.vue:54
 msgid "Oh no! Your server returned a %s error. 😢"
-msgstr "O nee! Uw server heeft een %s -fout geretourneerd. 😢"
+msgstr "O nee! Uw server heeft een %s-fout geretourneerd. 😢"
 
 #: builder/src/components/Notifications/Types/Util/InternalServerErrorErrorDetails.vue:10
 msgid "on"
@@ -3438,7 +3438,7 @@ msgstr "Open"
 #. translators: %s: Programming language name
 #: builder/src/components/Reusable/CustomInputs/CodeInput/CodeInput.vue:187
 msgid "Open %s Editor"
-msgstr "Open de %s -editor"
+msgstr "Open de %s-editor"
 
 #: builder/src/components/Help/KeyboardShortcutsHelpModal.vue:55
 msgid "Open add elements panel"
@@ -3820,7 +3820,7 @@ msgid ""
 "%s Template instead."
 msgstr ""
 "Berichten met berichttype \"%s\" kunnen niet rechtstreeks met %s worden "
-"bewerkt. Gebruik in plaats daarvan een %s -sjabloon."
+"bewerkt. Gebruik in plaats daarvan een %s-sjabloon."
 
 #: builder/src/components/Settings/Preferences/CustomUiSettings.vue:81
 msgid "Prefer TinyMCE For Rich Text"
@@ -4818,7 +4818,7 @@ msgstr "Tekstomloop"
 #. translators: %s: Element name
 #: builder/src/components/AI/AIWriter.vue:107
 msgid "The %s element does not support AI writing."
-msgstr "Het %s -element ondersteunt geen AI-schrijven."
+msgstr "Het %s-element ondersteunt geen AI-schrijven."
 
 #: builder/src/components/AI/InlineAiPluginNotInstalled.vue:15
 msgid ""
@@ -4868,7 +4868,7 @@ msgstr "De optie %s is niet meer beschikbaar, selecteer een nieuwe."
 #. translators: 1: Plugin name, 2: Error code
 #: builder/src/components/Notifications/Types/FriendlyMultiError.vue:14
 msgid "The plugin %s caused a %s error."
-msgstr "De plug-in %s veroorzaakte een %s -fout."
+msgstr "De plug-in %s veroorzaakte een %s-fout."
 
 #. translators: %s: Plugin name
 #: builder/src/components/UI/InvalidPostDialog.vue:16
@@ -5649,7 +5649,7 @@ msgstr ""
 
 #: builder/src/components/Notifications/Types/Util/EmailForHost.vue:65
 msgid "Why did the server return a %s error?"
-msgstr "Waarom heeft de server een %s -fout geretourneerd?"
+msgstr "Waarom heeft de server een %s-fout geretourneerd?"
 
 #: builder/src/components/Builder/TopBar/PreviewSize.vue:49
 #: builder/src/components/Reusable/CustomInputs/BorderComplex.vue:98
@@ -5829,7 +5829,7 @@ msgstr "Jouw naam"
 #. translators: %s: HTTP error code
 #: builder/src/components/Notifications/Types/FriendlyMultiError.vue:25
 msgid "Your server returned a %s error."
-msgstr "Uw server heeft een %s -fout geretourneerd."
+msgstr "Uw server heeft een %s-fout geretourneerd."
 
 #: builder/src/components/Notifications/Types/SessionExpiredError.vue:7
 msgid "Your session has expired"

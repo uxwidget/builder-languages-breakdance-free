@@ -89,7 +89,7 @@ msgstr "%s Editor"
 #. translators: %s: Element name
 #: builder/src/components/AI/AIWriter.vue:139
 msgid "%s Element"
-msgstr "%s -Element"
+msgstr "%s-Element"
 
 #: builder/src/components/Notifications/Types/LoggedOutError.vue:5
 #: builder/src/components/Notifications/Types/NetworkError.vue:7
@@ -158,7 +158,7 @@ msgid ""
 "%s Settings, and also import all Pages, Posts, and Templates from the design"
 " set."
 msgstr ""
-"%s -Einstellungen und importieren Sie außerdem alle Seiten, Beiträge und "
+"%s-Einstellungen und importieren Sie außerdem alle Seiten, Beiträge und "
 "Vorlagen aus dem Designsatz."
 
 #: builder/src/oxygen/variables/panel/VariablesPanel.vue:265
@@ -1277,7 +1277,7 @@ msgstr ""
 #: builder/src/components/Notifications/Types/Util/ErrorNextSteps.vue:98
 msgid "Consult our %stroubleshooting guide for the \"500\" error code%s"
 msgstr ""
-"Informationen zum Fehlercode „500“ %sfinden Sie in unserer Anleitung zur "
+"Informationen zum Fehlercode „500“%sfinden Sie in unserer Anleitung zur "
 "Fehlerbehebung %s."
 
 #: builder/src/components/Reusable/CustomInputs/LinkInput/LinkInputSettings.vue:423
@@ -2600,7 +2600,7 @@ msgid ""
 "If any code is present and the result returns a %s value the dependencies "
 "will be added."
 msgstr ""
-"Wenn Code vorhanden ist und das Ergebnis einen %s -Wert zurückgibt, werden "
+"Wenn Code vorhanden ist und das Ergebnis einen %s-Wert zurückgibt, werden "
 "die Abhängigkeiten hinzugefügt."
 
 #. translators: %s: Code value 'false'
@@ -3433,7 +3433,7 @@ msgstr "Versatz"
 #. translators: %s: HTTP error code
 #: builder/src/components/Notifications/Types/FriendlyMultiError.vue:54
 msgid "Oh no! Your server returned a %s error. 😢"
-msgstr "Oh nein! Ihr Server hat einen %s -Fehler zurückgegeben. 😢"
+msgstr "Oh nein! Ihr Server hat einen %s-Fehler zurückgegeben. 😢"
 
 #: builder/src/components/Notifications/Types/Util/InternalServerErrorErrorDetails.vue:10
 msgid "on"
@@ -3464,7 +3464,7 @@ msgstr "Öffnen"
 #. translators: %s: Programming language name
 #: builder/src/components/Reusable/CustomInputs/CodeInput/CodeInput.vue:187
 msgid "Open %s Editor"
-msgstr "Öffnen Sie den %s -Editor"
+msgstr "Öffnen Sie den %s-Editor"
 
 #: builder/src/components/Help/KeyboardShortcutsHelpModal.vue:55
 msgid "Open add elements panel"
@@ -3853,7 +3853,7 @@ msgid ""
 "%s Template instead."
 msgstr ""
 "Beiträge mit dem Beitragstyp „%s“ können nicht direkt mit %s bearbeitet "
-"werden. Bitte verwenden Sie stattdessen eine %s -Vorlage."
+"werden. Bitte verwenden Sie stattdessen eine %s-Vorlage."
 
 #: builder/src/components/Settings/Preferences/CustomUiSettings.vue:81
 msgid "Prefer TinyMCE For Rich Text"
@@ -4313,7 +4313,7 @@ msgstr "Suchen"
 
 #: builder/src/components/Add/ElementsList.vue:12
 msgid "Search %d elements"
-msgstr "Durchsuchen Sie %d -Elemente"
+msgstr "Durchsuchen Sie %d-Elemente"
 
 #. translators: Element Studio. %s: Item type (element, macro, preset)
 #: builder/src/components/ElementStudio/ElementStudioTopBar.vue:41
@@ -4910,7 +4910,7 @@ msgstr ""
 #. translators: 1: Plugin name, 2: Error code
 #: builder/src/components/Notifications/Types/FriendlyMultiError.vue:14
 msgid "The plugin %s caused a %s error."
-msgstr "Das Plugin %s hat einen %s -Fehler verursacht."
+msgstr "Das Plugin %s hat einen %s-Fehler verursacht."
 
 #. translators: %s: Plugin name
 #: builder/src/components/UI/InvalidPostDialog.vue:16
@@ -5695,7 +5695,7 @@ msgstr ""
 
 #: builder/src/components/Notifications/Types/Util/EmailForHost.vue:65
 msgid "Why did the server return a %s error?"
-msgstr "Warum hat der Server einen %s -Fehler zurückgegeben?"
+msgstr "Warum hat der Server einen %s-Fehler zurückgegeben?"
 
 #: builder/src/components/Builder/TopBar/PreviewSize.vue:49
 #: builder/src/components/Reusable/CustomInputs/BorderComplex.vue:98
@@ -5881,7 +5881,7 @@ msgstr "Ihr Name"
 #. translators: %s: HTTP error code
 #: builder/src/components/Notifications/Types/FriendlyMultiError.vue:25
 msgid "Your server returned a %s error."
-msgstr "Ihr Server hat einen %s -Fehler zurückgegeben."
+msgstr "Ihr Server hat einen %s-Fehler zurückgegeben."
 
 #: builder/src/components/Notifications/Types/SessionExpiredError.vue:7
 msgid "Your session has expired"

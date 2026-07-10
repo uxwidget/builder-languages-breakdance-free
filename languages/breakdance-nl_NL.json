@@ -811,10 +811,10 @@
         "Beperk de voorbeeldgrootte"
       ],
       "Consult our %stroubleshooting guide for the \"403\" error code%s which contains information your host can use to whitelist all requests coming from %s.": [
-        "Raadpleeg onze %probleemoplossingsgids voor de \"403\"-foutcode%s, die informatie bevat die uw host kan gebruiken om alle verzoeken afkomstig van %s op de witte lijst te zetten."
+        "Raadpleeg onze %probleemoplossingsgids voor de \"403\"-foutcode %s, die informatie bevat die uw host kan gebruiken om alle verzoeken afkomstig van %s op de witte lijst te zetten."
       ],
       "Consult our %stroubleshooting guide for the \"500\" error code%s": [
-        "Raadpleeg onze %probleemoplossingsgids voor de \"500\" foutcode%s"
+        "Raadpleeg onze %probleemoplossingsgids voor de \"500\" foutcode %s"
       ],
       "Contact": [
         "Contact"
@@ -1399,7 +1399,7 @@
         "fout: kon elementen niet laden"
       ],
       "Error: no registered saving locations. Using the %s plugin will automatically register a saving location.": [
-        "Fout: geen geregistreerde opslaglocaties. Als u de %s -plug-in gebruikt, wordt automatisch een opslaglocatie geregistreerd."
+        "Fout: geen geregistreerde opslaglocaties. Als u de %s-plug-in gebruikt, wordt automatisch een opslaglocatie geregistreerd."
       ],
       "Everywhere": [
         "Overal"
@@ -1678,7 +1678,7 @@
         "Als"
       ],
       "If any code is present and the result returns a %s value the dependencies will be added.": [
-        "Als er code aanwezig is en het resultaat een %s -waarde retourneert, worden de afhankelijkheden toegevoegd."
+        "Als er code aanwezig is en het resultaat een %s-waarde retourneert, worden de afhankelijkheden toegevoegd."
       ],
       "If it returns %s no dependencies are added.": [
         "Als het %s retourneert, worden er geen afhankelijkheden toegevoegd."
@@ -2236,7 +2236,7 @@
         "Offset"
       ],
       "Oh no! Your server returned a %s error. 😢": [
-        "O nee! Uw server heeft een %s -fout geretourneerd. 😢"
+        "O nee! Uw server heeft een %s-fout geretourneerd. 😢"
       ],
       "on": [
         "op"
@@ -2257,7 +2257,7 @@
         "Open"
       ],
       "Open %s Editor": [
-        "Open de %s -editor"
+        "Open de %s-editor"
       ],
       "Open add elements panel": [
         "Open het paneel Elementen toevoegen"
@@ -2509,7 +2509,7 @@
         "Berichten per pagina"
       ],
       "Posts with post type \"%s\" can't be edited with %s directly. Please use a %s Template instead.": [
-        "Berichten met berichttype \"%s\" kunnen niet rechtstreeks met %s worden bewerkt. Gebruik in plaats daarvan een %s -sjabloon."
+        "Berichten met berichttype \"%s\" kunnen niet rechtstreeks met %s worden bewerkt. Gebruik in plaats daarvan een %s-sjabloon."
       ],
       "Prefer TinyMCE For Rich Text": [
         "Geef de voorkeur aan TinyMCE voor Rich Text"
@@ -3160,7 +3160,7 @@
         "Tekstomloop"
       ],
       "The %s element does not support AI writing.": [
-        "Het %s -element ondersteunt geen AI-schrijven."
+        "Het %s-element ondersteunt geen AI-schrijven."
       ],
       "The Breakdance AI Plugin is not installed. Please install it to use the AI assistant.": [
         "De Breakdance AI-plug-in is niet geïnstalleerd. Installeer het om de AI-assistent te gebruiken."
@@ -3190,7 +3190,7 @@
         "De optie %s is niet meer beschikbaar, selecteer een nieuwe."
       ],
       "The plugin %s caused a %s error.": [
-        "De plug-in %s veroorzaakte een %s -fout."
+        "De plug-in %s veroorzaakte een %s-fout."
       ],
       "The requested post can't be edited with %s.": [
         "Het gevraagde bericht kan niet worden bewerkt met %s."
@@ -3646,7 +3646,7 @@
         "Bij het gebruik van de Breakdance- of Oxygen-plug-in kon mijn server niet zoals verwacht aan het volgende verzoek voldoen. In plaats daarvan retourneerde het een foutcode."
       ],
       "Why did the server return a %s error?": [
-        "Waarom heeft de server een %s -fout geretourneerd?"
+        "Waarom heeft de server een %s-fout geretourneerd?"
       ],
       "Width": [
         "Breedte"
@@ -3754,7 +3754,7 @@
         "Jouw naam"
       ],
       "Your server returned a %s error.": [
-        "Uw server heeft een %s -fout geretourneerd."
+        "Uw server heeft een %s-fout geretourneerd."
       ],
       "Your session has expired": [
         "Uw sessie is verlopen"

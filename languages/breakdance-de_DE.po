@@ -282,8 +282,8 @@ msgid ""
 "%3$sSafe SVG%4$s instead of this option."
 msgstr ""
 "Das Zulassen von SVG-Uploads kann gefährlich sein, und Sie sollten sich der "
-"potenziellen Sicherheitsauswirkungen%2$sbewusst sein. Verwenden Sie im "
-"Zweifelsfall anstelle dieser Option ein Plugin wie%3$sSafe SVG%4$s."
+"potenziellen Sicherheitsauswirkungen %2$s bewusst sein. Verwenden Sie im "
+"Zweifelsfall anstelle dieser Option ein Plugin wie %3$s Safe SVG %4$s."
 
 #. translators: 1: Filter name in <code> tags, 2: Plugin name
 #: plugin/admin/settings-page/tabs/advanced.php:143
@@ -304,8 +304,8 @@ msgid ""
 msgstr ""
 "Standardmäßig wendet %1$s den Filter %2$s nicht auf von %1$s entworfene "
 "Inhalte an. Sie können diese Option aktivieren, damit %1$s %3$s für einzelne"
-" Inhalte ausführt, die mit %1$s erstellt wurden. Sie sollten jedoch die "
-"%4$spotenziellen Sicherheitsauswirkungen%5$s verstehen."
+" Inhalte ausführt, die mit %1$s erstellt wurden. Sie sollten jedoch die %4$s"
+" potenziellen Sicherheitsauswirkungen %5$s verstehen."
 
 #: plugin/admin/settings-page/tabs/advanced.php:161
 msgid "Allow unfiltered HTML in all dynamic data output"
@@ -325,9 +325,9 @@ msgid ""
 "the %3$s capability. You can disable this if you understand the "
 "%4$spotential security implications%5$s."
 msgstr ""
-"Standardmäßig wendet %1$s  %2$s auf Felder in Beiträgen an, deren Autor "
-"nicht über die Funktion %3$s verfügt. Sie können dies deaktivieren, wenn Sie"
-" die potenziellen Sicherheitsauswirkungen %4$s %5$s verstehen."
+"Standardmäßig wendet %1$s %2$s auf Felder in Beiträgen an, deren Autor nicht"
+" über die Funktion %3$s verfügt. Sie können dies deaktivieren, wenn Sie die "
+"potenziellen Sicherheitsauswirkungen %4$s %5$s verstehen."
 
 #: plugin/admin/settings-page/tabs/advanced.php:178
 msgid "Enable rendering performance debugger"
@@ -365,7 +365,7 @@ msgid ""
 "database."
 msgstr ""
 "Wenn für jede Seite beim Speichern die Menge der gespeicherten Revisionen "
-"des %1$s -Inhalts höher ist als die Einstellung %2$s, werden die ältesten "
+"des %1$s-Inhalts höher ist als die Einstellung %2$s, werden die ältesten "
 "Revisionen aus Ihrer Datenbank entfernt."
 
 #. translators: 1: Plugin name, 2: Setting name in <code> tags
@@ -382,7 +382,7 @@ msgid ""
 " will be kept for each page."
 msgstr ""
 "Wenn %1$s aktiviert ist, ist dies die maximale Anzahl von Revisionen des "
-"%2$s -Inhalts, die für jede Seite beibehalten werden."
+"%2$s-Inhalts, die für jede Seite beibehalten werden."
 
 #: plugin/admin/settings-page/tabs/advanced.php:237
 #: plugin/admin/settings-page/tabs/license.php:175
@@ -957,7 +957,7 @@ msgstr "API-Schlüssel"
 #: plugin/api-keys/settings-page.php:152
 #, php-format
 msgid "Invalid %s API Key"
-msgstr "Ungültiger %s -API-Schlüssel"
+msgstr "Ungültiger %s-API-Schlüssel"
 
 #: plugin/bloat-eliminator/bloat-eliminator-tab.php:14
 #: plugin/bloat-eliminator/bloat-eliminator-template.php:1
@@ -1416,7 +1416,7 @@ msgid ""
 "a list of official Design Sets, but you can use this field to add any custom"
 " design sets you want."
 msgstr ""
-"Fügen Sie benutzerdefinierte Design-Sets zu Ihrer %1$s -Installation hinzu. "
+"Fügen Sie benutzerdefinierte Design-Sets zu Ihrer %1$s-Installation hinzu. "
 "Standardmäßig stellt %1$s eine Liste der offiziellen Design-Sets bereit, Sie"
 " können dieses Feld jedoch verwenden, um beliebige benutzerdefinierte "
 "Design-Sets hinzuzufügen."
@@ -4107,7 +4107,7 @@ msgstr "Die %s-Datenbank wurde erfolgreich aktualisiert!"
 #: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:122
 #, php-format
 msgid "%s Database Update Required"
-msgstr "%s -Datenbankaktualisierung erforderlich"
+msgstr "%s-Datenbankaktualisierung erforderlich"
 
 #. translators: %s is the plugin name (Breakdance or Oxygen)
 #: plugin/setup/prefix-breakdance-meta-keys-with-underscore.php:125
@@ -4275,9 +4275,9 @@ msgid ""
 "Reset your entire %1$s installation to factory defaults. Content you created"
 " in %2$s must still be deleted manually."
 msgstr ""
-"Setzen Sie Ihre gesamte %1$s -Installation auf die Werkseinstellungen "
-"zurück. Inhalte, die Sie in %2$s erstellt haben, müssen weiterhin manuell "
-"gelöscht werden."
+"Setzen Sie Ihre gesamte %1$s-Installation auf die Werkseinstellungen zurück."
+" Inhalte, die Sie in %2$s erstellt haben, müssen weiterhin manuell gelöscht "
+"werden."
 
 #: plugin/setup/settings-page.php:272 plugin/setup/settings-page.php:277
 msgid "Create Directories"

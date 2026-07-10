@@ -130,7 +130,7 @@
         "404 見つかりません"
       ],
       "A %s with the title \"%s\" already exists. Please select another title.": [
-        "タイトル「 %s 」の %s はすでに存在します。別のタイトルを選択してください。"
+        "タイトル「%s」の %s はすでに存在します。別のタイトルを選択してください。"
       ],
       "A 403 error is almost caused by your host, firewall, or CDN blocking the request": [
         "403 エラーは、ホスト、ファイアウォール、または CDN がリクエストをブロックしていることが原因で発生することがほとんどです"
@@ -1369,7 +1369,7 @@
         "エラーの詳細"
       ],
       "Error importing %s for \"%s\"": [
-        "「 %s 」の %s のインポート中にエラーが発生しました"
+        "「%s」の %s のインポート中にエラーが発生しました"
       ],
       "Error importing %s.": [
         "%s のインポート中にエラーが発生しました。"

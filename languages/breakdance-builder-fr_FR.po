@@ -210,7 +210,7 @@ msgstr "404 introuvable"
 #: builder/src/subapps/manage-templates/EditGlobalBlockModal.vue:162
 msgid "A %s with the title \"%s\" already exists. Please select another title."
 msgstr ""
-"Un %s portant le titre « %s » existe déjà. Veuillez sélectionner un autre "
+"Un %s portant le titre «%s» existe déjà. Veuillez sélectionner un autre "
 "titre."
 
 #: builder/src/components/Notifications/Types/Util/ErrorNextSteps.vue:44
@@ -2713,7 +2713,7 @@ msgstr "Importation du modèle avec l'ID \"%s\""
 #. translators: %s: Site name
 #: builder/src/subapps/design-library/DesignLibraryImportingDialog.vue:7
 msgid "Importing the \"%s\" site"
-msgstr "Importation du site « %s »"
+msgstr "Importation du site «%s»"
 
 #: builder/src/components/Canvas/OverlaidUI/Onboarding/NodeOnboardingAIRewriteButton.vue:11
 #: builder/src/subapps/design-library/DesignLibraryStatusIcon.vue:7
@@ -6016,7 +6016,7 @@ msgstr "Nouveau %s"
 #: builder/src/subapps/manage-templates/ManageGlobalBlocks.vue:11
 msgctxt "Global Blocks"
 msgid "Deleted %s"
-msgstr "%ssupprimé"
+msgstr "%s supprimé"
 
 #. translators: Global Settings. %s: Search query
 #: builder/src/components/Settings/DocumentOrGlobalSettings/GlobalSettingsPanel/GlobalSettingsPanelControlsViewMode.vue:20
@@ -6095,7 +6095,7 @@ msgstr "Nouveau %s"
 #: builder/src/subapps/manage-templates/ManageTemplates.vue:11
 msgctxt "Templates"
 msgid "Deleted %s"
-msgstr "%ssupprimé"
+msgstr "%s supprimé"
 
 #. translators: %s: Template type name (plural)
 #: builder/src/subapps/manage-templates/EmptyState.vue:89

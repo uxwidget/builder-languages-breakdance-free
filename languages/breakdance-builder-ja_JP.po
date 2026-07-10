@@ -201,7 +201,7 @@ msgstr "404 見つかりません"
 
 #: builder/src/subapps/manage-templates/EditGlobalBlockModal.vue:162
 msgid "A %s with the title \"%s\" already exists. Please select another title."
-msgstr "タイトル「 %s 」の %s はすでに存在します。別のタイトルを選択してください。"
+msgstr "タイトル「%s」の %s はすでに存在します。別のタイトルを選択してください。"
 
 #: builder/src/components/Notifications/Types/Util/ErrorNextSteps.vue:44
 msgid ""
@@ -2053,7 +2053,7 @@ msgstr "エラーの詳細"
 #. translators: 1: import type label, 2: provider name
 #: builder/src/components/Add/library/DesignLibraryDependencyWarning.vue:374
 msgid "Error importing %s for \"%s\""
-msgstr "「 %s 」の %s のインポート中にエラーが発生しました"
+msgstr "「%s」の %s のインポート中にエラーが発生しました"
 
 #: builder/src/subapps/design-library/DesignLibraryImportingDialog.vue:70
 msgid "Error importing %s."

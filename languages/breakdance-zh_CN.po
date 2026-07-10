@@ -261,7 +261,7 @@ msgid ""
 "%1$spotential security implications%2$s. If in doubt, use a plugin like "
 "%3$sSafe SVG%4$s instead of this option."
 msgstr ""
-"允许 SVG 上传可能很危险，您应该了解%1$潜在的安全隐患%2$s。如果有疑问，请使用 %3$sSafe SVG%4$s 等插件代替此选项。"
+"允许 SVG 上传可能很危险，您应该了解%1$s潜在的安全隐患%2$s。如果有疑问，请使用 %3$s Safe SVG %4$s 等插件代替此选项。"
 
 #. translators: 1: Filter name in <code> tags, 2: Plugin name
 #: plugin/admin/settings-page/tabs/advanced.php:143
@@ -281,7 +281,7 @@ msgid ""
 "implications%5$s."
 msgstr ""
 "默认情况下，%1$s 不会将 %2$s 过滤器应用于 %1$s 设计的内容。您可以启用此选项以使 %1$s 在使用 %1$s 创建的单一内容上运行 "
-"%3$s，但您应该了解 %4$潜在的安全隐患%5$s。"
+"%3$s，但您应该了解 %4$s潜在的安全隐患%5$s。"
 
 #: plugin/admin/settings-page/tabs/advanced.php:161
 msgid "Allow unfiltered HTML in all dynamic data output"
@@ -300,7 +300,8 @@ msgid ""
 "By default, %1$s applies %2$s to fields on posts with an author that lacks "
 "the %3$s capability. You can disable this if you understand the "
 "%4$spotential security implications%5$s."
-msgstr "默认情况下，%1$s 将 %2$s 应用于作者缺乏 %3$s 功能的帖子的字段。如果您了解%4$潜在的安全隐患%5$s，您可以禁用此功能。"
+msgstr ""
+"默认情况下，%1$s 将 %2$s 应用于作者缺乏 %3$s 功能的帖子的字段。如果您了解%4$s潜在的安全隐患%5$s，您可以禁用此功能。"
 
 #: plugin/admin/settings-page/tabs/advanced.php:178
 msgid "Enable rendering performance debugger"
@@ -610,7 +611,7 @@ msgstr "必需的 POST 参数丢失或无效：“%s”"
 msgid ""
 "AJAX callbacks should return an associative array ([\"key\" => \"value\") or"
 " a blank array ([]). Got %1$s for route \"%2$s\""
-msgstr "AJAX 回调应返回关联数组 ([\"key\" => \"value\") 或空白数组 ([])。获得路线“ %2$s ”的 %1$s"
+msgstr "AJAX 回调应返回关联数组 ([\"key\" => \"value\") 或空白数组 ([])。获得路线“%2$s”的 %1$s"
 
 #: plugin/ajax/api.php:145
 msgid ""
