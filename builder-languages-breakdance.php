@@ -5,7 +5,7 @@
  * Description: Adds professional language packs for the Breakdance Builder interface, admin screens, and first-party elements.
  * Author: UX Widget
  * Author URI: https://uxwidget.com
- * Version: ux-0.1.1
+ * Version: ux-0.1.2
  * Requires Plugins: breakdance
  * Requires at least: 6.0
  * Requires PHP: 7.4
@@ -16,7 +16,7 @@ declare(strict_types=1);
 if (!defined('ABSPATH')) {
     exit;
 }
-define('BREAKDANCE_LANGUAGES_VERSION', 'ux-0.1.1');
+define('BREAKDANCE_LANGUAGES_VERSION', 'ux-0.1.2');
 define('BREAKDANCE_LANGUAGES_FILE', __FILE__);
 define('BREAKDANCE_LANGUAGES_PATH', plugin_dir_path(__FILE__));
 /**
@@ -45,6 +45,7 @@ function breakdance_languages_load_files(): void
         BREAKDANCE_LANGUAGES_PATH . 'includes/geolocation-locale.php',
         BREAKDANCE_LANGUAGES_PATH . 'includes/rtl-support.php',
         BREAKDANCE_LANGUAGES_PATH . 'includes/priority-locale-i18n.php',
+        BREAKDANCE_LANGUAGES_PATH . 'includes/element-categories-i18n.php',
         BREAKDANCE_LANGUAGES_PATH . 'includes/wp-language-pack.php',
         BREAKDANCE_LANGUAGES_PATH . 'includes/runtime.php',
         BREAKDANCE_LANGUAGES_PATH . 'includes/builder-runtime.php',

@@ -1,5 +1,12 @@
 {
   "_comment": "Priority runtime strings for he_IL (element names and client-facing builder labels).",
+  "Basic": "בסיסי",
+  "Blocks": "בלוקים",
+  "Site": "אתר",
+  "Advanced": "מתקדם",
+  "Dynamic": "דינמי",
+  "Forms": "טפסים",
+  "Other": "אחר",
   "WP Menu": "תפריט WP",
   "Product Tabs": "כרטיסיות מוצר",
   "Tabs": "כרטיסיות",

@@ -1,5 +1,12 @@
 {
   "_comment": "Client-facing and agency-settings Hindi strings (Devanagari). Builder chrome first; front-end element labels follow via PO.",
+  "Basic": "बुनियादी",
+  "Blocks": "ब्लॉक",
+  "Site": "साइट",
+  "Advanced": "उन्नत",
+  "Dynamic": "डायनामिक",
+  "Forms": "फ़ॉर्म",
+  "Other": "अन्य",
   "Form Builder": "फ़ॉर्म बिल्डर",
   "Form Name": "फ़ॉर्म का नाम",
   "Add Field": "फ़ील्ड जोड़ें",

@@ -128,7 +128,24 @@
       "status": "baseline"
     }
   },
-  "editor_override_locales": ["pt_BR", "pt_PT", "ja_JP", "he_IL", "hi_IN", "ar"],
+  "editor_override_locales": [
+    "pt_BR",
+    "pt_PT",
+    "it_IT",
+    "fr_FR",
+    "de_DE",
+    "es_ES",
+    "es_LA",
+    "nl_NL",
+    "pl_PL",
+    "ru_RU",
+    "ar",
+    "he_IL",
+    "hi_IN",
+    "ja_JP",
+    "ko_KR",
+    "zh_CN"
+  ],
   "release_gate_locales": ["pt_BR", "pt_PT", "it_IT"],
   "product_language_count": 17,
   "locale_aliases": {

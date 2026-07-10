@@ -1,0 +1,162 @@
+{
+  "pt_BR": {
+    "Basic": "Básico",
+    "Blocks": "Blocos",
+    "Site": "Site",
+    "Advanced": "Avançado",
+    "Dynamic": "Dinâmico",
+    "Forms": "Formulários",
+    "WooCommerce": "WooCommerce",
+    "Other": "Outros"
+  },
+  "pt_PT": {
+    "Basic": "Básico",
+    "Blocks": "Blocos",
+    "Site": "Site",
+    "Advanced": "Avançado",
+    "Dynamic": "Dinâmico",
+    "Forms": "Formulários",
+    "WooCommerce": "WooCommerce",
+    "Other": "Outros"
+  },
+  "it_IT": {
+    "Basic": "Base",
+    "Blocks": "Blocchi",
+    "Site": "Sito",
+    "Advanced": "Avanzato",
+    "Dynamic": "Dinamico",
+    "Forms": "Moduli",
+    "WooCommerce": "WooCommerce",
+    "Other": "Altro"
+  },
+  "fr_FR": {
+    "Basic": "Basique",
+    "Blocks": "Blocs",
+    "Site": "Site",
+    "Advanced": "Avancé",
+    "Dynamic": "Dynamique",
+    "Forms": "Formulaires",
+    "WooCommerce": "WooCommerce",
+    "Other": "Autre"
+  },
+  "de_DE": {
+    "Basic": "Basis",
+    "Blocks": "Blöcke",
+    "Site": "Website",
+    "Advanced": "Erweitert",
+    "Dynamic": "Dynamisch",
+    "Forms": "Formulare",
+    "WooCommerce": "WooCommerce",
+    "Other": "Sonstige"
+  },
+  "es_ES": {
+    "Basic": "Básico",
+    "Blocks": "Bloques",
+    "Site": "Sitio",
+    "Advanced": "Avanzado",
+    "Dynamic": "Dinámico",
+    "Forms": "Formularios",
+    "WooCommerce": "WooCommerce",
+    "Other": "Otros"
+  },
+  "es_LA": {
+    "Basic": "Básico",
+    "Blocks": "Bloques",
+    "Site": "Sitio",
+    "Advanced": "Avanzado",
+    "Dynamic": "Dinámico",
+    "Forms": "Formularios",
+    "WooCommerce": "WooCommerce",
+    "Other": "Otros"
+  },
+  "nl_NL": {
+    "Basic": "Basis",
+    "Blocks": "Blokken",
+    "Site": "Site",
+    "Advanced": "Geavanceerd",
+    "Dynamic": "Dynamisch",
+    "Forms": "Formulieren",
+    "WooCommerce": "WooCommerce",
+    "Other": "Overig"
+  },
+  "pl_PL": {
+    "Basic": "Podstawowe",
+    "Blocks": "Bloki",
+    "Site": "Witryna",
+    "Advanced": "Zaawansowane",
+    "Dynamic": "Dynamiczne",
+    "Forms": "Formularze",
+    "WooCommerce": "WooCommerce",
+    "Other": "Inne"
+  },
+  "ru_RU": {
+    "Basic": "Базовые",
+    "Blocks": "Блоки",
+    "Site": "Сайт",
+    "Advanced": "Расширенные",
+    "Dynamic": "Динамические",
+    "Forms": "Формы",
+    "WooCommerce": "WooCommerce",
+    "Other": "Другое"
+  },
+  "ar": {
+    "Basic": "أساسي",
+    "Blocks": "كتل",
+    "Site": "الموقع",
+    "Advanced": "متقدم",
+    "Dynamic": "ديناميكي",
+    "Forms": "نماذج",
+    "WooCommerce": "WooCommerce",
+    "Other": "أخرى"
+  },
+  "he_IL": {
+    "Basic": "בסיסי",
+    "Blocks": "בלוקים",
+    "Site": "אתר",
+    "Advanced": "מתקדם",
+    "Dynamic": "דינמי",
+    "Forms": "טפסים",
+    "WooCommerce": "WooCommerce",
+    "Other": "אחר"
+  },
+  "hi_IN": {
+    "Basic": "बुनियादी",
+    "Blocks": "ब्लॉक",
+    "Site": "साइट",
+    "Advanced": "उन्नत",
+    "Dynamic": "डायनामिक",
+    "Forms": "फ़ॉर्म",
+    "WooCommerce": "WooCommerce",
+    "Other": "अन्य"
+  },
+  "ja_JP": {
+    "Basic": "基本",
+    "Blocks": "ブロック",
+    "Site": "サイト",
+    "Advanced": "高度",
+    "Dynamic": "動的",
+    "Forms": "フォーム",
+    "WooCommerce": "WooCommerce",
+    "Other": "その他"
+  },
+  "ko_KR": {
+    "Basic": "기본",
+    "Blocks": "블록",
+    "Site": "사이트",
+    "Advanced": "고급",
+    "Dynamic": "동적",
+    "Forms": "양식",
+    "WooCommerce": "WooCommerce",
+    "Other": "기타"
+  },
+  "zh_CN": {
+    "Basic": "基础",
+    "Blocks": "区块",
+    "Site": "站点",
+    "Advanced": "高级",
+    "Dynamic": "动态",
+    "Forms": "表单",
+    "WooCommerce": "WooCommerce",
+    "Other": "其他"
+  }
+}

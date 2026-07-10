@@ -1,5 +1,11 @@
 # Builder Languages for Breakdance — Changelog
 
+## ux-0.1.2
+
+- Traduz categorias do painel Adicionar elementos (`Basic`, `Blocks`, `Site`, `Advanced`, `Dynamic`, `Forms`, `Other`) em **todos** os idiomas de produto.
+- Corrige Hindi e demais locales onde essas labels ficavam em inglês (hardcoded no Breakdance, sem gettext).
+- Fonte: `config/element-category-labels.json` + `includes/element-categories-i18n.php`.
+
 ## ux-0.1.1
 
 - Após instalar o **pacote de idioma do WordPress** (não o idioma do Breakdance), a tela mostra o botão **Atualizar página** para recarregar o admin e aplicar as traduções.
