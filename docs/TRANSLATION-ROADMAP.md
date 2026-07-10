@@ -1,143 +1,103 @@
 # Roteiro de paridade de tradução
 
-Como levar cada idioma ao mesmo nível do **pt_BR** (~4644 entradas PO + patches de runtime).
+Como levar cada idioma ao mesmo nível do **pt_BR** (catálogos + runtime + QA).
 
-Relacionado: [DEV-SETUP.md](./DEV-SETUP.md) · [COMPATIBILITY.md](./COMPATIBILITY.md) · [AVALIACAO.md](./AVALIACAO.md)
+Relacionado: [DEV-SETUP.md](./DEV-SETUP.md) · [COMPATIBILITY.md](./COMPATIBILITY.md) · [AVALIACAO.md](./AVALIACAO.md) · [RELATORIO-ATUALIZACOES-2026-07-10.md](./RELATORIO-ATUALIZACOES-2026-07-10.md)
 
-Última atualização: **2026-07-09**
-
----
-
-## Números reais hoje
-
-| Camada | pt_BR | Outros (fr/de/es/ar/ja/it) |
-|--------|-------|----------------------------|
-| breakdance.po | 1080 | 1080 |
-| breakdance-builder.po | 1286 | 1286 |
-| breakdance-elements.po | **2229** | **2211** (−18 chaves) |
-| breakdance-languages.po (painel plugin) | **49** | **ausente** (exc. pt_PT: 31, it_IT: 49) |
-| **Total PO** | **~4644** | **~4577** |
-
-Os **~4577** já estão **100% preenchidos** (machine translation). A diferença para pt_BR não é “falta traduzir metade do catálogo” — é **paridade de chaves + qualidade + runtime**.
-
-As **18 chaves** a mais no pt_BR (elements) vêm de strings de layout (`Flex Start`, `Grid Template`, etc.) adicionadas manualmente — faltam nos outros locales.
+Última atualização: **2026-07-10**
 
 ---
 
-## Modelo em 5 camadas (replicar pt_BR)
+## Estado atual (resumo)
+
+| Item | Status |
+|------|--------|
+| Locales de produto | **17** (+ baseline `en_US` / `en_GB`) |
+| Catálogos Breakdance (3 camadas) | Preenchidos para todos os locales suportados |
+| Painel `breakdance-languages-*.po` | Presente nos locales principais (incl. novos da onda 10/07) |
+| Gate release | `pt_BR`, `pt_PT`, `it_IT` = **0** placeholders |
+| Form Builder | Camada PHP + JS + PO (pt_BR e runtime) |
+| Hindi / Hebraico | Priority JSON + RTL |
+| `es_LA` | Cópia inteligente de `es_ES` |
+| `zh_CN`, `ko_KR`, `nl_NL`, `ru_RU`, `pl_PL` | MT completo (usáveis; resíduos de placeholder possíveis) |
+
+Fonte da verdade de locales: `config/supported-locales.json`.
+
+---
+
+## Modelo em 5 camadas
 
 ```
-Camada 1 — Catálogo PO/MO/JSON     ██████████  todos ~100% MT
-Camada 2 — Paridade de chaves      ████░░░░░░  pt_BR +18 elements
-Camada 3 — Qualidade MT            ███░░░░░░░  placeholders, copy
-Camada 4 — Patches de runtime      ██░░░░░░░░  shapes, overrides, borders
-Camada 5 — QA manual no builder    ░░░░░░░░░░  contínuo
+Camada 1 — Catálogo PO/MO/JSON     ██████████  todos preenchidos
+Camada 2 — Paridade de chaves      ████████░░  sync residual vs pt_BR
+Camada 3 — Qualidade MT            █████░░░░░  gate OK; beta com resíduos
+Camada 4 — Patches de runtime      ███████░░░  form, shapes, RTL, priority
+Camada 5 — QA manual no builder    ███░░░░░░░  contínuo por locale
 ```
 
-### Camada 1 — Catálogo (já feito)
+### Camada 1 — Catálogo
 
 ```powershell
+cd wp-content/plugins/builder-languages-breakdance
 python scripts/verify-catalogues.py
 python scripts/compile-mo.py
+python scripts/validate-all.py
 ```
-
-Todos os 10 locales: `.po` + `.json` + `.mo` nas 3 camadas Breakdance.
 
 ### Camada 2 — Paridade de chaves vs pt_BR
 
-1. Rodar relatório:
-
 ```powershell
 python scripts/compare-locale-coverage.py
 ```
 
-2. Para cada locale com `−N PO keys`:
-   - Copiar msgids ausentes do `breakdance-elements-pt_BR.po`
-   - Traduzir (MT ou manual) e regenerar JSON:
+Para gaps: copiar msgids de `breakdance-elements-pt_BR.po`, traduzir, regenerar JSON.
+
+### Camada 3 — Qualidade
 
 ```powershell
-python scripts/generate-locale.py --target fr_FR --json-only
-python scripts/compile-mo.py
+python scripts/fix-placeholder-spacing.py --locale LOCALE
+python scripts/qa-placeholders.py --locale LOCALE
 ```
 
-3. Criar `breakdance-languages-{locale}.po` para **fr_FR, de_DE, es_ES, ar, ja_JP** (painel Idiomas) — hoje só pt_BR, pt_PT, it_IT têm.
+**Gate:** `pt_BR`, `pt_PT`, `it_IT` = 0. Demais: reduzir resíduos MT (atenção `de_DE`, `zh_CN`, `ja_JP`).
 
-### Camada 3 — Qualidade (copiar pipeline pt_BR/de_DE)
+### Camada 4 — Runtime
 
-Ordem por locale:
+| Patch | Arquivo |
+|-------|---------|
+| Form Builder | `includes/form-builder-i18n.php` |
+| Overrides editor | `includes/editor-overrides.php` |
+| Priority hi/he | `includes/priority-locale-i18n.php` |
+| RTL | `includes/rtl-support.php` |
+| Shape dividers | `config/shape-divider-labels.json` |
+| Design library | `includes/design-library.php` |
 
-```powershell
-python scripts/fix-placeholder-spacing.py --locale fr_FR
-python scripts/compare-locale-coverage.py
-python scripts/qa-placeholders.py --locale fr_FR
-```
+### Camada 5 — QA manual (por locale)
 
-Passagens manuais curadas (como `de_DE-manual-pass.py`) para strings visíveis: Pro, WooCommerce, delete, import/export, sessão.
-
-**Gate de release:** `pt_BR`, `pt_PT`, `it_IT` = 0 placeholders. Demais: tendência ↓.
-
-### Camada 4 — Patches de runtime (fora do PO)
-
-| Patch | pt_BR | Replicar para |
-|-------|-------|----------------|
-| `config/shape-divider-labels.json` | 53 labels | pt_PT, fr_FR, de_DE, es_ES, ar, ja_JP, it_IT |
-| `includes/editor-overrides.php` | sim (+ pt_PT, ja_JP) | fr, de, es, ar, it (opcional) |
-| `includes/design-library.php` | mapas UI | já parcial — revisar |
-| Border CSS keywords (solid, dashed…) | não | override futuro se quiser |
-
-Shape dividers — adicionar locale no JSON:
-
-```json
-"pt_PT": { "Angle1": "Ângulo 1", ... }
-```
-
-Validar:
-
-```powershell
-python scripts/verify-shape-dividers.py
-```
-
-### Camada 5 — QA manual
-
-Por locale, no builder (hard refresh):
-
-- [ ] Painel Adicionar (elementos básicos)
-- [ ] Guias Typography / Size / Borders
-- [ ] Divisores de forma (labels traduzidos)
-- [ ] Avisos Pro / sessão expirada
-- [ ] Design Library (categorias)
+- [ ] Painel Adicionar (elementos)
+- [ ] Typography / Size / Borders
+- [ ] Form Builder (ações, e-mail, CSRF)
+- [ ] Divisores de forma
+- [ ] Design Library
+- [ ] RTL (ar / he_IL)
 
 ---
 
-## Ordem sugerida de execução
+## Prioridade sugerida (pós 10/07)
 
-1. **Sync 18 chaves** elements → todos os locales  
-2. **breakdance-languages PO** → fr, de, es, ar, ja  
-3. **Shape dividers JSON** → pt_PT, depois europeus, depois ar/ja  
-4. **fix-placeholder-spacing** + manual pass → de_DE (feito parcial), fr_FR, es_ES, ar  
-5. **compare-locale-coverage** = zero gaps  
-6. **validate-all.py** = PASS  
-
----
-
-## Comando único de auditoria
-
-```powershell
-python scripts/validate-all.py
-python scripts/compare-locale-coverage.py
-```
+1. Reduzir placeholders em `zh_CN`, `ko_KR`, `pl_PL`, `ja_JP`, `de_DE`
+2. Paridade de chaves elements vs pt_BR em todos os locales
+3. Shape dividers nos locales novos
+4. QA manual Form Builder em `es_LA`, `hi_IN`, `he_IL`
+5. Manter `validate-all.py` = PASS antes de cada release
 
 ---
 
-## Definição de “100% traduzido” (fechar a lógica)
+## Definição de locale “fechado”
 
-Um locale está **fechado** quando:
-
-1. `compare-locale-coverage.py` → paridade OK vs pt_BR (mesmo número de chaves PO)  
-2. `verify-catalogues.py` → OK  
-3. `verify-shape-dividers.py` → 53/53 labels  
+1. Paridade de chaves vs pt_BR  
+2. `verify-catalogues.py` OK  
+3. Shape dividers completos (quando aplicável)  
 4. `breakdance-languages-{locale}.po` existe  
-5. Placeholder QA dentro da meta acordada (gate ou beta)  
-6. Checklist manual Camada 5 passou  
-
-Isso alinha **quantidade** (~4644 entradas) e **cobertura funcional** (runtime + QA).
+5. Placeholder QA dentro da meta (gate ou beta)  
+6. Checklist Camada 5 passou  

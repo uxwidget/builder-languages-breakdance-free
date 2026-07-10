@@ -1,16 +1,17 @@
-# Relatório de Atualizações — Breakdance Languages
+# Relatório de Atualizações — Builder Languages for Breakdance
 
 **Data:** 10 de julho de 2026  
 **Site de referência:** `sparklean-02.local`  
-**Plugin:** `wp-content/plugins/breakdance-languages`  
+**Plugin:** `wp-content/plugins/builder-languages-breakdance`  
 **Validação final:** `python scripts/validate-all.py` → **OVERALL: PASS**  
-**Atualização:** 10 jul 2026 (noite) — MT dos 6 locales que estavam só estruturais
+**Atualização:** 10 jul 2026 (noite) — MT dos 6 locales que estavam só estruturais  
+**Pós-relatório:** rename de marca, manifesto `.update.blb`, repo GitHub privado, docs em pt-BR
 
 ---
 
 ## Resumo executivo
 
-O plugin **Breakdance Languages** passou de um conjunto focado em pt-BR/pt-PT para um produto com **17 idiomas** comercializáveis, cobertura profunda do **Form Builder**, suporte **RTL (Hebraico/Árabe)**, prioridade comercial para **Hindi** e **Hebraico** com catálogos MT completos, e infraestrutura centralizada de locales para Freemius/geolocalização.
+O plugin **Builder Languages for Breakdance** (slug Freemius interno `breakdance-languages`) passou de um conjunto focado em pt-BR/pt-PT para um produto com **17 idiomas** comercializáveis, cobertura profunda do **Form Builder**, suporte **RTL (Hebraico/Árabe)**, prioridade comercial para **Hindi** e **Hebraico** com catálogos MT completos, e infraestrutura centralizada de locales para Freemius/geolocalização.
 
 Nenhuma alteração quebrou os locales de **release gate** (`pt_BR`, `pt_PT`, `it_IT` = 0 placeholders).
 
@@ -192,7 +193,7 @@ includes/priority-locale-i18n.php
 includes/form-builder-i18n.php      (expandido)
 ```
 
-`breakdance-languages.php` — carrega os módulos acima na ordem correta.
+`builder-languages-breakdance.php` — carrega os módulos acima na ordem correta.
 
 ---
 
@@ -240,7 +241,7 @@ OVERALL: PASS
 ## 11. Comandos úteis
 
 ```powershell
-cd wp-content/plugins/breakdance-languages
+cd wp-content/plugins/builder-languages-breakdance
 
 # Validação completa
 python scripts/validate-all.py

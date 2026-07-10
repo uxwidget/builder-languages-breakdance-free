@@ -1,40 +1,37 @@
-# Breakdance Languages - Support Policy
+# Builder Languages for Breakdance — Política de suporte
 
-## Support Channels
+## Escopo do suporte
 
-Support is provided through the official UX Widget support channel listed on the purchase page or customer account.
+Inclui:
 
-## What Support Includes
+- Instalação e ativação do plugin
+- Escolha de idioma / sync com perfil WordPress
+- Problemas de language pack em locales suportados
+- Diagnósticos da tela Languages
+- Ativação de licença Freemius (builds comerciais)
 
-- Installation help.
-- License activation help.
-- Update issues.
-- Missing or incorrect translation reports.
-- Compatibility checks with supported Breakdance versions.
+Não inclui:
 
-## What Support Does Not Include
+- Customização de temas / CSS de sites de clientes
+- Tradução de conteúdo do banco (posts, páginas)
+- Plugins de terceiros não relacionados
+- Bugs do core Breakdance fora do escopo de i18n
 
-- Custom WordPress development.
-- Fixing unrelated third-party plugins.
-- Translating customer content.
-- Server administration.
-- Breakdance Builder support unrelated to translations.
+## Como pedir ajuda
 
-## Response Times
+Envie:
 
-Recommended support targets:
+1. Versão do **Builder Languages for Breakdance**
+2. Versão do **Breakdance**
+3. Versão do **WordPress** e **PHP**
+4. Locale do perfil e idioma escolhido em Languages
+5. Passos para reproduzir + prints se possível
+6. Se é site Local / staging / produção
 
-- Standard: 1-2 business days.
-- Agency: priority queue during business days.
+## Tempos de resposta (meta)
 
-## Required Information
+Definir no canal oficial UX Widget antes do lançamento público. Até lá, use o e-mail/suporte indicado na compra.
 
-When opening a ticket, include:
+## Idioma do suporte
 
-- WordPress version.
-- Breakdance version.
-- Breakdance Languages version.
-- Site/user locale.
-- Screenshot or screen recording.
-- Exact text that needs correction.
-
+Português (Brasil) e inglês.

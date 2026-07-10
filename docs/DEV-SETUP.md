@@ -1,16 +1,16 @@
-# Breakdance Languages — Ambiente de desenvolvimento limpo
+# Builder Languages for Breakdance — Ambiente de desenvolvimento limpo
 
 Guia para criar um **WordPress mínimo** no Local WP e ativar plugins **um a um**, isolando bugs do plugin em desenvolvimento.
 
 Relacionado: [INSTALLATION.md](./INSTALLATION.md) · [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) · [FREEMIUS-TESTING.md](./FREEMIUS-TESTING.md)
 
-Última atualização: **2026-07-09**
+Última atualização: **2026-07-10**
 
 ---
 
 ## Por que um site limpo?
 
-Sites como `sparklean-02` costumam ter cache, SEO, importações, muitos plugins e templates. Isso dificulta saber se um erro vem do **Breakdance Languages** ou de outro componente.
+Sites como `sparklean-02` costumam ter cache, SEO, importações, muitos plugins e templates. Isso dificulta saber se um erro vem do **Builder Languages for Breakdance** ou de outro componente.
 
 | Sintoma confuso | Causa comum em site “cheio” |
 |-----------------|----------------------------|
@@ -45,7 +45,7 @@ define( 'WP_DEBUG_LOG', true );
 define( 'WP_DEBUG_DISPLAY', false );
 @ini_set( 'display_errors', '0' );
 
-/* Freemius — modo desenvolvimento (Breakdance Languages) */
+/* Freemius — modo desenvolvimento (Builder Languages for Breakdance) */
 define( 'WP_FS__DEV_MODE', true );
 define( 'WP_FS__SKIP_EMAIL_ACTIVATION', true );
 define( 'WP_FS__breakdance-languages_SECRET_KEY', 'sk_...' ); // Secret Key do dashboard Freemius
@@ -66,13 +66,13 @@ Aponte o plugin para a pasta do repositório para editar sem copiar:
 ```powershell
 # PowerShell (admin) — ajuste os caminhos
 New-Item -ItemType SymbolicLink `
-  -Path "C:\Users\marce\Local Sites\sparklean-dev\app\public\wp-content\plugins\breakdance-languages" `
-  -Target "C:\Users\marce\Local Sites\sparklean-02\app\public\wp-content\plugins\breakdance-languages"
+  -Path "C:\Users\marce\Local Sites\sparklean-dev\app\public\wp-content\plugins\builder-languages-breakdance" `
+  -Target "C:\Users\marce\Local Sites\sparklean-02\app\public\wp-content\plugins\builder-languages-breakdance"
 ```
 
 ### Opção B — Cópia manual
 
-Copie a pasta `breakdance-languages` para `wp-content/plugins/` do site novo sempre que quiser testar uma versão fixa.
+Copie a pasta `builder-languages-breakdance` para `wp-content/plugins/` do site novo sempre que quiser testar uma versão fixa.
 
 ---
 
@@ -99,9 +99,9 @@ Ative **nesta ordem**. Rode o checklist após cada etapa antes de passar à pró
 - [ ] Builder carrega sem erro fatal
 - [ ] `debug.log` sem erros novos críticos
 
-### Etapa 2 — Breakdance Languages
+### Etapa 2 — Builder Languages for Breakdance
 
-1. Ative **Breakdance Languages**
+1. Ative **Builder Languages for Breakdance**
 2. Vá em **Breakdance → Idiomas** (`admin.php?page=breakdance-languages-settings`)
 
 **Checklist — painel Idiomas**
@@ -182,7 +182,7 @@ Páginas importadas, templates Breakdance de cliente e formulários complexos po
 
 ## 7. Fluxo de trabalho diário
 
-1. Editar código em `breakdance-languages/`
+1. Editar código em `builder-languages-breakdance/`
 2. Recarregar painel **Idiomas** com `Ctrl+F5` (JS/CSS versionados por `BREAKDANCE_LANGUAGES_VERSION`)
 3. Testar mudança no builder com hard refresh
 4. Se AJAX falhar: abrir `debug.log` + aba Network → `admin-ajax.php`
@@ -190,7 +190,7 @@ Páginas importadas, templates Breakdance de cliente e formulários complexos po
 
 ### Bump de versão para cache-bust
 
-Ao alterar `admin/assets/settings-tab.js` ou `.css`, incremente a versão em `breakdance-languages.php` (`BREAKDANCE_LANGUAGES_VERSION`) para o navegador não servir arquivo antigo.
+Ao alterar `admin/assets/settings-tab.js` ou `.css`, incremente a versão em `builder-languages-breakdance.php` (`BREAKDANCE_LANGUAGES_VERSION`) para o navegador não servir arquivo antigo.
 
 ---
 
@@ -238,7 +238,7 @@ Relacionado: [COMPATIBILITY.md](./COMPATIBILITY.md) · [AVALIACAO.md](./AVALIACA
 
 | Código | Papel |
 |--------|--------|
-  | `pt_BR`, `pt_PT`, `fr_FR`, `de_DE`, `es_ES`, `ar`, `ja_JP`, `it_IT` | 9 idiomas traduzidos (it_IT completo desde 2026-07-09) |
+  | 17 idiomas de produto + `en_US`/`en_GB` | ver `config/supported-locales.json` |
 | `en_US` | Baseline (inglês americano) |
 | `en_GB` | Inglês internacional |
 
@@ -248,12 +248,12 @@ Fonte de verdade no código: `includes/locale.php` → `breakdance_languages_sup
 
 - Python 3.8+
 - Dependência: `polib` (`pip install polib`)
-- Terminal na raiz do plugin: `wp-content/plugins/breakdance-languages/`
+- Terminal na raiz do plugin: `wp-content/plugins/builder-languages-breakdance/`
 
 ### Comandos obrigatórios
 
 ```powershell
-cd wp-content/plugins/breakdance-languages
+cd wp-content/plugins/builder-languages-breakdance
 
 # Validação consolidada (recomendado)
 python scripts/validate-all.py

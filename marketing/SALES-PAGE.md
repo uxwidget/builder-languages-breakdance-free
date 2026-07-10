@@ -1,92 +1,83 @@
-# Breakdance Languages
+# Builder Languages for Breakdance
 
-Translate the Breakdance Builder interface, admin screens, and first-party elements without editing Breakdance core files.
+Traduza a interface do Breakdance Builder, telas de admin e elementos first-party — sem editar o core do Breakdance.
 
 ## Hero
 
-### Breakdance Languages
+### Builder Languages for Breakdance
 
-Professional language packs for Breakdance Builder.
+Pacotes de idioma profissionais para o Breakdance Builder.
 
-Use Breakdance in Portuguese, French, German, Spanish, Arabic, Japanese, Italian, English International, and American English with a plugin built specifically for the Breakdance interface.
+Use o Breakdance em português, espanhol (ES/LATAM), francês, alemão, italiano, holandês, polonês, russo, árabe, hebraico, hindi, japonês, coreano, chinês simplificado e inglês — com um plugin feito para a interface do Breakdance.
 
-Primary CTA: Buy Breakdance Languages  
-Secondary CTA: View Documentation
+CTA principal: Comprar Builder Languages for Breakdance  
+CTA secundário: Ver documentação
 
-## Problem
+## Problema
 
-Breakdance is powerful, but many teams still work with an English-only interface. For agencies, client handoff and internal training become harder when editors, designers, or site owners do not work comfortably in English.
+O Breakdance é poderoso, mas muitas equipes ainda trabalham com interface só em inglês. Agências, handoff para clientes e treinamento interno ficam mais difíceis quando editores e donos de site não dominam inglês.
 
-## Solution
+## Solução
 
-Breakdance Languages adds dedicated translation files for Breakdance Builder, Breakdance admin screens, and first-party Breakdance Elements.
+O **Builder Languages for Breakdance** adiciona arquivos de tradução dedicados para Builder, admin e Breakdance Elements.
 
-No core file edits. No manual patching after every Breakdance update. Install the plugin, choose a supported WordPress language, and open the Builder.
+Sem editar core. Sem patch manual a cada update do Breakdance. Instale, escolha o idioma e abra o Builder.
 
-## Included Languages
+## Idiomas incluídos
 
-Nine translated language packs:
+17 idiomas de produto, incluindo:
 
-- Portuguese Brazil
-- Portuguese
-- French
-- German
-- Spanish
-- Arabic
-- Japanese
-- Italian
-- English International
+- Português (Brasil e Portugal)
+- Italiano, Francês, Alemão
+- Espanhol (Espanha e América Latina)
+- Holandês, Polonês, Russo
+- Árabe, Hebraico, Hindi
+- Japonês, Coreano, Chinês Simplificado
+- Inglês Internacional e Americano (baseline)
 
-American English (`en_US`) is included as the default baseline and runtime fallback when no other locale matches.
+## Recursos
 
-## Features
+- Traduções da interface do Builder
+- Traduções admin/PHP
+- Traduções dos Breakdance Elements
+- Integração do payload JSON do Builder
+- Form Builder (ações, e-mail, proteções)
+- Suporte RTL (árabe / hebraico)
+- Funciona por locale do usuário WordPress + tela Languages
+- Plugin companion, separado do core Breakdance
 
-- Builder interface translations.
-- Admin/PHP translations.
-- Breakdance Elements translations.
-- JavaScript translation payload integration.
-- Works per WordPress user locale.
-- Built as a companion plugin, separate from Breakdance core files.
+## Para quem é
 
-## Who It Is For
+- Agências com Breakdance em sites de clientes
+- Equipes BR/PT e multilíngues
+- Site builders que querem edição mais acessível
+- Times que padronizam o stack Breakdance
 
-- Agencies using Breakdance on client websites.
-- Brazilian and Portuguese-speaking teams.
-- Multilingual teams using Breakdance internally.
-- Site builders who want a more accessible editing experience.
-- Productized WordPress teams standardizing their Breakdance stack.
+## O que não faz
 
-## What It Does Not Do
+- Não traduz o conteúdo do site
+- Não substitui WPML, Polylang, TranslatePress ou Weglot
+- Não traduz interfaces de plugins de terceiros
+- Não modifica arquivos core do Breakdance
 
-- It does not translate your website content.
-- It does not replace WPML, Polylang, TranslatePress, or Weglot.
-- It does not translate third-party plugin interfaces.
-- It does not modify Breakdance core files.
+## Preços sugeridos
 
-## Suggested Pricing
+Ver [PRICING.md](./PRICING.md).
 
-Personal: 1 site, annual updates and support.  
-Business: 5 sites, annual updates and support.  
-Agency: unlimited sites, priority support.
+## Confiança
 
-## Trust Copy
-
-Breakdance Languages is developed by UX Widget as an independent companion plugin for Breakdance Builder. It is not affiliated with or endorsed by Breakdance.
+Desenvolvido pela **UX Widget** como companion independente. Não afiliado nem endossado pelo Breakdance.
 
 ## FAQ
 
-### Does this translate site content?
+### Traduz o conteúdo do site?
 
-No. It translates the Breakdance interface and related admin/builder strings.
+Não. Traduz a interface do Breakdance e strings relacionadas de admin/builder.
 
-### Does it work with WooCommerce?
+### Precisa do Breakdance?
 
-WooCommerce strings are normally translated by WooCommerce language packs. This plugin focuses on Breakdance and Breakdance Elements.
+Sim. É um plugin complementar.
 
-### Can my client use it?
+### Funciona com WooCommerce?
 
-Yes. Choose a plan that covers the number of sites you manage.
-
-### Will it keep working after Breakdance updates?
-
-The plugin is designed to avoid editing Breakdance files. Some Breakdance updates may add new strings, and those can be added in translation updates.
+Strings WooCommerce vêm dos language packs do WooCommerce. Este plugin cobre Breakdance/Elements.

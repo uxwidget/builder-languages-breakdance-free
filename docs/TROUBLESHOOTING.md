@@ -1,56 +1,60 @@
-# Breakdance Languages - Troubleshooting
+# Builder Languages for Breakdance — Troubleshooting
 
-## The Builder Is Still In English
+## A interface do Builder continua em inglês
 
-Check these items:
+1. Confirme que **Builder Languages for Breakdance** está ativo.
+2. Confirme que o **Breakdance Builder** está ativo.
+3. Em `Breakdance > Languages`, escolha o idioma e salve.
+4. Recarregue o builder (`Ctrl+Shift+R` ou feche/reabra a aba).
+5. Limpe cache de plugin, servidor e CDN.
+6. Verifique se o locale está em `config/supported-locales.json`.
 
-1. Confirm `Breakdance Languages` is active.
-2. Confirm `Breakdance Builder` is active.
-3. Confirm **Breakdance > Languages** is set to your target locale (explicit choice syncs the WordPress profile automatically).
-4. Reload the Breakdance Builder manually after changing language (hard refresh with `Ctrl+Shift+R`).
-5. Clear all cache layers (including WP Rocket or similar page cache).
-6. Hard refresh the browser again if needed.
+## Só parte da interface está traduzida
 
-### Profile and builder language mismatch
+Esperado em alguns casos:
 
-Choosing an explicit language in **Breakdance > Languages** updates the WordPress profile locale for the current user. If a warning still appears, save the language again or set **Users > Profile > Language** manually, then reload the builder.
+- Strings hardcoded em JS compilado do Breakdance
+- Plugins de terceiros / WooCommerce
+- Conteúdo do banco (títulos, textos de formulário salvos)
 
-## Some Text Is Translated And Some Is Not
+O Form Builder usa camadas extras (`form-builder-i18n.php` + overrides de editor). Se labels específicas falharem, reporte o texto exato em inglês e o locale.
 
-This usually means the missing text is outside the current translation catalogues. It may be:
+## Aviso de dependência do Breakdance
 
-- Hardcoded in Breakdance compiled assets.
-- Coming from a third-party plugin.
-- Coming from WooCommerce.
-- Stored as content in WordPress.
-- Added by a custom template or code snippet.
+O plugin exige Breakdance. Instale/ative o Breakdance e recarregue o admin.
 
-## Builder JSON Does Not Update
+## Locale errado (ex.: espanhol da Espanha em vez de LATAM)
 
-Clear browser cache and any optimization plugin that combines or delays JavaScript. Breakdance Builder translations are loaded through JavaScript locale data.
+Use `es_LA` (ou perfil `es_MX` / `es_419`, que aliasam para `es_LA`). Confira o language pack resolvido na tela de Languages.
 
-## PHP/Admin Text Does Not Update
+## Hebraico / árabe com layout quebrado
 
-Confirm the matching `.mo` file exists for your locale:
+1. Confirme o locale `he_IL` ou `ar`.
+2. Limpe cache de CSS/JS.
+3. Teste em site limpo (sem CSS custom conflitante).
+4. Veja `includes/rtl-support.php` e `admin/assets/settings-tab.css`.
 
-`languages/breakdance-{locale}.mo`
+## Freemius / licença não aparece
 
-Example:
+1. Confirme `config/freemius.php` local (nunca no Git).
+2. Confirme SDK em `vendor/freemius/`.
+3. Veja [FREEMIUS-SETUP.md](./FREEMIUS-SETUP.md) e [FREEMIUS-TESTING.md](./FREEMIUS-TESTING.md).
 
-`languages/breakdance-pt_BR.mo`
+## `.update.blb` inválido / versão errada
 
-## Arabic Layout Direction
+1. `python scripts/blb-manifest.py verify`
+2. Confirme que `.blb-secret` local (ou `BLB_MANIFEST_SECRET`) é o mesmo usado na assinatura.
+3. Detalhes: [BLB-MANIFEST.md](./BLB-MANIFEST.md).
 
-The plugin provides Arabic translations. It does not redesign Breakdance Builder for right-to-left layouts beyond what WordPress and Breakdance already support.
+## Placeholders quebrados (`% s`, `{ {`, etc.)
 
-## Report A Missing Translation
+Rode o QA:
 
-Send:
+```powershell
+cd wp-content/plugins/builder-languages-breakdance
+python scripts/qa-placeholders.py --summary --all-supported
+python scripts/fix-placeholder-spacing.py --locale LOCALE
+python scripts/compile-mo.py
+```
 
-- The exact English text.
-- The current wrong translation, if any.
-- The expected translation.
-- A screenshot.
-- Your Breakdance version.
-- Your WordPress locale.
-
+Gate de release: `pt_BR`, `pt_PT`, `it_IT` = **0** issues.

@@ -1,43 +1,27 @@
-# Breakdance Languages - Pricing Draft
+# Builder Languages for Breakdance — Preços (rascunho)
 
-Use these prices as a starting point and adjust after testing demand.
+Valores e nomes de plano são rascunho — alinhar com Freemius antes do checkout público.
 
-## Personal (Single Site)
+## Planos sugeridos
 
-Price: USD 49/year  
-Sites: 1  
-Includes:
+| Plano | Sites | Inclui |
+| --- | --- | --- |
+| **Personal** | 1 | Updates anuais + suporte padrão + todos os idiomas do produto |
+| **Business** | 5 | Updates anuais + suporte padrão |
+| **Agency** | Ilimitados* | Updates anuais + suporte prioritário |
 
-- All included languages.
-- Updates for one year.
-- Standard support.
+\*Definir teto técnico no Freemius se necessário (ex.: 100 sites).
 
-## Business
+## Notas
 
-Price: USD 99/year  
-Sites: 5  
-Includes:
+- Produto **premium-only** (sem free permanente).
+- Renovação anual recomendada para updates de catálogo alinhados ao Breakdance.
+- Nome no checkout: **Builder Languages for Breakdance** (slug interno Freemius: `breakdance-languages`).
 
-- All Personal features.
-- Use on client projects.
-- Standard support.
+## Comparação rápida
 
-## Agency
-
-Price: USD 199/year  
-Sites: Unlimited  
-Includes:
-
-- All Business features.
-- Priority support.
-- Best option for agencies and freelancers.
-
-## Launch coupon (optional)
-
-Coupon: `BREAKDANCEFIRST` — 30% off for early marketplace buyers.  
-Effective launch prices: ~$34 / ~$69 / ~$139.
-
-## Lifetime Option
-
-Avoid lifetime pricing at launch unless cash flow is the priority. Translation maintenance follows Breakdance updates, so annual pricing is healthier.
-
+| | Personal | Business | Agency |
+| --- | --- | --- | --- |
+| Idiomas | Todos | Todos | Todos |
+| Sites | 1 | 5 | Ilimitados* |
+| Suporte | Padrão | Padrão | Prioritário |

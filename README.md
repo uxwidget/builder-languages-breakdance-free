@@ -66,7 +66,7 @@ A tela de Languages mostra o idioma atual do perfil WordPress e se ele coincide 
 
 Veja também: `docs/USER-GUIDE.md`, `docs/FAQ.md` e `docs/TROUBLESHOOTING.md`.
 
-Diagnósticos ficam em WordPress em `Configurações > Breakdance Languages` (menu do plugin).
+Diagnósticos ficam em WordPress em `Breakdance > Languages`.
 
 O licensing Freemius está preparado para builds comerciais e só ativa quando as constantes do produto e o SDK estão presentes.
 
@@ -90,6 +90,8 @@ Metadados de versão/canal ficam no arquivo assinado `.update.blb` (seguro para 
 Detalhes: `docs/BLB-MANIFEST.md`.
 
 ## Documentação
+
+Índice completo: [`docs/INDEX.md`](docs/INDEX.md).
 
 - **Setup de desenvolvimento (site Local limpo):** `docs/DEV-SETUP.md`
 - Instalação: `docs/INSTALLATION.md`

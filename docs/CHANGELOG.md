@@ -1,21 +1,42 @@
-# Breakdance Languages - Changelog
+# Builder Languages for Breakdance — Changelog
 
 ## ux-0.1.0
 
-Initial release.
+Release inicial comercializável (nome de exibição: **Builder Languages for Breakdance**).
 
-- Added Breakdance admin/PHP translations.
-- Added Breakdance Builder JavaScript translations.
-- Added Breakdance Elements translations.
-- Included 8 translated language packs: Portuguese Brazil, Portuguese, French, German, Spanish, Arabic, Japanese, and English International, with American English (`en_US`) as the default baseline and runtime fallback.
-- Added compatibility layer for Breakdance Builder translation JSON.
-- Added Breakdance dependency guard and admin notice.
-- Added WordPress plugin dependency header for Breakdance.
-- Added Breakdance Elements JSON merge fallback for Builder translations.
-- Changed gettext loading to priority 20 so custom language packs override Breakdance defaults.
-- Added release QA script for placeholder spacing checks.
-- Added distribution ignore list for build-only files.
-- Added `en_US` language files and locale fallback support.
-- Added diagnostics page under `Settings > Breakdance Languages`.
-- Added safe Freemius bootstrap scaffold for commercial builds.
-- Fixed Portuguese placeholder spacing issues reported by release QA.
+### Produto e marca
+
+- Nome exibido e pasta: `builder-languages-breakdance` (evita conflito de marca com “Breakdance Languages”).
+- Text domain / Freemius slug mantidos como `breakdance-languages` (compatibilidade de licença e PO do painel).
+- Repositório GitHub privado: `marceloadias/builder-languages-breakdance`.
+- Manifesto assinado `.update.blb` + tooling `scripts/blb-manifest.py` (secret local `.blb-secret`, nunca no Git).
+
+### Idiomas (17 de produto)
+
+- Gate: `pt_BR`, `pt_PT`, `it_IT`.
+- Beta / MT: `fr_FR`, `de_DE`, `es_ES`, `es_LA`, `nl_NL`, `pl_PL`, `ru_RU`, `ar`, `he_IL`, `hi_IN`, `ja_JP`, `ko_KR`, `zh_CN`.
+- Baseline: `en_US`, `en_GB`.
+- Registry central: `config/supported-locales.json` + `includes/locale-registry.php`.
+- Geolocalização Freemius: `config/freemius-geolocation-locales.json`.
+
+### Form Builder e runtime
+
+- `includes/form-builder-i18n.php` — filtro `breakdance_element_controls`.
+- Overrides de editor (MutationObserver / AJAX / Pinia) em `includes/editor-overrides.php`.
+- Prioridade Hindi/Hebraico: `includes/priority-locale-i18n.php` + configs JSON.
+- Suporte RTL: `includes/rtl-support.php`.
+
+### Infraestrutura
+
+- Camada de compatibilidade JSON do Builder (`breakdance_i18n_json`).
+- Gettext em `plugins_loaded` prioridade 20 (sobrescreve defaults do Breakdance).
+- Guard de dependência Breakdance + header `Requires Plugins`.
+- Scaffold Freemius para builds comerciais.
+- QA: `scripts/validate-all.py`, `qa-placeholders.py`, `.distignore`.
+- Diagnósticos em `Breakdance > Languages`.
+
+### Documentação
+
+- Docs e README em português do Brasil.
+- Índice: `docs/INDEX.md`.
+- Relatório da onda 10/07/2026: `docs/RELATORIO-ATUALIZACOES-2026-07-10.md`.

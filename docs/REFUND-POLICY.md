@@ -1,30 +1,27 @@
-# Breakdance Languages - Refund Policy
+# Builder Languages for Breakdance — Política de reembolso
 
-This is a suggested refund policy for selling Breakdance Languages through UX Widget. Review it before publishing.
+Rascunho sugerido para venda via UX Widget. Revisar antes de publicar.
 
-## 14-Day Refund Window
+## Janela
 
-Customers may request a refund within 14 days of purchase when the plugin cannot be made to work as described after a reasonable support attempt.
+Reembolso integral em até **14 dias** após a compra, se:
 
-## Eligible Refund Reasons
+- O plugin não funcionar no ambiente declarado (WP/PHP/Breakdance compatíveis), **e**
+- O suporte UX Widget não conseguir resolver em tempo razoável.
 
-- The plugin cannot be activated on a supported WordPress installation.
-- The supported language does not load after troubleshooting.
-- A documented compatibility issue prevents normal use.
+## Não elegível
 
-## Non-Refundable Cases
+- Arrependimento após uso prolongado sem problema técnico
+- Pedidos após a janela de 14 dias
+- Sites com Breakdance ausente / versões abaixo do mínimo
+- Licenças já transferidas ou usadas em violação dos termos Freemius/UX Widget
 
-- The customer changed their mind after successful installation.
-- The issue is caused by an unsupported plugin, theme, or custom code.
-- The customer expected translation of content, WooCommerce, or third-party plugins outside the product scope.
-- The subscription renewal was not cancelled before renewal date, unless required by local law or payment processor policy.
+## Como solicitar
 
-## How To Request A Refund
+1. Contatar o suporte UX Widget com o e-mail da compra e o ID da licença Freemius.
+2. Descrever o problema e o que já foi tentado (ver [TROUBLESHOOTING.md](./TROUBLESHOOTING.md)).
+3. Aguardar confirmação; a licença será desativada após o reembolso.
 
-Customers should contact support with:
+## Observação
 
-- Purchase email.
-- License key or order ID.
-- Site URL.
-- Description of the issue.
-
+Políticas do Freemius / gateway de pagamento podem se aplicar em paralelo. Em conflito, prevalece o contrato publicado no checkout.

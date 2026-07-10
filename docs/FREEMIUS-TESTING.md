@@ -1,4 +1,6 @@
-# Breakdance Languages — Freemius: referência de testes
+# Builder Languages for Breakdance — Freemius: referência de testes
+
+> Nome exibido: **Builder Languages for Breakdance**. Slug Freemius / páginas `breakdance-languages*`: mantidos.
 
 Documento de referência para **retomar testes** de checkout, licença e ambiente local sem depender do painel confuso do Freemius.
 
@@ -170,7 +172,7 @@ O site local `sparklean-02.local` usa **bypass de desenvolvimento** — a licen�
    // define( 'WP_FS__breakdance-languages_SECRET_KEY', 'sk_...' );
    ```
 2. **Freemius Debug** → *Delete All Accounts* (se houver opt-in preso)
-3. Desative e reative o plugin **Breakdance Languages**
+3. Desative e reative o plugin **Builder Languages for Breakdance**
 4. Abra `admin.php?page=breakdance-languages`
 5. Cole a **license key** (sandbox ou production)
 6. Confirme em **Breakdance → Settings → Languages** → **Licença = Ativa**
@@ -228,7 +230,7 @@ Criar no Freemius → **Coupons** no dia do lançamento no marketplace Breakdanc
 
 - Plugin **aprovado** no marketplace oficial Breakdance (2026-07).
 - Preços no marketplace devem bater com Freemius: **$49 / $99 / $199**.
-- LP: `https://uxwidget.com/breakdance-languages` → botões com links **Production**.
+- LP: `https://uxwidget.com/builder-languages-breakdance` → botões com links **Production**.
 
 ---
 

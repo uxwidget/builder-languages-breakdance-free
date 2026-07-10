@@ -1,50 +1,45 @@
-# Breakdance Languages - Launch Checklist
+# Builder Languages for Breakdance — Checklist de lançamento
 
-## Product
+## Produto
 
-- Confirm plugin header information.
-- Add final author name and plugin URI.
-- Confirm all included locales load.
-- Confirm `en_US` files load and fallback to `en_GB` works if files are removed in a test build.
-- Test with latest Breakdance version.
-- Test with a clean WordPress install.
-- Test with each supported language.
-- Prepare ZIP package.
+- [ ] Versão `ux-0.1.0` (ou bump) com `validate-all.py` = PASS
+- [ ] Gate `pt_BR` / `pt_PT` / `it_IT` = 0 placeholders
+- [ ] `.update.blb` regenerado (`python scripts/blb-manifest.py write`)
+- [ ] ZIP comercial sem `.blb-secret` / `config/freemius.php` de dev (`.distignore`)
+- [ ] Nome exibido: **Builder Languages for Breakdance**
+- [ ] Freemius slug permanece `breakdance-languages`
 
-## Website
+## Site / LP (UX Widget)
 
-Estratégia: **uma LP principal em `uxwidget.com`** (UX Widget + produtos Breakdance como seções/opcionais). Menos domínios, mais autoridade SEO na marca UX Widget.
+- [ ] Seção **Builder Languages for Breakdance** com CTA, preços e FAQ
+- [ ] URL sugerida: `uxwidget.com/builder-languages-breakdance` (redirect do slug antigo se existir)
+- [ ] Meta title/description SEO
+- [ ] Disclaimer de produto independente (não afiliado ao Breakdance)
 
-- [ ] LP única em `uxwidget.com` (home ou página principal de produtos).
-- [ ] Seção **UX Widget** (produto principal / flagship).
-- [ ] Seção **Breakdance Languages** (companion plugin) com CTA, preços e FAQ próprios.
-- [ ] Âncoras ou subpaths opcionais: `uxwidget.com/#breakdance-languages` ou `uxwidget.com/breakdance-languages` (redirect ou seção — não exige site separado).
-- [ ] Links para documentação (`docs/`, suporte, políticas).
-- [ ] Suporte: `support@uxwidget.com`.
-- [ ] Refund policy e trademark disclaimer (Breakdance não é afiliado à SoFlyy).
-- [ ] Meta title/description por seção ou página filha para SEO (UX Widget + “Breakdance Languages”).
+## Freemius
 
-## Sales
+- [ ] Título do produto atualizado no dashboard
+- [ ] Planos Personal / Business / Agency
+- [ ] Checkout production testado
+- [ ] E-mails sandbox/production revisados com o nome novo
+- [ ] Ver [FREEMIUS-SETUP.md](../docs/FREEMIUS-SETUP.md) e [FREEMIUS-TESTING.md](../docs/FREEMIUS-TESTING.md)
 
-- Configure Freemius product.
-- Add license plans.
-- Add Freemius SDK and product constants to commercial build.
-- Add update delivery.
-- Test checkout.
-- Test license activation.
-- Test subscription renewal email.
+## QA em site limpo
 
-## Support
+- [ ] Seguir [DEV-SETUP.md](../docs/DEV-SETUP.md)
+- [ ] Trocar idioma em `Breakdance > Languages` + hard refresh
+- [ ] Smoke Form Builder em `pt_BR`
+- [ ] Smoke RTL `he_IL` ou `ar`
+- [ ] Diagnósticos da tela Languages OK
 
-- Create support email or helpdesk.
-- Prepare missing translation report template.
-- Prepare compatibility report template.
-- Verify `Settings > Breakdance Languages` diagnostics on a clean site.
+## Docs
 
-## Marketing
+- [ ] [INDEX.md](../docs/INDEX.md) atualizado
+- [ ] README pt-BR
+- [ ] CHANGELOG da versão
+- [ ] Repo GitHub **privado**; secrets fora do Git
 
-- Create screenshots.
-- Record a short demo video.
-- Prepare launch post.
-- Contact Breakdance community groups where allowed.
-- Submit to Breakdance addon directories if available.
+## Pós-lançamento
+
+- [ ] Monitorar tickets de locale / placeholders
+- [ ] Próximo bump regenera `.update.blb` + changelog

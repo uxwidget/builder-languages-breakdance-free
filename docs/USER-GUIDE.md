@@ -1,87 +1,89 @@
-# Breakdance Languages - User Guide
+# Builder Languages for Breakdance — Guia do usuário
 
-Breakdance Languages adds language packs for Breakdance Builder, Breakdance admin screens, and first-party Breakdance elements.
+O **Builder Languages for Breakdance** adiciona pacotes de idioma para o Breakdance Builder, telas de admin/PHP do Breakdance e elementos first-party.
 
-## What It Translates
+## O que traduz
 
-- Breakdance Builder interface labels
-- Element names
-- Element controls
-- Preset sections
-- Breakdance admin/PHP strings
-- First-party Breakdance Elements strings
+- Labels da interface do Builder
+- Nomes de elementos
+- Controles de elementos
+- Seções de presets
+- Strings de admin/PHP do Breakdance
+- Strings dos Breakdance Elements first-party
+- Form Builder (ações, e-mail, CSRF, reCAPTCHA, etc. — via catálogo + runtime)
 
-## What It Does Not Replace
+## O que não substitui
 
-Some text may still appear in English when it is:
+Alguns textos podem continuar em inglês quando forem:
 
-- Hardcoded inside compiled Breakdance JavaScript.
-- Loaded from third-party plugins.
-- Loaded by WooCommerce or another plugin text domain.
-- Added by custom code, templates, or snippets.
-- Stored as content inside your WordPress database.
+- Hardcoded em JavaScript compilado do Breakdance
+- Carregados por plugins de terceiros
+- Do WooCommerce ou de outro text domain
+- Código custom, templates ou snippets
+- Conteúdo salvo no banco WordPress (posts, páginas, formulários)
 
-## Language Selection
+## Escolha de idioma
 
-Go to `Breakdance > Languages` to choose the Breakdance Builder language.
+Vá em `Breakdance > Languages` para escolher o idioma do Breakdance Builder.
 
-### Explicit builder language (recommended)
+### Idioma explícito do Builder (recomendado)
 
-Choose a specific locale in `Breakdance > Languages` (for example `Português (Brasil)`). The plugin saves the builder preference **and syncs the WordPress user profile locale** for the current user, so Breakdance and WordPress stay aligned.
+Escolha um locale específico (por exemplo `Português (Brasil)`). O plugin salva a preferência do builder **e sincroniza o locale do perfil WordPress** do usuário atual, para Breakdance e WordPress ficarem alinhados.
 
-Then reload the Breakdance Builder (`Ctrl+Shift+R` or close and reopen the builder tab).
+Depois, recarregue o Breakdance Builder (`Ctrl+Shift+R` ou feche e reabra a aba).
 
-### Auto mode
+### Modo Auto
 
-**Use WordPress profile language** means the builder follows `Users > Profile > Language`. The plugin does not change the profile in Auto mode.
+**Usar idioma do perfil WordPress** faz o builder seguir `Usuários > Perfil > Idioma`. No modo Auto o plugin não altera o perfil.
 
-### After changing language
+### Depois de mudar o idioma
 
-Saving a new language does not automatically reload an open builder session. Reload the builder manually.
+Salvar um idioma novo **não** recarrega automaticamente uma sessão aberta do builder. Recarregue manualmente.
 
-The Languages screen shows your WordPress profile language and warns if it still differs from the builder choice (for example before sync completes or on older saves).
+A tela de Languages mostra o idioma do perfil WordPress e avisa se ainda divergir da escolha do builder.
 
-### Plans
+### Planos
 
-- **Licensed installs:** choose any supported language independently from the WordPress profile, but aligning both is still recommended.
-- **Free / limited plans:** translations follow the WordPress profile language when that locale is included in the plan.
+- **Instalações licenciadas:** qualquer idioma suportado, independente do perfil — alinhar os dois ainda é recomendado.
+- **Planos free / limitados:** as traduções seguem o idioma do perfil quando o locale estiver no plano.
 
-If an exact locale file is unavailable, the plugin can use mappings from `translation-fallbacks.json`.
+Se o arquivo exato do locale não existir, o plugin pode usar mapeamentos de `translation-fallbacks.json` (ex.: `es_MX` / `es_419` → `es_LA`).
 
-## Diagnostics
+## Diagnósticos
 
-Open `Breakdance > Settings > Languages` to verify:
+Abra `Breakdance > Languages` para verificar:
 
-- Breakdance detection.
-- Breakdance version.
-- WordPress user locale.
-- Resolved language pack.
-- Required `.mo` and `.json` files.
-- Freemius commercial configuration status.
+- Detecção do Breakdance
+- Versão do Breakdance
+- Locale do usuário WordPress
+- Language pack resolvido
+- Arquivos `.mo` e `.json` necessários
+- Status da configuração comercial Freemius
 
-## Updating Translations
+## Atualizar traduções
 
-When a new version is installed:
+Quando uma nova versão for instalada:
 
-1. Update the plugin.
-2. Clear caches.
-3. Open Breakdance Builder.
-4. Hard refresh the browser.
+1. Atualize o plugin.
+2. Limpe caches.
+3. Abra o Breakdance Builder.
+4. Faça hard refresh no navegador.
 
-## Manual Translation Corrections
+## Correções manuais de tradução
 
-Translation corrections should be made in the `.po` files inside:
+Edite os arquivos `.po` em:
 
-`wp-content/plugins/breakdance-languages/languages`
+`wp-content/plugins/builder-languages-breakdance/languages`
 
-After editing `.po` files:
+Depois de editar:
 
-1. Recompile the matching `.mo` file.
-2. Regenerate JSON files for Builder translations when the source is a builder catalogue.
-3. Clear cache before testing.
+1. Recompile o `.mo` correspondente (`python scripts/compile-mo.py`).
+2. Regenere JSON do Builder quando a origem for catálogo de builder.
+3. Limpe cache antes de testar.
 
-## File Types
+## Tipos de arquivo
 
-- `.po`: editable translation catalogue.
-- `.mo`: compiled gettext file loaded by WordPress/PHP.
-- `.json`: JavaScript translation payload loaded by Breakdance Builder.
+- `.po` — catálogo editável
+- `.mo` — gettext compilado (WordPress/PHP)
+- `.json` — payload JavaScript do Breakdance Builder
+- `.update.blb` — manifesto assinado de versão/canal (interno UX Widget)

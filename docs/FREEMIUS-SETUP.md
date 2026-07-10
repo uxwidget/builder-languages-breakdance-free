@@ -1,6 +1,8 @@
-# Breakdance Languages — Configuração Freemius
+# Builder Languages for Breakdance — Configuração Freemius
 
-Guia passo a passo para o produto **Breakdance Languages** no Freemius.
+Guia passo a passo para o produto **Builder Languages for Breakdance** no Freemius.
+
+> **Nome vs slug:** o nome exibido é *Builder Languages for Breakdance*. O **slug Freemius**, text domain e constantes `WP_FS__breakdance-languages_*` permanecem `breakdance-languages` (não renomear sem migração). Pasta do plugin: `builder-languages-breakdance/`.
 
 - **Store ID:** `15920`
 - **Plugin ID:** `30587`
@@ -18,11 +20,11 @@ Preencha os dados do produto:
 
 | Campo | Valor sugerido |
 |-------|----------------|
-| **Title** | Breakdance Languages |
-| **Slug** | `breakdance-languages` |
+| **Title** | Builder Languages for Breakdance |
+| **Slug** | `breakdance-languages` (interno — não alterar) |
 | **Short description** | Professional language packs for Breakdance Builder, admin, and first-party elements. |
 | **Long description** | Translate the Breakdance Builder interface, Breakdance admin screens, and first-party elements in 8 languages (Portuguese Brazil, Portuguese, French, German, Spanish, Arabic, Japanese, and English International), with American English (`en_US`) as the default baseline — without editing Breakdance core files. |
-| **Plugin URI** | `https://uxwidget.com/breakdance-languages` |
+| **Plugin URI** | `https://uxwidget.com/builder-languages-breakdance` |
 | **Author** | UX Widget |
 | **Author URI** | `https://uxwidget.com` |
 | **Requires at least** | 6.0 |
@@ -63,7 +65,7 @@ Preencha para bater com o código deste repositório:
 |----------------|-------|
 | **Product ID** | `30587` |
 | **Plugin slug** | `breakdance-languages` |
-| **Main plugin file** | `breakdance-languages.php` |
+| **Main plugin file** | `builder-languages-breakdance.php` |
 | **Function name** | `breakdance_languages_fs` |
 | **Premium-only** | Yes |
 | **Has paid plans** | Yes |
@@ -85,13 +87,13 @@ O SDK ainda **não está** em `vendor/freemius/`. Escolha uma opção:
 
 1. Baixe: https://github.com/Freemius/wordpress-sdk/archive/master.zip
 2. Extraia e renomeie a pasta para `freemius`
-3. Copie para: `wp-content/plugins/breakdance-languages/vendor/freemius/`
+3. Copie para: `wp-content/plugins/builder-languages-breakdance/vendor/freemius/`
 4. Confirme que existe: `vendor/freemius/start.php`
 
 ### Opção B — Composer
 
 ```bash
-cd wp-content/plugins/breakdance-languages
+cd wp-content/plugins/builder-languages-breakdance
 composer require freemius/wordpress-sdk
 ```
 
@@ -118,7 +120,7 @@ Documentação oficial: [Testing your product](https://freemius.com/help/documen
 Em `wp-config.php` do site Local (**antes** do comentário “pare de editar”):
 
 ```php
-/* Freemius — modo desenvolvimento (Breakdance Languages) */
+/* Freemius — modo desenvolvimento (Builder Languages for Breakdance) */
 define( 'WP_FS__DEV_MODE', true );
 define( 'WP_FS__SKIP_EMAIL_ACTIVATION', true );
 define( 'WP_FS__breakdance-languages_SECRET_KEY', 'sk_COLE_AQUI' );
@@ -171,7 +173,7 @@ O Debug **não ativa licença** sozinho; serve para resetar e inspecionar dados.
 ### 6.4 Ativar no site local
 
 1. Confirme as 3 constantes no `wp-config.php`
-2. **Desative e reative** o plugin Breakdance Languages
+2. **Desative e reative** o plugin Builder Languages for Breakdance
 3. Abra: `admin.php?page=breakdance-languages`  
    (ou **Breakdance → Settings → Languages → Gerenciar licença**)
 4. Complete o opt-in com e-mail real + license key

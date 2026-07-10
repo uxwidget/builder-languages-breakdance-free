@@ -1,49 +1,52 @@
-# Breakdance Languages - Compatibility
+# Builder Languages for Breakdance — Compatibilidade
 
-## Supported Product
+## Escopo
 
-Breakdance Languages is built for Breakdance Builder and first-party Breakdance Elements.
+O plugin é feito para o **Breakdance Builder** e os **Breakdance Elements** first-party.
 
-Breakdance Builder must be active. The plugin declares `Requires Plugins: breakdance` and also performs a runtime dependency check before loading language files.
+Não substitui language packs de:
 
-## Supported WordPress
+- WordPress core
+- WooCommerce (text domain `woocommerce`)
+- Temas ou plugins de terceiros
 
-- WordPress 6.0 or newer
-- PHP 7.4 or newer
+## Requisitos
 
-## Supported Locales
+| Item | Mínimo |
+| --- | --- |
+| WordPress | 6.0+ |
+| PHP | 7.4+ |
+| Breakdance | instalado e ativo (`Requires Plugins: breakdance`) |
 
-- `pt_BR`
-- `pt_PT`
-- `fr_FR`
-- `de_DE`
-- `es_ES`
-- `ar`
-- `ja_JP`
-- `it_IT`
-- `en_GB`
-- `en_US`
+## Camadas de tradução
 
-## Known Boundaries
+| Camada | Mecanismo |
+| --- | --- |
+| Admin / PHP | gettext `breakdance` + `breakdance-elements` (`.po` / `.mo`) |
+| Builder JS | filtro `breakdance_i18n_json` + JSON |
+| Controles / Form Builder | filtro `breakdance_element_controls` + overrides JS |
+| Painel do plugin | text domain `breakdance-languages` |
 
-Breakdance may include strings in multiple places:
+Strings hardcoded em JS compilado ou vendor podem exigir patch de runtime ou ficarem em inglês até o Breakdance expor gettext.
 
-- PHP gettext files
-- JavaScript builder translation payloads
-- Element catalogues
-- Compiled JavaScript bundles
-- Third-party package code
+## Locales
 
-Breakdance Languages covers the available translation catalogues and selected builder JSON payloads. Hardcoded strings can require separate compatibility patches.
+Fonte da verdade: `config/supported-locales.json`.
 
-For Breakdance Builder JavaScript, the plugin merges both `breakdance-{locale}.json` and `breakdance-elements-{locale}.json`. Because Breakdance 2.8.0 registers the filtered JSON on the fixed `breakdance` domain, element translations are mirrored into that domain as a compatibility fallback.
+- **Gate de release:** `pt_BR`, `pt_PT`, `it_IT`
+- **Aliases:** `es_419` / `es_MX` → `es_LA`; `ja` → `ja_JP`; `zh` → `zh_CN`; `he` / `iw` → `he_IL`
+- **RTL:** `ar`, `he_IL`
 
-Locale fallback mappings are loaded from `translation-fallbacks.json`.
+## Freemius
 
-## WooCommerce
+Licensing comercial via Freemius (slug interno `breakdance-languages`). Ativa só com SDK + `config/freemius.php` (local / build comercial).
 
-Breakdance WooCommerce strings often use the WooCommerce text domain. Those translations are normally provided by WooCommerce language packs.
+## Manifesto BLB
 
-## Cache And Optimization Plugins
+`.update.blb` é metadado interno UX Widget. Não substitui o update Freemius. Ver [BLB-MANIFEST.md](./BLB-MANIFEST.md).
 
-JavaScript optimization plugins can delay or cache Builder assets. If translations do not appear after updating, exclude Breakdance Builder pages from JS optimization and clear cache.
+## Limites conhecidos
+
+- Resíduos de MT em locales beta (placeholders, termos curtos)
+- WooCommerce Breakdance subplugin → language packs Woo
+- Conteúdo do banco não é traduzido automaticamente

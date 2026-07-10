@@ -1,68 +1,84 @@
-# Breakdance Languages - Installation
+# Builder Languages for Breakdance — Instalação
 
-## Requirements
+## Requisitos
 
-- WordPress 6.0 or newer
-- PHP 7.4 or newer
-- Breakdance Builder installed and active
-- A WordPress user locale supported by Breakdance Languages
+- WordPress 6.0 ou mais recente
+- PHP 7.4 ou mais recente
+- Breakdance Builder instalado e ativo
+- Locale do usuário WordPress suportado pelo plugin
 
-## Included Languages
+## Idiomas incluídos
 
-- Portuguese Brazil (`pt_BR`)
-- Portuguese (`pt_PT`)
-- French (`fr_FR`)
-- German (`de_DE`)
-- Spanish (`es_ES`)
-- Arabic (`ar`)
-- English International (`en_GB`)
-- English United States (`en_US`)
+- Português Brasil (`pt_BR`)
+- Português Portugal (`pt_PT`)
+- Italiano (`it_IT`)
+- Francês (`fr_FR`)
+- Alemão (`de_DE`)
+- Espanhol Espanha (`es_ES`)
+- Espanhol América Latina (`es_LA`)
+- Holandês (`nl_NL`)
+- Polonês (`pl_PL`)
+- Russo (`ru_RU`)
+- Árabe (`ar`)
+- Hebraico (`he_IL`)
+- Hindi (`hi_IN`)
+- Japonês (`ja_JP`)
+- Coreano (`ko_KR`)
+- Chinês Simplificado (`zh_CN`)
+- Inglês Internacional (`en_GB`)
+- Inglês Estados Unidos (`en_US`) — baseline e fallback
 
-## Install From ZIP
+Lista canônica: `config/supported-locales.json`.
 
-1. Download the plugin ZIP file from your UX Widget account or purchase email.
-2. In WordPress, go to `Plugins > Add New Plugin`.
-3. Click `Upload Plugin`.
-4. Select the `breakdance-languages.zip` file.
-5. Click `Install Now`.
-6. Activate `Breakdance Languages`.
+## Instalar a partir do ZIP
 
-## Set Your WordPress Language
+1. Baixe o ZIP na conta UX Widget ou no e-mail de compra.
+2. No WordPress, vá em `Plugins > Adicionar novo plugin`.
+3. Clique em `Enviar plugin`.
+4. Selecione o arquivo `builder-languages-breakdance.zip` (ou o nome do release comercial).
+5. Clique em `Instalar agora`.
+6. Ative **Builder Languages for Breakdance**.
 
-Breakdance Languages follows the current WordPress user locale.
+> ZIPs antigos podem ainda se chamar `breakdance-languages.zip`. O conteúdo é o mesmo produto; prefira o nome novo nos releases atuais.
 
-For the whole site:
+## Definir o idioma
 
-1. Go to `Settings > General`.
-2. Change `Site Language`.
-3. Save changes.
+O plugin segue o locale do usuário WordPress e a preferência em `Breakdance > Languages`.
 
-For your user only:
+Para o site inteiro:
 
-1. Go to `Users > Profile`.
-2. Change `Language`.
-3. Save changes.
+1. Vá em `Configurações > Geral`.
+2. Altere `Idioma do site`.
+3. Salve.
 
-## Clear Cache
+Só para o seu usuário:
 
-After activation or update:
+1. Vá em `Usuários > Perfil`.
+2. Altere `Idioma`.
+3. Salve.
 
-1. Clear any WordPress cache plugin.
-2. Clear server/CDN cache if enabled.
-3. Open Breakdance Builder in a new browser tab.
-4. Hard refresh the browser:
-   - Windows/Linux: `Ctrl + F5`
+Ou escolha o idioma do Builder em `Breakdance > Languages` (recomendado). Com um idioma explícito, o plugin também sincroniza o locale do perfil do usuário atual.
+
+## Limpar cache
+
+Após ativar ou atualizar:
+
+1. Limpe o cache de plugins WordPress.
+2. Limpe cache de servidor/CDN, se houver.
+3. Abra o Breakdance Builder em uma nova aba.
+4. Faça hard refresh:
+   - Windows/Linux: `Ctrl + F5` ou `Ctrl + Shift + R`
    - macOS: `Cmd + Shift + R`
 
-## Verify Installation
+## Verificar a instalação
 
-Open a page with Breakdance Builder. Interface labels, controls, elements, and admin texts should load in your selected language.
+Abra uma página no Breakdance Builder. Labels, controles, elementos e textos de admin devem aparecer no idioma escolhido.
 
-You can also verify the active language pack in `Settings > Breakdance Languages`.
+Confirme também em `Breakdance > Languages` (diagnósticos do plugin).
 
-If the interface is still in English, check:
+Se a interface continuar em inglês, verifique:
 
-- The selected WordPress user language.
-- Whether the language is included in Breakdance Languages.
-- Whether Breakdance Builder is active.
-- Whether browser/server cache is serving old JavaScript.
+- Idioma do perfil WordPress
+- Se o idioma está na lista suportada
+- Se o Breakdance Builder está ativo
+- Se cache do navegador/servidor está servindo JavaScript antigo
