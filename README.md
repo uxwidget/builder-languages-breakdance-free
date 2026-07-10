@@ -1,102 +1,120 @@
 # Builder Languages for Breakdance
 
-Complementary WordPress plugin that loads language packs for the Breakdance Builder interface, Breakdance admin/PHP screens, and first-party Breakdance Elements.
+Plugin complementar para WordPress que carrega pacotes de idioma para a interface do Breakdance Builder, telas de admin/PHP do Breakdance e elementos first-party.
 
-Breakdance Builder must be installed and active. If Builder Languages for Breakdance is active without Breakdance, the plugin shows an admin notice and does not attempt to load language files.
+O Breakdance Builder precisa estar instalado e ativo. Se o Builder Languages for Breakdance estiver ativo sem o Breakdance, o plugin exibe um aviso no admin e não tenta carregar os arquivos de idioma.
 
-## Included Locales
+## Idiomas incluídos
 
-Eight translated language packs plus American English as the default baseline:
+17 idiomas de produto, com inglês americano como baseline padrão:
 
-- `pt_BR` - Portuguese (Brazil)
-- `pt_PT` - Portuguese
-- `fr_FR` - French
-- `de_DE` - German
-- `es_ES` - Spanish
-- `ar` - Arabic
-- `ja_JP` - Japanese
-- `en_GB` - English (International)
-- `en_US` - English (United States) — default American English baseline and runtime fallback
+- `pt_BR` — Português (Brasil)
+- `pt_PT` — Português (Portugal)
+- `it_IT` — Italiano
+- `fr_FR` — Francês
+- `de_DE` — Alemão
+- `es_ES` — Espanhol (Espanha)
+- `es_LA` — Espanhol (América Latina)
+- `nl_NL` — Holandês
+- `pl_PL` — Polonês
+- `ru_RU` — Russo
+- `ar` — Árabe
+- `he_IL` — Hebraico (RTL)
+- `hi_IN` — Hindi
+- `ja_JP` — Japonês
+- `ko_KR` — Coreano
+- `zh_CN` — Chinês (Simplificado)
+- `en_GB` — Inglês (Internacional)
+- `en_US` — Inglês (Estados Unidos) — baseline e fallback em runtime
 
-## How It Works
+Gate de release: `pt_BR`, `pt_PT` e `it_IT` devem passar com **0** placeholders suspeitos.
 
-Breakdance prints Builder translations through `wp.i18n` and exposes the `breakdance_i18n_json` filter. This plugin hooks that filter and merges matching `languages/breakdance-{locale}.json` and `languages/breakdance-elements-{locale}.json` files into the Builder translation payload.
+## Como funciona
 
-Breakdance 2.8.0 registers the filtered Builder JSON on the fixed `breakdance` JavaScript domain. For compatibility, Breakdance Languages also mirrors `breakdance-elements` JSON translations into the `breakdance` domain, while preserving the original `breakdance-elements` domain data.
+O Breakdance entrega traduções do Builder via `wp.i18n` e expõe o filtro `breakdance_i18n_json`. Este plugin usa esse filtro e mescla os arquivos `languages/breakdance-{locale}.json` e `languages/breakdance-elements-{locale}.json` no payload de tradução do Builder.
 
-Breakdance admin/PHP translations are loaded as standard gettext files using `languages/breakdance-{locale}.po` and `languages/breakdance-{locale}.mo` on the original `breakdance` text domain. The plugin loads these files on `plugins_loaded` priority 20 so they can override Breakdance's default language loading.
+No Breakdance 2.8.0, o JSON filtrado do Builder é registrado no domínio JavaScript fixo `breakdance`. Por compatibilidade, o plugin também espelha as traduções JSON de `breakdance-elements` no domínio `breakdance`, preservando os dados originais do domínio `breakdance-elements`.
 
-First-party element translations are loaded on the `breakdance-elements` text domain using `languages/breakdance-elements-{locale}.po` and `languages/breakdance-elements-{locale}.mo`.
+As traduções de admin/PHP do Breakdance são carregadas como gettext padrão com `languages/breakdance-{locale}.po` e `languages/breakdance-{locale}.mo` no text domain original `breakdance`. O carregamento ocorre em `plugins_loaded` com prioridade 20, para poder sobrescrever o carregamento padrão do Breakdance.
 
-Locale fallback rules are stored in `translation-fallbacks.json`. When no exact locale match is found, the plugin falls back to `en_US` (American English).
+As traduções dos elementos first-party usam o text domain `breakdance-elements` com `languages/breakdance-elements-{locale}.po` e `.mo`.
 
-## WordPress Profile Language vs Builder Language
+As regras de fallback de locale ficam em `translation-fallbacks.json`. Sem correspondência exata, o plugin cai para `en_US` (inglês americano).
 
-Breakdance Languages uses **two language layers**:
+## Idioma do perfil WordPress vs idioma do Builder
 
-| Layer | Where to set it | What it controls |
+O plugin usa **duas camadas de idioma**:
+
+| Camada | Onde configurar | O que controla |
 | --- | --- | --- |
-| WordPress profile language | `Users > Profile > Language` | Base locale for WordPress and parts of Breakdance |
-| Builder language | `Breakdance > Languages` | Preferred language for the Breakdance Builder |
+| Idioma do perfil WordPress | `Usuários > Perfil > Idioma` | Locale base do WordPress e partes do Breakdance |
+| Idioma do Builder | `Breakdance > Languages` | Idioma preferido do Breakdance Builder |
 
-### Explicit builder language
+### Idioma explícito do Builder
 
-When you choose a **specific language** in `Breakdance > Languages` (not Auto), the plugin also updates the **WordPress user profile locale** for the current user. This keeps Breakdance, WordPress, and the builder on the same language without a separate trip to `Users > Profile > Language`.
+Ao escolher um **idioma específico** em `Breakdance > Languages` (não Auto), o plugin também atualiza o **locale do perfil WordPress** do usuário atual. Assim Breakdance, WordPress e o builder ficam no mesmo idioma, sem precisar ir em `Usuários > Perfil > Idioma`.
 
-### Auto mode
+### Modo Auto
 
-If you choose **Use WordPress profile language**, the builder follows the profile locale. Change the profile language to switch the builder when using Auto.
+Se você escolher **Usar idioma do perfil WordPress**, o builder segue o locale do perfil. Altere o idioma do perfil para mudar o builder no modo Auto.
 
-### After changing language
+### Depois de mudar o idioma
 
-Reload the Breakdance Builder manually after saving (`Ctrl+Shift+R` or close and reopen the builder tab). An open builder tab is not reloaded automatically.
+Recarregue o Breakdance Builder manualmente após salvar (`Ctrl+Shift+R` ou feche e reabra a aba do builder). Uma aba aberta do builder não é recarregada automaticamente.
 
-The Languages settings screen shows your current WordPress profile language and whether it matches the builder choice.
+A tela de Languages mostra o idioma atual do perfil WordPress e se ele coincide com a escolha do builder.
 
-See also: `docs/USER-GUIDE.md`, `docs/FAQ.md`, and `docs/TROUBLESHOOTING.md`.
+Veja também: `docs/USER-GUIDE.md`, `docs/FAQ.md` e `docs/TROUBLESHOOTING.md`.
 
-Diagnostics are available in WordPress under `Settings > Breakdance Languages`.
+Diagnósticos ficam em WordPress em `Configurações > Breakdance Languages` (menu do plugin).
 
-Freemius licensing is scaffolded for commercial builds. It activates only when Freemius product constants and the SDK are present.
+O licensing Freemius está preparado para builds comerciais e só ativa quando as constantes do produto e o SDK estão presentes.
 
-## Translation Status
+## Status das traduções
 
-The plugin includes complete editable catalogues generated from Breakdance's `.pot` files:
+O plugin inclui catálogos editáveis gerados a partir dos `.pot` do Breakdance:
 
-- Admin/PHP: `breakdance/languages/breakdance.pot` -> `breakdance-{locale}.po/.mo`
-- Builder JS: `breakdance/languages/breakdance-builder.pot` -> `breakdance-builder-{locale}.po` -> `breakdance-{locale}.json`
-- Elements PHP/runtime: `breakdance/subplugins/breakdance-elements/languages/breakdance-elements.pot` -> `breakdance-elements-{locale}.po/.mo`
-- Element controls: `breakdance/subplugins/breakdance-elements/languages/breakdance-elements-builder.pot` -> `breakdance-elements-{locale}.po/.mo` and `breakdance-elements-{locale}.json`
+- Admin/PHP: `breakdance/languages/breakdance.pot` → `breakdance-{locale}.po/.mo`
+- Builder JS: `breakdance/languages/breakdance-builder.pot` → `breakdance-builder-{locale}.po` → `breakdance-{locale}.json`
+- Elements PHP/runtime: `breakdance/subplugins/breakdance-elements/languages/breakdance-elements.pot` → `breakdance-elements-{locale}.po/.mo`
+- Controles de elementos: `breakdance/subplugins/breakdance-elements/languages/breakdance-elements-builder.pot` → `breakdance-elements-{locale}.po/.mo` e `breakdance-elements-{locale}.json`
 
-WooCommerce strings inside `subplugins/breakdance-woocommerce` mostly use the `woocommerce` text domain, so they are translated by WooCommerce language packs, not by this plugin.
+Strings do WooCommerce em `subplugins/breakdance-woocommerce` usam em geral o text domain `woocommerce`, então são traduzidas pelos language packs do WooCommerce, não por este plugin.
 
-Some strings in compiled JavaScript or vendor code can still be hardcoded and absent from the `.pot` files. Those require either a targeted runtime replacement layer or an AI-assisted translation workflow.
+Algumas strings em JavaScript compilado ou código de vendor ainda podem estar hardcoded e ausentes dos `.pot`. Essas exigem camada de substituição em runtime ou fluxo de tradução assistido.
 
-## Documentation
+## Manifesto privado `.update.blb`
 
-- **Dev setup (clean Local site):** `docs/DEV-SETUP.md`
-- Installation: `docs/INSTALLATION.md`
-- User guide: `docs/USER-GUIDE.md`
+Metadados de versão/canal ficam no arquivo assinado `.update.blb` (seguro para o release). O segredo de assinatura (`.blb-secret`) **nunca** vai para o Git.
+
+Detalhes: `docs/BLB-MANIFEST.md`.
+
+## Documentação
+
+- **Setup de desenvolvimento (site Local limpo):** `docs/DEV-SETUP.md`
+- Instalação: `docs/INSTALLATION.md`
+- Guia do usuário: `docs/USER-GUIDE.md`
 - FAQ: `docs/FAQ.md`
 - Troubleshooting: `docs/TROUBLESHOOTING.md`
-- Compatibility: `docs/COMPATIBILITY.md`
+- Compatibilidade: `docs/COMPATIBILITY.md`
 - Changelog: `docs/CHANGELOG.md`
-- Support policy: `docs/SUPPORT-POLICY.md`
-- Refund policy draft: `docs/REFUND-POLICY.md`
-- Licensing notes: `docs/LICENSING.md`
+- Política de suporte: `docs/SUPPORT-POLICY.md`
+- Rascunho de reembolso: `docs/REFUND-POLICY.md`
+- Notas de licensing: `docs/LICENSING.md`
+- Relatório de atualizações: `docs/RELATORIO-ATUALIZACOES-2026-07-10.md`
 
-## Sales Materials
+## Materiais de vendas
 
-- Sales page draft: `marketing/SALES-PAGE.md`
-- Pricing draft: `marketing/PRICING.md`
-- Launch checklist: `marketing/LAUNCH-CHECKLIST.md`
+- Rascunho da página de vendas: `marketing/SALES-PAGE.md`
+- Rascunho de preços: `marketing/PRICING.md`
+- Checklist de lançamento: `marketing/LAUNCH-CHECKLIST.md`
 
-## Release QA
+## QA de release
 
-- **All-in-one:** `python scripts/validate-all.py`
-- Catalogue structure: `python scripts/verify-catalogues.py`
-- Placeholder spacing: `python scripts/qa-placeholders.py --summary --all-supported`
-- MT spacing repair: `python scripts/fix-placeholder-spacing.py` (then `--json-only` + `compile-mo.py`)
-- Distribution exclusions: `.distignore`
+- **Tudo em um:** `python scripts/validate-all.py`
+- Estrutura dos catálogos: `python scripts/verify-catalogues.py`
+- Espaçamento de placeholders: `python scripts/qa-placeholders.py --summary --all-supported`
+- Correção de espaçamento MT: `python scripts/fix-placeholder-spacing.py` (depois `--json-only` + `compile-mo.py`)
+- Exclusões de distribuição: `.distignore`
 
-**Release gate:** `pt_BR`, `pt_PT`, and `it_IT` must show **0** suspicious placeholders. Other locales are tracked but may retain MT residuals (especially `de_DE`).
+**Gate de release:** `pt_BR`, `pt_PT` e `it_IT` devem mostrar **0** placeholders suspeitos. Outros locales são acompanhados e podem manter resíduos de MT (especialmente `de_DE`).
