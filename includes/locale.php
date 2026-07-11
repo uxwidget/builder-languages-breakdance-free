@@ -93,7 +93,8 @@ function breakdance_languages_supported_locales(): array
 }
 
 /**
- * Locale fallbacks used when an exact language file is missing.
+ * Locale fallbacks used when an exact language code is missing or its
+ * catalogue files are absent.
  *
  * @return array<string, string>
  */
@@ -125,6 +126,80 @@ function breakdance_languages_locale_fallbacks(): array
      * @var array<string, string> $fallbacks
      */
     return apply_filters('breakdance_languages_locale_fallbacks', $fallbacks);
+}
+
+/**
+ * Whether the plugin ships readable catalogues for a locale.
+ */
+function breakdance_languages_locale_has_catalogues(string $locale): bool
+{
+    if ($locale === '') {
+        return false;
+    }
+
+    $dir = BREAKDANCE_LANGUAGES_PATH . 'languages/';
+    $stems = [
+        'breakdance-' . $locale,
+        'breakdance-elements-' . $locale,
+        'breakdance-builder-' . $locale,
+    ];
+
+    foreach ($stems as $stem) {
+        foreach (['.json', '.mo', '.po'] as $ext) {
+            if (is_readable($dir . $stem . $ext)) {
+                return true;
+            }
+        }
+    }
+
+    return false;
+}
+
+/**
+ * Prefer a supported locale that actually has catalogue files.
+ */
+function breakdance_languages_prefer_locale_with_catalogues(string $locale): ?string
+{
+    $planLocales = breakdance_languages_runtime_locale_codes();
+
+    if ($planLocales === []) {
+        return null;
+    }
+
+    $candidates = [];
+
+    if (in_array($locale, $planLocales, true)) {
+        $candidates[] = $locale;
+    }
+
+    $fallbacks = breakdance_languages_locale_fallbacks();
+
+    if (isset($fallbacks[$locale]) && is_string($fallbacks[$locale])) {
+        $candidates[] = $fallbacks[$locale];
+    }
+
+    // Built-in file fallback when an exact pack is listed but files were stripped.
+    if ($locale === 'en_US') {
+        $candidates[] = 'en_GB';
+    } elseif ($locale === 'en_GB') {
+        $candidates[] = 'en_US';
+    }
+
+    $seen = [];
+
+    foreach ($candidates as $candidate) {
+        if (isset($seen[$candidate]) || !in_array($candidate, $planLocales, true)) {
+            continue;
+        }
+
+        $seen[$candidate] = true;
+
+        if (breakdance_languages_locale_has_catalogues($candidate)) {
+            return $candidate;
+        }
+    }
+
+    return null;
 }
 
 /**
@@ -219,22 +294,11 @@ function breakdance_languages_sync_user_profile_locale(string $locale, int $user
 
 /**
  * Resolve a locale code to a supported language pack for the active plan.
+ * Only accepts a locale when catalogue files exist for it.
  */
 function breakdance_languages_match_supported_locale(string $locale): ?string
 {
-    $planLocales = breakdance_languages_runtime_locale_codes();
-
-    if (in_array($locale, $planLocales, true)) {
-        return $locale;
-    }
-
-    $fallbacks = breakdance_languages_locale_fallbacks();
-
-    if (isset($fallbacks[$locale]) && in_array($fallbacks[$locale], $planLocales, true)) {
-        return $fallbacks[$locale];
-    }
-
-    return null;
+    return breakdance_languages_prefer_locale_with_catalogues($locale);
 }
 
 /**
@@ -284,11 +348,19 @@ function breakdance_languages_resolve_locale(?string $locale = null): ?string
         return null;
     }
 
-    if (in_array('en_US', $planLocales, true)) {
-        return 'en_US';
+    foreach (['en_US', 'en_GB'] as $baseline) {
+        if (in_array($baseline, $planLocales, true) && breakdance_languages_locale_has_catalogues($baseline)) {
+            return $baseline;
+        }
     }
 
-    return $planLocales[0];
+    foreach ($planLocales as $candidate) {
+        if (breakdance_languages_locale_has_catalogues($candidate)) {
+            return $candidate;
+        }
+    }
+
+    return null;
 }
 
 /**

@@ -5,7 +5,7 @@
  * Description: Adds professional language packs for the Breakdance Builder interface, admin screens, and first-party elements.
  * Author: UX Widget
  * Author URI: https://uxwidget.com
- * Version: ux-0.1.3
+ * Version: ux-0.1.4
  * Requires Plugins: breakdance
  * Requires at least: 6.0
  * Requires PHP: 7.4
@@ -16,7 +16,7 @@ declare(strict_types=1);
 if (!defined('ABSPATH')) {
     exit;
 }
-define('BREAKDANCE_LANGUAGES_VERSION', 'ux-0.1.3');
+define('BREAKDANCE_LANGUAGES_VERSION', 'ux-0.1.4');
 define('BREAKDANCE_LANGUAGES_FILE', __FILE__);
 define('BREAKDANCE_LANGUAGES_PATH', plugin_dir_path(__FILE__));
 /**
@@ -238,6 +238,9 @@ function breakdance_languages_merge_jed_json(array $base, array $custom): array
 /**
  * Copy one Jed domain into another as a compatibility fallback.
  *
+ * Existing keys in the target domain win. Source keys are mirrored only when
+ * the target does not already define them (avoids overwriting shared terms).
+ *
  * @param array<string, mixed> $base
  * @param array<string, mixed> $custom
  * @return array<string, mixed>
@@ -263,9 +266,10 @@ function breakdance_languages_merge_jed_domain_into_domain(
         $base['locale_data'][$targetDomain] = [];
     }
 
+    // array_replace(source, target): later arrays win on key conflicts.
     $base['locale_data'][$targetDomain] = array_replace(
-        $base['locale_data'][$targetDomain],
-        $custom['locale_data'][$sourceDomain]
+        $custom['locale_data'][$sourceDomain],
+        $base['locale_data'][$targetDomain]
     );
 
     if (isset($base['locale_data'][$targetDomain]['']) && is_array($base['locale_data'][$targetDomain][''])) {

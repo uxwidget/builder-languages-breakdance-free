@@ -1,5 +1,11 @@
 # Builder Languages for Breakdance — Changelog
 
+## ux-0.1.4
+
+- Fallback de locale só aceita idiomas com catálogos presentes (`.po`/`.mo`/`.json`); `en_US`↔`en_GB` quando o pack listado não tem arquivos.
+- Espelhamento JED `breakdance-elements` → `breakdance` não sobrescreve chaves já existentes no domínio principal.
+- Manifesto `.update.blb` regenerado para `ux-0.1.4`.
+
 ## ux-0.1.3
 
 - Tela **Breakdance → Languages** passa a exibir os textos do próprio plugin no idioma escolhido (inclui Hindi e demais locales que caíam em inglês).
