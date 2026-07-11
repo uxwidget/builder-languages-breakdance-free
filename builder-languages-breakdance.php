@@ -5,7 +5,7 @@
  * Description: Adds professional language packs for the Breakdance Builder interface, admin screens, and first-party elements.
  * Author: UX Widget
  * Author URI: https://uxwidget.com
- * Version: ux-0.1.4
+ * Version: ux-0.1.5
  * Requires Plugins: breakdance
  * Requires at least: 6.0
  * Requires PHP: 7.4
@@ -16,7 +16,7 @@ declare(strict_types=1);
 if (!defined('ABSPATH')) {
     exit;
 }
-define('BREAKDANCE_LANGUAGES_VERSION', 'ux-0.1.4');
+define('BREAKDANCE_LANGUAGES_VERSION', 'ux-0.1.5');
 define('BREAKDANCE_LANGUAGES_FILE', __FILE__);
 define('BREAKDANCE_LANGUAGES_PATH', plugin_dir_path(__FILE__));
 /**

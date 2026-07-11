@@ -1,5 +1,10 @@
 # Builder Languages for Breakdance — Changelog
 
+## ux-0.1.5
+
+- Script `scripts/pack-release.py` gera ZIP comercial respeitando `.distignore` (sem scripts, marketing, cache nem secrets).
+- Guia [PACK-RELEASE.md](./PACK-RELEASE.md); `dist/` no `.gitignore`.
+
 ## ux-0.1.4
 
 - Fallback de locale só aceita idiomas com catálogos presentes (`.po`/`.mo`/`.json`); `en_US`↔`en_GB` quando o pack listado não tem arquivos.

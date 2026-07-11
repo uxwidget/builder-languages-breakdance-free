@@ -30,6 +30,7 @@
 | --- | --- |
 | [AMBIENTES.md](./AMBIENTES.md) | Dev vs venda: **WP separado** (não ativar 2 plugins no mesmo site) |
 | [ATUALIZACOES.md](./ATUALIZACOES.md) | Como documentar cada bump (CHANGELOG + manifesto + GitHub) |
+| [PACK-RELEASE.md](./PACK-RELEASE.md) | ZIP comercial com `pack-release.py` + `.distignore` |
 | [DEV-SETUP.md](./DEV-SETUP.md) | Ambiente Local limpo e QA |
 | [BLB-MANIFEST.md](./BLB-MANIFEST.md) | Manifesto `.update.blb` e secret |
 | [TRANSLATION-ROADMAP.md](./TRANSLATION-ROADMAP.md) | Paridade e qualidade por locale |

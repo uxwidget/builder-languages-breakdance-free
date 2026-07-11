@@ -25,7 +25,8 @@ O slug antigo permanece para não invalidar installs, webhooks e catálogos `bre
 
 ## Builds
 
-- ZIP público / Freemius: sem `.blb-secret`, sem `config/freemius.php` de dev (ver `.distignore`).
+- ZIP público / Freemius: gerar com `python scripts/pack-release.py` ([PACK-RELEASE.md](./PACK-RELEASE.md)) — respeita `.distignore`.
+- Sem `.blb-secret`, sem `config/freemius.php` de dev (a menos que `--freemius-config` de produção).
 - `.update.blb` pode ir no release; o secret de assinatura não.
 
 ## Ambientes

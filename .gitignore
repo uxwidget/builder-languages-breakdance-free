@@ -2,6 +2,9 @@ translation-cache.json
 __pycache__/
 *.pyc
 
+# Release artifacts (local only)
+/dist/
+
 # BLB private signing secret — NEVER commit
 .blb-secret
 .blb-secret.*

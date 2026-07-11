@@ -1,5 +1,7 @@
 /.git
 /.agents
+/.cursor
+/dist
 /translation-cache.json
 /scripts
 /marketing

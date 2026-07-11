@@ -5,7 +5,8 @@
 - [ ] Versão `ux-0.1.0` (ou bump) com `validate-all.py` = PASS
 - [ ] Gate `pt_BR` / `pt_PT` / `it_IT` = 0 placeholders
 - [ ] `.update.blb` regenerado (`python scripts/blb-manifest.py write`)
-- [ ] ZIP comercial sem `.blb-secret` / `config/freemius.php` de dev (`.distignore`)
+- [ ] ZIP comercial via `python scripts/pack-release.py` (respeita `.distignore`) — [PACK-RELEASE.md](../docs/PACK-RELEASE.md)
+- [ ] ZIP sem `.blb-secret` / `config/freemius.php` de dev
 - [ ] Nome exibido: **Builder Languages for Breakdance**
 - [ ] Freemius slug permanece `breakdance-languages`
 

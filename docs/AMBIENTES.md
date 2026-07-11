@@ -24,8 +24,8 @@ Slug Freemius / text domain interno: `breakdance-languages`. Pasta: `builder-lan
 ## Site de venda (comercial)
 
 1. Criar site novo no Local (nome sugerido: `blb-venda` ou `builder-languages-store`).
-2. Instalar só o necessário: WordPress + Breakdance + **um** ZIP do Builder Languages for Breakdance (build de distribuição).
-3. Usar `config/freemius.php` / constantes do **produto Freemius de produção** (não o secret de dev misturado no mesmo site).
+2. Instalar só o necessário: WordPress + Breakdance + **um** ZIP gerado por `python scripts/pack-release.py` (ver [PACK-RELEASE.md](./PACK-RELEASE.md)).
+3. Usar `config/freemius.php` / constantes do **produto Freemius de produção** (via `--freemius-config` no pack, ou no servidor — nunca misturar secret de dev no mesmo site).
 4. Testar checkout, ativação de licença e update — checklist em [FREEMIUS-TESTING.md](./FREEMIUS-TESTING.md).
 
 Não importe o banco do site de cliente cheio. Ambiente mínimo = resultado confiável.

@@ -95,6 +95,7 @@ Detalhes: `docs/BLB-MANIFEST.md`.
 
 - **Ambientes (dev vs venda — WP separado):** `docs/AMBIENTES.md`
 - **Como documentar atualizações:** `docs/ATUALIZACOES.md`
+- **ZIP comercial (`.distignore`):** `docs/PACK-RELEASE.md`
 - **Changelog (fonte oficial):** `docs/CHANGELOG.md`
 - **Setup de desenvolvimento (site Local limpo):** `docs/DEV-SETUP.md`
 - Instalação: `docs/INSTALLATION.md`
@@ -116,6 +117,7 @@ Detalhes: `docs/BLB-MANIFEST.md`.
 ## QA de release
 
 - **Tudo em um:** `python scripts/validate-all.py`
+- **ZIP comercial:** `python scripts/pack-release.py` (ver `docs/PACK-RELEASE.md`)
 - Estrutura dos catálogos: `python scripts/verify-catalogues.py`
 - Espaçamento de placeholders: `python scripts/qa-placeholders.py --summary --all-supported`
 - Correção de espaçamento MT: `python scripts/fix-placeholder-spacing.py` (depois `--json-only` + `compile-mo.py`)

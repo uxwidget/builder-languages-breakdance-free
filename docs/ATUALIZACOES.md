@@ -32,6 +32,7 @@ O painel admin **não** precisa de changelog interno: produto de tradução, sem
    ```
 5. Commit com mensagem clara (por quê, não só o quê).
 6. Push para `origin/main`.
+7. (Venda) Empacotar ZIP: `python scripts/pack-release.py` — ver [PACK-RELEASE.md](./PACK-RELEASE.md).
 
 Não commitar: `.blb-secret`, `config/freemius.php`, nem chaves Freemius.
 
@@ -41,6 +42,7 @@ Não commitar: `.blb-secret`, `config/freemius.php`, nem chaves Freemius.
 
 | Versão | Foco |
 | --- | --- |
+| `ux-0.1.5` | `pack-release.py` — ZIP comercial via `.distignore` |
 | `ux-0.1.4` | Fallback só com catálogo presente; merge JED sem sobrescrever domínio `breakdance` |
 | `ux-0.1.3` | UI da tela Languages no idioma escolhido (`settings-ui-strings.json`) |
 | `ux-0.1.2` | Categorias do painel Adicionar traduzidas |
