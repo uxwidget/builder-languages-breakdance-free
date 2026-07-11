@@ -42,6 +42,7 @@ Não commitar: `.blb-secret`, `config/freemius.php`, nem chaves Freemius.
 
 | Versão | Foco |
 | --- | --- |
+| `ux-0.1.6` | Remove pacote `en_US`; Breakdance nativo; só `en_GB` como inglês do plugin |
 | `ux-0.1.5` | `pack-release.py` — ZIP comercial via `.distignore` |
 | `ux-0.1.4` | Fallback só com catálogo presente; merge JED sem sobrescrever domínio `breakdance` |
 | `ux-0.1.3` | UI da tela Languages no idioma escolhido (`settings-ui-strings.json`) |

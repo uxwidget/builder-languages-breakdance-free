@@ -31,7 +31,7 @@ Nome de exibição: **Builder Languages for Breakdance**. Slug Freemius / text d
 
 ### Idiomas
 
-17 de produto + baseline `en_US` / `en_GB`. Ver `config/supported-locales.json`.
+17 de produto (`en_GB` como English International). `en_US` é nativo do Breakdance e não é catálogo deste plugin. Ver `config/supported-locales.json`.
 
 ---
 

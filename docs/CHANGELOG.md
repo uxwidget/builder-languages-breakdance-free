@@ -1,5 +1,12 @@
 # Builder Languages for Breakdance — Changelog
 
+## ux-0.1.6
+
+- Remove `en_US` dos locales suportados e dos catálogos (`breakdance-*-en_US.*`): o Breakdance já é nativo nesse idioma.
+- Mantém `en_GB` como **English International** (único inglês do plugin).
+- Sem match de locale (ex.: perfil `en_US`), o plugin não aplica pacote — não força `en_GB`.
+- Scripts de geração passam a usar `en_GB` como source padrão.
+
 ## ux-0.1.5
 
 - Script `scripts/pack-release.py` gera ZIP comercial respeitando `.distignore` (sem scripts, marketing, cache nem secrets).

@@ -37,7 +37,7 @@ def check_mo_files(locales: list[str], languages_dir: Path) -> list[str]:
 def locale_row_status(locale: str, structure_failures: list[str], placeholder_count: int) -> str:
     structure_ok = not any(failure.startswith(f"{locale}:") for failure in structure_failures)
 
-    if locale in ("en_US", "en_GB"):
+    if locale in ("en_GB",):
         quality = "baseline"
     elif locale in ("pt_BR", "pt_PT", "it_IT"):
         quality = "gate"
@@ -165,8 +165,8 @@ def main() -> int:
 
         if locale in qa.RELEASE_GATE_LOCALES:
             notes = "release gate"
-        elif locale in ("en_US", "en_GB"):
-            notes = "baseline"
+        elif locale in ("en_GB",):
+            notes = "baseline (English International)"
         elif count <= 15:
             notes = "beta OK"
         elif count <= 50:

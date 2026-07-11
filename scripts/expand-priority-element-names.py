@@ -18,7 +18,7 @@ CONFIG = ROOT / "config"
 sys.path.insert(0, str(ROOT / "scripts"))
 import locale_config  # noqa: E402
 
-SOURCE_PO = LANGUAGES / "breakdance-elements-en_US.po"
+SOURCE_PO = LANGUAGES / "breakdance-elements-en_GB.po"
 
 
 def get_translator(locale: str):

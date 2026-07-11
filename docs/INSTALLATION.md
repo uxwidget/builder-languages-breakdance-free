@@ -25,8 +25,8 @@
 - Japonês (`ja_JP`)
 - Coreano (`ko_KR`)
 - Chinês Simplificado (`zh_CN`)
-- Inglês Internacional (`en_GB`)
-- Inglês Estados Unidos (`en_US`) — baseline e fallback
+- Inglês Internacional (`en_GB`) — único inglês fornecido pelo plugin
+- Inglês Estados Unidos (`en_US`) — **nativo do Breakdance**; não é pacote deste plugin
 
 Lista canônica: `config/supported-locales.json`.
 

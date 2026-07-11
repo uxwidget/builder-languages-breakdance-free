@@ -119,13 +119,6 @@
       "plural_forms": "nplurals=2; plural=(n != 1);",
       "translate_target": null,
       "status": "baseline"
-    },
-    "en_US": {
-      "label": "English (United States)",
-      "language_team": "English (United States)",
-      "plural_forms": "nplurals=2; plural=(n != 1);",
-      "translate_target": null,
-      "status": "baseline"
     }
   },
   "editor_override_locales": [
@@ -148,6 +141,9 @@
   ],
   "release_gate_locales": ["pt_BR", "pt_PT", "it_IT"],
   "product_language_count": 17,
+  "notes": {
+    "en_US": "Native Breakdance / WordPress American English — not shipped as a plugin catalogue. Do not intercept."
+  },
   "locale_aliases": {
     "ja": "ja_JP",
     "es_419": "es_LA",

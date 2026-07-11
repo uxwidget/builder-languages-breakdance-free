@@ -33,7 +33,7 @@ Sem editar core. Sem patch manual a cada update do Breakdance. Instale, escolha 
 - Holandês, Polonês, Russo
 - Árabe, Hebraico, Hindi
 - Japonês, Coreano, Chinês Simplificado
-- Inglês Internacional e Americano (baseline)
+- Inglês Internacional (`en_GB`); inglês americano fica nativo no Breakdance
 
 ## Recursos
 

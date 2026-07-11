@@ -13,7 +13,7 @@ import polib
 ROOT = Path(__file__).resolve().parents[1]
 LANGUAGES = ROOT / "languages"
 PRIORITY_PATH = ROOT / "config" / "hi_IN-priority-strings.json"
-SOURCE_PO = LANGUAGES / "breakdance-elements-en_US.po"
+SOURCE_PO = LANGUAGES / "breakdance-elements-en_GB.po"
 
 
 def get_translator():

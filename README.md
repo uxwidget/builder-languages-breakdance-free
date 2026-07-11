@@ -6,7 +6,7 @@ O Breakdance Builder precisa estar instalado e ativo. Se o Builder Languages for
 
 ## Idiomas incluídos
 
-17 idiomas de produto, com inglês americano como baseline padrão:
+17 idiomas de produto. O inglês americano (`en_US`) **não** é pacote deste plugin: o Breakdance já é nativo nesse idioma e o plugin não o intercepta.
 
 - `pt_BR` — Português (Brasil)
 - `pt_PT` — Português (Portugal)
@@ -24,8 +24,7 @@ O Breakdance Builder precisa estar instalado e ativo. Se o Builder Languages for
 - `ja_JP` — Japonês
 - `ko_KR` — Coreano
 - `zh_CN` — Chinês (Simplificado)
-- `en_GB` — Inglês (Internacional)
-- `en_US` — Inglês (Estados Unidos) — baseline e fallback em runtime
+- `en_GB` — Inglês (Internacional) — único inglês fornecido pelo plugin
 
 Gate de release: `pt_BR`, `pt_PT` e `it_IT` devem passar com **0** placeholders suspeitos.
 
@@ -39,7 +38,7 @@ As traduções de admin/PHP do Breakdance são carregadas como gettext padrão c
 
 As traduções dos elementos first-party usam o text domain `breakdance-elements` com `languages/breakdance-elements-{locale}.po` e `.mo`.
 
-As regras de fallback de locale ficam em `translation-fallbacks.json`. Sem correspondência exata, o plugin cai para `en_US` (inglês americano).
+As regras de alias de locale ficam em `translation-fallbacks.json` (ex.: `ja` → `ja_JP`). Se o perfil for `en_US` ou outro locale sem pacote nosso, o plugin **não** aplica catálogo — o Breakdance nativo permanece.
 
 ## Idioma do perfil WordPress vs idioma do Builder
 

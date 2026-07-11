@@ -242,15 +242,15 @@ Checklist reproduzível para revisores humanos ou IAs confirmarem que **nenhum l
 
 Relacionado: [COMPATIBILITY.md](./COMPATIBILITY.md) · [AVALIACAO.md](./AVALIACAO.md)
 
-### Locales suportados (10)
+### Locales suportados
 
 | Código | Papel |
 |--------|--------|
-  | 17 idiomas de produto + `en_US`/`en_GB` | ver `config/supported-locales.json` |
-| `en_US` | Baseline (inglês americano) |
-| `en_GB` | Inglês internacional |
+| 16 traduzidos + `en_GB` | ver `config/supported-locales.json` (17 no total) |
+| `en_GB` | English International (único inglês do plugin) |
+| `en_US` | Não empacotado — Breakdance / WordPress nativo |
 
-Fonte de verdade no código: `includes/locale.php` → `breakdance_languages_supported_locale_codes()`.
+Fonte de verdade no código: `config/supported-locales.json` + `includes/locale.php`.
 
 ### Pré-requisitos
 
@@ -295,7 +295,7 @@ Exit code `0`. Qualquer `MISSING`, `MISMATCH` ou exit code `1` = falha.
 | `pt_BR`, `pt_PT` | **Sim** | 0 suspeitas |
 | `it_IT` | **Sim** | 0 suspeitas |
 | `fr_FR`, `de_DE`, `es_ES`, `ar`, `ja_JP` | Não (beta) | Rastrear tendência; corrigir `%sPro`/HTML com `fix-placeholder-spacing.py` |
-| `en_US`, `en_GB` | N/A | Baseline; ~2 falsos positivos aceitáveis |
+| `en_GB` | N/A | English International (baseline do plugin) |
 
 Correção em massa após machine translation:
 
@@ -347,7 +347,7 @@ Confirmar que o locale aparece em:
 ### Gerar um locale novo (ex. após adicionar idioma)
 
 ```powershell
-python -u scripts/generate-locale.py --source en_US --target it_IT --translate
+python -u scripts/generate-locale.py --source en_GB --target it_IT --translate
 python scripts/compile-mo.py
 python scripts/verify-catalogues.py
 ```

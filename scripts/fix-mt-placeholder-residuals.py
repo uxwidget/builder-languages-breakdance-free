@@ -170,7 +170,7 @@ def main() -> int:
     locales = args.locales or [
         code
         for code in locale_config.locale_codes()
-        if code not in ("en_US", "en_GB")
+        if code not in ("en_GB",)
     ]
 
     total = 0

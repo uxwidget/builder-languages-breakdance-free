@@ -12,7 +12,7 @@ Relacionado: [DEV-SETUP.md](./DEV-SETUP.md) · [COMPATIBILITY.md](./COMPATIBILIT
 
 | Item | Status |
 |------|--------|
-| Locales de produto | **17** (+ baseline `en_US` / `en_GB`) |
+| Locales de produto | **17** (`en_GB` = English International; `en_US` = nativo Breakdance, sem pacote nosso) |
 | Catálogos Breakdance (3 camadas) | Preenchidos para todos os locales suportados |
 | Painel `breakdance-languages-*.po` | Presente nos locales principais (incl. novos da onda 10/07) |
 | Gate release | `pt_BR`, `pt_PT`, `it_IT` = **0** placeholders |

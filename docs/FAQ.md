@@ -18,7 +18,7 @@ Em geral, não. Strings do WooCommerce usam o text domain `woocommerce` e vêm d
 
 ## Quantos idiomas estão incluídos?
 
-17 idiomas de produto + baseline `en_US` / `en_GB`. Lista completa em `config/supported-locales.json` e no [README](../README.md).
+17 idiomas de produto (`en_GB` = English International). O `en_US` é nativo do Breakdance e **não** entra na lista suportada. Lista completa em `config/supported-locales.json` e no [README](../README.md).
 
 ## Meu perfil está em inglês, mas escolhi português no plugin. Por que o builder ainda aparece parcialmente em inglês?
 

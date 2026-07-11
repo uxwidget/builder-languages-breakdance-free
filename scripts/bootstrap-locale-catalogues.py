@@ -33,8 +33,8 @@ def main() -> int:
     )
     parser.add_argument(
         "--source",
-        default="en_US",
-        help="Source locale for PO cloning (default: en_US). Use es_ES for es_LA.",
+        default="en_GB",
+        help="Source locale for PO cloning (default: en_GB). Use es_ES for es_LA.",
     )
     parser.add_argument(
         "--translate",

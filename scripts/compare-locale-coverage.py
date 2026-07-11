@@ -18,7 +18,7 @@ BASELINE = "pt_BR"
 sys.path.insert(0, str(ROOT / "scripts"))
 import locale_config  # noqa: E402
 
-LOCALES = locale_config.translatable_locale_codes() + ["en_US", "en_GB"]
+LOCALES = locale_config.translatable_locale_codes() + ["en_GB"]
 DOMAINS = ("breakdance", "breakdance-builder", "breakdance-elements")
 PLUGIN_PO = "breakdance-languages"
 

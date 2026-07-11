@@ -23,7 +23,7 @@ Preencha os dados do produto:
 | **Title** | Builder Languages for Breakdance |
 | **Slug** | `breakdance-languages` (interno — não alterar) |
 | **Short description** | Professional language packs for Breakdance Builder, admin, and first-party elements. |
-| **Long description** | Translate the Breakdance Builder interface, Breakdance admin screens, and first-party elements in 8 languages (Portuguese Brazil, Portuguese, French, German, Spanish, Arabic, Japanese, and English International), with American English (`en_US`) as the default baseline — without editing Breakdance core files. |
+| **Long description** | Translate the Breakdance Builder interface, Breakdance admin screens, and first-party elements in 17 product languages. American English (`en_US`) stays native to Breakdance; this plugin ships English International (`en_GB`) plus the other locales — without editing Breakdance core files. |
 | **Plugin URI** | `https://uxwidget.com/builder-languages-breakdance` |
 | **Author** | UX Widget |
 | **Author URI** | `https://uxwidget.com` |
