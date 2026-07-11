@@ -93,13 +93,15 @@ Detalhes: `docs/BLB-MANIFEST.md`.
 
 Índice completo: [`docs/INDEX.md`](docs/INDEX.md).
 
+- **Ambientes (dev vs venda — WP separado):** `docs/AMBIENTES.md`
+- **Como documentar atualizações:** `docs/ATUALIZACOES.md`
+- **Changelog (fonte oficial):** `docs/CHANGELOG.md`
 - **Setup de desenvolvimento (site Local limpo):** `docs/DEV-SETUP.md`
 - Instalação: `docs/INSTALLATION.md`
 - Guia do usuário: `docs/USER-GUIDE.md`
 - FAQ: `docs/FAQ.md`
 - Troubleshooting: `docs/TROUBLESHOOTING.md`
 - Compatibilidade: `docs/COMPATIBILITY.md`
-- Changelog: `docs/CHANGELOG.md`
 - Política de suporte: `docs/SUPPORT-POLICY.md`
 - Rascunho de reembolso: `docs/REFUND-POLICY.md`
 - Notas de licensing: `docs/LICENSING.md`

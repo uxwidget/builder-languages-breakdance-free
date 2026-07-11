@@ -28,6 +28,10 @@ O slug antigo permanece para não invalidar installs, webhooks e catálogos `bre
 - ZIP público / Freemius: sem `.blb-secret`, sem `config/freemius.php` de dev (ver `.distignore`).
 - `.update.blb` pode ir no release; o secret de assinatura não.
 
+## Ambientes
+
+Não misture build de venda e pasta de desenvolvimento no **mesmo** WordPress. Use um site Local só para a versão comercial. Ver [AMBIENTES.md](./AMBIENTES.md) e [ATUALIZACOES.md](./ATUALIZACOES.md).
+
 ## Marca
 
 Breakdance é marca de seus respectivos donos. **Builder Languages for Breakdance** é produto independente da UX Widget, sem afiliação ou endosso do Breakdance.

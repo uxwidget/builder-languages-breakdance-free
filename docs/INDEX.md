@@ -1,6 +1,6 @@
 # Documentação — Builder Languages for Breakdance
 
-Índice dos guias do plugin (versão `ux-0.1.0`).
+Índice dos guias do plugin (versão atual: ver [CHANGELOG.md](./CHANGELOG.md)).
 
 ## Nome e identidade
 
@@ -28,10 +28,12 @@
 
 | Documento | Conteúdo |
 | --- | --- |
+| [AMBIENTES.md](./AMBIENTES.md) | Dev vs venda: **WP separado** (não ativar 2 plugins no mesmo site) |
+| [ATUALIZACOES.md](./ATUALIZACOES.md) | Como documentar cada bump (CHANGELOG + manifesto + GitHub) |
 | [DEV-SETUP.md](./DEV-SETUP.md) | Ambiente Local limpo e QA |
 | [BLB-MANIFEST.md](./BLB-MANIFEST.md) | Manifesto `.update.blb` e secret |
 | [TRANSLATION-ROADMAP.md](./TRANSLATION-ROADMAP.md) | Paridade e qualidade por locale |
-| [CHANGELOG.md](./CHANGELOG.md) | Histórico de versões |
+| [CHANGELOG.md](./CHANGELOG.md) | Histórico oficial de versões |
 | [LICENSING.md](./LICENSING.md) | Freemius / licensing |
 | [FREEMIUS-SETUP.md](./FREEMIUS-SETUP.md) | Setup do produto Freemius |
 | [FREEMIUS-TESTING.md](./FREEMIUS-TESTING.md) | Checklist de testes Freemius |

@@ -24,7 +24,7 @@
 - [ ] E-mails sandbox/production revisados com o nome novo
 - [ ] Ver [FREEMIUS-SETUP.md](../docs/FREEMIUS-SETUP.md) e [FREEMIUS-TESTING.md](../docs/FREEMIUS-TESTING.md)
 
-## QA em site limpo
+## QA em site limpo (dev)
 
 - [ ] Seguir [DEV-SETUP.md](../docs/DEV-SETUP.md)
 - [ ] Trocar idioma em `Breakdance > Languages` + hard refresh
@@ -32,14 +32,19 @@
 - [ ] Smoke RTL `he_IL` ou `ar`
 - [ ] Diagnósticos da tela Languages OK
 
+## Site WordPress da versão de venda
+
+- [ ] Instalar em **WP novo e separado** (não no mesmo site do Git/dev) — [AMBIENTES.md](../docs/AMBIENTES.md)
+- [ ] Apenas um ZIP comercial ativo (sem segunda pasta do plugin)
+- [ ] Freemius production: checkout + licença + update — [FREEMIUS-TESTING.md](../docs/FREEMIUS-TESTING.md)
+
 ## Docs
 
 - [ ] [INDEX.md](../docs/INDEX.md) atualizado
 - [ ] README pt-BR
-- [ ] CHANGELOG da versão
+- [ ] [CHANGELOG.md](../docs/CHANGELOG.md) da versão (+ [ATUALIZACOES.md](../docs/ATUALIZACOES.md))
 - [ ] Repo GitHub **privado**; secrets fora do Git
 
 ## Pós-lançamento
 
-- [ ] Monitorar tickets de locale / placeholders
-- [ ] Próximo bump regenera `.update.blb` + changelog
+- [ ] Próximo bump: CHANGELOG + `.update.blb` + push ([ATUALIZACOES.md](../docs/ATUALIZACOES.md))

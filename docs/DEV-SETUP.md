@@ -2,9 +2,17 @@
 
 Guia para criar um **WordPress mínimo** no Local WP e ativar plugins **um a um**, isolando bugs do plugin em desenvolvimento.
 
-Relacionado: [INSTALLATION.md](./INSTALLATION.md) · [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) · [FREEMIUS-TESTING.md](./FREEMIUS-TESTING.md)
+Relacionado: [AMBIENTES.md](./AMBIENTES.md) · [ATUALIZACOES.md](./ATUALIZACOES.md) · [INSTALLATION.md](./INSTALLATION.md) · [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) · [FREEMIUS-TESTING.md](./FREEMIUS-TESTING.md)
 
-Última atualização: **2026-07-10**
+Última atualização: **2026-07-11**
+
+---
+
+## Dev vs versão de venda
+
+Este guia cobre o **site de desenvolvimento**. A versão de venda (Freemius / checkout / updates pagos) exige um **WordPress novo e separado** — não ative duas cópias do plugin no mesmo WP. Detalhes: [AMBIENTES.md](./AMBIENTES.md).
+
+Histórico de mudanças: [CHANGELOG.md](./CHANGELOG.md) · processo: [ATUALIZACOES.md](./ATUALIZACOES.md).
 
 ---
 
