@@ -4936,7 +4936,7 @@
         "Pauta"
       ],
       "Element name\u0004HTML IMG": [
-        "HTML IMG"
+        "Imagen HTML"
       ],
       "Control label\u0004src": [
         "src"
@@ -6772,10 +6772,10 @@
         "Disable Prefix"
       ],
       "Element name\u0004Archive Title": [
-        "Archive Title"
+        "Título de archivo"
       ],
       "Element name\u0004Post Title": [
-        "Post Title"
+        "Título de la entrada"
       ]
     }
   }

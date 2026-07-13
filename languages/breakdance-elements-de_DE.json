@@ -4936,7 +4936,7 @@
         "Linien"
       ],
       "Element name\u0004HTML IMG": [
-        "HTML IMG"
+        "HTML-Bild"
       ],
       "Control label\u0004src": [
         "src"
@@ -4966,7 +4966,7 @@
         "faul"
       ],
       "Element name\u0004ShortcodeWrapper": [
-        "ShortcodeWrapper"
+        "Shortcode-Hülle"
       ],
       "Element name\u0004Simple Testimonial": [
         "Einfaches Zeugnis"
@@ -6772,10 +6772,10 @@
         "Disable Prefix"
       ],
       "Element name\u0004Archive Title": [
-        "Archive Title"
+        "Archivtitel"
       ],
       "Element name\u0004Post Title": [
-        "Post Title"
+        "Beitragstitel"
       ]
     }
   }

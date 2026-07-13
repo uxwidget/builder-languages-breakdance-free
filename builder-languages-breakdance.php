@@ -5,7 +5,7 @@
  * Description: Translate the Breakdance Builder, admin screens, and first-party elements into 17 languages — without editing Breakdance core files.
  * Author: UX Widget
  * Author URI: https://uxwidget.com
- * Version: 0.1.13
+ * Version: 0.1.14
  * Requires Plugins: breakdance
  * Requires at least: 6.0
  * Requires PHP: 7.4
@@ -23,7 +23,7 @@ declare(strict_types=1);
 if (!defined('ABSPATH')) {
     exit;
 }
-define('BREAKDANCE_LANGUAGES_VERSION', '0.1.13');
+define('BREAKDANCE_LANGUAGES_VERSION', '0.1.14');
 define('BREAKDANCE_LANGUAGES_FILE', __FILE__);
 define('BREAKDANCE_LANGUAGES_PATH', plugin_dir_path(__FILE__));
 /**

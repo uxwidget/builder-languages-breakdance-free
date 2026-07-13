@@ -11014,7 +11014,7 @@ msgstr "Linhas"
 #: elements/HTML_img/element.php:38
 msgctxt "Element name"
 msgid "HTML IMG"
-msgstr "HTML IMG"
+msgstr "Imagem HTML"
 
 #: elements/HTML_img/element.php:102
 msgctxt "Control label"
@@ -11064,7 +11064,7 @@ msgstr "preguiçoso"
 #: elements/ShortcodeWrapper/element.php:43
 msgctxt "Element name"
 msgid "ShortcodeWrapper"
-msgstr "ShortcodeWrapper"
+msgstr "Invólucro de shortcode"
 
 #: elements/Simple_Testimonial/element.php:38
 msgctxt "Element name"

@@ -4966,7 +4966,7 @@
         "Pigro"
       ],
       "Element name\u0004ShortcodeWrapper": [
-        "ShortcodeWrapper"
+        "Contenitore shortcode"
       ],
       "Element name\u0004Simple Testimonial": [
         "Testimonianza semplice"
@@ -6772,10 +6772,10 @@
         "Disable Prefix"
       ],
       "Element name\u0004Archive Title": [
-        "Archive Title"
+        "Titolo archivio"
       ],
       "Element name\u0004Post Title": [
-        "Post Title"
+        "Titolo del post"
       ]
     }
   }

@@ -2,7 +2,7 @@
 
 ## Produto
 
-- [x] ZIP comercial `0.1.13` via `pack-release.py` — [PACK-RELEASE.md](../docs/PACK-RELEASE.md)
+- [x] ZIP comercial `0.1.14` via `pack-release.py` — [PACK-RELEASE.md](../docs/PACK-RELEASE.md)
 - [x] Nome exibido: **Builder Languages for Breakdance**
 - [x] Freemius slug permanece `breakdance-languages`
 - [x] Public Key `pk_e984dedde8057992b2e0735383e70` no `config/freemius.php` + ZIP

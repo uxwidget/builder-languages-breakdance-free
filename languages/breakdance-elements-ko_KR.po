@@ -11006,7 +11006,7 @@ msgstr "윤곽"
 #: elements/HTML_img/element.php:38
 msgctxt "Element name"
 msgid "HTML IMG"
-msgstr "HTML IMG"
+msgstr "HTML 이미지"
 
 #: elements/HTML_img/element.php:102
 msgctxt "Control label"

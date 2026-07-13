@@ -577,7 +577,7 @@
         "قائمة"
       ],
       "Element name\u0004Wrapper Link": [
-        "رابط المجمع"
+        "رابط الغلاف"
       ],
       "Control label\u0004Min Height": [
         "الحد الأدنى للارتفاع"
@@ -4936,7 +4936,7 @@
         "خطوط"
       ],
       "Element name\u0004HTML IMG": [
-        "HTML IMG"
+        "صورة HTML"
       ],
       "Control label\u0004src": [
         "src"

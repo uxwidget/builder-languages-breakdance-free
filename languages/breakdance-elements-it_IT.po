@@ -11065,7 +11065,7 @@ msgstr "Pigro"
 #: elements/ShortcodeWrapper/element.php:43
 msgctxt "Element name"
 msgid "ShortcodeWrapper"
-msgstr "ShortcodeWrapper"
+msgstr "Contenitore shortcode"
 
 #: elements/Simple_Testimonial/element.php:38
 msgctxt "Element name"
@@ -14129,9 +14129,9 @@ msgstr "Disable Prefix"
 #: elements-manual/blog-post-elements/archive-title.php:1
 msgctxt "Element name"
 msgid "Archive Title"
-msgstr "Archive Title"
+msgstr "Titolo archivio"
 
 #: elements-manual/blog-post-elements/post-title.php:1
 msgctxt "Element name"
 msgid "Post Title"
-msgstr "Post Title"
+msgstr "Titolo del post"

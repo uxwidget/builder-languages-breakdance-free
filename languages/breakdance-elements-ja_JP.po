@@ -14112,9 +14112,9 @@ msgstr "Disable Prefix"
 #: elements-manual/blog-post-elements/archive-title.php:1
 msgctxt "Element name"
 msgid "Archive Title"
-msgstr "Archive Title"
+msgstr "アーカイブタイトル"
 
 #: elements-manual/blog-post-elements/post-title.php:1
 msgctxt "Element name"
 msgid "Post Title"
-msgstr "Post Title"
+msgstr "投稿タイトル"

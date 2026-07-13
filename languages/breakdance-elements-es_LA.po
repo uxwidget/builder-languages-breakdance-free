@@ -11015,7 +11015,7 @@ msgstr "Pauta"
 #: elements/HTML_img/element.php:38
 msgctxt "Element name"
 msgid "HTML IMG"
-msgstr "HTML IMG"
+msgstr "Imagen HTML"
 
 #: elements/HTML_img/element.php:102
 msgctxt "Control label"
@@ -14129,9 +14129,9 @@ msgstr "Disable Prefix"
 #: elements-manual/blog-post-elements/archive-title.php:1
 msgctxt "Element name"
 msgid "Archive Title"
-msgstr "Archive Title"
+msgstr "Título de archivo"
 
 #: elements-manual/blog-post-elements/post-title.php:1
 msgctxt "Element name"
 msgid "Post Title"
-msgstr "Post Title"
+msgstr "Título de la entrada"

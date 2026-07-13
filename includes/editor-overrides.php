@@ -319,6 +319,19 @@ function breakdance_languages_get_editor_label_dictionary(): array
         );
     }
 
+    // Breakdance often does sprintf(__('Add %s'), 'Color') with an untranslated name.
+    foreach (['Color', 'Gradient', 'Palette', 'Palettes'] as $englishToken) {
+        if (isset($dictionary[$englishToken])) {
+            continue;
+        }
+
+        $translated = __($englishToken, 'breakdance');
+
+        if (is_string($translated) && $translated !== '' && $translated !== $englishToken) {
+            $dictionary[$englishToken] = $translated;
+        }
+    }
+
     /**
      * @param array<string, string> $dictionary
      */
@@ -398,6 +411,44 @@ function breakdance_languages_print_editor_text_overrides(): void
                 return dictionary[text];
             }
 
+            // Design Library / Fancy Sections: "Masks #2", "Animated Text #3"
+            var numbered = normalized.match(/^(.*?)(\s+#\d+)$/);
+
+            if (numbered) {
+                var base = numbered[1].trim();
+                var suffix = numbered[2];
+                var translatedBase = null;
+
+                if (Object.prototype.hasOwnProperty.call(dictionary, base)) {
+                    translatedBase = dictionary[base];
+                } else if (Object.prototype.hasOwnProperty.call(dictionary, base.toLowerCase())) {
+                    translatedBase = dictionary[base.toLowerCase()];
+                }
+
+                if (translatedBase) {
+                    return translatedBase + suffix;
+                }
+            }
+
+            // Truncated titles: "Animated Background..."
+            var ellipsis = normalized.match(/^(.*?)(\.\.\.|…)$/);
+
+            if (ellipsis) {
+                var ellipsisBase = ellipsis[1].replace(/\s+$/, '');
+                var dots = ellipsis[2];
+                var translatedEllipsisBase = null;
+
+                if (Object.prototype.hasOwnProperty.call(dictionary, ellipsisBase)) {
+                    translatedEllipsisBase = dictionary[ellipsisBase];
+                } else if (Object.prototype.hasOwnProperty.call(dictionary, ellipsisBase.toLowerCase())) {
+                    translatedEllipsisBase = dictionary[ellipsisBase.toLowerCase()];
+                }
+
+                if (translatedEllipsisBase) {
+                    return translatedEllipsisBase + dots;
+                }
+            }
+
             return null;
         }
 
@@ -414,8 +465,17 @@ function breakdance_languages_print_editor_text_overrides(): void
 
             var next = text;
 
-            ['constrained proportions', 'cropped'].forEach(function (fragment) {
+            // Leftovers from sprintf(__('Add %s'), 'Color') — label is translated, %s stays English.
+            ['constrained proportions', 'cropped', 'Color', 'Gradient'].forEach(function (fragment) {
                 var translated = lookupTranslation(fragment);
+
+                if (!translated && window.wp && window.wp.i18n && typeof window.wp.i18n.__ === 'function') {
+                    var viaI18n = window.wp.i18n.__(fragment, 'breakdance');
+
+                    if (viaI18n && viaI18n !== fragment) {
+                        translated = viaI18n;
+                    }
+                }
 
                 if (translated && next.indexOf(fragment) !== -1) {
                     next = next.split(fragment).join(translated);

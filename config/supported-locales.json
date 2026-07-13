@@ -1,5 +1,13 @@
 {
   "locales": {
+    "en_US": {
+      "label": "English (United States)",
+      "language_team": "English (United States)",
+      "plural_forms": "nplurals=2; plural=(n != 1);",
+      "translate_target": null,
+      "status": "native",
+      "native_breakdance": true
+    },
     "pt_BR": {
       "label": "Portuguese (Brazil)",
       "language_team": "Portuguese (Brazil)",
@@ -142,7 +150,7 @@
   "release_gate_locales": ["pt_BR", "pt_PT", "it_IT"],
   "product_language_count": 17,
   "notes": {
-    "en_US": "Native Breakdance / WordPress American English — not shipped as a plugin catalogue. Do not intercept."
+    "en_US": "Selectable as English (United States). Preference resets the builder to native Breakdance American English — catalogues on disk are identity only and must not intercept when this locale is chosen."
   },
   "locale_aliases": {
     "ja": "ja_JP",

@@ -27,6 +27,7 @@ function breakdance_languages_supported_locale_codes(): array
     $codes = function_exists('breakdance_languages_registry_locale_codes')
         ? breakdance_languages_registry_locale_codes()
         : [
+            'en_US',
             'pt_BR',
             'pt_PT',
             'fr_FR',
@@ -62,6 +63,7 @@ function breakdance_languages_supported_locales(): array
     $labels = function_exists('breakdance_languages_registry_locale_labels')
         ? breakdance_languages_registry_locale_labels()
         : [
+            'en_US' => 'English (United States)',
             'pt_BR' => 'Portuguese (Brazil)',
             'pt_PT' => 'Portuguese',
             'fr_FR' => 'French',
@@ -161,6 +163,11 @@ function breakdance_languages_locale_has_catalogues(string $locale): bool
  */
 function breakdance_languages_prefer_locale_with_catalogues(string $locale): ?string
 {
+    // American English stays native Breakdance — never bind plugin catalogues.
+    if ($locale === 'en_US' || $locale === 'en') {
+        return null;
+    }
+
     $planLocales = breakdance_languages_runtime_locale_codes();
 
     if ($planLocales === []) {
@@ -308,6 +315,11 @@ function breakdance_languages_resolve_locale(?string $locale = null): ?string
         $preference = breakdance_languages_get_user_builder_locale();
 
         if ($preference !== BREAKDANCE_LANGUAGES_AUTO_LOCALE) {
+            // Explicit American English: leave Breakdance native (do not load packs).
+            if ($preference === 'en_US') {
+                return null;
+            }
+
             $matched = breakdance_languages_match_supported_locale($preference);
 
             if ($matched !== null) {

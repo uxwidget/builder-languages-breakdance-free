@@ -1,5 +1,12 @@
 # Builder Languages for Breakdance — Changelog
 
+## 0.1.14
+
+- Restaura **English (United States)** no seletor: volta ao inglês nativo do Breakdance (sem interceptar packs).
+- Corrige nomes de elemento **Post Title** / **Archive Title** / **HTML IMG** (e wrappers) em FR, DE, ES, ES-LA, JA, IT, PT-PT, KO, HE.
+- Popup de reload do builder traduzido; remendos AR (Post Title, Wrapper Link, Color/`Add %s`); Fancy Sections set names com sufixo `#N`.
+- Design Library / demos externos fora de escopo (URL remota do Breakdance).
+
 ## 0.1.13
 
 - Popup de “idioma atualizado / recarregar” no builder traduzido nos 18 locales (não fica mais fixo em português).

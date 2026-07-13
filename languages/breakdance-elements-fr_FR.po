@@ -11015,7 +11015,7 @@ msgstr "Lignes"
 #: elements/HTML_img/element.php:38
 msgctxt "Element name"
 msgid "HTML IMG"
-msgstr "HTML IMG"
+msgstr "Image HTML"
 
 #: elements/HTML_img/element.php:102
 msgctxt "Control label"
@@ -11065,7 +11065,7 @@ msgstr "paresseux"
 #: elements/ShortcodeWrapper/element.php:43
 msgctxt "Element name"
 msgid "ShortcodeWrapper"
-msgstr "ShortcodeWrapper"
+msgstr "Conteneur de shortcode"
 
 #: elements/Simple_Testimonial/element.php:38
 msgctxt "Element name"
@@ -14129,9 +14129,9 @@ msgstr "Disable Prefix"
 #: elements-manual/blog-post-elements/archive-title.php:1
 msgctxt "Element name"
 msgid "Archive Title"
-msgstr "Archive Title"
+msgstr "Titre d’archive"
 
 #: elements-manual/blog-post-elements/post-title.php:1
 msgctxt "Element name"
 msgid "Post Title"
-msgstr "Post Title"
+msgstr "Titre de l’article"

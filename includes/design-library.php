@@ -86,6 +86,15 @@ function breakdance_languages_design_library_ui_maps(): array
             'UI Kit' => 'Kit de UI',
             'Fancy Sections' => 'Seções elegantes',
             'Element Demos' => 'Demonstrações de elementos',
+            'Masks' => 'Máscaras',
+            'Animated Sections' => 'Seções animadas',
+            'Creative Sections' => 'Seções criativas',
+            '3D Sections' => 'Seções 3D',
+            'Animated Text' => 'Texto animado',
+            'Animated Background' => 'Fundo animado',
+            'Animated Backgrounds' => 'Fundos animados',
+            'Advanced Sliders' => 'Sliders avançados',
+            'CTA' => 'CTA',
         ],
         'pt_PT' => [
             'Add to page' => 'Adicionar à página',
@@ -132,6 +141,15 @@ function breakdance_languages_design_library_ui_maps(): array
             'UI Kit' => 'Kit de UI',
             'Fancy Sections' => 'Secções elegantes',
             'Element Demos' => 'Demonstrações de elementos',
+            'Masks' => 'Máscaras',
+            'Animated Sections' => 'Secções animadas',
+            'Creative Sections' => 'Secções criativas',
+            '3D Sections' => 'Secções 3D',
+            'Animated Text' => 'Texto animado',
+            'Animated Background' => 'Fundo animado',
+            'Animated Backgrounds' => 'Fundos animados',
+            'Advanced Sliders' => 'Sliders avançados',
+            'CTA' => 'CTA',
         ],
         'it_IT' => [
             'Add to page' => 'Aggiungi alla pagina',
@@ -178,11 +196,35 @@ function breakdance_languages_design_library_ui_maps(): array
             'UI Kit' => 'Kit UI',
             'Fancy Sections' => 'Sezioni eleganti',
             'Element Demos' => 'Demo degli elementi',
+            'Masks' => 'Maschere',
+            'Animated Sections' => 'Sezioni animate',
+            'Creative Sections' => 'Sezioni creative',
+            '3D Sections' => 'Sezioni 3D',
+            'Animated Text' => 'Testo animato',
+            'Animated Background' => 'Sfondo animato',
+            'Animated Backgrounds' => 'Sfondi animati',
+            'Advanced Sliders' => 'Slider avanzati',
+            'CTA' => 'CTA',
         ],
         'ja_JP' => [
             'Add to page' => 'ページに追加',
             'Copy to clipboard' => 'クリップボードにコピー',
             'View Sections' => 'セクションを表示',
+            'Masks' => 'マスク',
+            'Animated Sections' => 'アニメーションセクション',
+            'Creative Sections' => 'クリエイティブセクション',
+            '3D Sections' => '3Dセクション',
+            'Animated Text' => 'アニメーションテキスト',
+            'Animated Background' => 'アニメーション背景',
+            'Animated Backgrounds' => 'アニメーション背景',
+            'Advanced Sliders' => '高度なスライダー',
+            'CTA' => 'CTA',
+            'Go home' => 'ホームへ',
+            'Visit site' => 'サイトを見る',
+            'Close modal' => 'モーダルを閉じる',
+            'Filter by type' => '種類で絞り込み',
+            'Fancy Sections' => 'ファンシーセクション',
+            'Element Demos' => '要素デモ',
         ],
         'fr_FR' => [
             'Add to page' => 'Ajouter à la page',
@@ -229,6 +271,15 @@ function breakdance_languages_design_library_ui_maps(): array
             'UI Kit' => 'Kit UI',
             'Fancy Sections' => 'Sections élégantes',
             'Element Demos' => 'Démos d’éléments',
+            'Masks' => 'Masques',
+            'Animated Sections' => 'Sections animées',
+            'Creative Sections' => 'Sections créatives',
+            '3D Sections' => 'Sections 3D',
+            'Animated Text' => 'Texte animé',
+            'Animated Background' => 'Arrière-plan animé',
+            'Animated Backgrounds' => 'Arrière-plans animés',
+            'Advanced Sliders' => 'Sliders avancés',
+            'CTA' => 'CTA',
         ],
         'de_DE' => [
             'Add to page' => 'Zur Seite hinzufügen',
@@ -275,6 +326,15 @@ function breakdance_languages_design_library_ui_maps(): array
             'UI Kit' => 'UI-Kit',
             'Fancy Sections' => 'Elegante Abschnitte',
             'Element Demos' => 'Element-Demos',
+            'Masks' => 'Masken',
+            'Animated Sections' => 'Animierte Abschnitte',
+            'Creative Sections' => 'Kreative Abschnitte',
+            '3D Sections' => '3D-Abschnitte',
+            'Animated Text' => 'Animierter Text',
+            'Animated Background' => 'Animierter Hintergrund',
+            'Animated Backgrounds' => 'Animierte Hintergründe',
+            'Advanced Sliders' => 'Erweiterte Slider',
+            'CTA' => 'CTA',
         ],
         'es_ES' => [
             'Add to page' => 'Añadir a la página',
@@ -321,6 +381,15 @@ function breakdance_languages_design_library_ui_maps(): array
             'UI Kit' => 'Kit de UI',
             'Fancy Sections' => 'Secciones elegantes',
             'Element Demos' => 'Demos de elementos',
+            'Masks' => 'Máscaras',
+            'Animated Sections' => 'Secciones animadas',
+            'Creative Sections' => 'Secciones creativas',
+            '3D Sections' => 'Secciones 3D',
+            'Animated Text' => 'Texto animado',
+            'Animated Background' => 'Fondo animado',
+            'Animated Backgrounds' => 'Fondos animados',
+            'Advanced Sliders' => 'Sliders avanzados',
+            'CTA' => 'CTA',
         ],
         'es_LA' => [
             'Add to page' => 'Agregar a la página',
@@ -367,6 +436,15 @@ function breakdance_languages_design_library_ui_maps(): array
             'UI Kit' => 'Kit de UI',
             'Fancy Sections' => 'Secciones elegantes',
             'Element Demos' => 'Demos de elementos',
+            'Masks' => 'Máscaras',
+            'Animated Sections' => 'Secciones animadas',
+            'Creative Sections' => 'Secciones creativas',
+            '3D Sections' => 'Secciones 3D',
+            'Animated Text' => 'Texto animado',
+            'Animated Background' => 'Fondo animado',
+            'Animated Backgrounds' => 'Fondos animados',
+            'Advanced Sliders' => 'Sliders avanzados',
+            'CTA' => 'CTA',
         ],
         'ar' => [
             'Add to page' => 'إضافة إلى الصفحة',
@@ -413,6 +491,15 @@ function breakdance_languages_design_library_ui_maps(): array
             'UI Kit' => 'طقم واجهة المستخدم',
             'Fancy Sections' => 'أقسام أنيقة',
             'Element Demos' => 'عروض العناصر',
+            'Masks' => 'أقنعة',
+            'Animated Sections' => 'أقسام متحركة',
+            'Creative Sections' => 'أقسام إبداعية',
+            '3D Sections' => 'أقسام ثلاثية الأبعاد',
+            'Animated Text' => 'نص متحرك',
+            'Animated Background' => 'خلفية متحركة',
+            'Animated Backgrounds' => 'خلفيات متحركة',
+            'Advanced Sliders' => 'أشرطة تمرير متقدمة',
+            'CTA' => 'CTA',
         ],
     ];
 }
@@ -571,6 +658,28 @@ function breakdance_languages_translate_design_library_label(string $label, ?str
 
     if (isset($lowerDictionary[$lower])) {
         return $lowerDictionary[$lower];
+    }
+
+    // Fancy Sections set titles often keep a series suffix: "Masks #2", "Animated Text #3".
+    if (preg_match('/^(.*?)(\s+#\d+)$/u', $trimmed, $matches) === 1) {
+        $base = trim($matches[1]);
+        $suffix = $matches[2];
+        $translatedBase = breakdance_languages_translate_design_library_label($base, $locale);
+
+        if ($translatedBase !== null) {
+            return $translatedBase . $suffix;
+        }
+    }
+
+    // Truncated titles with ellipsis: "Animated Background..."
+    if (preg_match('/^(.*?)(\.\.\.|…)$/u', $trimmed, $matches) === 1) {
+        $base = rtrim($matches[1]);
+        $ellipsis = $matches[2];
+        $translatedBase = breakdance_languages_translate_design_library_label($base, $locale);
+
+        if ($translatedBase !== null) {
+            return $translatedBase . $ellipsis;
+        }
     }
 
     return null;
