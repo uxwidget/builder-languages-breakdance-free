@@ -1,8 +1,11 @@
 <?php
 /**
- * Media chooser iframe and media-size labels that bypass wp.i18n.
+ * Builder Languages for Breakdance — Media i18n.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

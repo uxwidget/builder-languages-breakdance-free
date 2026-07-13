@@ -1,8 +1,11 @@
 <?php
 /**
- * Premium licensing helpers (Freemius).
+ * Builder Languages for Breakdance — Licensing.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);
@@ -114,6 +117,10 @@ function breakdance_languages_freemius_has_active_license(): bool
             !defined('BREAKDANCE_LANGUAGES_FREEMIUS_ID') ||
             !defined('BREAKDANCE_LANGUAGES_FREEMIUS_PUBLIC_KEY')
         ) {
+            if (defined('BREAKDANCE_LANGUAGES_RELEASE_BUILD') && BREAKDANCE_LANGUAGES_RELEASE_BUILD) {
+                return false;
+            }
+
             return breakdance_languages_is_local_dev_site();
         }
 
@@ -161,13 +168,13 @@ function breakdance_languages_can_apply_translations(): bool
         return false;
     }
 
-    $cached = get_option('breakdance_languages_fs_license_active', null);
+    $cached = breakdance_languages_freemius_cache_license_status();
 
-    if ($cached === '0') {
+    if ($cached === false) {
         return false;
     }
 
-    if ($cached === '1') {
+    if ($cached === true) {
         return true;
     }
 
@@ -193,13 +200,20 @@ function breakdance_languages_can_apply_translations(): bool
 
     $license_id = $site['license_id'] ?? null;
 
-    if (is_numeric($license_id) && (int) $license_id > 0) {
-        breakdance_languages_freemius_cache_license_status(true);
-
-        return true;
+    if (!is_numeric($license_id) || (int) $license_id <= 0) {
+        return false;
     }
 
-    return false;
+    $license = breakdance_languages_freemius_find_license_record((int) $license_id);
+
+    if ($license === null) {
+        return false;
+    }
+
+    $active = breakdance_languages_freemius_license_record_can_use_premium($license);
+    breakdance_languages_freemius_cache_license_status($active);
+
+    return $active;
 }
 
 /**
@@ -270,8 +284,8 @@ function breakdance_languages_account_url(): string
 /**
  * Admin URL for the Freemius license activation or account screen.
  *
- * Avoids the connect_url filter, which intentionally lands on the Languages page
- * after opt-in flows — not when the user explicitly opens license management.
+ * Opt-in lives on page=breakdance-languages; after connect, after_* filters
+ * return the user to Breakdance → Languages (status panel).
  */
 function breakdance_languages_license_manage_url(): string
 {

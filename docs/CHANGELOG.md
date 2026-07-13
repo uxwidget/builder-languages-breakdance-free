@@ -1,5 +1,32 @@
 # Builder Languages for Breakdance — Changelog
 
+## 0.1.13
+
+- Popup de “idioma atualizado / recarregar” no builder traduzido nos 18 locales (não fica mais fixo em português).
+- Design Library (Samba etc.): mapa UI ampliado para `fr_FR`, `de_DE`, `es_ES`, `es_LA` e `ar` (View Sections, categorias, botões).
+- Árabe: nomes de elemento **Post Title** / **Archive Title** e campos dinâmicos Post Content / Excerpt corrigidos; override no Form Builder.
+
+## 0.1.12
+
+- **Freemius:** Public Key correta `pk_e984dedde8057992b2e0735383e70` (a `pk_0b7bc…` antiga causava *"Plugin does not exist"*).
+- **Versão SemVer** `0.1.12` (Freemius rejeita prefixo `ux-` no Deploy).
+- Languages sem licença abre Freemius na hora; com licença mantém painel de status (Licença Ativa / Produção).
+- Correção: menu License não remove `$submenu` (evita “not allowed to access this page”).
+- Connect Freemius: nome do nosso plugin, texto em 2 linhas centralizado + link “Can't find…” centralizado.
+- Aviso amarelo próprio de licença removido — permanece o nag verde do Freemius (alinhado ao Breakdance).
+- Canal local `BREAKDANCE_LANGUAGES_CHANNEL` (`sales`|`dev`) + badge na admin bar.
+- ZIP comercial Released no Freemius (versão anterior removida do Deploy).
+
+## ux-0.1.11
+
+- ZIP comercial sem pasta `docs/`, sem `.update.blb`, sem `.gitkeep` / README de desenvolvimento.
+- Cabeçalhos padrão UX Widget nos PHP do plugin; `LICENSE.md` (GPL + Freemius).
+- Description e `License: GPLv2 or later` no header WordPress.
+- Mitigações de licença: sem `.dev`/`.staging` como local; `RELEASE_BUILD` no ZIP; cache TTL 6h; inferência conservadora.
+- Design Library proxy: HTTPS-only, strip de scripts remotos, CSP.
+- Removido asset órfão `builder-language-header.png`.
+- Nome do ZIP estável: `builder-languages-breakdance.zip` (versão só no plugin).
+
 ## ux-0.1.6
 
 - Remove `en_US` dos locales suportados e dos catálogos (`breakdance-*-en_US.*`): o Breakdance já é nativo nesse idioma.

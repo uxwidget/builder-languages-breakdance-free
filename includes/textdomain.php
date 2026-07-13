@@ -1,8 +1,11 @@
 <?php
 /**
- * PHP textdomain loading and PO to MO compilation.
+ * Builder Languages for Breakdance — Textdomain.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

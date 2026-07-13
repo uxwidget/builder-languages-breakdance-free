@@ -60,10 +60,18 @@ Sem editar core. Sem patch manual a cada update do Breakdance. Instale, escolha 
 - Não traduz interfaces de plugins de terceiros
 - Não modifica arquivos core do Breakdance
 
-## Preços sugeridos
+## Preços
 
-Ver [PRICING.md](./PRICING.md).
+| Plano | Sites | Preço/ano | CTA (Production) |
+| --- | --- | --- | --- |
+| **Personal** | 1 | **$39** | https://checkout.freemius.com/plugin/30587/plan/56028/licenses/1/ |
+| **Studio** | 5 | **$79** | https://checkout.freemius.com/plugin/30587/plan/56028/licenses/5/ |
+| **Agency** | 20 | **$179** | https://checkout.freemius.com/plugin/30587/plan/56028/licenses/20/ |
+| **Pro** | 50 | **$299** | https://checkout.freemius.com/plugin/30587/plan/56028/licenses/50/ |
 
+Sem plano ilimitado. Detalhes: [PRICING.md](./PRICING.md).
+
+Na LP: 4 cards com preço + sites + botão “Buy now” com os links acima (**Production**). Sandbox só para QA interno.
 ## Confiança
 
 Desenvolvido pela **UX Widget** como companion independente. Não afiliado nem endossado pelo Breakdance.

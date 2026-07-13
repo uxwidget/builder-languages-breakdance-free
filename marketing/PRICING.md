@@ -1,27 +1,40 @@
-# Builder Languages for Breakdance — Preços (rascunho)
+# Builder Languages for Breakdance — Preços
 
-Valores e nomes de plano são rascunho — alinhar com Freemius antes do checkout público.
+Grade comercial (anual). **Sem plano ilimitado** (reduz abuso de chave / revenda).
 
-## Planos sugeridos
+Alinhar no Freemius dashboard antes do checkout público. Relacionado: [FREEMIUS-TESTING.md](../docs/FREEMIUS-TESTING.md)
 
-| Plano | Sites | Inclui |
-| --- | --- | --- |
-| **Personal** | 1 | Updates anuais + suporte padrão + todos os idiomas do produto |
-| **Business** | 5 | Updates anuais + suporte padrão |
-| **Agency** | Ilimitados* | Updates anuais + suporte prioritário |
+## Planos
 
-\*Definir teto técnico no Freemius se necessário (ex.: 100 sites).
+| Plano | Sites | Preço/ano (USD) | Por site | Unique name (Freemius) |
+| --- | --- | --- | --- | --- |
+| **Personal** | 1 | **$39** | $39 | `personal` |
+| **Studio** | 5 | **$79** | ~$15,80 | `studio` |
+| **Agency** | 20 | **$179** | ~$8,95 | `agency` |
+| **Pro** | 50 | **$299** | ~$5,98 | `pro` |
+
+\*Acima de 50 sites: contato comercial / licença custom (não publicar “unlimited”).
+
+## O que cada plano inclui
+
+- Todos os idiomas do produto
+- Updates e suporte no período da assinatura anual
+- Mesmo produto premium-only (diferença = **quota de sites**)
+
+## Comparação rápida
+
+| | Personal | Studio | Agency | Pro |
+| --- | --- | --- | --- | --- |
+| Idiomas | Todos | Todos | Todos | Todos |
+| Sites | 1 | 5 | 20 | 50 |
+| Preço/ano | $39 | $79 | $179 | $299 |
+| Suporte | Padrão | Padrão | Padrão | Padrão |
 
 ## Notas
 
 - Produto **premium-only** (sem free permanente).
-- Renovação anual recomendada para updates de catálogo alinhados ao Breakdance.
-- Nome no checkout: **Builder Languages for Breakdance** (slug interno Freemius: `breakdance-languages`).
-
-## Comparação rápida
-
-| | Personal | Business | Agency |
-| --- | --- | --- | --- |
-| Idiomas | Todos | Todos | Todos |
-| Sites | 1 | 5 | Ilimitados* |
-| Suporte | Padrão | Padrão | Prioritário |
+- Renovação anual recomendada (catálogos alinhados ao Breakdance).
+- Nome no checkout: **Builder Languages for Breakdance** (slug Freemius: `breakdance-languages`).
+- **Não vender ilimitado** no lançamento.
+- Lifetime: fora do lançamento.
+- Freemius: **Block features after expiry** = ON; localhost activations ilimitadas = ON (ok para Local).

@@ -1,38 +1,35 @@
 # Builder Languages for Breakdance — Licensing
 
-## Modelo
+## Software (GPL)
 
-Produto **premium-only**. Não há tier gratuito permanente.
+O código do plugin é distribuído sob a **GNU GPL v2 ou posterior**.
 
-Licenciamento comercial via **Freemius**.
+- Header do plugin: `License: GPLv2 or later`
+- Texto resumido: [`LICENSE.md`](../LICENSE.md) na raiz
+- Texto integral: [gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
 
-## Identidade Freemius (não renomear sem migração)
+## Comercial (Freemius)
+
+Produto **premium-only** sob a marca **UX Widget** (Suite PC). A compra via Freemius cobre updates, suporte e ativação dos packs.
+
+## Identidade
 
 | Campo | Valor |
 | --- | --- |
 | Nome exibido | Builder Languages for Breakdance |
+| Marca / Freemius | UX Widget |
+| Empresa | Suite PC |
 | Slug Freemius | `breakdance-languages` |
-| Text Domain | `breakdance-languages` |
-| Arquivo principal (pasta atual) | `builder-languages-breakdance.php` |
+| License | GPLv2 or later |
 
-O slug antigo permanece para não invalidar installs, webhooks e catálogos `breakdance-languages-*.po`.
+## Ativação
 
-## Setup local
+1. Instale e ative o plugin.
+2. Abra a conta / licença no menu Breakdance (fluxo Freemius).
+3. Ative com a **license key** do e-mail de compra.
 
-1. SDK em `vendor/freemius/` (não versionar secrets).
-2. Copie `config/freemius.config.example.php` → `config/freemius.php` (gitignored).
-3. Siga [FREEMIUS-SETUP.md](./FREEMIUS-SETUP.md).
-
-## Builds
-
-- ZIP público / Freemius: gerar com `python scripts/pack-release.py` ([PACK-RELEASE.md](./PACK-RELEASE.md)) — respeita `.distignore`.
-- Sem `.blb-secret`, sem `config/freemius.php` de dev (a menos que `--freemius-config` de produção).
-- `.update.blb` pode ir no release; o secret de assinatura não.
-
-## Ambientes
-
-Não misture build de venda e pasta de desenvolvimento no **mesmo** WordPress. Use um site Local só para a versão comercial. Ver [AMBIENTES.md](./AMBIENTES.md) e [ATUALIZACOES.md](./ATUALIZACOES.md).
+Sem licença ativa em builds comerciais, as traduções não são aplicadas.
 
 ## Marca
 
-Breakdance é marca de seus respectivos donos. **Builder Languages for Breakdance** é produto independente da UX Widget, sem afiliação ou endosso do Breakdance.
+Breakdance é marca de seus respectivos donos. **Builder Languages for Breakdance** é produto independente da UX Widget / Suite PC.

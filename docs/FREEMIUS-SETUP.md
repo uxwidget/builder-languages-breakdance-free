@@ -37,22 +37,25 @@ Preencha os dados do produto:
 
 ## 2. Plans & Pricing
 
-Crie **3 planos anuais** (sem lifetime no lançamento):
+Crie **4 faixas anuais** (sem lifetime e **sem ilimitado** no lançamento):
 
 | Plano | Preço | Sites | Nome interno (slug) |
 |-------|-------|-------|---------------------|
-| Single Site (Personal) | USD 49/ano | 1 | `personal` |
-| Business | USD 99/ano | 5 | `business` |
-| Agency | USD 199/ano | Ilimitado | `agency` |
+| Personal | USD 39/ano | 1 | `personal` |
+| Studio | USD 79/ano | 5 | `studio` |
+| Agency | USD 179/ano | 20 | `agency` |
+| Pro | USD 299/ano | 50 | `pro` |
 
-Para cada plano, marque:
+Para cada faixa, marque:
 
 - **Annual subscription** — ativado
 - **Lifetime** — desativado (no lançamento)
+- **Unlimited** — desativado (não vender ilimitado)
 - **Updates & support** — incluídos no período da assinatura
 
-Opcional depois do lançamento: trial de 7 dias no plano Business.
+Detalhes e copy: [PRICING.md](../marketing/PRICING.md) · [FREEMIUS-TESTING.md](./FREEMIUS-TESTING.md).
 
+Opcional depois do lançamento: trial de 7 dias no plano Studio.
 ---
 
 ## 3. SDK Integration
@@ -65,25 +68,41 @@ Preencha para bater com o código deste repositório:
 |----------------|-------|
 | **Product ID** | `30587` |
 | **Plugin slug** | `breakdance-languages` |
-| **Main plugin file** | `builder-languages-breakdance.php` |
+| **Paid version slug** | `breakdance-languages-premium` |
 | **Function name** | `breakdance_languages_fs` |
+| **Main plugin file** | `builder-languages-breakdance.php` |
 | **Premium-only** | Yes |
 | **Has paid plans** | Yes |
-| **Parent menu slug** | `breakdance` |
-| **Submenu slug** | `breakdance-languages` (conta em `breakdance-languages-account`) |
+| **WordPress.org Compliant** | No (desmarcado) |
+| **Paid title suffix** | `(Premium)` |
+| **Custom redirect / first-path** | `admin.php?page=breakdance-languages` |
+| **Settings page** | Yes, under a submenu |
+| **Parent menu type** | custom top-level (`admin.php`) |
+| **Parent menu slug** | `'breakdance'` |
+| **Submenu slug** | `'breakdance-languages'` |
+| **Tab path (opcional)** | `admin.php?page=breakdance-languages` (não usar `breakdance_settings&tab=languages`) |
+
+**Public Key (produção — Settings → Keys):**
+
+```text
+pk_e984dedde8057992b2e0735383e70
+```
+
+> Confirme sempre em **Settings → Keys**. Uma Public Key errada no `config/freemius.php` gera *"Plugin does not exist"* na ativação (local e online).
 
 Copie da página:
 
 1. **Public Key** (`pk_...`) → colar em `config/freemius.php`
 2. Confira se o snippet gerado usa o mesmo `slug` e `id`
+3. **Versão do plugin** no header WordPress deve ser SemVer (`0.1.12`), sem prefixo `ux-` — o Deploy Freemius rejeita versões inválidas
 
 ---
 
 ## 4. Instalar o SDK no plugin
 
-O SDK ainda **não está** em `vendor/freemius/`. Escolha uma opção:
+O SDK **já está** em `vendor/freemius/` (2.13.4+). Só reinstale se faltar `vendor/freemius/start.php`.
 
-### Opção A — Manual (recomendado)
+### Opção A — Manual
 
 1. Baixe: https://github.com/Freemius/wordpress-sdk/archive/master.zip
 2. Extraia e renomeie a pasta para `freemius`
@@ -106,11 +125,10 @@ composer require freemius/wordpress-sdk
 
 ```php
 define('BREAKDANCE_LANGUAGES_FREEMIUS_ID', '30587');
-define('BREAKDANCE_LANGUAGES_FREEMIUS_PUBLIC_KEY', 'pk_COLE_AQUI');
+define('BREAKDANCE_LANGUAGES_FREEMIUS_PUBLIC_KEY', 'pk_e984dedde8057992b2e0735383e70');
 ```
 
-> `config/freemius.php` não vai para o ZIP público (está no `.distignore`). Inclua só no build comercial.
-
+> `config/freemius.php` não vai para o ZIP público por padrão (está no `.distignore`). O `pack-release.py --freemius-config` injeta no ZIP comercial.
 ---
 
 ## 6. Modo de desenvolvimento (teste local)
@@ -236,7 +254,7 @@ Quando a integração estiver testada:
 
 ### Freemius (antes do lançamento)
 
-- [ ] 3 planos criados (Personal / Business / Agency)
+- [ ] 4 faixas: Personal $39 (1) / Studio $79 (5) / Agency $179 (20) / Pro $299 (50) — sem ilimitado
 - [ ] SDK Integration preenchido no dashboard
 - [ ] Checkout sandbox testado (Plans → Sandbox Link)
 - [ ] Deploy da primeira versão premium
@@ -248,4 +266,4 @@ Quando a integração estiver testada:
 
 ## Precisa de ajuda?
 
-Envie a **Public Key** (`pk_...`) gerada na página SDK Integration para completarmos o `config/freemius.php` local.
+Confirme **Settings → Keys** (Public Key = `pk_e984dedde8057992b2e0735383e70`) e que o ZIP Released no Deploy é SemVer (`0.1.12+`). Ver [FREEMIUS-TESTING.md](./FREEMIUS-TESTING.md) para o erro *"Plugin does not exist"*.

@@ -1,6 +1,6 @@
 # Documentação — Builder Languages for Breakdance
 
-Índice dos guias do plugin (versão atual: ver [CHANGELOG.md](./CHANGELOG.md)).
+Índice dos guias do plugin (versão atual: **0.1.12** — ver [CHANGELOG.md](./CHANGELOG.md)).
 
 ## Nome e identidade
 
@@ -9,6 +9,8 @@
 | Nome exibido | **Builder Languages for Breakdance** |
 | Pasta / arquivo principal | `builder-languages-breakdance/` · `builder-languages-breakdance.php` |
 | Text Domain / Freemius slug | `breakdance-languages` (intencional — não renomear sem migração) |
+| Freemius Plugin ID | `30587` |
+| Freemius Public Key | `pk_e984dedde8057992b2e0735383e70` |
 | Autor | UX Widget |
 | Repo GitHub | privado — `marceloadias/builder-languages-breakdance` |
 

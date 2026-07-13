@@ -1,10 +1,11 @@
 <?php
 /**
- * Hardcoded Breakdance admin strings and settings tab output overrides.
+ * Builder Languages for Breakdance — Admin overrides.
  *
- * Some Breakdance admin screens ship English text without gettext wrappers.
- *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

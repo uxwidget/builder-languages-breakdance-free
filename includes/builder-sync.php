@@ -1,8 +1,11 @@
 <?php
 /**
- * AJAX handlers and builder sync for instant language switching.
+ * Builder Languages for Breakdance — Builder sync.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);
@@ -243,10 +246,16 @@ function breakdance_languages_print_builder_sync_script(): void
             }
         }
 
-        function showReloadNotice() {
+        function showReloadNotice(payload) {
             if (document.getElementById('bdl-locale-reload-notice')) {
                 return;
             }
+
+            var strings = (payload && payload.strings) || {};
+            var title = strings.reload_notice_title || 'Builder language updated';
+            var body = strings.reload_notice_body || 'Reload this page to apply translations in the element panels.';
+            var reloadLabel = strings.reload_notice_reload || 'Reload now';
+            var laterLabel = strings.reload_notice_later || 'Later';
 
             var notice = document.createElement('div');
             notice.id = 'bdl-locale-reload-notice';
@@ -266,28 +275,39 @@ function breakdance_languages_print_builder_sync_script(): void
                 'text-align:start'
             ].join(';');
 
-            notice.innerHTML = ''
-                + '<strong style="display:block;margin-bottom:6px;">Idioma do builder atualizado</strong>'
-                + '<span style="display:block;margin-bottom:12px;opacity:.9;">Recarregue esta página para aplicar as traduções nas guias dos elementos.</span>'
-                + '<button type="button" id="bdl-locale-reload-btn" style="margin-inline-end:8px;padding:6px 12px;border:0;border-radius:6px;background:#3b82f6;color:#fff;cursor:pointer;">Recarregar agora</button>'
-                + '<button type="button" id="bdl-locale-reload-dismiss" style="padding:6px 12px;border:1px solid rgba(255,255,255,.25);border-radius:6px;background:transparent;color:#fff;cursor:pointer;">Depois</button>';
+            var titleEl = document.createElement('strong');
+            titleEl.style.cssText = 'display:block;margin-bottom:6px;';
+            titleEl.textContent = title;
 
+            var bodyEl = document.createElement('span');
+            bodyEl.style.cssText = 'display:block;margin-bottom:12px;opacity:.9;';
+            bodyEl.textContent = body;
+
+            var reloadBtn = document.createElement('button');
+            reloadBtn.type = 'button';
+            reloadBtn.id = 'bdl-locale-reload-btn';
+            reloadBtn.style.cssText = 'margin-inline-end:8px;padding:6px 12px;border:0;border-radius:6px;background:#3b82f6;color:#fff;cursor:pointer;';
+            reloadBtn.textContent = reloadLabel;
+
+            var dismissBtn = document.createElement('button');
+            dismissBtn.type = 'button';
+            dismissBtn.id = 'bdl-locale-reload-dismiss';
+            dismissBtn.style.cssText = 'padding:6px 12px;border:1px solid rgba(255,255,255,.25);border-radius:6px;background:transparent;color:#fff;cursor:pointer;';
+            dismissBtn.textContent = laterLabel;
+
+            notice.appendChild(titleEl);
+            notice.appendChild(bodyEl);
+            notice.appendChild(reloadBtn);
+            notice.appendChild(dismissBtn);
             document.body.appendChild(notice);
 
-            var reloadBtn = document.getElementById('bdl-locale-reload-btn');
-            var dismissBtn = document.getElementById('bdl-locale-reload-dismiss');
+            reloadBtn.addEventListener('click', function () {
+                window.location.reload();
+            });
 
-            if (reloadBtn) {
-                reloadBtn.addEventListener('click', function () {
-                    window.location.reload();
-                });
-            }
-
-            if (dismissBtn) {
-                dismissBtn.addEventListener('click', function () {
-                    notice.remove();
-                });
-            }
+            dismissBtn.addEventListener('click', function () {
+                notice.remove();
+            });
         }
 
         window.addEventListener('storage', function (event) {
@@ -295,8 +315,10 @@ function breakdance_languages_print_builder_sync_script(): void
                 return;
             }
 
+            var payload = null;
+
             try {
-                var payload = JSON.parse(event.newValue);
+                payload = JSON.parse(event.newValue);
 
                 if (payload.forceReload) {
                     window.location.reload();
@@ -308,7 +330,7 @@ function breakdance_languages_print_builder_sync_script(): void
                 // Ignore malformed payloads.
             }
 
-            showReloadNotice();
+            showReloadNotice(payload);
         });
     }());
     </script>

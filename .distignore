@@ -1,14 +1,24 @@
+# Repo / tooling / IDE
 /.git
 /.agents
 /.cursor
+/.gitignore
+/.distignore
+/.update.blb
 /dist
-/translation-cache.json
 /scripts
 /marketing
-/docs/AVALIACAO.md
+/docs
+/translation-cache.json
+/README.md
+
+# Secrets / local-only config — never ship
 /config/freemius.php
+/config/freemius.config.example.php
+/config/release-build.php
 .blb-secret
 .blb-secret.*
 config/blb-secret.local
 *.pyc
 __pycache__
+vendor/.gitkeep

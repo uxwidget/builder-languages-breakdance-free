@@ -1,8 +1,11 @@
 <?php
 /**
- * Locale resolution and per-user builder language preference.
+ * Builder Languages for Breakdance — Locale.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

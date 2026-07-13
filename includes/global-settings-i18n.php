@@ -1,8 +1,11 @@
 <?php
 /**
- * Global Settings controls (Forms, Buttons, etc.) bypass breakdance_element_controls.
+ * Builder Languages for Breakdance — Global Settings i18n.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

@@ -1,8 +1,11 @@
 <?php
 /**
- * RTL-aware helpers for Hebrew, Arabic, and other right-to-left locales.
+ * Builder Languages for Breakdance — RTL support.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

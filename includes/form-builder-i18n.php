@@ -1,8 +1,11 @@
 <?php
 /**
- * Form Builder actions, fields, and related element labels that bypass gettext.
+ * Builder Languages for Breakdance — Form Builder i18n.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);
@@ -167,6 +170,17 @@ function breakdance_languages_form_builder_ui_maps(): array
             'No action selected' => 'לא נבחרה פעולה',
             'CSRF protection can enhance the security of forms gated behind a login screen - ' => 'הגנת CSRF יכולה לשפר את אבטחת טפסים המוגנים בכניסה - ',
             'see details' => 'ראה פרטים',
+        ],
+        'ar' => [
+            'Archive Title' => 'عنوان الأرشيف',
+            'Disable Prefix' => 'تعطيل البادئة',
+            'Post Title' => 'عنوان المشاركة',
+            'Post Content' => 'محتوى المشاركة',
+            'Post Excerpt' => 'مقتطف المشاركة',
+            'Add Tab' => 'إضافة تبويب',
+            'Add Condition' => 'إضافة شرط',
+            'No action selected' => 'لم يتم اختيار إجراء',
+            'All Fields' => 'كل الحقول',
         ],
     ];
 }

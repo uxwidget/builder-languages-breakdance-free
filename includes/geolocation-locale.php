@@ -1,8 +1,11 @@
 <?php
 /**
- * Geolocation-based locale hints for Freemius / regional defaults.
+ * Builder Languages for Breakdance — Geolocation locale.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

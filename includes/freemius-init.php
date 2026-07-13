@@ -1,10 +1,11 @@
 <?php
 /**
- * Early Freemius SDK bootstrap.
+ * Builder Languages for Breakdance — Freemius bootstrap.
  *
- * @see https://freemius.com/help/documentation/wordpress/integration-with-sdk/
- *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);
@@ -19,12 +20,28 @@ if (is_readable($config)) {
     require_once $config;
 }
 
+$release_build = BREAKDANCE_LANGUAGES_PATH . 'config/release-build.php';
+
+if (is_readable($release_build)) {
+    require_once $release_build;
+}
+
 /**
  * Whether the current HTTP host looks like a local development site.
+ *
+ * Only clearly-local environments qualify. Public TLDs like `.dev` and
+ * production-like suffixes such as `.staging` are NOT treated as local.
  */
 function breakdance_languages_freemius_is_local_host(): bool
 {
     if (defined('WP_FS__IS_LOCALHOST') && WP_FS__IS_LOCALHOST) {
+        return true;
+    }
+
+    if (
+        function_exists('wp_get_environment_type')
+        && wp_get_environment_type() === 'local'
+    ) {
         return true;
     }
 
@@ -34,14 +51,21 @@ function breakdance_languages_freemius_is_local_host(): bool
         return false;
     }
 
-    if (strpos($host, 'localhost') !== false) {
+    $host_only = preg_replace('/:\d+$/', '', $host) ?? $host;
+
+    if (
+        $host_only === 'localhost'
+        || $host_only === '127.0.0.1'
+        || $host_only === '::1'
+        || strpos($host_only, 'localhost.') === 0
+    ) {
         return true;
     }
 
-    foreach (['.local', '.test', '.dev', '.staging'] as $suffix) {
+    foreach (['.local', '.test'] as $suffix) {
         $suffix_length = strlen($suffix);
 
-        if (strlen($host) >= $suffix_length && substr($host, -$suffix_length) === $suffix) {
+        if (strlen($host_only) >= $suffix_length && substr($host_only, -$suffix_length) === $suffix) {
             return true;
         }
     }
@@ -335,7 +359,8 @@ function breakdance_languages_freemius_infer_license_active_from_accounts(): ?bo
     $license = breakdance_languages_freemius_find_license_record((int) $license_id);
 
     if ($license === null) {
-        return true;
+        // Conservative: license_id alone is not enough without a local license record.
+        return false;
     }
 
     return breakdance_languages_freemius_license_record_can_use_premium($license);
@@ -343,20 +368,27 @@ function breakdance_languages_freemius_infer_license_active_from_accounts(): ?bo
 
 /**
  * Persist license status for requests where the SDK is intentionally skipped.
+ *
+ * Cached values expire after a TTL so revoked licenses stop unlocking the
+ * builder without requiring an immediate admin visit.
  */
 function breakdance_languages_freemius_cache_license_status(?bool $active = null): ?bool
 {
     $option = 'breakdance_languages_fs_license_active';
+    $meta = 'breakdance_languages_fs_license_active_at';
+    $ttl = defined('HOUR_IN_SECONDS') ? 6 * HOUR_IN_SECONDS : 21600;
 
     if ($active !== null) {
         update_option($option, $active ? '1' : '0', false);
+        update_option($meta, (string) time(), false);
 
         return $active;
     }
 
     $cached = get_option($option, null);
+    $cached_at = (int) get_option($meta, 0);
 
-    if (is_string($cached)) {
+    if (is_string($cached) && $cached_at > 0 && (time() - $cached_at) < $ttl) {
         return $cached === '1';
     }
 
@@ -364,11 +396,21 @@ function breakdance_languages_freemius_cache_license_status(?bool $active = null
 
     if ($inferred !== null) {
         update_option($option, $inferred ? '1' : '0', false);
+        update_option($meta, (string) time(), false);
 
         return $inferred;
     }
 
     return null;
+}
+
+/**
+ * Drop the cached Freemius license flag (revocation / uninstall / deactivation).
+ */
+function breakdance_languages_freemius_clear_license_cache(): void
+{
+    delete_option('breakdance_languages_fs_license_active');
+    delete_option('breakdance_languages_fs_license_active_at');
 }
 
 /**
@@ -424,6 +466,10 @@ if (!function_exists('breakdance_languages_fs')) {
 
             require_once $sdk;
 
+            // Local + WP_FS__DEV_MODE + product secret → Freemius Sandbox API.
+            // Live licenses ("Create License" in live dashboard) need is_live true and DEV_MODE off.
+            $use_sandbox_api = breakdance_languages_freemius_local_dev_env();
+
             $breakdance_languages_fs = fs_dynamic_init([
                 'id' => (string) BREAKDANCE_LANGUAGES_FREEMIUS_ID,
                 'slug' => 'breakdance-languages',
@@ -437,15 +483,50 @@ if (!function_exists('breakdance_languages_fs')) {
                     'parent' => [
                         'slug' => 'breakdance',
                     ],
-                    'first-path' => 'admin.php?page=breakdance-languages-settings',
+                    'first-path' => 'admin.php?page=breakdance-languages',
                     'account' => true,
                     'contact' => false,
                     'support' => false,
                 ],
-                'is_live' => true,
+                'is_live' => !$use_sandbox_api,
             ]);
 
             breakdance_languages_fs_register_redirect_filters($breakdance_languages_fs);
+
+            if ($breakdance_languages_fs !== null && method_exists($breakdance_languages_fs, 'add_action')) {
+                $breakdance_languages_fs->add_action(
+                    'after_uninstall',
+                    'breakdance_languages_freemius_clear_license_cache'
+                );
+                $breakdance_languages_fs->add_action(
+                    'after_account_connection',
+                    static function () use ($breakdance_languages_fs): void {
+                        if (method_exists($breakdance_languages_fs, 'can_use_premium_code')) {
+                            breakdance_languages_freemius_cache_license_status(
+                                (bool) $breakdance_languages_fs->can_use_premium_code()
+                            );
+                        }
+                    }
+                );
+                $breakdance_languages_fs->add_action(
+                    'after_license_activation',
+                    static function () use ($breakdance_languages_fs): void {
+                        if (method_exists($breakdance_languages_fs, 'can_use_premium_code')) {
+                            breakdance_languages_freemius_cache_license_status(
+                                (bool) $breakdance_languages_fs->can_use_premium_code()
+                            );
+                        } else {
+                            breakdance_languages_freemius_cache_license_status(true);
+                        }
+                    }
+                );
+                $breakdance_languages_fs->add_action(
+                    'after_license_deactivation',
+                    static function (): void {
+                        breakdance_languages_freemius_cache_license_status(false);
+                    }
+                );
+            }
 
             if (
                 $breakdance_languages_fs !== null &&
@@ -469,6 +550,45 @@ if (!function_exists('breakdance_languages_fs')) {
     }
 
     /**
+     * Product display name for Freemius UI (not the parent Breakdance builder).
+     */
+    function breakdance_languages_fs_plugin_title(): string
+    {
+        if (!function_exists('get_plugin_data')) {
+            require_once ABSPATH . 'wp-admin/includes/plugin.php';
+        }
+
+        $data = get_plugin_data(BREAKDANCE_LANGUAGES_FILE, false, false);
+        $name = isset($data['Name']) ? trim((string) $data['Name']) : '';
+
+        return $name !== '' ? $name : 'Builder Languages for Breakdance';
+    }
+
+    /**
+     * Premium connect copy must use our plugin name, not Freemius/Breakdance title.
+     *
+     * @param string $message
+     * @param string $user_first_name
+     * @param string $plugin_name
+     */
+    function breakdance_languages_fs_connect_message_premium($message, $user_first_name = '', $plugin_name = ''): string
+    {
+        $title = esc_html(breakdance_languages_fs_plugin_title());
+        $line1 = sprintf(
+            /* translators: %s: product name */
+            __('Welcome to %s!', 'breakdance-languages'),
+            $title
+        );
+        $line2 = esc_html__('To get started, please enter your license key:', 'breakdance-languages');
+
+        // Keep inline/phrasing tags — Freemius wraps this string in a <p>.
+        return '<span class="bdl-fs-connect-message" style="display:block;text-align:center;line-height:1.5;margin-bottom:1.25em;">'
+            . '<strong style="display:block;">' . $line1 . '</strong>'
+            . '<span style="display:block;margin-top:0.35em;">' . $line2 . '</span>'
+            . '</span>';
+    }
+
+    /**
      * @param \Freemius|null $freemius
      */
     function breakdance_languages_fs_register_redirect_filters($freemius): void
@@ -477,10 +597,32 @@ if (!function_exists('breakdance_languages_fs')) {
             return;
         }
 
-        $freemius->add_filter('connect_url', 'breakdance_languages_fs_settings_url');
+        // Keep Freemius opt-in on page=breakdance-languages (do not override connect_url).
+        // After opt-in / skip, land on Breakdance → Languages with license status.
         $freemius->add_filter('after_skip_url', 'breakdance_languages_fs_settings_url');
         $freemius->add_filter('after_connect_url', 'breakdance_languages_fs_settings_url');
         $freemius->add_filter('after_pending_connect_url', 'breakdance_languages_fs_settings_url');
+        $freemius->add_filter('plugin_title', 'breakdance_languages_fs_plugin_title');
+        $freemius->add_filter('connect-message_on-premium', 'breakdance_languages_fs_connect_message_premium', 10, 3);
+        $freemius->add_action('connect/after', 'breakdance_languages_fs_connect_styles');
+        // Premium-only: skip Freemius deactivation survey (Anonymous feedback / Skip & Deactivate).
+        $freemius->add_filter('show_deactivation_feedback_form', '__return_false');
+        // Freemius license keys can exceed 32 chars / contain special characters.
+        $freemius->add_filter('license_key_maxlength', static function (): int {
+            return 64;
+        });
+    }
+
+    /**
+     * Center Freemius connect helpers (license resend link).
+     */
+    function breakdance_languages_fs_connect_styles(): void
+    {
+        echo '<style id="bdl-fs-connect-styles">'
+            . '#fs_connect .fs-license-key-container .show-license-resend-modal{'
+            . 'display:block;text-align:center;margin-top:0.75em;'
+            . '}'
+            . '</style>';
     }
 
     add_action('admin_init', static function (): void {
@@ -490,6 +632,53 @@ if (!function_exists('breakdance_languages_fs')) {
 
         breakdance_languages_fs();
     }, 0);
+
+    /**
+     * Temporary credentials diag — only when Freemius is not yet licensed.
+     */
+    add_action('admin_notices', static function (): void {
+        if (!current_user_can('manage_options')) {
+            return;
+        }
+
+        if (defined('BREAKDANCE_LANGUAGES_RELEASE_BUILD') && BREAKDANCE_LANGUAGES_RELEASE_BUILD) {
+            return;
+        }
+
+        $page = isset($_GET['page']) ? (string) wp_unslash($_GET['page']) : '';
+
+        if ($page !== 'breakdance-languages' && strpos($page, 'breakdance-languages') !== 0) {
+            return;
+        }
+
+        if (function_exists('breakdance_languages_is_licensed') && breakdance_languages_is_licensed()) {
+            return;
+        }
+
+        $id = defined('BREAKDANCE_LANGUAGES_FREEMIUS_ID')
+            ? (string) BREAKDANCE_LANGUAGES_FREEMIUS_ID
+            : '(missing config/freemius.php)';
+        $pk = defined('BREAKDANCE_LANGUAGES_FREEMIUS_PUBLIC_KEY')
+            ? (string) BREAKDANCE_LANGUAGES_FREEMIUS_PUBLIC_KEY
+            : '(missing)';
+
+        $sandbox = function_exists('breakdance_languages_freemius_local_dev_env')
+            && breakdance_languages_freemius_local_dev_env();
+        $mode = $sandbox ? 'SANDBOX' : 'LIVE';
+
+        $fs = function_exists('breakdance_languages_fs') ? breakdance_languages_fs() : null;
+        $sdk_live = 'n/a';
+
+        if ($fs !== null && method_exists($fs, 'is_live')) {
+            $sdk_live = $fs->is_live() ? 'true' : 'false';
+        }
+
+        echo '<div class="notice notice-warning"><p><strong>Freemius diag</strong> — '
+            . 'API: <code>' . esc_html($mode) . '</code> · '
+            . 'id: <code>' . esc_html($id) . '</code> · '
+            . 'public_key: <code>' . esc_html($pk) . '</code> · '
+            . 'sdk is_live: <code>' . esc_html($sdk_live) . '</code></p></div>';
+    });
 }
 
 /**

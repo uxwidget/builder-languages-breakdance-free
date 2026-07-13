@@ -2,21 +2,28 @@
 /**
  * Plugin Name: Builder Languages for Breakdance
  * Plugin URI: https://uxwidget.com/builder-languages-breakdance
- * Description: Adds professional language packs for the Breakdance Builder interface, admin screens, and first-party elements.
+ * Description: Translate the Breakdance Builder, admin screens, and first-party elements into 17 languages — without editing Breakdance core files.
  * Author: UX Widget
  * Author URI: https://uxwidget.com
- * Version: ux-0.1.6
+ * Version: 0.1.13
  * Requires Plugins: breakdance
  * Requires at least: 6.0
  * Requires PHP: 7.4
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: breakdance-languages
  * Domain Path: /languages
+ *
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 declare(strict_types=1);
 if (!defined('ABSPATH')) {
     exit;
 }
-define('BREAKDANCE_LANGUAGES_VERSION', 'ux-0.1.6');
+define('BREAKDANCE_LANGUAGES_VERSION', '0.1.13');
 define('BREAKDANCE_LANGUAGES_FILE', __FILE__);
 define('BREAKDANCE_LANGUAGES_PATH', plugin_dir_path(__FILE__));
 /**
@@ -37,6 +44,7 @@ function breakdance_languages_load_files(): void
 {
     $files = [
         BREAKDANCE_LANGUAGES_PATH . 'includes/licensing.php',
+        BREAKDANCE_LANGUAGES_PATH . 'includes/site-channel.php',
         BREAKDANCE_LANGUAGES_PATH . 'includes/blb-manifest.php',
         BREAKDANCE_LANGUAGES_PATH . 'admin/admin-menu.php',
         BREAKDANCE_LANGUAGES_PATH . 'includes/freemius-menu.php',
@@ -69,6 +77,16 @@ function breakdance_languages_load_files(): void
     }
 }
 breakdance_languages_load_files();
+
+register_deactivation_hook(
+    BREAKDANCE_LANGUAGES_FILE,
+    static function (): void {
+        if (function_exists('breakdance_languages_freemius_clear_license_cache')) {
+            breakdance_languages_freemius_clear_license_cache();
+        }
+    }
+);
+
 /**
  * Ensure compiled MO catalogs exist for runtime translation loading.
  */
@@ -153,25 +171,6 @@ add_action('admin_notices', static function (): void {
         echo esc_html__('Edit profile', 'breakdance-languages');
         echo '</a></p></div>';
     }
-});
-add_action('admin_notices', static function (): void {
-    if (!current_user_can('manage_options')) {
-        return;
-    }
-
-    if (!breakdance_languages_is_breakdance_active()) {
-        return;
-    }
-
-    if (breakdance_languages_is_licensed() || !breakdance_languages_freemius_is_configured()) {
-        return;
-    }
-
-    echo '<div class="notice notice-warning"><p>';
-    echo esc_html__('Builder Languages for Breakdance: activate your license to load translations.', 'breakdance-languages');
-    echo ' <a href="' . esc_url(breakdance_languages_account_url()) . '">';
-    echo esc_html__('Manage license', 'breakdance-languages');
-    echo '</a></p></div>';
 });
 add_filter('plugin_action_links_' . plugin_basename(BREAKDANCE_LANGUAGES_FILE), static function (array $links): array {
     if (!breakdance_languages_is_breakdance_active()) {

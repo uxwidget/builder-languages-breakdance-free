@@ -2,7 +2,7 @@
 """Build a commercial ZIP for Builder Languages for Breakdance.
 
 Respects `.distignore` (gitignore-like patterns) so cache, scripts, secrets and
-marketing files never land in the upload package by accident.
+docs never land in the upload package by accident.
 
 Usage:
   python scripts/pack-release.py
@@ -11,7 +11,7 @@ Usage:
   python scripts/pack-release.py --out dist/custom.zip
   python scripts/pack-release.py --freemius-config path/to/production-freemius.php
 
-Output default: dist/builder-languages-breakdance-{version}.zip
+Output default: dist/builder-languages-breakdance.zip
 ZIP root folder: builder-languages-breakdance/
 """
 
@@ -30,14 +30,22 @@ PLUGIN_FILE = ROOT / "builder-languages-breakdance.php"
 PLUGIN_SLUG = "builder-languages-breakdance"
 DIST_DIR = ROOT / "dist"
 
-# Always excluded even if missing from .distignore (safety net).
 HARD_EXCLUDES = (
     ".git",
     ".git/**",
+    ".gitignore",
+    ".distignore",
     ".blb-secret",
     ".blb-secret.*",
+    ".update.blb",
     "config/blb-secret.local",
     "config/freemius.php",
+    "config/freemius.config.example.php",
+    "config/release-build.php",
+    "README.md",
+    "docs",
+    "docs/**",
+    "vendor/.gitkeep",
     "dist",
     "dist/**",
     "__pycache__",
@@ -75,7 +83,6 @@ def normalize_rel(path: Path) -> str:
 
 
 def pattern_to_regex(pattern: str) -> re.Pattern[str]:
-    """Convert a single gitignore-ish pattern to a regex matched against posix rel paths."""
     anchored = pattern.startswith("/")
     if anchored:
         pattern = pattern[1:]
@@ -84,7 +91,6 @@ def pattern_to_regex(pattern: str) -> re.Pattern[str]:
     if dir_only:
         pattern = pattern[:-1]
 
-    # Escape regex meta, then restore glob tokens.
     escaped = re.escape(pattern)
     escaped = escaped.replace(r"\*\*", "§§GLOBSTAR§§")
     escaped = escaped.replace(r"\*", "[^/]*")
@@ -109,7 +115,6 @@ def compile_rules(patterns: list[str]) -> list[re.Pattern[str]]:
 
 
 def is_excluded(rel: str, rules: list[re.Pattern[str]]) -> bool:
-    # Also honor simple basename globs like *.pyc via fnmatch for belt-and-suspenders.
     name = Path(rel).name
     if name.endswith(".pyc") or name in {".DS_Store", "Thumbs.db"}:
         return True
@@ -120,7 +125,6 @@ def is_excluded(rel: str, rules: list[re.Pattern[str]]) -> bool:
         if rule.search(rel):
             return True
 
-    # Extra fnmatch for unanchored wildcards that regex might miss on odd patterns.
     for pattern in HARD_EXCLUDES:
         p = pattern[1:] if pattern.startswith("/") else pattern
         if fnmatch.fnmatch(rel, p) or fnmatch.fnmatch(name, p):
@@ -155,7 +159,6 @@ def assert_no_secrets(included: list[Path]) -> None:
         rel = normalize_rel(path.relative_to(ROOT))
         name = path.name
         if name in forbidden_names or any(name.endswith(s) for s in forbidden_suffixes):
-            # Allow freemius.config.example.php
             if name == "freemius.config.example.php":
                 continue
             if name == "freemius.php" or rel.endswith("/freemius.php") or rel == "config/freemius.php":
@@ -163,14 +166,12 @@ def assert_no_secrets(included: list[Path]) -> None:
             elif name.startswith(".blb-secret") or "blb-secret" in name:
                 bad.append(rel)
     if bad:
-        raise SystemExit(
-            "Refusing to pack secrets:\n  - " + "\n  - ".join(bad)
-        )
+        raise SystemExit("Refusing to pack secrets:\n  - " + "\n  - ".join(bad))
 
 
 def default_zip_path(version: str) -> Path:
-    safe = re.sub(r"[^\w.\-]+", "-", version)
-    return DIST_DIR / f"{PLUGIN_SLUG}-{safe}.zip"
+    _ = version
+    return DIST_DIR / f"{PLUGIN_SLUG}.zip"
 
 
 def write_zip(
@@ -189,6 +190,17 @@ def write_zip(
             arcname = f"{PLUGIN_SLUG}/{rel}"
             zf.write(path, arcname)
             count += 1
+
+        release_stub = (
+            "<?php\n"
+            "declare(strict_types=1);\n"
+            "if (!defined('ABSPATH')) {\n"
+            "    exit;\n"
+            "}\n"
+            "define('BREAKDANCE_LANGUAGES_RELEASE_BUILD', true);\n"
+        )
+        zf.writestr(f"{PLUGIN_SLUG}/config/release-build.php", release_stub)
+        count += 1
 
         if freemius_config is not None:
             if not freemius_config.is_file():
@@ -229,6 +241,7 @@ def main() -> int:
             print(normalize_rel(path.relative_to(ROOT)))
         if args.freemius_config:
             print("config/freemius.php  # injected from --freemius-config")
+        print("config/release-build.php  # injected (BREAKDANCE_LANGUAGES_RELEASE_BUILD)")
         print(f"\n{len(included)} files would be packed (v{version})", file=sys.stderr)
         if any(normalize_rel(p.relative_to(ROOT)).startswith("scripts/") for p in included):
             print("ERROR: scripts/ leaked into pack", file=sys.stderr)
@@ -238,7 +251,6 @@ def main() -> int:
     zip_path = args.out.resolve() if args.out else default_zip_path(version)
     count = write_zip(included, zip_path, args.freemius_config)
 
-    # Verify archive contents never include secrets / scripts / marketing.
     with zipfile.ZipFile(zip_path, "r") as zf:
         names = zf.namelist()
 
@@ -251,6 +263,16 @@ def main() -> int:
         elif "/marketing/" in n:
             leaked.append(n)
         elif "/.blb-secret" in n or n.endswith(".blb-secret"):
+            leaked.append(n)
+        elif n.endswith("/.update.blb") or n.endswith(".update.blb"):
+            leaked.append(n)
+        elif n.endswith("/.distignore") or n.endswith("/.gitignore"):
+            leaked.append(n)
+        elif n.endswith("/README.md"):
+            leaked.append(n)
+        elif n.endswith("/config/freemius.config.example.php"):
+            leaked.append(n)
+        elif "/docs/" in n or n.endswith("/docs"):
             leaked.append(n)
         elif n.endswith("/config/freemius.php") and args.freemius_config is None:
             leaked.append(n)
@@ -269,6 +291,7 @@ def main() -> int:
         print(f"Injected config/freemius.php from {args.freemius_config}")
     else:
         print("Note: config/freemius.php not included (use --freemius-config for production keys).")
+    print("Injected config/release-build.php (BREAKDANCE_LANGUAGES_RELEASE_BUILD=true)")
     return 0
 
 

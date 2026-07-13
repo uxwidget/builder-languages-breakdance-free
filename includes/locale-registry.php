@@ -1,8 +1,11 @@
 <?php
 /**
- * Central locale registry loaded from config/supported-locales.json.
+ * Builder Languages for Breakdance — Locale registry.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

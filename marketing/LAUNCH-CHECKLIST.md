@@ -2,50 +2,47 @@
 
 ## Produto
 
-- [ ] Versão `ux-0.1.0` (ou bump) com `validate-all.py` = PASS
-- [ ] Gate `pt_BR` / `pt_PT` / `it_IT` = 0 placeholders
-- [ ] `.update.blb` regenerado (`python scripts/blb-manifest.py write`)
-- [ ] ZIP comercial via `python scripts/pack-release.py` (respeita `.distignore`) — [PACK-RELEASE.md](../docs/PACK-RELEASE.md)
-- [ ] ZIP sem `.blb-secret` / `config/freemius.php` de dev
-- [ ] Nome exibido: **Builder Languages for Breakdance**
-- [ ] Freemius slug permanece `breakdance-languages`
+- [x] ZIP comercial `0.1.13` via `pack-release.py` — [PACK-RELEASE.md](../docs/PACK-RELEASE.md)
+- [x] Nome exibido: **Builder Languages for Breakdance**
+- [x] Freemius slug permanece `breakdance-languages`
+- [x] Public Key `pk_e984dedde8057992b2e0735383e70` no `config/freemius.php` + ZIP
+- [x] Versão SemVer (Freemius rejeita `ux-0.x.x`)
+- [ ] Gate `pt_BR` / `pt_PT` / `it_IT` = 0 placeholders (validar no sparklean se necessário)
 
-## Site / LP (UX Widget)
+---
 
-- [ ] Seção **Builder Languages for Breakdance** com CTA, preços e FAQ
-- [ ] URL sugerida: `uxwidget.com/builder-languages-breakdance` (redirect do slug antigo se existir)
+## Freemius + LP
+
+### Freemius
+
+- [x] Título: **Builder Languages for Breakdance**
+- [x] Planos: Personal $39 (1) / Studio $79 (5) / Agency $179 (20) / Pro $299 (50) — **sem ilimitado**
+- [x] Pricing IDs + Checkout Links Production em [FREEMIUS-TESTING.md](../docs/FREEMIUS-TESTING.md)
+- [x] SDK Integration: parent `'breakdance'` · submenu `'breakdance-languages'` · path `admin.php?page=breakdance-languages`
+- [x] Deploy ZIP `0.1.12` Released (build antiga removida)
+- [x] Teste **blb01**: Licença **Ativa** / Ambiente **Produção**
+- [ ] Regenerar Product Secret Key (foi partilhada em chat de debug)
+- [ ] Ver [FREEMIUS-SETUP.md](../docs/FREEMIUS-SETUP.md) · [PRICING.md](./PRICING.md)
+
+### LP (UX Widget)
+
+- [ ] Página `uxwidget.com/builder-languages-breakdance` — copy em [SALES-PAGE.md](./SALES-PAGE.md)
+- [ ] 4 cards de preço ($39 / $79 / $179 / $299)
+- [ ] CTAs com Checkout Links **Production**
+- [ ] FAQ + disclaimer (independente, não afiliado ao Breakdance)
 - [ ] Meta title/description SEO
-- [ ] Disclaimer de produto independente (não afiliado ao Breakdance)
+- [ ] QA interno com link Sandbox (não publicar Sandbox na LP)
+- [ ] Plugin no site LP atualizado para `0.1.12` (Public Key correta)
 
-## Freemius
+---
 
-- [ ] Título do produto atualizado no dashboard
-- [ ] Planos Personal / Business / Agency
-- [ ] Checkout production testado
-- [ ] E-mails sandbox/production revisados com o nome novo
-- [ ] Ver [FREEMIUS-SETUP.md](../docs/FREEMIUS-SETUP.md) e [FREEMIUS-TESTING.md](../docs/FREEMIUS-TESTING.md)
+## Segunda (na empresa) — Marketplace Breakdance
 
-## QA em site limpo (dev)
+Requer Breakdance Pro da empresa — **não bloqueia** Freemius/LP.
 
-- [ ] Seguir [DEV-SETUP.md](../docs/DEV-SETUP.md)
-- [ ] Trocar idioma em `Breakdance > Languages` + hard refresh
-- [ ] Smoke Form Builder em `pt_BR`
-- [ ] Smoke RTL `he_IL` ou `ar`
-- [ ] Diagnósticos da tela Languages OK
+Copy + logos prontos: [marketplace/MARKETPLACE-SUBMIT.md](./marketplace/MARKETPLACE-SUBMIT.md)
 
-## Site WordPress da versão de venda
-
-- [ ] Instalar em **WP novo e separado** (não no mesmo site do Git/dev) — [AMBIENTES.md](../docs/AMBIENTES.md)
-- [ ] Apenas um ZIP comercial ativo (sem segunda pasta do plugin)
-- [ ] Freemius production: checkout + licença + update — [FREEMIUS-TESTING.md](../docs/FREEMIUS-TESTING.md)
-
-## Docs
-
-- [ ] [INDEX.md](../docs/INDEX.md) atualizado
-- [ ] README pt-BR
-- [ ] [CHANGELOG.md](../docs/CHANGELOG.md) da versão (+ [ATUALIZACOES.md](../docs/ATUALIZACOES.md))
-- [ ] Repo GitHub **privado**; secrets fora do Git
-
-## Pós-lançamento
-
-- [ ] Próximo bump: CHANGELOG + `.update.blb` + push ([ATUALIZACOES.md](../docs/ATUALIZACOES.md))
+- [x] Submissão / listagem no marketplace Breakdance (colar de MARKETPLACE-SUBMIT.md) — enviada; aguarda review manual
+- [x] Preços alinhados: $39 / $79 / $179 / $299 (1 / 5 / 20 / 50) — documentados no submit pack
+- [x] Buy button → LP UX Widget (checkout Freemius Production) — documentado no submit pack
+- [x] Logos Author 64×64 + Add-On 256×256 em `marketing/marketplace/`

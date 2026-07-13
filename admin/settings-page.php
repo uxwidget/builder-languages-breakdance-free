@@ -1,13 +1,94 @@
 <?php
 /**
- * Breakdance → Languages settings page.
+ * Builder Languages for Breakdance — Settings page.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);
 
 if (!defined('ABSPATH')) {
+    exit;
+}
+
+add_action('admin_init', 'breakdance_languages_maybe_redirect_unlicensed_settings_to_freemius', 30);
+
+/**
+ * Whether Freemius itself reports an activated/paying install.
+ *
+ * Local DEV_MODE bypass unlocks translations but must NOT skip the Freemius
+ * activation screen — otherwise Languages opens before license validation.
+ */
+function breakdance_languages_has_freemius_license_ready(): bool
+{
+    if (!breakdance_languages_freemius_is_configured()) {
+        return false;
+    }
+
+    $freemius = breakdance_languages_fs();
+
+    if ($freemius === null) {
+        return false;
+    }
+
+    if (method_exists($freemius, 'can_use_premium_code') && $freemius->can_use_premium_code()) {
+        return true;
+    }
+
+    if (
+        method_exists($freemius, 'is_paying')
+        && $freemius->is_paying()
+    ) {
+        return true;
+    }
+
+    return false;
+}
+
+/**
+ * Without a Freemius license: Breakdance → Languages opens Freemius first.
+ * After a valid Freemius license: stay on Languages (status panel).
+ *
+ * Local DEV_MODE bypass still unlocks translations, but does not skip this gate.
+ */
+function breakdance_languages_maybe_redirect_unlicensed_settings_to_freemius(): void
+{
+    if (defined('DOING_AJAX') && DOING_AJAX) {
+        return;
+    }
+
+    if (!current_user_can('manage_options')) {
+        return;
+    }
+
+    if (!breakdance_languages_is_settings_admin_screen()) {
+        return;
+    }
+
+    if (!breakdance_languages_freemius_is_configured()) {
+        return;
+    }
+
+    if (breakdance_languages_has_freemius_license_ready()) {
+        return;
+    }
+
+    // Optional escape hatch: ?blb_stay=1 keeps the settings screen while inactive.
+    if (isset($_GET['blb_stay']) && (string) wp_unslash($_GET['blb_stay']) === '1') {
+        return;
+    }
+
+    $target = breakdance_languages_license_manage_url();
+    $settings = breakdance_languages_settings_page_url();
+
+    if ($target === '' || $target === $settings) {
+        return;
+    }
+
+    wp_safe_redirect($target);
     exit;
 }
 

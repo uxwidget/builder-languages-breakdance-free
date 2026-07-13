@@ -4,7 +4,7 @@
 
 Documento de referência para **retomar testes** de checkout, licença e ambiente local sem depender do painel confuso do Freemius.
 
-Última atualização: **2026-07-09** — checkout sandbox validado com sucesso.
+Última atualização: **2026-07-13** — ZIP `0.1.13` empacotado (Deploy Freemius pendente de upload).
 
 Relacionado: [FREEMIUS-SETUP.md](./FREEMIUS-SETUP.md) · [PRICING.md](../marketing/PRICING.md)
 
@@ -16,12 +16,15 @@ Relacionado: [FREEMIUS-SETUP.md](./FREEMIUS-SETUP.md) · [PRICING.md](../marketi
 |------|-------|
 | **Store ID** | `15920` |
 | **Plugin ID** | `30587` |
-| **Slug** | `breakdance-languages` |
+| **Public Key** | `pk_e984dedde8057992b2e0735383e70` |
+| **Plan ID** | `56028` (`Premium` / `premium`) |
+| **Pricing IDs** | `74321` (1) · `74322` (5) · `74324` (20) · `74326` (50) |
+| **Versão Released** | `0.1.12` (SemVer — sem prefixo `ux-`) |
 | **Dashboard do produto** | https://dashboard.freemius.com/#!/live/stores/15920/plugins/30587/ |
 | **Plans** | https://dashboard.freemius.com/#!/live/stores/15920/plugins/30587/plans/ |
-| **Freemius Debug (local)** | `http://sparklean-02.local/wp-admin/admin.php?page=freemius` |
-| **Ativação no WP** | `http://sparklean-02.local/wp-admin/admin.php?page=breakdance-languages` |
-| **Aba Languages** | `http://sparklean-02.local/wp-admin/admin.php?page=breakdance_settings&tab=languages` |
+| **Freemius Debug (dev)** | `http://sparklean-02.local/wp-admin/admin.php?page=freemius` |
+| **Ativação (sales / blb01)** | `http://blb01.local/wp-admin/admin.php?page=breakdance-languages` |
+| **Ativação (dev)** | `http://sparklean-02.local/wp-admin/admin.php?page=breakdance-languages` |
 
 ---
 
@@ -29,27 +32,36 @@ Relacionado: [FREEMIUS-SETUP.md](./FREEMIUS-SETUP.md) · [PRICING.md](../marketi
 
 | Tier | Annual (USD) | Sites | Pricing ID |
 |------|--------------|-------|------------|
-| Single Site | **49** | 1 | `73787` |
-| 5 Sites | **99** | 5 | `73788` |
-| Unlimited Sites | **199** | Ilimitado | `73789` |
+| Personal (Single Site) | **39** | 1 | `74321` |
+| Studio (5 Sites) | **79** | 5 | `74322` |
+| Agency (20 Sites) | **179** | 20 | `74324` |
+| Pro (50 Sites) | **299** | 50 | `74326` |
 
-- **Monthly:** vazio (não usar no lançamento)
-- **Lifetime:** vazio (não usar no lançamento)
-- **Is Hidden / White Labeled:** OFF em todos os tiers
+- **Monthly:** vazio (não usar no lançamento) ✓
+- **Lifetime:** vazio (não usar no lançamento) ✓
+- **Unlimited / Ilimitado:** **não oferecer** ✓
+- **Is Hidden / White Labeled:** OFF em todos os tiers ✓
+
+> IDs antigos (`73787` / `73788` / `73789`) obsoletos — substituídos em 2026-07-11.
 
 ### Estrutura no Freemius
 
-Foi configurado **1 plano** com **3 faixas de preço** (não 3 planos separados):
+**1 plano** (`Premium` / unique name `premium`) com **4 faixas de preço** (quota de sites):
 
-| Campo do plano | Valor configurado |
-|----------------|-------------------|
-| **Title** | `Personal` |
-| **Unique name** | `personal` |
-| **Description** | `1 site. All languages. 1 year of updates and support.` |
+| Campo | Valor |
+|-------|-------|
+| **Plan title** | `Premium` |
+| **Unique name** | `premium` |
+| **Description** | `All languages. Annual updates & support.` |
 
-> Todos os tiers liberam o mesmo produto (todas as traduções). A diferença é só o **número de ativações/sites**.
+| Faixa | Sites | Annual | Pricing ID |
+|-------|-------|--------|------------|
+| Personal | 1 | $39 | `74321` |
+| Studio | 5 | $79 | `74322` |
+| Agency | 20 | $179 | `74324` |
+| Pro | 50 | $299 | `74326` |
 
----
+> Todos liberam o mesmo produto. Sem tier ilimitado.---
 
 ## Outras opções do plano
 
@@ -77,32 +89,48 @@ Cada tier tem **dois links** no botão **Checkout Link**:
 | **Sandbox / Testing** | Testar compra com cartão de teste Freemius. **Não** publicar na LP. |
 | **Production / Live** | Botões da LP e vendas reais. |
 
-### Links Sandbox (preencher ao copiar do dashboard)
+### Links Production (LP / marketplace → website)
+
+| Tier | Pricing ID | Checkout |
+|------|------------|----------|
+| Personal 1 site ($39) | `74321` | https://checkout.freemius.com/plugin/30587/plan/56028/licenses/1/ |
+| Studio 5 sites ($79) | `74322` | https://checkout.freemius.com/plugin/30587/plan/56028/licenses/5/ |
+| Agency 20 sites ($179) | `74324` | https://checkout.freemius.com/plugin/30587/plan/56028/licenses/20/ |
+| Pro 50 sites ($299) | `74326` | https://checkout.freemius.com/plugin/30587/plan/56028/licenses/50/ |
+
+**Plan ID:** `56028`
 
 ```
-Single Site (73787) — Sandbox:
-[PREENCHER]
+Personal 1 site ($39) — ID 74321 — Production:
+https://checkout.freemius.com/plugin/30587/plan/56028/licenses/1/
 
-5 Sites (73788) — Sandbox:
-[PREENCHER]
+Studio 5 sites ($79) — ID 74322 — Production:
+https://checkout.freemius.com/plugin/30587/plan/56028/licenses/5/
 
-Unlimited Sites (73789) — Sandbox:
-[PREENCHER]
+Agency 20 sites ($179) — ID 74324 — Production:
+https://checkout.freemius.com/plugin/30587/plan/56028/licenses/20/
+
+Pro 50 sites ($299) — ID 74326 — Production:
+https://checkout.freemius.com/plugin/30587/plan/56028/licenses/50/
 ```
 
-### Links Production (preencher ao copiar do dashboard)
+### Links Sandbox (QA interno — não publicar na LP)
+
+No botão **Checkout Link** de cada faixa, escolha **Sandbox / Testing** e cole abaixo (ou use Prefill Form no checkout se o modo sandbox estiver ativo):
 
 ```
-Single Site (73787) — Production:
+Personal 1 site ($39) — ID 74321 — Sandbox:
 [PREENCHER]
 
-5 Sites (73788) — Production:
+Studio 5 sites ($79) — ID 74322 — Sandbox:
 [PREENCHER]
 
-Unlimited Sites (73789) — Production:
+Agency 20 sites ($179) — ID 74324 — Sandbox:
+[PREENCHER]
+
+Pro 50 sites ($299) — ID 74326 — Sandbox:
 [PREENCHER]
 ```
-
 > Cole os URLs reais aqui quando copiar do Freemius → Plans → Checkout Link.
 
 ---
@@ -220,7 +248,7 @@ define( 'WP_FS__DEBUG_SDK', false );
 |-------|-------|
 | **Código** | `BREAKDANCEFIRST` |
 | **Desconto** | 30% |
-| **Preço efetivo** | ~$34 / ~$69 / ~$139 |
+| **Preço efetivo** | ~$27 / ~$55 / ~$125 / ~$209 (30% off em $39/$79/$179/$299) |
 
 Criar no Freemius → **Coupons** no dia do lançamento no marketplace Breakdance.
 
@@ -229,8 +257,7 @@ Criar no Freemius → **Coupons** no dia do lançamento no marketplace Breakdanc
 ## Marketplace Breakdance
 
 - Plugin **aprovado** no marketplace oficial Breakdance (2026-07).
-- Preços no marketplace devem bater com Freemius: **$49 / $99 / $199**.
-- LP: `https://uxwidget.com/builder-languages-breakdance` → botões com links **Production**.
+- Preços no marketplace devem bater com Freemius: **$39 / $79 / $179 / $299** (1 / 5 / 20 / 50 sites). Sem ilimitado.- LP: `https://uxwidget.com/builder-languages-breakdance` → botões com links **Production**.
 
 ---
 
@@ -246,39 +273,63 @@ Criar no Freemius → **Coupons** no dia do lançamento no marketplace Breakdanc
 
 ## Erro: "Plugin does not exist" na ativação
 
-**Causa mais comum:** colar a **Secret Key** (`sk_...`) no campo de license key.
+**Não é limitação de localhost.** O Freemius trata `*.local` / `localhost` como ambiente de desenvolvimento e, por padrão, **não consome** a cota de sites da licença.
 
-| Tipo | Prefixo | Onde fica | Campo correto |
-|------|---------|-----------|---------------|
-| **Secret Key** (dev) | `sk_` | Freemius → Settings → Keys · `wp-config.php` | **Nunca** no formulário de ativação |
-| **License Key** (cliente) | sem `sk_` | E-mail *Thanks for upgrading* · Dashboard → Users → Licenses | Campo "Enter your license key" |
+### Causa #1 (confirmada 2026-07-11): Public Key errada no plugin
 
-A license key do cliente tem até **32 caracteres** e vem da compra sandbox/production.
+| Onde | Valor |
+|------|-------|
+| **Correto (Settings → Keys)** | `pk_e984dedde8057992b2e0735383e70` |
+| **Errado (causava o erro)** | `pk_0b7bc3212560eed788f2ac487921c` |
+
+Com a Public Key desalinhada, a API responde *"Plugin does not exist"* **em local e em produção** (`uxwidget.com`).
+
+### Causa #2: API live × license sandbox (ou o contrário)
+
+| Modo do site (`wp-config`) | License que funciona |
+|----------------------------|----------------------|
+| `WP_FS__DEV_MODE` + product secret | Compra cartão **4242** / e-mail `[SANDBOX]` |
+| Constantes Freemius **comentadas** | **Create License** (dashboard live) ou compra Production |
+
+### Duas keys `sk_…` diferentes
+
+No Freemius moderno, **license key e product secret** podem começar com `sk_`. São strings **diferentes**:
+
+| Tipo | Onde ver | Uso |
+|------|----------|-----|
+| **Product Secret Key** | Settings → Keys | só no `wp-config` (sandbox) |
+| **License Key** | Users → Licenses / e-mail / portal | só no campo Activate License |
+
+Comparar os 4 primeiros e 4 últimos caracteres. Se forem iguais e a ativação falhar, o problema é ambiente (tabela acima) ou Public Key.
+
+### Reset rápido
+
+1. Com `DEV_MODE` ativo: **Freemius Debug** → Delete All Accounts + Clear API Cache  
+2. Sem `DEV_MODE`: desative/reative o plugin; se travar, apague a option `fs_accounts` no banco  
+3. Ative de novo com a license do **mesmo** ambiente da tabela
 
 ### Onde pegar a license key correta (sandbox)
 
 1. Abra o e-mail **`[SANDBOX] Thanks for upgrading`**
-2. Ou: [Dashboard → Users](https://dashboard.freemius.com/#!/live/stores/15920/plugins/30587/users/) → `suitecomercial@gmail.com` → aba **Licenses**
+2. Ou: [Dashboard → Users](https://dashboard.freemius.com/#!/live/stores/15920/plugins/30587/users/) → comprador → aba **Licenses**
 
-### sparklean-01 vs sparklean-02
+### blb01 vs sparklean-02
 
-| Site | wp-config Freemius | Uso |
-|------|-------------------|-----|
-| `sparklean-02.local` | Constantes comentadas ou ativas (bypass) | Dev principal |
-| `sparklean-01.local` | **Sem** constantes Freemius | Ideal para testar **ativação real** com license key |
-
-Para desenvolver no `sparklean-01` sem licença, adicione as 3 constantes no `wp-config.php` (igual ao sparklean-02).
+| Site | Papel | Freemius |
+|------|-------|----------|
+| `blb01.local` | Sales / packaging | Teste live (constantes comentadas) ou sandbox |
+| `sparklean-02.local` | Dev / i18n | Bypass `DEV_MODE` + secret; Public Key igual à produção |
 
 ---
 
 ## Checklist antes de abrir vendas reais
 
-- [ ] Links **Production** copiados e colados neste doc
-- [ ] LP com 3 botões apontando para Production
+- [x] Links **Production** copiados e colados neste doc
+- [ ] LP com botões apontando para Production
 - [ ] Cupom `BREAKDANCEFIRST` criado (opcional no lançamento)
-- [ ] Deploy do ZIP premium no Freemius
-- [ ] Teste de ativação com licença **production** em site limpo
-- [ ] Remover constantes Freemius do `wp-config.php` em produção
+- [x] Deploy do ZIP premium `0.1.12` no Freemius (Released; build antiga removida)
+- [x] Teste de ativação live no **blb01** (Licença Ativa / Produção)
+- [ ] Remover constantes Freemius do `wp-config.php` em produção (uxwidget / clientes)
 
 ---
 

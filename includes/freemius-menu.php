@@ -1,8 +1,11 @@
 <?php
 /**
- * Register Freemius admin pages under Breakdance.
+ * Builder Languages for Breakdance — Freemius menu.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);
@@ -147,41 +150,14 @@ function breakdance_languages_register_freemius_admin_page(string $slug, string 
     }
 }
 
-add_action('admin_menu', 'breakdance_languages_hide_freemius_license_submenu', 9999999999);
-
-/**
- * Hide Freemius license/account submenu entries without unregistering their pages.
- */
-function breakdance_languages_hide_freemius_license_submenu(): void
-{
-    if (!breakdance_languages_should_register_freemius_pages()) {
-        return;
-    }
-
-    global $submenu;
-
-    $parent = breakdance_languages_get_admin_parent_slug();
-    $hidden_slugs = ['breakdance-languages', 'breakdance-languages-account'];
-
-    if (!isset($submenu[$parent]) || !is_array($submenu[$parent])) {
-        return;
-    }
-
-    foreach ($submenu[$parent] as $index => $item) {
-        if (!is_array($item) || !isset($item[2])) {
-            continue;
-        }
-
-        if (in_array((string) $item[2], $hidden_slugs, true)) {
-            unset($submenu[$parent][$index]);
-        }
-    }
-}
-
 add_action('admin_head', 'breakdance_languages_hide_freemius_license_submenu_css');
 
 /**
- * Fallback: hide Freemius license submenu links if they are re-added late.
+ * Hide Freemius license/account submenu links visually only.
+ *
+ * Do NOT unset $submenu entries: WordPress resolves admin.php?page=… via the
+ * submenu parent. Removing the item makes get_admin_page_parent() miss the
+ * page and user_can_access_admin_page() returns false ("not allowed").
  */
 function breakdance_languages_hide_freemius_license_submenu_css(): void
 {

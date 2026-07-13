@@ -1,12 +1,11 @@
 <?php
 /**
- * Private .update.blb manifest reader (Builder Languages for Breakdance).
+ * Builder Languages for Breakdance — BLB manifest.
  *
- * The distributed file is compact + HMAC-signed. Decoding the payload does not
- * require the secret; verifying authenticity does (define BLB_MANIFEST_SECRET
- * only on your update server / private tooling — never ship it in public ZIPs).
- *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

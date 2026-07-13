@@ -1,8 +1,11 @@
 <?php
 /**
- * Ensure Breakdance textdomains load during builder runtime requests.
+ * Builder Languages for Breakdance — Builder runtime.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

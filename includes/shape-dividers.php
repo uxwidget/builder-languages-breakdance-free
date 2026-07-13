@@ -1,8 +1,11 @@
 <?php
 /**
- * Translate Breakdance shape divider preset labels loaded from SVG filenames.
+ * Builder Languages for Breakdance — Shape dividers.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

@@ -46,7 +46,11 @@
     "wp_language_pack_manual_hint": "Ask an administrator to install the language under Dashboard → Updates → Translations, or Users → Profile → Language.",
     "wp_language_pack_reload": "Refresh page",
     "wp_language_pack_reload_hint": "Click “Refresh page” to apply the WordPress admin language.",
-    "locale_auto": "Use WordPress profile language"
+    "locale_auto": "Use WordPress profile language",
+    "reload_notice_title": "Builder language updated",
+    "reload_notice_body": "Reload this page to apply translations in the element panels.",
+    "reload_notice_reload": "Reload now",
+    "reload_notice_later": "Later"
   },
   "en_GB": {
     "loading": "Applying language...",
@@ -95,7 +99,11 @@
     "wp_language_pack_manual_hint": "Ask an administrator to install the language under Dashboard → Updates → Translations, or Users → Profile → Language.",
     "wp_language_pack_reload": "Refresh page",
     "wp_language_pack_reload_hint": "Click “Refresh page” to apply the WordPress admin language.",
-    "locale_auto": "Use WordPress profile language"
+    "locale_auto": "Use WordPress profile language",
+    "reload_notice_title": "Builder language updated",
+    "reload_notice_body": "Reload this page to apply translations in the element panels.",
+    "reload_notice_reload": "Reload now",
+    "reload_notice_later": "Later"
   },
   "pt_BR": {
     "loading": "Aplicando idioma...",
@@ -144,7 +152,11 @@
     "wp_language_pack_manual_hint": "Peça a um administrador para instalar o idioma em Painel → Atualizações → Traduções, ou em Usuários → Perfil → Idioma.",
     "wp_language_pack_reload": "Atualizar página",
     "wp_language_pack_reload_hint": "Clique em “Atualizar página” para aplicar o idioma do admin WordPress.",
-    "locale_auto": "Usar idioma do perfil do WordPress"
+    "locale_auto": "Usar idioma do perfil do WordPress",
+    "reload_notice_title": "Idioma do builder atualizado",
+    "reload_notice_body": "Recarregue esta página para aplicar as traduções nas guias dos elementos.",
+    "reload_notice_reload": "Recarregar agora",
+    "reload_notice_later": "Depois"
   },
   "pt_PT": {
     "loading": "A aplicar idioma...",
@@ -193,7 +205,11 @@
     "wp_language_pack_manual_hint": "Peça a um administrador para instalar o idioma em Painel → Atualizações → Traduções, ou em Utilizadores → Perfil → Idioma.",
     "wp_language_pack_reload": "Atualizar página",
     "wp_language_pack_reload_hint": "Clique em “Atualizar página” para aplicar o idioma do admin WordPress.",
-    "locale_auto": "Usar idioma do perfil do WordPress"
+    "locale_auto": "Usar idioma do perfil do WordPress",
+    "reload_notice_title": "Idioma do builder atualizado",
+    "reload_notice_body": "Recarregue esta página para aplicar as traduções nos painéis dos elementos.",
+    "reload_notice_reload": "Recarregar agora",
+    "reload_notice_later": "Depois"
   },
   "fr_FR": {
     "loading": "Application de la langue...",
@@ -242,7 +258,11 @@
     "wp_language_pack_manual_hint": "Demandez à un administrateur d’installer la langue dans Tableau de bord → Mises à jour → Traductions, ou Utilisateurs → Profil → Langue.",
     "wp_language_pack_reload": "Refresh page",
     "wp_language_pack_reload_hint": "Click “Refresh page” to apply the WordPress admin language.",
-    "locale_auto": "Utiliser la langue du profil WordPress"
+    "locale_auto": "Utiliser la langue du profil WordPress",
+    "reload_notice_title": "Langue du builder mise à jour",
+    "reload_notice_body": "Rechargez cette page pour appliquer les traductions dans les panneaux des éléments.",
+    "reload_notice_reload": "Recharger maintenant",
+    "reload_notice_later": "Plus tard"
   },
   "de_DE": {
     "loading": "Sprache wird angewendet...",
@@ -291,7 +311,11 @@
     "wp_language_pack_manual_hint": "Bitten Sie einen Administrator, die Sprache unter Dashboard → Updates → Übersetzungen oder Benutzer → Profil → Sprache zu installieren.",
     "wp_language_pack_reload": "Refresh page",
     "wp_language_pack_reload_hint": "Click “Refresh page” to apply the WordPress admin language.",
-    "locale_auto": "WordPress-Profilsprache verwenden"
+    "locale_auto": "WordPress-Profilsprache verwenden",
+    "reload_notice_title": "Builder-Sprache aktualisiert",
+    "reload_notice_body": "Laden Sie diese Seite neu, um die Übersetzungen in den Element-Panels anzuwenden.",
+    "reload_notice_reload": "Jetzt neu laden",
+    "reload_notice_later": "Später"
   },
   "es_ES": {
     "loading": "Aplicando idioma...",
@@ -340,7 +364,11 @@
     "wp_language_pack_manual_hint": "Pide a un administrador que instale el idioma en Escritorio → Actualizaciones → Traducciones, o en Usuarios → Perfil → Idioma.",
     "wp_language_pack_reload": "Refresh page",
     "wp_language_pack_reload_hint": "Click “Refresh page” to apply the WordPress admin language.",
-    "locale_auto": "Usar idioma del perfil de WordPress"
+    "locale_auto": "Usar idioma del perfil de WordPress",
+    "reload_notice_title": "Idioma del builder actualizado",
+    "reload_notice_body": "Recarga esta página para aplicar las traducciones en los paneles de elementos.",
+    "reload_notice_reload": "Recargar ahora",
+    "reload_notice_later": "Más tarde"
   },
   "it_IT": {
     "loading": "Applicazione della lingua...",
@@ -389,7 +417,11 @@
     "wp_language_pack_manual_hint": "Chiedi a un amministratore di installare la lingua da Bacheca → Aggiornamenti → Traduzioni, o da Utenti → Profilo → Lingua.",
     "wp_language_pack_reload": "Aggiorna pagina",
     "wp_language_pack_reload_hint": "Fai clic su “Aggiorna pagina” per applicare la lingua dell’admin WordPress.",
-    "locale_auto": "Usa la lingua del profilo WordPress"
+    "locale_auto": "Usa la lingua del profilo WordPress",
+    "reload_notice_title": "Lingua del builder aggiornata",
+    "reload_notice_body": "Ricarica questa página per applicare le traduzioni nei pannelli degli elementi.",
+    "reload_notice_reload": "Ricarica ora",
+    "reload_notice_later": "Dopo"
   },
   "ar": {
     "loading": "جارٍ تطبيق اللغة...",
@@ -438,7 +470,11 @@
     "wp_language_pack_manual_hint": "اطلب من المسؤول تثبيت اللغة من لوحة التحكم → التحديثات → الترجمات، أو المستخدمون → الملف الشخصي → اللغة.",
     "wp_language_pack_reload": "Refresh page",
     "wp_language_pack_reload_hint": "Click “Refresh page” to apply the WordPress admin language.",
-    "locale_auto": "استخدام لغة ملف WordPress الشخصي"
+    "locale_auto": "استخدام لغة ملف WordPress الشخصي",
+    "reload_notice_title": "تم تحديث لغة أداة البناء",
+    "reload_notice_body": "أعد تحميل هذه الصفحة لتطبيق الترجمات في لوحات العناصر.",
+    "reload_notice_reload": "إعادة التحميل الآن",
+    "reload_notice_later": "لاحقاً"
   },
   "ja_JP": {
     "loading": "言語を適用しています...",
@@ -487,7 +523,11 @@
     "wp_language_pack_manual_hint": "管理者に、ダッシュボード → 更新 → 翻訳、またはユーザー → プロフィール → 言語からインストールするよう依頼してください。",
     "wp_language_pack_reload": "Refresh page",
     "wp_language_pack_reload_hint": "Click “Refresh page” to apply the WordPress admin language.",
-    "locale_auto": "WordPressプロフィールの言語を使用"
+    "locale_auto": "WordPressプロフィールの言語を使用",
+    "reload_notice_title": "ビルダー言語が更新されました",
+    "reload_notice_body": "要素パネルに翻訳を適用するには、このページを再読み込みしてください。",
+    "reload_notice_reload": "今すぐ再読み込み",
+    "reload_notice_later": "後で"
   },
   "es_LA": {
     "loading": "Aplicando idioma...",
@@ -536,7 +576,11 @@
     "wp_language_pack_manual_hint": "Pide a un administrador que instale el idioma en Escritorio → Actualizaciones → Traducciones, o en Usuarios → Perfil → Idioma.",
     "wp_language_pack_reload": "Refresh page",
     "wp_language_pack_reload_hint": "Click “Refresh page” to apply the WordPress admin language.",
-    "locale_auto": "Usar idioma del perfil de WordPress"
+    "locale_auto": "Usar idioma del perfil de WordPress",
+    "reload_notice_title": "Idioma del builder actualizado",
+    "reload_notice_body": "Recarga esta página para aplicar las traducciones en los paneles de elementos.",
+    "reload_notice_reload": "Recargar ahora",
+    "reload_notice_later": "Más tarde"
   },
   "hi_IN": {
     "loading": "भाषा लागू हो रही है...",
@@ -585,7 +629,11 @@
     "wp_language_pack_manual_hint": "किसी व्यवस्थापक से Dashboard → Updates → Translations, या Users → Profile → Language से भाषा इंस्टॉल करने को कहें।",
     "wp_language_pack_reload": "पृष्ठ अपडेट करें",
     "wp_language_pack_reload_hint": "WordPress एडमिन भाषा लागू करने के लिए “पृष्ठ अपडेट करें” पर क्लिक करें।",
-    "locale_auto": "WordPress प्रोफ़ाइल भाषा उपयोग करें"
+    "locale_auto": "WordPress प्रोफ़ाइल भाषा उपयोग करें",
+    "reload_notice_title": "बिल्डर भाषा अपडेट हुई",
+    "reload_notice_body": "एलिमेंट पैनलों में अनुवाद लागू करने के लिए यह पृष्ठ पुनः लोड करें।",
+    "reload_notice_reload": "अभी पुनः लोड करें",
+    "reload_notice_later": "बाद में"
   },
   "he_IL": {
     "loading": "מחיל שפה...",
@@ -634,7 +682,11 @@
     "wp_language_pack_manual_hint": "בקש ממנהל להתקין את השפה ב-Dashboard → Updates → Translations או Users → Profile → Language.",
     "wp_language_pack_reload": "רענון העמוד",
     "wp_language_pack_reload_hint": "לחץ על \"רענון העמוד\" כדי להחיל את שפת ניהול WordPress.",
-    "locale_auto": "השתמש בשפת פרופיל WordPress"
+    "locale_auto": "השתמש בשפת פרופיל WordPress",
+    "reload_notice_title": "שפת הבונה עודכנה",
+    "reload_notice_body": "טען מחדש את העמוד כדי להחיל תרגומים בלוחות הרכיבים.",
+    "reload_notice_reload": "טען מחדש עכשיו",
+    "reload_notice_later": "אחר כך"
   },
   "nl_NL": {
     "loading": "Taal toepassen...",
@@ -683,7 +735,11 @@
     "wp_language_pack_manual_hint": "Vraag een beheerder om de taal te installeren via Dashboard → Updates → Vertalingen of Gebruikers → Profiel → Taal.",
     "wp_language_pack_reload": "Pagina vernieuwen",
     "wp_language_pack_reload_hint": "Klik op “Pagina vernieuwen” om de WordPress-beheertaal toe te passen.",
-    "locale_auto": "WordPress-profieltaal gebruiken"
+    "locale_auto": "WordPress-profieltaal gebruiken",
+    "reload_notice_title": "Builder-taal bijgewerkt",
+    "reload_notice_body": "Herlaad deze pagina om vertalingen in de elementpanelen toe te passen.",
+    "reload_notice_reload": "Nu herladen",
+    "reload_notice_later": "Later"
   },
   "pl_PL": {
     "loading": "Stosowanie języka...",
@@ -732,7 +788,11 @@
     "wp_language_pack_manual_hint": "Poproś administratora o instalację języka w Kokpit → Aktualizacje → Tłumaczenia lub Użytkownicy → Profil → Język.",
     "wp_language_pack_reload": "Odśwież stronę",
     "wp_language_pack_reload_hint": "Kliknij „Odśwież stronę”, aby zastosować język panelu WordPress.",
-    "locale_auto": "Użyj języka profilu WordPress"
+    "locale_auto": "Użyj języka profilu WordPress",
+    "reload_notice_title": "Zaktualizowano język buildera",
+    "reload_notice_body": "Odśwież tę stronę, aby zastosować tłumaczenia w panelach elementów.",
+    "reload_notice_reload": "Odśwież teraz",
+    "reload_notice_later": "Później"
   },
   "ru_RU": {
     "loading": "Применение языка...",
@@ -781,7 +841,11 @@
     "wp_language_pack_manual_hint": "Попросите администратора установить язык в Консоль → Обновления → Переводы или Пользователи → Профиль → Язык.",
     "wp_language_pack_reload": "Обновить страницу",
     "wp_language_pack_reload_hint": "Нажмите «Обновить страницу», чтобы применить язык админки WordPress.",
-    "locale_auto": "Использовать язык профиля WordPress"
+    "locale_auto": "Использовать язык профиля WordPress",
+    "reload_notice_title": "Язык билдера обновлён",
+    "reload_notice_body": "Перезагрузите эту страницу, чтобы применить переводы в панелях элементов.",
+    "reload_notice_reload": "Перезагрузить сейчас",
+    "reload_notice_later": "Позже"
   },
   "zh_CN": {
     "loading": "正在应用语言...",
@@ -830,7 +894,11 @@
     "wp_language_pack_manual_hint": "请让管理员在 仪表盘 → 更新 → 翻译 或 用户 → 个人资料 → 语言 中安装该语言。",
     "wp_language_pack_reload": "刷新页面",
     "wp_language_pack_reload_hint": "点击“刷新页面”以应用 WordPress 管理语言。",
-    "locale_auto": "使用 WordPress 个人资料语言"
+    "locale_auto": "使用 WordPress 个人资料语言",
+    "reload_notice_title": "构建器语言已更新",
+    "reload_notice_body": "请重新加载此页面以在元素面板中应用翻译。",
+    "reload_notice_reload": "立即重新加载",
+    "reload_notice_later": "稍后"
   },
   "ko_KR": {
     "loading": "언어 적용 중...",
@@ -879,6 +947,10 @@
     "wp_language_pack_manual_hint": "관리자에게 대시보드 → 업데이트 → 번역 또는 사용자 → 프로필 → 언어에서 설치를 요청하세요.",
     "wp_language_pack_reload": "페이지 새로고침",
     "wp_language_pack_reload_hint": "WordPress 관리자 언어를 적용하려면 “페이지 새로고침”을 클릭하세요.",
-    "locale_auto": "WordPress 프로필 언어 사용"
+    "locale_auto": "WordPress 프로필 언어 사용",
+    "reload_notice_title": "빌더 언어가 업데이트되었습니다",
+    "reload_notice_body": "요소 패널에 번역을 적용하려면 이 페이지를 다시 로드하세요.",
+    "reload_notice_reload": "지금 다시 로드",
+    "reload_notice_later": "나중에"
   }
 }

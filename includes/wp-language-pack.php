@@ -1,8 +1,11 @@
 <?php
 /**
- * WordPress core language pack helpers for profile/admin sync.
+ * Builder Languages for Breakdance — WP language pack.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

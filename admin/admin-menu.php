@@ -1,8 +1,11 @@
 <?php
 /**
- * Standalone admin menu pages under Breakdance.
+ * Builder Languages for Breakdance — Admin menu.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

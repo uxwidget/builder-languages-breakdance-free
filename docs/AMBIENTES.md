@@ -9,9 +9,24 @@ Slug Freemius / text domain interno: `breakdance-languages`. Pasta: `builder-lan
 | Ambiente | Site Local (exemplo) | Objetivo |
 | --- | --- | --- |
 | Desenvolvimento / beta | `sparklean-02` (ou `sparklean-dev`) | Código do Git, QA de traduções, painel Languages |
-| Versão de venda | **site WordPress novo e separado** | Build comercial + Freemius (checkout, licença, updates pagos) |
+| Versão de venda | **site WordPress novo e separado** (`blb01`) | Build comercial + Freemius (checkout, licença, updates pagos) |
 
 **Conclusão:** a versão de venda precisa de uma **instalação WordPress nova**, só para ela. Não misture com o site onde você desenvolve o plugin.
+
+### Não confundir os dois Locals
+
+No `wp-config.php` de cada site:
+
+```php
+// blb01 (embalagem / Freemius comercial)
+define( 'BREAKDANCE_LANGUAGES_CHANNEL', 'sales' );
+
+// sparklean (traduções / Git)
+define( 'BREAKDANCE_LANGUAGES_CHANNEL', 'dev' );
+```
+
+Na admin bar local aparece **BLB · Sales · ux-x.x.x** ou **BLB · Dev · ux-x.x.x**.  
+Não copie pasta do plugin entre sites sem decidir qual é a fonte da mudança. ZIP comercial sai só do site **sales** via `pack-release.py`.
 
 ---
 

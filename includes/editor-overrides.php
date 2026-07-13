@@ -1,8 +1,11 @@
 <?php
 /**
- * Runtime editor text overrides for hardcoded Breakdance UI strings.
+ * Builder Languages for Breakdance — Editor overrides.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

@@ -1,8 +1,11 @@
 <?php
 /**
- * Priority runtime dictionaries for hi_IN, he_IL, and other focus locales.
+ * Builder Languages for Breakdance — Priority locale i18n.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

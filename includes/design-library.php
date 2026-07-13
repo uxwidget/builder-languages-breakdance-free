@@ -1,8 +1,11 @@
 <?php
 /**
- * Design Library translations for providers, UI labels, and remote iframe pages.
+ * Builder Languages for Breakdance — Design Library.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);
@@ -181,6 +184,236 @@ function breakdance_languages_design_library_ui_maps(): array
             'Copy to clipboard' => 'クリップボードにコピー',
             'View Sections' => 'セクションを表示',
         ],
+        'fr_FR' => [
+            'Add to page' => 'Ajouter à la page',
+            'Copy to clipboard' => 'Copier dans le presse-papiers',
+            'View Sections' => 'Voir les sections',
+            'Go home' => 'Retour à l’accueil',
+            'Visit site' => 'Visiter le site',
+            'Close modal' => 'Fermer la fenêtre',
+            'Filter by type' => 'Filtrer par type',
+            'Portfolio' => 'Portfolio',
+            'My Account' => 'Mon compte',
+            'My account' => 'Mon compte',
+            'Shop' => 'Boutique',
+            'Tabs' => 'Onglets',
+            'Info Boxes' => 'Boîtes d’info',
+            'Payments Icons' => 'Icônes de paiement',
+            'Reviews' => 'Avis',
+            'Incentives' => 'Incitations',
+            'Content Cards' => 'Cartes de contenu',
+            'Author Bio' => 'Bio de l’auteur',
+            'Coming Soon' => 'Bientôt disponible',
+            'Content Sections' => 'Sections de contenu',
+            'Progress Bars' => 'Barres de progression',
+            'Gallery' => 'Galerie',
+            'Image Boxes' => 'Boîtes image',
+            'Video Boxes' => 'Boîtes vidéo',
+            'Timeline' => 'Chronologie',
+            'Post Lists' => 'Listes d’articles',
+            'Pricing' => 'Tarifs',
+            'Banners' => 'Bannières',
+            'Newsletters' => 'Newsletters',
+            'Headers' => 'En-têtes',
+            'Team' => 'Équipe',
+            'Features' => 'Fonctionnalités',
+            'Call to Actions' => 'Appels à l’action',
+            'Footers' => 'Pieds de page',
+            'Heros and Titles' => 'Heros et titres',
+            'Contact' => 'Contact',
+            'Stats' => 'Statistiques',
+            'FAQ' => 'FAQ',
+            'Logo Clouds' => 'Nuage de logos',
+            'Icon Boxes' => 'Boîtes icône',
+            'Testimonials' => 'Témoignages',
+            'UI Kit' => 'Kit UI',
+            'Fancy Sections' => 'Sections élégantes',
+            'Element Demos' => 'Démos d’éléments',
+        ],
+        'de_DE' => [
+            'Add to page' => 'Zur Seite hinzufügen',
+            'Copy to clipboard' => 'In Zwischenablage kopieren',
+            'View Sections' => 'Abschnitte anzeigen',
+            'Go home' => 'Zur Startseite',
+            'Visit site' => 'Website besuchen',
+            'Close modal' => 'Modal schließen',
+            'Filter by type' => 'Nach Typ filtern',
+            'Portfolio' => 'Portfolio',
+            'My Account' => 'Mein Konto',
+            'My account' => 'Mein Konto',
+            'Shop' => 'Shop',
+            'Tabs' => 'Tabs',
+            'Info Boxes' => 'Infoboxen',
+            'Payments Icons' => 'Zahlungssymbole',
+            'Reviews' => 'Bewertungen',
+            'Incentives' => 'Anreize',
+            'Content Cards' => 'Inhaltskarten',
+            'Author Bio' => 'Autorenbio',
+            'Coming Soon' => 'Demnächst',
+            'Content Sections' => 'Inhaltsabschnitte',
+            'Progress Bars' => 'Fortschrittsbalken',
+            'Gallery' => 'Galerie',
+            'Image Boxes' => 'Bildboxen',
+            'Video Boxes' => 'Videoboxen',
+            'Timeline' => 'Zeitleiste',
+            'Post Lists' => 'Beitragslisten',
+            'Pricing' => 'Preise',
+            'Banners' => 'Banner',
+            'Newsletters' => 'Newsletter',
+            'Headers' => 'Kopfzeilen',
+            'Team' => 'Team',
+            'Features' => 'Funktionen',
+            'Call to Actions' => 'Call-to-Actions',
+            'Footers' => 'Fußzeilen',
+            'Heros and Titles' => 'Heroes und Titel',
+            'Contact' => 'Kontakt',
+            'Stats' => 'Statistiken',
+            'FAQ' => 'FAQ',
+            'Logo Clouds' => 'Logo-Wolke',
+            'Icon Boxes' => 'Icon-Boxen',
+            'Testimonials' => 'Kundenstimmen',
+            'UI Kit' => 'UI-Kit',
+            'Fancy Sections' => 'Elegante Abschnitte',
+            'Element Demos' => 'Element-Demos',
+        ],
+        'es_ES' => [
+            'Add to page' => 'Añadir a la página',
+            'Copy to clipboard' => 'Copiar al portapapeles',
+            'View Sections' => 'Ver secciones',
+            'Go home' => 'Ir al inicio',
+            'Visit site' => 'Visitar sitio',
+            'Close modal' => 'Cerrar modal',
+            'Filter by type' => 'Filtrar por tipo',
+            'Portfolio' => 'Portfolio',
+            'My Account' => 'Mi cuenta',
+            'My account' => 'Mi cuenta',
+            'Shop' => 'Tienda',
+            'Tabs' => 'Pestañas',
+            'Info Boxes' => 'Cajas de información',
+            'Payments Icons' => 'Iconos de pago',
+            'Reviews' => 'Reseñas',
+            'Incentives' => 'Incentivos',
+            'Content Cards' => 'Tarjetas de contenido',
+            'Author Bio' => 'Bio del autor',
+            'Coming Soon' => 'Próximamente',
+            'Content Sections' => 'Secciones de contenido',
+            'Progress Bars' => 'Barras de progreso',
+            'Gallery' => 'Galería',
+            'Image Boxes' => 'Cajas de imagen',
+            'Video Boxes' => 'Cajas de vídeo',
+            'Timeline' => 'Línea de tiempo',
+            'Post Lists' => 'Listas de entradas',
+            'Pricing' => 'Precios',
+            'Banners' => 'Banners',
+            'Newsletters' => 'Newsletters',
+            'Headers' => 'Encabezados',
+            'Team' => 'Equipo',
+            'Features' => 'Funciones',
+            'Call to Actions' => 'Llamadas a la acción',
+            'Footers' => 'Pies de página',
+            'Heros and Titles' => 'Héroes y títulos',
+            'Contact' => 'Contacto',
+            'Stats' => 'Estadísticas',
+            'FAQ' => 'Preguntas frecuentes',
+            'Logo Clouds' => 'Nube de logos',
+            'Icon Boxes' => 'Cajas de iconos',
+            'Testimonials' => 'Testimonios',
+            'UI Kit' => 'Kit de UI',
+            'Fancy Sections' => 'Secciones elegantes',
+            'Element Demos' => 'Demos de elementos',
+        ],
+        'es_LA' => [
+            'Add to page' => 'Agregar a la página',
+            'Copy to clipboard' => 'Copiar al portapapeles',
+            'View Sections' => 'Ver secciones',
+            'Go home' => 'Ir al inicio',
+            'Visit site' => 'Visitar sitio',
+            'Close modal' => 'Cerrar modal',
+            'Filter by type' => 'Filtrar por tipo',
+            'Portfolio' => 'Portfolio',
+            'My Account' => 'Mi cuenta',
+            'My account' => 'Mi cuenta',
+            'Shop' => 'Tienda',
+            'Tabs' => 'Pestañas',
+            'Info Boxes' => 'Cajas de información',
+            'Payments Icons' => 'Íconos de pago',
+            'Reviews' => 'Reseñas',
+            'Incentives' => 'Incentivos',
+            'Content Cards' => 'Tarjetas de contenido',
+            'Author Bio' => 'Bio del autor',
+            'Coming Soon' => 'Próximamente',
+            'Content Sections' => 'Secciones de contenido',
+            'Progress Bars' => 'Barras de progreso',
+            'Gallery' => 'Galería',
+            'Image Boxes' => 'Cajas de imagen',
+            'Video Boxes' => 'Cajas de video',
+            'Timeline' => 'Línea de tiempo',
+            'Post Lists' => 'Listas de posts',
+            'Pricing' => 'Precios',
+            'Banners' => 'Banners',
+            'Newsletters' => 'Newsletters',
+            'Headers' => 'Encabezados',
+            'Team' => 'Equipo',
+            'Features' => 'Funciones',
+            'Call to Actions' => 'Llamadas a la acción',
+            'Footers' => 'Pies de página',
+            'Heros and Titles' => 'Héroes y títulos',
+            'Contact' => 'Contacto',
+            'Stats' => 'Estadísticas',
+            'FAQ' => 'Preguntas frecuentes',
+            'Logo Clouds' => 'Nube de logos',
+            'Icon Boxes' => 'Cajas de íconos',
+            'Testimonials' => 'Testimonios',
+            'UI Kit' => 'Kit de UI',
+            'Fancy Sections' => 'Secciones elegantes',
+            'Element Demos' => 'Demos de elementos',
+        ],
+        'ar' => [
+            'Add to page' => 'إضافة إلى الصفحة',
+            'Copy to clipboard' => 'نسخ إلى الحافظة',
+            'View Sections' => 'عرض الأقسام',
+            'Go home' => 'الانتقال إلى الصفحة الرئيسية',
+            'Visit site' => 'زيارة الموقع',
+            'Close modal' => 'إغلاق النافذة',
+            'Filter by type' => 'تصفية حسب النوع',
+            'Portfolio' => 'معرض الأعمال',
+            'My Account' => 'حسابي',
+            'My account' => 'حسابي',
+            'Shop' => 'المتجر',
+            'Tabs' => 'علامات التبويب',
+            'Info Boxes' => 'صناديق المعلومات',
+            'Payments Icons' => 'أيقونات الدفع',
+            'Reviews' => 'المراجعات',
+            'Incentives' => 'الحوافز',
+            'Content Cards' => 'بطاقات المحتوى',
+            'Author Bio' => 'نبذة عن الكاتب',
+            'Coming Soon' => 'قريباً',
+            'Content Sections' => 'أقسام المحتوى',
+            'Progress Bars' => 'أشرطة التقدم',
+            'Gallery' => 'المعرض',
+            'Image Boxes' => 'صناديق الصور',
+            'Video Boxes' => 'صناديق الفيديو',
+            'Timeline' => 'الجدول الزمني',
+            'Post Lists' => 'قوائم المنشورات',
+            'Pricing' => 'الأسعار',
+            'Banners' => 'اللافتات',
+            'Newsletters' => 'النشرات البريدية',
+            'Headers' => 'الترويسات',
+            'Team' => 'الفريق',
+            'Features' => 'الميزات',
+            'Call to Actions' => 'دعوات لاتخاذ إجراء',
+            'Footers' => 'التذييلات',
+            'Heros and Titles' => 'الأبطال والعناوين',
+            'Contact' => 'اتصل بنا',
+            'Stats' => 'الإحصائيات',
+            'FAQ' => 'الأسئلة الشائعة',
+            'Logo Clouds' => 'سحابة الشعارات',
+            'Icon Boxes' => 'صناديق الأيقونات',
+            'Testimonials' => 'الشهادات',
+            'UI Kit' => 'طقم واجهة المستخدم',
+            'Fancy Sections' => 'أقسام أنيقة',
+            'Element Demos' => 'عروض العناصر',
+        ],
     ];
 }
 
@@ -227,6 +460,13 @@ function breakdance_languages_design_library_provider_name_maps(): array
         ],
         'ar' => [
             'This Website' => 'هذا الموقع',
+            'Fancy Sections' => 'أقسام أنيقة',
+            'Element Demos' => 'عروض العناصر',
+        ],
+        'es_LA' => [
+            'This Website' => 'Este sitio web',
+            'Fancy Sections' => 'Secciones elegantes',
+            'Element Demos' => 'Demos de elementos',
         ],
     ];
 }
@@ -549,11 +789,16 @@ function breakdance_languages_normalize_design_library_url(string $url, string $
         return null;
     }
 
-    $scheme = $parts['scheme'] ?? 'https';
+    $scheme = strtolower((string) ($parts['scheme'] ?? 'https'));
+
+    if ($scheme !== 'https') {
+        return null;
+    }
+
     $path = $parts['path'] ?? '/';
     $query = isset($parts['query']) ? '?' . $parts['query'] : '';
 
-    return $scheme . '://' . $host . $path . $query;
+    return 'https://' . $host . $path . $query;
 }
 
 /**
@@ -685,6 +930,42 @@ function breakdance_languages_build_design_library_inline_translation_script(arr
 }
 
 /**
+ * Strip remote scripts and inline event handlers from proxied Design Library HTML.
+ */
+function breakdance_languages_sanitize_design_library_html(string $html): string
+{
+    $html = (string) preg_replace('#<script\b[^>]*>.*?</script>#is', '', $html);
+    $html = (string) preg_replace('/\son[a-z]+\s*=\s*(["\']).*?\1/iu', '', $html);
+    $html = (string) preg_replace('/\son[a-z]+\s*=\s*[^\s>]+/iu', '', $html);
+
+    return $html;
+}
+
+/**
+ * Local Design Library bootstrap scripts (labels + plugin JS).
+ */
+function breakdance_languages_build_design_library_local_scripts(?string $locale = null): string
+{
+    $labels = breakdance_languages_get_design_library_script_labels($locale);
+    $labelsJson = wp_json_encode($labels);
+
+    if (!is_string($labelsJson)) {
+        $labelsJson = '{}';
+    }
+
+    $localScript = esc_url(
+        add_query_arg(
+            'ver',
+            BREAKDANCE_LANGUAGES_VERSION,
+            plugins_url('assets/design-library.js', BREAKDANCE_LANGUAGES_FILE)
+        )
+    );
+
+    return '<script>window.breakdanceLanguagesDesignLibraryLabels=' . $labelsJson . ';</script>'
+        . '<script src="' . $localScript . '" id="breakdance-design-library-js"></script>';
+}
+
+/**
  * Proxy remote design library HTML through the local site for translation.
  */
 function breakdance_languages_handle_design_library_proxy(): void
@@ -735,16 +1016,35 @@ function breakdance_languages_handle_design_library_proxy(): void
     }
 
     $html = (string) wp_remote_retrieve_body($response);
+    $html = breakdance_languages_sanitize_design_library_html($html);
     $html = breakdance_languages_inject_design_library_base_tag($html, $url);
-    $html = breakdance_languages_replace_proxied_design_library_script($html, $locale);
     $html = breakdance_languages_translate_design_library_html_safe($html, $locale);
     $html = breakdance_languages_rewrite_design_library_links($html, $url, admin_url('admin-ajax.php'));
-    $html = str_ireplace('</body>', breakdance_languages_build_design_library_inline_translation_script(
-        breakdance_languages_get_design_library_ui_dictionary($locale)
-    ) . '</body>', $html);
+
+    $inject = breakdance_languages_build_design_library_local_scripts($locale)
+        . breakdance_languages_build_design_library_inline_translation_script(
+            breakdance_languages_get_design_library_ui_dictionary($locale)
+        );
+
+    if (stripos($html, '</body>') !== false) {
+        $html = str_ireplace('</body>', $inject . '</body>', $html);
+    } else {
+        $html .= $inject;
+    }
 
     header('Content-Type: text/html; charset=UTF-8');
     header('X-Robots-Tag: noindex');
+    header(
+        "Content-Security-Policy: default-src 'none'; "
+        . "base-uri 'self'; "
+        . "img-src https: data:; "
+        . "style-src https: 'unsafe-inline'; "
+        . "font-src https: data:; "
+        . "script-src 'self' 'unsafe-inline'; "
+        . "connect-src 'self'; "
+        . "frame-ancestors 'self'; "
+        . "form-action 'none'"
+    );
 
     echo $html;
     exit;

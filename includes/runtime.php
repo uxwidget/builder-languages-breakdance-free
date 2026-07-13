@@ -1,8 +1,11 @@
 <?php
 /**
- * Breakdance builder runtime request detection.
+ * Builder Languages for Breakdance — Runtime.
  *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);

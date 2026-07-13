@@ -1,13 +1,11 @@
 <?php
 /**
- * Translate Breakdance element category sidebar labels.
+ * Builder Languages for Breakdance — Element categories i18n.
  *
- * Breakdance registers categories as hardcoded English strings without gettext
- * (Basic, Blocks, Site, Advanced, Dynamic, Forms, …). This module rewrites the
- * labels in ElementCategoriesController and mirrors them into the editor
- * dictionary for DOM fallback.
- *
- * @package Breakdance_Languages
+ * @package Builder Languages Breakdance
+ * @author  UX Widget
+ * @link    https://uxwidget.com
+ * @license GPL-2.0-or-later
  */
 
 declare(strict_types=1);
