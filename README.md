@@ -41,13 +41,6 @@ Pro unlocks **17 languages** (including `pt_PT`, `it_IT`, `fr_FR`, `de_DE`, `es_
 
 Settings and diagnostics: **Breakdance → Languages**.
 
-## Docs in this repo
-
-- `docs/USER-GUIDE.md`
-- `docs/FAQ.md`
-- `docs/TROUBLESHOOTING.md`
-- `marketing/FREE-EDITION.md` — Free vs Pro distribution notes
-
 ## License
 
 GPLv2 or later — see `LICENSE.md` / `readme.txt`.
