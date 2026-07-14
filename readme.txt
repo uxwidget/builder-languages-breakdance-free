@@ -33,10 +33,11 @@ Do you build websites for clients all over the world? [**Upgrade Now**](https://
 
 == Installation ==
 
-1. Install from WordPress.org, or download the Free ZIP from https://uxwidget.com/builder-languages-breakdance/
-2. In WordPress go to Plugins → Add New → Upload Plugin (if using ZIP).
+1. Download the Free ZIP from https://github.com/uxwidget/builder-languages-breakdance-free/releases/latest
+2. In WordPress go to Plugins → Add New → Upload Plugin.
 3. Activate **Builder Languages for Breakdance**.
 4. Open **Breakdance → Languages** and choose Portuguese (Brazil) or Spanish (Spain).
+5. Hard-reload the Breakdance Builder after changing language.
 
 == Frequently Asked Questions ==
 

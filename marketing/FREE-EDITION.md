@@ -1,7 +1,7 @@
 # Builder Languages for Breakdance — Free edition
 
 Site: `language-free` · Path: `wp-content/plugins/builder-languages-breakdance/`  
-Repo: https://github.com/marceloadias/builder-languages-breakdance-free
+Repo: https://github.com/uxwidget/builder-languages-breakdance-free
 
 ## What this build is
 
@@ -28,9 +28,9 @@ LP "Buy …"       →  Freemius checkout  →  Pro ZIP + license + updates
 ## GitHub Free release checklist
 
 1. `python scripts/pack-release.py --freemius-config config/freemius.php`
-2. Copy ZIP to a clear name, e.g. `builder-languages-breakdance-FREE-{version}.zip`
-3. `gh release create v{version} ./path.zip --title "…" --notes "…"`
-4. LP link: `https://github.com/marceloadias/builder-languages-breakdance-free/releases/latest`
+2. Nome do asset: `builder-languages-breakdance.zip` (pasta do plugin; sem sufixo `-FREE-`)
+3. `gh release create v{version} ./builder-languages-breakdance.zip --title "…" --notes "…"`
+4. LP link: `https://github.com/uxwidget/builder-languages-breakdance-free/releases/latest`
 
 ## Freemius (Pro only — you in dashboard)
 
