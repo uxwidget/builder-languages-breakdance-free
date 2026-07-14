@@ -1,0 +1,45 @@
+{
+  "locales": {
+    "en_US": {
+      "label": "English (United States)",
+      "language_team": "English (United States)",
+      "plural_forms": "nplurals=2; plural=(n != 1);",
+      "translate_target": null,
+      "status": "native",
+      "native_breakdance": true
+    },
+    "pt_BR": {
+      "label": "Portuguese (Brazil)",
+      "language_team": "Portuguese (Brazil)",
+      "plural_forms": "nplurals=2; plural=(n != 1);",
+      "translate_target": "pt",
+      "status": "free"
+    },
+    "es_ES": {
+      "label": "Spanish (Spain)",
+      "language_team": "Spanish (Spain)",
+      "plural_forms": "nplurals=2; plural=(n != 1);",
+      "translate_target": "es",
+      "status": "free"
+    }
+  },
+  "editor_override_locales": [
+    "pt_BR",
+    "es_ES"
+  ],
+  "release_gate_locales": ["pt_BR", "es_ES"],
+  "product_language_count": 2,
+  "edition": "free",
+  "notes": {
+    "en_US": "Selectable as English (United States). Preference resets the builder to native Breakdance American English.",
+    "free": "Free edition ships Portuguese (Brazil) and Spanish (Spain) only. Upgrade to Pro for 17 languages."
+  },
+  "locale_aliases": {
+    "es_419": "es_ES",
+    "es_MX": "es_ES",
+    "es_LA": "es_ES",
+    "pt": "pt_BR",
+    "pt_PT": "pt_BR",
+    "es": "es_ES"
+  }
+}

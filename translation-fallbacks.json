@@ -1,8 +1,8 @@
 {
-  "ja": "ja_JP",
-  "es_419": "es_LA",
-  "es_MX": "es_LA",
-  "zh": "zh_CN",
-  "he": "he_IL",
-  "iw": "he_IL"
+  "es_419": "es_ES",
+  "es_MX": "es_ES",
+  "es_LA": "es_ES",
+  "es": "es_ES",
+  "pt": "pt_BR",
+  "pt_PT": "pt_BR"
 }

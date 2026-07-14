@@ -20,31 +20,26 @@ const BREAKDANCE_LANGUAGES_AUTO_LOCALE = 'auto';
 /**
  * Supported locale codes without triggering plugin textdomain loading.
  *
+ * Free edition: hardcoded allowlist only (ignores registry inflation and filters).
+ *
  * @return list<string>
  */
 function breakdance_languages_supported_locale_codes(): array
 {
+    if (
+        function_exists('breakdance_languages_is_free_edition')
+        && breakdance_languages_is_free_edition()
+        && function_exists('breakdance_languages_free_locale_allowlist')
+    ) {
+        return breakdance_languages_free_locale_allowlist();
+    }
+
     $codes = function_exists('breakdance_languages_registry_locale_codes')
         ? breakdance_languages_registry_locale_codes()
         : [
             'en_US',
             'pt_BR',
-            'pt_PT',
-            'fr_FR',
-            'de_DE',
             'es_ES',
-            'es_LA',
-            'ar',
-            'ja_JP',
-            'it_IT',
-            'nl_NL',
-            'hi_IN',
-            'ru_RU',
-            'zh_CN',
-            'ko_KR',
-            'pl_PL',
-            'he_IL',
-            'en_GB',
         ];
 
     /**
@@ -65,22 +60,7 @@ function breakdance_languages_supported_locales(): array
         : [
             'en_US' => 'English (United States)',
             'pt_BR' => 'Portuguese (Brazil)',
-            'pt_PT' => 'Portuguese',
-            'fr_FR' => 'French',
-            'de_DE' => 'German',
-            'es_ES' => 'Spanish',
-            'es_LA' => 'Spanish (Latin America)',
-            'ar' => 'Arabic',
-            'ja_JP' => 'Japanese',
-            'it_IT' => 'Italian',
-            'nl_NL' => 'Dutch',
-            'hi_IN' => 'Hindi',
-            'ru_RU' => 'Russian',
-            'zh_CN' => 'Chinese (Simplified)',
-            'ko_KR' => 'Korean',
-            'pl_PL' => 'Polish',
-            'he_IL' => 'Hebrew',
-            'en_GB' => 'English (International)',
+            'es_ES' => 'Spanish (Spain)',
         ];
 
     if (did_action('init')) {
@@ -92,7 +72,18 @@ function breakdance_languages_supported_locales(): array
     /**
      * @var array<string, string> $labels
      */
-    return apply_filters('breakdance_languages_supported_locales', $labels);
+    $labels = apply_filters('breakdance_languages_supported_locales', $labels);
+
+    if (
+        function_exists('breakdance_languages_is_free_edition')
+        && breakdance_languages_is_free_edition()
+        && function_exists('breakdance_languages_free_locale_allowlist')
+    ) {
+        $allowed = array_flip(breakdance_languages_free_locale_allowlist());
+        $labels = array_intersect_key($labels, $allowed);
+    }
+
+    return $labels;
 }
 
 /**

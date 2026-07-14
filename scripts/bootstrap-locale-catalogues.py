@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bootstrap PO/JSON catalogues for locales listed in config/supported-locales.json."""
+"""Bootstrap PO/JSON catalogues for locales listed in config/pt-es.json (Free)."""
 
 from __future__ import annotations
 

@@ -7,7 +7,7 @@
 
     var settings = breakdanceLanguagesSettings;
     var $select = $('#breakdance_languages_builder_locale');
-    var $reloadButton = $('#breakdance-languages-force-reload');
+    var $profileRefreshButton = $('#breakdance-languages-profile-refresh');
     var $status = $('#breakdance-languages-save-status');
     var savedLocale = $select.val();
     var activeRequest = null;
@@ -198,7 +198,16 @@
         var strings = getStringsForLocale(locale);
 
         $('#breakdance-languages-page-description').text(strings.page_description || '');
-        $('#breakdance-languages-builder-language-label').text(strings.builder_language_label || '');
+        $('#breakdance-languages-brand-eyebrow').text(
+            strings.brand_eyebrow || 'BUILDER LANGUAGES for BREAKDANCE BUILDER'
+        );
+        $('#breakdance-languages-panel-title').text(strings.builder_language_label || '');
+        $('#breakdance-languages-builder-language-label').text(
+            strings.header_alt || strings.builder_language_label || ''
+        );
+        if ($('#breakdance-languages-free-ribbon').length) {
+            $('#breakdance-languages-free-ribbon').text(strings.free_version_ribbon || 'VERSION FREE');
+        }
     }
 
     function updateSelectLabels(locale) {
@@ -226,6 +235,9 @@
         } else if (settings.isDevBypass) {
             statusLabel = strings.license_status_dev;
             statusDescription = strings.license_dev_description;
+        } else if (settings.isFreeEdition) {
+            statusLabel = strings.license_status_active || strings.license_status_free;
+            statusDescription = strings.license_free_description;
         } else if (settings.hasRealLicense) {
             statusLabel = strings.license_status_active;
             statusDescription = strings.license_active_description;
@@ -239,14 +251,54 @@
         }
 
         var $panel = $('#breakdance-languages-license-panel');
+        var $badge = $('#breakdance-languages-license-status-badge');
 
-        $('#breakdance-languages-license-heading').text(strings.license_heading || '');
+        if (settings.isFreeEdition) {
+            $('#breakdance-languages-license-heading').text(
+                strings.license_heading_free || strings.license_heading || ''
+            );
+            $('#breakdance-languages-license-buy')
+                .text(strings.license_upgrade_today || strings.license_upgrade || 'Upgrade today!')
+                .prop('hidden', false)
+                .attr('href', settings.checkoutUrl || $('#breakdance-languages-license-buy').attr('href'));
+        } else {
+            $('#breakdance-languages-license-heading').text(strings.license_heading || '');
+        }
+
         $('#breakdance-languages-license-status-heading').text(strings.license_status || '');
         $('#breakdance-languages-license-status-label').text(statusLabel || '');
         $('#breakdance-languages-license-description').text(statusDescription || '');
         $('#breakdance-languages-license-account-heading').text(strings.license_account || '');
         $('#breakdance-languages-license-manage').text(strings.license_manage || '');
-        $('#breakdance-languages-license-buy').text(strings.license_buy || '');
+
+        if ($('#breakdance-languages-license-scope-note').length) {
+            var tipLabel = strings.license_tip_label || '';
+            var tipBody = strings.license_tip_body || strings.license_translation_scope_note || '';
+            var hasTip = !!(tipLabel || tipBody);
+
+            $('#breakdance-languages-license-tip-label').text(tipLabel);
+            $('#breakdance-languages-license-tip-body').text(tipBody);
+            $('#breakdance-languages-license-scope-note').prop('hidden', isInactive || !hasTip);
+        }
+
+        var $upsellTip = $('#breakdance-languages-license-upsell-tip');
+
+        if ($upsellTip.length) {
+            $upsellTip.find('.blb-tip__label').text(strings.upsell_banner_title || '');
+            $upsellTip.find('.blb-tip__lead').text(strings.upsell_banner_lead || '');
+            $upsellTip.find('.blb-tip__body').text(strings.upsell_banner_body || '');
+        }
+
+        if ($badge.length) {
+            $badge
+                .toggleClass('is-inactive', isInactive)
+                .toggleClass('is-active', !isInactive)
+                .toggleClass('is-dev', statusLabel === strings.license_status_dev);
+        }
+
+        if (!settings.isFreeEdition) {
+            $('#breakdance-languages-license-buy').text(strings.license_buy || '');
+        }
 
         var environmentLabel = '';
 
@@ -272,10 +324,12 @@
         }
 
         if ($('#breakdance-languages-license-buy').length) {
-            var showBuy = isInactive && settings.freemiusReady;
+            var showBuy = (isInactive && settings.freemiusReady) || !!settings.isFreeEdition;
 
             $('#breakdance-languages-license-buy').prop('hidden', !showBuy);
-            $('#breakdance-languages-license-buy-separator').prop('hidden', !showBuy);
+            if ($('#breakdance-languages-license-buy-separator').length) {
+                $('#breakdance-languages-license-buy-separator').prop('hidden', !showBuy || !!settings.isFreeEdition);
+            }
         }
 
         if ($panel.length) {
@@ -285,14 +339,6 @@
                 'is-sandbox',
                 environmentLabel === (strings.license_environment_sandbox || '')
             );
-        }
-    }
-
-    function updateReloadButton(locale) {
-        var strings = getStringsForLocale(locale);
-
-        if ($reloadButton.length && strings.refresh) {
-            $reloadButton.text(strings.refresh);
         }
     }
 
@@ -339,14 +385,20 @@
 
         $('#breakdance-languages-profile-edit').text(strings.profile_language_edit || '');
         $('#breakdance-languages-profile-refresh-hint').text(strings.profile_language_refresh_hint || '');
+        if ($profileRefreshButton.length) {
+            $profileRefreshButton.text(
+                strings.profile_language_refresh_button
+                    || strings.wp_language_pack_reload
+                    || strings.refresh
+                    || ''
+            );
+        }
     }
 
     function updateLanguagePackNotice(selectedLocale, packContext) {
         var $panel = $('#breakdance-languages-wp-language-pack');
         var $button = $('#breakdance-languages-install-language-pack');
         var $manual = $('#breakdance-languages-wp-language-pack-manual');
-        var $packReload = $('#breakdance-languages-wp-language-pack-reload');
-        var $packReloadHint = $('#breakdance-languages-wp-language-pack-reload-hint');
 
         if (!$panel.length) {
             return;
@@ -361,31 +413,8 @@
         var justInstalled = !!pack.just_installed;
 
         if (justInstalled) {
-            $panel.prop('hidden', false);
-            $('#breakdance-languages-wp-language-pack-message').text(
-                (strings.wp_language_pack_installed || '').replace('%s', label)
-            );
-
-            if ($button.length) {
-                $button.prop('hidden', true).prop('disabled', true);
-            }
-
-            if ($manual.length) {
-                $manual.prop('hidden', true);
-            }
-
-            if ($packReload.length) {
-                $packReload
-                    .text(strings.wp_language_pack_reload || strings.refresh || '')
-                    .prop('hidden', false);
-            }
-
-            if ($packReloadHint.length) {
-                $packReloadHint
-                    .text(strings.wp_language_pack_reload_hint || '')
-                    .prop('hidden', !(strings.wp_language_pack_reload_hint || ''));
-            }
-
+            // Install success triggers an automatic page reload — no second Refresh button.
+            $panel.prop('hidden', true);
             settings.languagePack = pack;
             return;
         }
@@ -407,14 +436,6 @@
             $manual
                 .text(strings.wp_language_pack_manual_hint || '')
                 .prop('hidden', !needsNotice || !!pack.can_install);
-        }
-
-        if ($packReload.length) {
-            $packReload.prop('hidden', true);
-        }
-
-        if ($packReloadHint.length) {
-            $packReloadHint.prop('hidden', true).text('');
         }
 
         $panel.prop('hidden', !needsNotice);
@@ -456,14 +477,15 @@
     function showLoader(locale) {
         localeProgress.start(locale);
 
-        updateReloadButton(locale);
         updatePageCopy(locale);
         updateSelectLabels(locale);
         updateLicensePanel(locale);
         updateProfileNotice(locale);
         updateLanguagePackNotice(locale);
         $select.addClass('is-saving');
-        $reloadButton.removeClass('is-visible');
+        if ($profileRefreshButton.length) {
+            $profileRefreshButton.removeClass('is-emphasized');
+        }
     }
 
     function hideLoader(locale, finalPercent) {
@@ -471,8 +493,12 @@
         $select.removeClass('is-saving');
     }
 
-    function showReloadButton() {
-        $reloadButton.addClass('is-visible');
+    function emphasizeProfileRefresh() {
+        if (!$profileRefreshButton.length) {
+            return;
+        }
+
+        $profileRefreshButton.addClass('is-emphasized');
     }
 
     function broadcastLocaleChange(payload) {
@@ -556,7 +582,6 @@
         }
 
         savedLocale = $select.val();
-        updateReloadButton(savedLocale);
         updatePageCopy(savedLocale);
         updateSelectLabels(savedLocale);
         updateLicensePanel(savedLocale);
@@ -573,7 +598,7 @@
 
         setStatus(statusMessage, 'success');
         broadcastLocaleChange(response.data || {});
-        showReloadButton();
+        emphasizeProfileRefresh();
     }
 
     function handleSaveSuccess(response, locale) {
@@ -599,8 +624,8 @@
         updateSelectLabels(savedLocale);
     }
 
-    if ($reloadButton.length) {
-        $reloadButton.on('click', function (event) {
+    if ($profileRefreshButton.length) {
+        $profileRefreshButton.on('click', function (event) {
             event.preventDefault();
             broadcastLocaleChange({ forceReload: true });
             forceReloadPage();
@@ -664,13 +689,13 @@
                         message = response.data.message;
                     }
 
-                    if (strings.wp_language_pack_reload_hint) {
-                        message = message + ' ' + strings.wp_language_pack_reload_hint;
-                    }
-
-                    updateReloadButton(locale);
-                    showReloadButton();
                     setStatus(message, 'success');
+
+                    // Same effect as the selector "Refresh" button — reload once pack is in.
+                    window.setTimeout(function () {
+                        broadcastLocaleChange({ forceReload: true, languagePackInstalled: true });
+                        forceReloadPage();
+                    }, 700);
                 }, 350);
             })
             .fail(function (xhr) {
@@ -693,14 +718,7 @@
             });
     });
 
-    $('#breakdance-languages-wp-language-pack-reload').on('click', function (event) {
-        event.preventDefault();
-        broadcastLocaleChange({ forceReload: true, languagePackInstalled: true });
-        forceReloadPage();
-    });
-
     if ($select.length) {
-        updateReloadButton(savedLocale);
         updatePageCopy(savedLocale);
         updateSelectLabels(savedLocale);
         updateLicensePanel(savedLocale);
@@ -718,6 +736,12 @@
         if (locale === savedLocale) {
             return;
         }
+
+        // Preview copy (eyebrow, tips, upsell) in the selected language immediately.
+        updatePageCopy(locale);
+        updateSelectLabels(locale);
+        updateLicensePanel(locale);
+        updateProfileNotice(locale);
 
         saveLocale(locale)
             .done(function (response) {

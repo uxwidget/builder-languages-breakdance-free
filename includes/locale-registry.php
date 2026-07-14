@@ -15,6 +15,24 @@ if (!defined('ABSPATH')) {
 }
 
 /**
+ * Absolute path to the locale registry JSON for this edition.
+ *
+ * Free uses config/pt-es.json (not Pro's supported-locales.json), so dropping
+ * the Pro registry file into config/ has no effect without changing PHP.
+ */
+function breakdance_languages_locale_registry_path(): string
+{
+    if (
+        function_exists('breakdance_languages_is_free_edition')
+        && breakdance_languages_is_free_edition()
+    ) {
+        return BREAKDANCE_LANGUAGES_PATH . 'config/pt-es.json';
+    }
+
+    return BREAKDANCE_LANGUAGES_PATH . 'config/supported-locales.json';
+}
+
+/**
  * @return array<string, mixed>
  */
 function breakdance_languages_get_locale_registry(): array
@@ -25,7 +43,7 @@ function breakdance_languages_get_locale_registry(): array
         return $registry;
     }
 
-    $path = BREAKDANCE_LANGUAGES_PATH . 'config/supported-locales.json';
+    $path = breakdance_languages_locale_registry_path();
 
     if (!is_readable($path)) {
         $registry = [];

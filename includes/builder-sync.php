@@ -377,6 +377,9 @@ function breakdance_languages_enqueue_settings_assets(string $hook_suffix): void
             'storageKey' => BREAKDANCE_LANGUAGES_STORAGE_KEY,
             'autoLocale' => BREAKDANCE_LANGUAGES_AUTO_LOCALE,
             'isLicensed' => breakdance_languages_is_licensed(),
+            'isFreeEdition' => function_exists('breakdance_languages_is_free_edition')
+                && breakdance_languages_is_free_edition(),
+            'checkoutUrl' => breakdance_languages_checkout_url(),
             'hasRealLicense' => breakdance_languages_freemius_has_active_license()
                 && !breakdance_languages_is_freemius_dev_bypass_active(),
             'isDevBypass' => breakdance_languages_is_freemius_dev_bypass_active(),

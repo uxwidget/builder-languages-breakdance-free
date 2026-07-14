@@ -18,7 +18,31 @@ add_action('admin_menu', 'breakdance_languages_register_freemius_menu_placeholde
 add_action('admin_menu', 'breakdance_languages_ensure_freemius_admin_pages_registered', 999999990);
 add_action('admin_menu', 'breakdance_languages_fix_freemius_submenu_titles', PHP_INT_MAX);
 add_action('admin_init', 'breakdance_languages_fix_freemius_submenu_titles', 0);
-add_action('admin_init', 'breakdance_languages_set_freemius_admin_title', 1);
+add_action('admin_init', 'breakdance_languages_redirect_freemius_pricing_to_lp', 1);
+
+/**
+ * Free edition: Freemius pricing/admin upgrade always goes to the branded LP.
+ * Avoids Freemius table (ALL CAPS + fake $/mo equivalents of annual plans).
+ */
+function breakdance_languages_redirect_freemius_pricing_to_lp(): void
+{
+    if (!function_exists('breakdance_languages_is_free_edition') || !breakdance_languages_is_free_edition()) {
+        return;
+    }
+
+    if (!is_admin() || !current_user_can('manage_options')) {
+        return;
+    }
+
+    $page = isset($_GET['page']) ? sanitize_text_field(wp_unslash((string) $_GET['page'])) : '';
+
+    if ($page !== 'breakdance-languages-pricing') {
+        return;
+    }
+
+    wp_safe_redirect('https://uxwidget.com/builder-languages-breakdance/#pricing');
+    exit;
+}
 
 /**
  * Whether Freemius admin pages should be registered for this request.
@@ -72,8 +96,16 @@ function breakdance_languages_ensure_freemius_admin_pages_registered(): void
         );
     }
 
+    // Freemius Upgrade/Pricing page (e.g. page=breakdance-languages-pricing).
+    // Must stay registered or WP dies with "not allowed to access this page".
+    breakdance_languages_register_freemius_admin_page(
+        'breakdance-languages-pricing',
+        __('Upgrade', 'breakdance-languages')
+    );
+
     breakdance_languages_attach_freemius_title_hooks('breakdance-languages');
     breakdance_languages_attach_freemius_title_hooks('breakdance-languages-account');
+    breakdance_languages_attach_freemius_title_hooks('breakdance-languages-pricing');
 }
 
 /**
@@ -166,9 +198,9 @@ function breakdance_languages_hide_freemius_license_submenu_css(): void
     }
 
     echo '<style id="breakdance-languages-hide-freemius-menu">';
-    echo '#toplevel_page_breakdance .wp-submenu a[href*="page=breakdance-languages"]:not([href*="settings"])';
+    echo '#toplevel_page_breakdance .wp-submenu a[href*="page=breakdance-languages"]:not([href*="settings"]):not([href*="pricing"])';
     echo ',#toplevel_page_breakdance .wp-submenu a[href*="page=breakdance-languages-account"]';
-    echo ',#toplevel_page_oxygen .wp-submenu a[href*="page=breakdance-languages"]:not([href*="settings"])';
+    echo ',#toplevel_page_oxygen .wp-submenu a[href*="page=breakdance-languages"]:not([href*="settings"]):not([href*="pricing"])';
     echo ',#toplevel_page_oxygen .wp-submenu a[href*="page=breakdance-languages-account"]';
     echo '{display:none!important;}';
     echo '</style>';
@@ -204,6 +236,7 @@ function breakdance_languages_fix_freemius_submenu_titles(): void
     $known_titles = [
         'breakdance-languages' => __('License', 'breakdance-languages'),
         'breakdance-languages-account' => __('Account', 'breakdance-languages'),
+        'breakdance-languages-pricing' => __('Upgrade', 'breakdance-languages'),
     ];
 
     foreach ($submenu as $parent => $items) {
@@ -254,6 +287,8 @@ function breakdance_languages_set_freemius_admin_title(): void
 
     if ($page === 'breakdance-languages-account') {
         $title = __('Account', 'breakdance-languages');
+    } elseif ($page === 'breakdance-languages-pricing') {
+        $title = __('Upgrade', 'breakdance-languages');
     } else {
         $title = __('License', 'breakdance-languages');
     }
@@ -270,11 +305,15 @@ function breakdance_languages_is_freemius_admin_page(): bool
 
     $page = isset($_GET['page']) ? sanitize_text_field(wp_unslash((string) $_GET['page'])) : '';
 
-    return in_array($page, ['breakdance-languages', 'breakdance-languages-account'], true);
+    return in_array($page, [
+        'breakdance-languages',
+        'breakdance-languages-account',
+        'breakdance-languages-pricing',
+    ], true);
 }
 
 /**
- * Render Freemius activation/account screens when Freemius did not override the hook.
+ * Render Freemius activation/account/pricing screens when Freemius did not override the hook.
  */
 function breakdance_languages_render_freemius_admin_page(): void
 {
@@ -288,6 +327,20 @@ function breakdance_languages_render_freemius_admin_page(): void
 
     if ($freemius === null) {
         wp_die(esc_html__('Freemius is not configured.', 'breakdance-languages'));
+    }
+
+    $page = isset($_GET['page']) ? sanitize_text_field(wp_unslash((string) $_GET['page'])) : '';
+
+    if ($page === 'breakdance-languages-pricing' && method_exists($freemius, '_pricing_page_render')) {
+        // Free edition: never show Freemius' all-caps /mo pricing table.
+        if (function_exists('breakdance_languages_is_free_edition') && breakdance_languages_is_free_edition()) {
+            wp_safe_redirect('https://uxwidget.com/builder-languages-breakdance/#pricing');
+            exit;
+        }
+
+        $freemius->_pricing_page_render();
+
+        return;
     }
 
     if (

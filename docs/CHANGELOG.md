@@ -1,5 +1,13 @@
 # Builder Languages for Breakdance — Changelog
 
+## 0.2.0 (Free)
+
+- **Free edition:** ships only **Portuguese (Brazil)** and **Spanish (Spain)** catalogues (hard-split ZIP).
+- Freemius: `is_premium_only` disabled on Free build; settings unlock without paid license.
+- License panel: status Free + Upgrade to Pro CTA.
+- Native English (`en_US`) remains selectable to reset Breakdance to American English.
+- Upsell: admin bar CTA + banner (Languages / Dashboard / Plugins / Breakdance). Sem dismiss — CTA sempre visível.
+
 ## 0.1.14
 
 - Restaura **English (United States)** no seletor: volta ao inglês nativo do Breakdance (sem interceptar packs).

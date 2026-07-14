@@ -7,7 +7,8 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-REGISTRY_PATH = ROOT / "config" / "supported-locales.json"
+# Free edition registry (Pro keeps config/supported-locales.json).
+REGISTRY_PATH = ROOT / "config" / "pt-es.json"
 
 
 def load_registry() -> dict:

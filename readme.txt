@@ -1,49 +1,56 @@
 === Builder Languages for Breakdance ===
 Contributors: uxwidget
 Donate link: https://uxwidget.com/builder-languages-breakdance
-Tags: breakdance, translation, i18n, languages, localization
+Tags: breakdance, translation, i18n, languages, localization, spanish, portuguese
 Requires at least: 6.0
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 0.1.14
+Stable tag: 0.2.12
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Translate the Breakdance Builder, admin screens, and first-party elements into 17 languages — without editing Breakdance core files.
+Translate the Breakdance Builder into Spanish (es_ES) and Portuguese (pt_BR). Requires Breakdance Builder.
 
 == Description ==
 
-Builder Languages for Breakdance adds professional language packs for the Breakdance Builder interface, Breakdance admin screens, and first-party Breakdance Elements.
+Translate the Breakdance Builder interface instantly into **Spanish (es_ES)** and **Portuguese (pt_BR)**. Give your local clients a native dashboard, eliminate support tickets, and deliver a truly professional website.
 
-American English (en_US) stays native to Breakdance. This plugin ships English International (en_GB) plus additional product locales — without editing Breakdance core files.
+**Requires:** Breakdance Builder.
 
-Requires an active Breakdance Builder install and a valid license (Freemius).
+= Upgrade to PRO for 17 languages & multi-site agencies =
 
-= Features =
+Do you build websites for clients all over the world? [**Upgrade Now**](https://uxwidget.com/builder-languages-breakdance/) on the product page / Breakdance Marketplace to unlock:
 
-* Builder UI translations
-* Admin / PHP translations
-* Breakdance Elements translations
-* Form Builder related strings
-* RTL support (Arabic / Hebrew)
-* Per-user language via Breakdance → Languages
+* **17 languages:** German (de_DE), French, Italian, Polish, Russian, Japanese, Hindi, Mandarin (Simplified Chinese), Korean, Arabic, Hebrew, British English (en_GB), Dutch, Portuguese (Portugal) and Latin American Spanish (es_LA)
+* **Agency licenses:** 5, 20, or up to 50 sites via Freemius
+* Updates and priority support for the subscription period
 
-= Included languages =
+**Free includes**
 
-Portuguese (Brazil and Portugal), Italian, French, German, Spanish (Spain and Latin America), Dutch, Polish, Russian, Arabic, Hebrew, Hindi, Japanese, Korean, Simplified Chinese, and English International (en_GB).
+* Spanish (Spain) — `es_ES`
+* Portuguese (Brazil) — `pt_BR`
+* Native American English reset (`en_US`)
 
 == Installation ==
 
-1. Purchase and download the plugin ZIP from your Freemius account.
-2. In WordPress go to Plugins → Add New → Upload Plugin.
+1. Install from WordPress.org, or download the Free ZIP from https://uxwidget.com/builder-languages-breakdance/
+2. In WordPress go to Plugins → Add New → Upload Plugin (if using ZIP).
 3. Activate **Builder Languages for Breakdance**.
-4. Open **Breakdance → Languages**, enter your license key if prompted, and choose a language.
+4. Open **Breakdance → Languages** and choose Portuguese (Brazil) or Spanish (Spain).
 
 == Frequently Asked Questions ==
 
 = Does this translate my site content? =
 
 No. It translates the Breakdance Builder/admin interface and related first-party strings, not page content. Use WPML, Polylang, TranslatePress, or Weglot for content.
+
+= Which languages are free? =
+
+Portuguese (Brazil) and Spanish (Spain). All other product languages require Pro.
+
+= Where do I get Pro? =
+
+https://uxwidget.com/builder-languages-breakdance/
 
 = Do I need Breakdance? =
 
@@ -55,31 +62,22 @@ No. Developed by UX Widget as an independent companion product.
 
 == Changelog ==
 
+= 0.2.12 =
+* Dark settings panel (amber brand) with Free ribbon and upsell tip.
+* Admin promo banner: Pro pitch, half-width layout, left amber bar.
+* Localized settings UI strings (EN / PT / ES) follow builder language selector.
+* License card copy: Free includes only PT-BR and ES-ES.
+
+= 0.2.0 =
+* Free edition: Portuguese (Brazil) and Spanish (Spain) only.
+* Upgrade CTA: admin bar, banner, Plugins list link + Pro pitch.
+* Freemius freemium-ready build.
+
 = 0.1.14 =
 * English (United States) available again as native Breakdance English.
 * Fix Post Title / Archive Title / HTML IMG element names across major locales.
-* Translated builder reload notice and Arabic panel leftovers.
-
-= 0.1.13 =
-* Builder reload notice translated for all product locales.
-* Design Library UI maps expanded (FR, DE, ES, ES-LA, AR).
-* Arabic Post Title / Archive Title and dynamic Post fields fixed.
-
-= 0.1.12 =
-* Freemius license flow improvements for Languages settings.
-* Commercial packaging and licensing hardening.
-* Valid SemVer version for Freemius deploy (replaces ux-0.1.12 tag).
-
-= 0.1.11 =
-* Commercial ZIP packaging and license mitigations.
 
 == Upgrade Notice ==
 
-= 0.1.14 =
-Recommended: restore American English option and fix Post Title/HTML IMG labels.
-
-= 0.1.13 =
-Recommended update: translated reload notice, Design Library and Arabic dynamic labels.
-
-= 0.1.12 =
-Recommended update for Freemius license activation and Languages settings.
+= 0.2.12 =
+Free build with pt_BR + es_ES. Upgrade to Pro for 17 languages.

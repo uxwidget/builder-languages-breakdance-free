@@ -55,7 +55,7 @@ def plugin_version() -> str:
 
 
 def locale_count() -> int:
-    registry = ROOT / "config" / "supported-locales.json"
+    registry = ROOT / "config" / "pt-es.json"
     if not registry.is_file():
         return 0
     data = json.loads(registry.read_text(encoding="utf-8"))

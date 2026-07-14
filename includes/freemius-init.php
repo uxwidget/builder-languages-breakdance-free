@@ -470,12 +470,15 @@ if (!function_exists('breakdance_languages_fs')) {
             // Live licenses ("Create License" in live dashboard) need is_live true and DEV_MODE off.
             $use_sandbox_api = breakdance_languages_freemius_local_dev_env();
 
+            $is_free_edition = defined('BREAKDANCE_LANGUAGES_IS_FREE') && BREAKDANCE_LANGUAGES_IS_FREE;
+
             $breakdance_languages_fs = fs_dynamic_init([
                 'id' => (string) BREAKDANCE_LANGUAGES_FREEMIUS_ID,
                 'slug' => 'breakdance-languages',
                 'type' => 'plugin',
                 'public_key' => (string) BREAKDANCE_LANGUAGES_FREEMIUS_PUBLIC_KEY,
-                'is_premium_only' => true,
+                // Free ZIP build: not premium-only. Paid ZIP still ships has_premium_version.
+                'is_premium_only' => !$is_free_edition,
                 'has_premium_version' => true,
                 'has_paid_plans' => true,
                 'menu' => [
@@ -485,6 +488,7 @@ if (!function_exists('breakdance_languages_fs')) {
                     ],
                     'first-path' => 'admin.php?page=breakdance-languages',
                     'account' => true,
+                    'pricing' => true,
                     'contact' => false,
                     'support' => false,
                 ],
@@ -604,6 +608,10 @@ if (!function_exists('breakdance_languages_fs')) {
         $freemius->add_filter('after_pending_connect_url', 'breakdance_languages_fs_settings_url');
         $freemius->add_filter('plugin_title', 'breakdance_languages_fs_plugin_title');
         $freemius->add_filter('connect-message_on-premium', 'breakdance_languages_fs_connect_message_premium', 10, 3);
+        $freemius->add_filter('show_admin_notice', 'breakdance_languages_fs_hide_optin_nag_when_breakdance_active', 10, 2);
+        $freemius->add_filter('checkout_url', 'breakdance_languages_fs_checkout_url_for_free_edition');
+        $freemius->add_filter('pricing_url', 'breakdance_languages_fs_checkout_url_for_free_edition');
+        $freemius->add_filter('upgrade_url', 'breakdance_languages_fs_checkout_url_for_free_edition');
         $freemius->add_action('connect/after', 'breakdance_languages_fs_connect_styles');
         // Premium-only: skip Freemius deactivation survey (Anonymous feedback / Skip & Deactivate).
         $freemius->add_filter('show_deactivation_feedback_form', '__return_false');
@@ -611,6 +619,85 @@ if (!function_exists('breakdance_languages_fs')) {
         $freemius->add_filter('license_key_maxlength', static function (): int {
             return 64;
         });
+
+        // Drop an already-stored sticky opt-in nag if Breakdance is active.
+        breakdance_languages_fs_dismiss_optin_sticky_if_breakdance_active($freemius);
+    }
+
+    /**
+     * Free edition: Freemius upgrade/checkout links use the LP (annual plans, normal casing).
+     *
+     * @param string $url
+     */
+    function breakdance_languages_fs_checkout_url_for_free_edition($url): string
+    {
+        if (function_exists('breakdance_languages_is_free_edition') && breakdance_languages_is_free_edition()) {
+            return 'https://uxwidget.com/builder-languages-breakdance/#pricing';
+        }
+
+        return is_string($url) ? $url : 'https://uxwidget.com/builder-languages-breakdance/#pricing';
+    }
+
+    /**
+     * Hide Freemius "Opt in to make … better" sticky when Breakdance is already active.
+     * That nag confuses users (names the wrong product / implies Breakdance must be opted into).
+     *
+     * @param bool               $show
+     * @param array<string,mixed>|string $msg
+     */
+    function breakdance_languages_fs_hide_optin_nag_when_breakdance_active($show, $msg): bool
+    {
+        if (!$show) {
+            return false;
+        }
+
+        if (!function_exists('breakdance_languages_is_breakdance_active') || !breakdance_languages_is_breakdance_active()) {
+            return (bool) $show;
+        }
+
+        $id = '';
+        $message = '';
+
+        if (is_array($msg)) {
+            $id = isset($msg['id']) ? (string) $msg['id'] : '';
+            $message = isset($msg['message']) ? wp_strip_all_tags((string) $msg['message']) : '';
+        } elseif (is_string($msg)) {
+            $message = wp_strip_all_tags($msg);
+        }
+
+        if ($id === 'connect_account') {
+            return false;
+        }
+
+        if (
+            $message !== ''
+            && (
+                stripos($message, 'Opt in to make') !== false
+                || stripos($message, 'few tweaks to the') !== false
+            )
+        ) {
+            return false;
+        }
+
+        return (bool) $show;
+    }
+
+    /**
+     * @param \Freemius $freemius
+     */
+    function breakdance_languages_fs_dismiss_optin_sticky_if_breakdance_active($freemius): void
+    {
+        if (!function_exists('breakdance_languages_is_breakdance_active') || !breakdance_languages_is_breakdance_active()) {
+            return;
+        }
+
+        if (!is_object($freemius)) {
+            return;
+        }
+
+        if (method_exists($freemius, 'remove_sticky')) {
+            $freemius->remove_sticky('connect_account');
+        }
     }
 
     /**

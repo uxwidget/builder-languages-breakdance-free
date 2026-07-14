@@ -15,6 +15,42 @@ if (!defined('ABSPATH')) {
 }
 
 /**
+ * Whether this install is the Free distribution (pt_BR + es_ES catalogues only).
+ */
+function breakdance_languages_is_free_edition(): bool
+{
+    return defined('BREAKDANCE_LANGUAGES_IS_FREE') && BREAKDANCE_LANGUAGES_IS_FREE;
+}
+
+/**
+ * Hardcoded Free locale allowlist (not driven by JSON or filters).
+ *
+ * @return list<string>
+ */
+function breakdance_languages_free_locale_allowlist(): array
+{
+    return ['en_US', 'pt_BR', 'es_ES'];
+}
+
+/**
+ * Whether a locale may load/save under the current edition.
+ *
+ * Free always clamps to {@see breakdance_languages_free_locale_allowlist()}.
+ */
+function breakdance_languages_is_locale_allowed_for_edition(string $locale): bool
+{
+    if ($locale === '') {
+        return false;
+    }
+
+    if (!breakdance_languages_is_free_edition()) {
+        return true;
+    }
+
+    return in_array($locale, breakdance_languages_free_locale_allowlist(), true);
+}
+
+/**
  * Whether Freemius credentials and SDK are present.
  */
 function breakdance_languages_freemius_is_configured(): bool
@@ -137,11 +173,16 @@ function breakdance_languages_freemius_has_active_license(): bool
 /**
  * Whether the current install has an active license.
  *
+ * Free edition always unlocks the shipped locales (hard-split ZIP).
  * Dev builds without Freemius config are treated as licensed.
  * Local dev with WP_FS__DEV_MODE + secret key also unlocks premium features.
  */
 function breakdance_languages_is_licensed(): bool
 {
+    if (breakdance_languages_is_free_edition()) {
+        return true;
+    }
+
     if (breakdance_languages_is_freemius_dev_bypass_active()) {
         return true;
     }
@@ -157,6 +198,10 @@ function breakdance_languages_is_licensed(): bool
  */
 function breakdance_languages_can_apply_translations(): bool
 {
+    if (breakdance_languages_is_free_edition()) {
+        return true;
+    }
+
     if (breakdance_languages_is_licensed()) {
         return true;
     }
@@ -235,7 +280,17 @@ function breakdance_languages_runtime_locale_codes(): array
         return [];
     }
 
-    return breakdance_languages_supported_locale_codes();
+    $codes = breakdance_languages_supported_locale_codes();
+
+    if (
+        function_exists('breakdance_languages_is_free_edition')
+        && breakdance_languages_is_free_edition()
+        && function_exists('breakdance_languages_free_locale_allowlist')
+    ) {
+        return breakdance_languages_free_locale_allowlist();
+    }
+
+    return $codes;
 }
 
 /**
@@ -247,6 +302,14 @@ function breakdance_languages_plan_locale_codes(): array
 {
     if (!breakdance_languages_is_licensed()) {
         return [];
+    }
+
+    if (
+        function_exists('breakdance_languages_is_free_edition')
+        && breakdance_languages_is_free_edition()
+        && function_exists('breakdance_languages_free_locale_allowlist')
+    ) {
+        return breakdance_languages_free_locale_allowlist();
     }
 
     return breakdance_languages_supported_locale_codes();
@@ -312,16 +375,23 @@ function breakdance_languages_license_manage_url(): string
 
 /**
  * Pricing / checkout URL.
+ *
+ * Free edition: send buyers to the branded LP pricing (dark cards), not the
+ * default Freemius admin pricing table.
  */
 function breakdance_languages_checkout_url(): string
 {
+    if (function_exists('breakdance_languages_is_free_edition') && breakdance_languages_is_free_edition()) {
+        return 'https://uxwidget.com/builder-languages-breakdance/#pricing';
+    }
+
     $freemius = breakdance_languages_fs();
 
     if ($freemius !== null && method_exists($freemius, 'get_upgrade_url')) {
         return (string) $freemius->get_upgrade_url();
     }
 
-    return breakdance_languages_purchase_url();
+    return breakdance_languages_purchase_url() . '/#pricing';
 }
 
 /**
@@ -380,6 +450,19 @@ function breakdance_languages_is_freemius_sandbox_environment(): bool
  */
 function breakdance_languages_get_license_panel_context(): array
 {
+    if (breakdance_languages_is_free_edition()) {
+        return [
+            'status' => 'free',
+            'show_buy' => true,
+            'account_url' => breakdance_languages_license_manage_url(),
+            'checkout_url' => breakdance_languages_checkout_url(),
+            'environment_key' => breakdance_languages_is_freemius_dev_bypass_active()
+                ? 'license_environment_dev'
+                : null,
+            'show_environment' => breakdance_languages_is_freemius_dev_bypass_active(),
+        ];
+    }
+
     if (!breakdance_languages_freemius_is_configured()) {
         $status = 'dev';
     } elseif (breakdance_languages_is_freemius_dev_bypass_active()) {
