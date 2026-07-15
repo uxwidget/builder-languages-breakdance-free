@@ -32,15 +32,6 @@ Pro unlocks **17 languages** (including `pt_PT`, `it_IT`, `fr_FR`, `de_DE`, `es_
 4. Open **Breakdance → Languages** and choose Portuguese (Brazil) or Spanish (Spain).
 5. Reload the Breakdance Builder (`Ctrl+Shift+R`) after changing language.
 
-## How it works (short)
-
-- Builder JS strings: filter `breakdance_i18n_json` + `languages/breakdance-{locale}.json` / `breakdance-elements-{locale}.json`
-- Breakdance admin/PHP: gettext `breakdance` domain via `.mo`
-- Elements: `breakdance-elements` domain
-- Locale aliases: `translation-fallbacks.json`
-
-Settings and diagnostics: **Breakdance → Languages**.
-
 ## License
 
 GPLv2 or later — see `LICENSE.md` / `readme.txt`.
